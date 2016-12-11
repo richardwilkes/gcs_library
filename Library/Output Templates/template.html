@@ -67,8 +67,8 @@ by the Mozilla Public License, version 2.0.
         	#spells, #melee_weapons, #ranged_weapons, #equipment, #notes, #copyright { width: 540pt; }
         	
         	.list td { border: 1pt solid black; }
-        	.odd { background-color: #FFF; }
-        	.even { background-color: #E8FFE8; }
+        	.list tr:nth-child(odd) { background-color: #E8FFE8; }
+        	.list tr:nth-child(even) { background-color: #FFF; }
         	#encumbrance_move_dodge td, #hit_location td, #description td.label { border-left: 1pt solid black; }
         	#copyright {
         		color: gray;
@@ -522,7 +522,7 @@ by the Mozilla Public License, version 2.0.
 							<td class="title">Ref</td>
 						</tr>
 						@ADVANTAGES_LOOP_START
-						<tr class="@EVEN_ODD">
+						<tr>
 							<td class="description" @STYLE_INDENT_WARNING>@DESCRIPTION</td>
 							<td class="points">@POINTS</td>
 							<td class="ref">@REF</td>
@@ -541,7 +541,7 @@ by the Mozilla Public License, version 2.0.
 							<td class="title">Ref</td>
 						</tr>
 						@SKILLS_LOOP_START
-						<tr class="@EVEN_ODD">
+						<tr>
 							<td class="description" @STYLE_INDENT_WARNING>@DESCRIPTION</td>
 							<td class="skill_level">@SL</td>
 							<td class="relative_skill_level">@RSL</td>
@@ -565,7 +565,7 @@ by the Mozilla Public License, version 2.0.
                 <td class="title">Ref</td>
             </tr>
             @SPELLS_LOOP_START
-            <tr class="@EVEN_ODD">
+            <tr>
 				<td class="description" @STYLE_INDENT_WARNING>@DESCRIPTION</td>
                 <td class="spell_class">@CLASS
                 	<div class="secondary">@COLLEGE</div></td>
@@ -592,7 +592,7 @@ by the Mozilla Public License, version 2.0.
                 <td class="title">ST</td>
             </tr>
             @MELEE_LOOP_START
-            <tr class="@EVEN_ODD">
+            <tr>
                 <td class="description">@DESCRIPTION</td>
                 <td class="usage">@USAGE</td>
                 <td class="level">@LEVEL</td>
@@ -619,7 +619,7 @@ by the Mozilla Public License, version 2.0.
                 <td class="title">ST</td>
             </tr>
             @RANGED_LOOP_START
-            <tr class="@EVEN_ODD">
+            <tr>
                 <td class="description">@DESCRIPTION</td>
                 <td class="usage">@USAGE</td>
                 <td class="level">@LEVEL</td>
@@ -646,7 +646,7 @@ by the Mozilla Public License, version 2.0.
                 <td class="title">Ref</td>
             </tr>
             @EQUIPMENT_LOOP_START
-            <tr class="@EVEN_ODD">
+            <tr>
 				<td class="description" @STYLE_INDENT_WARNING>@DESCRIPTION</td>
                 <td class="state">@STATE</td>
                 <td class="quantity">@QTY</td>
@@ -663,7 +663,7 @@ by the Mozilla Public License, version 2.0.
                 <td class="title">Notes</td>
             </tr>
             @NOTES_LOOP_START
-            <tr class="@EVEN_ODD">
+            <tr>
                 <td class="description">@NOTE</td>
             </tr>
             @NOTES_LOOP_END
