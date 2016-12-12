@@ -115,7 +115,7 @@ by the Mozilla Public License, version 2.0.
         		background-color: inherit;
         	}
         	
-        	.encumbrance
+        	.current
         	{
         		background-color: #FCF2C4;
         		color: inherit;
@@ -363,7 +363,7 @@ by the Mozilla Public License, version 2.0.
 							<td class="title">Dodge</td>
 						</tr>
 						@ENCUMBRANCE_LOOP_START
-						<tr @CURRENT_MARKER>
+						<tr class="@CURRENT_MARKER">
 							<td class="label">@LEVEL</td>
 							<td class="rvalue">@MAX_LOAD</td>
 							<td class="rvalue">@MOVE</td>
