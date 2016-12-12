@@ -278,6 +278,143 @@
 		<type>Physical, Exotic</type>
 		<levels>1</levels>
 		<points_per_level>10</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Advantage; one point per level</name>
+			<cost type="percentage">10</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Atribute Penalty; -1 to ST or HT per level</name>
+			<cost type="percentage">5</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Atribute Penalty; -1 to DX or IQ per level</name>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Mortal Condition; Coma</name>
+			<cost type="percentage">250</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Mortal Condition; Heart Attack</name>
+			<cost type="percentage">300</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Disadvantage; one point per level</name>
+			<cost type="percentage">1</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Daze</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Hallucination</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Retching</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Agony</name>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Choking</name>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Ecstasy</name>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Seizure</name>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Paralysis</name>
+			<cost type="percentage">150</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Sleep</name>
+			<cost type="percentage">150</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Incapacitating Condition; Unconsciousness</name>
+			<cost type="percentage">200</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Tipsy</name>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Coughing</name>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Drunk</name>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Moderate Pain</name>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Euphoria</name>
+			<cost type="percentage">30</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Nauseated</name>
+			<cost type="percentage">30</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Severe Pain</name>
+			<cost type="percentage">40</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Irritating Condition; Terrible Pain</name>
+			<cost type="percentage">60</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Negated Advantage; one point per level</name>
+			<cost type="percentage">1</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Stunning</name>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cumulative</name>
+			<cost type="percentage">400</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B35</reference>
 		<categories>
 			<category>Advantage</category>
