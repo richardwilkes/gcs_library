@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="44c5b44c-d505-455b-bdd6-38ff343240d8" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no">
-			<name>Necromancer</name>
-			<reference>DF9:13</reference>
-			<advantage_container version="2" open="no">
+		<advantage_container version="2" open="yes">
+			<name>Gray Necromancer</name>
+			<reference>PY50:9</reference>
+			<advantage_container version="2" open="yes">
 				<name>Advantages</name>
-				<advantage_container version="2" open="yes">
-					<name>20 Points of Necromantic Powers</name>
+				<advantage_container version="2" open="no">
+					<name>14 Points of Necromantic Powers</name>
 					<advantage version="2">
 						<name>Ally (Bound lesser ghost)</name>
 						<type>Social</type>
@@ -1305,7 +1305,7 @@
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="2" open="no">
 					<name>35 points from these or more necromantic abilities</name>
 					<advantage version="2">
 						<name>Autotrance</name>
@@ -1370,10 +1370,10 @@
 						</skill_bonus>
 					</advantage>
 					<advantage version="2">
-						<name>Deathliness</name>
+						<name>Deathliness (Gray)</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
-						<points_per_level>8</points_per_level>
+						<points_per_level>10</points_per_level>
 						<modifier version="1" enabled="no">
 							<name>Dance</name>
 							<cost type="percentage">-40</cost>
@@ -1415,12 +1415,16 @@
 							<cost type="percentage">-40</cost>
 							<affects>levels only</affects>
 						</modifier>
-						<reference>DF9:15</reference>
+						<reference>PY50:9</reference>
 						<categories>
 							<category>Advantage</category>
 						</categories>
 						<spell_bonus>
 							<college_name compare="is">Deathly</college_name>
+							<amount per_level="yes">1</amount>
+						</spell_bonus>
+						<spell_bonus>
+							<college_name compare="is">Deathly (Gray)</college_name>
 							<amount per_level="yes">1</amount>
 						</spell_bonus>
 					</advantage>
@@ -1926,10 +1930,10 @@
 					</advantage>
 				</advantage_container>
 				<advantage version="2">
-					<name>Deathliness</name>
+					<name>Deathliness (Gray)</name>
 					<type>Mental, Supernatural</type>
 					<levels>3</levels>
-					<points_per_level>8</points_per_level>
+					<points_per_level>10</points_per_level>
 					<modifier version="1" enabled="no">
 						<name>Dance</name>
 						<cost type="percentage">-40</cost>
@@ -1971,12 +1975,16 @@
 						<cost type="percentage">-40</cost>
 						<affects>levels only</affects>
 					</modifier>
-					<reference>DF9:15</reference>
+					<reference>PY50:9</reference>
 					<categories>
 						<category>Advantage</category>
 					</categories>
 					<spell_bonus>
 						<college_name compare="is">Deathly</college_name>
+						<amount per_level="yes">1</amount>
+					</spell_bonus>
+					<spell_bonus>
+						<college_name compare="is">Deathly (Gray)</college_name>
 						<amount per_level="yes">1</amount>
 					</spell_bonus>
 				</advantage>
@@ -2013,7 +2021,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="2" open="no">
 				<name>Attributes</name>
 				<advantage version="2">
 					<name>Increased Dexterity</name>
@@ -2066,7 +2074,7 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="2" open="no">
 				<name>Secondary Characteristics</name>
 				<advantage version="2">
 					<name>Decreased Perception</name>
@@ -2099,7 +2107,7 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="2" open="no">
 				<name>Disadvantages</name>
 				<advantage_container version="2" open="yes">
 					<name>-20 Points From</name>
@@ -2740,7 +2748,7 @@
 		<skill_container version="2" open="no">
 			<name>Necromancer</name>
 			<reference>DF9:13</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="2" open="yes">
 				<name>Primary Skills</name>
 				<skill version="2">
 					<name>Expert Skill</name>
@@ -2778,7 +2786,7 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="2" open="yes">
 				<name>Secondary Skills and Techniques</name>
 				<skill version="2">
 					<name>Stealth</name>
@@ -3497,6 +3505,1531 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
+		<spell_container version="2" open="no">
+			<name>Gray Deathly Spells</name>
+			<reference>PY50:10</reference>
+			<categories>
+				<category>Deathly</category>
+			</categories>
+			<spell version="2" very_hard="yes">
+				<name>Age</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>10 per year of aging</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 min</casting_time>
+				<duration>Permanent</duration>
+				<reference>M154</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<college compare="contains">Deathly</college>
+						<quantity compare="at least">6</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Agonize</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>8</casting_cost>
+				<maintenance_cost>6</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M40</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (body control)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">sensitize</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Animate Shadow</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>4</casting_cost>
+				<maintenance_cost>4</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>5 sec</duration>
+				<reference>M154</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">skull-spirit</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="contains">command spirit</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Astral Block</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>10 min</duration>
+				<reference>M159</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">repel spirits</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">summon spirit</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Aura</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Info</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M101</reference>
+				<categories>
+					<category>Knowledge</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">detect magic</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Bind Spirit (@Spirit@)</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>5 min</casting_time>
+				<duration>Permanent</duration>
+				<reference>M158</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">command spirit (@spirit@)</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">soul jar</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Body of Shadow</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular/R-HT</spell_class>
+				<casting_cost>6</casting_cost>
+				<maintenance_cost>3</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M114</reference>
+				<categories>
+					<category>Light</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (light)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">animate shadow</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Choke</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>4</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>30 sec</duration>
+				<reference>M40</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (body control)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<college compare="contains">Deathly</college>
+						<quantity compare="at least">4</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">spasm</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Clumsiness</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-5</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M36</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">spasm</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Command Undead</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1 per 10 CP</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>PY50:10</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">summon spirit</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">turn zombie</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Cure Disease</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>4</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>10 min</casting_time>
+				<duration>Permanent</duration>
+				<reference>M91</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">relieve sickness</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">major healing</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Deathbolt</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Missile</spell_class>
+				<casting_cost>1-Deathliness (Gray)</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1-3 sec</casting_time>
+				<duration>Instant</duration>
+				<ranged_weapon>
+					<damage>1d tox/point</damage>
+					<accuracy>1</accuracy>
+					<range>25/50</range>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Innate Attack</name>
+						<specialization>Projectile</specialization>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<reference>PY50:10</reference>
+				<categories>
+					<category>Fire</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (fire)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">Deathtouch</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<college compare="contains">Deathly</college>
+						<quantity compare="at least">5</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Debility</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1/-ST</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M36</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+			</spell>
+			<spell version="2">
+				<name>Decay</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1/meal</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M77</reference>
+				<categories>
+					<category>Food</category>
+				</categories>
+				<prereq_list all="yes">
+					<advantage_prereq has="yes">
+						<name compare="is">Deathliness (Gray)</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Divination: Necromancy</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Info</spell_class>
+				<casting_cost>10</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 hr</casting_time>
+				<duration>Instant</duration>
+				<reference>PY50:10</reference>
+				<categories>
+					<category>Knowledge</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">Summon Spirit</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Entrap Spirit</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Special</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>Varies</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>5 min</duration>
+				<reference>M157</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">soul jar</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">turn spirit</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (necromancy)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Ethereal Body</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>8</casting_cost>
+				<maintenance_cost>4</maintenance_cost>
+				<casting_time>30 sec</casting_time>
+				<duration>10 sec</duration>
+				<reference>M146</reference>
+				<categories>
+					<category>Movement</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<spell_prereq has="yes">
+							<name compare="is">Body of Shadow</name>
+						</spell_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Evisceration</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Melee</spell_class>
+				<casting_cost>10</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>Instant</duration>
+				<melee_weapon>
+					<damage>removes vital organ</damage>
+					<usage>Grapple</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Judo</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Sumo Wrestling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Wrestling</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<reference>M154</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">steal vitality</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">Frailty</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (necromancy)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Frailty</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/-HT</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M37</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">lend energy</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Great Healing</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>20</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 min</casting_time>
+				<duration>Permanent</duration>
+				<reference>M91</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">major healing</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Halt Aging</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>20</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 month</duration>
+				<reference>M94</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<college compare="contains">Deathly</college>
+						<quantity compare="at least">8</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Hinder</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-4</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M36</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">clumsiness</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Hunger</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>5 sec</casting_time>
+				<duration>Until eat/rest</duration>
+				<reference>M38</reference>
+				<categories>
+					<category>Body Control</category>
+					<category>Food</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (body control)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">debility</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">decay</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Instant Regeneration</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>80</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M93</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">regeneration</name>
+						<quantity compare="is">1</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Instant Restoration</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>50</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M93</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">restoration</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Itch</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Until scratched</duration>
+				<reference>M35</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Lich</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Enchantment</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>Varies</casting_time>
+				<duration>Permanent</duration>
+				<reference>M159</reference>
+				<categories>
+					<category>Enchantment</category>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<college compare="contains">Deathly</college>
+						<quantity compare="at least">10</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">soul jar</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">zombie</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (enchantment)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+					<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Major Healing</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-4</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M91</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">minor healing</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Might</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/+ST</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M37</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">lend energy</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Minor Healing</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M91</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">lend vitality</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Nauseate</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>10 sec</duration>
+				<reference>M38</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<advantage_prereq has="yes">
+						<name compare="is">Deathliness (Gray)</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">1</level>
+					</advantage_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">Spasm</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Pain</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>2 sec</casting_time>
+				<duration>1 sec</duration>
+				<reference>M36</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">spasm</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Pestilence</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>6</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>30 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M154</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">steal vitality</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">decay</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Regeneration</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>20</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 min</casting_time>
+				<duration>Permanent</duration>
+				<reference>M93</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">restoration</name>
+						<quantity compare="is">1</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Relieve Sickness</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>10 sec</casting_time>
+				<duration>10 min</duration>
+				<reference>M90</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">lend vitality</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Repel Spirits</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>4</casting_cost>
+				<maintenance_cost>Half</maintenance_cost>
+				<casting_time>10 sec</casting_time>
+				<duration>1 hr</duration>
+				<reference>M158</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">Command Spirit</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">Command Undead</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Resist Pain</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>4</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M38</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (body control)</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">2</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">pain</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Restoration</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>15</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 min</casting_time>
+				<duration>Permanent</duration>
+				<reference>M93</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">major healing</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Resurrection</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>300</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>2 Hours</casting_time>
+				<duration>Permanent</duration>
+				<reference>M94</reference>
+				<categories>
+					<category>Healing</category>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">instant regeneration</name>
+						<quantity compare="is">1</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">summon spirit</name>
+						<quantity compare="is">1</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Retch</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>4 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M38</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">nauseate</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">spasm</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Sensitize</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>2</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M39</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (body control)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">stun</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Slow Healing</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1-5</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>30 sec</casting_time>
+				<duration>1 day</duration>
+				<reference>M153</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">frailty</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (necromancy)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">steal vitality</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Soul Jar</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>8</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 min</casting_time>
+				<duration>Permanent</duration>
+				<reference>M154</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<college compare="contains">Deathly</college>
+						<quantity compare="at least">5</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">steal vitality</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (necromancy)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Spasm</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M35</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">itch</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Steal Energy</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>0</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 min per 3 FP drained</casting_time>
+				<duration>Permanent</duration>
+				<reference>M150</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">minor healing</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Steal Vitality</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>0</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 min per 3 HP drained</casting_time>
+				<duration>Permanent</duration>
+				<reference>M150</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">steal energy</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Steal Youth</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>10 per year</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 hr</casting_time>
+				<duration>Permanent</duration>
+				<reference>M158</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">youth</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">age</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">steal vitality</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Stop Healing</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>10</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>10 sec</casting_time>
+				<duration>Until spell dissipates</duration>
+				<reference>M153</reference>
+				<categories>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">slow healing</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Stop Paralysis</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>1 or 2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M93</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<spell_prereq has="yes">
+							<name compare="is">major healing</name>
+						</spell_prereq>
+						<prereq_list all="yes">
+							<prereq_list all="yes">
+								<spell_prereq has="yes">
+									<name compare="is">minor healing</name>
+								</spell_prereq>
+							</prereq_list>
+							<spell_prereq has="yes">
+								<name compare="is">paralyze limb</name>
+							</spell_prereq>
+						</prereq_list>
+					</prereq_list>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Strike Barren</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>5</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>30 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M41</reference>
+				<categories>
+					<category>Body Control</category>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (body control)</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">1</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">steal vitality</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">decay</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Stun</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Instant</duration>
+				<reference>M37</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">pain</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Throw Spell</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Missile/Special</spell_class>
+				<casting_cost>3</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Until thrown</duration>
+				<ranged_weapon>
+					<damage>Special</damage>
+					<accuracy>1</accuracy>
+					<range>80</range>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Innate Attack</name>
+						<specialization>Projectile</specialization>
+						<modifier>0</modifier>
+					</default>
+				</ranged_weapon>
+				<reference>M128</reference>
+				<notes>transforms another spell into a Missile spell</notes>
+				<categories>
+					<category>Meta</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">curse</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Total Paralysis</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Melee</spell_class>
+				<casting_cost>5</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<melee_weapon>
+					<damage>thr-1 cr + Paralysis</damage>
+					<usage>Punch</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<reference>M40</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<name compare="is">paralyze limb</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Vigor</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>2/+HT</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>M37</reference>
+				<categories>
+					<category>Body Control</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">lend vitality</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">frailty</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2">
+				<name>Weaken Blood</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>9</casting_cost>
+				<maintenance_cost>5</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>1 day</duration>
+				<reference>M40</reference>
+				<categories>
+					<category>Body Control</category>
+					<category>Necromancy</category>
+				</categories>
+				<prereq_list all="no">
+					<spell_prereq has="yes">
+						<name compare="is">steal vitality</name>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Wraith</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Enchantment</spell_class>
+				<casting_cost>500</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>Permanent</duration>
+				<reference>M160</reference>
+				<categories>
+					<category>Enchantment</category>
+				</categories>
+				<prereq_list all="yes">
+					<spell_prereq has="yes">
+						<college compare="contains">Deathly</college>
+						<quantity compare="at least">10</quantity>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">halt aging</name>
+					</spell_prereq>
+					<spell_prereq has="yes">
+						<name compare="is">soul jar</name>
+					</spell_prereq>
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (enchantment)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+					<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="2" very_hard="yes">
+				<name>Youth</name>
+				<college>Deathly (Gray)</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>100</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1</casting_time>
+				<duration>Instant; aging starts immediately</duration>
+				<reference>M94</reference>
+				<categories>
+					<category>Healing</category>
+				</categories>
+				<prereq_list all="yes">
+					<prereq_list all="no">
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="contains">one college (healing)</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+						<advantage_prereq has="yes">
+							<name compare="is">Deathliness (Gray)</name>
+							<notes compare="does not contain">one college</notes>
+							<level compare="at least">3</level>
+						</advantage_prereq>
+					</prereq_list>
+					<spell_prereq has="yes">
+						<name compare="is">halt aging</name>
+						<quantity compare="is">1</quantity>
+					</spell_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
 		<spell_container version="2" open="no">
 			<name>Deathly Spells</name>
 			<reference>DF9:15</reference>
