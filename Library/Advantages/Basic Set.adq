@@ -3443,6 +3443,36 @@
 				<notes compare="is anything"></notes>
 			</advantage_prereq>
 		</prereq_list>
+		<skill_bonus>
+			<name compare="is">diplomacy</name>
+			<specialization compare="is anything"></specialization>
+			<amount>-2</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">fast-talk</name>
+			<specialization compare="is anything"></specialization>
+			<amount>-2</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">performance</name>
+			<specialization compare="is anything"></specialization>
+			<amount>-2</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">public speaking</name>
+			<specialization compare="is anything"></specialization>
+			<amount>-2</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">sex appeal</name>
+			<specialization compare="is anything"></specialization>
+			<amount>-2</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">singing</name>
+			<specialization compare="is anything"></specialization>
+			<amount>-2</amount>
+		</skill_bonus>
 	</advantage>
 	<advantage version="2">
 		<name>Divine Curse (@Curse@)</name>
