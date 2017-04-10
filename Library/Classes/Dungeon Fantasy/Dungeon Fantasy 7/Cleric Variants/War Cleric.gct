@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="962be2a1-db57-4d70-b4b6-e64cab36f87e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="2" open="yes">
 			<name>War Cleric</name>
 			<reference>DF1:4</reference>
 			<advantage_container version="2" open="no">
@@ -1575,7 +1575,7 @@
 					</categories>
 					<spell_bonus>
 						<college_name compare="is">Clerical</college_name>
-						<amount>1</amount>
+						<amount per_level="yes">1</amount>
 					</spell_bonus>
 				</advantage>
 			</advantage_container>

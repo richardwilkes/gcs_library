@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="0d81c84a-de6b-44d4-ac99-d7ae497dafa8" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="2" open="yes">
 			<name>Sun Cleric</name>
 			<reference>DF1:4</reference>
 			<advantage_container version="2" open="no">
@@ -1742,7 +1742,7 @@
 					</categories>
 					<spell_bonus>
 						<college_name compare="is">Clerical</college_name>
-						<amount>1</amount>
+						<amount per_level="yes">1</amount>
 					</spell_bonus>
 				</advantage>
 			</advantage_container>

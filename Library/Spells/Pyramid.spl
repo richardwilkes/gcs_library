@@ -36,6 +36,34 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
+	<spell version="2">
+		<name>Alter Gender</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular/R-HT</spell_class>
+		<casting_cost>7</casting_cost>
+		<maintenance_cost>5</maintenance_cost>
+		<casting_time>2 min</casting_time>
+		<duration>1 hour</duration>
+		<reference>PY28:14</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Androgyny</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular/R-HT</spell_class>
+		<casting_cost>7</casting_cost>
+		<maintenance_cost>5</maintenance_cost>
+		<casting_time>2 min</casting_time>
+		<duration>1 hour</duration>
+		<reference>PY28:14</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
+	</spell>
 	<spell version="2" very_hard="yes">
 		<name>Anvil Strike</name>
 		<college>Metal</college>
@@ -86,6 +114,20 @@
 				<name compare="is">Create Metal</name>
 			</spell_prereq>
 		</prereq_list>
+	</spell>
+	<spell version="2">
+		<name>Block Poison</name>
+		<college>Healing</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular</spell_class>
+		<casting_cost>4</casting_cost>
+		<casting_time>10 sec</casting_time>
+		<duration>1 day</duration>
+		<reference>PY13:27</reference>
+		<notes>Salving Magic</notes>
+		<categories>
+			<category>Healing</category>
+		</categories>
 	</spell>
 	<spell version="2">
 		<name>Bloody Iron</name>
@@ -175,6 +217,25 @@
 		</prereq_list>
 	</spell>
 	<spell version="2">
+		<name>Control Metal Elemental</name>
+		<college>Metal</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular/R-ST or Will</spell_class>
+		<casting_cost>Special</casting_cost>
+		<maintenance_cost>Special</maintenance_cost>
+		<casting_time>2 sec</casting_time>
+		<duration>1 min.</duration>
+		<reference>PY91:27</reference>
+		<categories>
+			<category>Metal</category>
+		</categories>
+		<prereq_list all="yes">
+			<spell_prereq has="yes">
+				<name compare="is">Summon Metal Elemental</name>
+			</spell_prereq>
+		</prereq_list>
+	</spell>
+	<spell version="2">
 		<name>Create Metal</name>
 		<college>Metal</college>
 		<power_source>Arcane</power_source>
@@ -192,6 +253,50 @@
 				<name compare="is">Stone to Metal</name>
 			</spell_prereq>
 		</prereq_list>
+	</spell>
+	<spell version="2">
+		<name>Create Metal Elemental</name>
+		<college>Metal</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Special</spell_class>
+		<casting_cost>Special</casting_cost>
+		<maintenance_cost>-</maintenance_cost>
+		<casting_time>Special</casting_time>
+		<duration>Permanent</duration>
+		<reference>PY91:27</reference>
+		<categories>
+			<category>Metal</category>
+		</categories>
+		<prereq_list all="yes">
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="is">Magery</name>
+					<notes compare="does not contain">One College</notes>
+					<level compare="at least">2</level>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="is">Magery</name>
+					<notes compare="contains">One College (Metal)</notes>
+					<level compare="at least">2</level>
+				</advantage_prereq>
+			</prereq_list>
+			<spell_prereq has="yes">
+				<name compare="is">Control Metal Elemental</name>
+			</spell_prereq>
+		</prereq_list>
+	</spell>
+	<spell version="2">
+		<name>Dye Yellow</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular</spell_class>
+		<casting_cost>SM+5</casting_cost>
+		<casting_time>3 sec</casting_time>
+		<duration>2d days</duration>
+		<reference>PY28:14</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
 	</spell>
 	<spell version="2">
 		<name>Essential Metal</name>
@@ -226,6 +331,37 @@
 		</categories>
 	</spell>
 	<spell version="2">
+		<name>Great Deflect Energy</name>
+		<college>Fire</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular</spell_class>
+		<casting_cost>1</casting_cost>
+		<casting_time>1 sec</casting_time>
+		<duration>Instant</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Fire</category>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Great Deflect Missile</name>
+		<college>Movement/Protection</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Blocking</spell_class>
+		<casting_cost>1</casting_cost>
+		<casting_time>1 sec</casting_time>
+		<duration>Instant</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Movement</category>
+			<category>Protection</category>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
 		<name>Identify Metal</name>
 		<college>Knowledge/Metal</college>
 		<power_source>Arcane</power_source>
@@ -243,6 +379,119 @@
 				<name compare="is">Seek Metal</name>
 			</spell_prereq>
 		</prereq_list>
+	</spell>
+	<spell version="2">
+		<name>Internalize Elixir</name>
+		<college>Meta</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Special</spell_class>
+		<casting_cost>2 per $500 or the elixir being bound</casting_cost>
+		<casting_time>1 min/elixir</casting_time>
+		<duration>Permanent until elixir is used</duration>
+		<reference>PY28:10</reference>
+		<categories>
+			<category>Meta</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Mass Resist (@Effect@)</name>
+		<college>Protection</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Area</spell_class>
+		<casting_cost>Special</casting_cost>
+		<casting_time>1 sec/energy point</casting_time>
+		<duration>Special</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Protection</category>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Mass Resist Acid</name>
+		<college>Protection/Water</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Area</spell_class>
+		<casting_cost>2; 6 to resist Essential Acid</casting_cost>
+		<maintenance_cost>Half</maintenance_cost>
+		<casting_time>1 sec/energy point</casting_time>
+		<duration>1 minute</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Protection</category>
+			<category>Secret</category>
+			<category>Water</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Mass Resist Disease</name>
+		<college>Healing/Protection</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Area</spell_class>
+		<casting_cost>4</casting_cost>
+		<maintenance_cost>3</maintenance_cost>
+		<casting_time>1 sec/energy point</casting_time>
+		<duration>1 hour</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Healing</category>
+			<category>Protection</category>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Mass Resist Fire</name>
+		<college>Fire</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Area</spell_class>
+		<casting_cost>2 or more</casting_cost>
+		<maintenance_cost>1</maintenance_cost>
+		<casting_time>1 sec/energy point</casting_time>
+		<duration>1 minute</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Fire</category>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Mass Resist Lightning</name>
+		<college>Air/Protection/Weather</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Area</spell_class>
+		<casting_cost>2</casting_cost>
+		<maintenance_cost>1</maintenance_cost>
+		<casting_time>1 sec/energy point</casting_time>
+		<duration>1 minute</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Air</category>
+			<category>Protection</category>
+			<category>Secret</category>
+			<category>Weather</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Mass Resist Poison</name>
+		<college>Healing/Protection</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Area</spell_class>
+		<casting_cost>4</casting_cost>
+		<maintenance_cost>3</maintenance_cost>
+		<casting_time>1 sec/energy point</casting_time>
+		<duration>1 hour</duration>
+		<reference>PY4:9</reference>
+		<notes>Style - Six Strengths of Siegecraft</notes>
+		<categories>
+			<category>Healing</category>
+			<category>Protection</category>
+			<category>Secret</category>
+		</categories>
 	</spell>
 	<spell version="2">
 		<name>Metal to Flesh</name>
@@ -411,6 +660,32 @@
 		</categories>
 	</spell>
 	<spell version="2">
+		<name>Sense Goblin</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Information</spell_class>
+		<casting_cost>3</casting_cost>
+		<casting_time>10 sec</casting_time>
+		<duration>Instant</duration>
+		<reference>PY28:15</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Sense Man</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Information</spell_class>
+		<casting_cost>3</casting_cost>
+		<casting_time>10 sec</casting_time>
+		<duration>Instant</duration>
+		<reference>PY28:15</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
 		<name>Sharpen Blade</name>
 		<college>Metal</college>
 		<power_source>Arcane</power_source>
@@ -452,6 +727,20 @@
 		</prereq_list>
 	</spell>
 	<spell version="2">
+		<name>Spark of Eros</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular/R-HT</spell_class>
+		<casting_cost>8</casting_cost>
+		<maintenance_cost>6</maintenance_cost>
+		<casting_time>2 min</casting_time>
+		<duration>1 hour</duration>
+		<reference>PY28:15</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
 		<name>Stone to Metal</name>
 		<college>Earth/Metal</college>
 		<power_source>Arcane</power_source>
@@ -487,6 +776,20 @@
 				<name compare="is">Shape Metal</name>
 			</spell_prereq>
 		</prereq_list>
+	</spell>
+	<spell version="2">
+		<name>Stop Poison</name>
+		<college>Healing</college>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular</spell_class>
+		<casting_cost>6, plus 2 per additional week of duration</casting_cost>
+		<casting_time>1 min</casting_time>
+		<duration>1 week</duration>
+		<reference>PY13:27</reference>
+		<notes>Salving Magic</notes>
+		<categories>
+			<category>Healing</category>
+		</categories>
 	</spell>
 	<spell version="2">
 		<name>Summon Metal Elemental</name>
@@ -542,55 +845,18 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
-		<name>Control Metal Elemental</name>
-		<college>Metal</college>
+	<spell version="2" very_hard="yes">
+		<name>Sunburst</name>
 		<power_source>Arcane</power_source>
-		<spell_class>Regular/R-ST or Will</spell_class>
-		<casting_cost>Special</casting_cost>
-		<maintenance_cost>Special</maintenance_cost>
-		<casting_time>2 sec</casting_time>
-		<duration>1 min.</duration>
-		<reference>PY91:27</reference>
+		<spell_class>Missile</spell_class>
+		<casting_cost>3 or more</casting_cost>
+		<casting_time>3 sec</casting_time>
+		<duration>Instant</duration>
+		<reference>PY28:15</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
 		<categories>
-			<category>Metal</category>
+			<category>Secret</category>
 		</categories>
-		<prereq_list all="yes">
-			<spell_prereq has="yes">
-				<name compare="is">Summon Metal Elemental</name>
-			</spell_prereq>
-		</prereq_list>
-	</spell>
-	<spell version="2">
-		<name>Create Metal Elemental</name>
-		<college>Metal</college>
-		<power_source>Arcane</power_source>
-		<spell_class>Special</spell_class>
-		<casting_cost>Special</casting_cost>
-		<maintenance_cost>-</maintenance_cost>
-		<casting_time>Special</casting_time>
-		<duration>Permanent</duration>
-		<reference>PY91:27</reference>
-		<categories>
-			<category>Metal</category>
-		</categories>
-		<prereq_list all="yes">
-			<prereq_list all="no">
-				<advantage_prereq has="yes">
-					<name compare="is">Magery</name>
-					<notes compare="does not contain">One College</notes>
-					<level compare="at least">2</level>
-				</advantage_prereq>
-				<advantage_prereq has="yes">
-					<name compare="is">Magery</name>
-					<notes compare="contains">One College (Metal)</notes>
-					<level compare="at least">2</level>
-				</advantage_prereq>
-			</prereq_list>
-			<spell_prereq has="yes">
-				<name compare="is">Control Metal Elemental</name>
-			</spell_prereq>
-		</prereq_list>
 	</spell>
 	<spell version="2">
 		<name>Transmute Metal</name>
@@ -613,6 +879,34 @@
 				<name compare="is">Create Metal</name>
 			</spell_prereq>
 		</prereq_list>
+	</spell>
+	<spell version="2">
+		<name>True King</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular/R-HT</spell_class>
+		<casting_cost>8</casting_cost>
+		<maintenance_cost>6</maintenance_cost>
+		<casting_time>2 min</casting_time>
+		<duration>1 hour</duration>
+		<reference>PY28:16</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
+	</spell>
+	<spell version="2">
+		<name>Trusted Fellow</name>
+		<power_source>Arcane</power_source>
+		<spell_class>Regular/R-HT</spell_class>
+		<casting_cost>8</casting_cost>
+		<maintenance_cost>6</maintenance_cost>
+		<casting_time>2 min</casting_time>
+		<duration>1 hour</duration>
+		<reference>PY28:16</reference>
+		<notes>Style - Yellow Goblin Magic</notes>
+		<categories>
+			<category>Secret</category>
+		</categories>
 	</spell>
 	<spell version="2">
 		<name>Walk Through Metal</name>
