@@ -1133,6 +1133,71 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
+		<description>Hooded Cape</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>22</value>
+		<weight>2.2 lb</weight>
+		<reference>DF8:17</reference>
+		<melee_weapon>
+			<damage>-</damage>
+			<strength>-</strength>
+			<reach>-</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>Block</type>
+				<name>Cloak</name>
+				<modifier>0</modifier>
+			</default>
+		</melee_weapon>
+		<ranged_weapon>
+			<damage>Special</damage>
+			<strength>5</strength>
+			<usage>Thrown</usage>
+			<accuracy>+1</accuracy>
+			<range>2</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>T(1)</shots>
+			<bulk>-4</bulk>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Cloak</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Net</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<categories>
+			<category>Clothing</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
 		<description>Horn</description>
 		<legality_class>4</legality_class>
 		<value>100</value>

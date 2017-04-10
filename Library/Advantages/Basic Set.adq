@@ -3437,12 +3437,6 @@
 		<categories>
 			<category>Disadvantage</category>
 		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="no">
-				<name compare="is">voice</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 		<skill_bonus>
 			<name compare="is">diplomacy</name>
 			<specialization compare="is anything"></specialization>
@@ -3473,6 +3467,12 @@
 			<specialization compare="is anything"></specialization>
 			<amount>-2</amount>
 		</skill_bonus>
+		<prereq_list all="yes">
+			<advantage_prereq has="no">
+				<name compare="is">voice</name>
+				<notes compare="is anything"></notes>
+			</advantage_prereq>
+		</prereq_list>
 	</advantage>
 	<advantage version="2">
 		<name>Divine Curse (@Curse@)</name>
@@ -9182,6 +9182,12 @@
 			<cost type="percentage">400</cost>
 			<affects>total</affects>
 			<reference>P58</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Know Your Own Strength Variant Price</name>
+			<cost type="points">4</cost>
+			<affects>levels only</affects>
+			<reference>PY83:18</reference>
 		</modifier>
 		<reference>B65</reference>
 		<categories>
@@ -14926,6 +14932,12 @@
 			<affects>total</affects>
 			<reference>P79</reference>
 			<notes>@Attack@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Know Your Own Strength Pricing Variant</name>
+			<cost type="points">-4</cost>
+			<affects>levels only</affects>
+			<reference>PY83:18</reference>
 		</modifier>
 		<reference>B88</reference>
 		<categories>
