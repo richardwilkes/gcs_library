@@ -2,146 +2,146 @@
 <advantage_list id="a22dd52f-3d67-4d52-b18d-85f42b9f59e8" version="1">
 	<advantage_container version="2" open="yes">
 		<name>Divine Favor levels</name>
-		<reference>P-DF:4, PYR3-65:36, PYR3-50:17</reference>
+		<reference>PDF4, PY65:36, PY50:17</reference>
 		<advantage version="2">
 			<name>Divine Favor 0</name>
 			<type>Physical</type>
 			<levels>0</levels>
 			<points_per_level>1</points_per_level>
-			<reference>PYR3-65:36</reference>
+			<reference>PY65:36</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>1</levels>
 			<base_points>1</base_points>
-			<reference>PYR3-65:36</reference>
+			<reference>PY65:36</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>2</levels>
 			<base_points>5</base_points>
-			<reference>PYR3-65:36</reference>
+			<reference>PY65:36</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>3</levels>
 			<base_points>10</base_points>
-			<reference>PYR3-65:36</reference>
+			<reference>PY65:36</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>4</levels>
 			<base_points>15</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>5</levels>
 			<base_points>20</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>6</levels>
 			<base_points>25</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>7</levels>
 			<base_points>35</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>8</levels>
 			<base_points>45</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>9</levels>
 			<base_points>55</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>10</levels>
 			<base_points>70</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>11</levels>
 			<base_points>90</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>12</levels>
 			<base_points>110</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>13</levels>
 			<base_points>130</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>14</levels>
 			<base_points>150</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>15</levels>
 			<base_points>170</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>16</levels>
 			<base_points>200</base_points>
-			<reference>P-DF:4</reference>
+			<reference>PDF4</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>17</levels>
 			<base_points>230</base_points>
-			<reference>PYR3-50:17</reference>
+			<reference>PY50:17</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>18</levels>
 			<base_points>260</base_points>
-			<reference>PYR3-50:17</reference>
+			<reference>PY50:17</reference>
 		</advantage>
 		<advantage version="2">
 			<name>Divine Favor</name>
 			<type>Physical</type>
 			<levels>19</levels>
 			<base_points>290</base_points>
-			<reference>PYR3-50:17</reference>
+			<reference>PY50:17</reference>
 			<notes>Additional levels may be purchased at +30 points/level.</notes>
 		</advantage>
 	</advantage_container>
@@ -167,7 +167,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:6</reference>
+			<reference>PY47:6</reference>
 			<notes>Silence</notes>
 			<categories>
 				<category>Advantage</category>
@@ -203,7 +203,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:8</reference>
+			<reference>PDF8</reference>
 			<notes>Extraordinary Luck</notes>
 			<prereq_list all="yes">
 				<advantage_prereq has="yes">
@@ -242,7 +242,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:10</reference>
+			<reference>PDF10</reference>
 			<notes>Blessed; Feature: Theology replaces IQ Roll</notes>
 			<categories>
 				<category>Advantage</category>
@@ -263,7 +263,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:10</reference>
+			<reference>PY36:10</reference>
 			<notes>Night Vision 5</notes>
 			<categories>
 				<category>Advantage</category>
@@ -309,7 +309,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:8</reference>
+			<reference>PDF8</reference>
 			<notes>Create Food/Drink</notes>
 			<prereq_list all="yes">
 				<advantage_prereq has="yes">
@@ -327,7 +327,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:8</reference>
+			<reference>PDF8</reference>
 			<notes>Blessed (Last Rites)</notes>
 			<prereq_list all="yes">
 				<advantage_prereq has="yes">
@@ -496,7 +496,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:9</reference>
+			<reference>PDF9</reference>
 			<notes>Damage Resistance 5</notes>
 			<categories>
 				<category>Advantage</category>
@@ -616,7 +616,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:9</reference>
+			<reference>PDF9</reference>
 			<notes>Regeneration</notes>
 			<categories>
 				<category>Advantage</category>
@@ -647,7 +647,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:10</reference>
+			<reference>PDF10</reference>
 			<notes>Injury Tolerance (No Brain, No Vitals, Unliving) [30]</notes>
 			<prereq_list all="yes">
 				<advantage_prereq has="yes">
@@ -665,7 +665,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:8</reference>
+			<reference>PDF8</reference>
 			<notes>Blessed (Font)</notes>
 			<prereq_list all="yes">
 				<advantage_prereq has="yes">
@@ -688,7 +688,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:10</reference>
+			<reference>PY36:10</reference>
 			<notes>Elastic Skin</notes>
 			<categories>
 				<category>Advantage</category>
@@ -732,7 +732,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:8</reference>
+			<reference>PDF8</reference>
 			<notes>Talent (Devotion)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -787,7 +787,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:8</reference>
+			<reference>PDF8</reference>
 			<notes>True Faith</notes>
 			<categories>
 				<category>Advantage</category>
@@ -835,7 +835,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:5</reference>
+			<reference>PY47:5</reference>
 			<notes>Payload; Feature: weight limit is based on BL of 20lbs instead of ST.</notes>
 			<categories>
 				<category>Advantage</category>
@@ -867,7 +867,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:9</reference>
+			<reference>PDF9</reference>
 			<notes>Charisma</notes>
 			<categories>
 				<category>Advantage</category>
@@ -924,7 +924,7 @@
 				<cost type="percentage">-37</cost>
 				<affects>total</affects>
 			</modifier>
-			<reference>PYR3-36:10</reference>
+			<reference>PY36:10</reference>
 			<notes>Charisma</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1004,7 +1004,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:6</reference>
+			<reference>PY47:6</reference>
 			<notes>Clinging</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1025,7 +1025,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:10</reference>
+			<reference>PDF10</reference>
 			<notes>Blessed (Ghost Weapon) [15] + Burning Attack 1 point (Accessibility, Evil supernatural beings only, -50%; Affects Insubstantial, +20%; Cyclic, 1 second, 4 cycles, +300%; Divine, -10%; Follow-Up, Any weapon, +50%) [9]</notes>
 			<prereq_list all="yes">
 				<advantage_prereq has="yes">
@@ -1091,7 +1091,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:10</reference>
+			<reference>PDF10</reference>
 			<notes>Resistant (Immunity to Pain)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1128,7 +1128,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:5</reference>
+			<reference>PY47:5</reference>
 			<notes>Talent (Craftiness)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1358,7 +1358,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:10</reference>
+			<reference>PY36:10</reference>
 			<notes>Ally</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1388,7 +1388,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:6</reference>
+			<reference>PY47:6</reference>
 			<notes>Silence</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1456,7 +1456,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:12</reference>
+			<reference>PDF12</reference>
 			<notes>Affliction</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1514,7 +1514,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:11</reference>
+			<reference>PY36:11</reference>
 			<notes>Innate Attack (Toxic)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1547,7 +1547,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:12</reference>
+			<reference>PY36:12</reference>
 			<notes>Terror</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1610,7 +1610,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:12</reference>
+			<reference>PY36:12</reference>
 			<notes>Affliction</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1641,7 +1641,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:11</reference>
+			<reference>PY36:11</reference>
 			<notes>Dark Vision</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1687,7 +1687,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:8</reference>
+			<reference>PDF8</reference>
 			<notes>Create Food/Drink 3</notes>
 			<prereq_list all="yes">
 				<advantage_prereq has="yes">
@@ -1703,7 +1703,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:11</reference>
+			<reference>PDF11</reference>
 			<advantage version="2">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
@@ -1751,7 +1751,7 @@
 					<name>Learned Prayer</name>
 					<cost type="multiplier">0.2</cost>
 				</modifier>
-				<reference>P-DF:11</reference>
+				<reference>PDF11</reference>
 				<notes>Damage Resistance</notes>
 				<categories>
 					<category>Advantage</category>
@@ -1782,7 +1782,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:12</reference>
+			<reference>PY36:12</reference>
 			<notes>Weapon Master (All Muscle-Powered Weapons)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1838,7 +1838,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:11</reference>
+			<reference>PDF11</reference>
 			<notes>Terror</notes>
 			<categories>
 				<category>Advantage</category>
@@ -1998,7 +1998,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:11</reference>
+			<reference>PDF11</reference>
 			<notes>Healing</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2024,7 +2024,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:11</reference>
+			<reference>PY36:11</reference>
 			<notes>Blessed (Heroic Feats), 1d to ST, DX, and HT.</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2063,7 +2063,7 @@
 				<cost type="percentage">50</cost>
 				<affects>total</affects>
 			</modifier>
-			<reference>P-DF:11</reference>
+			<reference>PDF11</reference>
 			<notes>True Faith</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2089,7 +2089,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:11</reference>
+			<reference>PY36:11</reference>
 			<notes>Blessed (Heroic Feats), 1d to ST, DX, and HT.</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2137,7 +2137,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:6</reference>
+			<reference>PY47:6</reference>
 			<notes>Payload; Feature: weight limit is based on BL of 20lbs instead of ST.</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2220,7 +2220,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:12</reference>
+			<reference>PDF12</reference>
 			<notes>Detect</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2303,7 +2303,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:12</reference>
+			<reference>PY36:12</reference>
 			<notes>Detect</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2391,7 +2391,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:11</reference>
+			<reference>PDF11</reference>
 			<notes>Detect</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2479,7 +2479,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:11</reference>
+			<reference>PY36:11</reference>
 			<notes>Detect</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2762,7 +2762,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:12</reference>
+			<reference>PDF12</reference>
 			<notes>Innate Attack (Burning)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2812,7 +2812,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:10</reference>
+			<reference>PDF10</reference>
 			<notes>Serendipity</notes>
 			<categories>
 				<category>Advantage</category>
@@ -2831,7 +2831,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:6</reference>
+			<reference>PY47:6</reference>
 			<advantage version="2">
 				<name>Obscure (Clairsentience)</name>
 				<type>Physical, Exotic</type>
@@ -2957,7 +2957,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:10</reference>
+			<reference>PDF10</reference>
 			<categories>
 				<category>Advantage</category>
 			</categories>
@@ -3155,7 +3155,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:12</reference>
+			<reference>PY36:12</reference>
 			<notes>Ally</notes>
 			<categories>
 				<category>Advantage</category>
@@ -3278,7 +3278,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:7</reference>
+			<reference>PY47:7</reference>
 			<notes>Invisibility</notes>
 			<categories>
 				<category>Advantage</category>
@@ -3477,7 +3477,7 @@
 				<cost type="percentage">10</cost>
 				<affects>total</affects>
 			</modifier>
-			<reference>P-DF:14</reference>
+			<reference>PDF14</reference>
 			<notes>Affliction. Feature: Uses Religious Ritual skill instead of Will for Malediction</notes>
 			<categories>
 				<category>Advantage</category>
@@ -3755,7 +3755,7 @@
 				<cost type="percentage">50</cost>
 				<affects>total</affects>
 			</modifier>
-			<reference>PYR3-36:11</reference>
+			<reference>PY36:11</reference>
 			<notes>Innate Attack (Toxic)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -3811,7 +3811,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:14</reference>
+			<reference>PY36:14</reference>
 			<notes>Terror</notes>
 			<categories>
 				<category>Advantage</category>
@@ -4010,7 +4010,7 @@
 				<cost type="percentage">10</cost>
 				<affects>total</affects>
 			</modifier>
-			<reference>PYR3-36:14</reference>
+			<reference>PY36:14</reference>
 			<notes>Affliction. Feature: Uses Religious Ritual skill instead of Will for Malediction</notes>
 			<categories>
 				<category>Advantage</category>
@@ -4205,7 +4205,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:13</reference>
+			<reference>PDF13</reference>
 			<notes>Ally</notes>
 			<categories>
 				<category>Advantage</category>
@@ -4493,7 +4493,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:13</reference>
+			<reference>PY36:13</reference>
 			<notes>Innate Attack (Burn)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -4549,7 +4549,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:15</reference>
+			<reference>PDF15</reference>
 			<notes>Terror</notes>
 			<categories>
 				<category>Advantage</category>
@@ -4729,7 +4729,7 @@
 				<reference>B59</reference>
 				<notes>Anything Animate</notes>
 			</modifier>
-			<reference>P-DF:15</reference>
+			<reference>PDF15</reference>
 			<notes>Healing</notes>
 			<categories>
 				<category>Advantage</category>
@@ -4754,7 +4754,7 @@
 				<affects>total</affects>
 				<notes>Enable only for Learned Prayer</notes>
 			</modifier>
-			<reference>PYR3-47:6</reference>
+			<reference>PY47:6</reference>
 			<advantage version="2">
 				<name>Accessory (Lockpicks)</name>
 				<type>Physical</type>
@@ -5105,7 +5105,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:13</reference>
+			<reference>PY36:13</reference>
 			<notes>Target loses 25 character points from total. Points lost should represent the target's gradual transformation into an undead monster.</notes>
 			<categories>
 				<category>Advantage</category>
@@ -5310,7 +5310,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:13</reference>
+			<reference>PY36:13</reference>
 			<notes>Affliction.</notes>
 			<categories>
 				<category>Advantage</category>
@@ -5329,7 +5329,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:13</reference>
+			<reference>PY36:13</reference>
 			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
@@ -5520,7 +5520,7 @@
 					<name>Learned Prayer</name>
 					<cost type="multiplier">0.2</cost>
 				</modifier>
-				<reference>PYR3-36:13</reference>
+				<reference>PY36:13</reference>
 				<notes>Blessed (Heroic Feats), 2d to ST, DX, and HT.</notes>
 				<categories>
 					<category>Advantage</category>
@@ -5540,7 +5540,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:13</reference>
+			<reference>PDF13</reference>
 			<notes>Feature: Religious Ritual skill replaces IQ roll</notes>
 			<advantage version="2">
 				<name>Control (Weather)</name>
@@ -5889,7 +5889,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:13</reference>
+			<reference>PDF13</reference>
 			<notes>Target loses 25 character points from total. </notes>
 			<categories>
 				<category>Advantage</category>
@@ -5908,7 +5908,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:13</reference>
+			<reference>PY36:13</reference>
 			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
@@ -6099,7 +6099,7 @@
 					<name>Learned Prayer</name>
 					<cost type="multiplier">0.2</cost>
 				</modifier>
-				<reference>PYR3-36:13</reference>
+				<reference>PY36:13</reference>
 				<notes>Blessed (Heroic Feats), 2d to ST, DX, and HT.</notes>
 				<categories>
 					<category>Advantage</category>
@@ -6119,7 +6119,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:7</reference>
+			<reference>PY47:7</reference>
 			<advantage version="2">
 				<name>Shadow Form</name>
 				<type>Physical, Exotic</type>
@@ -6763,7 +6763,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:14</reference>
+			<reference>PDF14</reference>
 			<notes>Innate Attack (Burning)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -6891,7 +6891,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:13</reference>
+			<reference>PY36:13</reference>
 			<notes>Leech</notes>
 			<categories>
 				<category>Advantage</category>
@@ -6910,7 +6910,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:7</reference>
+			<reference>PY47:7</reference>
 			<advantage version="2" round_down="yes">
 				<name>Obscure (Clairsentience)</name>
 				<type>Physical, Exotic</type>
@@ -7041,7 +7041,7 @@
 				<affects>total</affects>
 				<reference>P88</reference>
 			</modifier>
-			<reference>P-DF:13</reference>
+			<reference>PDF13</reference>
 			<categories>
 				<category>Advantage</category>
 			</categories>
@@ -7062,7 +7062,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:14</reference>
+			<reference>PY36:14</reference>
 			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
@@ -7376,7 +7376,7 @@
 					<cost type="percentage">20</cost>
 					<affects>total</affects>
 				</modifier>
-				<reference>PYR3-36:13</reference>
+				<reference>PY36:13</reference>
 				<notes>Blessed (Heroic Feats), 2d to ST, DX, and HT.</notes>
 				<categories>
 					<category>Advantage</category>
@@ -7396,7 +7396,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:14</reference>
+			<reference>PY36:14</reference>
 			<advantage version="2">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
@@ -7710,7 +7710,7 @@
 					<cost type="percentage">20</cost>
 					<affects>total</affects>
 				</modifier>
-				<reference>PYR3-36:13</reference>
+				<reference>PY36:13</reference>
 				<notes>Blessed (Heroic Feats), 2d to ST, DX, and HT.</notes>
 				<categories>
 					<category>Advantage</category>
@@ -7849,7 +7849,7 @@
 				<cost type="percentage">40</cost>
 				<affects>total</affects>
 			</modifier>
-			<reference>PYR3-36:15</reference>
+			<reference>PY36:15</reference>
 			<notes>Leech</notes>
 			<categories>
 				<category>Advantage</category>
@@ -7868,7 +7868,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-36:15</reference>
+			<reference>PY36:15</reference>
 			<advantage version="2" round_down="yes">
 				<name>Control Quakes</name>
 				<type>Physical</type>
@@ -8125,7 +8125,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:15</reference>
+			<reference>PDF15</reference>
 			<notes>Obscure (Vision)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -8431,7 +8431,7 @@
 				<cost type="percentage">20</cost>
 				<affects>total</affects>
 			</modifier>
-			<reference>PYR3-36:13</reference>
+			<reference>PY36:13</reference>
 			<notes>Innate Attack (Burn)</notes>
 			<categories>
 				<category>Advantage</category>
@@ -8456,7 +8456,7 @@
 				<affects>total</affects>
 				<notes>Only enable for Learned Prayer</notes>
 			</modifier>
-			<reference>PYR3-47:7</reference>
+			<reference>PY47:7</reference>
 			<advantage version="2">
 				<name>Accessory (Lockpicks)</name>
 				<type>Physical</type>
@@ -8805,7 +8805,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:16</reference>
+			<reference>PDF16</reference>
 			<notes>Religious Ritual skill replaces IQ</notes>
 			<advantage version="2" round_down="yes">
 				<name>Control (Waves)</name>
@@ -9180,7 +9180,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:16</reference>
+			<reference>PDF16</reference>
 			<categories>
 				<category>Advantage</category>
 			</categories>
@@ -9353,7 +9353,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>P-DF:16</reference>
+			<reference>PDF16</reference>
 			<notes>Affliction</notes>
 			<categories>
 				<category>Advantage</category>
@@ -9372,7 +9372,7 @@
 				<name>Learned Prayer</name>
 				<cost type="multiplier">0.2</cost>
 			</modifier>
-			<reference>PYR3-47:8</reference>
+			<reference>PY47:8</reference>
 			<advantage version="2">
 				<name>Shadow Form</name>
 				<type>Physical, Exotic</type>

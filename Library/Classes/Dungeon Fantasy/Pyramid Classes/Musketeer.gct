@@ -3,7 +3,7 @@
 	<advantage_list>
 		<advantage_container version="2" open="yes">
 			<name>Musketeer</name>
-			<reference>PYR36:17</reference>
+			<reference>PY36:17</reference>
 			<advantage_container version="2" open="no">
 				<name>Attributes</name>
 				<advantage version="2">
@@ -191,13 +191,13 @@
 						<name>Behind the Back</name>
 						<type>Physical</type>
 						<base_points>6</base_points>
-						<reference>PYR36:17</reference>
+						<reference>PY36:17</reference>
 					</advantage>
 					<advantage version="2">
 						<name>Cavalry Training</name>
 						<type>Physical</type>
 						<base_points>3</base_points>
-						<reference>PYR36:17</reference>
+						<reference>PY36:17</reference>
 					</advantage>
 					<advantage version="2">
 						<name>Danger Sense</name>
@@ -631,7 +631,7 @@
 					<name>Code of Honor (Musketeer's)</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
-					<reference>PYR36:19</reference>
+					<reference>PY36:19</reference>
 					<categories>
 						<category>Disadvantage</category>
 					</categories>
@@ -827,7 +827,7 @@
 	<skill_list>
 		<skill_container version="2" open="yes">
 			<name>Musketeer</name>
-			<reference>PYR36:17</reference>
+			<reference>PY36:17</reference>
 			<skill_container version="2" open="no">
 				<name>Primary Skill</name>
 				<skill version="2">

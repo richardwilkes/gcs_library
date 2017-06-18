@@ -3,7 +3,7 @@
 	<advantage_list>
 		<advantage_container version="2" open="yes">
 			<name>Beastmaster</name>
-			<reference>PYR60:35</reference>
+			<reference>PY60:35</reference>
 			<advantage_container version="2" open="no">
 				<name>Attributes</name>
 				<advantage version="2">
@@ -204,7 +204,7 @@
 						<cost type="percentage">-40</cost>
 						<affects>levels only</affects>
 					</modifier>
-					<reference>PYR60:35</reference>
+					<reference>PY60:35</reference>
 					<categories>
 						<category>Advantage</category>
 					</categories>
@@ -741,7 +741,7 @@
 				</advantage_container>
 				<advantage_container version="2" open="no">
 					<name>40 points in</name>
-					<reference>PYR60:35</reference>
+					<reference>PY60:35</reference>
 					<notes>Or Beastmaster Spells</notes>
 					<advantage version="2">
 						<name>Beast Mastery</name>
@@ -789,7 +789,7 @@
 							<cost type="percentage">-40</cost>
 							<affects>levels only</affects>
 						</modifier>
-						<reference>PYR60:35</reference>
+						<reference>PY60:35</reference>
 						<notes>Up to 3</notes>
 						<categories>
 							<category>Advantage</category>
@@ -851,7 +851,7 @@
 							<affects>total</affects>
 							<notes>Beast Command</notes>
 						</modifier>
-						<reference>PYR60:35</reference>
+						<reference>PY60:35</reference>
 						<advantage version="2">
 							<name>Ally (@Any beast from DF5@)</name>
 							<type>Social</type>
@@ -2095,7 +2095,7 @@
 	<skill_list>
 		<skill_container version="2" open="yes">
 			<name>Beastmaster</name>
-			<reference>PYR60:35</reference>
+			<reference>PY60:35</reference>
 			<skill_container version="2" open="no">
 				<name>Primary Skill</name>
 				<skill version="2">
@@ -3018,7 +3018,7 @@
 	<spell_list>
 		<spell_container version="2" open="no">
 			<name>Beastmaster</name>
-			<reference>PYR60:35</reference>
+			<reference>PY60:35</reference>
 			<spell_container version="2" open="no">
 				<name>Beast Mastery</name>
 				<notes>1</notes>

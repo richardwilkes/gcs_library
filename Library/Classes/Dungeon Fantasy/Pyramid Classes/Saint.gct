@@ -3,7 +3,7 @@
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
 			<name>Saint</name>
-			<reference>PYR3-36:8</reference>
+			<reference>PY36:8</reference>
 			<advantage_container version="2" open="no">
 				<name>Attributes</name>
 				<advantage version="2">
@@ -546,14 +546,14 @@
 						<name>Faster Prayers</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
-						<reference>PYR3-36:8</reference>
+						<reference>PY36:8</reference>
 					</advantage>
 					<advantage version="2">
 						<name>Repeated Petitioner</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<reference>PYR3-36:8</reference>
+						<reference>PY36:8</reference>
 						<notes>Up to 4</notes>
 					</advantage>
 				</advantage_container>
@@ -941,7 +941,7 @@
 	<skill_list>
 		<skill_container version="2" open="yes">
 			<name>Saint</name>
-			<reference>PYR3-36:8</reference>
+			<reference>PY36:8</reference>
 			<skill_container version="2" open="no">
 				<name>Primary Skills</name>
 				<skill version="2">

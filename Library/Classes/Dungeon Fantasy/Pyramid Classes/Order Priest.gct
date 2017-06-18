@@ -3,7 +3,7 @@
 	<advantage_list>
 		<advantage_container version="2" open="yes">
 			<name>Order Priest</name>
-			<reference>PYR78:12</reference>
+			<reference>PY78:12</reference>
 			<advantage_container version="2" open="no">
 				<name>Attributes</name>
 				<advantage version="2">
@@ -2485,7 +2485,7 @@
 	<skill_list>
 		<skill_container version="2" open="yes">
 			<name>Order Priest</name>
-			<reference>PYR78:12</reference>
+			<reference>PY78:12</reference>
 			<skill_container version="2" open="no">
 				<name>Primary Skills</name>
 				<skill version="2">
@@ -3266,7 +3266,7 @@
 	<spell_list>
 		<spell_container version="2" open="yes">
 			<name>Order Priest</name>
-			<reference>PYR78:12</reference>
+			<reference>PY78:12</reference>
 			<spell_container version="2" open="no">
 				<name>Choose 20 of:</name>
 				<spell_container version="2" open="no">
@@ -3891,7 +3891,7 @@
 							<maintenance_cost>Half</maintenance_cost>
 							<casting_time>1 sec</casting_time>
 							<duration>Instant</duration>
-							<reference>PYR78:14</reference>
+							<reference>PY78:14</reference>
 							<prereq_list all="yes">
 								<spell_prereq has="yes">
 									<name compare="is">Sense Chaos</name>
