@@ -9631,67 +9631,6 @@
 		</skill_bonus>
 	</advantage>
 	<advantage version="2">
-		<name>Magery</name>
-		<type>Mental, Supernatural</type>
-		<levels>1</levels>
-		<base_points>5</base_points>
-		<points_per_level>10</points_per_level>
-		<modifier version="1" enabled="no">
-			<name>Dance</name>
-			<cost type="percentage">-40</cost>
-			<affects>levels only</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Dark-Aspected</name>
-			<cost type="percentage">-50</cost>
-			<affects>levels only</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Day-Aspected</name>
-			<cost type="percentage">-40</cost>
-			<affects>levels only</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Musical</name>
-			<cost type="percentage">-50</cost>
-			<affects>levels only</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Night-Aspected</name>
-			<cost type="percentage">-40</cost>
-			<affects>levels only</affects>
-		</modifier>
-		<modifier version="1">
-			<name>One College</name>
-			<cost type="percentage">-40</cost>
-			<affects>levels only</affects>
-			<notes>@College@</notes>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Solitary</name>
-			<cost type="percentage">-40</cost>
-			<affects>levels only</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Song</name>
-			<cost type="percentage">-40</cost>
-			<affects>levels only</affects>
-		</modifier>
-		<reference>B66</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-		<spell_bonus>
-			<college_name compare="is">@College@</college_name>
-			<amount per_level="yes">1</amount>
-		</spell_bonus>
-		<skill_bonus>
-			<name compare="is">thaumatology</name>
-			<specialization compare="is anything"></specialization>
-			<amount per_level="yes">1</amount>
-		</skill_bonus>
-	</advantage>
-	<advantage version="2">
 		<name>Magic Resistance</name>
 		<type>Physical</type>
 		<levels>1</levels>
