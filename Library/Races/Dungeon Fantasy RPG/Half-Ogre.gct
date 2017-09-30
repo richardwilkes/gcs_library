@@ -3,7 +3,7 @@
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
 			<name>Half-Ogre</name>
-			<reference>DFA:44</reference>
+			<reference>DFA44</reference>
 			<advantage version="2">
 				<name>Appearance</name>
 				<type>Physical</type>
@@ -12,7 +12,7 @@
 					<cost type="points">-8</cost>
 					<affects>total</affects>
 				</modifier>
-				<reference>DFA:56</reference>
+				<reference>DFA56</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -22,7 +22,7 @@
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>3</points_per_level>
-				<reference>DFA:16</reference>
+				<reference>DFA16</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -36,7 +36,7 @@
 				<type>Mental</type>
 				<levels>1</levels>
 				<points_per_level>-20</points_per_level>
-				<reference>DFA:8</reference>
+				<reference>DFA8</reference>
 				<categories>
 					<category>Attribute</category>
 					<category>Disadvantage</category>
@@ -51,7 +51,7 @@
 				<type>Mental</type>
 				<levels>1</levels>
 				<points_per_level>2</points_per_level>
-				<reference>DFA:49</reference>
+				<reference>DFA49</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -61,7 +61,7 @@
 				<type>Physical</type>
 				<levels>1</levels>
 				<points_per_level>10</points_per_level>
-				<reference>DFA:9</reference>
+				<reference>DFA9</reference>
 				<categories>
 					<category>Advantage</category>
 					<category>Attribute</category>
@@ -76,7 +76,7 @@
 				<type>Physical</type>
 				<levels>4</levels>
 				<points_per_level>10</points_per_level>
-				<reference>DFA:8</reference>
+				<reference>DFA8</reference>
 				<categories>
 					<category>Advantage</category>
 					<category>Attribute</category>
@@ -91,7 +91,7 @@
 				<type>Physical</type>
 				<levels>3</levels>
 				<points_per_level>1</points_per_level>
-				<reference>DFA:51</reference>
+				<reference>DFA51</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -100,7 +100,7 @@
 				<name>Social Stigma (Savage)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
-				<reference>DFA:66</reference>
+				<reference>DFA66</reference>
 				<notes>-2 reaction; -4 to skills; Denied entry to town on 6 or less</notes>
 				<categories>
 					<category>Disadvantage</category>

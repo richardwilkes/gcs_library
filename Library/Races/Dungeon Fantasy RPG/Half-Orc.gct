@@ -3,13 +3,13 @@
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
 			<name>Half-Orc</name>
-			<reference>DFA:45</reference>
+			<reference>DFA45</reference>
 			<advantage version="2">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>1</levels>
 				<points_per_level>2</points_per_level>
-				<reference>DFA:46</reference>
+				<reference>DFA46</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -26,7 +26,7 @@
 					<cost type="points">-4</cost>
 					<affects>total</affects>
 				</modifier>
-				<reference>DFA:46</reference>
+				<reference>DFA46</reference>
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
@@ -36,7 +36,7 @@
 				<type>Physical</type>
 				<levels>1</levels>
 				<points_per_level>2</points_per_level>
-				<reference>DFA:10</reference>
+				<reference>DFA10</reference>
 				<categories>
 					<category>Advantage</category>
 					<category>Attribute</category>
@@ -51,7 +51,7 @@
 				<type>Physical</type>
 				<levels>1</levels>
 				<points_per_level>10</points_per_level>
-				<reference>DFA:9</reference>
+				<reference>DFA9</reference>
 				<categories>
 					<category>Advantage</category>
 					<category>Attribute</category>
@@ -66,7 +66,7 @@
 				<type>Physical</type>
 				<levels>5</levels>
 				<points_per_level>1</points_per_level>
-				<reference>DFA:51</reference>
+				<reference>DFA51</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -75,7 +75,7 @@
 				<name>Rapid Healing</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
-				<reference>DFA:52</reference>
+				<reference>DFA52</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -89,7 +89,7 @@
 				<modifier version="1">
 					<name>+5 to all HT rolls to resist</name>
 				</modifier>
-				<reference>DFA:52</reference>
+				<reference>DFA52</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -100,7 +100,7 @@
 				<modifier version="1">
 					<name>+5 to all HT rolls to resist</name>
 				</modifier>
-				<reference>DFA:52</reference>
+				<reference>DFA52</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -109,7 +109,7 @@
 				<name>Social Stigma (Savage)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
-				<reference>DFA:66</reference>
+				<reference>DFA66</reference>
 				<notes>-2 reaction; -4 to skills; Denied entry to town on 6 or less</notes>
 				<categories>
 					<category>Disadvantage</category>

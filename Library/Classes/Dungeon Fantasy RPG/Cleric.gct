@@ -1,0 +1,3943 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<template id="34aed137-a875-447f-89e1-22562cc853c3" version="2">
+	<advantage_list>
+		<advantage_container version="2" open="yes">
+			<name>Cleric</name>
+			<reference>DFA19</reference>
+			<advantage_container version="2" open="no">
+				<name>Attributes</name>
+				<advantage version="2">
+					<name>Increased Strength</name>
+					<type>Physical</type>
+					<levels>2</levels>
+					<points_per_level>10</points_per_level>
+					<reference>DFA8</reference>
+					<categories>
+						<category>Advantage</category>
+						<category>Attribute</category>
+					</categories>
+					<attribute_bonus>
+						<attribute>st</attribute>
+						<amount per_level="yes">1</amount>
+					</attribute_bonus>
+				</advantage>
+				<advantage version="2">
+					<name>Increased Dexterity</name>
+					<type>Physical</type>
+					<levels>2</levels>
+					<points_per_level>20</points_per_level>
+					<reference>DFA8</reference>
+					<categories>
+						<category>Advantage</category>
+						<category>Attribute</category>
+					</categories>
+					<attribute_bonus>
+						<attribute>dx</attribute>
+						<amount per_level="yes">1</amount>
+					</attribute_bonus>
+				</advantage>
+				<advantage version="2">
+					<name>Increased Intelligence</name>
+					<type>Mental</type>
+					<levels>4</levels>
+					<points_per_level>20</points_per_level>
+					<reference>DFA8</reference>
+					<categories>
+						<category>Advantage</category>
+						<category>Attribute</category>
+					</categories>
+					<attribute_bonus>
+						<attribute>iq</attribute>
+						<amount per_level="yes">1</amount>
+					</attribute_bonus>
+				</advantage>
+				<advantage version="2">
+					<name>Increased Health</name>
+					<type>Physical</type>
+					<levels>2</levels>
+					<points_per_level>10</points_per_level>
+					<reference>DFA8</reference>
+					<categories>
+						<category>Advantage</category>
+						<category>Attribute</category>
+					</categories>
+					<attribute_bonus>
+						<attribute>ht</attribute>
+						<amount per_level="yes">1</amount>
+					</attribute_bonus>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="2" open="yes">
+				<name>Class Advantages</name>
+				<advantage_container version="2" open="yes">
+					<name>45 Points From Here</name>
+					<advantage_container version="2" open="yes">
+						<name>Holy Abilities</name>
+						<reference>DFA20</reference>
+						<advantage version="2">
+							<name>Contingency Casting</name>
+							<type>Mental, Supernatural</type>
+							<levels>1</levels>
+							<points_per_level>14</points_per_level>
+							<reference>DFA20</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Detect Evil</name>
+							<type>Mental/Physical, Exotic</type>
+							<base_points>18</base_points>
+							<reference>DFA20</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Divine Guidance</name>
+							<type>Mental</type>
+							<base_points>14</base_points>
+							<reference>DFA20</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Divine Omens</name>
+							<type>Mental</type>
+							<base_points>14</base_points>
+							<reference>DFA20</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Faith Healing</name>
+							<type>Mental, Exotic</type>
+							<base_points>33</base_points>
+							<reference>DFA21</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Turning</name>
+							<type>Mental, Exotic</type>
+							<base_points>24</base_points>
+							<reference>DFA21</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Detect Good</name>
+							<type>Mental/Physical, Exotic</type>
+							<base_points>9</base_points>
+							<reference>DFA20</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Heroic Grace</name>
+							<type>Mental, Supernatural</type>
+							<levels>1</levels>
+							<points_per_level>9</points_per_level>
+							<reference>DFA26</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Heroic Might</name>
+							<type>Mental, Supernatural</type>
+							<levels>1</levels>
+							<points_per_level>9</points_per_level>
+							<reference>DFA26</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Heroic Vitality</name>
+							<type>Mental, Supernatural</type>
+							<levels>1</levels>
+							<points_per_level>9</points_per_level>
+							<reference>DFA26</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+						<advantage version="2">
+							<name>Resist Evil</name>
+							<type>Mental, Supernatural</type>
+							<levels>1</levels>
+							<points_per_level>9</points_per_level>
+							<reference>DFA27</reference>
+							<categories>
+								<category>Advantage</category>
+							</categories>
+						</advantage>
+					</advantage_container>
+					<advantage version="2">
+						<name>Increased Strength</name>
+						<type>Physical</type>
+						<levels>1</levels>
+						<points_per_level>10</points_per_level>
+						<reference>DFA8</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Attribute</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>st</attribute>
+							<amount per_level="yes">1</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Increased Dexterity</name>
+						<type>Physical</type>
+						<levels>1</levels>
+						<points_per_level>20</points_per_level>
+						<reference>DFA8</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Attribute</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount per_level="yes">1</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Increased Intelligence</name>
+						<type>Mental</type>
+						<levels>1</levels>
+						<points_per_level>20</points_per_level>
+						<reference>DFA8</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Attribute</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount per_level="yes">1</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Increased Health</name>
+						<type>Physical</type>
+						<levels>1</levels>
+						<points_per_level>10</points_per_level>
+						<reference>DFA8</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Attribute</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>ht</attribute>
+							<amount per_level="yes">1</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Increased Will</name>
+						<type>Mental</type>
+						<levels>1</levels>
+						<points_per_level>5</points_per_level>
+						<reference>DFA10</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Attribute</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>will</attribute>
+							<amount per_level="yes">1</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Extra Fatigue Points</name>
+						<type>Physical</type>
+						<levels>1</levels>
+						<points_per_level>3</points_per_level>
+						<reference>DFA10</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Attribute</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>fp</attribute>
+							<amount per_level="yes">1</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Energy Reserve (Holy)</name>
+						<type>Physical, Exotic</type>
+						<levels>1</levels>
+						<points_per_level>3</points_per_level>
+						<reference>DFA48</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Attribute</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Fearlessness</name>
+						<type>Mental</type>
+						<levels>1</levels>
+						<points_per_level>2</points_per_level>
+						<reference>DFA49</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Unfazeable</name>
+						<type>Mental</type>
+						<base_points>15</base_points>
+						<reference>DFA53</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Healer</name>
+						<type>Mental</type>
+						<levels>1</levels>
+						<points_per_level>10</points_per_level>
+						<modifier version="1">
+							<name>Benefit</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<notes>Bonus to HT rolls for a specific patient and condition if treated full time.</notes>
+						</modifier>
+						<reference>DFA50</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Talent</category>
+						</categories>
+						<skill_bonus>
+							<name compare="is">Diagnosis</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Esoteric Medicine</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">First Aid</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Pharmacy</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Physician</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Physiology</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Psychology</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Surgery</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">Veterinary</name>
+							<specialization compare="is anything"></specialization>
+							<amount per_level="yes">1</amount>
+						</skill_bonus>
+						<prereq_list all="yes">
+							<advantage_prereq has="no">
+								<name compare="is">Talent (Healer)</name>
+								<notes compare="contains">Modern</notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</advantage>
+					<advantage version="2">
+						<name>Language: @Language@</name>
+						<type>Mental</type>
+						<modifier version="1" enabled="no">
+							<name>Native</name>
+							<cost type="points">-6</cost>
+							<affects>total</affects>
+							<reference>B23</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Spoken</name>
+							<cost type="points">0</cost>
+							<affects>total</affects>
+							<reference>B24</reference>
+							<notes>None</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Spoken</name>
+							<cost type="points">3</cost>
+							<affects>total</affects>
+							<reference>B24</reference>
+							<notes>Native</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Written</name>
+							<cost type="points">0</cost>
+							<affects>total</affects>
+							<reference>B24</reference>
+							<notes>None</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Written</name>
+							<cost type="points">3</cost>
+							<affects>total</affects>
+							<reference>B24</reference>
+							<notes>Native</notes>
+						</modifier>
+						<reference>DFA51</reference>
+						<categories>
+							<category>Advantage</category>
+							<category>Language</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Luck</name>
+						<type>Mental</type>
+						<base_points>15</base_points>
+						<reference>DFA51</reference>
+						<notes>Usable once per hour of play</notes>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+						<prereq_list all="yes">
+							<advantage_prereq has="no">
+								<name compare="starts with">Luck</name>
+								<notes compare="is anything"></notes>
+							</advantage_prereq>
+						</prereq_list>
+					</advantage>
+					<advantage version="2">
+						<name>Luck, Extraordinary</name>
+						<type>Mental</type>
+						<base_points>30</base_points>
+						<reference>DFA51</reference>
+						<notes>Usable once per 30 minutes of play</notes>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+						<prereq_list all="yes">
+							<advantage_prereq has="no">
+								<name compare="starts with">Luck</name>
+								<notes compare="is anything"></notes>
+							</advantage_prereq>
+						</prereq_list>
+					</advantage>
+					<advantage version="2">
+						<name>Mind Shield</name>
+						<type>Mental, Exotic</type>
+						<levels>1</levels>
+						<points_per_level>4</points_per_level>
+						<reference>DFA51</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Power Investiture</name>
+						<type>Mental, Supernatural</type>
+						<levels>1</levels>
+						<points_per_level>10</points_per_level>
+						<reference>DFA20</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+						<spell_bonus>
+							<college_name compare="is">Clerical</college_name>
+							<amount per_level="yes">1</amount>
+						</spell_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Resistant to Disease</name>
+						<type>Physical</type>
+						<levels>1</levels>
+						<points_per_level>1</points_per_level>
+						<reference>DFA52</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Signature Gear (@Item@)</name>
+						<type>Social</type>
+						<base_points>1</base_points>
+						<reference>DFA53</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Spirit Empathy</name>
+						<type>Mental, Supernatural</type>
+						<base_points>10</base_points>
+						<reference>DFA53</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage version="2">
+					<name>Clerical Investment</name>
+					<type>Social</type>
+					<base_points>5</base_points>
+					<reference>DFA22</reference>
+					<categories>
+						<category>Advantage</category>
+					</categories>
+				</advantage>
+				<advantage version="2">
+					<name>Power Investiture</name>
+					<type>Mental, Supernatural</type>
+					<levels>3</levels>
+					<points_per_level>10</points_per_level>
+					<reference>DFA20</reference>
+					<categories>
+						<category>Advantage</category>
+					</categories>
+					<spell_bonus>
+						<college_name compare="is">Clerical</college_name>
+						<amount per_level="yes">1</amount>
+					</spell_bonus>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="2" open="yes">
+				<name>Class Disadvantages</name>
+				<advantage_container version="2" open="yes">
+					<name>Chose one of</name>
+					<advantage version="2">
+						<name>Honesty</name>
+						<type>Mental</type>
+						<base_points>-10</base_points>
+						<cr>12</cr>
+						<reference>DFA61</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Sense of Duty</name>
+						<type>Mental</type>
+						<modifier version="1" enabled="no">
+							<name>Adventuring Companions</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Nation</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1">
+							<name>Coreligionists</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Good Entities</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Nature</name>
+							<cost type="points">-15</cost>
+							<affects>total</affects>
+							<reference>DFA66</reference>
+						</modifier>
+						<reference>DFA65</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Vow (No Edged Weapons)</name>
+						<type>Physical</type>
+						<modifier version="1" enabled="no">
+							<name>Minor</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<modifier version="1">
+							<name>Major</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Great</name>
+							<cost type="points">-15</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<reference>DFA67</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="2" open="yes">
+					<name>Another -15 Points chosen from:</name>
+					<notes>or those above</notes>
+					<advantage version="2">
+						<name>Disciplines of Faith (Mysticism)</name>
+						<type>Mental</type>
+						<base_points>-10</base_points>
+						<reference>DFA59</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Disciplines of Faith (Ritualism)</name>
+						<type>Mental</type>
+						<base_points>-5</base_points>
+						<reference>DFA59</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Fanaticism (@Group or ideal@)</name>
+						<type>Mental</type>
+						<base_points>-15</base_points>
+						<reference>DFA60</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Intolerance ("Evil" Religions)</name>
+						<type>Mental</type>
+						<modifier version="1">
+							<name>Scope: Targeted</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>DFA61</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Scope: Broad</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA61</reference>
+						</modifier>
+						<reference>DFA61</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Intolerance (All Other Religions)</name>
+						<type>Mental</type>
+						<modifier version="1" enabled="no">
+							<name>Scope: Targeted</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>DFA61</reference>
+						</modifier>
+						<modifier version="1">
+							<name>Scope: Broad</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA61</reference>
+						</modifier>
+						<reference>DFA61</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Vow (Chastity)</name>
+						<type>Physical</type>
+						<modifier version="1">
+							<name>Minor</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Major</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Great</name>
+							<cost type="points">-15</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<reference>DFA67</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Vow (Vegetarianism)</name>
+						<type>Physical</type>
+						<modifier version="1">
+							<name>Minor</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Major</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Great</name>
+							<cost type="points">-15</cost>
+							<affects>total</affects>
+							<reference>B161</reference>
+						</modifier>
+						<reference>DFA67</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Wealth</name>
+						<type>Social</type>
+						<modifier version="1" enabled="no">
+							<name>Dead Broke</name>
+							<cost type="points">-25</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is $0</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Poor</name>
+							<cost type="points">-15</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is 1/5 average</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Struggling</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>B25</reference>
+							<notes>Starting wealth is 1/2 average</notes>
+						</modifier>
+						<reference>DFA67</reference>
+						<notes>Disadvantage</notes>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="2" open="no">
+					<name>A further -25 Points chosen from:</name>
+					<notes>or any of the above lists</notes>
+					<advantage version="2">
+						<name>Charitable</name>
+						<type>Mental</type>
+						<base_points>-15</base_points>
+						<cr>12</cr>
+						<reference>DFA58</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Compulsive Generosity</name>
+						<type>Mental</type>
+						<base_points>-5</base_points>
+						<cr adj="minor cost of living increase">12</cr>
+						<reference>DFA59</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+						<prereq_list all="yes">
+							<advantage_prereq has="no">
+								<name compare="is">miserliness</name>
+								<notes compare="is anything"></notes>
+							</advantage_prereq>
+						</prereq_list>
+					</advantage>
+					<advantage version="2">
+						<name>Miserliness</name>
+						<type>Mental</type>
+						<base_points>-10</base_points>
+						<cr>12</cr>
+						<reference>DFA63</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Gluttony</name>
+						<type>Mental</type>
+						<base_points>-5</base_points>
+						<cr>12</cr>
+						<reference>DFA60</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Overconfidence</name>
+						<type>Mental</type>
+						<base_points>-5</base_points>
+						<cr>12</cr>
+						<reference>DFA64</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Overweight</name>
+						<type>Physical</type>
+						<base_points>-1</base_points>
+						<reference>DFA64</reference>
+						<notes>+1 ST vs. knockback</notes>
+						<categories>
+							<category>Quirk</category>
+						</categories>
+						<skill_bonus>
+							<name compare="is">disguise</name>
+							<specialization compare="is anything"></specialization>
+							<amount>-1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">shadowing</name>
+							<specialization compare="is anything"></specialization>
+							<amount>-1</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">swimming</name>
+							<specialization compare="is anything"></specialization>
+							<amount>1</amount>
+						</skill_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Fat</name>
+						<type>Physical</type>
+						<base_points>-3</base_points>
+						<reference>DFA64</reference>
+						<notes>+2 ST vs. knockback</notes>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+						<skill_bonus>
+							<name compare="is">disguise</name>
+							<specialization compare="is anything"></specialization>
+							<amount>-2</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">shadowing</name>
+							<specialization compare="is anything"></specialization>
+							<amount>-2</amount>
+						</skill_bonus>
+						<skill_bonus>
+							<name compare="is">swimming</name>
+							<specialization compare="is anything"></specialization>
+							<amount>3</amount>
+						</skill_bonus>
+						<prereq_list all="yes">
+							<attribute_prereq has="yes" which="ht" compare="at most">15</attribute_prereq>
+						</prereq_list>
+					</advantage>
+					<advantage version="2">
+						<name>Selfless</name>
+						<type>Mental</type>
+						<base_points>-5</base_points>
+						<cr>12</cr>
+						<reference>DFA65</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Sense of Duty</name>
+						<type>Mental</type>
+						<modifier version="1">
+							<name>Adventuring Companions</name>
+							<cost type="points">-5</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Nation</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Coreligionists</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Good Entities</name>
+							<cost type="points">-10</cost>
+							<affects>total</affects>
+							<reference>DFA65</reference>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Nature</name>
+							<cost type="points">-15</cost>
+							<affects>total</affects>
+							<reference>DFA66</reference>
+						</modifier>
+						<reference>DFA65</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Stubbornness</name>
+						<type>Mental</type>
+						<base_points>-5</base_points>
+						<reference>DFA66</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="2">
+						<name>Truthfulness</name>
+						<type>Mental</type>
+						<base_points>-5</base_points>
+						<cr>12</cr>
+						<reference>DFA67</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+						<skill_bonus>
+							<name compare="is">fast talk</name>
+							<specialization compare="is anything"></specialization>
+							<amount>-5</amount>
+						</skill_bonus>
+					</advantage>
+					<advantage version="2">
+						<name>Weirdness Magnet</name>
+						<type>Mental, Supernatural</type>
+						<base_points>-15</base_points>
+						<reference>DFA67</reference>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+			</advantage_container>
+		</advantage_container>
+	</advantage_list>
+	<skill_list>
+		<skill_container version="2" open="yes">
+			<name>Cleric</name>
+			<skill_container version="2" open="yes">
+				<name>Melee Weapons</name>
+				<notes>Choose 1 (12 Points)</notes>
+				<skill_container version="2" open="no">
+					<name>Two-Handed</name>
+					<skill version="2">
+						<name>Staff</name>
+						<difficulty>DX/A</difficulty>
+						<points>12</points>
+						<reference>DFA81</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Polearm</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Spear</name>
+							<modifier>-2</modifier>
+						</default>
+					</skill>
+				</skill_container>
+				<skill_container version="2" open="yes">
+					<name>One Handed</name>
+					<notes>One Weapon and Shield</notes>
+					<skill version="2">
+						<name>Axe/Mace</name>
+						<difficulty>DX/A</difficulty>
+						<points>8</points>
+						<reference>DFA81</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Two-Handed Axe/Mace</name>
+							<modifier>-3</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Flail</name>
+							<modifier>-4</modifier>
+						</default>
+					</skill>
+					<skill version="2">
+						<name>Broadsword</name>
+						<difficulty>DX/A</difficulty>
+						<points>8</points>
+						<reference>DFA81</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
+						<default>
+							<type>Skill</type>
+							<name>Force Sword</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Rapier</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Saber</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shortsword</name>
+							<modifier>-2</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Two-Handed Sword</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+					</skill>
+					<skill version="2">
+						<name>Flail</name>
+						<difficulty>DX/H</difficulty>
+						<points>8</points>
+						<reference>DFA81</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
+						<default>
+							<type>DX</type>
+							<modifier>-6</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Axe/Mace</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Two-Handed Flail</name>
+							<modifier>-3</modifier>
+						</default>
+					</skill>
+					<skill version="2">
+						<name>Shield</name>
+						<specialization>Shield</specialization>
+						<difficulty>DX/E</difficulty>
+						<points>4</points>
+						<reference>DFA88</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
+						<default>
+							<type>DX</type>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Shield</name>
+							<modifier>-2</modifier>
+						</default>
+					</skill>
+				</skill_container>
+			</skill_container>
+			<skill_container version="2" open="no">
+				<name>Mandatory Skills</name>
+				<skill version="2">
+					<name>Diagnosis</name>
+					<difficulty>IQ/H</difficulty>
+					<points>1</points>
+					<reference>DFA75</reference>
+					<categories>
+						<category>Medical</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-6</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>First Aid</name>
+						<modifier>-8</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Physician</name>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Veterinary</name>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Esoteric Medicine</name>
+					<specialization>Holy</specialization>
+					<difficulty>Per/H</difficulty>
+					<points>4</points>
+					<reference>DFA22</reference>
+					<categories>
+						<category>Esoteric</category>
+						<category>Medical</category>
+					</categories>
+					<default>
+						<type>Per</type>
+						<modifier>-6</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Exorcism</name>
+					<difficulty>Will/H</difficulty>
+					<points>4</points>
+					<reference>DFA22</reference>
+					<categories>
+						<category>Occult/Magical</category>
+					</categories>
+					<default>
+						<type>Will</type>
+						<modifier>-6</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Religious Ritual</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Ritual Magic</name>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Theology</name>
+						<modifier>-3</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>First Aid</name>
+					<difficulty>IQ/E</difficulty>
+					<points>1</points>
+					<reference>DFA76</reference>
+					<categories>
+						<category>Everyman</category>
+						<category>Medical</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Esoteric Medicine</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Physician</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Veterinary</name>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Meditation</name>
+					<difficulty>Will/H</difficulty>
+					<points>1</points>
+					<reference>DFA80</reference>
+					<categories>
+						<category>Esoteric</category>
+					</categories>
+					<default>
+						<type>Will</type>
+						<modifier>-6</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Autohypnosis</name>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Occultism</name>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA84</reference>
+					<categories>
+						<category>Occult/Magical</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Public Speaking</name>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA86</reference>
+					<categories>
+						<category>Business</category>
+						<category>Scholarly</category>
+						<category>Social</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Acting</name>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Performance</name>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Politics</name>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Religious Ritual</name>
+					<difficulty>IQ/H</difficulty>
+					<points>1</points>
+					<reference>DFA86</reference>
+					<categories>
+						<category>Occult/Magical</category>
+					</categories>
+					<default>
+						<type>Skill</type>
+						<name>Ritual Magic</name>
+						<modifier>-6</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Theology</name>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Surgery</name>
+					<difficulty>IQ/VH</difficulty>
+					<points>2</points>
+					<reference>DFA90</reference>
+					<categories>
+						<category>Medical</category>
+					</categories>
+					<prereq_list all="no">
+						<skill_prereq has="yes">
+							<name compare="is">first aid</name>
+							<specialization compare="is"></specialization>
+						</skill_prereq>
+						<skill_prereq has="yes">
+							<name compare="is">physician</name>
+							<specialization compare="is"></specialization>
+						</skill_prereq>
+					</prereq_list>
+					<default>
+						<type>Skill</type>
+						<name>First Aid</name>
+						<modifier>-12</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Physician</name>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Physiology</name>
+						<modifier>-8</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Veterinary</name>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Teaching</name>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA91</reference>
+					<categories>
+						<category>Scholarly</category>
+						<category>Social</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Theology</name>
+					<difficulty>IQ/H</difficulty>
+					<points>1</points>
+					<reference>DFA91</reference>
+					<categories>
+						<category>Social Sciences/Humanities</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-6</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Religious Ritual</name>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+			</skill_container>
+			<skill_container version="2" open="no">
+				<name>One Of</name>
+				<skill version="2">
+					<name>Hidden Lore</name>
+					<specialization>Demons</specialization>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA78</reference>
+					<categories>
+						<category>Knowledge</category>
+					</categories>
+				</skill>
+				<skill version="2">
+					<name>Hidden Lore</name>
+					<specialization>Spirits</specialization>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA78</reference>
+					<categories>
+						<category>Knowledge</category>
+					</categories>
+				</skill>
+				<skill version="2">
+					<name>Hidden Lore</name>
+					<specialization>Undead</specialization>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA78</reference>
+					<categories>
+						<category>Knowledge</category>
+					</categories>
+				</skill>
+			</skill_container>
+			<skill_container version="2" open="no">
+				<name>Five of</name>
+				<skill version="2">
+					<name>Climbing</name>
+					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+					<difficulty>DX/A</difficulty>
+					<points>1</points>
+					<reference>DFA74</reference>
+					<categories>
+						<category>Athletic</category>
+						<category>Criminal/Street</category>
+						<category>Outdoor/Exploration</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Gesture</name>
+					<difficulty>IQ/E</difficulty>
+					<points>1</points>
+					<reference>DFA77</reference>
+					<categories>
+						<category>Social</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Hiking</name>
+					<difficulty>HT/A</difficulty>
+					<points>1</points>
+					<reference>DFA78</reference>
+					<categories>
+						<category>Athletic</category>
+						<category>Outdoor/Exploration</category>
+					</categories>
+					<default>
+						<type>HT</type>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Observation</name>
+					<difficulty>Per/A</difficulty>
+					<points>1</points>
+					<reference>DFA84</reference>
+					<categories>
+						<category>Criminal/Street</category>
+						<category>Military</category>
+						<category>Police</category>
+						<category>Spy</category>
+					</categories>
+					<default>
+						<type>Per</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Shadowing</name>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Panhandling</name>
+					<difficulty>IQ/E</difficulty>
+					<points>1</points>
+					<reference>DFA84</reference>
+					<categories>
+						<category>Criminal/Street</category>
+						<category>Social</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Fast Talk</name>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Public Speaking</name>
+						<modifier>-3</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Research</name>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA86</reference>
+					<categories>
+						<category>Scholarly</category>
+						<category>Spy</category>
+					</categories>
+					<prereq_list all="yes">
+						<prereq_list all="yes">
+							<when_tl compare="at least">8</when_tl>
+							<skill_prereq has="yes">
+								<name compare="is">Computer Operation</name>
+								<specialization compare="is anything"></specialization>
+							</skill_prereq>
+						</prereq_list>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="starts with">Language</name>
+								<notes compare="contains">Written (Native</notes>
+							</advantage_prereq>
+							<advantage_prereq has="yes">
+								<name compare="starts with">Language</name>
+								<notes compare="contains">Written (Accented)</notes>
+							</advantage_prereq>
+							<advantage_prereq has="yes">
+								<name compare="starts with">Language</name>
+								<notes compare="contains">Written (Broken)</notes>
+							</advantage_prereq>
+						</prereq_list>
+					</prereq_list>
+					<default>
+						<type>IQ</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Writing</name>
+						<modifier>-3</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Savoir-Faire</name>
+					<difficulty>IQ/E</difficulty>
+					<points>1</points>
+					<reference>DFA87</reference>
+					<categories>
+						<category>Business</category>
+						<category>Knowledge</category>
+						<category>Social</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Scrounging</name>
+					<difficulty>Per/E</difficulty>
+					<points>1</points>
+					<reference>DFA88</reference>
+					<categories>
+						<category>Criminal/Street</category>
+					</categories>
+					<default>
+						<type>Per</type>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Search</name>
+					<difficulty>Per/A</difficulty>
+					<points>1</points>
+					<reference>DFA88</reference>
+					<categories>
+						<category>Police</category>
+						<category>Spy</category>
+					</categories>
+					<default>
+						<type>Per</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Criminology</name>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Stealth</name>
+					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+					<difficulty>DX/A</difficulty>
+					<points>1</points>
+					<reference>DFA89</reference>
+					<categories>
+						<category>Criminal/Street</category>
+						<category>Police</category>
+						<category>Spy</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-5</modifier>
+					</default>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Writing</name>
+					<difficulty>IQ/A</difficulty>
+					<points>1</points>
+					<reference>DFA94</reference>
+					<categories>
+						<category>Arts/Entertainment</category>
+						<category>Scholarly</category>
+					</categories>
+					<default>
+						<type>IQ</type>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+			</skill_container>
+			<skill_container version="2" open="no">
+				<name>Ranged Attack</name>
+				<notes>Choose 1</notes>
+				<skill version="2">
+					<name>Innate Attack</name>
+					<specialization>Beam</specialization>
+					<difficulty>DX/E</difficulty>
+					<points>4</points>
+					<reference>DFA79</reference>
+					<categories>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Innate Attack</name>
+						<modifier>-2</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Innate Attack</name>
+					<specialization>Breath</specialization>
+					<difficulty>DX/E</difficulty>
+					<points>4</points>
+					<reference>DFA79</reference>
+					<categories>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Innate Attack</name>
+						<modifier>-2</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Innate Attack</name>
+					<specialization>Gaze</specialization>
+					<difficulty>DX/E</difficulty>
+					<points>4</points>
+					<reference>DFA79</reference>
+					<categories>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Innate Attack</name>
+						<modifier>-2</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Innate Attack</name>
+					<specialization>Projectile</specialization>
+					<difficulty>DX/E</difficulty>
+					<points>4</points>
+					<reference>DFA79</reference>
+					<categories>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Innate Attack</name>
+						<modifier>-2</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Sling</name>
+					<difficulty>DX/H</difficulty>
+					<points>4</points>
+					<reference>DFA83</reference>
+					<categories>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-6</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Throwing</name>
+					<difficulty>DX/A</difficulty>
+					<points>4</points>
+					<reference>DFA91</reference>
+					<categories>
+						<category>Athletic</category>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Dropping</name>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+			</skill_container>
+		</skill_container>
+	</skill_list>
+	<spell_list>
+		<spell_container version="2" open="yes">
+			<name>Cleric</name>
+			<spell_container version="2" open="yes">
+				<name>Choose 20 of:</name>
+				<spell_container version="2" open="no">
+					<name>Power Investiture</name>
+					<notes>1</notes>
+					<categories>
+						<category>Clerical</category>
+					</categories>
+					<spell version="2">
+						<name>Armor</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2 per DR</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS63</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Aura</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info</spell_class>
+						<casting_cost>3</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS42</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Bravery</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 hr</duration>
+						<reference>DFS53</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Cleansing</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2/4/6</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>3 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS36</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Coolness</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>1 hour</duration>
+						<reference>DFS68</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Detect Magic</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>5 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS43</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Detect Poison</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area-Info</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>2 sec</casting_time>
+						<duration>-</duration>
+						<reference>DFS36</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Final Rest</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>20</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>10 min</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS36</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Lend Energy</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1/pt</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Lend Vitality</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1/pt</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 Hour</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Light</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS47</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Might</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2/+ST</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS21</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Minor healing</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1-3</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Purify Air</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>1</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS16</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Purify Water</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Special</spell_class>
+						<casting_cost>1/gal</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>5-10/gal#</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS70</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Recover Energy</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Special</spell_class>
+						<casting_cost>0</casting_cost>
+						<maintenance_cost>0</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Special</duration>
+						<reference>DFS38</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Sense Evil</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info/Area</spell_class>
+						<casting_cost>1/2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS26</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Sense Life</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info/Area</spell_class>
+						<casting_cost>1/2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS26</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Sense Spirit</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info/Area</spell_class>
+						<casting_cost>1/2 (min 1)</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS60</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Share Energy</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2-10</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 sec</duration>
+						<reference>DFS39</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="yes">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Share Vitality</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>None</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec/HP</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS39</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Shield</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2 per DB</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS65</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Silence</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS67</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Stop Bleeding</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1 or 10</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS39</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Test Food</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info</spell_class>
+						<casting_cost>1 or 3</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS33</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Thunderclap</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS67</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Umbrella</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>2 sec</casting_time>
+						<duration>10 min</duration>
+						<reference>DFS70</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Vigor</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2/+HT</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS23</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Warmth</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>1 hr</duration>
+						<reference>DFS32</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Watchdog</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>1</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>10 hrs</duration>
+						<reference>DFS65</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">1</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+				</spell_container>
+				<spell_container version="2" open="no">
+					<name>Power Investiture</name>
+					<notes>2</notes>
+					<categories>
+						<category>Clerical</category>
+					</categories>
+					<spell version="2">
+						<name>Awaken</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>1</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS36</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Command</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Blocking</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS53</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Compel Truth</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>5 min</duration>
+						<reference>DFS24</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Continual Light</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2 moon, 4 torch, 6 day</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>2d days</duration>
+						<reference>DFS46</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Create Water</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2/gal</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS68</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Glow</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>Varies</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>Varies</casting_time>
+						<duration>2d days</duration>
+						<reference>DFS46</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Great Voice</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>3</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>2 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS66</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Healing Slumber</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>6 or 10</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>30 sec</casting_time>
+						<duration>Up to 8 hrs</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Hide Thoughts</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>3</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>10 min</duration>
+						<reference>DFS25</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Light Jet</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<melee_weapon>
+							<damage>Blinds</damage>
+							<usage>Jet</usage>
+							<reach>10</reach>
+							<parry>No</parry>
+							<default>
+								<type>DX</type>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Innate Attack</name>
+								<specialization>Beam</specialization>
+								<modifier>0</modifier>
+							</default>
+						</melee_weapon>
+						<reference>DFS47</reference>
+						<notes>blinds only when darkness penalty is -5 or more</notes>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="yes">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Major Healing</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1-4</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Persuasion</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>Varies</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS25</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Protection from Evil</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1-5</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 min</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS64</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="yes">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Purify Food</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1/lb</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS33</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Relieve Sickness</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>10 min</duration>
+						<reference>DFS38</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Resist Acid</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2 or 6</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS70</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Resist Cold</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS31</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Resist Disease</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>3</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>1 hr</duration>
+						<reference>DFS38</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Resist Fire</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2#</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS31</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Resist Lightning</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS72</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Resist Pain</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS22</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Resist Poison</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>3</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>1 Hour</duration>
+						<reference>DFS38</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Restore Hearing</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>5</casting_cost>
+						<maintenance_cost>3</maintenance_cost>
+						<casting_time>5 sec</casting_time>
+						<duration>1 Hour</duration>
+						<reference>DFS39</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Restore Memory</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>3</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS39</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Restore Sight</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>5</casting_cost>
+						<maintenance_cost>3</maintenance_cost>
+						<casting_time>5 sec</casting_time>
+						<duration>1 hour</duration>
+						<reference>DFS39</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Restore Speech</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>5</casting_cost>
+						<maintenance_cost>3</maintenance_cost>
+						<casting_time>5 sec</casting_time>
+						<duration>1 Hour</duration>
+						<reference>DFS39</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Seeker</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info</spell_class>
+						<casting_cost>3</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS45</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Stop Spasm</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS40</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Summon Spirit</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info</spell_class>
+						<casting_cost>20</casting_cost>
+						<maintenance_cost>10</maintenance_cost>
+						<casting_time>5 min</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS60</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Truthsayer</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Info</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS26</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Turn Spirit</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>10 sec</duration>
+						<reference>DFS61</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Turn Zombie</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>4 sec</casting_time>
+						<duration>Turned undead will avoid caster for 1 day</duration>
+						<reference>DFS61</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">2</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+				</spell_container>
+				<spell_container version="2" open="yes">
+					<name>Power Investiture</name>
+					<notes>3</notes>
+					<categories>
+						<category>Clerical</category>
+					</categories>
+					<spell version="2">
+						<name>Affect Spirits</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>2 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS59</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Astral Vision</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS42</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Breathe Water</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS68</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Command Spirit (@spirit@)</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>Varies</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>2 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS60</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Create Food</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>Varies</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>30 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS32</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Cure Disease</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>10 min</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS36</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Dispel Possession</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>10</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>Instant</duration>
+						<reference>DFS24</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Flaming Weapon</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>1</maintenance_cost>
+						<casting_time>2 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS31</reference>
+						<notes>+2 points burn damage from attacks with melee weapon</notes>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Great Healing</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>20</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 min</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Magic Resistance</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1-5</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>3 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS51</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Neutralize Poison</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>5</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>30 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Relieve Paralysis</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>Varies</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS38</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Repel Spirits</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>1 hr</duration>
+						<reference>DFS60</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Restoration</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>15</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 min</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS38</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>See Secrets</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>5</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>5 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS44</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Silver Tongue</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>3</casting_cost>
+						<maintenance_cost>2</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS67</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Stone to Flesh</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>10</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>5 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS29</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Stop Paralysis</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1 or 2</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS40</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Strengthen Will</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>1/pt of Will increase</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS55</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Sunbolt</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Missile</spell_class>
+						<casting_cost>1-3xMagery</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1-3 sec</casting_time>
+						<duration>Instant</duration>
+						<ranged_weapon>
+							<damage>1d burn/point</damage>
+							<accuracy>2</accuracy>
+							<range>75/150</range>
+							<default>
+								<type>DX</type>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Innate Attack</name>
+								<specialization>Beam</specialization>
+								<modifier>0</modifier>
+							</default>
+						</ranged_weapon>
+						<reference>DFS48</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Sunlight</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS48</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Suspended Animation</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>6</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>30 sec</casting_time>
+						<duration>Until Awakened</duration>
+						<reference>DFS40</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Wisdom</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>4/pt of IQ</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS56</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">3</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+				</spell_container>
+				<spell_container version="2" open="no">
+					<name>Power Investiture</name>
+					<notes>4</notes>
+					<categories>
+						<category>Clerical</category>
+					</categories>
+					<spell version="2">
+						<name>Astral Block</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>4</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>2 sec</casting_time>
+						<duration>10 min</duration>
+						<reference>DFS59</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Banish</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Special</spell_class>
+						<casting_cost>Varies</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>5 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS59</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Dispel Magic</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>3</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>sec=cost</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS51</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Essential Food</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>6</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>30 sec</casting_time>
+						<duration>Indefinite</duration>
+						<reference>DFS32</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Gift of Letters</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>6</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS24</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Gift of Tongues</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>6</casting_cost>
+						<maintenance_cost>Half</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS24</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Instant Neutralize Poison</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>8</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS37</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Monk's Banquet</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>6</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>24 hrs</duration>
+						<reference>DFS33</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Regeneration</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>20</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 min</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS38</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2" very_hard="yes">
+						<name>Vigil</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>8</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>1 night</duration>
+						<reference>DFS56</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">4</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+				</spell_container>
+				<spell_container version="2" open="no">
+					<name>Power Investiture</name>
+					<notes>5</notes>
+					<categories>
+						<category>Clerical</category>
+					</categories>
+					<spell version="2">
+						<name>Bless</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>10 or 50</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>min=cost</casting_time>
+						<duration>Varies</duration>
+						<reference>DFS50</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">5</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Curse</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>3/10/20</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>2/4/6 sec</casting_time>
+						<duration>Varies</duration>
+						<reference>DFS51</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">5</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Earthquake</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Area</spell_class>
+						<casting_cost>2</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>30 sec</casting_time>
+						<duration>1 min</duration>
+						<reference>DFS27</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">5</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Entrap Spirit</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Special</spell_class>
+						<casting_cost>Varies</casting_cost>
+						<maintenance_cost>Varies</maintenance_cost>
+						<casting_time>1 sec</casting_time>
+						<duration>5 min</duration>
+						<reference>DFS60</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">5</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Pentagram</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Special</spell_class>
+						<casting_cost>1/sq foot</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 sec/sq foot</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS51</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">5</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+					<spell version="2">
+						<name>Remove Curse</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Regular</spell_class>
+						<casting_cost>20</casting_cost>
+						<maintenance_cost>-</maintenance_cost>
+						<casting_time>1 hr</casting_time>
+						<duration>Permanent</duration>
+						<reference>DFS52</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="no">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">5</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+				</spell_container>
+				<spell_container version="2" open="no">
+					<name>Power Investiture</name>
+					<notes>6</notes>
+					<categories>
+						<category>Clerical</category>
+					</categories>
+					<spell version="2" very_hard="yes">
+						<name>Sanctuary</name>
+						<college>Clerical</college>
+						<power_source>Arcane</power_source>
+						<spell_class>Special</spell_class>
+						<casting_cost>5</casting_cost>
+						<maintenance_cost>Same</maintenance_cost>
+						<casting_time>10 sec</casting_time>
+						<duration>1 hr</duration>
+						<reference>DFS35</reference>
+						<categories>
+							<category>Clerical</category>
+						</categories>
+						<prereq_list all="yes">
+							<advantage_prereq has="yes">
+								<name compare="is">Power Investiture</name>
+								<notes compare="is anything"></notes>
+								<level compare="at least">6</level>
+							</advantage_prereq>
+						</prereq_list>
+					</spell>
+				</spell_container>
+			</spell_container>
+		</spell_container>
+	</spell_list>
+</template>

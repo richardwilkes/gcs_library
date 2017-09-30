@@ -2220,10 +2220,10 @@
 			</spell>
 		</spell_container>
 	</spell_container>
-	<spell_container version="2" open="no">
+	<spell_container version="2" open="yes">
 		<name>Druidic</name>
 		<spell_container version="2" open="no">
-			<name>Power Investiture (Druid)</name>
+			<name>Power Investiture (Druidic)</name>
 			<notes>1</notes>
 			<categories>
 				<category>Druid</category>
@@ -2243,7 +2243,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2264,7 +2264,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2285,7 +2285,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2306,7 +2306,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2327,7 +2327,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2348,7 +2348,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2369,7 +2369,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2390,7 +2390,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2411,7 +2411,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2432,7 +2432,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2453,7 +2453,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2474,7 +2474,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2496,7 +2496,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2517,7 +2517,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2538,7 +2538,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2559,7 +2559,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2580,7 +2580,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2601,7 +2601,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2622,7 +2622,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2643,7 +2643,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2664,7 +2664,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2685,7 +2685,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2706,7 +2706,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2727,7 +2727,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2748,7 +2748,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2769,7 +2769,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
@@ -2790,15 +2790,15 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">1</level>
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Power Investiture (Druid)</name>
+		<spell_container version="2" open="no">
+			<name>Power Investiture (Druidic)</name>
 			<notes>2</notes>
 			<categories>
 				<category>Druid</category>
@@ -2818,7 +2818,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2839,7 +2839,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2860,7 +2860,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2881,7 +2881,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2902,7 +2902,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2923,7 +2923,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2944,7 +2944,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2965,7 +2965,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -2986,7 +2986,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3007,7 +3007,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3028,7 +3028,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3049,7 +3049,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3070,7 +3070,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3091,7 +3091,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3112,7 +3112,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3133,7 +3133,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3154,7 +3154,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3175,7 +3175,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3196,7 +3196,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3223,7 +3223,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3245,7 +3245,7 @@
 				<prereq_list all="yes">
 					<prereq_list all="no">
 						<advantage_prereq has="yes">
-							<name compare="is">Power Investiture (Druid)</name>
+							<name compare="is">Power Investiture (Druidic)</name>
 							<notes compare="is anything"></notes>
 							<level compare="at least">2</level>
 						</advantage_prereq>
@@ -3267,7 +3267,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3288,7 +3288,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3309,7 +3309,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3330,7 +3330,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3351,7 +3351,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3372,7 +3372,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3393,7 +3393,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3414,7 +3414,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3435,7 +3435,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3456,7 +3456,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3477,7 +3477,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3498,7 +3498,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3519,7 +3519,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3540,7 +3540,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
@@ -3561,15 +3561,15 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">2</level>
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Power Investiture (Druid)</name>
+		<spell_container version="2" open="no">
+			<name>Power Investiture (Druidic)</name>
 			<notes>3</notes>
 			<categories>
 				<category>Druid</category>
@@ -3589,7 +3589,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3610,7 +3610,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3631,7 +3631,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3652,7 +3652,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3673,7 +3673,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3694,7 +3694,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3715,7 +3715,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3736,7 +3736,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3757,7 +3757,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3778,7 +3778,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3799,7 +3799,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3820,7 +3820,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3841,7 +3841,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3862,7 +3862,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3883,7 +3883,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3904,7 +3904,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3925,7 +3925,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3947,7 +3947,7 @@
 				<prereq_list all="yes">
 					<prereq_list all="no">
 						<advantage_prereq has="yes">
-							<name compare="is">Power Investiture (Druid)</name>
+							<name compare="is">Power Investiture (Druidic)</name>
 							<notes compare="is anything"></notes>
 							<level compare="at least">3</level>
 						</advantage_prereq>
@@ -3969,7 +3969,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -3990,7 +3990,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -4011,7 +4011,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -4032,7 +4032,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
@@ -4053,15 +4053,15 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">3</level>
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Power Investiture (Druid)</name>
+		<spell_container version="2" open="no">
+			<name>Power Investiture (Druidic)</name>
 			<notes>4</notes>
 			<categories>
 				<category>Druid</category>
@@ -4081,7 +4081,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
@@ -4102,7 +4102,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
@@ -4123,7 +4123,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
@@ -4149,7 +4149,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
@@ -4177,7 +4177,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
@@ -4213,7 +4213,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
@@ -4234,7 +4234,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
@@ -4255,15 +4255,15 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">4</level>
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Power Investiture (Druid)</name>
+		<spell_container version="2" open="no">
+			<name>Power Investiture (Druidic)</name>
 			<notes>5</notes>
 			<categories>
 				<category>Druid</category>
@@ -4283,7 +4283,7 @@
 				</categories>
 				<prereq_list all="no">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">5</level>
 					</advantage_prereq>
@@ -4305,7 +4305,7 @@
 				<prereq_list all="yes">
 					<prereq_list all="no">
 						<advantage_prereq has="yes">
-							<name compare="is">Power Investiture (Druid)</name>
+							<name compare="is">Power Investiture (Druidic)</name>
 							<notes compare="is anything"></notes>
 							<level compare="at least">5</level>
 						</advantage_prereq>
@@ -4333,15 +4333,15 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">5</level>
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="yes">
-			<name>Power Investiture (Druid)</name>
+		<spell_container version="2" open="no">
+			<name>Power Investiture (Druidic)</name>
 			<notes>6</notes>
 			<categories>
 				<category>Druid</category>
@@ -4362,7 +4362,7 @@
 				<prereq_list all="yes">
 					<prereq_list all="no">
 						<advantage_prereq has="yes">
-							<name compare="is">Power Investiture (Druid)</name>
+							<name compare="is">Power Investiture (Druidic)</name>
 							<notes compare="is anything"></notes>
 							<level compare="at least">6</level>
 						</advantage_prereq>
@@ -4384,7 +4384,7 @@
 				</categories>
 				<prereq_list all="yes">
 					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture (Druid)</name>
+						<name compare="is">Power Investiture (Druidic)</name>
 						<notes compare="is anything"></notes>
 						<level compare="at least">6</level>
 					</advantage_prereq>

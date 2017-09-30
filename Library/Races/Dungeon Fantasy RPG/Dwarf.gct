@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz69ibj:-12sh1lat94zax" version="1">
+<template id="1a4f13c7-983d-4129-a3a8-0acbeb1a4908" version="2">
 	<advantage_list>
 		<advantage_container version="2" open="yes" type="race">
 			<name>Dwarf</name>
-			<reference>DFA:43</reference>
+			<reference>DFA43</reference>
 			<advantage version="2">
 				<name>Tough Skin</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>3</points_per_level>
-				<reference>DFA:16</reference>
+				<reference>DFA16</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -23,7 +23,7 @@
 				<type>Mental</type>
 				<levels>1</levels>
 				<points_per_level>-5</points_per_level>
-				<reference>DFA:11</reference>
+				<reference>DFA11</reference>
 				<categories>
 					<category>Attribute</category>
 					<category>Disadvantage</category>
@@ -37,14 +37,14 @@
 				<name>Dwarven Gear</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
-				<reference>DFA:43</reference>
+				<reference>DFA43</reference>
 			</advantage>
 			<advantage version="2">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
 				<levels>3</levels>
 				<points_per_level>3</points_per_level>
-				<reference>DFA:10</reference>
+				<reference>DFA10</reference>
 				<categories>
 					<category>Advantage</category>
 					<category>Attribute</category>
@@ -63,7 +63,7 @@
 				<type>Mental</type>
 				<base_points>-15</base_points>
 				<cr>12</cr>
-				<reference>DFA:60</reference>
+				<reference>DFA60</reference>
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
@@ -73,7 +73,7 @@
 				<type>Physical</type>
 				<levels>1</levels>
 				<points_per_level>10</points_per_level>
-				<reference>DFA:9</reference>
+				<reference>DFA9</reference>
 				<categories>
 					<category>Advantage</category>
 					<category>Attribute</category>
@@ -88,7 +88,7 @@
 				<type>Physical</type>
 				<levels>2</levels>
 				<points_per_level>3</points_per_level>
-				<reference>DFA:16</reference>
+				<reference>DFA16</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -102,7 +102,7 @@
 				<type>Physical</type>
 				<levels>5</levels>
 				<points_per_level>1</points_per_level>
-				<reference>DFA:51</reference>
+				<reference>DFA51</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -110,9 +110,9 @@
 			<advantage version="2">
 				<name>Resistant to Poison</name>
 				<type>Physical</type>
-				<cost type="points">6</cost>
-				<name>+8 to all HT rolls to resist</name>
-				<reference>DFA:52</reference>
+				<levels>6</levels>
+				<points_per_level>1</points_per_level>
+				<reference>DFA52</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
@@ -121,17 +121,17 @@
 				<name>Stubbornness</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
-				<reference>DFA:66</reference>
+				<reference>DFA66</reference>
 				<categories>
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
 			<advantage version="2">
-				<name>Talent (Pickaxe Penchant)</name>
+				<name>Pickaxe Penchant</name>
 				<type>Mental</type>
 				<levels>1</levels>
 				<points_per_level>5</points_per_level>
-				<reference>DFA:44</reference>
+				<reference>DFA44</reference>
 				<categories>
 					<category>Advantage</category>
 				</categories>
