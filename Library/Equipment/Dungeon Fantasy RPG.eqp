@@ -1165,7 +1165,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Brigandine Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -1189,10 +1189,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>5</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>5</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -1940,6 +1936,17 @@
 		<notes>Strap on for feet and hands; eliminate penalty for scaling.</notes>
 		<categories>
 			<category>Covert Ops and Security Gear</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Clothing</description>
+		<legality_class>4</legality_class>
+		<value>120</value>
+		<weight>2 lb</weight>
+		<reference>DFA110</reference>
+		<categories>
+			<category>Clothes</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -3178,7 +3185,7 @@
 			<amount>1</amount>
 		</skill_bonus>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Epic Plate Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -3202,10 +3209,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>9</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>9</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -3404,7 +3407,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Extra-Heavy Plate Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -3428,10 +3431,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>8</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>8</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -4529,7 +4528,7 @@
 			<amount>2</amount>
 		</attribute_bonus>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Heavy Cloth or Leather Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -4553,10 +4552,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>2</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>2</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -4659,7 +4654,7 @@
 			</dr_bonus>
 		</equipment>
 	</equipment_container>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Heavy Mail Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -4685,10 +4680,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>5</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>5</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -4797,7 +4788,7 @@
 			</dr_bonus>
 		</equipment>
 	</equipment_container>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Heavy Plate Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -4821,10 +4812,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>7</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>7</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -4927,7 +4914,7 @@
 			</dr_bonus>
 		</equipment>
 	</equipment_container>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Heavy Scale Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -4951,10 +4938,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>5</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>5</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -5057,7 +5040,7 @@
 			</dr_bonus>
 		</equipment>
 	</equipment_container>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Heavy Segmented Plate Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -5081,10 +5064,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>5</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>5</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -7230,7 +7209,7 @@
 			<amount>1</amount>
 		</attribute_bonus>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Light Cloth, Leather, or Fur Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -7254,10 +7233,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>1</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>1</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -7540,7 +7515,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Light Mail Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -7566,10 +7541,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>3</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>3</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -7726,7 +7697,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Light Scale Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -7752,10 +7723,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>3</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>3</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -7864,7 +7831,7 @@
 			</dr_bonus>
 		</equipment>
 	</equipment_container>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Light Segmented Plate Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -7888,10 +7855,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>3</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>3</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -9074,7 +9037,7 @@
 			<category>Concoctions:Potions</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Mail Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -9100,10 +9063,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>4</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>4</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -10215,17 +10174,6 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
-		<description>Oil, Lantern, 1 Pint</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<weight>1 lb</weight>
-		<reference>DFA111</reference>
-		<categories>
-			<category>Light Sources</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
 		<description>Oozing Doom</description>
 		<legality_class>4</legality_class>
 		<value>100</value>
@@ -10478,7 +10426,7 @@
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Plate Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -10502,10 +10450,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>6</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>6</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -11469,7 +11413,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Scale Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -11495,10 +11439,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>4</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>4</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -11722,7 +11662,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment_container version="4" open="no">
+	<equipment_container version="4" open="yes">
 		<description>Segmented Plate Suit</description>
 		<legality_class>4</legality_class>
 		<value>0</value>
@@ -11746,10 +11686,6 @@
 			</dr_bonus>
 			<dr_bonus>
 				<location>neck</location>
-				<amount>4</amount>
-			</dr_bonus>
-			<dr_bonus>
-				<location>torso</location>
 				<amount>4</amount>
 			</dr_bonus>
 			<dr_bonus>
@@ -14048,6 +13984,17 @@
 		<categories>
 			<category>Concoctions</category>
 			<category>Concoctions:Potions</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Oil, Lantern, 1 Pint</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>1 lb</weight>
+		<reference>DFA111</reference>
+		<categories>
+			<category>Light Sources</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
