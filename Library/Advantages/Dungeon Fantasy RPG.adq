@@ -2756,7 +2756,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage_container version="2" open="no">
+	<advantage_container version="2" open="yes">
 		<name>Holy Abilities</name>
 		<reference>DFA20</reference>
 		<categories>
@@ -2852,7 +2852,7 @@
 			<name>Resist Evil</name>
 			<type>Mental, Supernatural</type>
 			<levels>1</levels>
-			<points_per_level>9</points_per_level>
+			<points_per_level>1</points_per_level>
 			<reference>DFA27</reference>
 			<categories>
 				<category>Advantage</category>
