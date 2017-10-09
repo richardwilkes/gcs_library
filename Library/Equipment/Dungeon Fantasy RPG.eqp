@@ -208,6 +208,57 @@
 		<weight>0.1 lb</weight>
 		<reference>DFA104</reference>
 		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Bodkin Point Arrow</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.1 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes bow damage type to pi, and gives armor divisor (2).</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Flaming Arrow Bundle</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<reference>DFA105</reference>
+		<notes>Adds the flaming property to any arrow.</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Flaming Crossbow Bolt Bundle</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<reference>DFA105</reference>
+		<notes>Adds the flaming property to any crossbow bolt.</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Cutting Point Arrow</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.1 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes bow damage type to cut.</notes>
+		<categories>
+			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
@@ -2278,6 +2329,32 @@
 		<value>2</value>
 		<weight>0.06 lb</weight>
 		<reference>DFA104</reference>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Bodkin Point Crossbow Bolt</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.06 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes crossbow damage type to pi, and gives armor divisor (2).</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Cutting Point Crossbow Bolt</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.06 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes crossbow damage type to cut.</notes>
 		<categories>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
@@ -4437,6 +4514,20 @@
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
+	<equipment_container version="4" open="yes">
+		<description>Haversack</description>
+		<legality_class>4</legality_class>
+		<value>30</value>
+		<weight>1 lb</weight>
+		<reference>PY106:11</reference>
+		<notes>Worn on Shoulder. Holds 10 lbs</notes>
+		<categories>
+			<category>Containers</category>
+		</categories>
+		<prereq_list all="yes">
+			<contained_weight_prereq has="yes" compare="at most">10 lb</contained_weight_prereq>
+		</prereq_list>
+	</equipment_container>
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Healer's Kit (@Specialty@)</description>
@@ -10174,6 +10265,17 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
+		<description>Oil, Lantern, 1 Pint</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>1 lb</weight>
+		<reference>DFA111</reference>
+		<categories>
+			<category>Light Sources</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
 		<description>Oozing Doom</description>
 		<legality_class>4</legality_class>
 		<value>100</value>
@@ -12557,6 +12659,92 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
+		<description>Small Belt Knife</description>
+		<legality_class>4</legality_class>
+		<value>15</value>
+		<weight>0.25 lb</weight>
+		<reference>PY106:11</reference>
+		<melee_weapon>
+			<damage>sw-3 cut</damage>
+			<strength>5</strength>
+			<usage>Swung</usage>
+			<reach>C,1</reach>
+			<parry>-1</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-1</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sword!</name>
+				<modifier>-1</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr-1 imp</damage>
+			<strength>5</strength>
+			<usage>Thrust</usage>
+			<reach>C</reach>
+			<parry>-1</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-1</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Sword!</name>
+				<modifier>-1</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
 		<description>Small Buckler</description>
 		<legality_class>4</legality_class>
 		<value>40</value>
@@ -13984,17 +14172,6 @@
 		<categories>
 			<category>Concoctions</category>
 			<category>Concoctions:Potions</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Oil, Lantern, 1 Pint</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<weight>1 lb</weight>
-		<reference>DFA111</reference>
-		<categories>
-			<category>Light Sources</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
