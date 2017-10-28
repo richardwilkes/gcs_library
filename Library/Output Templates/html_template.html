@@ -176,6 +176,8 @@ by the Mozilla Public License, version 2.0.
             grid-template:
                 "header header header header"
                 "roll where penalty dr";
+            grid-template-rows: 0fr 0fr;
+            grid-auto-rows: 1fr;
         }
 
         #encumbrance .header:first-child,
@@ -478,6 +480,13 @@ by the Mozilla Public License, version 2.0.
             color: white;
             text-align: center;
             font-size: 80%;
+        }
+
+        #location .header:nth-last-child(8n+4),
+        #location .header:nth-last-child(8n+3),
+        #location .header:nth-last-child(8n+2),
+        #location .header:nth-last-child(8n+1) {
+            background-color: black;
         }
 
         #encumbrance > div:nth-last-child(-n+4),
