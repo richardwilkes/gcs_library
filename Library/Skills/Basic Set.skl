@@ -2384,10 +2384,10 @@
 			<category>Spy</category>
 		</categories>
 		<prereq_list all="yes">
-			<advantage_prereq has="yes">
+			<skill_prereq has="yes">
 				<name compare="is">psychology</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
+				<specialization compare="is anything"></specialization>
+			</skill_prereq>
 		</prereq_list>
 	</skill>
 	<skill version="2">
