@@ -759,9 +759,9 @@
 					</skill_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="2" open="yes" type="meta trait">
 				<name>Class Disadvantages</name>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="2" open="yes" type="meta trait">
 					<name>-15 Points Chosen From:</name>
 					<advantage version="2">
 						<name>Chummy</name>
@@ -822,13 +822,13 @@
 						<type>Mental</type>
 						<base_points>-10</base_points>
 						<cr adj="fright check bonus">12</cr>
-						<reference>DFA67</reference>
+						<reference>DFA68</reference>
 						<categories>
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes" type="meta trait">
+				<advantage_container version="2" open="no" type="meta trait">
 					<name>-35 points from here or the other block</name>
 					<advantage version="2">
 						<name>Code of Honor (Gentleman's)</name>

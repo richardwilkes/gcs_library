@@ -353,7 +353,7 @@
 		</categories>
 		<dr_bonus>
 			<location>full body</location>
-			<amount per_level="yes">1</amount>
+			<amount>1</amount>
 		</dr_bonus>
 	</advantage>
 	<advantage version="2">
@@ -2270,7 +2270,7 @@
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
-			<name compare="is">camoflage</name>
+			<name compare="is">camouflage</name>
 			<specialization compare="is anything"></specialization>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
@@ -5393,7 +5393,7 @@
 		<type>Mental</type>
 		<base_points>-10</base_points>
 		<cr adj="fright check bonus">12</cr>
-		<reference>DFA67</reference>
+		<reference>DFA68</reference>
 		<categories>
 			<category>Disadvantage</category>
 		</categories>
