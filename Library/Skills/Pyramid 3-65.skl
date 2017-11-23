@@ -174,18 +174,5 @@
 				</skill_prereq>
 			</prereq_list>
 		</skill>
-		<skill version="2">
-			<name>Swift Action</name>
-			<difficulty>IQ/H</difficulty>
-			<points>1</points>
-			<reference>PY65:12</reference>
-			<prereq_list all="yes">
-				<skill_prereq has="yes">
-					<name compare="is">Motivation</name>
-					<specialization compare="is anything"></specialization>
-					<level compare="at least">12</level>
-				</skill_prereq>
-			</prereq_list>
-		</skill>
 	</skill_container>
 </skill_list>
