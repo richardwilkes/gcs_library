@@ -23677,98 +23677,6 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
-		<description>Hopkins &amp; Allen Defender, .22 Short</description>
-		<tech_level>5</tech_level>
-		<legality_class>3</legality_class>
-		<value>75</value>
-		<weight>1 lb</weight>
-		<reference>HT94</reference>
-		<ranged_weapon>
-			<damage>1d-1 pi-</damage>
-			<strength>7</strength>
-			<accuracy>2</accuracy>
-			<range>50/550</range>
-			<rate_of_fire>3</rate_of_fire>
-			<shots>7(5i)</shots>
-			<bulk>-1</bulk>
-			<recoil>2</recoil>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Gun!</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-		</ranged_weapon>
-		<notes>Malf 16.</notes>
-		<categories>
-			<category>Firearms</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
 		<description>Hotchkiss 1-pdr, 37x94mmR</description>
 		<tech_level>5</tech_level>
 		<legality_class>1</legality_class>
@@ -34725,19 +34633,6 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
-		<description>Portable TV</description>
-		<tech_level>8</tech_level>
-		<legality_class>4</legality_class>
-		<value>100</value>
-		<weight>2 lb</weight>
-		<reference>HT45</reference>
-		<notes>Rechargeable battery lasts 4hrs.</notes>
-		<categories>
-			<category>General Equipment</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
 		<description>Portable Typewriter</description>
 		<tech_level>6</tech_level>
 		<legality_class>4</legality_class>
@@ -42004,19 +41899,6 @@
 		<value>1000</value>
 		<weight>15 lb</weight>
 		<reference>HT53</reference>
-		<categories>
-			<category>General Equipment</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Shirt Pocket Receiver</description>
-		<tech_level>8</tech_level>
-		<legality_class>4</legality_class>
-		<value>0</value>
-		<weight>0.5 lb</weight>
-		<reference>HT45</reference>
-		<notes>2xXS/5hrs. Comes with some TV Watches.</notes>
 		<categories>
 			<category>General Equipment</category>
 		</categories>
@@ -50110,98 +49992,6 @@
 			<range>140/1,600</range>
 			<rate_of_fire>3</rate_of_fire>
 			<shots>12+1(3)</shots>
-			<bulk>-2</bulk>
-			<recoil>2</recoil>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Pistol</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Rifle</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Musket</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Shotgun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Machine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Submachine Gun</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Gun!</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Grenade Launcher</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Gyroc</specialization>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Guns</name>
-				<specialization>Light Anti-Armor Weapon</specialization>
-				<modifier>-4</modifier>
-			</default>
-		</ranged_weapon>
-		<notes>Accessory rail.</notes>
-		<categories>
-			<category>Firearms</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Walther P99, 9x19mm</description>
-		<tech_level>8</tech_level>
-		<legality_class>3</legality_class>
-		<value>610</value>
-		<weight>2 lb</weight>
-		<reference>HT101</reference>
-		<ranged_weapon>
-			<damage>2d+1 pi</damage>
-			<strength>8</strength>
-			<accuracy>2</accuracy>
-			<range>140/1,600</range>
-			<rate_of_fire>3</rate_of_fire>
-			<shots>16+1(3)</shots>
 			<bulk>-2</bulk>
 			<recoil>2</recoil>
 			<default>
