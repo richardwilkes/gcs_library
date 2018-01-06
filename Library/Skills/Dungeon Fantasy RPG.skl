@@ -1740,7 +1740,7 @@
 	</skill>
 	<skill version="2">
 		<name>Lockpicking</name>
-		<difficulty>IQ/A</difficulty>
+		<difficulty>DX/A</difficulty>
 		<points>1</points>
 		<reference>DFA80</reference>
 		<categories>
@@ -1750,7 +1750,7 @@
 			<category>Technical</category>
 		</categories>
 		<default>
-			<type>IQ</type>
+			<type>DX</type>
 			<modifier>-5</modifier>
 		</default>
 	</skill>

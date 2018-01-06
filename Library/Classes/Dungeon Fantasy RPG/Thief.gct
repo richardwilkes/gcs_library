@@ -964,7 +964,7 @@
 	<skill_list>
 		<skill_container version="2" open="yes">
 			<name>Thief</name>
-			<skill_container version="2" open="no">
+			<skill_container version="2" open="yes">
 				<name>Mandatory</name>
 				<skill version="2">
 					<name>Acrobatics</name>
@@ -1137,7 +1137,7 @@
 				</skill>
 				<skill version="2">
 					<name>Lockpicking</name>
-					<difficulty>IQ/A</difficulty>
+					<difficulty>DX/A</difficulty>
 					<points>4</points>
 					<reference>DFA80</reference>
 					<categories>
@@ -1147,7 +1147,7 @@
 						<category>Technical</category>
 					</categories>
 					<default>
-						<type>IQ</type>
+						<type>DX</type>
 						<modifier>-5</modifier>
 					</default>
 				</skill>
