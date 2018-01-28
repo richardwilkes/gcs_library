@@ -4392,7 +4392,7 @@
 			</spell>
 		</spell_container>
 	</spell_container>
-	<spell_container version="2" open="no">
+	<spell_container version="2" open="yes">
 		<name>Wizardly</name>
 		<spell version="2">
 			<name>Agonize</name>
@@ -11317,6 +11317,25 @@
 			<prereq_list all="yes">
 				<spell_prereq has="yes">
 					<name compare="is">sound</name>
+				</spell_prereq>
+			</prereq_list>
+		</spell>
+		<spell version="2">
+			<name>Walk on Air</name>
+			<college>Air</college>
+			<power_source>Arcane</power_source>
+			<spell_class>Regular</spell_class>
+			<casting_cost>3</casting_cost>
+			<maintenance_cost>2</maintenance_cost>
+			<casting_time>1 sec</casting_time>
+			<duration>1 min</duration>
+			<reference>DFS17</reference>
+			<categories>
+				<category>Air</category>
+			</categories>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">shape air</name>
 				</spell_prereq>
 			</prereq_list>
 		</spell>

@@ -214,56 +214,6 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
-		<description>Bodkin Point Arrow</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<weight>0.1 lb</weight>
-		<reference>DFA105</reference>
-		<notes>Changes bow damage type to pi, and gives armor divisor (2).</notes>
-		<categories>
-			<category>Ammunition</category>
-			<category>Missile Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Flaming Arrow Bundle</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<reference>DFA105</reference>
-		<notes>Adds the flaming property to any arrow.</notes>
-		<categories>
-			<category>Ammunition</category>
-			<category>Missile Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Flaming Crossbow Bolt Bundle</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<reference>DFA105</reference>
-		<notes>Adds the flaming property to any crossbow bolt.</notes>
-		<categories>
-			<category>Ammunition</category>
-			<category>Missile Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Cutting Point Arrow</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<weight>0.1 lb</weight>
-		<reference>DFA105</reference>
-		<notes>Changes bow damage type to cut.</notes>
-		<categories>
-			<category>Ammunition</category>
-			<category>Missile Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
 		<description>Atlatl</description>
 		<legality_class>4</legality_class>
 		<value>20</value>
@@ -1042,6 +992,32 @@
 		</melee_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Bodkin Point Arrow</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.1 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes bow damage type to pi, and gives armor divisor (2).</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Bodkin Point Crossbow Bolt</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.06 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes crossbow damage type to pi, and gives armor divisor (2).</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2336,32 +2312,6 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
-		<description>Bodkin Point Crossbow Bolt</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<weight>0.06 lb</weight>
-		<reference>DFA105</reference>
-		<notes>Changes crossbow damage type to pi, and gives armor divisor (2).</notes>
-		<categories>
-			<category>Ammunition</category>
-			<category>Missile Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Cutting Point Crossbow Bolt</description>
-		<legality_class>4</legality_class>
-		<value>2</value>
-		<weight>0.06 lb</weight>
-		<reference>DFA105</reference>
-		<notes>Changes crossbow damage type to cut.</notes>
-		<categories>
-			<category>Ammunition</category>
-			<category>Missile Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
 		<description>Crossbow Rest</description>
 		<legality_class>4</legality_class>
 		<value>40</value>
@@ -2591,6 +2541,32 @@
 			<location>hands</location>
 			<amount>4</amount>
 		</dr_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Cutting Point Arrow</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.1 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes bow damage type to cut.</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Cutting Point Crossbow Bolt</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<weight>0.06 lb</weight>
+		<reference>DFA105</reference>
+		<notes>Changes crossbow damage type to cut.</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
@@ -3800,7 +3776,7 @@
 		<description>Fishhooks &amp; Line</description>
 		<legality_class>4</legality_class>
 		<value>50</value>
-		<weight>0.01 lb</weight>
+		<weight>0.1 lb</weight>
 		<reference>DFA111</reference>
 		<categories>
 			<category>Camping and Survival Gear</category>
@@ -3847,6 +3823,30 @@
 		</melee_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Flaming Arrow Bundle</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<reference>DFA105</reference>
+		<notes>Adds the flaming property to any arrow.</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Flaming Crossbow Bolt Bundle</description>
+		<legality_class>4</legality_class>
+		<value>2</value>
+		<reference>DFA105</reference>
+		<notes>Adds the flaming property to any crossbow bolt.</notes>
+		<categories>
+			<category>Ammunition</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4118,7 +4118,7 @@
 		<weight>8 lb</weight>
 		<reference>DFA102</reference>
 		<melee_weapon>
-			<damage>sw+3 cut</damage>
+			<damage>sw+4 cut</damage>
 			<strength>12&#8225;</strength>
 			<usage>Swung</usage>
 			<reach>1,2*</reach>
@@ -9623,9 +9623,10 @@
 		<weight>15 lb</weight>
 		<reference>DFA107</reference>
 		<melee_weapon>
-			<damage>-</damage>
-			<strength>0</strength>
-			<reach>-</reach>
+			<damage>thr cr</damage>
+			<strength>-</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
 			<parry>No</parry>
 			<block>+0</block>
 			<default>
@@ -9635,13 +9636,52 @@
 			<default>
 				<type>Skill</type>
 				<name>Shield</name>
-				<specialization>Shield</specialization>
 				<modifier>-2</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shield</name>
-				<specialization>Force Shield</specialization>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Medium Buckler with Spike</description>
+		<legality_class>4</legality_class>
+		<value>80</value>
+		<weight>20 lb</weight>
+		<reference>DFA107</reference>
+		<melee_weapon>
+			<damage>thr+1 cr</damage>
+			<strength>-</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
 				<modifier>-2</modifier>
 			</default>
 			<default>
@@ -12751,10 +12791,10 @@
 		<weight>8 lb</weight>
 		<reference>DFA107</reference>
 		<melee_weapon>
-			<damage>-</damage>
-			<strength>0</strength>
-			<usage>Block Only</usage>
-			<reach>-</reach>
+			<damage>thr cr</damage>
+			<strength>-</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
 			<parry>No</parry>
 			<block>+0</block>
 			<default>
@@ -12765,19 +12805,58 @@
 				<type>Skill</type>
 				<name>Shield</name>
 				<specialization>Buckler</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shield</name>
-				<specialization>Force Shield</specialization>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shield</name>
-				<specialization>Shield</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Small Buckler with Spike</description>
+		<legality_class>4</legality_class>
+		<value>60</value>
+		<weight>13 lb</weight>
+		<reference>DFA107</reference>
+		<melee_weapon>
+			<damage>thr+1 cr</damage>
+			<strength>-</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<modifier>-2</modifier>
 			</default>
 		</melee_weapon>
 		<categories>

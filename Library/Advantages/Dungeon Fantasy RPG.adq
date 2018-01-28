@@ -4761,6 +4761,31 @@
 		</categories>
 	</advantage>
 	<advantage version="2">
+		<name>Teeth, Sharp</name>
+		<type>Physical, Exotic</type>
+		<base_points>1</base_points>
+		<melee_weapon>
+			<damage>thr-1 cut</damage>
+			<usage>Bite</usage>
+			<reach>C</reach>
+			<parry>No</parry>
+			<block>No</block>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>0</modifier>
+			</default>
+		</melee_weapon>
+		<reference>DFA43</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="2">
 		<name>Telescopic Vision</name>
 		<type>Physical</type>
 		<levels>1</levels>
