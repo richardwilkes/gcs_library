@@ -967,6 +967,58 @@
 		<skill_container version="2" open="yes">
 			<name>Bard</name>
 			<skill_container version="2" open="no">
+				<name>Choose 1</name>
+				<skill version="2">
+					<name>Bow</name>
+					<difficulty>DX/A</difficulty>
+					<points>2</points>
+					<reference>DFA83</reference>
+					<categories>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-5</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Throwing</name>
+					<difficulty>DX/A</difficulty>
+					<points>2</points>
+					<reference>DFA91</reference>
+					<categories>
+						<category>Athletic</category>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-3</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Dropping</name>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+				<skill version="2">
+					<name>Thrown Weapon</name>
+					<specialization>Knife</specialization>
+					<difficulty>DX/E</difficulty>
+					<points>2</points>
+					<reference>DFA91</reference>
+					<categories>
+						<category>Combat/Weapon</category>
+						<category>Ranged Combat</category>
+					</categories>
+					<default>
+						<type>DX</type>
+						<modifier>-4</modifier>
+					</default>
+				</skill>
+			</skill_container>
+			<skill_container version="2" open="no">
 				<name>Compulsory Skills</name>
 				<skill version="2">
 					<name>Acting</name>
@@ -1681,6 +1733,532 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
+			</skill_container>
+			<skill_container version="2" open="no">
+				<name>Choose 1 of these melee skill packages</name>
+				<skill_container version="2" open="yes">
+					<name>Sword</name>
+					<skill_container version="2" open="yes">
+						<name>Choose 1</name>
+						<skill version="2">
+							<name>Rapier</name>
+							<difficulty>DX/A</difficulty>
+							<points>12</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Saber</name>
+							<difficulty>DX/A</difficulty>
+							<points>12</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortswort</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Rapier</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Smallsword</name>
+							<difficulty>DX/A</difficulty>
+							<points>12</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Rapier</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+					</skill_container>
+				</skill_container>
+				<skill_container version="2" open="yes">
+					<name>Sword and Dagger</name>
+					<skill version="2">
+						<name>Main-Gauche</name>
+						<difficulty>DX/A</difficulty>
+						<points>4</points>
+						<reference>DFA81</reference>
+						<categories>
+							<category>Combat/Weapon</category>
+							<category>Melee Combat</category>
+						</categories>
+						<default>
+							<type>DX</type>
+							<modifier>-5</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Jitte/Sai</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Knife</name>
+							<modifier>-4</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Rapier</name>
+							<modifier>-3</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Saber</name>
+							<modifier>-3</modifier>
+						</default>
+						<default>
+							<type>Skill</type>
+							<name>Smallsword</name>
+							<modifier>-3</modifier>
+						</default>
+					</skill>
+					<skill_container version="2" open="yes">
+						<name>Choose 1</name>
+						<skill version="2">
+							<name>Rapier</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Saber</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortswort</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Rapier</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Shortsword</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-2</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Force Sword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Jitte/Sai</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Knife</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Tonfa</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Smallsword</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Rapier</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+					</skill_container>
+				</skill_container>
+				<skill_container version="2" open="yes">
+					<name>Sword and Shield</name>
+					<skill_container version="2" open="yes">
+						<name>Choose 1</name>
+						<skill version="2">
+							<name>Rapier</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Saber</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortswort</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Rapier</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Shortsword</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>Skill</type>
+								<name>Broadsword</name>
+								<modifier>-2</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Force Sword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Jitte/Sai</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Knife</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Smallsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Tonfa</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Smallsword</name>
+							<difficulty>DX/A</difficulty>
+							<points>8</points>
+							<reference>DFA81</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortsword</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Rapier</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Saber</name>
+								<modifier>-3</modifier>
+							</default>
+						</skill>
+					</skill_container>
+					<skill_container version="2" open="yes">
+						<name>Choose 1</name>
+						<skill version="2">
+							<name>Cloak</name>
+							<difficulty>DX/A</difficulty>
+							<points>4</points>
+							<reference>DFA74</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-5</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Net</name>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shield</name>
+								<modifier>-4</modifier>
+							</default>
+						</skill>
+						<skill version="2">
+							<name>Shield</name>
+							<specialization>Buckler</specialization>
+							<difficulty>DX/E</difficulty>
+							<points>4</points>
+							<reference>DFA88</reference>
+							<categories>
+								<category>Combat/Weapon</category>
+								<category>Melee Combat</category>
+							</categories>
+							<default>
+								<type>DX</type>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shield</name>
+								<modifier>-2</modifier>
+							</default>
+						</skill>
+					</skill_container>
+				</skill_container>
 			</skill_container>
 		</skill_container>
 	</skill_list>
