@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <character id="4bbaf8d0-e242-4aaa-a733-b69bc9c93a7b" version="3">
 	<created_date>Dec 27, 2005</created_date>
-	<modified_date>Sep 20, 2016 10:37 AM</modified_date>
+	<modified_date>Mar 31, 2018 11:35 AM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<campaign>Sample</campaign>
@@ -2988,7 +2988,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 				<category>Missile Weapon</category>
 			</categories>
 		</equipment>
-		<equipment_container version="4" open="yes" state="equipped">
+		<equipment_container version="4" open="yes" state="carried">
 			<description>Bolt Case</description>
 			<legality_class>4</legality_class>
 			<value>20</value>
@@ -2997,7 +2997,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 			<prereq_list all="yes">
 				<contained_weight_prereq has="yes" compare="at most">1.21 lb</contained_weight_prereq>
 			</prereq_list>
-			<equipment version="4" state="equipped">
+			<equipment version="4" state="carried">
 				<quantity>20</quantity>
 				<description>Crossbow Bolt</description>
 				<tech_level>2</tech_level>
@@ -3011,13 +3011,13 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 				</categories>
 			</equipment>
 		</equipment_container>
-		<equipment_container version="4" open="yes" state="equipped">
+		<equipment_container version="4" open="yes" state="carried">
 			<description>Leather Belt</description>
 			<tech_level>2</tech_level>
 			<legality_class>4</legality_class>
 			<value>5</value>
 			<weight>0.25 lb</weight>
-			<equipment_container version="4" open="yes" state="equipped">
+			<equipment_container version="4" open="yes" state="carried">
 				<description>Scabbard, Sword</description>
 				<tech_level>1</tech_level>
 				<legality_class>4</legality_class>
@@ -3150,7 +3150,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 					</categories>
 				</equipment>
 			</equipment_container>
-			<equipment_container version="4" open="yes" state="equipped">
+			<equipment_container version="4" open="yes" state="carried">
 				<description>Scabbard, Knife</description>
 				<tech_level>1</tech_level>
 				<legality_class>4</legality_class>
@@ -3264,7 +3264,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 					</categories>
 				</equipment>
 			</equipment_container>
-			<equipment_container version="4" open="yes" state="equipped">
+			<equipment_container version="4" open="yes" state="carried">
 				<description>Purse, Small</description>
 				<tech_level>1</tech_level>
 				<legality_class>4</legality_class>
@@ -3274,7 +3274,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 				<prereq_list all="yes">
 					<contained_weight_prereq has="yes" compare="at most">1 lb</contained_weight_prereq>
 				</prereq_list>
-				<equipment version="4" state="equipped">
+				<equipment version="4" state="carried">
 					<quantity>6</quantity>
 					<description>Silver Eagle</description>
 					<legality_class>4</legality_class>
@@ -3284,7 +3284,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 						<category>Money: Alternative Medieval Coins</category>
 					</categories>
 				</equipment>
-				<equipment version="4" state="equipped">
+				<equipment version="4" state="carried">
 					<quantity>9</quantity>
 					<description>Copper Slug</description>
 					<legality_class>4</legality_class>
@@ -3294,7 +3294,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 						<category>Money: Alternative Medieval Coins</category>
 					</categories>
 				</equipment>
-				<equipment version="4" state="equipped">
+				<equipment version="4" state="carried">
 					<quantity>12</quantity>
 					<description>Copper Penny</description>
 					<legality_class>4</legality_class>
@@ -3306,7 +3306,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 				</equipment>
 			</equipment_container>
 		</equipment_container>
-		<equipment_container version="4" open="yes" state="equipped">
+		<equipment_container version="4" open="yes" state="carried">
 			<description>Backpack, Small</description>
 			<tech_level>1</tech_level>
 			<legality_class>4</legality_class>
@@ -3316,7 +3316,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 			<prereq_list all="yes">
 				<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 			</prereq_list>
-			<equipment_container version="4" open="yes" state="equipped">
+			<equipment_container version="4" open="yes" state="carried">
 				<description>Wineskin</description>
 				<tech_level>0</tech_level>
 				<legality_class>4</legality_class>
@@ -3326,7 +3326,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 				<prereq_list all="yes">
 					<contained_weight_prereq has="yes" compare="at most">8 lb</contained_weight_prereq>
 				</prereq_list>
-				<equipment version="4" state="equipped">
+				<equipment version="4" state="carried">
 					<quantity>1</quantity>
 					<description>Water, 1 pint</description>
 					<legality_class>4</legality_class>
@@ -3334,7 +3334,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 					<weight>2 lb</weight>
 				</equipment>
 			</equipment_container>
-			<equipment version="4" state="equipped">
+			<equipment version="4" state="carried">
 				<quantity>3</quantity>
 				<description>Traveler's Rations</description>
 				<tech_level>0</tech_level>
@@ -3359,7 +3359,7 @@ zenAh4duo/uUtuLgDC+D7Jz/HzqC1VWwj5JaAAAAAElFTkSuQmCC
 			</equipment>
 		</equipment_container>
 	</equipment_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.5</width>
 		<height>11</height>
