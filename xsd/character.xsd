@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="note_list.xsd" />
 	<xs:include schemaLocation="skill_list.xsd" />
 	<xs:include schemaLocation="advantage_list.xsd" />
 	<xs:include schemaLocation="spell_list.xsd" />
@@ -7,11 +8,12 @@
 
 	<xs:element name="character">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="skill_list" />
 				<xs:element ref="advantage_list" />
 				<xs:element ref="spell_list" />
 				<xs:element ref="equipment_list" />
+				<xs:element ref="note_list" />
 				<xs:element ref="profile" />
 				<xs:element ref="print_settings" />
 				<xs:element name="created_date" type="xs:string" />
@@ -31,14 +33,16 @@
 				<xs:element name="include_kick" type="xs:boolean" />
 				<xs:element name="include_kick_with_boots" type="xs:boolean" />
 			</xs:choice>
-			<xs:attribute name="unique_id" type="xs:string" use="required" />
+			<!--<xs:attribute name="unique_id" type="xs:string" use="required" />-->
+			<xs:attribute name="id" type="xs:string" />
+			<xs:attribute name="unique_id" type="xs:string" />
 			<xs:attribute name="version" type="xs:unsignedShort" use="required" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="profile">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="player_name" type="xs:string" />
 				<xs:element name="campaign" type="xs:string" />
 				<xs:element name="name" type="xs:string" />
@@ -64,7 +68,7 @@
 
 	<xs:element name="print_settings">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="orientation" type="xs:string" />
 				<xs:element name="width" type="xs:decimal" />
 				<xs:element name="height" type="xs:decimal" />
@@ -74,10 +78,11 @@
 				<xs:element name="right_margin" type="xs:decimal" />
 				<xs:element name="ink_chromaticity" type="xs:string" />
 				<xs:element name="sides" type="xs:string" />
+				<xs:element name="number_up" type="xs:int" />
 				<xs:element name="quality" type="xs:string" />
 				<xs:element name="resolution" type="xs:string" />
 			</xs:choice>
-			<xs:attribute name="printer" type="xs:string" use="optional" />
+			<xs:attribute name="printer" type="xs:string" />
 			<xs:attribute name="units" type="xs:string" use="required" />
 		</xs:complexType>
 	</xs:element>

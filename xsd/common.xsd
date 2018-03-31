@@ -4,7 +4,7 @@
 
 	<xs:element name="skill_bonus">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="amount" />
 				<xs:element name="name" type="StringWithCompareAttribute" />
 				<xs:element name="specialization" type="StringWithCompareAttribute" />
@@ -14,7 +14,7 @@
 
 	<xs:element name="weapon_bonus" >
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="amount" />
 				<xs:element name="name" type="StringWithCompareAttribute" />
 				<xs:element name="specialization" type="StringWithCompareAttribute" />
@@ -25,18 +25,18 @@
 
 	<xs:element name="spell_bonus">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="amount" />
 				<xs:element name="spell_name" type="StringWithCompareAttribute" />
 				<xs:element name="college_name" type="StringWithCompareAttribute" />
 			</xs:choice>
-			<xs:attribute name="all_colleges" type="xs:string" use="optional" />
+			<xs:attribute name="all_colleges" type="xs:string" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="dr_bonus">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="amount" />
 				<xs:element name="location" type="xs:string" />
 			</xs:choice>
@@ -45,7 +45,7 @@
 
 	<xs:element name="attribute_bonus">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="attribute" />
 				<xs:element ref="amount" />
 			</xs:choice>
@@ -56,7 +56,7 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
-					<xs:attribute name="limitation" type="xs:string" use="optional" />
+					<xs:attribute name="limitation" type="xs:string" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -83,7 +83,7 @@
 
 	<xs:element name="melee_weapon">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="default" />
 				<xs:element name="damage" type="xs:string" />
 				<xs:element name="strength" type="xs:string" />
@@ -99,7 +99,7 @@
 
 	<xs:element name="prereq_list">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="prereq_list" />
 				<xs:element ref="skill_prereq" />
 				<xs:element ref="spell_prereq" />
@@ -109,31 +109,31 @@
 				<xs:element name="when_tl" type="IntegerWithCompareAttribute" />
 				<xs:element name="college_count" type="IntegerWithCompareAttribute" />
 			</xs:choice>
-			<xs:attribute name="all" type="xs:string" use="required" />
+			<xs:attribute name="all" use="required" type="YesNo" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="skill_prereq">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="name" type="StringWithCompareAttribute" />
 				<xs:element name="level" type="IntegerWithCompareAttribute" />
 				<xs:element name="specialization" type="StringWithCompareAttribute" />
 			</xs:choice>
-			<xs:attribute name="has" type="xs:string" use="required" />
+			<xs:attribute name="has" use="required" type="YesNo" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="spell_prereq">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="name" type="StringWithCompareAttribute" />
-				<xs:element name="college" type="StringWithCompareAttribute" />
+				<xs:element name="college" type="CollegeType" />
 				<xs:element name="college_count" type="IntegerWithCompareAttribute" />
 				<xs:element name="quantity" type="IntegerWithCompareAttribute" />
 				<xs:element name="any" type="xs:unsignedShort" default="0" />
 			</xs:choice>
-			<xs:attribute name="has" type="xs:string" use="required" />
+			<xs:attribute name="has" use="required" type="YesNo" />
 		</xs:complexType>
 	</xs:element>
 
@@ -141,10 +141,10 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:unsignedInt">
-					<xs:attribute name="has" type="xs:string" use="required" />
+					<xs:attribute name="has" use="required" type="YesNo" />
 					<xs:attribute name="which" type="xs:string" use="required" />
 					<xs:attribute name="compare" type="xs:string" use="required" />
-					<xs:attribute name="combined_with" type="xs:string" use="optional" />
+					<xs:attribute name="combined_with" type="xs:string" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -154,7 +154,7 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:string">
-					<xs:attribute name="has" type="xs:string" use="required" />
+					<xs:attribute name="has" use="required" type="YesNo" />
 					<xs:attribute name="compare" type="xs:string" use="required" />
 				</xs:extension>
 			</xs:simpleContent>
@@ -163,30 +163,22 @@
 
 	<xs:element name="advantage_prereq">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="name" type="StringWithCompareAttribute" />
 				<xs:element name="notes" type="StringWithCompareAttribute" />
 				<xs:element name="level" type="IntegerWithCompareAttribute" />
 			</xs:choice>
-			<xs:attribute name="has" type="xs:string" use="required" />
+			<xs:attribute name="has" use="required" type="YesNo" />
 		</xs:complexType>
 	</xs:element>
 
 	<!-- Miscellaneous -->
 
-	<xs:element name="categories">
-		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element name="category" type="xs:string" />
-			</xs:choice>
-		</xs:complexType>
-	</xs:element>
-
 	<xs:element name="amount">
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:decimal">
-					<xs:attribute name="per_level" type="xs:string" use="optional" />
+					<xs:attribute name="per_level" type="xs:string" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
@@ -196,15 +188,26 @@
 		<xs:complexType>
 			<xs:simpleContent>
 				<xs:extension base="xs:decimal">
-					<xs:attribute name="type" type="xs:string" use="required" />
+					<xs:attribute name="type" type="CostType" use="required" />
 				</xs:extension>
 			</xs:simpleContent>
 		</xs:complexType>
 	</xs:element>
 
+	<xs:simpleType name="CostType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="points"/>
+			<xs:enumeration value="percentage"/>
+			<xs:enumeration value="multiplier"/>
+			<xs:enumeration value="race"/>
+			<xs:enumeration value="meta trait"/>
+			<xs:enumeration value="alternative abilities"/>
+		</xs:restriction>
+	</xs:simpleType>
+
 	<xs:element name="cost_reduction">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="attribute" type="xs:string" />
 				<xs:element name="percentage" type="xs:integer" />
 			</xs:choice>
@@ -213,7 +216,7 @@
 
 	<xs:element name="default">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="name" type="StringWithCompareAttribute" />
 				<xs:element name="specialization" type="StringWithCompareAttribute" />
 				<xs:element name="type" type="xs:string" />
@@ -224,27 +227,533 @@
 
 	<xs:element name="modifier">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:choice maxOccurs="unbounded">
-					<xs:element ref="cost" />
-					<xs:element ref="skill_bonus" />
-					<xs:element ref="attribute_bonus" />
-					<xs:element name="name" type="StringWithCompareAttribute" />
-					<xs:element name="notes" type="StringWithCompareAttribute" />
-					<xs:element name="levels" type="xs:unsignedInt" />
-					<xs:element name="reference" type="xs:string" />
-					<xs:element name="affects" type="xs:string" />
-				</xs:choice>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element ref="cost" />
+				<xs:element ref="skill_bonus" />
+				<xs:element ref="attribute_bonus" />
+				<xs:element name="name" type="StringWithCompareAttribute" />
+				<xs:element name="notes" type="StringWithCompareAttribute" />
+				<xs:element name="levels" type="xs:unsignedInt" />
+				<xs:element name="reference" type="xs:string" />
+				<xs:element name="affects" type="xs:string" />
 			</xs:choice>
-			<xs:attribute name="version" type="xs:unsignedShort" use="optional" />
-			<xs:attribute name="enabled" type="xs:string" use="optional" />
+			<xs:attribute name="version" type="xs:unsignedShort" />
+			<xs:attribute name="enabled">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="yes"/>
+						<xs:enumeration value="no"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
 		</xs:complexType>
 	</xs:element>
+
+	<xs:simpleType name="YesNo">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="yes"/>
+			<xs:enumeration value="no"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<xs:complexType name="Reference">
+		<xs:annotation>
+			<xs:documentation>
+				This isn't used anywhere...it's offered as a suggestion for how references could be presented.
+				Zero, one, or multiple occurences allowed.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="Book" type="xs:string" use="required" />
+		<xs:attribute name="Page" type="xs:unsignedShort" />
+	</xs:complexType>
+
+	<xs:element name="categories">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="category" type="xs:string" />
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+
+	<!--<xs:simpleType name="CategoryName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Accessories"/>
+			<xs:enumeration value="Accoutrements"/>
+			<xs:enumeration value="Advantage"/>
+			<xs:enumeration value="Adventure-Wear"/>
+			<xs:enumeration value="Air"/>
+			<xs:enumeration value="Alchemy"/>
+			<xs:enumeration value="Alchemy: Animal Control"/>
+			<xs:enumeration value="Alchemy: Combat Abilities"/>
+			<xs:enumeration value="Alchemy: Hostile Elixirs"/>
+			<xs:enumeration value="Alchemy: Magical Abilities"/>
+			<xs:enumeration value="Alchemy: Medical Elixirs"/>
+			<xs:enumeration value="Alchemy: Mental Abilities"/>
+			<xs:enumeration value="Alchemy: Mental Control"/>
+			<xs:enumeration value="Alchemy: Skills and Physical Abilities"/>
+			<xs:enumeration value="Ammunition and Warheads"/>
+			<xs:enumeration value="Ammunition"/>
+			<xs:enumeration value="Amoury"/>
+			<xs:enumeration value="Animal Handling"/>
+			<xs:enumeration value="Animal"/>
+			<xs:enumeration value="Anti-Psi"/>
+			<xs:enumeration value="Armor Enchantment"/>
+			<xs:enumeration value="Armor"/>
+			<xs:enumeration value="Armoury"/>
+			<xs:enumeration value="Arts/Entertainment"/>
+			<xs:enumeration value="Astral Projection"/>
+			<xs:enumeration value="Astronomy"/>
+			<xs:enumeration value="Athletic"/>
+			<xs:enumeration value="Attribute"/>
+			<xs:enumeration value="Bascinet"/>
+			<xs:enumeration value="Basic"/>
+			<xs:enumeration value="Biochemical and Nanotech Weapons"/>
+			<xs:enumeration value="Biomedical Equipment"/>
+			<xs:enumeration value="Biotech"/>
+			<xs:enumeration value="Boats and Ships"/>
+			<xs:enumeration value="Body Armor"/>
+			<xs:enumeration value="Body Control"/>
+			<xs:enumeration value="Bomb"/>
+			<xs:enumeration value="Built-In Weapon"/>
+			<xs:enumeration value="Burglary"/>
+			<xs:enumeration value="Business"/>
+			<xs:enumeration value="Camping and Survival Gear"/>
+			<xs:enumeration value="Cargo"/>
+			<xs:enumeration value="Carpentry"/>
+			<xs:enumeration value="Cartography"/>
+			<xs:enumeration value="Cinematic Techniques"/>
+			<xs:enumeration value="Cinematic"/>
+			<xs:enumeration value="Clerical"/>
+			<xs:enumeration value="Climbing Gear"/>
+			<xs:enumeration value="Clothing"/>
+			<xs:enumeration value="Coif"/>
+			<xs:enumeration value="Combat Accessories"/>
+			<xs:enumeration value="Combat Robots"/>
+			<xs:enumeration value="Combat/Weapon"/>
+			<xs:enumeration value="Communication and Interface"/>
+			<xs:enumeration value="Communications and Information Gear"/>
+			<xs:enumeration value="Communicators"/>
+			<xs:enumeration value="Computer"/>
+			<xs:enumeration value="Computers"/>
+			<xs:enumeration value="Concoction"/>
+			<xs:enumeration value="Concoctions"/>
+			<xs:enumeration value="Concoctions:Chemicals"/>
+			<xs:enumeration value="Concoctions:Natural Preparations"/>
+			<xs:enumeration value="Concoctions:Poisons"/>
+			<xs:enumeration value="Concoctions:Potions"/>
+			<xs:enumeration value="Container"/>
+			<xs:enumeration value="Containers"/>
+			<xs:enumeration value="Control"/>
+			<xs:enumeration value="Cooking"/>
+			<xs:enumeration value="Covert Ops and Security Gear"/>
+			<xs:enumeration value="Craft"/>
+			<xs:enumeration value="Craftsman Kits"/>
+			<xs:enumeration value="Crime"/>
+			<xs:enumeration value="Criminal/Street"/>
+			<xs:enumeration value="Cultivation"/>
+			<xs:enumeration value="Cyberdeck"/>
+			<xs:enumeration value="Deception and Intrusion"/>
+			<xs:enumeration value="Defenses"/>
+			<xs:enumeration value="Demolition"/>
+			<xs:enumeration value="Design/Invention"/>
+			<xs:enumeration value="Disadvantage"/>
+			<xs:enumeration value="Disdvantage"/>
+			<xs:enumeration value="Divination"/>
+			<xs:enumeration value="Diving Gear"/>
+			<xs:enumeration value="Domestic Equipment and Appliances"/>
+			<xs:enumeration value="Drink"/>
+			<xs:enumeration value="Drug"/>
+			<xs:enumeration value="Drugs and Poisons"/>
+			<xs:enumeration value="Druid"/>
+			<xs:enumeration value="Earth"/>
+			<xs:enumeration value="Electrokinesis"/>
+			<xs:enumeration value="Emergency Equipment"/>
+			<xs:enumeration value="Enchantment"/>
+			<xs:enumeration value="Energy"/>
+			<xs:enumeration value="Enforcement and Coercion"/>
+			<xs:enumeration value="Engineer"/>
+			<xs:enumeration value="Engineering"/>
+			<xs:enumeration value="Enhancement"/>
+			<xs:enumeration value="Entertainment/Recreation"/>
+			<xs:enumeration value="Environment Suits"/>
+			<xs:enumeration value="Equestrian Gear"/>
+			<xs:enumeration value="Esoteric Supplies"/>
+			<xs:enumeration value="Esoteric"/>
+			<xs:enumeration value="ESP"/>
+			<xs:enumeration value="Everyman"/>
+			<xs:enumeration value="Expedition Gear"/>
+			<xs:enumeration value="Explosives and Incendiaries"/>
+			<xs:enumeration value="Eyewear"/>
+			<xs:enumeration value="Farming"/>
+			<xs:enumeration value="Feature"/>
+			<xs:enumeration value="Features"/>
+			<xs:enumeration value="Fire"/>
+			<xs:enumeration value="Firearm Accessories"/>
+			<xs:enumeration value="Firearm"/>
+			<xs:enumeration value="Firearms"/>
+			<xs:enumeration value="First Aid"/>
+			<xs:enumeration value="Food and Drink"/>
+			<xs:enumeration value="Food"/>
+			<xs:enumeration value="Footware"/>
+			<xs:enumeration value="Footwear"/>
+			<xs:enumeration value="Full Helm"/>
+			<xs:enumeration value="Fungus"/>
+			<xs:enumeration value="Furnature"/>
+			<xs:enumeration value="Furniture"/>
+			<xs:enumeration value="Gambling"/>
+			<xs:enumeration value="Game"/>
+			<xs:enumeration value="Games and Toys"/>
+			<xs:enumeration value="Gate"/>
+			<xs:enumeration value="Gear"/>
+			<xs:enumeration value="General Equipment"/>
+			<xs:enumeration value="General"/>
+			<xs:enumeration value="Gloves"/>
+			<xs:enumeration value="Greathelm"/>
+			<xs:enumeration value="Groin Armor"/>
+			<xs:enumeration value="Hand Grenade"/>
+			<xs:enumeration value="Headgear"/>
+			<xs:enumeration value="Healing"/>
+			<xs:enumeration value="Heavy Weapon"/>
+			<xs:enumeration value="Heavy Weapons Accessories"/>
+			<xs:enumeration value="Herblore"/>
+			<xs:enumeration value="Housing and Food"/>
+			<xs:enumeration value="Housing Tools and Survival Gear"/>
+			<xs:enumeration value="Housing"/>
+			<xs:enumeration value="Illusion &amp; Creation"/>
+			<xs:enumeration value="Implant"/>
+			<xs:enumeration value="Improvised Weapon"/>
+			<xs:enumeration value="Incendiaries"/>
+			<xs:enumeration value="Infiltration"/>
+			<xs:enumeration value="Information Technology"/>
+			<xs:enumeration value="Information"/>
+			<xs:enumeration value="Instrument"/>
+			<xs:enumeration value="Jewelry"/>
+			<xs:enumeration value="Job Template"/>
+			<xs:enumeration value="Knowledge"/>
+			<xs:enumeration value="Land Vehicle"/>
+			<xs:enumeration value="Language"/>
+			<xs:enumeration value="Laser Weapons"/>
+			<xs:enumeration value="Law-Enforcement"/>
+			<xs:enumeration value="Lens"/>
+			<xs:enumeration value="Light &amp; Darkness"/>
+			<xs:enumeration value="Light Sources"/>
+			<xs:enumeration value="Light"/>
+			<xs:enumeration value="Lighting"/>
+			<xs:enumeration value="Limb Armor"/>
+			<xs:enumeration value="Limiting Enchantment"/>
+			<xs:enumeration value="Linking"/>
+			<xs:enumeration value="Liquid Projectors"/>
+			<xs:enumeration value="Luggage"/>
+			<xs:enumeration value="Luxuries"/>
+			<xs:enumeration value="Luxury Item"/>
+			<xs:enumeration value="Machine Intelligence"/>
+			<xs:enumeration value="Machine"/>
+			<xs:enumeration value="Magic Items"/>
+			<xs:enumeration value="Magical Tool"/>
+			<xs:enumeration value="Making &amp; Breaking"/>
+			<xs:enumeration value="Manufacturing"/>
+			<xs:enumeration value="Martial Arts"/>
+			<xs:enumeration value="Mech"/>
+			<xs:enumeration value="Media and Education"/>
+			<xs:enumeration value="Medical Equipment"/>
+			<xs:enumeration value="Medical Gear"/>
+			<xs:enumeration value="Medical"/>
+			<xs:enumeration value="Melee Combat"/>
+			<xs:enumeration value="Melee Weapon"/>
+			<xs:enumeration value="Melee Weapon/Missile Weapon"/>
+			<xs:enumeration value="Melee Weapons"/>
+			<xs:enumeration value="Melee"/>
+			<xs:enumeration value="Meta"/>
+			<xs:enumeration value="Meta-Trait"/>
+			<xs:enumeration value="Metal"/>
+			<xs:enumeration value="Military Equipment"/>
+			<xs:enumeration value="Military"/>
+			<xs:enumeration value="Mind Control"/>
+			<xs:enumeration value="Mining"/>
+			<xs:enumeration value="Miscellaneous Hardware"/>
+			<xs:enumeration value="Missile or Melee weapon"/>
+			<xs:enumeration value="Missile Weapon Accessory"/>
+			<xs:enumeration value="Missile Weapon"/>
+			<xs:enumeration value="Money: Alternative Medieval Coins"/>
+			<xs:enumeration value="Money: GURPS House Rules Medieval Coins"/>
+			<xs:enumeration value="Money: GURPS Standard Medieval Coins"/>
+			<xs:enumeration value="Money: House Rules Medieval Coins"/>
+			<xs:enumeration value="Money: U.S. Currency"/>
+			<xs:enumeration value="Money: Westerosii"/>
+			<xs:enumeration value="Mount"/>
+			<xs:enumeration value="Movement"/>
+			<xs:enumeration value="Muscle Powered"/>
+			<xs:enumeration value="Muscle-Powered Ranged Weapons"/>
+			<xs:enumeration value="Musical Instrument"/>
+			<xs:enumeration value="Musical Instruments"/>
+			<xs:enumeration value="Natural Science"/>
+			<xs:enumeration value="Navigation"/>
+			<xs:enumeration value="Neck Armor"/>
+			<xs:enumeration value="Necromancy"/>
+			<xs:enumeration value="Occult/Magic"/>
+			<xs:enumeration value="Occult/Magical"/>
+			<xs:enumeration value="Offense"/>
+			<xs:enumeration value="Ointment"/>
+			<xs:enumeration value="Optical Equipment"/>
+			<xs:enumeration value="Optics and Sensors"/>
+			<xs:enumeration value="Optics"/>
+			<xs:enumeration value="Outdoor/Exploration"/>
+			<xs:enumeration value="Packing"/>
+			<xs:enumeration value="Pastille"/>
+			<xs:enumeration value="Perk"/>
+			<xs:enumeration value="Personal Accessories"/>
+			<xs:enumeration value="Personal Artillery"/>
+			<xs:enumeration value="Personal Conveyances"/>
+			<xs:enumeration value="Personal Gear"/>
+			<xs:enumeration value="Phobia"/>
+			<xs:enumeration value="Photokinesis"/>
+			<xs:enumeration value="Plant"/>
+			<xs:enumeration value="Plants"/>
+			<xs:enumeration value="Plastic"/>
+			<xs:enumeration value="Poison"/>
+			<xs:enumeration value="Police"/>
+			<xs:enumeration value="Portage"/>
+			<xs:enumeration value="Portage/Storage"/>
+			<xs:enumeration value="Pot Helm"/>
+			<xs:enumeration value="Potion"/>
+			<xs:enumeration value="Powder"/>
+			<xs:enumeration value="Power"/>
+			<xs:enumeration value="Powerstone"/>
+			<xs:enumeration value="Probability Alteration"/>
+			<xs:enumeration value="Professional"/>
+			<xs:enumeration value="Program"/>
+			<xs:enumeration value="Program: Alter"/>
+			<xs:enumeration value="Program: Analyze"/>
+			<xs:enumeration value="Program: Breach"/>
+			<xs:enumeration value="Program: Control"/>
+			<xs:enumeration value="Program: Damage"/>
+			<xs:enumeration value="Program: ICE"/>
+			<xs:enumeration value="Program: Jam"/>
+			<xs:enumeration value="Program: Listen"/>
+			<xs:enumeration value="Program: Search"/>
+			<xs:enumeration value="Program: Spoof"/>
+			<xs:enumeration value="Program: Stealth"/>
+			<xs:enumeration value="Program: Trigger"/>
+			<xs:enumeration value="Protection"/>
+			<xs:enumeration value="Provisions"/>
+			<xs:enumeration value="Psi Amplifiers"/>
+			<xs:enumeration value="Psionics"/>
+			<xs:enumeration value="Psychic Healing"/>
+			<xs:enumeration value="Psychic Vampirism"/>
+			<xs:enumeration value="Psychokinesis"/>
+			<xs:enumeration value="Quirk"/>
+			<xs:enumeration value="Race"/>
+			<xs:enumeration value="Radiation"/>
+			<xs:enumeration value="Ranged Combat"/>
+			<xs:enumeration value="Ranged Weapon"/>
+			<xs:enumeration value="Ranged Weapons"/>
+			<xs:enumeration value="Ranged"/>
+			<xs:enumeration value="Remote Senses"/>
+			<xs:enumeration value="Repair/Maintainance"/>
+			<xs:enumeration value="Riding Gear"/>
+			<xs:enumeration value="Riding"/>
+			<xs:enumeration value="Ritual Path Magic"/>
+			<xs:enumeration value="Robot"/>
+			<xs:enumeration value="Robots"/>
+			<xs:enumeration value="Scholarly"/>
+			<xs:enumeration value="Science"/>
+			<xs:enumeration value="Secondary Characteristics"/>
+			<xs:enumeration value="Security and Surveillance"/>
+			<xs:enumeration value="Security"/>
+			<xs:enumeration value="Sense and Defense"/>
+			<xs:enumeration value="Sensors and Scientific Equipment"/>
+			<xs:enumeration value="Sewing"/>
+			<xs:enumeration value="Shelter"/>
+			<xs:enumeration value="Shield"/>
+			<xs:enumeration value="Skill"/>
+			<xs:enumeration value="Smith"/>
+			<xs:enumeration value="Social Science/Humanities"/>
+			<xs:enumeration value="Social Sciences/Humanities"/>
+			<xs:enumeration value="Social"/>
+			<xs:enumeration value="Software"/>
+			<xs:enumeration value="Sound"/>
+			<xs:enumeration value="Special Ops"/>
+			<xs:enumeration value="Spice"/>
+			<xs:enumeration value="Spirit"/>
+			<xs:enumeration value="Spy"/>
+			<xs:enumeration value="Starting Wealth"/>
+			<xs:enumeration value="Storage"/>
+			<xs:enumeration value="Supers"/>
+			<xs:enumeration value="Surgery"/>
+			<xs:enumeration value="Surveillance"/>
+			<xs:enumeration value="Survival"/>
+			<xs:enumeration value="Taboo Trait"/>
+			<xs:enumeration value="Talent"/>
+			<xs:enumeration value="Teamster"/>
+			<xs:enumeration value="Technical"/>
+			<xs:enumeration value="Technique"/>
+			<xs:enumeration value="Technological"/>
+			<xs:enumeration value="Telekinesis"/>
+			<xs:enumeration value="Teleportation"/>
+			<xs:enumeration value="Template"/>
+			<xs:enumeration value="Thief and Spy Gear"/>
+			<xs:enumeration value="Thief/Spy"/>
+			<xs:enumeration value="Thieves' Tools"/>
+			<xs:enumeration value="Tools and Construction Materials"/>
+			<xs:enumeration value="Tools"/>
+			<xs:enumeration value="Transformation"/>
+			<xs:enumeration value="Trickery"/>
+			<xs:enumeration value="Underwater Vehicle"/>
+			<xs:enumeration value="Unholy"/>
+			<xs:enumeration value="Vehicle"/>
+			<xs:enumeration value="Vehicles"/>
+			<xs:enumeration value="Water"/>
+			<xs:enumeration value="Weapon and Combat Accessories"/>
+			<xs:enumeration value="Weapon Enchantment"/>
+			<xs:enumeration value="Weaponry"/>
+			<xs:enumeration value="Weapons"/>
+			<xs:enumeration value="Weather"/>
+			<xs:enumeration value="Weaving"/>
+			<xs:enumeration value="Weights and costs of contents"/>
+			<xs:enumeration value="Why we fight"/>
+			<xs:enumeration value="Wildcard"/>
+			<xs:enumeration value="Writing Equipment"/>
+			<xs:enumeration value="Writing"/>
+			<xs:enumeration value="Yellow Goblin Magic"/>
+		</xs:restriction>
+	</xs:simpleType>-->
+
+	<xs:complexType name="CollegeType">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="compare" type="xs:string" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+
+	<!--<xs:simpleType name="CollegeName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="Air" />
+			<xs:enumeration value="Air/Earth" />
+			<xs:enumeration value="Air/Knowledge" />
+			<xs:enumeration value="Air/Movement" />
+			<xs:enumeration value="Air/Protection/Weather" />
+			<xs:enumeration value="Air/Sound" />
+			<xs:enumeration value="Air/Water" />
+			<xs:enumeration value="Air/Water/Weather" />
+			<xs:enumeration value="Air/Weather" />
+			<xs:enumeration value="Animal" />
+			<xs:enumeration value="Any" />
+			<xs:enumeration value="Armor Enchantment" />
+			<xs:enumeration value="Body Control" />
+			<xs:enumeration value="Body Control/Food" />
+			<xs:enumeration value="Body Control/Mind Control" />
+			<xs:enumeration value="Body Control/Necromancy" />
+			<xs:enumeration value="Body Control/Sound" />
+			<xs:enumeration value="Clerical" />
+			<xs:enumeration value="Communication" />
+			<xs:enumeration value="Communication &amp; Empathy" />
+			<xs:enumeration value="Communication &amp; Empathy/Technological" />
+			<xs:enumeration value="Communication &amp; Empathy/Sound" />
+			<xs:enumeration value="Communication/Sound" />
+			<xs:enumeration value="Communication/Technological" />
+			<xs:enumeration value="Deathly" />
+			<xs:enumeration value="Deathly (Gray)" />
+			<xs:enumeration value="Druid" />
+			<xs:enumeration value="Earth" />
+			<xs:enumeration value="Earth/Knowledge" />
+			<xs:enumeration value="Earth/Metal" />
+			<xs:enumeration value="Earth/Water" />
+			<xs:enumeration value="Enchantment" />
+			<xs:enumeration value="Energy" />
+			<xs:enumeration value="Fire" />
+			<xs:enumeration value="fire" />
+			<xs:enumeration value="Fire/Illusion &amp; Creation" />
+			<xs:enumeration value="Fire/Necromancy" />
+			<xs:enumeration value="Fire/Protection" />
+			<xs:enumeration value="Food" />
+			<xs:enumeration value="Food/Knowledge" />
+			<xs:enumeration value="Food/Knowledge/Sound" />
+			<xs:enumeration value="Food/Water" />
+			<xs:enumeration value="Fungus" />
+			<xs:enumeration value="Fungus/Body Control" />
+			<xs:enumeration value="Fungus/Food" />
+			<xs:enumeration value="Fungus/Healing" />
+			<xs:enumeration value="Fungus/Making &amp; Breaking" />
+			<xs:enumeration value="Fungus/Necromancy" />
+			<xs:enumeration value="Gate" />
+			<xs:enumeration value="Gate/Movement" />
+			<xs:enumeration value="Gate/Protection" />
+			<xs:enumeration value="Healing" />
+			<xs:enumeration value="Healing/Body Control" />
+			<xs:enumeration value="Healing/Mind Control" />
+			<xs:enumeration value="Healing/Necromancy" />
+			<xs:enumeration value="Healing/Protection" />
+			<xs:enumeration value="Healing/Technological" />
+			<xs:enumeration value="Illusion &amp; Creation" />
+			<xs:enumeration value="Illusion &amp; Creation/Making &amp; Breaking" />
+			<xs:enumeration value="Knowledge" />
+			<xs:enumeration value="Knowledge/Light &amp; Darkness" />
+			<xs:enumeration value="Knowledge/Metal" />
+			<xs:enumeration value="Knowledge/Mind Control" />
+			<xs:enumeration value="Knowledge/Movement" />
+			<xs:enumeration value="Knowledge/Necromancy" />
+			<xs:enumeration value="Knowledge/Sound" />
+			<xs:enumeration value="Knowledge/Technological/Machine" />
+			<xs:enumeration value="Knowledge/Technological/Metal" />
+			<xs:enumeration value="Knowledge/Technological/Plastic" />
+			<xs:enumeration value="Knowledge/Water" />
+			<xs:enumeration value="Light" />
+			<xs:enumeration value="Light &amp; Darkness" />
+			<xs:enumeration value="Limiting Enchantment" />
+			<xs:enumeration value="Making &amp; Breaking" />
+			<xs:enumeration value="Making &amp; Breaking/Metal" />
+			<xs:enumeration value="Making &amp; Breaking/Necromancy" />
+			<xs:enumeration value="Making &amp; Breaking/Technological/Machine" />
+			<xs:enumeration value="Meta" />
+			<xs:enumeration value="Meta/Linking" />
+			<xs:enumeration value="Metal/Necromancy" />
+			<xs:enumeration value="Metal" />
+			<xs:enumeration value="metal" />
+			<xs:enumeration value="Mind Control" />
+			<xs:enumeration value="Mind Control/Sound" />
+			<xs:enumeration value="Movement" />
+			<xs:enumeration value="Movement/Protection" />
+			<xs:enumeration value="Movement/Water" />
+			<xs:enumeration value="Movement/Weather" />
+			<xs:enumeration value="Necromancy" />
+			<xs:enumeration value="Necromancy/Enchantment" />
+			<xs:enumeration value="Plant" />
+			<xs:enumeration value="Plant/Air" />
+			<xs:enumeration value="Plant/Earth" />
+			<xs:enumeration value="Plant/Enchantment" />
+			<xs:enumeration value="Plant/Illusion &amp; Creation" />
+			<xs:enumeration value="Plant/Knowledge" />
+			<xs:enumeration value="Plant/Light &amp; Darkness" />
+			<xs:enumeration value="Plant/Making &amp; Breaking" />
+			<xs:enumeration value="Plant/Mind Control" />
+			<xs:enumeration value="Plant/Movement" />
+			<xs:enumeration value="Protection" />
+			<xs:enumeration value="Protection &amp; Warning" />
+			<xs:enumeration value="Protection/Sound" />
+			<xs:enumeration value="Protection/Technological/Radiation" />
+			<xs:enumeration value="Protection/Water" />
+			<xs:enumeration value="Protection/Weather" />
+			<xs:enumeration value="Radiation" />
+			<xs:enumeration value="Sound" />
+			<xs:enumeration value="Technological" />
+			<xs:enumeration value="Technological/Energy" />
+			<xs:enumeration value="Technological/Machine" />
+			<xs:enumeration value="Technological/Metal" />
+			<xs:enumeration value="Technological/Plastic" />
+			<xs:enumeration value="Technological/Radiation" />
+			<xs:enumeration value="Unholy" />
+			<xs:enumeration value="Water" />
+			<xs:enumeration value="Water/Weather" />
+			<xs:enumeration value="Weapon Enchantment" />
+			<xs:enumeration value="Yellow Goblin Magic" />
+		</xs:restriction>
+	</xs:simpleType>-->
 
 	<xs:complexType name="StringWithCompareAttribute">
 		<xs:simpleContent>
 			<xs:extension base="xs:string">
-				<xs:attribute name="compare" type="xs:string" use="optional" />
+				<xs:attribute name="compare" type="xs:string" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -252,7 +761,7 @@
 	<xs:complexType name="DecimalWithCompareAttribute">
 		<xs:simpleContent>
 			<xs:extension base="xs:decimal">
-				<xs:attribute name="compare" type="xs:string" use="optional" />
+				<xs:attribute name="compare" type="xs:string" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
@@ -260,8 +769,22 @@
 	<xs:complexType name="IntegerWithCompareAttribute">
 		<xs:simpleContent>
 			<xs:extension base="xs:integer">
-				<xs:attribute name="compare" type="xs:string" use="optional" />
+				<xs:attribute name="compare" type="xs:string" />
 			</xs:extension>
 		</xs:simpleContent>
 	</xs:complexType>
+
+	<!--<xs:simpleType name="CompareType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="is"/>
+			<xs:enumeration value="is not"/>
+			<xs:enumeration value="is anything"/>
+			<xs:enumeration value="starts with"/>
+			<xs:enumeration value="ends with"/>
+			<xs:enumeration value="at least"/>
+			<xs:enumeration value="at most"/>
+			<xs:enumeration value="contains"/>
+			<xs:enumeration value="does not contain"/>
+		</xs:restriction>
+	</xs:simpleType>-->
 </xs:schema>

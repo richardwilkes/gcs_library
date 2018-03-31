@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="note_list.xsd" />
 	<xs:include schemaLocation="skill_list.xsd" />
 	<xs:include schemaLocation="advantage_list.xsd" />
 	<xs:include schemaLocation="spell_list.xsd" />
@@ -7,14 +8,17 @@
 
 	<xs:element name="template">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="skill_list" />
 				<xs:element ref="advantage_list" />
 				<xs:element ref="spell_list" />
 				<xs:element ref="equipment_list" />
-				<xs:element name="notes" type="StringWithCompareAttribute" />
+				<xs:element ref="note_list" />
+				<xs:element name="notes" type="xs:string" />
 			</xs:choice>
-			<xs:attribute name="unique_id" type="xs:string" use="required" />
+			<!--<xs:attribute name="unique_id" type="xs:string" use="required" />-->
+			<xs:attribute name="id" type="xs:string" />
+			<xs:attribute name="unique_id" type="xs:string" />
 			<xs:attribute name="version" type="xs:unsignedShort" use="required" />
 		</xs:complexType>
 	</xs:element>

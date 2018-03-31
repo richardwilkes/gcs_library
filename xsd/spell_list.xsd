@@ -4,32 +4,35 @@
 
 	<xs:element name="spell_list">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="spell_container" />
 				<xs:element ref="spell" />
 			</xs:choice>
-			<xs:attribute name="unique_id" type="xs:string" use="optional" />
-			<xs:attribute name="version" type="xs:unsignedShort" use="optional" />
+			<!--<xs:attribute name="unique_id" type="xs:string" use="required" />-->
+			<xs:attribute name="id" type="xs:string" />
+			<xs:attribute name="unique_id" type="xs:string" />
+			<xs:attribute name="version" type="xs:unsignedShort" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="spell_container">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="categories" />
 				<xs:element ref="spell_container" />
 				<xs:element ref="spell" />
 				<xs:element name="name" type="StringWithCompareAttribute" />
+				<xs:element name="reference" type="xs:string" />
 				<xs:element name="notes"  type="StringWithCompareAttribute" />
 			</xs:choice>
 			<xs:attribute name="version" type="xs:unsignedShort" use="required" />
-			<xs:attribute name="open" type="xs:string" use="required" />
+			<xs:attribute name="open" use="required" type="YesNo" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="spell">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="default" />
 				<xs:element ref="categories" />
 				<xs:element ref="prereq_list" />
@@ -37,7 +40,7 @@
 				<xs:element ref="ranged_weapon" />
 				<xs:element name="name" type="xs:string" />
 				<xs:element name="tech_level" type="xs:unsignedShort" default="0" />
-				<xs:element name="college" type="StringWithCompareAttribute" />
+				<xs:element name="college" type="CollegeType" />
 				<xs:element name="power_source" type="xs:string" />
 				<xs:element name="spell_class" type="xs:string" />
 				<xs:element name="casting_cost" type="xs:string" />
@@ -49,7 +52,7 @@
 				<xs:element name="notes" type="xs:string" />
 			</xs:choice>
 			<xs:attribute name="version" type="xs:unsignedShort" use="required" />
-			<xs:attribute name="very_hard" type="xs:string" use="optional" />
+			<xs:attribute name="very_hard" type="xs:string" />
 		</xs:complexType>
 	</xs:element>
 </xs:schema>

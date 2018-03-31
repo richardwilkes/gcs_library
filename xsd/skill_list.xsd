@@ -4,19 +4,21 @@
 	
 	<xs:element name="skill_list">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="skill_container" />
 				<xs:element ref="skill" />
 				<xs:element ref="technique" />
 			</xs:choice>
-			<xs:attribute name="unique_id" type="xs:string" use="optional" />
-			<xs:attribute name="version" type="xs:unsignedShort" use="optional" />
+			<!--<xs:attribute name="unique_id" type="xs:string" use="required" />-->
+			<xs:attribute name="id" type="xs:string" />
+			<xs:attribute name="unique_id" type="xs:string" />
+			<xs:attribute name="version" type="xs:unsignedShort" />
 		</xs:complexType>
 	</xs:element>
 
 	<xs:element name="skill_container">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="categories" />
 				<xs:element ref="skill_container" />
 				<xs:element ref="skill" />
@@ -32,7 +34,7 @@
 
 	<xs:element name="skill">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element ref="default" />
 				<xs:element ref="categories" />
 				<xs:element ref="prereq_list" />
@@ -53,7 +55,7 @@
 
 	<xs:element name="technique">
 		<xs:complexType>
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:choice maxOccurs="unbounded">
 				<xs:element name="name" type="StringWithCompareAttribute" />
 				<xs:element ref="default" />
 				<xs:element ref="categories" />
@@ -65,7 +67,7 @@
 				<xs:element name="notes" type="StringWithCompareAttribute" />
 			</xs:choice>
 			<xs:attribute name="version" type="xs:unsignedShort" use="required" />
-			<xs:attribute name="limit" type="xs:short" use="optional" />
+			<xs:attribute name="limit" type="xs:short" />
 		</xs:complexType>
 	</xs:element>
 </xs:schema>
