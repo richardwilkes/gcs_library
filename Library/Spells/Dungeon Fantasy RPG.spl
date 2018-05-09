@@ -2,9 +2,8 @@
 <spell_list id="13fddc14-e132-44db-b94d-054f87e8de97" version="1">
 	<spell_container version="2" open="yes">
 		<name>Clerical</name>
-		<spell_container version="2" open="no">
-			<name>Power Investiture</name>
-			<notes>1</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture 1</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
@@ -639,9 +638,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture</name>
-			<notes>2</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture 2</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
@@ -1335,9 +1333,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture</name>
-			<notes>3</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture 3</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
@@ -1841,9 +1838,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture</name>
-			<notes>4</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture 4</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
@@ -2058,9 +2054,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture</name>
-			<notes>5</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture 6</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
@@ -2190,13 +2185,6 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture</name>
-			<notes>6</notes>
-			<categories>
-				<category>Clerical</category>
-			</categories>
 			<spell version="2" very_hard="yes">
 				<name>Sanctuary</name>
 				<college>Clerical</college>
@@ -2222,9 +2210,8 @@
 	</spell_container>
 	<spell_container version="2" open="yes">
 		<name>Druidic</name>
-		<spell_container version="2" open="no">
-			<name>Power Investiture (Druidic)</name>
-			<notes>1</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture (Druidic) 1</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
@@ -2797,9 +2784,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture (Druidic)</name>
-			<notes>2</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture (Druidic) 2</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
@@ -3568,9 +3554,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture (Druidic)</name>
-			<notes>3</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture (Druidic) 3</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
@@ -4060,9 +4045,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture (Druidic)</name>
-			<notes>4</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture (Druidic) 4</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
@@ -4262,9 +4246,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture (Druidic)</name>
-			<notes>5</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture (Druidic) 5</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
@@ -4340,9 +4323,8 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
-			<name>Power Investiture (Druidic)</name>
-			<notes>6</notes>
+		<spell_container version="2" open="yes">
+			<name>Power Investiture (Druidic) 6</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
@@ -5145,7 +5127,7 @@
 			<maintenance_cost>Half</maintenance_cost>
 			<casting_time>1 sec</casting_time>
 			<duration>1 min</duration>
-			<reference>DFS45</reference>
+			<reference>DFS40</reference>
 			<categories>
 				<category>Illusion</category>
 			</categories>
@@ -5255,7 +5237,7 @@
 			<maintenance_cost>-</maintenance_cost>
 			<casting_time>2 sec</casting_time>
 			<duration>Permanent</duration>
-			<reference>DFS45</reference>
+			<reference>DFS40</reference>
 			<categories>
 				<category>Illusion</category>
 			</categories>
@@ -5843,7 +5825,7 @@
 			<maintenance_cost>-</maintenance_cost>
 			<casting_time>1 sec</casting_time>
 			<duration>Instant</duration>
-			<reference>DFS45</reference>
+			<reference>DFS40</reference>
 			<categories>
 				<category>Illusion</category>
 			</categories>
@@ -7494,7 +7476,7 @@
 			<maintenance_cost>-</maintenance_cost>
 			<casting_time>1 sec</casting_time>
 			<duration>Until illusion ends</duration>
-			<reference>DFS45</reference>
+			<reference>DFS40</reference>
 			<categories>
 				<category>Illusion</category>
 			</categories>
