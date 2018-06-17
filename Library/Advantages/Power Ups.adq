@@ -2400,6 +2400,12 @@
 			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
+			<name>Power Based</name>
+			<cost type="percentage">-5</cost>
+			<affects>total</affects>
+			<reference>PY12:24</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
 			<name>Cosmic</name>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
@@ -2658,6 +2664,116 @@
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Withering Strike</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Blinding Defense</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Blunting Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Dancing Shield</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Energizing Defense</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Expand Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Fireproof Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Healthful Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Impenetrable Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Insulated Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Lighten Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Nullifying Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Padded Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Reinforce Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Resilient Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Restorative Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Rigid Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Sovereign Armor</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Spiritual Defense</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Subtle Defense</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Thunderous Defense</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Vengeful Defense</name>
+			<specialization compare="is anything"></specialization>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+		<skill_bonus>
+			<name compare="is">Widen Shield</name>
 			<specialization compare="is anything"></specialization>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>

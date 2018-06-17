@@ -86,6 +86,16 @@
 				<specialization compare="is anything">@Psionic ability for Psionic Resistance (if applicable)@</specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Nullifying Armor</name>
+				<specialization compare="contains">Anti-Psi</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Strike of Negation</name>
+				<specialization compare="contains">Anti-Psi</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 		</advantage>
 		<advantage version="2">
 			<name>Cancellation</name>
@@ -607,6 +617,46 @@
 				<specialization compare="is anything"></specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Binding Shot</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Dancing Shield</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Dancing Weapon</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Ghostly Weapon</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Lighten Armor</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Penetrating Strike</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Spiritual Defense</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Stealthy Attack</name>
+				<specialization compare="contains">Astral Projection</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 		</advantage>
 		<advantage version="2">
 			<name>Astral Sight</name>
@@ -1075,6 +1125,41 @@
 				<specialization compare="is anything"></specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Annihilating Weapon</name>
+				<specialization compare="contains">Electrokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Burning Strike</name>
+				<specialization compare="contains">Electrokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Electric Weapon</name>
+				<specialization compare="contains">Electrokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Fireproof Armor</name>
+				<specialization compare="contains">Electrokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Incendiary Weapon</name>
+				<specialization compare="contains">Electrokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Insulated Armor</name>
+				<specialization compare="contains">Electrokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Shockwave</name>
+				<specialization compare="contains">Electrokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 			<prereq_list all="yes">
 				<advantage_prereq has="no">
 					<name compare="is">Ergokinesis</name>
@@ -1145,6 +1230,26 @@
 			<skill_bonus>
 				<name compare="is">Photorefraction</name>
 				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Blinding Defense</name>
+				<specialization compare="contains">Photokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Dazzling Display</name>
+				<specialization compare="contains">Photokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Stealthy Attack</name>
+				<specialization compare="contains">Photokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Subtle Defense</name>
+				<specialization compare="contains">Photokinesis</specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<prereq_list all="yes">
@@ -1747,6 +1852,61 @@
 			<skill_bonus>
 				<name compare="is">Photorefraction</name>
 				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Annihilating Weapon</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Blinding Defense</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Burning Strike</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Dazzling Display</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Electric Weapon</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Fireproof Armor</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Incendiary Weapon</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Insulated Armor</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Shockwave</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Stealthy Attack</name>
+				<specialization compare="contains">Ergokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Subtle Defense</name>
+				<specialization compare="contains">Ergokinesis</specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<prereq_list all="no">
@@ -2438,6 +2598,56 @@
 				<specialization compare="is anything"></specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Arching Shot</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Blunting Armor</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Far Shot</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Forceful Blow</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Guided Weapon</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Impenetrable Armor</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Padded Armor</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Reinforce Armor</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Supreme Control</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Traumatic Blow</name>
+				<specialization compare="contains">ESP</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 			<prereq_list all="no">
 				<advantage_prereq has="no">
 					<name compare="is">Divination Talent</name>
@@ -2977,8 +3187,28 @@
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
+				<name compare="is">Arching Shot</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Bank Shot</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Blunting Armor</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
 				<name compare="is">Coincidence</name>
 				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Crushing Strike</name>
+				<specialization compare="contains">Probability Alteration</specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
@@ -2992,6 +3222,31 @@
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
+				<name compare="is">Expand Armor</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Homing Weapon</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Impenetrable Armor</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Padded Armor</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Reinforce Armor</name>
+				<specialization compare="contains">Probability Alteration</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
 				<name compare="is">Second Chance</name>
 				<specialization compare="is anything"></specialization>
 				<amount per_level="yes">1</amount>
@@ -2999,6 +3254,11 @@
 			<skill_bonus>
 				<name compare="is">Weather Control</name>
 				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Widen Shield</name>
+				<specialization compare="contains">Probability Alteration</specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 		</advantage>
@@ -3545,6 +3805,61 @@
 				<specialization compare="is anything"></specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Continuing Attack</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Crippling Blow</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Drugged Weapon</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Energizing Defense</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Healthful Armor</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Resilient Armor</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Restorative Armor</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Sovereign Armor</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Sudden Death</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Toxic Strike</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Withering Strike</name>
+				<specialization compare="contains">Psychic Healing</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 		</advantage>
 		<advantage version="2">
 			<name>Psychic Surgery</name>
@@ -3865,6 +4180,61 @@
 				<specialization compare="is anything"></specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Annihilating Weapon</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Chilling Strike</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Corrosive Strike</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Energizing Defense</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Envenomed Weapon</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Sudden Death</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Toxic Strike</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Traumatic Blow</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Vampiric Weapon</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Vengeful Defense</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Withering Strike</name>
+				<specialization compare="contains">Psychic Vampirism</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 		</advantage>
 		<advantage version="2">
 			<name>Schadenfreude</name>
@@ -4173,6 +4543,121 @@
 			<skill_bonus>
 				<name compare="is">Cryokinesis</name>
 				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Blunting Armor</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Burning Strike</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Chilling Strike</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Crushing Strike</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Cutting Strike</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Dancing Shield</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Dancing Weapon</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Expand Armor</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Far Shot</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Forceful Blow</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Guided Weapon</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Impaling Strike</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Impenetrable Armor</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Incendiary Weapon</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Lighten Armor</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Padded Armor</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Piercing Strike</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Project Blow</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Reinforce Armor</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Rigid Armor</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Telescoping Weapon</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Traumatic Blow</name>
+				<specialization compare="contains">Psychokinesis</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Widen Shield</name>
+				<specialization compare="contains">Psychokinesis</specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<prereq_list all="yes">
@@ -5786,6 +6271,61 @@
 				<specialization compare="is anything"></specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Crippling Blow</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Deafening Display</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Drugged Weapon</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Fatiguing Strike</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Project Blow</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Restorative Armor</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Stealthy Attack</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Stupefying Blow</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Subtle Defense</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Sudden Death</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Thunderous Defense</name>
+				<specialization compare="contains">Telepathy</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
 			<prereq_list all="no">
 				<advantage_prereq has="no">
 					<name compare="is">Offense Talent</name>
@@ -6206,6 +6746,41 @@
 			<skill_bonus>
 				<name compare="is">Portersense</name>
 				<specialization compare="is anything"></specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Conic Blast</name>
+				<specialization compare="contains">Teleportation</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Multi-Shot</name>
+				<specialization compare="contains">Teleportation</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Penetrating Strike</name>
+				<specialization compare="contains">Teleportation</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Project Blow</name>
+				<specialization compare="contains">Teleportation</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Shattershot</name>
+				<specialization compare="contains">Teleportation</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Shockwave</name>
+				<specialization compare="contains">Teleportation</specialization>
+				<amount per_level="yes">1</amount>
+			</skill_bonus>
+			<skill_bonus>
+				<name compare="is">Telescoping Weapon</name>
+				<specialization compare="contains">Teleportation</specialization>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 		</advantage>
