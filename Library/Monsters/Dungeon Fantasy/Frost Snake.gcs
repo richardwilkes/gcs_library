@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="83e42567-a823-4d7f-97bf-576fb48987dc" version="3">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 11:59 AM</modified_date>
+	<modified_date>Jul 22, 2018, 9:12 AM</modified_date>
 	<profile>
 		<name>Frost Snake</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Dire Animal</race>
-		<notes>Frost Snake (DF2:24)
-
-This white-furred serpent is feared by barbarian cultures in the Frozen North. It hunts by seeking body heat, and can function even in extreme cold. Its surprisingly strong bite delivers venom, and it can also weaken prey with an exhalation of pure cold.
-
-Notes: Cold organ worth $50 to alchemists, who use it in liquid ice potions.
-
-Snake Bite:
-    Teeth, Sharp: 1
-        Follow-Up, Innate Attack on Natural Weapon: +0%
-        Base Cost (Tox): 4/die
-        Damage (2d): 2 dice
-        HT-4 to resist: -10%
-    Cost = 1 pt + (4 * 2) @ (-10)% = 9 pts
-
-Chill Breath:
-    Innate Attack (Breath), Base Cost (Burn): 5/die
-    Damage (1d): 1 die
-    Jet (Range 5/10): +0%
-    Armor Divisor (5): +150%
-    Cost: 5 @ (+150)% = 13 pts</notes>
+		<body_type>vermiform</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -827,7 +808,31 @@ Chill Breath:
 			</default>
 		</skill>
 	</skill_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Frost Snake (DF2:24)
+
+This white-furred serpent is feared by barbarian cultures in the Frozen North. It hunts by seeking body heat, and can function even in extreme cold. Its surprisingly strong bite delivers venom, and it can also weaken prey with an exhalation of pure cold.
+
+Notes: Cold organ worth $50 to alchemists, who use it in liquid ice potions.
+
+Snake Bite:
+    Teeth, Sharp: 1
+        Follow-Up, Innate Attack on Natural Weapon: +0%
+        Base Cost (Tox): 4/die
+        Damage (2d): 2 dice
+        HT-4 to resist: -10%
+    Cost = 1 pt + (4 * 2) @ (-10)% = 9 pts
+
+Chill Breath:
+    Innate Attack (Breath), Base Cost (Burn): 5/die
+    Damage (1d): 1 die
+    Jet (Range 5/10): +0%
+    Armor Divisor (5): +150%
+    Cost: 5 @ (+150)% = 13 pts</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>

@@ -1,29 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="4b614d5b-01f7-4dc5-b934-20e69cf87b2d" version="3">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 12:00 PM</modified_date>
+	<modified_date>Jul 22, 2018, 9:13 AM</modified_date>
 	<profile>
 		<name>Giant Rat</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Giant Animal</race>
-		<notes>Giant Rat (DF2:24)
-
-There's little to be said about giant rats: they're as cunning and dextrous as regular rats, but huge, the size of the children they carry off as food. Almost all dungeons have them -- especially sewers. They're fodder for well-equipped adventurers, but every now and then, 20 or 30 of them will get crazy and swarm a party anyway.
-
-Notes: Anyone wounded by giant rats must make a HT roll to avoid infection with some disease or other. Sewer rot (-1 on all attribute and skill rolls until stopped with Cure Disease) is typical.
-
-Rot Bite:
-    Teeth, Sharp: 1
-        Follow-Up, Affliction on Natural Weapon: +0%
-        Base Cost: 10 (1 level, HT to resist)
-        Attribute Penalty:
-            ST-1: +5%
-            DX-1: +10%
-            IQ-1: +10%
-            HT-1: +5%
-        Extended Duration (Permanent, removed by Cure Disease): +150%
-    Cost = 1 pt + (10 * 1) @ (+5+10+10+5+150)% = 29 pts</notes>
+		<body_type>quadruped</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -348,7 +332,28 @@ Rot Bite:
 			</default>
 		</skill>
 	</skill_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Giant Rat (DF2:24)
+
+There's little to be said about giant rats: they're as cunning and dextrous as regular rats, but huge, the size of the children they carry off as food. Almost all dungeons have them -- especially sewers. They're fodder for well-equipped adventurers, but every now and then, 20 or 30 of them will get crazy and swarm a party anyway.
+
+Notes: Anyone wounded by giant rats must make a HT roll to avoid infection with some disease or other. Sewer rot (-1 on all attribute and skill rolls until stopped with Cure Disease) is typical.
+
+Rot Bite:
+    Teeth, Sharp: 1
+        Follow-Up, Affliction on Natural Weapon: +0%
+        Base Cost: 10 (1 level, HT to resist)
+        Attribute Penalty:
+            ST-1: +5%
+            DX-1: +10%
+            IQ-1: +10%
+            HT-1: +5%
+        Extended Duration (Permanent, removed by Cure Disease): +150%
+    Cost = 1 pt + (10 * 1) @ (+5+10+10+5+150)% = 29 pts</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>

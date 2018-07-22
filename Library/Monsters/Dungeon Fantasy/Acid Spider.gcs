@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="9b7abb78-671c-410c-a366-f171478b99b4" version="3">
 	<created_date>Jan 17, 2016</created_date>
-	<modified_date>Jan 18, 2016 4:08 PM</modified_date>
+	<modified_date>Jul 22, 2018, 9:11 AM</modified_date>
 	<profile>
 		<name>Acid Spider</name>
 		<age>0</age>
 		<height>7 ft</height>
 		<SM>2</SM>
 		<race>Dire Animal</race>
-		<notes>Acid Spider (DF2:21)
-
-This giant spider has a relatively tiny body -- "only" 7' across -- attached to long, hairy legs that lift it 7' off the ground. It can walk unhindered over all but the tallest of men. A hunting spider, it lurks in dark cracks, waiting for warm prey to happen by. It then jumps on its quarry, bites with fangs capable of penetrating plate armor, and injects fast-acting corrosive venom that partially digests its prey.
-
-Notes: Acid glands contain enough acid for 3d acid grenades ($10 each). Specimens with higher ST and HP aren't unheard of; Move, leaping distance, and acid are unchanged.
-
-Acidic Bite:
-    Teeth, Fangs: 2
-        Follow-Up, Innate Attack on Natural Weapon: +0%
-        Base Cost (Cor): 10/die
-        Damage (1d-3): 0.1 dice
-        Cyclic (10 1-sec cycles): +900%
-    Cost = 2 pts + (10 * 0.1) @ (+900)%
-         = 2 pts + 10 pts = 12 pts</notes>
+		<body_type>arachnoid</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -333,7 +320,25 @@ Acidic Bite:
 			</default>
 		</skill>
 	</skill_list>
-	<print_settings units="in">
+	<note_list>
+		<note version="1">
+			<text>Acid Spider (DF2:21)
+
+This giant spider has a relatively tiny body -- "only" 7' across -- attached to long, hairy legs that lift it 7' off the ground. It can walk unhindered over all but the tallest of men. A hunting spider, it lurks in dark cracks, waiting for warm prey to happen by. It then jumps on its quarry, bites with fangs capable of penetrating plate armor, and injects fast-acting corrosive venom that partially digests its prey.
+
+Notes: Acid glands contain enough acid for 3d acid grenades ($10 each). Specimens with higher ST and HP aren't unheard of; Move, leaping distance, and acid are unchanged.
+
+Acidic Bite:
+    Teeth, Fangs: 2
+        Follow-Up, Innate Attack on Natural Weapon: +0%
+        Base Cost (Cor): 10/die
+        Damage (1d-3): 0.1 dice
+        Cyclic (10 1-sec cycles): +900%
+    Cost = 2 pts + (10 * 0.1) @ (+900)%
+         = 2 pts + 10 pts = 12 pts</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="e58b41f3-358f-43da-b615-2e7ed422f832" version="3">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 11:37 AM</modified_date>
+	<modified_date>Jul 22, 2018, 9:10 AM</modified_date>
 	<profile>
 		<name>Dire Wolf, Alpha</name>
 		<age>0</age>
 		<SM>1</SM>
 		<race>Giant Animal</race>
-		<notes>Dire Wolf (DF2:22)
-
-Dire wolves are huge, strong, fast wolves with thick, wooly coats, keen senses, and a taste for human flesh. Tales of orcs using them as mounts are apocryphal -- they'll eat orcs, too. While one dire wolf might be no challenge for adventurers, they tend to occur in packs of up to 20...
-
-Notes: While not sapient, dire wolves use effective pack tactics. Each pack has an alpha male.</notes>
+		<body_type>quadruped</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -359,7 +355,16 @@ Notes: While not sapient, dire wolves use effective pack tactics. Each pack has 
 			</default>
 		</skill>
 	</skill_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Dire Wolf (DF2:22)
+
+Dire wolves are huge, strong, fast wolves with thick, wooly coats, keen senses, and a taste for human flesh. Tales of orcs using them as mounts are apocryphal -- they'll eat orcs, too. While one dire wolf might be no challenge for adventurers, they tend to occur in packs of up to 20...
+
+Notes: While not sapient, dire wolves use effective pack tactics. Each pack has an alpha male.</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
