@@ -6705,9 +6705,9 @@
 				</advantage_prereq>
 			</prereq_list>
 			<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">body of air</name>
-					</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">body of air</name>
+				</spell_prereq>
 				<spell_prereq has="yes">
 					<college compare="contains">Movement</college>
 					<quantity compare="at least">6</quantity>
@@ -15857,12 +15857,13 @@
 		<casting_time>3 sec</casting_time>
 		<duration>1 min</duration>
 		<reference>M31</reference>
+		<notes>Must know the Animal Control spell for the type of animal being "ridden"</notes>
 		<categories>
 			<category>Animal</category>
 		</categories>
 		<prereq_list all="yes">
 			<spell_prereq has="yes">
-				<name compare="is">animal control (@animal@)</name>
+				<name compare="starts with">animal control</name>
 				<quantity compare="at least">2</quantity>
 			</spell_prereq>
 		</prereq_list>
