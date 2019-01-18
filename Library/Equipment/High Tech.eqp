@@ -1155,7 +1155,7 @@
 		<quantity>1</quantity>
 		<description>2" 2.25</description>
 		<legality_class>4</legality_class>
-		<value>50</value>
+		<value>15</value>
 		<weight>2.25 lb</weight>
 		<reference>HT177</reference>
 		<notes>Mortar shell.</notes>
@@ -3191,6 +3191,11 @@
 			</default>
 			<default>
 				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
 				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
@@ -4740,8 +4745,8 @@
 		<quantity>1</quantity>
 		<description>Assault Vest + Trauma Plates</description>
 		<tech_level>8</tech_level>
-		<legality_class>4</legality_class>
-		<value>1200</value>
+		<legality_class>2</legality_class>
+		<value>1500</value>
 		<weight>16 lb</weight>
 		<reference>HT66</reference>
 		<notes>Flexible. DR+7 vs. pi, cut.</notes>
@@ -4754,7 +4759,7 @@
 		</dr_bonus>
 		<dr_bonus>
 			<location>groin</location>
-			<amount>2</amount>
+			<amount>5</amount>
 		</dr_bonus>
 	</equipment>
 	<equipment version="4">
@@ -4781,12 +4786,17 @@
 				<modifier>0</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Guns</name>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
-				<type>DX</type>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
@@ -6733,6 +6743,11 @@
 			</default>
 			<default>
 				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
 				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
@@ -7302,7 +7317,7 @@
 		<value>350</value>
 		<weight>5 lb</weight>
 		<reference>HT68</reference>
-		<notes>DR+13 to toes.</notes>
+		<notes>DR+13 to sole.</notes>
 		<categories>
 			<category>Defenses</category>
 		</categories>
@@ -7858,6 +7873,11 @@
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -8468,12 +8488,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -10393,12 +10418,17 @@
 				<modifier>0</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Guns</name>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
-				<type>DX</type>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
@@ -10432,6 +10462,11 @@
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -14574,12 +14609,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -15454,8 +15494,71 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -16249,16 +16352,21 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
@@ -16589,12 +16697,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -17199,8 +17312,71 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -17227,8 +17403,71 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -18180,12 +18419,17 @@
 				<modifier>0</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Guns</name>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
-				<type>DX</type>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
@@ -18754,12 +18998,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -20946,12 +21195,17 @@
 				<modifier>0</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Guns</name>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
-				<type>DX</type>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
@@ -21255,8 +21509,71 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -21289,6 +21606,11 @@
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -23256,12 +23578,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -23306,12 +23633,17 @@
 				<modifier>0</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Guns</name>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
-				<type>DX</type>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
@@ -23453,12 +23785,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -26663,12 +27000,17 @@
 				<modifier>0</modifier>
 			</default>
 			<default>
-				<type>Skill</type>
-				<name>Guns</name>
+				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
-				<type>DX</type>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
@@ -26697,12 +27039,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -26881,8 +27228,71 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -26909,12 +27319,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -26954,12 +27369,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -28154,8 +28574,71 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -29171,8 +29654,71 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -29374,7 +29920,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -30741,12 +31287,17 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LAW</specialization>
+				<specialization>Light Anti-Armor Weapon</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -30843,6 +31394,11 @@
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -31551,6 +32107,11 @@
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -33862,7 +34423,7 @@
 		<tech_level>7</tech_level>
 		<legality_class>4</legality_class>
 		<value>50</value>
-		<weight>0.166666666666 lb</weight>
+		<weight>1 lb</weight>
 		<reference>HT154</reference>
 		<notes>+1 Fast-Draw (Long Arm).</notes>
 		<categories>
@@ -35287,8 +35848,18 @@
 				<modifier>0</modifier>
 			</default>
 			<default>
-				<type>IQ</type>
-				<modifier>-5</modifier>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<modifier>-4</modifier>
 			</default>
 		</ranged_weapon>
 		<categories>
@@ -37710,7 +38281,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -37801,7 +38372,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -40598,7 +41169,7 @@
 			<accuracy>2</accuracy>
 			<range>120/1,300</range>
 			<rate_of_fire>1</rate_of_fire>
-			<shots>1</shots>
+			<shots>6(2i)</shots>
 			<bulk>-2</bulk>
 			<recoil>3</recoil>
 			<default>
@@ -40689,7 +41260,7 @@
 			<accuracy>2</accuracy>
 			<range>120/1,300</range>
 			<rate_of_fire>1</rate_of_fire>
-			<shots>1</shots>
+			<shots>6(2i)</shots>
 			<bulk>-2</bulk>
 			<recoil>3</recoil>
 			<default>
@@ -40780,7 +41351,7 @@
 			<accuracy>2</accuracy>
 			<range>120/1,300</range>
 			<rate_of_fire>1</rate_of_fire>
-			<shots>1</shots>
+			<shots>6(2i)</shots>
 			<bulk>-2</bulk>
 			<recoil>3</recoil>
 			<default>
@@ -41061,7 +41632,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -49695,6 +50266,11 @@
 			</default>
 			<default>
 				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
 				<name>Guns</name>
 				<modifier>-4</modifier>
 			</default>
@@ -52403,7 +52979,7 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
-		<description>Winchester M1894, .30-30</description>
+		<description>Winchester M1873, .44-40</description>
 		<tech_level>5</tech_level>
 		<legality_class>3</legality_class>
 		<value>420</value>
@@ -53266,7 +53842,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -53357,7 +53933,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -53577,7 +54153,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
-				<specialization>LMG</specialization>
+				<specialization>Light Machine Gun</specialization>
 				<modifier>0</modifier>
 			</default>
 			<default>
