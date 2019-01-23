@@ -6625,6 +6625,221 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
+		<description>Hand Grenade, Black Powder</description>
+		<tech_level>5</tech_level>
+		<legality_class>2</legality_class>
+		<value>5</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>3d cr ex [1d]</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 3-5</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Hand Grenade, Chemical</description>
+		<tech_level>7</tech_level>
+		<legality_class>3</legality_class>
+		<value>10</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>spec. (2 y)</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 2</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Hand Grenade, Concussion</description>
+		<tech_level>6</tech_level>
+		<legality_class>2</legality_class>
+		<value>15</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>6d cr ex</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 4</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Hand Grenade, Concussion</description>
+		<tech_level>7</tech_level>
+		<legality_class>2</legality_class>
+		<value>40</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>5dx2 cr</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 4</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Hand Grenade, Fragmentation</description>
+		<tech_level>6</tech_level>
+		<legality_class>2</legality_class>
+		<value>10</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>4d cr ex [2d]</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 4</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Hand Grenade, Fragmentation</description>
+		<tech_level>7</tech_level>
+		<legality_class>2</legality_class>
+		<value>40</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>8d cr ex [3d]</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 4</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Hand Grenade, Plasma</description>
+		<tech_level>^</tech_level>
+		<legality_class>1</legality_class>
+		<value>100</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>6dx4 burn ex</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 2</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Hand Grenade, Stun</description>
+		<tech_level>8</tech_level>
+		<legality_class>2</legality_class>
+		<value>40</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse 2</notes>
+		<categories>
+			<category>Missile Weapon</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
 		<description>Handcuffs</description>
 		<tech_level>5</tech_level>
 		<legality_class>4</legality_class>
@@ -10441,6 +10656,33 @@
 		<notes>3-hour tape</notes>
 		<categories>
 			<category>Communications and Information Gear</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Molotov Cocktail</description>
+		<tech_level>6</tech_level>
+		<legality_class>3</legality_class>
+		<value>0</value>
+		<weight>1 lb</weight>
+		<reference>B277</reference>
+		<ranged_weapon>
+			<damage>spec. (1 y)</damage>
+			<accuracy>0</accuracy>
+			<range>x3.5</range>
+			<rate_of_fire>1</rate_of_fire>
+			<shots>1</shots>
+			<bulk>0</bulk>
+			<recoil>0</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Throwing</name>
+				<modifier>0</modifier>
+			</default>
+		</ranged_weapon>
+		<notes>Fuse spec.</notes>
+		<categories>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
