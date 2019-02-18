@@ -23416,4 +23416,1059 @@
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Parrying Buckler</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>50</value>
+		<weight>8 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+1</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Small Shield, Light</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>30</value>
+		<weight>3 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Comanche Shield</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>100</value>
+		<weight>16 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>Fragile (Combustible) (p. B136).</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Medium Shield, Light</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>45</value>
+		<weight>7 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Large Shield, Light</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>68</value>
+		<weight>10 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Mycenaean Shield</description>
+		<tech_level>0</tech_level>
+		<legality_class>4</legality_class>
+		<value>58</value>
+		<weight>9 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>-3</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Small Shield, Heavy</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>40</value>
+		<weight>6 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>1</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Homeric Buckler, Medium</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>100</value>
+		<weight>16 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Medium Shield, Heavy</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>60</value>
+		<weight>14 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Homeric Buckler, Large</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>150</value>
+		<weight>20 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Large Shield, Heavy</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>90</value>
+		<weight>20 lb</weight>
+		<reference>LT114</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Argive Shield</description>
+		<tech_level>2</tech_level>
+		<legality_class>4</legality_class>
+		<value>120</value>
+		<weight>15 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>+1 DB when used in shield wall.</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Roman Scutum, Medium</description>
+		<tech_level>2</tech_level>
+		<legality_class>4</legality_class>
+		<value>140</value>
+		<weight>16 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>Laminated wood (+20% HP).</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Roman Scutum, Large</description>
+		<tech_level>2</tech_level>
+		<legality_class>4</legality_class>
+		<value>200</value>
+		<weight>22 lb</weight>
+		<reference>LT115</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>Laminated wood (+20% HP).</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Dueling Buckler</description>
+		<tech_level>3</tech_level>
+		<legality_class>4</legality_class>
+		<value>25</value>
+		<weight>2 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+1</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<notes>DR 4 to the shield hand.</notes>
+		<categories>
+			<category>Shield</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Heater Shield</description>
+		<tech_level>3</tech_level>
+		<legality_class>4</legality_class>
+		<value>75</value>
+		<weight>13 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>2</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Kite Shield</description>
+		<tech_level>3</tech_level>
+		<legality_class>4</legality_class>
+		<value>120</value>
+		<weight>18 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Guige</specialization>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Dueling Long Shield</description>
+		<tech_level>4</tech_level>
+		<legality_class>4</legality_class>
+		<value>200</value>
+		<weight>16 lb</weight>
+		<reference>LT116</reference>
+		<melee_weapon>
+			<damage>thr cr</damage>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
+			<parry>No</parry>
+			<block>+0</block>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Staff</name>
+				<modifier>-4</modifier>
+			</default>
+		</melee_weapon>
+		<categories>
+			<category>Shield</category>
+		</categories>
+		<attribute_bonus>
+			<attribute>dodge</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>parry</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+		<attribute_bonus>
+			<attribute>block</attribute>
+			<amount>3</amount>
+		</attribute_bonus>
+	</equipment>
 </equipment_list>
