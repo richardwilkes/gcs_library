@@ -386,46 +386,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -438,46 +418,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -5302,46 +5262,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -5367,6 +5307,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -5531,7 +5472,7 @@
 		<melee_weapon>
 			<damage>thr+1 cut</damage>
 			<strength>5</strength>
-			<usage>Knife Thrust</usage>
+			<usage>Thrust - Knife</usage>
 			<reach>C</reach>
 			<parry>0</parry>
 			<block>No</block>
@@ -5563,7 +5504,7 @@
 		<melee_weapon>
 			<damage>thr+1 cut</damage>
 			<strength>5</strength>
-			<usage>Main-Gauche Thrust</usage>
+			<usage>Thrust - Main-Gauche</usage>
 			<reach>C</reach>
 			<parry>0F</parry>
 			<block>No</block>
@@ -10300,46 +10241,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -10352,46 +10273,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -10517,10 +10418,10 @@
 		<reference>LT58</reference>
 		<melee_weapon>
 			<damage>thr+1 cut</damage>
-			<strength>7</strength>
-			<usage>Thrust</usage>
+			<strength>5</strength>
+			<usage>Thrust - Knife</usage>
 			<reach>C</reach>
-			<parry>0F</parry>
+			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
@@ -10539,16 +10440,70 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr-1 imp</damage>
+			<strength>5</strength>
+			<usage>Thrust - Knife - Side blade</usage>
+			<reach>C</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr+1 cut</damage>
+			<strength>5</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
 			<default>
 				<type>Skill</type>
 				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -10570,23 +10525,13 @@
 		<melee_weapon>
 			<damage>thr-1 imp</damage>
 			<strength>5</strength>
-			<usage>Thrust - Side blade</usage>
+			<usage>Thrust - Main-Gauche - Side blade</usage>
 			<reach>C</reach>
 			<parry>0F</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
+				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -10595,12 +10540,12 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -10683,51 +10628,31 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>th-1 imp</damage>
+			<damage>thr-1 imp</damage>
 			<strength>7</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
@@ -10735,46 +10660,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -11610,46 +11515,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -11662,46 +11547,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -11727,6 +11592,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12998,8 +12864,8 @@
 		<melee_weapon>
 			<damage>sw-1 cut</damage>
 			<strength>7</strength>
-			<usage>Swung - Shortsword</usage>
-			<reach>1</reach>
+			<usage>Swung</usage>
+			<reach>C,1</reach>
 			<parry>0</parry>
 			<block>No</block>
 			<default>
@@ -13008,8 +12874,8 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Knife</name>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -13018,12 +12884,96 @@
 			</default>
 			<default>
 				<type>Skill</type>
+				<name>Main Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>7</strength>
+			<usage>Thrust</usage>
+			<reach>C,1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
 				<name>Knife</name>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Main-Gauche</name>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>sw-1 cut</damage>
+			<strength>7</strength>
+			<usage>Swung - Shortsword</usage>
+			<reach>1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Tonfa</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -13031,95 +12981,51 @@
 			<damage>thr imp</damage>
 			<strength>7</strength>
 			<usage>Thrust - Shortsword</usage>
-			<reach>C, 1</reach>
+			<reach>C,1</reach>
 			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-4</modifier>
+				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Broadsword</name>
+				<modifier>-2</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
 				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main-Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-		</melee_weapon>
-		<melee_weapon>
-			<damage>sw-1 cut</damage>
-			<strength>7</strength>
-			<usage>Swung - Knife</usage>
-			<reach>C, 1</reach>
-			<parry>0</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
 				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-		</melee_weapon>
-		<melee_weapon>
-			<damage>thr imp</damage>
-			<strength>7</strength>
-			<usage>Thrust - Knife</usage>
-			<reach>C, 1</reach>
-			<parry>0</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
+				<name>Saber</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
+				<name>Smallsword</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Main Gauche</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
+				<name>Tonfa</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -13845,21 +13751,11 @@
 			<strength>6</strength>
 			<usage>Swung</usage>
 			<reach>C,1</reach>
-			<parry>0</parry>
+			<parry>0F</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
 				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -13868,12 +13764,12 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -13896,6 +13792,80 @@
 			<damage>thr imp</damage>
 			<strength>6</strength>
 			<usage>Thrust</usage>
+			<reach>C,1</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Rapier</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Saber</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Smallsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>sw-3 cut</damage>
+			<strength>6</strength>
+			<usage>Swung - Knife</usage>
+			<reach>C,1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>6</strength>
+			<usage>Thrust - Knife</usage>
 			<reach>C</reach>
 			<parry>0</parry>
 			<block>No</block>
@@ -13916,31 +13886,11 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Rapier</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Smallsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -16287,7 +16237,7 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
+				<name>Knife</name>
 				<modifier>0</modifier>
 			</default>
 			<default>
@@ -16297,7 +16247,7 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Maine-Gauche</name>
+				<name>Main-Gauche</name>
 				<modifier>-3</modifier>
 			</default>
 			<default>
@@ -16305,10 +16255,37 @@
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr+1(0.5) imp</damage>
+			<strength>8</strength>
+			<usage>Thrust - Jitte/Sai</usage>
+			<reach>C,1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
 			<default>
 				<type>Skill</type>
-				<name>Knife</name>
+				<name>Jitte/Sai</name>
 				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
 		<notes>Gets +2 to disarm when wielded with Jitte/Sai skill; see pp. B208, B401.</notes>
@@ -16876,6 +16853,38 @@
 			</default>
 			<default>
 				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>6</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
 				<name>Main-Gauche</name>
 				<modifier>0</modifier>
 			</default>
@@ -16887,7 +16896,7 @@
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>0</modifier>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -16903,21 +16912,6 @@
 				<type>Skill</type>
 				<name>Smallsword</name>
 				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
 			</default>
 		</melee_weapon>
 		<notes>Reduce penalty for targeting chinks in armor (p. B400) by -2.</notes>
@@ -17245,10 +17239,10 @@
 		<reference>LT61</reference>
 		<melee_weapon>
 			<damage>sw cr</damage>
-			<strength>6</strength>
+			<strength>7</strength>
 			<usage>Swing</usage>
 			<reach>1</reach>
-			<parry>0F</parry>
+			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
@@ -17267,12 +17261,66 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr imp</damage>
+			<strength>7</strength>
+			<usage>Thrust</usage>
+			<reach>1</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>sw cr</damage>
+			<strength>7</strength>
+			<usage>Swing - Main-Gauche</usage>
+			<reach>1</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -17298,7 +17346,7 @@
 		<melee_weapon>
 			<damage>thr imp</damage>
 			<strength>7</strength>
-			<usage>Thrust</usage>
+			<usage>Thrust - Main-Gauche</usage>
 			<reach>1</reach>
 			<parry>0F</parry>
 			<block>No</block>
@@ -17308,23 +17356,13 @@
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
-				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
 				<name>Main-Gauche</name>
 				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
+				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -17370,6 +17408,7 @@
 		<notes>Gets +2 to disarm when wielded with Jitte/Sai skill; see pp. B208, B401.</notes>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -18383,7 +18422,7 @@
 			<damage>sw-1 cr</damage>
 			<strength>5</strength>
 			<usage>Swung</usage>
-			<reach>C, 1</reach>
+			<reach>C,1</reach>
 			<parry>-1</parry>
 			<block>No</block>
 			<default>
@@ -18481,11 +18520,6 @@
 				<type>Skill</type>
 				<name>Jitte/Sai</name>
 				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>-4</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -19052,7 +19086,7 @@
 			<strength>5</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
-			<parry>0F</parry>
+			<parry>0</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
@@ -19071,16 +19105,38 @@
 			<default>
 				<type>Skill</type>
 				<name>Main-Gauche</name>
-				<modifier>0</modifier>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr+1 cut</damage>
+			<strength>5</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>0</modifier>
+			</default>
 			<default>
 				<type>Skill</type>
 				<name>Jitte/Sai</name>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
 				<modifier>-4</modifier>
 			</default>
 			<default>
@@ -19436,98 +19492,58 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
 		<melee_weapon>
 			<damage>thr-1 imp</damage>
-			<strength>7</strength>
+			<strength>5</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
 			<parry>-1</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -19553,6 +19569,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19729,7 +19746,8 @@
 			</default>
 		</ranged_weapon>
 		<categories>
-			<category>Melee Weapon/Missile Weapon</category>
+			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -20540,11 +20558,43 @@
 			<strength>5</strength>
 			<usage>Thrust</usage>
 			<reach>C</reach>
-			<parry>1</parry>
+			<parry>-1</parry>
 			<block>No</block>
 			<default>
 				<type>DX</type>
 				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Knife</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shortsword</name>
+				<modifier>-3</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage>thr-1 imp</damage>
+			<strength>5</strength>
+			<usage>Thrust - Main-Gauche</usage>
+			<reach>C</reach>
+			<parry>0F</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-5</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
@@ -20574,21 +20624,6 @@
 			<default>
 				<type>Skill</type>
 				<name>Smallsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Knife</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>-3</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -21853,7 +21888,7 @@
 			<damage>thr cr</damage>
 			<strength>7</strength>
 			<usage>Thrust</usage>
-			<reach>C, 1</reach>
+			<reach>C,1</reach>
 			<parry>0</parry>
 			<block>No</block>
 			<default>
@@ -23311,46 +23346,26 @@
 			<block>No</block>
 			<default>
 				<type>DX</type>
-				<modifier>-5</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Shortsword</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Broadsword</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Force Sword</name>
 				<modifier>-4</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Jitte/Sai</name>
-				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
 				<name>Knife</name>
-				<modifier>-4</modifier>
+				<modifier>0</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Saber</name>
-				<modifier>-4</modifier>
+				<name>Force Sword</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Smallsword</name>
-				<modifier>-4</modifier>
+				<name>Main-Gauche</name>
+				<modifier>-3</modifier>
 			</default>
 			<default>
 				<type>Skill</type>
-				<name>Tonfa</name>
+				<name>Shortsword</name>
 				<modifier>-3</modifier>
 			</default>
 		</melee_weapon>
@@ -23376,6 +23391,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Melee Weapon</category>
+			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
