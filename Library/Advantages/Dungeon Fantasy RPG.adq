@@ -2295,12 +2295,6 @@
 			<specialization compare="is">woodlands</specialization>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
-		<prereq_list all="yes">
-			<advantage_prereq has="yes">
-				<name compare="ends with">Elf</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="2">
 		<name>Frightens Animals</name>
