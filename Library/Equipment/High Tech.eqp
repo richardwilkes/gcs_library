@@ -9563,6 +9563,30 @@
 			<category>General Equipment</category>
 		</categories>
 	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Clothing, Ordinary, Status 0</description>
+		<tech_level>7</tech_level>
+		<legality_class>4</legality_class>
+		<value>120</value>
+		<weight>2 lb</weight>
+		<reference>HT63</reference>
+		<categories>
+			<category>Clothing</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Clothing, Summer, Status 0</description>
+		<tech_level>7</tech_level>
+		<legality_class>4</legality_class>
+		<value>60</value>
+		<weight>1 lb</weight>
+		<reference>HT63</reference>
+		<categories>
+			<category>Clothing</category>
+		</categories>
+	</equipment>
 	<equipment_container version="4" open="yes">
 		<description>CMG CCKW-353</description>
 		<tech_level>6</tech_level>
@@ -19770,13 +19794,13 @@
 		<reference>HT101</reference>
 		<ranged_weapon>
 			<damage>2d pi+</damage>
-			<strength>8</strength>
+			<strength>10</strength>
 			<accuracy>2</accuracy>
 			<range>160/1,800</range>
 			<rate_of_fire>3</rate_of_fire>
-			<shots>15+1(3)</shots>
+			<shots>13+1(3)</shots>
 			<bulk>-2</bulk>
-			<recoil>2</recoil>
+			<recoil>3</recoil>
 			<default>
 				<type>Skill</type>
 				<name>Guns</name>
@@ -23611,6 +23635,17 @@
 	</equipment>
 	<equipment version="4">
 		<quantity>1</quantity>
+		<description>Hat, Cloth</description>
+		<tech_level>1</tech_level>
+		<legality_class>4</legality_class>
+		<value>6</value>
+		<reference>HT64</reference>
+		<categories>
+			<category>Headgear</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
 		<description>Hawk MM1, 40x46mmSR</description>
 		<tech_level>8</tech_level>
 		<legality_class>1</legality_class>
@@ -25914,6 +25949,97 @@
 			<rate_of_fire>10</rate_of_fire>
 			<shots>30(3)</shots>
 			<bulk>-5</bulk>
+			<recoil>2</recoil>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Pistol</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Rifle</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Musket</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Shotgun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Machine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Submachine Gun</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Gun!</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Grenade Launcher</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Gyroc</specialization>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Guns</name>
+				<specialization>Light Anti-Armor Weapon</specialization>
+				<modifier>-4</modifier>
+			</default>
+		</ranged_weapon>
+		<categories>
+			<category>Firearms</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>Izhmash AKMS, 7.62x39mm</description>
+		<tech_level>7</tech_level>
+		<legality_class>2</legality_class>
+		<value>450</value>
+		<weight>9.4 lb</weight>
+		<reference>HT114</reference>
+		<ranged_weapon>
+			<damage>5d+1 pi</damage>
+			<strength>9&#8224;</strength>
+			<accuracy>4</accuracy>
+			<range>500/3,100</range>
+			<rate_of_fire>10</rate_of_fire>
+			<shots>30(3)</shots>
+			<bulk>-5*</bulk>
 			<recoil>2</recoil>
 			<default>
 				<type>Skill</type>
@@ -49717,6 +49843,17 @@
 				<modifier>0</modifier>
 			</default>
 		</melee_weapon>
+		<categories>
+			<category>General Equipment</category>
+		</categories>
+	</equipment>
+	<equipment version="4">
+		<quantity>1</quantity>
+		<description>UV Bulb</description>
+		<tech_level>7</tech_level>
+		<legality_class>4</legality_class>
+		<value>25</value>
+		<reference>HT52</reference>
 		<categories>
 			<category>General Equipment</category>
 		</categories>
