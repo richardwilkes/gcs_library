@@ -208,6 +208,7 @@
 		<weight>0.1 lb</weight>
 		<reference>DFA104</reference>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -861,6 +862,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Dart</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -871,6 +873,7 @@
 		<weight>0.05 lb</weight>
 		<reference>DFA104</reference>
 		<categories>
+			<category>AmmoType:Dart</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -1003,6 +1006,7 @@
 		<reference>DFA105</reference>
 		<notes>Changes bow damage type to pi, and gives armor divisor (2).</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -1016,6 +1020,7 @@
 		<reference>DFA105</reference>
 		<notes>Changes crossbow damage type to pi, and gives armor divisor (2).</notes>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -2201,6 +2206,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2231,6 +2237,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2296,6 +2303,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2306,6 +2314,7 @@
 		<weight>0.06 lb</weight>
 		<reference>DFA104</reference>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -2551,6 +2560,7 @@
 		<reference>DFA105</reference>
 		<notes>Changes bow damage type to cut.</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -2564,6 +2574,7 @@
 		<reference>DFA105</reference>
 		<notes>Changes crossbow damage type to cut.</notes>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -3833,6 +3844,7 @@
 		<reference>DFA105</reference>
 		<notes>Adds the flaming property to any arrow.</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -3845,6 +3857,7 @@
 		<reference>DFA105</reference>
 		<notes>Adds the flaming property to any crossbow bolt.</notes>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -5286,6 +5299,7 @@
 		<notes>Unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they&#8217;re less accurate: -1 to hit.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -5296,6 +5310,7 @@
 		<weight>1 lb</weight>
 		<reference>DFA104</reference>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -7217,6 +7232,7 @@
 		<weight>0.06 lb</weight>
 		<reference>DFA104</reference>
 		<categories>
+			<category>AmmoType:Prodd</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -8482,6 +8498,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -10566,6 +10583,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment_container version="4" open="yes">
@@ -10914,17 +10932,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
-		</categories>
-	</equipment>
-	<equipment version="4">
-		<quantity>1</quantity>
-		<description>Prodd Pellet</description>
-		<legality_class>4</legality_class>
-		<value>0.1</value>
-		<weight>0.06 lb</weight>
-		<reference>DFA104</reference>
-		<categories>
-			<category>Ammunition</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment_container version="4" open="yes">
@@ -11177,6 +11185,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12151,6 +12160,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12623,6 +12633,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12632,7 +12643,9 @@
 		<value>0.1</value>
 		<weight>0.06 lb</weight>
 		<reference>DFA104</reference>
+		<notes>+1 damage and double range</notes>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -12644,6 +12657,7 @@
 		<weight>0.05 lb</weight>
 		<reference>DFA104</reference>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -12654,7 +12668,9 @@
 		<value>0</value>
 		<weight>0.05 lb</weight>
 		<reference>DFA104</reference>
+		<notes>-1 to hit</notes>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -14006,6 +14022,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">

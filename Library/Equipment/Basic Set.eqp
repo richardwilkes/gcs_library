@@ -34,6 +34,8 @@
 		<weight>0.1 lb</weight>
 		<reference>B276</reference>
 		<categories>
+			<category>AmmoType:Arrow</category>
+			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
@@ -47,6 +49,8 @@
 		<reference>B277</reference>
 		<notes>Changes damage to piercing with armor divisor of (2).</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
+			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
@@ -418,6 +422,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Dart</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -453,6 +458,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Javelin</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2501,6 +2507,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Dart</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2512,6 +2519,7 @@
 		<weight>0.05 lb</weight>
 		<reference>B276</reference>
 		<categories>
+			<category>AmmoType:Dart</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -4238,6 +4246,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4268,6 +4277,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4298,6 +4308,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4328,6 +4339,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4358,6 +4370,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4388,6 +4401,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4418,6 +4432,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4448,6 +4463,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4478,6 +4494,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4508,6 +4525,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4538,6 +4556,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4568,6 +4587,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4598,6 +4618,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4628,6 +4649,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4639,6 +4661,7 @@
 		<weight>0.06 lb</weight>
 		<reference>B276</reference>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -7942,6 +7965,7 @@
 			</default>
 		</ranged_weapon>
 		<categories>
+			<category>AmmoType:Javelin</category>
 			<category>Melee Weapon</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -8823,6 +8847,7 @@
 		<weight>0.06 lb</weight>
 		<reference>B276</reference>
 		<categories>
+			<category>AmmoType:Prodd</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -8837,6 +8862,7 @@
 		<reference>B276</reference>
 		<notes>Gives +1 damage, double range</notes>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -9677,6 +9703,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9707,6 +9734,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9737,6 +9765,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9767,6 +9796,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9797,6 +9827,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9827,6 +9858,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9857,6 +9889,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9887,6 +9920,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9917,6 +9951,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9947,6 +9982,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11301,6 +11337,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11331,6 +11368,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11361,6 +11399,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11391,6 +11430,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11421,6 +11461,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11451,6 +11492,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11481,6 +11523,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11511,6 +11554,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11541,6 +11585,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11571,6 +11616,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11601,6 +11647,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11631,6 +11678,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11661,6 +11709,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11691,6 +11740,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -11993,6 +12043,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12023,6 +12074,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12053,6 +12105,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12083,6 +12136,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12113,6 +12167,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12143,6 +12198,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12173,6 +12229,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12203,6 +12260,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12233,6 +12291,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12263,6 +12322,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12293,6 +12353,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12323,6 +12384,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12353,6 +12415,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12383,6 +12446,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12761,6 +12825,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12791,6 +12856,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12821,6 +12887,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12851,6 +12918,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12881,6 +12949,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12911,6 +12980,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12941,6 +13011,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -12971,6 +13042,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -13001,6 +13073,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -13031,6 +13104,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -13061,6 +13135,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14396,6 +14471,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14426,6 +14502,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14456,6 +14533,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14486,6 +14564,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14516,6 +14595,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14546,6 +14626,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14576,6 +14657,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14606,6 +14688,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14636,6 +14719,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14666,6 +14750,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14696,6 +14781,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14726,6 +14812,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14756,6 +14843,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -14786,6 +14874,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -15175,6 +15264,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -15186,6 +15276,7 @@
 		<weight>0.05 lb</weight>
 		<reference>B276</reference>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 			<category>Missile Weapon</category>
 		</categories>
@@ -16507,6 +16598,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">

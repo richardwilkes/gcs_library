@@ -1400,6 +1400,7 @@
 		<reference>LT73</reference>
 		<notes>Inflicts half the injury it delivered when yanked out</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -2252,6 +2253,7 @@
 		<notes>Follow-up drug or poison attack if damage penetrates DR. Effects depend on the poison used; see Poisons (pp. LT128-130); Requires two hands to ready, but only one hand to attack</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Dart</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -2263,6 +2265,7 @@
 		<weight>0.05 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Dart</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -2325,6 +2328,7 @@
 		<reference>LT73</reference>
 		<notes>Converts damage to crushing</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -2761,6 +2765,7 @@
 		<reference>LT73</reference>
 		<notes>-1 Acc, subtracts five from both range multipliers; Converts damage to Cutting and inflicts half the injury it delivered when yanked out</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -4772,6 +4777,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -4907,6 +4913,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -5231,6 +5238,7 @@
 		<reference>LT73</reference>
 		<notes>Converts damage to Cutting</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -5436,6 +5444,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Dart</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -5447,6 +5456,7 @@
 		<weight>0.05 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Dart</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -7155,6 +7165,7 @@
 		<reference>LT73</reference>
 		<notes>-1 Acc, subtracts five from both range multipliers; Lighting requires Ready maneuver</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -7168,6 +7179,7 @@
 		<reference>LT73</reference>
 		<notes>Convert damage to small piercing; fire damage is 1d-3 burn; -2 to hit, -1 Acc, subtracts five from both range multipliers; Lighting requires Ready maneuver</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -7325,6 +7337,7 @@
 		<reference>LT73</reference>
 		<notes>Halve damage to 1/2D, no damage past 1/2D; Double range modifiers</notes>
 		<categories>
+			<category>AmmoType:Arrow</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -9126,6 +9139,7 @@
 		<notes>Steel crossbow (See LT78, Note 6)</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -9399,6 +9413,7 @@
 			</default>
 		</ranged_weapon>
 		<categories>
+			<category>AmmoType:Javelin</category>
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
@@ -13271,6 +13286,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -15520,6 +15536,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -15531,6 +15548,7 @@
 		<weight>0.06 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -15953,6 +15971,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Prodd</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -15964,6 +15983,7 @@
 		<weight>0.06 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Prodd</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -16708,6 +16728,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -16739,6 +16760,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -16770,6 +16792,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -18570,6 +18593,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Arrow</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19060,6 +19084,7 @@
 		<notes>Steel crossbow (See LT78, Note 6)</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19206,6 +19231,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack.; unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they&#8217;re less accurate: -1 to hit; Can fire stones (TL0) or lead bullets (TL2). Lead bullets give +1 damage and double range.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19217,6 +19243,7 @@
 		<weight>0.06 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -19306,6 +19333,7 @@
 		<notes>Requires several Ready maneuvers to cock the bow before loading darts; use the standard cocking times for crossbows under Bows, Crossbows, and Rated ST (p. LT74).</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Bolt</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -19317,6 +19345,7 @@
 		<weight>0.03 lb</weight>
 		<reference>LT76</reference>
 		<categories>
+			<category>AmmoType:Bolt</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
@@ -20489,6 +20518,7 @@
 		<notes>Unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they&#8217;re less accurate: -1 to hit.; Can fire stones (TL0) or lead bullets (TL2). Lead bullets give +1 damage and double range.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -20680,6 +20710,7 @@
 		<notes>Requires two hands to ready, but only one hand to attack; unshaped rocks and stones suitable for slings, heavy slings, and stone-launching sticks can be found for free, but they&#8217;re less accurate: -1 to hit.</notes>
 		<categories>
 			<category>Missile Weapon</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -20692,6 +20723,7 @@
 		<reference>LT77</reference>
 		<notes>Inflicts half the injury it delivered when yanked out</notes>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Ammunition</category>
 		</categories>
 	</equipment>

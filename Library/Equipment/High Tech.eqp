@@ -28223,6 +28223,7 @@
 		<weight>0.05 lb</weight>
 		<reference>HT201</reference>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Muscle-Powered Ranged Weapons</category>
 		</categories>
 	</equipment>
@@ -43546,6 +43547,7 @@
 		</ranged_weapon>
 		<categories>
 			<category>Muscle-Powered Ranged Weapons</category>
+			<category>UsesAmmoType:Sling</category>
 		</categories>
 	</equipment>
 	<equipment version="4">
@@ -45099,6 +45101,7 @@
 		<weight>0.05 lb</weight>
 		<reference>HT201</reference>
 		<categories>
+			<category>AmmoType:Sling</category>
 			<category>Muscle-Powered Ranged Weapons</category>
 		</categories>
 	</equipment>

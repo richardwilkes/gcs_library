@@ -1,0 +1,1460 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<skill_list id="f2f6b62f-2be5-4b9d-87af-fd7168cb15a5" version="1">
+	<skill version="2">
+		<name>Acrobatics</name>
+		<difficulty>DX/H</difficulty>
+		<points>1</points>
+		<reference>Lite 13</reference>
+		<categories>
+			<category>Athletic</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Acting</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 13</reference>
+		<categories>
+			<category>Social</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Animal Handling</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Animal</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Area Knowledge</name>
+		<difficulty>IQ/E</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Everyman</category>
+			<category>Knowledge</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Armoury</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Military</category>
+			<category>Repair/Maintainance</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Axe/Mace</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Bicycling</name>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>B180</reference>
+		<categories>
+			<category>Athletic</category>
+			<category>Vehicle</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+		<default>
+			<type>Skill</type>
+			<name>Driving</name>
+			<specialization>Motorcycle</specialization>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Boating</name>
+		<tech_level/>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Vehicle</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Bow</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Brawling</name>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<weapon_bonus>
+			<name compare="is">Brawling</name>
+			<specialization compare="is anything"></specialization>
+			<level compare="at least">2</level>
+			<amount per_level="yes">1</amount>
+		</weapon_bonus>
+	</skill>
+	<skill version="2">
+		<name>Broadsword</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Camouflage</name>
+		<difficulty>IQ/E</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Military</category>
+			<category>Outdoor/Exploration</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-4</modifier>
+		</default>
+		<default>
+			<type>Skill</type>
+			<name>Survival</name>
+			<modifier>-2</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Carousing</name>
+		<difficulty>HT/E</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>HT</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Climbing</name>
+		<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Athletic</category>
+			<category>Criminal/Street</category>
+			<category>Outdoor/Exploration</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Computer Operation</name>
+		<tech_level/>
+		<difficulty>IQ/E</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Everyman</category>
+			<category>Scholarly</category>
+			<category>Technical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Computer Programming</name>
+		<tech_level/>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Design/Invention</category>
+		</categories>
+	</skill>
+	<skill version="2">
+		<name>Crewman</name>
+		<tech_level/>
+		<difficulty>IQ/E</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Vehicle</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Criminology</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Police</category>
+			<category>Social Sciences/Humanities</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Crossbow</name>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Diagnosis</name>
+		<tech_level/>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Medical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Diplomacy</name>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Business</category>
+			<category>Police</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+		<default>
+			<type>Skill</type>
+			<name>Politics</name>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Disguise</name>
+		<specialization>@Specialty@</specialization>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Driving</name>
+		<tech_level/>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Vehicle</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Electronics Operation</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Technical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Electronics Repair</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Repair/Maintainance</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Engineer</name>
+		<tech_level/>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Design/Invention</category>
+			<category>Engineer</category>
+		</categories>
+		<prereq_list all="yes">
+			<when_tl compare="at least">5</when_tl>
+			<skill_prereq has="yes">
+				<name compare="is">mathematics</name>
+				<specialization compare="is">applied</specialization>
+			</skill_prereq>
+		</prereq_list>
+	</skill>
+	<skill version="2">
+		<name>Environment Suit</name>
+		<tech_level/>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Technical</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Escape</name>
+		<difficulty>DX/H</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Criminal/Street</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Expert Skill</name>
+		<specialization>@Field of expertise@</specialization>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>B193</reference>
+		<categories>
+			<category>Knowledge</category>
+			<category>Scholarly</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Explosives</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Military</category>
+			<category>Technical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Fast-Talk</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Social</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>First Aid</name>
+		<tech_level/>
+		<difficulty>IQ/E</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Everyman</category>
+			<category>Medical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Forgery</name>
+		<tech_level/>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Gambling</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Guns</name>
+		<specialization>Pistol</specialization>
+		<tech_level/>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Guns</name>
+		<specialization>Rifle</specialization>
+		<tech_level/>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Guns</name>
+		<specialization>Shotgun</specialization>
+		<tech_level/>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Hiking</name>
+		<difficulty>HT/A</difficulty>
+		<points>1</points>
+		<reference>Lite 14</reference>
+		<categories>
+			<category>Athletic</category>
+			<category>Outdoor/Exploration</category>
+		</categories>
+		<default>
+			<type>HT</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Hobby Skill</name>
+		<specialization>@Mental Hobby@</specialization>
+		<difficulty>IQ/E</difficulty>
+		<points>1</points>
+		<reference>B200</reference>
+		<categories>
+			<category>Knowledge</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Hobby Skill</name>
+		<specialization>@Physical Hobby@</specialization>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>B200</reference>
+		<categories>
+			<category>Knowledge</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Holdout</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Humanities</name>
+		<specialization>@Choose@</specialization>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Knowledge</category>
+			<category>Scholarly</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Interrogation</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Military</category>
+			<category>Police</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Intimidation</name>
+		<difficulty>Will/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Police</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>Per</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Jumping</name>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Athletic</category>
+		</categories>
+	</skill>
+	<skill version="2">
+		<name>Karate</name>
+		<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+		<difficulty>DX/H</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<weapon_bonus>
+			<name compare="is">Karate</name>
+			<specialization compare="is anything"></specialization>
+			<level compare="at least">0</level>
+			<amount per_level="yes">1</amount>
+		</weapon_bonus>
+		<weapon_bonus>
+			<name compare="is">Karate</name>
+			<specialization compare="is anything"></specialization>
+			<level compare="at least">1</level>
+			<amount per_level="yes">1</amount>
+		</weapon_bonus>
+	</skill>
+	<skill version="2">
+		<name>Knife</name>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Law</name>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Business</category>
+			<category>Police</category>
+			<category>Social Sciences/Humanities</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Leadership</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Military</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Lockpicking</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Police</category>
+			<category>Spy</category>
+			<category>Technical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Mathematics</name>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Knowledge</category>
+			<category>Scholarly</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Mechanic</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Repair/Maintainance</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Merchant</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Business</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Natural Sciences</name>
+		<specialization>@Choose@</specialization>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Knowledge</category>
+			<category>Scholarly</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Naturalist</name>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Animal</category>
+			<category>Natural Science</category>
+			<category>Outdoor/Exploration</category>
+			<category>Plant</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Navigation</name>
+		<specialization>@Specialty@</specialization>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Outdoor/Exploration</category>
+			<category>Technical</category>
+			<category>Vehicle</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Observation</name>
+		<difficulty>Per/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Military</category>
+			<category>Police</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>Per</type>
+			<modifier>-5</modifier>
+		</default>
+		<default>
+			<type>Skill</type>
+			<name>Shadowing</name>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Occultism</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Occult/Magical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Photography</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Arts/Entertainment</category>
+			<category>Spy</category>
+			<category>Technical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Physician</name>
+		<tech_level/>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Medical</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-7</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Pickpocket</name>
+		<difficulty>DX/H</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Criminal/Street</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Piloting</name>
+		<tech_level/>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Vehicle</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Polearm</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Professional Skill</name>
+		<specialization>@Mental Skill@</specialization>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>B215</reference>
+		<categories>
+			<category>Knowledge</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Professional Skill</name>
+		<specialization>@Physical Skill@</specialization>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>B215</reference>
+		<categories>
+			<category>Knowledge</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Public Speaking</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Business</category>
+			<category>Scholarly</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Rapier</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Research</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Scholarly</category>
+			<category>Spy</category>
+		</categories>
+		<prereq_list all="yes">
+			<prereq_list all="yes">
+				<when_tl compare="at least">8</when_tl>
+				<skill_prereq has="yes">
+					<name compare="is">Computer Operation</name>
+					<specialization compare="is anything"></specialization>
+				</skill_prereq>
+			</prereq_list>
+			<prereq_list all="no">
+				<advantage_prereq has="yes">
+					<name compare="starts with">Language</name>
+					<notes compare="contains">Written (Native</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="starts with">Language</name>
+					<notes compare="contains">Written (Accented)</notes>
+				</advantage_prereq>
+				<advantage_prereq has="yes">
+					<name compare="starts with">Language</name>
+					<notes compare="contains">Written (Broken)</notes>
+				</advantage_prereq>
+			</prereq_list>
+		</prereq_list>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Riding</name>
+		<specialization>@Specialty@</specialization>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Animal</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Savoir-Faire</name>
+		<specialization>@Social group@</specialization>
+		<difficulty>IQ/E</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Knowledge</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Scrounging</name>
+		<difficulty>Per/E</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Criminal/Street</category>
+		</categories>
+		<default>
+			<type>Per</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Search</name>
+		<difficulty>Per/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Police</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>Per</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Sex Appeal</name>
+		<difficulty>HT/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>HT</type>
+			<modifier>-3</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Shadowing</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Police</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+		<default>
+			<type>Skill</type>
+			<name>Observation</name>
+			<modifier>-5</modifier>
+		</default>
+		<default>
+			<type>Skill</type>
+			<name>Stealth</name>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Shield</name>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Shortsword</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Smuggling</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Social Sciences</name>
+		<specialization>@Choose@</specialization>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 16</reference>
+		<categories>
+			<category>Knowledge</category>
+			<category>Scholarly</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Spear</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Staff</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Stealth</name>
+		<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Police</category>
+			<category>Spy</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Streetwise</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Police</category>
+			<category>Social</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Submarine</name>
+		<tech_level/>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Vehicle</category>
+		</categories>
+		<prereq_list all="no">
+			<skill_prereq has="yes">
+				<name compare="is">diving suit</name>
+				<specialization compare="is"></specialization>
+			</skill_prereq>
+			<skill_prereq has="yes">
+				<name compare="is">scuba</name>
+				<specialization compare="is"></specialization>
+			</skill_prereq>
+		</prereq_list>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Survival</name>
+		<difficulty>Per/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Outdoor/Exploration</category>
+		</categories>
+		<default>
+			<type>Per</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Swimming</name>
+		<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
+		<difficulty>HT/E</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Athletic</category>
+			<category>Outdoor/Exploration</category>
+		</categories>
+		<default>
+			<type>HT</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Tactics</name>
+		<difficulty>IQ/H</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Military</category>
+			<category>Police</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-6</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Throwing</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Athletic</category>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-3</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Thrown Weapon</name>
+		<specialization>Axe/Mace</specialization>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Thrown Weapon</name>
+		<specialization>Knife</specialization>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Thrown Weapon</name>
+		<specialization>Spear</specialization>
+		<difficulty>DX/E</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Ranged Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-4</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Tracking</name>
+		<difficulty>Per/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Outdoor/Exploration</category>
+		</categories>
+		<default>
+			<type>Per</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Traps</name>
+		<tech_level/>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Criminal/Street</category>
+			<category>Military</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Two-Handed Axe/Mace</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Two-Handed Sword</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>Lite 15</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+		<default>
+			<type>DX</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+	<skill version="2">
+		<name>Wrestling</name>
+		<difficulty>DX/A</difficulty>
+		<points>1</points>
+		<reference>B228</reference>
+		<categories>
+			<category>Combat/Weapon</category>
+			<category>Melee Combat</category>
+		</categories>
+	</skill>
+	<skill version="2">
+		<name>Writing</name>
+		<difficulty>IQ/A</difficulty>
+		<points>1</points>
+		<reference>Lite 17</reference>
+		<categories>
+			<category>Arts/Entertainment</category>
+			<category>Scholarly</category>
+		</categories>
+		<default>
+			<type>IQ</type>
+			<modifier>-5</modifier>
+		</default>
+	</skill>
+</skill_list>
