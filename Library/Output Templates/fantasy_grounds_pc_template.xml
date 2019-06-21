@@ -104,6 +104,7 @@
           <weight type="string">@WEIGHT</weight>
           <tl type="string">@TL</tl>
           <cost type="string">@COST</cost>
+          <text type="formattedtext"><p>@DESCRIPTION_NOTES</p></text>
           <meleemodelist>@ATTACK_MODES_LOOP_START
             <id-@ID>
               <name type="string">@USAGE</name>
@@ -123,6 +124,7 @@
           <bulk type="number">@BULK</bulk>
           <lc type="string">@LEGALITY_CLASS</lc>
           <ammo type="number">@AMMO</ammo>
+          <text type="formattedtext"><p>@DESCRIPTION_NOTES</p></text>
           <rangedmodelist>@ATTACK_MODES_LOOP_START
             <id-@ID>
               <name type="string">@USAGE</name>
