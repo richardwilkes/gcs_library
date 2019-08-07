@@ -1549,6 +1549,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Bandages</description>
+		<tech_level>0</tech_level>
 		<legality_class>4</legality_class>
 		<value>10</value>
 		<weight>2 lb</weight>
@@ -4148,6 +4149,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Copper Farthing</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>1</value>
 		<weight>0.008 lb</weight>
@@ -5413,6 +5415,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>First Aid Kit</description>
+		<tech_level>0</tech_level>
 		<legality_class>4</legality_class>
 		<value>50</value>
 		<weight>2 lb</weight>
@@ -6262,6 +6265,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Gold Coin</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>80</value>
 		<weight>0.004 lb</weight>
@@ -9114,6 +9118,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Light Buckler</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>25</value>
 		<weight>2 lb</weight>
@@ -9406,6 +9411,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Light Shield</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>25</value>
 		<weight>2 lb</weight>
@@ -15191,6 +15197,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Silver Coin</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>4</value>
 		<weight>0.004 lb</weight>
@@ -15284,6 +15291,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Small Buckler</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>40</value>
 		<weight>8 lb</weight>
@@ -15556,6 +15564,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Small Shield</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>40</value>
 		<weight>8 lb</weight>
@@ -16737,6 +16746,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Suitcase Lab</description>
+		<tech_level>5</tech_level>
 		<legality_class>4</legality_class>
 		<value>3000</value>
 		<weight>10 lb</weight>
@@ -16764,6 +16774,7 @@
 	<equipment version="4">
 		<quantity>1</quantity>
 		<description>Surgical Instruments</description>
+		<tech_level>1</tech_level>
 		<legality_class>4</legality_class>
 		<value>300</value>
 		<weight>15 lb</weight>
