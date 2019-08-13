@@ -12157,13 +12157,23 @@
 			<category>Earth</category>
 			<category>Water</category>
 		</categories>
-		<prereq_list all="yes">
-			<spell_prereq has="yes">
-				<name compare="is">sand jet</name>
-			</spell_prereq>
-			<spell_prereq has="yes">
-				<name compare="is">create water</name>
-			</spell_prereq>
+		<prereq_list all="no">
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">sand jet</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">create water</name>
+				</spell_prereq>
+			</prereq_list>
+			<prereq_list all="yes">
+				<spell_prereq has="yes">
+					<name compare="is">water jet</name>
+				</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">create earth</name>
+				</spell_prereq>
+			</prereq_list>
 		</prereq_list>
 	</spell>
 	<spell version="2">
