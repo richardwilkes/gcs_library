@@ -8750,7 +8750,10 @@
 		</categories>
 		<prereq_list all="yes">
 			<spell_prereq has="yes">
-				<name compare="is">hair growth</name>
+				<college compare="is">body</college>
+			</spell_prereq>
+			<spell_prereq has="yes">
+				<name compare="is">weaken</name>
 			</spell_prereq>
 		</prereq_list>
 	</spell>
@@ -16967,7 +16970,7 @@
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
 		<spell_class>Regular</spell_class>
-		<casting_cost>1/25 cu yard</casting_cost>
+		<casting_cost>1 per 25 cu yard</casting_cost>
 		<maintenance_cost>Half</maintenance_cost>
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
@@ -17024,7 +17027,7 @@
 		<college>Technological/Metal</college>
 		<power_source>Arcane</power_source>
 		<spell_class>Regular</spell_class>
-		<casting_cost>6 or 4</casting_cost>
+		<casting_cost>6 per cu yard (4 for soft metals)</casting_cost>
 		<maintenance_cost>Half</maintenance_cost>
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
