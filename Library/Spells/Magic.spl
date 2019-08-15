@@ -2791,7 +2791,7 @@
 		</categories>
 		<prereq_list all="yes">
 			<spell_prereq has="yes">
-				<name compare="is">walk on air</name>
+				<name compare="is">cloud walking</name>
 			</spell_prereq>
 			<spell_prereq has="yes">
 				<name compare="is">jump</name>
@@ -3672,7 +3672,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="2" very_hard="yes">
 		<name>Corpulence</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -6552,7 +6552,7 @@
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
 		<spell_class>Regular</spell_class>
-		<casting_cost>8</casting_cost>
+		<casting_cost>8 per cubic yard</casting_cost>
 		<maintenance_cost>-</maintenance_cost>
 		<casting_time>30 sec</casting_time>
 		<duration>Permanent</duration>
@@ -6593,7 +6593,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="2" very_hard="yes">
 		<name>Essential Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -6663,7 +6663,7 @@
 		<college>Plant</college>
 		<power_source>Arcane</power_source>
 		<spell_class>Regular</spell_class>
-		<casting_cost>8</casting_cost>
+		<casting_cost>8 per cubic yard</casting_cost>
 		<maintenance_cost>-</maintenance_cost>
 		<casting_time>30 sec</casting_time>
 		<duration>Permanent</duration>
@@ -7623,8 +7623,8 @@
 		<casting_cost>10#</casting_cost>
 		<maintenance_cost>-</maintenance_cost>
 		<casting_time>2 sec</casting_time>
-		<duration>Permanent</duration>
-		<reference>M31</reference>
+		<duration>Instant</duration>
+		<reference>M51</reference>
 		<categories>
 			<category>Earth</category>
 		</categories>
@@ -9306,7 +9306,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="2" very_hard="yes">
 		<name>Hybrid Control</name>
 		<college>Animal</college>
 		<power_source>Arcane</power_source>
@@ -16967,7 +16967,7 @@
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
 		<spell_class>Regular</spell_class>
-		<casting_cost>1/25 cu ft</casting_cost>
+		<casting_cost>1/25 cu yard</casting_cost>
 		<maintenance_cost>Half</maintenance_cost>
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
@@ -18992,7 +18992,7 @@
 		<casting_cost>10</casting_cost>
 		<maintenance_cost>-</maintenance_cost>
 		<casting_time>5 sec</casting_time>
-		<duration>Permanent</duration>
+		<duration>Instant</duration>
 		<reference>M53</reference>
 		<categories>
 			<category>Earth</category>
@@ -20385,7 +20385,7 @@
 		</categories>
 		<prereq_list all="yes">
 			<spell_prereq has="yes">
-				<name compare="is">itch</name>
+				<name compare="is">spasm</name>
 			</spell_prereq>
 		</prereq_list>
 	</spell>
