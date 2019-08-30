@@ -105,36 +105,6 @@
           <tl type="string">@TL</tl>
           <cost type="string">@COST</cost>
           <text type="formattedtext"><p>@DESCRIPTION_NOTES</p></text>
-          <modifierlist>
-            <id-00001>
-              <modifier type="number">4</modifier>
-              <name type="string">All Out Attack (Determined), add to hit</name>
-            </id-00001>
-            <id-00002>
-              <modifier type="number">2</modifier>
-              <name type="string">All Out Attack (Strong), add to damage</name>
-            </id-00002>
-            <id-00003>
-              <modifier type="number">-2</modifier>
-              <name type="string">+Deceptive Attack (-1 to Target's Defenses), add to hit</name>
-            </id-00003>
-            <id-00004>
-              <modifier type="number">4</modifier>
-              <name type="string">+Telegraphic Attack (+2 to Target's Defenses), add to hit</name>
-            </id-00004>
-            <id-00005>
-              <modifier type="number">1</modifier>
-              <name type="string">Retreat Parry, add to parry</name>
-            </id-00005>
-            <id-00006>
-              <modifier type="number">-4</modifier>
-              <name type="string">2nd Parry this round, add to parry</name>
-            </id-00006>
-            <id-00007>
-              <modifier type="number">2</modifier>
-              <name type="string">Extra Effort: Mighty Blow [Cost 1FP], add to damage</name>
-            </id-00007>
-         </modifierlist>
           <meleemodelist>@ATTACK_MODES_LOOP_START
             <id-@ID>
               <name type="string">@USAGE</name>
@@ -155,16 +125,6 @@
           <lc type="string">@LEGALITY_CLASS</lc>
           <ammo type="number">@AMMO</ammo>
           <text type="formattedtext"><p>@DESCRIPTION_NOTES</p></text>
-          <modifierlist>
-            <id-00001>
-              <modifier type="number">1</modifier>
-              <name type="string">+AIM (Additional Round), add to hit</name>
-            </id-00001>
-            <id-00002>
-              <modifier type="number">-2</modifier>
-              <name type="string">+Lead the Target (-1 to Target's Defenses), add to hit</name>
-            </id-00002>
-          </modifierlist>
           <rangedmodelist>@ATTACK_MODES_LOOP_START
             <id-@ID>
               <name type="string">@USAGE</name>
