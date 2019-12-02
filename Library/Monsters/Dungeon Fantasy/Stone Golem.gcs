@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="cbfa0689-6aa0-44c0-be92-f6baaf20d9f8" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 12:10 PM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Stone Golem</name>
 		<age>0</age>
 		<SM>1</SM>
 		<race>Construct</race>
-		<notes>Stone Golem (DF2:26)
-
-A stone golem is a magical automaton created as a guardian. Most golems found in dungeons have outlived their creators, and carry out obscure orders completely by the letter. Some warn delvers away from a particular place or action, and attack only those who fail to heed the warning; others simply attack on sight.
-
-Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. If clad in barbarian-sized (SM +1) armor, add armor DR to natural DR 4; DR 5 bronze plate (total DR 9) is common. No golem will negotiate or reveal useful information.</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>10</HP>
 	<FP>-14</FP>
@@ -28,7 +24,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>4</levels>
@@ -188,11 +184,11 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Stone Fist</name>
 			<type>Physical, Exotic</type>
 			<melee_weapon>
-				<damage>thr+0 cr</damage>
+				<damage type="cr" st="thr"/>
 				<reach>C</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -211,22 +207,22 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Automaton</name>
 			<reference>B263</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
 				<reference>B138</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Incurious (CR: 6)</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
 				<reference>B140</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Low Empathy</name>
 				<type>Mental</type>
 				<base_points>-20</base_points>
@@ -234,81 +230,97 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<skill_bonus>
 					<name compare="is">acting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">carousing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">criminology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">detect lies</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">diplomacy</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">enthrallment</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">fast-talk</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">interrogation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leadership</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">merchant</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">politics</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">psychology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">savoir-faire</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sex appeal</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sociology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">streetwise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<prereq_list all="yes">
@@ -326,21 +338,21 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Sense of Humor</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
 				<reference>B146</reference>
 				<notes>-2 Reaction</notes>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Slave Mentality</name>
 				<type>Physical</type>
 				<base_points>-40</base_points>
 				<reference>B154</reference>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Cannot Learn</name>
 			<type>Mental</type>
 			<base_points>-30</base_points>
@@ -349,7 +361,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Breathe</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -418,7 +430,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Eat or Drink</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -427,7 +439,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -436,7 +448,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Fragile (Unnatural)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-50</base_points>
@@ -445,7 +457,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
@@ -455,7 +467,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity to Metabolic Hazards</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -503,7 +515,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Indomitable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -512,7 +524,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (Homogenous, No Blood)</name>
 			<type>Physical, Exotic</type>
 			<base_points>45</base_points>
@@ -521,7 +533,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Pressure Support</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -532,7 +544,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Reprogrammable</name>
 			<type>Mental, Exotic</type>
 			<base_points>-10</base_points>
@@ -541,7 +553,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unfazeable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -556,7 +568,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unhealing (Total)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-30</base_points>
@@ -565,7 +577,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Vacuum Support</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
@@ -576,7 +588,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>2</points>
@@ -589,10 +601,11 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Two-Handed Axe/Mace</name>
 			<difficulty>DX/A</difficulty>
 			<points>8</points>
@@ -623,7 +636,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 		</skill>
 	</skill_list>
 	<equipment_list>
-		<equipment version="3" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Huge Maul</description>
 			<tech_level>0</tech_level>
@@ -632,7 +645,7 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 			<weight>12 lb</weight>
 			<reference>B274</reference>
 			<melee_weapon>
-				<damage>sw+6 cr</damage>
+				<damage type="cr" st="sw" base="+6"/>
 				<strength>13&#8225;</strength>
 				<usage>Swung</usage>
 				<reach>1,2*</reach>
@@ -668,7 +681,16 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 			</categories>
 		</equipment>
 	</equipment_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Stone Golem (DF2:26)
+
+A stone golem is a magical automaton created as a guardian. Most golems found in dungeons have outlived their creators, and carry out obscure orders completely by the letter. Some warn delvers away from a particular place or action, and attack only those who fail to heed the warning; others simply attack on sight.
+
+Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. If clad in barbarian-sized (SM +1) armor, add armor DR to natural DR 4; DR 5 bronze plate (total DR 9) is common. No golem will negotiate or reveal useful information.</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -678,6 +700,8 @@ Notes: This is a basic model; there's no actual limit to ST, HP, DR, or skill. I
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

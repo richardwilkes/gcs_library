@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="755d6fe5-0f29-4b16-80ed-f847fc2a38c7" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Martial Artist</name>
 			<reference>BS207</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -76,11 +76,11 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Advantage</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>20 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Hearing</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -94,7 +94,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Taste &amp; Smell</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -108,7 +108,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Touch</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -122,7 +122,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -136,7 +136,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ambidexterity</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -145,7 +145,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Combat Reflexes</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -157,6 +157,7 @@
 						<skill_bonus>
 							<name compare="starts with">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<attribute_bonus>
@@ -182,7 +183,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Daredevil</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -191,7 +192,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -201,7 +202,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit, Very</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -211,7 +212,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Flexibility</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -222,20 +223,23 @@
 						<skill_bonus>
 							<name compare="is">climbing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">escape</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">erotic art</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Flexibility (Double-Jointed)</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -246,20 +250,23 @@
 						<skill_bonus>
 							<name compare="is">climbing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>5</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">escape</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>5</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">erotic art</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>5</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Pain Threshold</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -271,11 +278,11 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantage</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>-20 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Temper</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -285,7 +292,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bully</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -295,7 +302,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (@Type@)</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -318,7 +325,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Pirate's)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -327,7 +334,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Sahudese)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -336,7 +343,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Obsession</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -357,7 +364,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -367,7 +374,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Cannot Harm Innocents</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -382,7 +389,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Cannot Kill</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -397,7 +404,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Reluctant Killer</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -412,7 +419,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Self-Defense Only</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -427,7 +434,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Use no weapons)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -458,12 +465,12 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Martial Artist</name>
 			<reference>BS209</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Judo</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/H</difficulty>
@@ -475,7 +482,7 @@
 						<category>Melee Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Karate</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/H</difficulty>
@@ -489,16 +496,18 @@
 						<name compare="is">Karate</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">0</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 					<weapon_bonus>
 						<name compare="is">Karate</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">1</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Savoir-Faire</name>
 					<specialization>Dojo</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -518,9 +527,9 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>Techniques</name>
-					<technique version="2" limit="4">
+					<technique version="3" limit="4">
 						<name>Arm Lock</name>
 						<difficulty>A</difficulty>
 						<points>2</points>
@@ -536,7 +545,7 @@
 							<category>Technique</category>
 						</categories>
 					</technique>
-					<technique version="2" limit="0">
+					<technique version="3" limit="0">
 						<name>Back Kick</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
@@ -558,7 +567,7 @@
 							</skill_prereq>
 						</prereq_list>
 					</technique>
-					<technique version="2" limit="0">
+					<technique version="3" limit="0">
 						<name>Choke Hold</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
@@ -580,7 +589,7 @@
 							</skill_prereq>
 						</prereq_list>
 					</technique>
-					<technique version="2" limit="5">
+					<technique version="3" limit="5">
 						<name>Disarming</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
@@ -596,7 +605,7 @@
 							<category>Technique</category>
 						</categories>
 					</technique>
-					<technique version="2" limit="0">
+					<technique version="3" limit="0">
 						<name>Elbow Strike</name>
 						<difficulty>A</difficulty>
 						<points>2</points>
@@ -618,7 +627,7 @@
 							</skill_prereq>
 						</prereq_list>
 					</technique>
-					<technique version="2" limit="4">
+					<technique version="3" limit="4">
 						<name>Feint</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
@@ -634,7 +643,7 @@
 							<category>Technique</category>
 						</categories>
 					</technique>
-					<technique version="2" limit="0">
+					<technique version="3" limit="0">
 						<name>Ground Fighting</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
@@ -650,7 +659,7 @@
 							<category>Technique</category>
 						</categories>
 					</technique>
-					<technique version="2" limit="0">
+					<technique version="3" limit="0">
 						<name>Jump Kick</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
@@ -666,7 +675,7 @@
 							<category>Technique</category>
 						</categories>
 					</technique>
-					<technique version="2" limit="0">
+					<technique version="3" limit="0">
 						<name>Kicking</name>
 						<difficulty>H</difficulty>
 						<points>2</points>
@@ -682,7 +691,7 @@
 							<category>Technique</category>
 						</categories>
 					</technique>
-					<technique version="2" limit="0">
+					<technique version="3" limit="0">
 						<name>Knee Strike</name>
 						<difficulty>A</difficulty>
 						<points>1</points>
@@ -700,9 +709,9 @@
 					</technique>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Acrobatics</name>
 					<difficulty>DX/H</difficulty>
 					<points>4</points>
@@ -725,7 +734,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Jumping</name>
 					<difficulty>DX/E</difficulty>
 					<points>4</points>
@@ -734,9 +743,9 @@
 						<category>Athletic</category>
 					</categories>
 				</skill>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>12 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Jitte/Sai</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -765,7 +774,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Staff</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -789,7 +798,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Tonfa</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -808,7 +817,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Flail</name>
 						<difficulty>DX/H</difficulty>
 						<points>4</points>
@@ -832,7 +841,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Leadership</name>
 						<difficulty>IQ/A</difficulty>
 						<points>4</points>
@@ -846,7 +855,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Teaching</name>
 						<difficulty>IQ/A</difficulty>
 						<points>4</points>
@@ -860,7 +869,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Intimidation</name>
 						<difficulty>Will/A</difficulty>
 						<points>4</points>
@@ -882,11 +891,11 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>4 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Knife</name>
 						<difficulty>DX/E</difficulty>
 						<points>2</points>
@@ -915,7 +924,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Stealth</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/A</difficulty>
@@ -935,7 +944,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Tactics</name>
 						<difficulty>IQ/H</difficulty>
 						<points>2</points>
@@ -954,7 +963,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Meditation</name>
 						<difficulty>Will/H</difficulty>
 						<points>2</points>
@@ -972,7 +981,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Body Language</name>
 						<difficulty>Per/A</difficulty>
 						<points>2</points>

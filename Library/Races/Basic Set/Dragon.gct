@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="9bcbd1c3-0df3-4e06-bcff-9189c3573947" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Dragon (Basic)</name>
 			<reference>B261</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Attribute Modifier: ST (size, -20%)</name>
 				<type>Physical</type>
 				<levels>15</levels>
@@ -15,14 +15,14 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bad Grip</name>
 				<type>Physical</type>
 				<levels>3</levels>
 				<points_per_level>-5</points_per_level>
 				<reference>B123</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Burning Attack 4d</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -30,12 +30,12 @@
 				<reference>B61</reference>
 				<notes>Cone, 5 yards, +100%;  Limited Use, 3/day, -20%; Reduced Range, x1/5, -20%</notes>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Crushing Striker (Tail)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr:+1 cr</damage>
+					<damage type="cr" st="thr" modifier_per_die="1"/>
 					<reach>C</reach>
 					<parry>0</parry>
 					<default>
@@ -50,45 +50,45 @@
 				</melee_weapon>
 				<reference>B88</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance (Can't Wear Armor)</name>
 				<type>Physical, Exotic</type>
 				<levels>6</levels>
 				<points_per_level>3</points_per_level>
 				<reference>B47</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Discriminatory Smell</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
 				<reference>B49</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enhanced Move (Air 1/2)</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>10</points_per_level>
 				<reference>B52</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Attack</name>
 				<type>Physical</type>
 				<levels>1</levels>
 				<points_per_level>25</points_per_level>
 				<reference>B53</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Legs (4 legs)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<reference>B54</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fangs</name>
 				<type>Physical, Exotic</type>
 				<base_points>2</base_points>
 				<melee_weapon>
-					<damage>thr-1 imp</damage>
+					<damage type="imp" st="thr" base="-1"/>
 					<reach>C</reach>
 					<parry>No</parry>
 					<default>
@@ -103,37 +103,37 @@
 				</melee_weapon>
 				<reference>B91</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flight (Wings)</name>
 				<type>Physical, Exotic</type>
 				<base_points>30</base_points>
 				<reference>B56</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Gluttony (CR: 12)</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
 				<reference>B137</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Greed (CR: 12)</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>
 				<reference>B137</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Horizontal</name>
 				<type>Physical, Exotic</type>
 				<base_points>-10</base_points>
 				<reference>B139</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Longevity</name>
 				<type>Physical</type>
 				<base_points>2</base_points>
 				<reference>B66</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Magery</name>
 				<type>Mental, Supernatural</type>
 				<levels>0</levels>
@@ -141,34 +141,36 @@
 				<reference>B66</reference>
 				<spell_bonus all_colleges="yes">
 					<amount per_level="yes">1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<skill_bonus>
 					<name compare="is">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Miserliness (CR: 12)</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
 				<reference>B144</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>8</levels>
 				<points_per_level>1</points_per_level>
 				<reference>B71</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Secondary Attribute Modifier: Per</name>
 				<type>Physical</type>
 				<levels>3</levels>
 				<points_per_level>5</points_per_level>
 				<reference>B16</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Secondary Attribute Modifier: Will</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -179,12 +181,12 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Talons (Feet)</name>
 				<type>Physical</type>
 				<base_points>8</base_points>
 				<melee_weapon>
-					<damage>thr cut</damage>
+					<damage type="cut" st="thr"/>
 					<reach>C,1</reach>
 					<parry>No</parry>
 					<default>

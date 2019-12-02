@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<advantage_list unique_id="hvpj79q7:1byc1ise52e3f" version="1">
-	<advantage_container version="2" open="yes">
+<advantage_list id="b68b1b35-391d-4304-a5cb-57895e118be4" version="1">
+	<advantage_container version="3" open="yes">
 		<name>Bioenhancement</name>
 		<modifier version="1" enabled="no">
 			<name>Power Modifier (Bioenhancement)</name>
@@ -12,7 +12,7 @@
 			<category>Advantage</category>
 			<category>Power</category>
 		</categories>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Adrenal-Muscular Trigger</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -32,7 +32,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bioenhancement Talent</name>
 			<type>Mental, Supernatural</type>
 			<levels>1</levels>
@@ -48,7 +48,7 @@
 				<category>Talent</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Breath-Holding</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -63,7 +63,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Cellular Regeneration</name>
 			<type>Physical, Exotic</type>
 			<base_points>9</base_points>
@@ -92,7 +92,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Cerebral-Motor Multitasking</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -117,7 +117,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Circadian Rhythm Control</name>
 			<type>Physical, Exotic</type>
 			<modifier version="1">
@@ -140,7 +140,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Discriminatory Hearing</name>
 			<type>Physical, Exotic</type>
 			<base_points>15</base_points>
@@ -154,7 +154,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Discriminatory smell</name>
 			<type>Physical, Exotic</type>
 			<base_points>15</base_points>
@@ -173,7 +173,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Eagle Eyes</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -193,7 +193,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Enhanced Ground Move</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -212,7 +212,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Enhanced Speed</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -227,7 +227,7 @@
 				<category>Secondary Characteristics</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Epidermal Resilience</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -252,7 +252,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Equilibrium Enhancement</name>
 			<type>Physical, Exotic</type>
 			<base_points>25</base_points>
@@ -263,7 +263,7 @@
 			</modifier>
 			<reference>MH1:42</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (Unliving)</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -274,7 +274,7 @@
 			</modifier>
 			<reference>MH1:42</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Neural Computational Matrix</name>
 			<type>Mental, Exotic</type>
 			<base_points>1</base_points>
@@ -308,7 +308,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Ocular Adaptability</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -327,7 +327,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Super Jump</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -343,7 +343,7 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Blessed (Ghost Weapon)</name>
 		<type>Mental, Supernatural</type>
 		<base_points>15</base_points>
@@ -352,7 +352,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Born War-Leader</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -363,7 +363,7 @@
 			<category>Talent</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Brave</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -372,7 +372,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Close to Heaven</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -383,7 +383,7 @@
 			<category>Talent</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Compulsive (Thrill-Seeking)</name>
 		<type>Mental</type>
 		<base_points>-10</base_points>
@@ -393,7 +393,7 @@
 			<category>Why we fight</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Compulsive (Thrill-Seeking)</name>
 		<type>Mental</type>
 		<base_points>-10</base_points>
@@ -402,7 +402,7 @@
 			<category>Disadvantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Craftiness</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -413,7 +413,7 @@
 			<category>Talent</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Divine Curse (Monster Magnet)</name>
 		<type>Mental, Supernatural</type>
 		<modifier version="1" enabled="no">
@@ -437,7 +437,7 @@
 			<category>Why we fight</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Dual Shooting (@One Handed Ranged Weapon Skill@)</name>
 		<type>Physical</type>
 		<base_points>5</base_points>
@@ -447,7 +447,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Enemies (Monster of the week)</name>
 		<type>Social</type>
 		<modifier version="1" enabled="no">
@@ -566,7 +566,7 @@
 			<category>Why we fight</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Equipment Bond (@Gear@)</name>
 		<type>Physical</type>
 		<base_points>1</base_points>
@@ -575,7 +575,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Fanaticism (The Mission)</name>
 		<type>Mental</type>
 		<base_points>-15</base_points>
@@ -591,7 +591,7 @@
 			<category>Why we fight</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Higher Purpose (Acquire Knowledge)</name>
 		<type>Mental, Exotic</type>
 		<base_points>5</base_points>
@@ -600,7 +600,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Higher Purpose (Defend the Faith)</name>
 		<type>Mental, Exotic</type>
 		<base_points>5</base_points>
@@ -609,7 +609,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Higher Purpose (Hunt @one type of monster@)</name>
 		<type>Mental, Exotic</type>
 		<base_points>5</base_points>
@@ -618,7 +618,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Improvised Weapons (@Weapon Skill@)</name>
 		<type>Physical</type>
 		<base_points>1</base_points>
@@ -627,7 +627,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Motivational Lens</name>
 		<type>Mental</type>
 		<base_points>15</base_points>
@@ -635,9 +635,9 @@
 			<category>Lens</category>
 		</categories>
 	</advantage>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Mysticism</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Mysticism Talent</name>
 			<type>Mental</type>
 			<levels>1</levels>
@@ -651,12 +651,13 @@
 			<skill_bonus>
 				<name compare="is">Exorcism</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Powers</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Armor of Faith</name>
 				<type>Mental, Supernatural</type>
 				<levels>1</levels>
@@ -696,7 +697,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Blessed</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -718,7 +719,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Life</name>
 				<type>Mental, Supernatural</type>
 				<base_points>25</base_points>
@@ -734,7 +735,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Eyes of the Dead (Mind Probe)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>20</base_points>
@@ -761,7 +762,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Ghost Weapon</name>
 				<type>Mental, Supernatural</type>
 				<base_points>15</base_points>
@@ -778,7 +779,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Heroic Feats (Blessed)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -794,7 +795,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Lay on Hands (Healing)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>30</base_points>
@@ -822,7 +823,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mind Shield</name>
 				<type>Mental, Supernatural</type>
 				<levels>1</levels>
@@ -839,7 +840,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mystic Coincidence (Serendipity)</name>
 				<type>Mental, Supernatural</type>
 				<levels>1</levels>
@@ -861,7 +862,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Prayer (Patron)</name>
 				<type>Mental, Supernatural</type>
 				<modifier version="1">
@@ -905,7 +906,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Mental, Supernatural</type>
 				<modifier version="1">
@@ -938,7 +939,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Shock and Awe (Terror)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>30</base_points>
@@ -964,14 +965,14 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Smite (Innate Attack: Burn)</name>
 				<type>Mental, Supernatural</type>
 				<levels>1</levels>
 				<base_points>5</base_points>
 				<points_per_level>5</points_per_level>
 				<ranged_weapon>
-					<damage>1d (+1d) burn</damage>
+					<damage type="burn" base="1d"/>
 					<accuracy>3</accuracy>
 					<range>100/10</range>
 					<rate_of_fire>1</rate_of_fire>
@@ -1009,7 +1010,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Spirit Channeling</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -1031,7 +1032,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Spirit Communication (Medium)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -1059,7 +1060,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Spirit Empathy</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -1085,7 +1086,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Supernatural Sense (Detect)</name>
 				<type>Mental, Supernatural</type>
 				<modifier version="1">
@@ -1112,7 +1113,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Turn Evil (True Faith)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>15</base_points>
@@ -1134,7 +1135,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Visualization</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -1152,7 +1153,7 @@
 			</advantage>
 		</advantage_container>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Obsession (Rid the world of monsters)</name>
 		<type>Mental</type>
 		<cr>9</cr>
@@ -1175,7 +1176,7 @@
 			<category>Why we fight</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Off-Hand Weapon Training (@One Handed Weapon Skill@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -1184,7 +1185,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Parapsychologist</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -1195,7 +1196,7 @@
 			<category>Talent</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Patrons</name>
 		<type>Social</type>
 		<base_points>10</base_points>
@@ -1229,7 +1230,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Prophetic Dreams</name>
 		<type>Mental, Supernatural</type>
 		<base_points>5</base_points>
@@ -1239,11 +1240,11 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Psionics</name>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>ESP Abilities</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Aura Reading (Empathy)</name>
 				<type>Mental, Exotic</type>
 				<base_points>15</base_points>
@@ -1255,16 +1256,19 @@
 					<skill_bonus>
 						<name compare="is">Diagnosis</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">First Aid</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Physician</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 				</modifier>
@@ -1283,20 +1287,23 @@
 				<skill_bonus>
 					<name compare="is">detect lies</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">fortune-telling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">psychology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Precognition</name>
 				<type>Mental, Exotic</type>
 				<base_points>25</base_points>
@@ -1312,7 +1319,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Psi Sense (Detect)</name>
 				<type>Mental, Exotic</type>
 				<modifier version="1">
@@ -1345,7 +1352,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Psychometry</name>
 				<type>Mental, Exotic</type>
 				<base_points>20</base_points>
@@ -1361,7 +1368,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Remote Senses (Clairsentience)</name>
 				<type>Mental, Exotic</type>
 				<base_points>50</base_points>
@@ -1388,7 +1395,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Seekersense (Super-Memorization)</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -1418,7 +1425,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Spirit Channeling</name>
 				<type>Mental, Exotic</type>
 				<base_points>10</base_points>
@@ -1440,7 +1447,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Spirit Communication (Medium)</name>
 				<type>Mental, Exotic</type>
 				<base_points>10</base_points>
@@ -1469,7 +1476,7 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>ESP Talent</name>
 			<type>Mental</type>
 			<levels>1</levels>
@@ -1481,15 +1488,15 @@
 				<category>Power</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Psychokinesis Abilities</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cryokinesis (Innate Attack: Fatigue)</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>7</points_per_level>
 				<ranged_weapon>
-					<damage>1d-1 fat</damage>
+					<damage type="fat" base="1d-1"/>
 					<accuracy>3</accuracy>
 					<range>100/10</range>
 					<rate_of_fire>1</rate_of_fire>
@@ -1544,7 +1551,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>PK Shield (Damage Resistance)</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -1581,7 +1588,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Psychic Healing (Healing)</name>
 				<type>Mental, Exotic</type>
 				<base_points>30</base_points>
@@ -1611,13 +1618,13 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pyrokinesis (Innate Attack: Burn)</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>5</points_per_level>
 				<ranged_weapon>
-					<damage>1d burn</damage>
+					<damage type="burn" base="1d"/>
 					<accuracy>3</accuracy>
 					<range>100/10</range>
 					<rate_of_fire>1</rate_of_fire>
@@ -1673,7 +1680,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telekinesis</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -1695,7 +1702,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Control</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -1718,7 +1725,7 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Psychokinesis Talent</name>
 			<type>Mental</type>
 			<levels>1</levels>
@@ -1730,9 +1737,9 @@
 				<category>Power</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Telepathy Abilities</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mental Blow (Affliction)</name>
 				<type>Mental, Exotic</type>
 				<base_points>10</base_points>
@@ -1769,7 +1776,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mind Control</name>
 				<type>Mental, Exotic</type>
 				<base_points>50</base_points>
@@ -1791,7 +1798,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mind Probe</name>
 				<type>Mental, Exotic</type>
 				<base_points>20</base_points>
@@ -1807,7 +1814,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mind Reading</name>
 				<type>Mental, Exotic</type>
 				<base_points>30</base_points>
@@ -1823,7 +1830,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mind Shield</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -1840,7 +1847,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Mindwipe (Affliction)</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -1883,7 +1890,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecontrol (Possession)</name>
 				<type>Mental, Exotic</type>
 				<base_points>100</base_points>
@@ -1932,7 +1939,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telescan (Detect)</name>
 				<type>Mental, Exotic</type>
 				<modifier version="1">
@@ -1974,7 +1981,7 @@
 					<category>Power</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telesend (Telecommunication)</name>
 				<type>Mental, Exotic</type>
 				<modifier version="1">
@@ -1996,7 +2003,7 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Telepathy Talent</name>
 			<type>Mental</type>
 			<levels>1</levels>
@@ -2008,9 +2015,9 @@
 				<category>Power</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Teleportation Abilities</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Autoteleport (Warp)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>100</base_points>
@@ -2052,7 +2059,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Combat Teleport (Warp)</name>
 				<type>Mental, Exotic</type>
 				<base_points>25</base_points>
@@ -2069,7 +2076,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Exoteleport (Affliction)</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -2132,7 +2139,7 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Teleportation Talent</name>
 			<type>Mental</type>
 			<levels>1</levels>
@@ -2145,7 +2152,7 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Quick Reload (@Weapon Skill@)</name>
 		<type>Physical</type>
 		<base_points>1</base_points>
@@ -2154,7 +2161,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Ritual Adept</name>
 		<type>Mental, Supernatural</type>
 		<base_points>40</base_points>
@@ -2169,7 +2176,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Ritual Mastery (@Ritual@)</name>
 		<type>Mental, Supernatural</type>
 		<base_points>1</base_points>
@@ -2178,7 +2185,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Sense of Duty</name>
 		<type>Mental</type>
 		<modifier version="1" enabled="no">

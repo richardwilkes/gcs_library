@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz5wozb:10hbe04i7ypc2" version="1">
+<template id="36e695cb-d7cf-4082-9b97-a427d48ad5bf" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Dark One</name>
 			<reference>DF3:6</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Better Power Items</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:6</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bloodlust</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -20,7 +20,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>High Manual Dexterity</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -32,60 +32,71 @@
 				<skill_bonus>
 					<name compare="contains">artist</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">jeweler</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">knot-tying</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leatherworking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">lockpicking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">pickpocket</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sewing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sleight of hand</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">surgery</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">machinist</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">mechanic</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -95,7 +106,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -142,7 +153,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Talent (Elder Gift)</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -154,25 +165,29 @@
 				<skill_bonus>
 					<name compare="is">alchemy</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">hidden lore</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">occultism</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unnatural Features</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -185,11 +200,13 @@
 				<skill_bonus>
 					<name compare="is">disguise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">shadowing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 			</advantage>

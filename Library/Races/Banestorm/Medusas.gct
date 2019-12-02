@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="b878b69e-0d1f-401d-a448-5b4cd88fbc92" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Medusas</name>
 			<reference>BS194</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -57,9 +57,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Affliction (Petrifying Gaze)</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -236,7 +236,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -283,13 +283,13 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Innate Attack (Toxic)</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
 					<points_per_level>4</points_per_level>
 					<ranged_weapon>
-						<damage>1d tox</damage>
+						<damage type="tox" base="1d"/>
 						<accuracy>3</accuracy>
 						<range>100/10</range>
 						<rate_of_fire>1</rate_of_fire>
@@ -532,7 +532,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Magery</name>
 					<type>Mental, Supernatural</type>
 					<levels>1</levels>
@@ -585,19 +585,21 @@
 					</categories>
 					<spell_bonus all_colleges="yes">
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 					<skill_bonus>
 						<name compare="is">thaumatology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Striker, Impaling (Snake Bite)</name>
 					<type>Physical, Exotic</type>
 					<base_points>8</base_points>
 					<melee_weapon>
-						<damage>thr imp</damage>
+						<damage type="imp" st="thr"/>
 						<reach>C</reach>
 						<parry>0</parry>
 						<block>No</block>
@@ -627,9 +629,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Stigma (Monster)</name>
 					<type>Social</type>
 					<base_points>-15</base_points>
@@ -641,10 +643,11 @@
 					<skill_bonus>
 						<name compare="is">intimidation</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dislikes other races</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>

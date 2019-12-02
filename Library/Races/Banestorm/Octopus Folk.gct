@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="60efbc94-acc2-413a-a480-d3998c0e1410" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Octopus Folks</name>
 			<reference>BS196</reference>
 			<notes>Feature: Aquatic; Doesn't Breathe (Gills)</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -27,7 +27,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -43,9 +43,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Vision</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -59,7 +59,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Chameleon</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -94,7 +94,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" allow_half_levels="yes">
+				<advantage version="3" allow_half_levels="yes">
 					<name>Enhanced Move (Water: @New Move@)</name>
 					<type>Physical, Exotic</type>
 					<levels half_level="yes">0</levels>
@@ -150,7 +150,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" allow_half_levels="yes">
+				<advantage version="3" allow_half_levels="yes">
 					<name>Enhanced Move (Water Jet; Water: @New Move@)</name>
 					<type>Physical, Exotic</type>
 					<levels half_level="yes">0</levels>
@@ -211,7 +211,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Arm</name>
 					<type>Physical, Exotic</type>
 					<levels>6</levels>
@@ -272,7 +272,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Attack</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -295,7 +295,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Flexible</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -356,7 +356,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>6</levels>
@@ -366,7 +366,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Obscure (Cloud of Ink, Sight)</name>
 					<type>Physical, Exotic</type>
 					<levels>5</levels>
@@ -426,7 +426,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Peripheral Vision</name>
 					<type>Physical</type>
 					<base_points>15</base_points>
@@ -442,7 +442,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Pressure Support</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -452,7 +452,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Regrowth</name>
 					<type>Physical, Exotic</type>
 					<base_points>40</base_points>
@@ -513,12 +513,12 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Teeth, Sharp Beak</name>
 					<type>Physical, Exotic</type>
 					<base_points>1</base_points>
 					<melee_weapon>
-						<damage>thr-1 pi+</damage>
+						<damage type="pi+" st="thr" base="-1"/>
 						<usage>Peck</usage>
 						<reach>C</reach>
 						<parry>No</parry>
@@ -538,13 +538,13 @@
 						<category>Perk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Innate Attack (Toxic)</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
 					<points_per_level>4</points_per_level>
 					<ranged_weapon>
-						<damage>1d tox</damage>
+						<damage type="tox" base="1d"/>
 						<accuracy>3</accuracy>
 						<range>100/10</range>
 						<rate_of_fire>1</rate_of_fire>
@@ -786,9 +786,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Cold-Blooded</name>
 					<type>Physical, Exotic</type>
 					<base_points>-5</base_points>
@@ -798,7 +798,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Curious</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -808,7 +808,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Deafness</name>
 					<type>Physical</type>
 					<base_points>-20</base_points>
@@ -817,7 +817,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Invertebrate</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
@@ -826,7 +826,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Low Empathy</name>
 					<type>Mental</type>
 					<base_points>-20</base_points>
@@ -837,81 +837,97 @@
 					<skill_bonus>
 						<name compare="is">acting</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">carousing</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">criminology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">detect lies</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">diplomacy</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">enthrallment</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">fast-talk</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">interrogation</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">leadership</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">merchant</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">politics</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="contains">psychology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="contains">savoir-faire</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">sex appeal</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">sociology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">streetwise</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<prereq_list all="yes">
@@ -929,7 +945,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Low TL</name>
 					<type>Social</type>
 					<levels>1</levels>
@@ -939,7 +955,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Short Lifespan</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>

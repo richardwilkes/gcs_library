@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="de5cc2c4-a025-4d80-8301-053c1b7e7147" version="1">
+<template id="de5cc2c4-a025-4d80-8301-053c1b7e7147" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Eros Series (Budget model)</name>
 			<reference>ITW88</reference>
 			<notes>2082; $55,000; Martian Triads</notes>
@@ -9,7 +9,7 @@
 				<category>Bioroid</category>
 				<category>Sensual</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -23,7 +23,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -111,7 +111,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Racial Skill Bonus (Sex Appeal)</name>
 				<type>Mental, Exotic</type>
 				<levels>2</levels>
@@ -124,10 +124,11 @@
 				<skill_bonus>
 					<name compare="is">Sex Appeal</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -174,14 +175,14 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Bioroid Body</name>
 				<reference>TS131</reference>
 				<categories>
 					<category>Bioroid</category>
 					<category>Meta-Trait</category>
 				</categories>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No degeneration in zero G</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
@@ -192,7 +193,7 @@
 						<category>Upgrade</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unusual Biochemistry</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -201,7 +202,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Early maturation</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -235,16 +236,16 @@
 						<category>Upgrade</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Intron messages</name>
 					<type>Physical</type>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Clostely resembles others of the same model</name>
 					<type>Physical</type>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Impulsiveness</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -254,7 +255,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Lecherousness</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>
@@ -264,7 +265,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unnatural Features (Exaggerated Sexual Features)</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -276,15 +277,17 @@
 				<skill_bonus>
 					<name compare="is">disguise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">shadowing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo trait: Genetic defects</name>
 				<type>Physical</type>
 				<reference>TS135</reference>

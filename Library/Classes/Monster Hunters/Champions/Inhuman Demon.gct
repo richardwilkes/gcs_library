@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="g2gmtmpp:11xpfirww9a9u" version="1">
+<template id="25d88b02-0b6e-4c12-8029-3514f4a5e105" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Inhuman Demon</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Advantages</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Choose Three</name>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Dark Vision</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Dark Vision</name>
 							<type>Physical, Exotic</type>
 							<base_points>25</base_points>
@@ -30,9 +30,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Flight</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Enhanced Move (Air)</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -93,7 +93,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Flight</name>
 							<type>Physical, Exotic</type>
 							<base_points>40</base_points>
@@ -190,9 +190,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Magery</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Magery</name>
 							<type>Mental, Supernatural</type>
 							<levels>0</levels>
@@ -245,14 +245,16 @@
 							</categories>
 							<spell_bonus all_colleges="yes">
 								<amount per_level="yes">1</amount>
+								<category compare="is anything"></category>
 							</spell_bonus>
 							<skill_bonus>
 								<name compare="is">thaumatology</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</skill_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Magic Resistance</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -269,9 +271,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Natural Weapons/Armor</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Damage Resistance</name>
 							<type>Physical, Exotic</type>
 							<levels>2</levels>
@@ -396,12 +398,12 @@
 								<amount per_level="yes">1</amount>
 							</dr_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Striker, Large Piercing (Horns)</name>
 							<type>Physical, Exotic</type>
 							<base_points>6</base_points>
 							<melee_weapon>
-								<damage>thr:+1 pi+</damage>
+								<damage type="pi+" st="thr" modifier_per_die="1"/>
 								<reach>C</reach>
 								<parry>0</parry>
 								<block>No</block>
@@ -420,12 +422,12 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Teeth, Sharp</name>
 							<type>Physical, Exotic</type>
 							<base_points>1</base_points>
 							<melee_weapon>
-								<damage>thr-1 cut</damage>
+								<damage type="cut" st="thr" base="-1"/>
 								<usage>Bite</usage>
 								<reach>C</reach>
 								<parry>No</parry>
@@ -446,9 +448,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Regeneration</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Regeneration</name>
 							<type>Physical, Exotic</type>
 							<modifier version="1" enabled="no">
@@ -522,9 +524,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Sleep</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Doesn't Sleep</name>
 							<type>Physical, Exotic</type>
 							<base_points>20</base_points>
@@ -533,7 +535,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Single-Minded</name>
 							<type>Mental</type>
 							<base_points>5</base_points>
@@ -543,9 +545,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Smell</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Acute Taste &amp; Smell</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -559,7 +561,7 @@
 								<amount per_level="yes">1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Discriminatory Smell</name>
 							<type>Physical, Exotic</type>
 							<base_points>15</base_points>
@@ -581,9 +583,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Striking ST</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Striking ST</name>
 							<type>Physical, Exotic</type>
 							<levels>5</levels>
@@ -622,9 +624,9 @@
 							</attribute_bonus>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Voice</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Penetrating Voice</name>
 							<type>Physical</type>
 							<base_points>1</base_points>
@@ -633,7 +635,7 @@
 								<category>Perk</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Terror (Audible)</name>
 							<type>Mental, Supernatural</type>
 							<levels>0</levels>
@@ -670,12 +672,12 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Claws, Hooves</name>
 					<type>Physical</type>
 					<base_points>3</base_points>
 					<melee_weapon>
-						<damage>thr:+1 cr</damage>
+						<damage type="cr" st="thr" modifier_per_die="1"/>
 						<usage>Trample</usage>
 						<reach>C,1</reach>
 						<parry>No</parry>
@@ -705,7 +707,7 @@
 						<amount>1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>4</levels>
@@ -830,7 +832,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>High Pain Threshold</name>
 					<type>Physical</type>
 					<base_points>10</base_points>
@@ -840,7 +842,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Language: Demontongue</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -917,7 +919,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -965,9 +967,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -987,7 +989,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -1002,7 +1004,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -1037,9 +1039,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Disadvantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -1127,7 +1129,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Frightens Animals</name>
 					<type>Mental, Supernatural</type>
 					<base_points>-10</base_points>
@@ -1136,7 +1138,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Stigma (Monster)</name>
 					<type>Social</type>
 					<base_points>-15</base_points>
@@ -1148,10 +1150,11 @@
 					<skill_bonus>
 						<name compare="is">intimidation</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow</name>
 					<type>Mental</type>
 					<levels>0</levels>
@@ -1162,7 +1165,7 @@
 						<category>Quirk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Weakness</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1">
@@ -1221,14 +1224,14 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Features</name>
 				<type>Physical</type>
 				<notes>Affected by True Faith and Path of Body/Mind magic; Cannot use holy items; Vestigal (if not functional) tail, horns, and wings</notes>
 			</advantage>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Secondary Characteristics</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>1</levels>
@@ -1243,7 +1246,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -1261,5 +1264,9 @@
 			</advantage_container>
 		</advantage_container>
 	</advantage_list>
-	<notes>An obvious demon has no legal rights</notes>
+	<note_list>
+		<note version="1">
+			<text>An obvious demon has no legal rights</text>
+		</note>
+	</note_list>
 </template>

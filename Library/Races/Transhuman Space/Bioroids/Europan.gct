@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="85cb7204-1241-491f-ad1e-b05e5648c3d3" version="1">
+<template id="85cb7204-1241-491f-ad1e-b05e5648c3d3" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Europan</name>
 			<reference>DB112</reference>
 			<notes>2090; $69,000; Avatar Klusterkorp</notes>
@@ -10,7 +10,7 @@
 				<category>Bioroid</category>
 				<category>Space</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -25,7 +25,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2" allow_half_levels="yes">
+			<advantage version="3" allow_half_levels="yes">
 				<name>Enhanced Move (Water)</name>
 				<type>Physical, Exotic</type>
 				<levels half_level="yes">0</levels>
@@ -81,7 +81,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fit</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -91,7 +91,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Longevity</name>
 				<type>Physical</type>
 				<base_points>2</base_points>
@@ -100,7 +100,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Nictitating Membrane</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -110,7 +110,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>8</levels>
@@ -120,7 +120,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vibration Sense</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -147,7 +147,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -158,14 +158,14 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Bioroid Body</name>
 				<reference>TS131</reference>
 				<categories>
 					<category>Bioroid</category>
 					<category>Meta-Trait</category>
 				</categories>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No degeneration in zero G</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
@@ -176,7 +176,7 @@
 						<category>Upgrade</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unusual Biochemistry</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -185,7 +185,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Early maturation</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -219,16 +219,16 @@
 						<category>Upgrade</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Intron messages</name>
 					<type>Physical</type>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Clostely resembles others of the same model</name>
 					<type>Physical</type>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sanitized Metabolism</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -237,7 +237,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -306,7 +306,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Transgenic features</name>
 				<type>Physical</type>
 				<notes>Flippers instead of feet</notes>
@@ -315,7 +315,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Legs (Semi-Aquatic)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1">
@@ -328,7 +328,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bioluminescent Skin</name>
 				<type>Physical</type>
 				<base_points>1</base_points>

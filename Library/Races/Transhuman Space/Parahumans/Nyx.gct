@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="720d8abd-ae11-442a-9825-c518355e792b" version="1">
+<template id="720d8abd-ae11-442a-9825-c518355e792b" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Nyx</name>
 			<reference>TS118</reference>
 			<notes>2084; $145,000; Genehackers Inc.</notes>
 			<categories>
 				<category>Parahuman</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -18,7 +18,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased IQ</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -28,7 +28,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -116,7 +116,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extended Lifespan</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -126,7 +126,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Less Sleep</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -136,7 +136,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Rapid Healing</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -148,7 +148,7 @@
 					<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -195,7 +195,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reproductive control</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -204,7 +204,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sanitized Metabolism</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -213,7 +213,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Early maturation</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -242,11 +242,11 @@
 					<affects>total</affects>
 				</modifier>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No appendix</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo trait: Genetic defects</name>
 				<type>Physical</type>
 				<reference>TS135</reference>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="da2ca6aa-874b-4948-9258-ae992c0a8df5" version="1">
+<template id="da2ca6aa-874b-4948-9258-ae992c0a8df5" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Gorgon II Medusa</name>
 			<reference>TM88</reference>
 			<notes>2094; $500 or more + computer; 0.5 lbs; 1' extension; Labyrinth Designs</notes>
@@ -9,7 +9,7 @@
 				<category>Cybershell</category>
 				<category>General</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>9</levels>
@@ -23,7 +23,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -37,7 +37,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Size modifier</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -49,7 +49,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>360&#176; Vision</name>
 				<type>Physical, Exotic</type>
 				<base_points>25</base_points>
@@ -77,7 +77,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Compartmentalized Mind</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -105,7 +105,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -265,7 +265,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -334,7 +334,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -343,7 +343,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Arm</name>
 				<type>Physical, Exotic</type>
 				<levels>6</levels>
@@ -404,7 +404,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra  Flexibe Arms</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -413,7 +413,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>High Manual Dexterity</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -425,60 +425,71 @@
 				<skill_bonus>
 					<name compare="contains">artist</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">jeweler</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">knot-tying</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leatherworking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">lockpicking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">pickpocket</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sewing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sleight of hand</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">surgery</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">machinist</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">mechanic</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Brain)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -487,50 +498,50 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Eight-hour energy reserve, Refuel 3 times per day</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Blood)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (Unliving)</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No fatigue points, Don't spend fatigue points</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant (Immunity to Metabolic Hazards)</name>
 					<type>Physical</type>
 					<base_points>30</base_points>
 					<reference>B81</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unhealing (Total)</name>
 					<type>Physical, Exotic</type>
 					<base_points>-30</base_points>
 					<reference>B160</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wears out instead of aging</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -665,7 +676,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -800,7 +811,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1">
@@ -940,7 +951,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -1085,12 +1096,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Onboard computer (Tiny)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Cybershell</name>
 				<reference>B263</reference>
 				<categories>
@@ -1098,23 +1109,23 @@
 					<category>Cybershell</category>
 					<category>Meta-Trait</category>
 				</categories>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Electrical</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
 					<reference>B134</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Neck)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sterile</name>
 					<type>Physical</type>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Taboo trait: Physical changes</name>
 					<type>Physical</type>
 					<reference>TS135</reference>
@@ -1124,7 +1135,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Deafness</name>
 				<type>Physical</type>
 				<base_points>-20</base_points>
@@ -1133,7 +1144,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra  Flexibe Arms</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -1142,7 +1153,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Maintenance</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -1281,7 +1292,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Legs (Portable)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-30</base_points>
@@ -1290,7 +1301,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Short Arms</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -1299,7 +1310,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Individuals of the same model closely resemble each other</name>
 				<type>Physical, Exotic</type>
 			</advantage>

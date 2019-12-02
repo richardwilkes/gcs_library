@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="f6986451-6e31-4f1a-8d48-4f757d66c094" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Faerie</name>
 			<reference>F108</reference>
 			<notes>Features: Can use illusionary objects as if they were substantial; Felt as ghostly touchs by material beings; Must take on winged shape to move vertically.</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Will</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -22,7 +22,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -42,7 +42,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Basic Speed</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -57,7 +57,7 @@
 						<amount per_level="yes">0.25</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>2</levels>
@@ -73,9 +73,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -163,7 +163,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Chameleon</name>
 					<type>Physical, Exotic</type>
 					<levels>5</levels>
@@ -198,7 +198,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Doesn't Eat or Drink</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -207,7 +207,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Insubstantiality</name>
 					<type>Mental/Physical, Exotic</type>
 					<base_points>80</base_points>
@@ -332,7 +332,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Magery</name>
 					<type>Mental, Supernatural</type>
 					<levels>0</levels>
@@ -390,14 +390,16 @@
 					</categories>
 					<spell_bonus all_colleges="yes">
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 					<skill_bonus>
 						<name compare="is">thaumatology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Morph</name>
 					<type>Physical, Exotic</type>
 					<base_points>100</base_points>
@@ -460,7 +462,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unaging</name>
 					<type>Physical, Exotic</type>
 					<base_points>15</base_points>
@@ -482,9 +484,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dependency (Mana)</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -571,7 +573,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Impulsiveness</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -581,7 +583,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vulnerability</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -634,12 +636,12 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Annoyed when mortals talk about them</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Keep their promises</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>

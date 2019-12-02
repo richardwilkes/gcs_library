@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="1af4ac41-f6cf-49a2-a32e-2e0595e12f58" version="1">
+<template id="1af4ac41-f6cf-49a2-a32e-2e0595e12f58" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="meta trait">
+		<advantage_container version="3" open="no" type="meta trait">
 			<name>Safari Shell (Gazelle)</name>
 			<reference>BD124</reference>
 			<notes>2072; $55,000 + computer</notes>
 			<categories>
 				<category>Cybershell</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -22,7 +22,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -37,7 +37,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -51,7 +51,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Size modifier</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -63,7 +63,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Absolute Direction</name>
 				<type>Mental/Physical</type>
 				<base_points>5</base_points>
@@ -81,26 +81,31 @@
 					<skill_bonus>
 						<name compare="starts with">piloting</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">aerobatics</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">free fall</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">hyperspace</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">space</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 				</modifier>
@@ -111,25 +116,29 @@
 				<skill_bonus>
 					<name compare="is">body sense</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">air</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">land</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">sea</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -143,7 +152,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Vision</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -157,7 +166,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2" allow_half_levels="yes">
+			<advantage version="3" allow_half_levels="yes">
 				<name>Enhanced Move (Ground)</name>
 				<type>Physical, Exotic</type>
 				<levels half_level="yes">1</levels>
@@ -213,7 +222,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Filter Lungs</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -222,50 +231,50 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Eight-hour energy reserve, Refuel 3 times per day</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Blood)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (Unliving)</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No fatigue points, Don't spend fatigue points</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant (Immunity to Metabolic Hazards)</name>
 					<type>Physical</type>
 					<base_points>30</base_points>
 					<reference>B81</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unhealing (Total)</name>
 					<type>Physical, Exotic</type>
 					<base_points>-30</base_points>
 					<reference>B160</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wears out instead of aging</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>8</levels>
@@ -275,7 +284,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -420,7 +429,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -565,7 +574,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -710,7 +719,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telescopic Vision</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -726,7 +735,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -736,12 +745,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Onboard computer (Small)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Cybershell</name>
 				<reference>B263</reference>
 				<categories>
@@ -749,23 +758,23 @@
 					<category>Cybershell</category>
 					<category>Meta-Trait</category>
 				</categories>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Electrical</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
 					<reference>B134</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Neck)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sterile</name>
 					<type>Physical</type>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Taboo trait: Physical changes</name>
 					<type>Physical</type>
 					<reference>TS135</reference>
@@ -775,7 +784,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Maintenance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -914,7 +923,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Sense of Smell/Taste</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -923,29 +932,29 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Quadruped</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Legs (4 legs)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B54</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Horizontal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-10</base_points>
 					<reference>B139</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Fine Manipulators</name>
 					<type>Physical</type>
 					<base_points>-30</base_points>
 					<reference>B145</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Restricted Diet (Any one liquid fuel)</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -983,11 +992,11 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Close visual emulation of real animal</name>
 				<type>Physical, Exotic</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Individuals of the same model closely resemble each other</name>
 				<type>Physical, Exotic</type>
 			</advantage>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="0cd6b3e9-5400-4b02-ae23-99c533bd5f25" version="3">
+<character id="0cd6b3e9-5400-4b02-ae23-99c533bd5f25" version="4">
 	<created_date>Feb 16, 2014</created_date>
-	<modified_date>Mar 18, 2018 1:27 PM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Saddle Horse</name>
 		<age>0</age>
@@ -25,7 +25,7 @@
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Enhanced Move (Ground)</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -76,12 +76,12 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hooves</name>
 			<type>Physical</type>
 			<base_points>3</base_points>
 			<melee_weapon>
-				<damage>thr:+1 cr</damage>
+				<damage type="cr" st="thr" modifier_per_die="1"/>
 				<usage>Trample</usage>
 				<reach>C,1</reach>
 				<parry>No</parry>
@@ -111,7 +111,7 @@
 				<amount>1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Horizontal</name>
 			<type>Physical, Exotic</type>
 			<base_points>-10</base_points>
@@ -121,26 +121,26 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Domestic Animal</name>
 			<reference>B263</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak</name>
 				<type>Physical</type>
 				<base_points>-15</base_points>
 				<reference>B125</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
 				<reference>B138</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo Trait (Fixed IQ)</name>
 				<type>Mental</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Valuable Property</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
@@ -148,7 +148,7 @@
 				<notes>Cost: $1200</notes>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Peripheral Vision</name>
 			<type>Physical</type>
 			<base_points>15</base_points>
@@ -166,7 +166,7 @@
 				<category>Mech</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Weak Bite</name>
 			<type>Physical, Exotic</type>
 			<base_points>-2</base_points>
@@ -178,7 +178,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Mount</name>
 			<difficulty>DX/A</difficulty>
 			<points>8</points>
@@ -203,6 +203,8 @@
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

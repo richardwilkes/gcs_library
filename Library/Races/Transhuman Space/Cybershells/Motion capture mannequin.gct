@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="b28d1c1e-0423-4e53-bd0c-f10be6774687" version="1">
+<template id="b28d1c1e-0423-4e53-bd0c-f10be6774687" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Motion Capture Mannequin</name>
 			<reference>TSCT55</reference>
 			<notes>2055; $6,000 + computer; 110 lbs</notes>
@@ -9,7 +9,7 @@
 				<category>Cybershell</category>
 				<category>Media</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -19,7 +19,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -29,7 +29,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Hit Points</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -55,7 +55,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>3</levels>
@@ -215,7 +215,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flexibility</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -226,63 +226,66 @@
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">escape</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">erotic art</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wears out instead of aging</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unhealing (Total)</name>
 					<type>Physical, Exotic</type>
 					<base_points>-30</base_points>
 					<reference>B160</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant (Immunity to Metabolic Hazards)</name>
 					<type>Physical</type>
 					<base_points>30</base_points>
 					<reference>B81</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No fatigue points, Don't spend fatigue points</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (Unliving)</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Blood)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Eight-hour energy reserve, Refuel 3 times per day</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Perfect Balance</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -293,20 +296,23 @@
 				<skill_bonus>
 					<name compare="starts with">piloting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">acrobatics</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -316,7 +322,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -451,7 +457,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -586,12 +592,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Onboard computer (Small)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Cybershell</name>
 				<reference>B263</reference>
 				<categories>
@@ -599,7 +605,7 @@
 					<category>Cybershell</category>
 					<category>Meta-Trait</category>
 				</categories>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Taboo trait: Physical changes</name>
 					<type>Physical</type>
 					<reference>TS135</reference>
@@ -608,24 +614,24 @@
 						<category>Upgrade</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sterile</name>
 					<type>Physical</type>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Neck)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B61</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Electrical</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
 					<reference>B134</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Maintenance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -764,7 +770,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Restricted Diet (Any hydrocarbon fuel)</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -802,11 +808,11 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Individuals of the same model closely resemble each other</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Has a Neck hit location, but no vulnerabilities there</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>

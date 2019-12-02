@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="iliyzbba:1qzbax2bxy496" version="1">
+<template id="f2691ffb-c0b6-490d-a37c-b1b158dfe0ad" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Wisdom Element</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Wisdom (Doubled)</name>
 				<notes>Upgraded from previous</notes>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wild Talent</name>
 					<type>Mental, Supernatural</type>
 					<levels>4</levels>
@@ -68,9 +68,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Wisdom</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -85,7 +85,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wild Talent</name>
 					<type>Mental, Supernatural</type>
 					<levels>2</levels>

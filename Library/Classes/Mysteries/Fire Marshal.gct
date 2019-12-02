@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ilzsl3fj:13pofh91m40gk" version="1">
+<template id="72198e1f-78b5-4a28-9eb5-010c8fc6bd01" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Attributes</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Intelligence</name>
 				<type>Mental</type>
 				<levels>2</levels>
@@ -19,9 +19,9 @@
 				</attribute_bonus>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Advantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Legal Enforcement Powers</name>
 				<type>Social</type>
 				<modifier version="1">
@@ -47,7 +47,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Rank</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -70,9 +70,9 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>10 points chosen from:</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Vision</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -86,7 +86,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Hearing</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -100,7 +100,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Taste &amp; Smell</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -114,7 +114,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Touch</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -128,7 +128,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Contact (Street)</name>
 					<type>Social</type>
 					<modifier version="1">
@@ -210,7 +210,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Patron</name>
 					<type>Social</type>
 					<modifier version="1">
@@ -353,7 +353,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>1</levels>
@@ -368,7 +368,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -385,9 +385,9 @@
 				</advantage>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Disadvantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Duty (Fire marshal)</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -430,9 +430,9 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>-5 points chosen from:</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Addiction (Chain-smoker)</name>
 					<type>Mental/Physical</type>
 					<modifier version="1">
@@ -494,7 +494,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bad Temper</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -504,7 +504,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Callous</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -515,15 +515,17 @@
 					<skill_bonus>
 						<name compare="is">psychology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">teaching</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Chronic Pain</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -589,7 +591,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Insomniac (Mild)</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -599,7 +601,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Insomniac (Severe)</name>
 					<type>Physical</type>
 					<base_points>-15</base_points>
@@ -609,7 +611,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -635,7 +637,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Overconfidence</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -645,7 +647,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Pacifism: Cannot Harm Innocents</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -660,7 +662,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Secret (Corrupt)</name>
 					<type>Social</type>
 					<modifier version="1">
@@ -680,7 +682,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sense of Duty</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -706,7 +708,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Stubbornness</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -715,7 +717,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unfit</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -728,9 +730,9 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Primary Skills</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Architecture</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -750,7 +752,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Chemistry</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -769,7 +771,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Criminology</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -789,7 +791,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Explosives</name>
 				<specialization>Demolition</specialization>
 				<tech_level/>
@@ -829,7 +831,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Explosives</name>
 				<specialization>Fireworks</specialization>
 				<tech_level/>
@@ -855,7 +857,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Forensics</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -874,7 +876,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Interrogation</name>
 				<difficulty>IQ/A</difficulty>
 				<points>2</points>
@@ -899,7 +901,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Law</name>
 				<specialization>Police/Fire</specialization>
 				<difficulty>IQ/H</difficulty>
@@ -915,7 +917,7 @@
 					<modifier>-6</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Professional Skill</name>
 				<specialization>Firefighting</specialization>
 				<difficulty>IQ/A</difficulty>
@@ -929,7 +931,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Writing</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -944,9 +946,9 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Secondary Skills</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Area Knowledge</name>
 				<specialization>@City@</specialization>
 				<difficulty>IQ/E</difficulty>
@@ -964,7 +966,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Detect Lies</name>
 				<difficulty>Per/H</difficulty>
 				<points>1</points>
@@ -989,7 +991,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Fast-Talk</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -1009,7 +1011,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Hazardous Materials</name>
 				<specialization>Chemical</specialization>
 				<tech_level/>
@@ -1024,7 +1026,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Intimidation</name>
 				<difficulty>Will/A</difficulty>
 				<points>1</points>
@@ -1044,7 +1046,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Psychology</name>
 				<difficulty>IQ/H</difficulty>
 				<points>1</points>
@@ -1062,7 +1064,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Streetwise</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -1078,11 +1080,11 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Background Skills</name>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>3 points in:</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Computer Operation</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -1098,7 +1100,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>First Aid</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -1128,7 +1130,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Administration</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -1147,7 +1149,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Public Speaking</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -1177,7 +1179,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Diplomacy</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -1197,7 +1199,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Brawling</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -1210,10 +1212,11 @@
 						<name compare="is">Brawling</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">2</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Wrestling</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -1223,7 +1226,7 @@
 						<category>Melee Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Running</name>
 					<difficulty>HT/A</difficulty>
 					<points>1</points>
@@ -1240,7 +1243,7 @@
 		</skill_container>
 	</skill_list>
 	<equipment_list>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Glock 22, .40 S&amp;W</description>
 			<tech_level>8</tech_level>
@@ -1249,7 +1252,7 @@
 			<weight>2.1 lb</weight>
 			<reference>MYST117</reference>
 			<ranged_weapon>
-				<damage>2d+2 pi+</damage>
+				<damage type="pi+" base="2d+2"/>
 				<strength>8</strength>
 				<accuracy>2</accuracy>
 				<range>150/1,700</range>
@@ -1326,7 +1329,7 @@
 				<category>Semiautomatic Pistols</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Handcuffs, S&amp;W Model 10 Nickel Plated</description>
 			<tech_level>7</tech_level>
@@ -1339,7 +1342,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Radio, Hand</description>
 			<tech_level>7</tech_level>
@@ -1352,7 +1355,7 @@
 				<category>Communications and Information Gear</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Frisk Gloves</description>
 			<tech_level>8</tech_level>
@@ -1369,11 +1372,11 @@
 				<amount>1</amount>
 			</dr_bonus>
 		</equipment>
-		<equipment_container version="3" open="yes">
+		<equipment_container version="6" open="yes">
 			<description>Optional Equipment</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Cell Phone</description>
 				<tech_level>8</tech_level>
@@ -1386,7 +1389,7 @@
 					<category>Communications and Information Gear</category>
 				</categories>
 			</equipment>
-			<equipment_container version="3" open="no">
+			<equipment_container version="6" open="no">
 				<description>Evidence Collection Kit</description>
 				<tech_level>7</tech_level>
 				<legality_class>4</legality_class>
@@ -1397,7 +1400,7 @@
 					<category>Crime Scene</category>
 					<category>Law-Enforcement</category>
 				</categories>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Barrier Tape</description>
 					<tech_level>7</tech_level>
@@ -1411,7 +1414,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Tape Measure</description>
 					<tech_level>7</tech_level>
@@ -1421,7 +1424,7 @@
 						<category>General Equipment</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Magnifying Glass</description>
 					<tech_level>5</tech_level>
@@ -1432,7 +1435,7 @@
 						<category>General Equipment</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Evidence Tape</description>
 					<tech_level>7</tech_level>
@@ -1444,7 +1447,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Evidence Bags</description>
 					<tech_level>7</tech_level>
@@ -1458,7 +1461,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Evidence Bags</description>
 					<tech_level>7</tech_level>
@@ -1472,7 +1475,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Evidence Tubes</description>
 					<tech_level>7</tech_level>
@@ -1484,7 +1487,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Evidence Cans</description>
 					<tech_level>7</tech_level>
@@ -1496,7 +1499,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Gloves</description>
 					<tech_level>8</tech_level>
@@ -1508,7 +1511,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Syringe Tube</description>
 					<tech_level>7</tech_level>
@@ -1520,7 +1523,7 @@
 						<category>Law-Enforcement</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Scissors</description>
 					<tech_level>7</tech_level>
@@ -1530,7 +1533,7 @@
 						<category>General Equipment</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Tweezers</description>
 					<tech_level>7</tech_level>
@@ -1540,7 +1543,7 @@
 						<category>General Equipment</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Penlight</description>
 					<tech_level>7</tech_level>
@@ -1553,7 +1556,7 @@
 						<category>Camping and Survival Gear</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Evidence Markers</description>
 					<tech_level>7</tech_level>

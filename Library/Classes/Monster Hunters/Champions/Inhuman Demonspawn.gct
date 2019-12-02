@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="g2gmtmpp:11xpfirww9a9u" version="1">
+<template id="8099975a-34c3-4f72-ac58-756f75639e34" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Inhuman Demonspawn</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Advantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>3</levels>
@@ -140,7 +140,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Language: Demontongue</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -217,7 +217,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>7</levels>
@@ -227,7 +227,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Regeneration</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -300,7 +300,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -347,7 +347,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Striking ST</name>
 					<type>Physical, Exotic</type>
 					<levels>4</levels>
@@ -386,9 +386,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -408,7 +408,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -423,7 +423,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -458,9 +458,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Disadvantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Divine Curse (The truly devout find you disturbing)</name>
 					<type>Mental, Supernatural</type>
 					<modifier version="1">
@@ -485,14 +485,14 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Features</name>
 				<type>Physical</type>
 				<notes>Affected by Body, Mind, and Spirit Path magic</notes>
 			</advantage>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Secondary Characteristics</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>1</levels>
@@ -507,7 +507,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>1</levels>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="3315404c-e437-4970-bea5-48b1f7269297" version="1">
+<template id="3315404c-e437-4970-bea5-48b1f7269297" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Sentient Animal Snacks</name>
 			<reference>DB114</reference>
 			<notes>2098; $50 + enhanced computer if desired; Trojan Mafia</notes>
 			<categories>
 				<category>Bioshell</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>7</levels>
@@ -22,7 +22,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased DX</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -36,7 +36,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Basic Move</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -51,7 +51,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Size modifier</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -63,7 +63,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -132,7 +132,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -141,7 +141,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flexibility</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -152,20 +152,23 @@
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">escape</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">erotic art</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>High Pain Threshold</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -175,7 +178,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Blood)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -189,7 +192,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Brain)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -198,7 +201,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Neck)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -207,7 +210,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Vitals)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -216,7 +219,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Metabolism Control</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -238,7 +241,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Consumption</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -271,7 +274,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -318,7 +321,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -370,7 +373,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -380,12 +383,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Onboard computer (Tiny; Biodegradable)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sanitized Metabolism</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -394,14 +397,14 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Bioroid Body</name>
 				<reference>TS131</reference>
 				<categories>
 					<category>Bioroid</category>
 					<category>Meta-Trait</category>
 				</categories>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No degeneration in zero G</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
@@ -412,7 +415,7 @@
 						<category>Upgrade</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unusual Biochemistry</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -421,16 +424,16 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Intron messages</name>
 					<type>Physical</type>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Clostely resembles others of the same model</name>
 					<type>Physical</type>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Electrical</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -444,7 +447,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Invertebrate</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -453,29 +456,29 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Quadruped</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Legs (4 legs)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B54</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Horizontal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-10</base_points>
 					<reference>B139</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Fine Manipulators</name>
 					<type>Physical</type>
 					<base_points>-30</base_points>
 					<reference>B145</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Short Arms</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -484,7 +487,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Short Lifespan</name>
 				<type>Physical, Exotic</type>
 				<levels>4</levels>
@@ -494,7 +497,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Terminally Ill</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -525,7 +528,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unhealing (Total)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-30</base_points>
@@ -534,7 +537,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Early maturation</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -568,7 +571,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Edible</name>
 				<type>Physical</type>
 				<notes>Availiable in various designs and flavours</notes>

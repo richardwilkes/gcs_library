@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ino5jj7c:-13s9by0h528gu" version="1">
+<template id="edb980d5-d5cc-4a06-9482-6955469d0066" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Scout Robot</name>
 			<reference>UT80</reference>
 			<categories>
 				<category>Race</category>
 				<category>Robot</category>
 			</categories>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Advantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Absolute Direction</name>
 					<type>Mental/Physical</type>
 					<base_points>5</base_points>
@@ -28,26 +28,31 @@
 						<skill_bonus>
 							<name compare="starts with">piloting</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">aerobatics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">free fall</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">hyperspace</specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">space</specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 					</modifier>
@@ -58,25 +63,29 @@
 					<skill_bonus>
 						<name compare="is">body sense</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">air</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">land</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">sea</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>15</levels>
@@ -196,7 +205,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Doesn't Breathe</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
@@ -265,7 +274,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Arm</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -326,50 +335,50 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="yes" type="meta trait">
+				<advantage_container version="3" open="yes" type="meta trait">
 					<name>Meta-Trait: Machine</name>
 					<reference>B263</reference>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eight-hour energy reserve, Refuel 3 times per day</name>
 						<type>Physical</type>
 						<reference>B263</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Injury Tolerance (No Blood)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
 						<reference>B61</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Injury Tolerance (Unliving)</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
 						<reference>B61</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No fatigue points, Don't spend fatigue points</name>
 						<type>Physical</type>
 						<reference>B263</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant (Immunity to Metabolic Hazards)</name>
 						<type>Physical</type>
 						<base_points>30</base_points>
 						<reference>B81</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unhealing (Total)</name>
 						<type>Physical, Exotic</type>
 						<base_points>-30</base_points>
 						<reference>B160</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wears out instead of aging</name>
 						<type>Physical</type>
 						<reference>B263</reference>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Protected Sense (Hearing)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -378,7 +387,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Protected Sense (Vision)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -387,7 +396,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Radiation Tolerance (PF: 5)</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -403,7 +412,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sealed</name>
 					<type>Physical, Exotic</type>
 					<base_points>15</base_points>
@@ -412,7 +421,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Telecommunication</name>
 					<type>Mental/Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -542,9 +551,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attribute Modifiers</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Strength</name>
 					<type>Physical</type>
 					<levels>7</levels>
@@ -559,7 +568,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -575,15 +584,15 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Configuration Lenses</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: Aerial Scout (TL9)</name>
 					<reference>UT80</reference>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Enhanced Move (Air)</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -640,7 +649,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Flight</name>
 						<type>Physical, Exotic</type>
 						<base_points>40</base_points>
@@ -736,7 +745,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Hyperspectral Vision</name>
 						<type>Physical, Exotic</type>
 						<base_points>25</base_points>
@@ -774,7 +783,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Legs (Aerial)</name>
 						<type>Physical, Exotic</type>
 						<reference>B145</reference>
@@ -788,7 +797,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Parabolic Hearing</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
@@ -798,7 +807,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Telescopic Vision</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -815,13 +824,13 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: Contragrav (TL11^)</name>
 					<reference>UT80</reference>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Enhanced Move (Air)</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -878,7 +887,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Flight</name>
 						<type>Physical, Exotic</type>
 						<base_points>40</base_points>
@@ -974,7 +983,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Hyperspectral Vision</name>
 						<type>Physical, Exotic</type>
 						<base_points>25</base_points>
@@ -1012,7 +1021,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Legs (Aerial)</name>
 						<type>Physical, Exotic</type>
 						<reference>B145</reference>
@@ -1026,7 +1035,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Parabolic Hearing</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
@@ -1036,7 +1045,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Silence</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
@@ -1054,10 +1063,11 @@
 						<skill_bonus>
 							<name compare="is">stealth</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Telescopic Vision</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -1074,13 +1084,13 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: Submarine (TL9)</name>
 					<reference>UT80</reference>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Enhanced Move (Water)</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -1137,7 +1147,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Legs (Aquatic)</name>
 						<type>Physical, Exotic</type>
 						<modifier version="1" enabled="no">
@@ -1157,7 +1167,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pressure Support</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
@@ -1167,7 +1177,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Scanning Sense</name>
 						<type>Physical, Exotic</type>
 						<modifier version="1" enabled="no">
@@ -1287,9 +1297,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Disadvantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Electrical</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
@@ -1298,7 +1308,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Maintenance</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1436,7 +1446,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Restricted Diet (Power Cells)</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -1450,7 +1460,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Restricted Vision (Tunnel Vision)</name>
 					<type>Physical</type>
 					<base_points>-30</base_points>
@@ -1460,9 +1470,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Secondary Characteristic Modifiers</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Size</name>
 					<type>Physical</type>
 					<levels>4</levels>

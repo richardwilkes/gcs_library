@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcza55hc:iyurlznz1bbq" version="1">
+<template id="32d51ac4-7b89-4300-8a79-1988fe914bde" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Nymph</name>
 			<reference>DF3:9</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -92,7 +92,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Charisma</name>
 				<type>Mental</type>
 				<levels>5</levels>
@@ -105,25 +105,29 @@
 				<skill_bonus>
 					<name compare="is">fortune-telling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leadership</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">panhandling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">public speaking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Mana)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -210,15 +214,15 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Perky</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Skin colour and hair based on some aspect of nature.</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -233,7 +237,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sense of Duty</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>

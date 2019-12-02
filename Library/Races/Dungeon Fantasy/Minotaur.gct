@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fczneq31:-6skj90gm470y" version="1">
+<template id="71049ca8-cd4a-413c-b12a-245395325785" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Minotaur</name>
 			<reference>DF3:4</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Absolute Direction</name>
 				<type>Mental/Physical</type>
 				<base_points>5</base_points>
@@ -22,26 +22,31 @@
 					<skill_bonus>
 						<name compare="starts with">piloting</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">aerobatics</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">free fall</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">hyperspace</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">space</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 				</modifier>
@@ -52,25 +57,29 @@
 				<skill_bonus>
 					<name compare="is">body sense</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">air</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">land</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">sea</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -84,7 +93,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -172,7 +181,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bad Temper</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -182,7 +191,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Berserk</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -197,7 +206,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -323,7 +332,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -443,7 +452,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Intelligence</name>
 				<type>Mental</type>
 				<levels>2</levels>
@@ -458,15 +467,15 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Bull's face and neck</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Can't wear most humanoid helmets</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -481,7 +490,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>2</levels>
@@ -496,7 +505,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -530,7 +539,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Peripheral Vision</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -546,12 +555,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Impaling (Horns)</name>
 				<type>Physical, Exotic</type>
 				<base_points>8</base_points>
 				<melee_weapon>
-					<damage>thr:+1 imp</damage>
+					<damage type="imp" st="thr" modifier_per_die="1"/>
 					<reach>C,1</reach>
 					<parry>0</parry>
 					<block>No</block>

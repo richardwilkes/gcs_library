@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="80ba3796-f1cc-4fb3-82d3-9693ee5d30fd" version="1">
+<template id="80ba3796-f1cc-4fb3-82d3-9693ee5d30fd" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Metanoia-Series upgrade</name>
 			<reference>TS116</reference>
 			<notes>2065; $61,000; GenTech Pacifica</notes>
 			<categories>
 				<category>Upgrade</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased IQ</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -18,7 +18,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -28,7 +28,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Longevity</name>
 				<type>Physical</type>
 				<base_points>2</base_points>
@@ -37,7 +37,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -84,7 +84,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Versatile</name>
 				<type>Mental</type>
 				<base_points>5</base_points>
@@ -93,7 +93,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Language Talent</name>
 				<type>Mental</type>
 				<base_points>10</base_points>
@@ -102,7 +102,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Imaginative</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -111,7 +111,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo trait: Genetic defects</name>
 				<type>Physical</type>
 				<reference>TS135</reference>
@@ -120,7 +120,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo trait: Unattractiveness</name>
 				<type>Physical</type>
 				<reference>TS135</reference>
@@ -129,7 +129,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Note!</name>
 				<type></type>
 				<notes>Language Talent can be exchanged for any 10 points of Talents</notes>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="f3e5960d-4a0d-4ab4-b8ac-a82b34cccccb" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Druid</name>
 			<reference>DFA22</reference>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -36,7 +36,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -51,7 +51,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -67,9 +67,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Class Advantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Green Thumb</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -88,20 +88,23 @@
 					<skill_bonus>
 						<name compare="is">Pharmacy</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Herb Lore</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Naturalist</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Power Investiture (Druidic)</name>
 					<type>Mental, Supernatural</type>
 					<levels>3</levels>
@@ -113,11 +116,12 @@
 					<spell_bonus>
 						<college_name compare="is">Druid</college_name>
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 				</advantage>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>40 Points from the following</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Intelligence</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -132,7 +136,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -147,7 +151,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Perception</name>
 						<type>Mental/Physical</type>
 						<levels>1</levels>
@@ -162,7 +166,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Extra Fatigue Points</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -177,7 +181,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Animal Empathy</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -186,7 +190,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Animal Friend</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -205,35 +209,41 @@
 						<skill_bonus>
 							<name compare="contains">animal handling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Disguise</name>
 							<specialization compare="is">Animals</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">Mimicry</name>
 							<specialization compare="is">Animal Sounds</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">riding</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">Mimicry</name>
 							<specialization compare="is">Bird Calls</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">veterinary</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Energy Reserve (Druidic)</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -244,7 +254,7 @@
 							<category>Attribute</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Green Thumb</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -263,20 +273,23 @@
 						<skill_bonus>
 							<name compare="is">Pharmacy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Herb Lore</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Naturalist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Healer</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -295,46 +308,55 @@
 						<skill_bonus>
 							<name compare="is">Diagnosis</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Esoteric Medicine</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">First Aid</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Pharmacy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Physician</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Physiology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Surgery</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Veterinary</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<prereq_list all="yes">
@@ -345,7 +367,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intuition</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -354,7 +376,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -370,7 +392,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck, Extraordinary</name>
 						<type>Mental</type>
 						<base_points>30</base_points>
@@ -386,7 +408,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Mind Shield</name>
 						<type>Mental, Exotic</type>
 						<levels>1</levels>
@@ -396,7 +418,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Outdoorsman</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -415,55 +437,65 @@
 						<skill_bonus>
 							<name compare="is">Camouflage</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Fishing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Mimicry</name>
 							<specialization compare="is">Animal sounds</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Naturalist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Navigation</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Survival</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Tracking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Disguise</name>
 							<specialization compare="is">Animals</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Mimicry</name>
 							<specialization compare="is">Bird Calls</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">weather sense</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Power Investiture (Druidic)</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
@@ -475,9 +507,10 @@
 						<spell_bonus>
 							<college_name compare="is">Druid</college_name>
 							<amount>1</amount>
+							<category compare="is anything"></category>
 						</spell_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant to Disease</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -487,7 +520,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Signature Gear (@Item@)</name>
 						<type>Social</type>
 						<base_points>1</base_points>
@@ -496,7 +529,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Spirit Empathy</name>
 						<type>Mental, Supernatural</type>
 						<base_points>10</base_points>
@@ -505,14 +538,14 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Druidic Abilities</name>
 						<reference>DFA23</reference>
 						<categories>
 							<category>Advantage</category>
 							<category>Power</category>
 						</categories>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Beast Flight</name>
 							<type>Physical, Exotic</type>
 							<base_points>14</base_points>
@@ -521,7 +554,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Control Animal</name>
 							<type>Physical</type>
 							<base_points>33</base_points>
@@ -530,7 +563,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Nature's Shield</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -540,7 +573,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Plant Empathy</name>
 							<type>Mental</type>
 							<base_points>5</base_points>
@@ -549,7 +582,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Speak With Animals</name>
 							<type>Mental, Exotic</type>
 							<base_points>23</base_points>
@@ -558,7 +591,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Speak With Plants</name>
 							<type>Mental, Exotic</type>
 							<base_points>14</base_points>
@@ -570,11 +603,11 @@
 					</advantage_container>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantages</name>
-				<advantage_container version="2" open="no" type="race">
+				<advantage_container version="3" open="no" type="race">
 					<name>-20 Points Chosen From:</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Ritualism)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -583,7 +616,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Mysticism)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -592,7 +625,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -630,7 +663,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -660,7 +693,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Never sleep indoors)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -686,7 +719,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Vegetarianism)</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -713,10 +746,10 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>A further -25 Points chosen from:</name>
 					<notes>or previous traits</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (Urbanites)</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -736,7 +769,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Loner</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -746,7 +779,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Sense of Humor</name>
 						<type>Physical</type>
 						<base_points>-10</base_points>
@@ -756,7 +789,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Odious Personal Habit</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -777,7 +810,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -787,7 +820,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Phobia (Crowds)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -797,7 +830,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Phobia (Fire)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -807,7 +840,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Phobia (Machinery)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -817,7 +850,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Stubbornness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -826,7 +859,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Weirdness Magnet</name>
 						<type>Mental, Supernatural</type>
 						<base_points>-15</base_points>
@@ -837,9 +870,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Secondary Characteristics</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Basic Speed</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -858,11 +891,11 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Druid</name>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>One Hidden Lore</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Elementals</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -872,7 +905,7 @@
 						<category>Knowledge</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Faeries</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -882,7 +915,7 @@
 						<category>Knowledge</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Nature Spirits</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -893,9 +926,9 @@
 					</categories>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>One Survival</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>@Environment@</specialization>
 					<difficulty>Per/A</difficulty>
@@ -956,7 +989,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Arctic</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1017,7 +1050,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Desert</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1078,7 +1111,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Island/Beach</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1145,7 +1178,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Jungle</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1206,7 +1239,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Mountain</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1267,7 +1300,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Plains</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1328,7 +1361,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Swampland</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1395,7 +1428,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Woodlands</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1457,9 +1490,9 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Mandatory Skills</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Camouflage</name>
 					<difficulty>IQ/E</difficulty>
 					<points>1</points>
@@ -1478,7 +1511,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Climbing</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -1494,7 +1527,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Disguise</name>
 					<specialization>Animals</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -1514,7 +1547,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hiking</name>
 					<difficulty>HT/A</difficulty>
 					<points>1</points>
@@ -1528,7 +1561,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Naturalist</name>
 					<difficulty>IQ/H</difficulty>
 					<points>2</points>
@@ -1549,7 +1582,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Pharmacy</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -1585,7 +1618,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Religious Ritual</name>
 					<specialization>Druidic</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -1606,7 +1639,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Stealth</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -1626,7 +1659,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Theology</name>
 					<specialization>Druidic</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -1646,7 +1679,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Veterinary</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -1671,7 +1704,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Weather Sense</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -1686,12 +1719,12 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>Melee Packages (Choose 1)</name>
 				<notes>Should total 12 points</notes>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>One Two-Handed Weapon</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Spear</name>
 						<difficulty>DX/A</difficulty>
 						<points>12</points>
@@ -1715,7 +1748,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Staff</name>
 						<difficulty>DX/A</difficulty>
 						<points>12</points>
@@ -1740,10 +1773,10 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Weapon and Shield</name>
 					<notes>Choose 1 Weapon and the Shield skill</notes>
-					<skill version="2">
+					<skill version="3">
 						<name>Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -1767,7 +1800,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Broadsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -1806,7 +1839,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Shortsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -1855,7 +1888,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Spear</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -1879,7 +1912,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Shield</name>
 						<specialization>Shield</specialization>
 						<difficulty>DX/E</difficulty>
@@ -1901,9 +1934,9 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>One Ranged Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Blowpipe</name>
 					<difficulty>DX/H</difficulty>
 					<points>4</points>
@@ -1917,7 +1950,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Bolas</name>
 					<difficulty>DX/A</difficulty>
 					<points>4</points>
@@ -1927,7 +1960,7 @@
 						<category>Ranged Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Innate Attack</name>
 					<specialization>Beam</specialization>
 					<difficulty>DX/E</difficulty>
@@ -1947,7 +1980,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Innate Attack</name>
 					<specialization>Breath</specialization>
 					<difficulty>DX/E</difficulty>
@@ -1967,7 +2000,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Innate Attack</name>
 					<specialization>Gaze</specialization>
 					<difficulty>DX/E</difficulty>
@@ -1987,7 +2020,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Innate Attack</name>
 					<specialization>Projectile</specialization>
 					<difficulty>DX/E</difficulty>
@@ -2007,7 +2040,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Lasso</name>
 					<difficulty>DX/A</difficulty>
 					<points>4</points>
@@ -2017,7 +2050,7 @@
 						<category>Ranged Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Net</name>
 					<difficulty>DX/H</difficulty>
 					<points>4</points>
@@ -2032,7 +2065,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Sling</name>
 					<difficulty>DX/H</difficulty>
 					<points>4</points>
@@ -2046,7 +2079,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Throwing</name>
 					<difficulty>DX/A</difficulty>
 					<points>4</points>
@@ -2066,7 +2099,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Thrown Weapon</name>
 					<specialization>Spear</specialization>
 					<difficulty>DX/E</difficulty>
@@ -2092,7 +2125,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Thrown Weapon</name>
 					<specialization>Stick</specialization>
 					<difficulty>DX/E</difficulty>
@@ -2108,9 +2141,9 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>One Animal Handling</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>@Specialty@</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2124,7 +2157,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Canines</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2138,7 +2171,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Equines</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2152,7 +2185,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Felines</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2166,7 +2199,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Snakes</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2181,9 +2214,9 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>One Mimicry</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Mimicry</name>
 					<specialization>Animal Sounds</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -2210,7 +2243,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Mimicry</name>
 					<specialization>Bird Calls</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -2238,9 +2271,9 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Choose Three</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>@Specialty@</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2254,7 +2287,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Canines</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2268,7 +2301,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Equines</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2282,7 +2315,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Felines</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2296,7 +2329,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Snakes</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2310,7 +2343,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Diagnosis</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -2338,7 +2371,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Diplomacy</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -2358,7 +2391,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>First Aid</name>
 					<difficulty>IQ/E</difficulty>
 					<points>1</points>
@@ -2387,7 +2420,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Gesture</name>
 					<difficulty>IQ/E</difficulty>
 					<points>1</points>
@@ -2400,7 +2433,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Elementals</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2410,7 +2443,7 @@
 						<category>Knowledge</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Faeries</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2420,7 +2453,7 @@
 						<category>Knowledge</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Nature Spirits</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2430,7 +2463,7 @@
 						<category>Knowledge</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Knife</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -2459,7 +2492,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Observation</name>
 					<difficulty>Per/A</difficulty>
 					<points>1</points>
@@ -2480,7 +2513,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Poisons</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -2510,7 +2543,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Teaching</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -2528,15 +2561,15 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
-		<spell_container version="2" open="yes">
+		<spell_container version="3" open="yes">
 			<name>Choose 20 of:</name>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Power Investiture (Druidic)</name>
 				<notes>1</notes>
 				<categories>
 					<category>Druid</category>
 				</categories>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Soother</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2557,7 +2590,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast-Rouser</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2578,7 +2611,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Coolness</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2599,7 +2632,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Detect Magic</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2620,7 +2653,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Detect Poison</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2641,7 +2674,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Extinguish Fire</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2662,7 +2695,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Find Direction</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2683,7 +2716,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Hawk Vision</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2704,7 +2737,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Identify Plant</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2725,7 +2758,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Master</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2746,7 +2779,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>No-Smell</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2767,7 +2800,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Purify Air</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2788,7 +2821,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Purify Earth</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2810,7 +2843,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Purify Water</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2831,7 +2864,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Quick March</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2852,7 +2885,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Recover Energy</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2873,7 +2906,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Seek Earth</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2894,7 +2927,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Seek Food</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2915,7 +2948,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Seek Plant</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2936,7 +2969,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Seek Water</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2957,7 +2990,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Sense Evil</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2978,7 +3011,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Sense Life</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -2999,7 +3032,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Share Energy</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3020,7 +3053,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Tell Position</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3041,7 +3074,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Thunderclap</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3062,7 +3095,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Umbrella</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3083,7 +3116,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Warmth</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3105,13 +3138,13 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Power Investiture (Druidic)</name>
 				<notes>2</notes>
 				<categories>
 					<category>Druid</category>
 				</categories>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (@Animal@)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3132,7 +3165,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Bird)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3153,7 +3186,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Fish)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3174,7 +3207,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Mammal)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3195,7 +3228,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Reptile)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3216,7 +3249,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Vermin)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3237,7 +3270,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Link</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3258,7 +3291,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Seeker</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3279,7 +3312,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Speech</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3300,7 +3333,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Cure Disease</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3321,7 +3354,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Fireproof</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3342,7 +3375,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Fog</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3363,7 +3396,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Hide Path</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3384,7 +3417,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Know Location</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3405,7 +3438,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Light Tread</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3426,7 +3459,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Mystic Mist</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3447,7 +3480,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Neutralize Poison</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3468,7 +3501,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Pathfinder</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3489,7 +3522,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Plant Vision</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3510,7 +3543,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Pollen Cloud</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3520,7 +3553,7 @@
 					<casting_time>1 sec</casting_time>
 					<duration>5 min#</duration>
 					<melee_weapon>
-						<damage>Cough/Sneeze</damage>
+						<damage type="Cough/Sneeze"/>
 						<usage>Area</usage>
 						<reach>Special</reach>
 						<parry>No</parry>
@@ -3537,7 +3570,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Protection from Evil</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3560,7 +3593,7 @@
 						</prereq_list>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Purify Food</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3581,7 +3614,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (@Animal@)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3602,7 +3635,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Bird)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3623,7 +3656,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Fish)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3644,7 +3677,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Mammal)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3665,7 +3698,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Reptile)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3686,7 +3719,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Vermin)</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3707,7 +3740,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Rider</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3728,7 +3761,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Rider Within</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3749,7 +3782,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Shape Air</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3770,7 +3803,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Shape Earth</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3791,7 +3824,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Shape Plant</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3812,7 +3845,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Shape Water</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3833,7 +3866,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Weather Dome</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3854,7 +3887,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Windstorm</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3876,13 +3909,13 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Power Investiture (Druidic)</name>
 				<notes>3</notes>
 				<categories>
 					<category>Druid</category>
 				</categories>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Summoning</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3903,7 +3936,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Breathe Water</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3924,7 +3957,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Conceal</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3945,7 +3978,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Create Plant</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3966,7 +3999,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Earth Vision</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -3987,7 +4020,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Forest Warning</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4008,7 +4041,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Freeze</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4029,7 +4062,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Hybrid Control</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4050,7 +4083,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2" very_hard="yes">
+				<spell version="3" very_hard="yes">
 					<name>Instant Neutralize Poison</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4071,7 +4104,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Plant Control</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4092,7 +4125,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Plant Sense</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4113,7 +4146,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Plant Speech</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4134,7 +4167,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Protect Animal</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4155,7 +4188,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Remember Path</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4176,7 +4209,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2" very_hard="yes">
+				<spell version="3" very_hard="yes">
 					<name>Repel Hybrids</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4197,7 +4230,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Resist Cold</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4218,7 +4251,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Resist Lightning</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4239,7 +4272,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Sunlight</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4262,7 +4295,7 @@
 						</prereq_list>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Swim</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4283,7 +4316,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Tangle growth</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4304,7 +4337,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Walk Through Plants</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4325,7 +4358,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Walk Through Wood</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4346,7 +4379,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Water Vision</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4368,13 +4401,13 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Power Investiture (Druidic)</name>
 				<notes>4</notes>
 				<categories>
 					<category>Druid</category>
 				</categories>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Possession</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4395,7 +4428,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Create Animal</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4416,7 +4449,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Dispel Magic</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4437,7 +4470,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Frostbite</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4447,7 +4480,7 @@
 					<casting_time>3 sec</casting_time>
 					<duration>Permanent</duration>
 					<melee_weapon>
-						<damage>1d freezing/point</damage>
+						<damage type="freezing/point" base="1d"/>
 						<reach>Special</reach>
 						<parry>No</parry>
 					</melee_weapon>
@@ -4463,7 +4496,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Hail</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4473,7 +4506,7 @@
 					<casting_time>1 sec</casting_time>
 					<duration>1 min</duration>
 					<melee_weapon>
-						<damage>1d-2 cr</damage>
+						<damage type="cr" base="1d-2"/>
 						<usage>Area</usage>
 						<reach>Special</reach>
 						<parry>No</parry>
@@ -4491,7 +4524,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Lightning</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4501,7 +4534,7 @@
 					<casting_time>1-3 sec</casting_time>
 					<duration>Instant</duration>
 					<ranged_weapon>
-						<damage>1d-1 burn/point</damage>
+						<damage type="burn/point" base="1d-1"/>
 						<accuracy>3</accuracy>
 						<range>50/100</range>
 						<default>
@@ -4527,7 +4560,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Sandstorm</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4548,7 +4581,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Wither Plant</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4570,13 +4603,13 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Power Investiture (Druidic)</name>
 				<notes>5</notes>
 				<categories>
 					<category>Druid</category>
 				</categories>
-				<spell version="2">
+				<spell version="3">
 					<name>Arboreal Immurement</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4597,7 +4630,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Entombment</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4620,7 +4653,7 @@
 						</prereq_list>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Spark Storm</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4630,7 +4663,7 @@
 					<casting_time>sec=radius in yards</casting_time>
 					<duration>1 min</duration>
 					<melee_weapon>
-						<damage>1d-1 burn/2 points</damage>
+						<damage type="burn/2 points" base="1d-1"/>
 						<usage>Area</usage>
 						<reach>Special</reach>
 						<parry>No</parry>
@@ -4648,13 +4681,13 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Power Investiture (Druidic)</name>
 				<notes>6</notes>
 				<categories>
 					<category>Druid</category>
 				</categories>
-				<spell version="2">
+				<spell version="3">
 					<name>Earthquake</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>
@@ -4677,7 +4710,7 @@
 						</prereq_list>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Geyser</name>
 					<college>Druid</college>
 					<power_source>Arcane</power_source>

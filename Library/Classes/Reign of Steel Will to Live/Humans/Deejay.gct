@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ih2opr6d:1f8ae9dmm0ks8" version="1">
+<template id="a6afa7c4-0253-4cdf-8146-353ade845b3d" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Advantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Charisma</name>
 				<type>Mental</type>
 				<levels>3</levels>
@@ -16,25 +16,29 @@
 				<skill_bonus>
 					<name compare="is">fortune-telling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leadership</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">panhandling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">public speaking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2" round_down="yes">
+			<advantage version="3" round_down="yes">
 				<name>Reputation (Source of news)</name>
 				<type>Social</type>
 				<levels>1</levels>
@@ -85,7 +89,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Voice</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -96,48 +100,56 @@
 				<skill_bonus>
 					<name compare="is">diplomacy</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">fast-talk</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">mimicry</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">performance</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">politics</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">public speaking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sex appeal</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">singing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Disadvantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enemy (Local Overseer)</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -255,7 +267,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Outlaw)</name>
 				<type>Social</type>
 				<base_points>-15</base_points>
@@ -265,7 +277,7 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Camouflage</name>
 			<difficulty>IQ/E</difficulty>
 			<points>1</points>
@@ -284,7 +296,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Electronics Operation</name>
 			<specialization>Communications</specialization>
 			<tech_level/>
@@ -316,9 +328,9 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>10 Points in:</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Media</specialization>
 				<tech_level/>
@@ -351,7 +363,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Intelligence Analysis</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -372,7 +384,7 @@
 					<modifier>-6</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Performance</name>
 				<difficulty>IQ/A</difficulty>
 				<points>4</points>
@@ -395,7 +407,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Public Speaking</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -425,7 +437,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Singing</name>
 				<difficulty>HT/E</difficulty>
 				<points>1</points>
@@ -438,7 +450,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Teaching</name>
 				<difficulty>IQ/A</difficulty>
 				<points>2</points>

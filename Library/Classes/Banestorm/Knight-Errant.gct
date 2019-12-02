@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="21239407-b893-4a01-b66f-f4ef2fc7c164" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Knight-Errant</name>
 			<reference>BS208</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -76,11 +76,11 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Advantage</name>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>15 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Combat Reflexes</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -92,6 +92,7 @@
 						<skill_bonus>
 							<name compare="starts with">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<attribute_bonus>
@@ -117,7 +118,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fearlessness</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -127,7 +128,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -137,7 +138,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit, Very</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -147,7 +148,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Pain Threshold</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -157,7 +158,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Patron</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -301,7 +302,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2" round_down="yes">
+					<advantage version="3" round_down="yes">
 						<name>Reputation</name>
 						<type>Social</type>
 						<levels>2</levels>
@@ -352,7 +353,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Signature Gear</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -363,7 +364,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Status</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -373,7 +374,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Born War Leader)</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -385,30 +386,35 @@
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">strategy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="starts with">tactics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">intelligence analysis</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">savoir-faire</name>
 							<specialization compare="is">military</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -472,11 +478,11 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Wealth and Status may be bought as Potential Advantages (Heir) for half cost. See B33</name>
 					</advantage_container>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Status</name>
 					<type>Social</type>
 					<levels>2</levels>
@@ -487,11 +493,11 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantage</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>-20 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bloodlust</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -501,7 +507,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -512,15 +518,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (@Type@)</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -543,7 +551,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Arab)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -552,7 +560,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Chivalry)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -561,7 +569,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Sahudese)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -570,7 +578,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Duty (@To liege lord or order@)</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -613,7 +621,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fanaticism (@Group or ideal@)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -628,7 +636,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -660,7 +668,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Jealousy</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -669,7 +677,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -679,7 +687,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Selfish</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -689,7 +697,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -733,7 +741,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Stigma (Disowned, Non-heir)</name>
 						<type>Social</type>
 						<base_points>-5</base_points>
@@ -743,7 +751,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Stigma (Disowned, Outcast)</name>
 						<type>Social</type>
 						<base_points>-10</base_points>
@@ -753,7 +761,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (@Subject@)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -782,12 +790,12 @@
 				</advantage_container>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Knightly Lenses</name>
 			<reference>BS209</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Hospitaller</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Patron</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -930,7 +938,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (To Hospitallers)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -973,7 +981,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Reputation (Dour fighter and enemy of the infidel)</name>
 					<type>Social</type>
 					<levels>2</levels>
@@ -1024,7 +1032,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Reputation (Dour fighter and enemy of the infidel)</name>
 					<type>Social</type>
 					<levels>3</levels>
@@ -1075,7 +1083,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Chastity)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1101,7 +1109,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Poverty)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1127,9 +1135,9 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>If Hospitaller has Magery, must take this additional Vow to make lens [-20]</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Refrain from using magic)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1157,9 +1165,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Knight of St. George of the Dragon</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Patron</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1302,7 +1310,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Reputation (Defender of the Church of Caithness)</name>
 					<type>Social</type>
 					<levels>2</levels>
@@ -1353,7 +1361,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (To the Knights of St. George)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1396,7 +1404,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Chastity)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1422,7 +1430,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Poverty)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1449,9 +1457,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Knight of the Stone</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Patron</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1594,7 +1602,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Reputation (Champion of Justice)</name>
 					<type>Social</type>
 					<levels>2</levels>
@@ -1645,7 +1653,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (To the Knights of the Stone)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1689,9 +1697,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Templar</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Patron</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1834,7 +1842,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (To Templars)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1877,7 +1885,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Reputation (Enemy of the infidel)</name>
 					<type>Social</type>
 					<levels>2</levels>
@@ -1928,7 +1936,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Reputation (Enemy of the infidel)</name>
 					<type>Social</type>
 					<levels>3</levels>
@@ -1979,7 +1987,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Chastity)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -2005,7 +2013,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Poverty)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -2035,14 +2043,14 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Knight-Errant</name>
 			<reference>BS208</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>16 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2066,7 +2074,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Bow</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2080,7 +2088,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Broadsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2119,7 +2127,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Lance</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2144,7 +2152,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Shortsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2193,7 +2201,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Two-Handed Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2222,7 +2230,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Two-Handed Sword</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2246,7 +2254,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Wrestling</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2257,7 +2265,7 @@
 						</categories>
 					</skill>
 				</skill_container>
-				<skill version="2">
+				<skill version="3">
 					<name>Riding</name>
 					<specialization>Equine</specialization>
 					<difficulty>DX/A</difficulty>
@@ -2278,11 +2286,11 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>10 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Area Knowledge</name>
 						<specialization>Local</specialization>
 						<difficulty>IQ/E</difficulty>
@@ -2299,7 +2307,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Judo</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/H</difficulty>
@@ -2311,7 +2319,7 @@
 							<category>Melee Combat</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Law</name>
 						<specialization>Local</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2327,7 +2335,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Leadership</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -2341,10 +2349,10 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill_container version="2" open="yes">
+					<skill_container version="3" open="yes">
 						<name>Or additional Melee Weapon skills</name>
 					</skill_container>
-					<skill version="2">
+					<skill version="3">
 						<name>Savoir-Faire</name>
 						<specialization>@Social group@</specialization>
 						<difficulty>IQ/E</difficulty>
@@ -2366,11 +2374,11 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skill</name>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>5 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Armoury</name>
 						<specialization>Body Armor</specialization>
 						<tech_level/>
@@ -2392,7 +2400,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Armoury</name>
 						<specialization>Melee Weapons</specialization>
 						<tech_level/>
@@ -2414,7 +2422,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Carousing</name>
 						<difficulty>HT/E</difficulty>
 						<points>1</points>
@@ -2428,7 +2436,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Dancing</name>
 						<difficulty>DX/A</difficulty>
 						<points>1</points>
@@ -2441,7 +2449,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Heraldry</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2461,7 +2469,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Poetry</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2479,7 +2487,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Politics</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2498,7 +2506,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Theology</name>
 						<specialization>@Specialty@</specialization>
 						<difficulty>IQ/H</difficulty>

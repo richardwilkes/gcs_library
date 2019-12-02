@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<skill_list unique_id="hv8sqnpd:11py0j0w8ahiw" version="1">
-	<skill version="2">
+<skill_list id="6e39a9e0-ce15-49d8-86ba-335747726e19" version="1">
+	<skill version="3">
 		<name>Accounting</name>
 		<difficulty>IQ/H</difficulty>
 		<points>1</points>
@@ -29,7 +29,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Acrobatic Stand</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -44,7 +44,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Acrobatics</name>
 		<difficulty>DX/H</difficulty>
 		<points>1</points>
@@ -57,7 +57,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Acting</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -81,7 +81,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Administration</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -100,7 +100,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Animal Handling</name>
 		<specialization>@Specialty@</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -114,7 +114,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Animal Handling</name>
 		<specialization>Big Cats</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -128,7 +128,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Animal Handling</name>
 		<specialization>Dogs</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -142,7 +142,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Animal Handling</name>
 		<specialization>Equines</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -156,7 +156,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Animal Handling</name>
 		<specialization>Raptors</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -170,7 +170,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Architecture</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -190,7 +190,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Area Knowledge</name>
 		<specialization>@Specialty@</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -211,7 +211,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="4">
+	<technique version="3" limit="4">
 		<name>Arm Lock</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -227,7 +227,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="4">
+	<technique version="3" limit="4">
 		<name>Arm Lock</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -243,7 +243,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Battlesuits</specialization>
 		<tech_level/>
@@ -265,7 +265,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Body Armor</specialization>
 		<tech_level/>
@@ -287,7 +287,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Force Shields</specialization>
 		<tech_level/>
@@ -309,7 +309,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Heavy Weapons</specialization>
 		<tech_level/>
@@ -331,7 +331,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Melee Weapons</specialization>
 		<tech_level/>
@@ -353,7 +353,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Missile Weapons</specialization>
 		<tech_level/>
@@ -375,7 +375,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Small Arms</specialization>
 		<tech_level/>
@@ -397,7 +397,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Armoury</name>
 		<specialization>Vehicular Armor</specialization>
 		<tech_level/>
@@ -419,7 +419,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Artillery</name>
 		<specialization>Beams</specialization>
 		<tech_level/>
@@ -435,7 +435,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Artillery</name>
 		<specialization>Bombs</specialization>
 		<tech_level/>
@@ -451,7 +451,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Artillery</name>
 		<specialization>Cannon</specialization>
 		<tech_level/>
@@ -467,7 +467,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Artillery</name>
 		<specialization>Catapult</specialization>
 		<tech_level/>
@@ -483,7 +483,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Artillery</name>
 		<specialization>Guided Missile</specialization>
 		<tech_level/>
@@ -499,7 +499,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Artillery</name>
 		<specialization>Torpedoes</specialization>
 		<tech_level/>
@@ -515,7 +515,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Assassin!</name>
 		<difficulty>DX/W</difficulty>
 		<points>1</points>
@@ -524,7 +524,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Axe/Mace</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -548,7 +548,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Back Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -570,7 +570,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Back Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -586,7 +586,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="5">
+	<technique version="3" limit="5">
 		<name>Balancing</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -601,7 +601,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Bicycling</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -621,7 +621,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Boating</name>
 		<specialization>Large Powerboat</specialization>
 		<tech_level/>
@@ -663,7 +663,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Boating</name>
 		<specialization>Motorboat</specialization>
 		<tech_level/>
@@ -700,7 +700,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Boating</name>
 		<specialization>Sailboat</specialization>
 		<tech_level/>
@@ -737,7 +737,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Boating</name>
 		<specialization>Unpowered</specialization>
 		<tech_level/>
@@ -774,7 +774,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Body Language</name>
 		<difficulty>Per/A</difficulty>
 		<points>1</points>
@@ -795,7 +795,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Boxing</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -808,16 +808,18 @@
 			<name compare="is">Boxing</name>
 			<specialization compare="is anything"></specialization>
 			<level compare="at least">1</level>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</weapon_bonus>
 		<weapon_bonus>
 			<name compare="is">Boxing</name>
 			<specialization compare="is anything"></specialization>
 			<level compare="at least">2</level>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</weapon_bonus>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Brainwashing</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -834,7 +836,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Brawling</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -847,10 +849,11 @@
 			<name compare="is">Brawling</name>
 			<specialization compare="is anything"></specialization>
 			<level compare="at least">2</level>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</weapon_bonus>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Broadsword</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -889,7 +892,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Camouflage</name>
 		<difficulty>IQ/E</difficulty>
 		<points>1</points>
@@ -908,7 +911,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Carousing</name>
 		<difficulty>HT/E</difficulty>
 		<points>1</points>
@@ -922,7 +925,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Cartography</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -953,7 +956,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Chemistry</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -972,7 +975,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Choke Hold</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -988,7 +991,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Choke Hold</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -1004,7 +1007,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Cleaner!</name>
 		<difficulty>IQ/W</difficulty>
 		<points>1</points>
@@ -1013,7 +1016,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Climbing</name>
 		<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 		<difficulty>DX/A</difficulty>
@@ -1029,7 +1032,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Computer Hacking</name>
 		<tech_level/>
 		<difficulty>IQ/VH</difficulty>
@@ -1046,7 +1049,7 @@
 			</skill_prereq>
 		</prereq_list>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Computer Operation</name>
 		<tech_level/>
 		<difficulty>IQ/E</difficulty>
@@ -1062,7 +1065,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Computer Programming</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -1072,7 +1075,7 @@
 			<category>Design/Invention</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>@Field@</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1088,7 +1091,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>Cars</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1104,7 +1107,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>Dance</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1120,7 +1123,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>Literature</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1151,7 +1154,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>Melee Weapons</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1167,7 +1170,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>Music</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1199,7 +1202,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>Visual Arts</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1215,7 +1218,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Connoisseur</name>
 		<specialization>Wine</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -1231,7 +1234,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Counterfeiting</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -1250,7 +1253,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Criminology</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -1270,7 +1273,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Crossbow</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -1284,7 +1287,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Cryptography</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -1301,7 +1304,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>@Field@</specialization>
 		<tech_level/>
@@ -1328,7 +1331,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Business</specialization>
 		<tech_level/>
@@ -1356,7 +1359,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Headline News</specialization>
 		<tech_level/>
@@ -1383,7 +1386,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>High Culture</specialization>
 		<tech_level/>
@@ -1411,7 +1414,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>People</specialization>
 		<tech_level/>
@@ -1438,7 +1441,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Politics</specialization>
 		<tech_level/>
@@ -1465,7 +1468,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Popular Culture</specialization>
 		<tech_level/>
@@ -1493,7 +1496,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Regional</specialization>
 		<tech_level/>
@@ -1520,7 +1523,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Science &amp; Technology</specialization>
 		<tech_level/>
@@ -1547,7 +1550,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Sports</specialization>
 		<tech_level/>
@@ -1574,7 +1577,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Supers</specialization>
 		<tech_level/>
@@ -1602,7 +1605,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Current Affairs</name>
 		<specialization>Travel</specialization>
 		<tech_level/>
@@ -1629,7 +1632,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Dancing</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -1642,7 +1645,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Demolition Man!</name>
 		<difficulty>IQ/W</difficulty>
 		<points>1</points>
@@ -1651,7 +1654,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Detect Lies</name>
 		<difficulty>Per/H</difficulty>
 		<points>1</points>
@@ -1676,7 +1679,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Diagnosis</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -1705,7 +1708,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Diplomacy</name>
 		<difficulty>IQ/H</difficulty>
 		<points>1</points>
@@ -1725,7 +1728,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Disappear</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -1756,7 +1759,7 @@
 			</skill_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="5">
+	<technique version="3" limit="5">
 		<name>Disarming</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -1772,7 +1775,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Disguise</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -1792,7 +1795,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Dive 'n Roll</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -1807,7 +1810,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Diving Suit</name>
 		<tech_level/>
 		<difficulty>DX/A</difficulty>
@@ -1841,7 +1844,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Automobile</specialization>
 		<tech_level/>
@@ -1871,7 +1874,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Construction Equipment</specialization>
 		<tech_level/>
@@ -1895,7 +1898,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Halftrack</specialization>
 		<tech_level/>
@@ -1925,7 +1928,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Heavy Wheeled</specialization>
 		<tech_level/>
@@ -1955,7 +1958,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Hovercraft</specialization>
 		<tech_level/>
@@ -1979,7 +1982,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Locomotive</specialization>
 		<tech_level/>
@@ -2003,7 +2006,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Mecha</specialization>
 		<tech_level/>
@@ -2032,7 +2035,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Motorcycle</specialization>
 		<tech_level/>
@@ -2056,7 +2059,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Driving</name>
 		<specialization>Tracked</specialization>
 		<tech_level/>
@@ -2086,7 +2089,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Dual-Weapon Attack</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -2102,7 +2105,7 @@
 			<category>Melee Combat</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Elbow Drop</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -2118,7 +2121,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Elbow Drop</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -2134,7 +2137,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Elbow Strike</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -2150,7 +2153,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Elbow Strike</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -2166,7 +2169,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Electrician</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -2186,7 +2189,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Communications</specialization>
 		<tech_level/>
@@ -2218,7 +2221,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Electronic Warfare</specialization>
 		<tech_level/>
@@ -2252,7 +2255,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Force Shields</specialization>
 		<tech_level/>
@@ -2288,7 +2291,7 @@
 			<modifier>0</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Matter Transmitters</specialization>
 		<tech_level/>
@@ -2320,7 +2323,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Media</specialization>
 		<tech_level/>
@@ -2353,7 +2356,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Medical</specialization>
 		<tech_level/>
@@ -2386,7 +2389,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Parachronic</specialization>
 		<tech_level/>
@@ -2418,7 +2421,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Psychotronics</specialization>
 		<tech_level/>
@@ -2450,7 +2453,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Scientific</specialization>
 		<tech_level/>
@@ -2482,7 +2485,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Security</specialization>
 		<tech_level/>
@@ -2516,7 +2519,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Sensors</specialization>
 		<tech_level/>
@@ -2548,7 +2551,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Sonar</specialization>
 		<tech_level/>
@@ -2580,7 +2583,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Surveillance</specialization>
 		<tech_level/>
@@ -2614,7 +2617,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Operation</name>
 		<specialization>Temporal</specialization>
 		<tech_level/>
@@ -2646,7 +2649,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Communications</specialization>
 		<tech_level/>
@@ -2678,7 +2681,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Computer</specialization>
 		<tech_level/>
@@ -2709,7 +2712,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Electronic Warfare</specialization>
 		<tech_level/>
@@ -2742,7 +2745,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Force Shields</specialization>
 		<tech_level/>
@@ -2774,7 +2777,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Matter Transmitters</specialization>
 		<tech_level/>
@@ -2806,7 +2809,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Media</specialization>
 		<tech_level/>
@@ -2838,7 +2841,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Medical</specialization>
 		<tech_level/>
@@ -2870,7 +2873,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Parachronic</specialization>
 		<tech_level/>
@@ -2902,7 +2905,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Psychotronics</specialization>
 		<tech_level/>
@@ -2934,7 +2937,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Scientific</specialization>
 		<tech_level/>
@@ -2966,7 +2969,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Security</specialization>
 		<tech_level/>
@@ -2998,7 +3001,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Sensors</specialization>
 		<tech_level/>
@@ -3030,7 +3033,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Sonar</specialization>
 		<tech_level/>
@@ -3062,7 +3065,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Surveillance</specialization>
 		<tech_level/>
@@ -3094,7 +3097,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Electronics Repair</name>
 		<specialization>Temporal</specialization>
 		<tech_level/>
@@ -3126,7 +3129,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Artillery</specialization>
 		<tech_level/>
@@ -3151,7 +3154,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Automobile</specialization>
 		<tech_level/>
@@ -3176,7 +3179,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Civil</specialization>
 		<tech_level/>
@@ -3200,7 +3203,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Clockwork</specialization>
 		<tech_level/>
@@ -3225,7 +3228,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Combat</specialization>
 		<tech_level/>
@@ -3250,7 +3253,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Electrical</specialization>
 		<tech_level/>
@@ -3274,7 +3277,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Electronics</specialization>
 		<tech_level/>
@@ -3298,7 +3301,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Materials</specialization>
 		<tech_level/>
@@ -3339,7 +3342,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Microtechnology</specialization>
 		<tech_level/>
@@ -3364,7 +3367,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Mining</specialization>
 		<tech_level/>
@@ -3394,7 +3397,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Nanotechnology</specialization>
 		<tech_level/>
@@ -3419,7 +3422,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Parachronic</specialization>
 		<tech_level/>
@@ -3450,7 +3453,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Psychotronics</specialization>
 		<tech_level/>
@@ -3475,7 +3478,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Robotics</specialization>
 		<tech_level/>
@@ -3500,7 +3503,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Ships</specialization>
 		<tech_level/>
@@ -3525,7 +3528,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Small Arms</specialization>
 		<tech_level/>
@@ -3550,7 +3553,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Starships</specialization>
 		<tech_level/>
@@ -3575,7 +3578,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Engineer</name>
 		<specialization>Temporal</specialization>
 		<tech_level/>
@@ -3606,7 +3609,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Escape</name>
 		<difficulty>DX/H</difficulty>
 		<points>1</points>
@@ -3619,7 +3622,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="5">
+	<technique version="3" limit="5">
 		<name>Evade</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -3635,7 +3638,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="5">
+	<technique version="3" limit="5">
 		<name>Evade</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -3651,9 +3654,9 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill_container version="2" open="yes">
+	<skill_container version="3" open="yes">
 		<name>Expert Skill</name>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Bardic Lore</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3664,7 +3667,7 @@
 				<category>Scholarly</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Computer Security</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3676,7 +3679,7 @@
 				<category>Spy</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Conspiracy Theory</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3687,7 +3690,7 @@
 				<category>Scholarly</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Egyptology</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3699,7 +3702,7 @@
 				<category>Social Sciences/Humanities</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Epidemiology</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3712,7 +3715,7 @@
 				<category>Scholarly</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Hydrology</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3724,7 +3727,7 @@
 				<category>Scholarly</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Military Science</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3736,7 +3739,7 @@
 				<category>Scholarly</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Natural Philosophy</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3748,7 +3751,7 @@
 				<category>Scholarly</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Political Science</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3760,7 +3763,7 @@
 				<category>Social Sciences/Humanities</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Psionics</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3772,7 +3775,7 @@
 				<category>Scholarly</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Thantology</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3784,7 +3787,7 @@
 				<category>Social Sciences/Humanities</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Expert Skill</name>
 			<specialization>Xenology</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -3797,7 +3800,7 @@
 			</categories>
 		</skill>
 	</skill_container>
-	<skill version="2">
+	<skill version="3">
 		<name>Explosives</name>
 		<specialization>Demolition</specialization>
 		<tech_level/>
@@ -3837,7 +3840,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Explosives</name>
 		<specialization>Explosive Ordnance Disposal</specialization>
 		<tech_level/>
@@ -3868,7 +3871,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Explosives</name>
 		<specialization>Fireworks</specialization>
 		<tech_level/>
@@ -3894,7 +3897,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Explosives</name>
 		<specialization>Nuclear Ordnance Disposal</specialization>
 		<tech_level/>
@@ -3921,7 +3924,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Explosives</name>
 		<specialization>Underwater Demolition</specialization>
 		<tech_level/>
@@ -3948,7 +3951,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Face Man!</name>
 		<difficulty>DX/W</difficulty>
 		<points>1</points>
@@ -3957,9 +3960,9 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill_container version="2" open="yes">
+	<skill_container version="3" open="yes">
 		<name>Fast-Draw</name>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Arrow</specialization>
 			<difficulty>DX/E</difficulty>
@@ -3970,7 +3973,7 @@
 				<category>Ranged Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Force Sword</specialization>
 			<difficulty>DX/E</difficulty>
@@ -3981,7 +3984,7 @@
 				<category>Melee Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Knife</specialization>
 			<difficulty>DX/E</difficulty>
@@ -3992,7 +3995,7 @@
 				<category>Melee Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Long Arm</specialization>
 			<difficulty>DX/E</difficulty>
@@ -4003,7 +4006,7 @@
 				<category>Ranged Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Pistol</specialization>
 			<difficulty>DX/E</difficulty>
@@ -4014,7 +4017,7 @@
 				<category>Ranged Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Sword</specialization>
 			<difficulty>DX/E</difficulty>
@@ -4025,7 +4028,7 @@
 				<category>Melee Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Two-Handed Sword</specialization>
 			<difficulty>DX/E</difficulty>
@@ -4036,7 +4039,7 @@
 				<category>Melee Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Ammo</specialization>
 			<tech_level/>
@@ -4048,7 +4051,7 @@
 				<category>Ranged Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Gizmo</specialization>
 			<tech_level/>
@@ -4060,7 +4063,7 @@
 				<category>Ranged Combat</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Draw</name>
 			<specialization>Medical Gear</specialization>
 			<tech_level/>
@@ -4073,7 +4076,7 @@
 			</categories>
 		</skill>
 	</skill_container>
-	<skill version="2">
+	<skill version="3">
 		<name>Fast-Talk</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -4093,7 +4096,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="4">
+	<technique version="3" limit="4">
 		<name>Feint</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -4109,7 +4112,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="4">
+	<technique version="3" limit="4">
 		<name>Feint</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -4131,7 +4134,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Filch</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -4155,7 +4158,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>First Aid</name>
 		<tech_level/>
 		<difficulty>IQ/E</difficulty>
@@ -4185,7 +4188,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Flying Jump Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -4215,7 +4218,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Flying Jump Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -4241,7 +4244,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Forced Entry</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -4252,7 +4255,7 @@
 			<category>Spy</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Forensics</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -4271,7 +4274,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Forgery</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -4291,7 +4294,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Forward Observer</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -4310,7 +4313,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Freight Handling</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -4325,7 +4328,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Gambling</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -4345,7 +4348,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Garrote</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -4359,7 +4362,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Gesture</name>
 		<difficulty>IQ/E</difficulty>
 		<points>1</points>
@@ -4372,7 +4375,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Ground Fighting</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -4388,7 +4391,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Gunner</name>
 		<specialization>Beams</specialization>
 		<tech_level/>
@@ -4409,7 +4412,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Gunner</name>
 		<specialization>Cannon</specialization>
 		<tech_level/>
@@ -4430,7 +4433,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Gunner</name>
 		<specialization>Catapult</specialization>
 		<tech_level/>
@@ -4451,7 +4454,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Gunner</name>
 		<specialization>Machine Gun</specialization>
 		<tech_level/>
@@ -4472,7 +4475,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Gunner</name>
 		<specialization>Rockets</specialization>
 		<tech_level/>
@@ -4493,7 +4496,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Grenade Launcher</specialization>
 		<tech_level/>
@@ -4514,7 +4517,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Gyroc</specialization>
 		<tech_level/>
@@ -4535,7 +4538,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Light Anti-Armor Weapon</specialization>
 		<tech_level/>
@@ -4556,7 +4559,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Light Machine Gun</specialization>
 		<tech_level/>
@@ -4620,7 +4623,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Musket</specialization>
 		<tech_level/>
@@ -4684,7 +4687,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Pistol</specialization>
 		<tech_level/>
@@ -4754,7 +4757,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Rifle</specialization>
 		<tech_level/>
@@ -4824,7 +4827,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Shotgun</specialization>
 		<tech_level/>
@@ -4888,7 +4891,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Guns</name>
 		<specialization>Submachine Gun</specialization>
 		<tech_level/>
@@ -4952,7 +4955,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Hacker!</name>
 		<difficulty>IQ/W</difficulty>
 		<points>1</points>
@@ -4961,7 +4964,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Hazardous Materials</name>
 		<specialization>Biological</specialization>
 		<tech_level/>
@@ -4976,7 +4979,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Hazardous Materials</name>
 		<specialization>Chemical</specialization>
 		<tech_level/>
@@ -4991,7 +4994,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Hazardous Materials</name>
 		<specialization>Magical</specialization>
 		<tech_level/>
@@ -5006,7 +5009,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Hazardous Materials</name>
 		<specialization>Nanotech</specialization>
 		<tech_level/>
@@ -5021,7 +5024,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Hazardous Materials</name>
 		<specialization>Nuclear</specialization>
 		<tech_level/>
@@ -5036,7 +5039,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Hiking</name>
 		<difficulty>HT/A</difficulty>
 		<points>1</points>
@@ -5050,7 +5053,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Holdout</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -5069,7 +5072,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Housekeeping</name>
 		<difficulty>IQ/E</difficulty>
 		<points>1</points>
@@ -5082,7 +5085,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Infiltrator!</name>
 		<difficulty>DX/W</difficulty>
 		<points>1</points>
@@ -5091,7 +5094,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Intelligence Analysis</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -5112,7 +5115,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Interrogation</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -5137,7 +5140,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Intimidation</name>
 		<difficulty>Will/A</difficulty>
 		<points>1</points>
@@ -5157,7 +5160,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Investigator!</name>
 		<difficulty>IQ/W</difficulty>
 		<points>1</points>
@@ -5166,7 +5169,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Judo</name>
 		<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 		<difficulty>DX/H</difficulty>
@@ -5178,7 +5181,7 @@
 			<category>Melee Combat</category>
 		</categories>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Jump Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -5200,7 +5203,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Jump Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -5216,7 +5219,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Jumping</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -5225,7 +5228,7 @@
 			<category>Athletic</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Karate</name>
 		<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 		<difficulty>DX/H</difficulty>
@@ -5239,16 +5242,18 @@
 			<name compare="is">Karate</name>
 			<specialization compare="is anything"></specialization>
 			<level compare="at least">0</level>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</weapon_bonus>
 		<weapon_bonus>
 			<name compare="is">Karate</name>
 			<specialization compare="is anything"></specialization>
 			<level compare="at least">1</level>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</weapon_bonus>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Kicking</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -5270,7 +5275,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Kicking</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -5286,7 +5291,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Kicking</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -5302,7 +5307,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Knee Strike</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -5318,7 +5323,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Knee Strike</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -5334,7 +5339,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Knife</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -5363,7 +5368,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Knot-Tying</name>
 		<difficulty>DX/E</difficulty>
 		<points>1</points>
@@ -5386,7 +5391,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Law</name>
 		<specialization>@Specialty@</specialization>
 		<difficulty>IQ/H</difficulty>
@@ -5402,7 +5407,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Leadership</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -5416,7 +5421,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="4">
+	<technique version="3" limit="4">
 		<name>Leg Lock</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -5432,7 +5437,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="4">
+	<technique version="3" limit="4">
 		<name>Leg Lock</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -5448,15 +5453,15 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill_container version="2" open="yes">
+	<skill_container version="3" open="yes">
 		<name>Lenses</name>
 		<reference>ACT1:4</reference>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Criminal</name>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Choose 18 points</name>
 				<notes>Either two or six points may be used to level-up one of these skills.</notes>
-				<skill version="2">
+				<skill version="3">
 					<name>Brawling</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -5469,10 +5474,11 @@
 						<name compare="is">Brawling</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">2</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Carousing</name>
 					<difficulty>HT/E</difficulty>
 					<points>1</points>
@@ -5486,7 +5492,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Filch</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -5510,7 +5516,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Forced Entry</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -5521,7 +5527,7 @@
 						<category>Spy</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Gambling</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -5541,7 +5547,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Guns</name>
 					<specialization>Pistol</specialization>
 					<tech_level/>
@@ -5611,7 +5617,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Holdout</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -5630,7 +5636,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Intimidation</name>
 					<difficulty>Will/A</difficulty>
 					<points>1</points>
@@ -5650,7 +5656,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Savoir-Faire</name>
 					<specialization>Mafia</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -5671,7 +5677,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Stealth</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -5691,7 +5697,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Urban Survival</name>
 					<difficulty>Per/A</difficulty>
 					<points>1</points>
@@ -5706,7 +5712,7 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill version="2">
+			<skill version="3">
 				<name>Streetwise</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -5722,10 +5728,10 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Intelligence</name>
 			<notes>Choose 20 points. Either two or six of these points may be used to raise one of these skills by one or two levels.</notes>
-			<skill version="2">
+			<skill version="3">
 				<name>Area Knowledge</name>
 				<specialization>@Any area@</specialization>
 				<difficulty>IQ/E</difficulty>
@@ -5746,7 +5752,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Brainwashing</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -5763,7 +5769,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Cryptography</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -5780,9 +5786,9 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Current Affairs</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Business</specialization>
 					<tech_level/>
@@ -5810,7 +5816,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Headline News</specialization>
 					<tech_level/>
@@ -5837,7 +5843,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>High Culture</specialization>
 					<tech_level/>
@@ -5865,7 +5871,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>People</specialization>
 					<tech_level/>
@@ -5892,7 +5898,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Politics</specialization>
 					<tech_level/>
@@ -5919,7 +5925,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Popular Culture</specialization>
 					<tech_level/>
@@ -5947,7 +5953,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Regional</specialization>
 					<tech_level/>
@@ -5974,7 +5980,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Science &amp; Technology</specialization>
 					<tech_level/>
@@ -6001,7 +6007,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Sports</specialization>
 					<tech_level/>
@@ -6028,7 +6034,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Supers</specialization>
 					<tech_level/>
@@ -6056,7 +6062,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Current Affairs</name>
 					<specialization>Travel</specialization>
 					<tech_level/>
@@ -6084,7 +6090,7 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill version="2">
+			<skill version="3">
 				<name>Filch</name>
 				<difficulty>DX/A</difficulty>
 				<points>1</points>
@@ -6108,7 +6114,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Forgery</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -6128,7 +6134,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Holdout</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -6147,7 +6153,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Intelligence Analysis</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -6168,7 +6174,7 @@
 					<modifier>-6</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Interrogation</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -6193,7 +6199,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Observation</name>
 				<difficulty>Per/A</difficulty>
 				<points>1</points>
@@ -6214,7 +6220,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Photography</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -6236,7 +6242,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Propaganda</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -6263,7 +6269,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Psychology</name>
 				<difficulty>IQ/H</difficulty>
 				<points>1</points>
@@ -6281,7 +6287,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Research</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -6324,7 +6330,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Search</name>
 				<difficulty>Per/A</difficulty>
 				<points>1</points>
@@ -6343,7 +6349,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Shadowing</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -6368,7 +6374,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Smuggling</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -6382,7 +6388,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Stealth</name>
 				<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 				<difficulty>DX/A</difficulty>
@@ -6403,12 +6409,12 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Law Enforcement</name>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Choose 16 points</name>
 				<notes>Either two or six of those points may be used to increase one of these skills by one or two levels.</notes>
-				<skill version="2">
+				<skill version="3">
 					<name>Accounting</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -6437,7 +6443,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Administration</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -6456,7 +6462,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>Dogs</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -6470,7 +6476,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Criminology</name>
 					<tech_level/>
 					<difficulty>IQ/A</difficulty>
@@ -6490,7 +6496,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>First Aid</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -6520,7 +6526,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Forced Entry</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -6531,7 +6537,7 @@
 						<category>Spy</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Forensics</name>
 					<tech_level/>
 					<difficulty>IQ/H</difficulty>
@@ -6550,7 +6556,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Guns</name>
 					<specialization>Pistol</specialization>
 					<tech_level/>
@@ -6620,7 +6626,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Guns</name>
 					<specialization>Rifle</specialization>
 					<tech_level/>
@@ -6690,7 +6696,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Guns</name>
 					<specialization>Shotgun</specialization>
 					<tech_level/>
@@ -6754,7 +6760,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Guns</name>
 					<specialization>Submachine Gun</specialization>
 					<tech_level/>
@@ -6818,7 +6824,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Interrogation</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -6843,7 +6849,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Liquid Projector</name>
 					<specialization>Sprayer</specialization>
 					<tech_level/>
@@ -6864,7 +6870,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Observation</name>
 					<difficulty>Per/A</difficulty>
 					<points>1</points>
@@ -6885,7 +6891,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Riding</name>
 					<specialization>Equine</specialization>
 					<difficulty>DX/A</difficulty>
@@ -6905,7 +6911,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Savoir-Faire</name>
 					<specialization>Police</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -6921,7 +6927,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Search</name>
 					<difficulty>Per/A</difficulty>
 					<points>1</points>
@@ -6940,7 +6946,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Shortsword</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -6989,7 +6995,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Streetwise</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -7004,7 +7010,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Tactics</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -7023,7 +7029,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Tonfa</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -7043,7 +7049,7 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill version="2">
+			<skill version="3">
 				<name>Law</name>
 				<specialization>Police</specialization>
 				<difficulty>IQ/H</difficulty>
@@ -7060,14 +7066,14 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Military</name>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Choose 18 points</name>
 				<notes>Either two or six of these points may be used to raise one of these skills by one or two levels.</notes>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Artillery</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Artillery</name>
 						<specialization>Beams</specialization>
 						<tech_level/>
@@ -7083,7 +7089,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Artillery</name>
 						<specialization>Bombs</specialization>
 						<tech_level/>
@@ -7099,7 +7105,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Artillery</name>
 						<specialization>Cannon</specialization>
 						<tech_level/>
@@ -7115,7 +7121,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Artillery</name>
 						<specialization>Catapult</specialization>
 						<tech_level/>
@@ -7131,7 +7137,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Artillery</name>
 						<specialization>Guided Missile</specialization>
 						<tech_level/>
@@ -7147,7 +7153,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Artillery</name>
 						<specialization>Torpedoes</specialization>
 						<tech_level/>
@@ -7164,7 +7170,7 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill version="2">
+				<skill version="3">
 					<name>Camouflage</name>
 					<difficulty>IQ/E</difficulty>
 					<points>1</points>
@@ -7183,7 +7189,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>First Aid</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -7213,7 +7219,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Forward Observer</name>
 					<tech_level/>
 					<difficulty>IQ/A</difficulty>
@@ -7232,7 +7238,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Gesture</name>
 					<difficulty>IQ/E</difficulty>
 					<points>1</points>
@@ -7245,9 +7251,9 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>Gunner</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Gunner</name>
 						<specialization>Beams</specialization>
 						<tech_level/>
@@ -7268,7 +7274,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Gunner</name>
 						<specialization>Cannon</specialization>
 						<tech_level/>
@@ -7289,7 +7295,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Gunner</name>
 						<specialization>Catapult</specialization>
 						<tech_level/>
@@ -7310,7 +7316,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Gunner</name>
 						<specialization>Machine Gun</specialization>
 						<tech_level/>
@@ -7331,7 +7337,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Gunner</name>
 						<specialization>Rockets</specialization>
 						<tech_level/>
@@ -7353,9 +7359,9 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>Guns</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Grenade Launcher</specialization>
 						<tech_level/>
@@ -7376,7 +7382,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Gyroc</specialization>
 						<tech_level/>
@@ -7397,7 +7403,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Light Anti-Armor Weapon</specialization>
 						<tech_level/>
@@ -7418,7 +7424,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Light Machine Gun</specialization>
 						<tech_level/>
@@ -7482,7 +7488,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Musket</specialization>
 						<tech_level/>
@@ -7546,7 +7552,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Pistol</specialization>
 						<tech_level/>
@@ -7616,7 +7622,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Rifle</specialization>
 						<tech_level/>
@@ -7686,7 +7692,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Shotgun</specialization>
 						<tech_level/>
@@ -7750,7 +7756,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Submachine Gun</specialization>
 						<tech_level/>
@@ -7815,7 +7821,7 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill version="2">
+				<skill version="3">
 					<name>Knife</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -7844,7 +7850,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Leadership</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -7858,7 +7864,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>NBC Suit</name>
 					<tech_level/>
 					<difficulty>DX/A</difficulty>
@@ -7873,7 +7879,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Parachuting</name>
 					<tech_level/>
 					<difficulty>DX/E</difficulty>
@@ -7889,7 +7895,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Savoir-Faire</name>
 					<specialization>Military</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -7905,7 +7911,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Scuba</name>
 					<tech_level/>
 					<difficulty>IQ/A</difficulty>
@@ -7933,7 +7939,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Seamanship</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -7947,7 +7953,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Skiing</name>
 					<difficulty>HT/H</difficulty>
 					<points>1</points>
@@ -7961,7 +7967,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Spear</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -7985,7 +7991,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Strategy</name>
 					<specialization>Land</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -8014,7 +8020,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Submariner</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -8028,9 +8034,9 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>Survival</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Arctic</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8091,7 +8097,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Bank</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8152,7 +8158,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Deep Ocean Vent</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8213,7 +8219,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Desert</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8274,7 +8280,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Fresh-Water Lake</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8335,7 +8341,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Island/Beach</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8402,7 +8408,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Jungle</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8463,7 +8469,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Mountain</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8524,7 +8530,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Open Ocean</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8585,7 +8591,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Plains</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8646,7 +8652,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Reef</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8707,7 +8713,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>River/Stream</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8774,7 +8780,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Salt-Water Sea</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8835,7 +8841,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Swampland</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8902,7 +8908,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Tropical Lagoon</specialization>
 						<difficulty>Per/A</difficulty>
@@ -8969,7 +8975,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Woodlands</specialization>
 						<difficulty>Per/A</difficulty>
@@ -9031,7 +9037,7 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill version="2">
+				<skill version="3">
 					<name>Tactics</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -9050,7 +9056,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Throwing</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -9071,7 +9077,7 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill version="2">
+			<skill version="3">
 				<name>Soldier</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -9086,10 +9092,10 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Security</name>
 			<notes>Choose 20 points. Either two or six of these points may be used to raise one of these skills by one or two levels.</notes>
-			<skill version="2">
+			<skill version="3">
 				<name>Administration</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -9108,7 +9114,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Body Language</name>
 				<difficulty>Per/A</difficulty>
 				<points>1</points>
@@ -9129,7 +9135,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Brainwashing</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -9146,7 +9152,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Criminology</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -9166,7 +9172,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Cryptography</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -9183,7 +9189,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Fast-Draw</name>
 				<specialization>Pistol</specialization>
 				<difficulty>DX/E</difficulty>
@@ -9194,7 +9200,7 @@
 					<category>Ranged Combat</category>
 				</categories>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>First Aid</name>
 				<tech_level/>
 				<difficulty>IQ/E</difficulty>
@@ -9224,7 +9230,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Pistol</specialization>
 				<tech_level/>
@@ -9294,7 +9300,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Submachine Gun</specialization>
 				<tech_level/>
@@ -9358,9 +9364,9 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Hazardous Materials</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Hazardous Materials</name>
 					<specialization>Biological</specialization>
 					<tech_level/>
@@ -9375,7 +9381,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hazardous Materials</name>
 					<specialization>Chemical</specialization>
 					<tech_level/>
@@ -9390,7 +9396,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hazardous Materials</name>
 					<specialization>Magical</specialization>
 					<tech_level/>
@@ -9405,7 +9411,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hazardous Materials</name>
 					<specialization>Nanotech</specialization>
 					<tech_level/>
@@ -9420,7 +9426,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hazardous Materials</name>
 					<specialization>Nuclear</specialization>
 					<tech_level/>
@@ -9436,7 +9442,7 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill version="2">
+			<skill version="3">
 				<name>Holdout</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -9455,7 +9461,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Intelligence Analysis</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -9476,7 +9482,7 @@
 					<modifier>-6</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Interrogation</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -9501,7 +9507,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Observation</name>
 				<difficulty>Per/A</difficulty>
 				<points>1</points>
@@ -9522,7 +9528,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Psychology</name>
 				<difficulty>IQ/H</difficulty>
 				<points>1</points>
@@ -9540,7 +9546,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Savoir-Faire</name>
 				<specialization>High Society</specialization>
 				<difficulty>IQ/E</difficulty>
@@ -9562,7 +9568,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Savoir-Faire</name>
 				<specialization>Servant</specialization>
 				<difficulty>IQ/E</difficulty>
@@ -9584,7 +9590,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Search</name>
 				<difficulty>Per/A</difficulty>
 				<points>1</points>
@@ -9603,7 +9609,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Tactics</name>
 				<difficulty>IQ/H</difficulty>
 				<points>1</points>
@@ -9623,13 +9629,13 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Wise Master</name>
 			<reference>ACT3:4</reference>
 			<notes>20 points in your template's IQ-, Will-, or Per-based skills.</notes>
 		</skill_container>
 	</skill_container>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Lethal Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -9651,7 +9657,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Lethal Strike</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -9673,7 +9679,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Lifting</name>
 		<difficulty>HT/A</difficulty>
 		<points>1</points>
@@ -9682,7 +9688,7 @@
 			<category>Athletic</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Lip Reading</name>
 		<difficulty>Per/A</difficulty>
 		<points>1</points>
@@ -9695,7 +9701,7 @@
 			<modifier>-10</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Liquid Projector</name>
 		<specialization>Flamethrower</specialization>
 		<tech_level/>
@@ -9716,7 +9722,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Liquid Projector</name>
 		<specialization>Sprayer</specialization>
 		<tech_level/>
@@ -9737,7 +9743,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Liquid Projector</name>
 		<specialization>Squirt Gun</specialization>
 		<tech_level/>
@@ -9758,7 +9764,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Liquid Projector</name>
 		<specialization>Water Cannon</specialization>
 		<tech_level/>
@@ -9779,7 +9785,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Lockpicking</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -9796,7 +9802,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Machinist</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -9815,7 +9821,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Aerospace</specialization>
 		<tech_level/>
@@ -9846,7 +9852,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Antimatter Reactor</specialization>
 		<tech_level/>
@@ -9877,7 +9883,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Autogyro</specialization>
 		<tech_level/>
@@ -9908,7 +9914,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Automobile</specialization>
 		<tech_level/>
@@ -9939,7 +9945,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Clockwork</specialization>
 		<tech_level/>
@@ -9970,7 +9976,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Construction Equipment</specialization>
 		<tech_level/>
@@ -10001,7 +10007,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Contragravity</specialization>
 		<tech_level/>
@@ -10032,7 +10038,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Diesel Engine</specialization>
 		<tech_level/>
@@ -10063,7 +10069,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Fission Reactor</specialization>
 		<tech_level/>
@@ -10094,7 +10100,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Flight Pack</specialization>
 		<tech_level/>
@@ -10125,7 +10131,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Free-Flooding Sub</specialization>
 		<tech_level/>
@@ -10156,7 +10162,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Fuel Cell</specialization>
 		<tech_level/>
@@ -10187,7 +10193,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Fusion Reactor</specialization>
 		<tech_level/>
@@ -10218,7 +10224,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Gas Turbine</specialization>
 		<tech_level/>
@@ -10249,7 +10255,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Gasoline Engine</specialization>
 		<tech_level/>
@@ -10280,7 +10286,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Glider</specialization>
 		<tech_level/>
@@ -10311,7 +10317,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Halftrack</specialization>
 		<tech_level/>
@@ -10342,7 +10348,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Heavy Airplane</specialization>
 		<tech_level/>
@@ -10373,7 +10379,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Heavy Wheeled</specialization>
 		<tech_level/>
@@ -10404,7 +10410,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Helicopter</specialization>
 		<tech_level/>
@@ -10435,7 +10441,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>High-Performance Airplane</specialization>
 		<tech_level/>
@@ -10466,7 +10472,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>High-Performance Spacecraft</specialization>
 		<tech_level/>
@@ -10497,7 +10503,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Hovercraft</specialization>
 		<tech_level/>
@@ -10528,7 +10534,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Large Sub</specialization>
 		<tech_level/>
@@ -10559,7 +10565,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Legged Drive</specialization>
 		<tech_level/>
@@ -10590,7 +10596,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Light Airplane</specialization>
 		<tech_level/>
@@ -10621,7 +10627,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Lighter-Than-Air</specialization>
 		<tech_level/>
@@ -10652,7 +10658,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Lightsail</specialization>
 		<tech_level/>
@@ -10683,7 +10689,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Low-G Wings</specialization>
 		<tech_level/>
@@ -10714,7 +10720,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Low-Performance Spacecraft</specialization>
 		<tech_level/>
@@ -10745,7 +10751,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Mecha</specialization>
 		<tech_level/>
@@ -10776,7 +10782,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Micromachines</specialization>
 		<tech_level/>
@@ -10807,7 +10813,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Mini-Sub</specialization>
 		<tech_level/>
@@ -10838,7 +10844,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Motorcycle</specialization>
 		<tech_level/>
@@ -10869,7 +10875,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Nanomachines</specialization>
 		<tech_level/>
@@ -10900,7 +10906,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Reactionless Thrusters</specialization>
 		<tech_level/>
@@ -10931,7 +10937,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Robotics</specialization>
 		<tech_level/>
@@ -10962,7 +10968,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Rockets</specialization>
 		<tech_level/>
@@ -10993,7 +10999,7 @@
 			<modifier>0</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Steam Engine</specialization>
 		<tech_level/>
@@ -11024,7 +11030,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Tracked Drive</specialization>
 		<tech_level/>
@@ -11055,7 +11061,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Tracked Vehicle</specialization>
 		<tech_level/>
@@ -11086,7 +11092,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Ultralight</specialization>
 		<tech_level/>
@@ -11117,7 +11123,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Vertol</specialization>
 		<tech_level/>
@@ -11148,7 +11154,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Mechanic</name>
 		<specialization>Wheeled Drive</specialization>
 		<tech_level/>
@@ -11179,7 +11185,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Medic!</name>
 		<difficulty>IQ/W</difficulty>
 		<points>1</points>
@@ -11188,7 +11194,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Merchant</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -11212,7 +11218,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Naturalist</name>
 		<specialization>Earthlike</specialization>
 		<tech_level/>
@@ -11235,7 +11241,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Naturalist</name>
 		<specialization>Gas Giants</specialization>
 		<tech_level/>
@@ -11258,7 +11264,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Naturalist</name>
 		<specialization>Hostile Terrestrial</specialization>
 		<tech_level/>
@@ -11281,7 +11287,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Naturalist</name>
 		<specialization>Ice Dwarfs</specialization>
 		<tech_level/>
@@ -11304,7 +11310,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Naturalist</name>
 		<specialization>Ice Worlds</specialization>
 		<tech_level/>
@@ -11327,7 +11333,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Naturalist</name>
 		<specialization>Rock Worlds</specialization>
 		<tech_level/>
@@ -11350,7 +11356,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Navigation</name>
 		<specialization>Air</specialization>
 		<tech_level/>
@@ -11380,7 +11386,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Navigation</name>
 		<specialization>Hyperspace</specialization>
 		<tech_level/>
@@ -11410,7 +11416,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Navigation</name>
 		<specialization>Land</specialization>
 		<tech_level/>
@@ -11450,7 +11456,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Navigation</name>
 		<specialization>Sea</specialization>
 		<tech_level/>
@@ -11485,7 +11491,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Navigation</name>
 		<specialization>Space</specialization>
 		<tech_level/>
@@ -11515,7 +11521,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>NBC Suit</name>
 		<tech_level/>
 		<difficulty>DX/A</difficulty>
@@ -11530,7 +11536,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="3">
+	<technique version="3" limit="3">
 		<name>Neck Snap</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -11545,7 +11551,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Observation</name>
 		<difficulty>Per/A</difficulty>
 		<points>1</points>
@@ -11566,7 +11572,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Parachuting</name>
 		<tech_level/>
 		<difficulty>DX/E</difficulty>
@@ -11582,7 +11588,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Pharmacy</name>
 		<specialization>Synthetic</specialization>
 		<tech_level/>
@@ -11608,7 +11614,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Photography</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -11630,7 +11636,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Physician</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -11654,7 +11660,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Pickpocket</name>
 		<difficulty>DX/H</difficulty>
 		<points>1</points>
@@ -11677,7 +11683,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Piledriver</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -11703,7 +11709,7 @@
 			</skill_prereq>
 		</prereq_list>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Aerospace</specialization>
 		<tech_level/>
@@ -11729,7 +11735,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Autogyro</specialization>
 		<tech_level/>
@@ -11773,7 +11779,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Contragravity</specialization>
 		<tech_level/>
@@ -11799,7 +11805,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Flight Pack</specialization>
 		<tech_level/>
@@ -11825,7 +11831,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Glider</specialization>
 		<tech_level/>
@@ -11857,7 +11863,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Heavy Airplane</specialization>
 		<tech_level/>
@@ -11889,7 +11895,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Helicopter</specialization>
 		<tech_level/>
@@ -11921,7 +11927,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>High-Performance Airplane</specialization>
 		<tech_level/>
@@ -11959,7 +11965,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>High-Performance Spaecraft</specialization>
 		<tech_level/>
@@ -11986,7 +11992,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Light Airplane</specialization>
 		<tech_level/>
@@ -12030,7 +12036,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Lighter-Than-Air</specialization>
 		<tech_level/>
@@ -12050,7 +12056,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Lightsail</specialization>
 		<tech_level/>
@@ -12071,7 +12077,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Low-G Wings</specialization>
 		<tech_level/>
@@ -12092,7 +12098,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Low-Performance Spacecraft</specialization>
 		<tech_level/>
@@ -12119,7 +12125,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Ultralight</specialization>
 		<tech_level/>
@@ -12163,7 +12169,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Piloting</name>
 		<specialization>Vertol</specialization>
 		<tech_level/>
@@ -12195,7 +12201,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Poisons</name>
 		<tech_level/>
 		<difficulty>IQ/H</difficulty>
@@ -12226,7 +12232,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Professional Skill</name>
 		<specialization>@Mental Skill@</specialization>
 		<difficulty>IQ/A</difficulty>
@@ -12240,7 +12246,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Professional Skill</name>
 		<specialization>@Physical Skill@</specialization>
 		<difficulty>DX/A</difficulty>
@@ -12254,7 +12260,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Propaganda</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -12281,7 +12287,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Proxy Fighting</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12296,7 +12302,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Proxy Fighting</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12311,7 +12317,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Proxy Fighting</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12326,7 +12332,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Proxy Fighting</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12341,7 +12347,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Proxy Fighting</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12356,7 +12362,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Proxy Fighting</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12371,7 +12377,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Psychology</name>
 		<difficulty>IQ/H</difficulty>
 		<points>1</points>
@@ -12389,7 +12395,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Public Speaking</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -12419,7 +12425,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="3">
+	<technique version="3" limit="3">
 		<name>Rappelling</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -12433,7 +12439,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Research</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -12472,7 +12478,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="5">
+	<technique version="3" limit="5">
 		<name>Retain Weapon</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12488,7 +12494,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Riding</name>
 		<specialization>@Specialty@</specialization>
 		<difficulty>DX/A</difficulty>
@@ -12508,7 +12514,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Riding</name>
 		<specialization>Camel</specialization>
 		<difficulty>DX/A</difficulty>
@@ -12528,7 +12534,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Riding</name>
 		<specialization>Dolphin</specialization>
 		<difficulty>DX/A</difficulty>
@@ -12548,7 +12554,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Riding</name>
 		<specialization>Dragon</specialization>
 		<difficulty>DX/A</difficulty>
@@ -12568,7 +12574,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Riding</name>
 		<specialization>Equine</specialization>
 		<difficulty>DX/A</difficulty>
@@ -12588,7 +12594,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Roll with Blow</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12614,7 +12620,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Roll with Blow</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12640,7 +12646,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Rope Up</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -12657,7 +12663,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Running</name>
 		<difficulty>HT/A</difficulty>
 		<points>1</points>
@@ -12670,7 +12676,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="6">
+	<technique version="3" limit="6">
 		<name>Running Climb</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -12685,7 +12691,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="6">
+	<technique version="3" limit="6">
 		<name>Running Climb</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -12700,7 +12706,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Savoir-Faire</name>
 		<specialization>Dojo</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -12720,7 +12726,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Savoir-Faire</name>
 		<specialization>High Society</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -12742,7 +12748,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Savoir-Faire</name>
 		<specialization>Mafia</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -12763,7 +12769,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Savoir-Faire</name>
 		<specialization>Magical</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -12778,7 +12784,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Savoir-Faire</name>
 		<specialization>Military</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -12794,7 +12800,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Savoir-Faire</name>
 		<specialization>Police</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -12810,7 +12816,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Savoir-Faire</name>
 		<specialization>Servant</specialization>
 		<difficulty>IQ/E</difficulty>
@@ -12832,7 +12838,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Scaling</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -12849,7 +12855,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Scrounging</name>
 		<difficulty>Per/E</difficulty>
 		<points>1</points>
@@ -12862,7 +12868,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Scuba</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -12890,7 +12896,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Seamanship</name>
 		<tech_level/>
 		<difficulty>IQ/E</difficulty>
@@ -12904,7 +12910,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Search</name>
 		<difficulty>Per/A</difficulty>
 		<points>1</points>
@@ -12923,7 +12929,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Sex Appeal</name>
 		<difficulty>HT/A</difficulty>
 		<points>1</points>
@@ -12936,7 +12942,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shadowing</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -12961,7 +12967,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shiphandling</name>
 		<specialization>Airship</specialization>
 		<tech_level/>
@@ -13001,7 +13007,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shiphandling</name>
 		<specialization>Ship</specialization>
 		<tech_level/>
@@ -13047,7 +13053,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shiphandling</name>
 		<specialization>Spaceship</specialization>
 		<tech_level/>
@@ -13093,7 +13099,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shiphandling</name>
 		<specialization>Starship</specialization>
 		<tech_level/>
@@ -13139,7 +13145,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shiphandling</name>
 		<specialization>Submarine</specialization>
 		<tech_level/>
@@ -13179,7 +13185,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shooter!</name>
 		<difficulty>DX/W</difficulty>
 		<points>1</points>
@@ -13188,7 +13194,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Shortsword</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -13237,7 +13243,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Skidding</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -13251,7 +13257,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Skiing</name>
 		<difficulty>HT/H</difficulty>
 		<points>1</points>
@@ -13265,7 +13271,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Sleight of Hand</name>
 		<difficulty>DX/H</difficulty>
 		<points>1</points>
@@ -13280,7 +13286,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="6">
+	<technique version="3" limit="6">
 		<name>Sliding</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -13295,7 +13301,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Smuggling</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -13309,7 +13315,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Soldier</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -13323,7 +13329,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Spear</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -13347,7 +13353,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Speed-Reading</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -13356,7 +13362,7 @@
 			<category>Scholarly</category>
 		</categories>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Spinning</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -13371,7 +13377,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Spinning</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -13386,7 +13392,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Spinning Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -13408,7 +13414,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Spinning Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -13424,7 +13430,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Staff</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -13448,7 +13454,7 @@
 			<modifier>-2</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Stamp Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -13470,7 +13476,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Stamp Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -13486,7 +13492,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Stamp Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -13502,7 +13508,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Stealth</name>
 		<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 		<difficulty>DX/A</difficulty>
@@ -13522,7 +13528,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Strategy</name>
 		<specialization>Land</specialization>
 		<difficulty>IQ/H</difficulty>
@@ -13551,7 +13557,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Strategy</name>
 		<specialization>Naval</specialization>
 		<difficulty>IQ/H</difficulty>
@@ -13580,7 +13586,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Strategy</name>
 		<specialization>Space</specialization>
 		<difficulty>IQ/H</difficulty>
@@ -13609,7 +13615,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Streetwise</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -13624,7 +13630,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Submarine</name>
 		<specialization>Free-Flooding Sub</specialization>
 		<tech_level/>
@@ -13661,7 +13667,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Submarine</name>
 		<specialization>Large Sub</specialization>
 		<tech_level/>
@@ -13688,7 +13694,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Submarine</name>
 		<specialization>Min-Sub</specialization>
 		<tech_level/>
@@ -13708,7 +13714,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Submariner</name>
 		<tech_level/>
 		<difficulty>IQ/E</difficulty>
@@ -13722,7 +13728,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Sumo Wrestling</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -13732,7 +13738,7 @@
 			<category>Melee Combat</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Surgery</name>
 		<tech_level/>
 		<difficulty>IQ/VH</difficulty>
@@ -13772,7 +13778,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival </name>
 		<specialization>Salt-Water Sea</specialization>
 		<difficulty>Per/A</difficulty>
@@ -13833,7 +13839,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Arctic</specialization>
 		<difficulty>Per/A</difficulty>
@@ -13894,7 +13900,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Bank</specialization>
 		<difficulty>Per/A</difficulty>
@@ -13955,7 +13961,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Deep Ocean Vent</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14016,7 +14022,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Desert</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14077,7 +14083,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Fresh-Water Lake</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14138,7 +14144,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Island/Beach</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14205,7 +14211,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Jungle</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14266,7 +14272,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Mountain</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14327,7 +14333,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Open Ocean</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14388,7 +14394,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Plains</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14449,7 +14455,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Reef</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14510,7 +14516,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>River/Stream</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14577,7 +14583,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Swampland</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14644,7 +14650,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Tropical Lagoon</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14711,7 +14717,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Survival</name>
 		<specialization>Woodlands</specialization>
 		<difficulty>Per/A</difficulty>
@@ -14772,7 +14778,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Sweeping Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -14794,7 +14800,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Sweeping Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -14810,7 +14816,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Sweeping Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -14826,7 +14832,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Sweeping Kick</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -14842,7 +14848,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Swimming</name>
 		<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
 		<difficulty>HT/E</difficulty>
@@ -14857,7 +14863,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Tactics</name>
 		<difficulty>IQ/H</difficulty>
 		<points>1</points>
@@ -14876,7 +14882,7 @@
 			<modifier>-6</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Teaching</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>
@@ -14890,7 +14896,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Throwing</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -14910,9 +14916,9 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<skill_container version="2" open="yes">
+	<skill_container version="3" open="yes">
 		<name>Thrown Weapon</name>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Axe/Mace</specialization>
 			<difficulty>DX/E</difficulty>
@@ -14927,7 +14933,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Dart</specialization>
 			<difficulty>DX/E</difficulty>
@@ -14947,7 +14953,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Disc</specialization>
 			<difficulty>DX/E</difficulty>
@@ -14962,7 +14968,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Harpoon</specialization>
 			<difficulty>DX/E</difficulty>
@@ -14983,7 +14989,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Knife</specialization>
 			<difficulty>DX/E</difficulty>
@@ -14998,7 +15004,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Shuriken</specialization>
 			<difficulty>DX/E</difficulty>
@@ -15018,7 +15024,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Spear</specialization>
 			<difficulty>DX/E</difficulty>
@@ -15044,7 +15050,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Thrown Weapon</name>
 			<specialization>Stick</specialization>
 			<difficulty>DX/E</difficulty>
@@ -15060,7 +15066,7 @@
 			</default>
 		</skill>
 	</skill_container>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Toe Flip (@Melee Weapon Skill@)</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -15074,7 +15080,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Toe Flip (@Melee Weapon Skill@)</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -15090,7 +15096,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Tonfa</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -15109,7 +15115,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Tracking</name>
 		<difficulty>Per/A</difficulty>
 		<points>1</points>
@@ -15127,7 +15133,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Traps</name>
 		<tech_level/>
 		<difficulty>IQ/A</difficulty>
@@ -15147,7 +15153,7 @@
 			<modifier>-3</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Two-Handed Axe/Mace</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -15176,7 +15182,7 @@
 			<modifier>-4</modifier>
 		</default>
 	</skill>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Uppercut</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -15192,7 +15198,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Uppercut</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -15208,7 +15214,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<technique version="2" limit="0">
+	<technique version="3" limit="0">
 		<name>Uppercut</name>
 		<difficulty>A</difficulty>
 		<points>1</points>
@@ -15224,7 +15230,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Urban Survival</name>
 		<difficulty>Per/A</difficulty>
 		<points>1</points>
@@ -15238,7 +15244,7 @@
 			<modifier>-5</modifier>
 		</default>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Ventriloquism</name>
 		<difficulty>IQ/H</difficulty>
 		<points>1</points>
@@ -15247,7 +15253,7 @@
 			<category>Arts/Entertainment</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Wheel Man!</name>
 		<difficulty>DX/W</difficulty>
 		<points>1</points>
@@ -15256,7 +15262,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Wire Rat!</name>
 		<difficulty>IQ/W</difficulty>
 		<points>1</points>
@@ -15265,7 +15271,7 @@
 			<category>Wildcard</category>
 		</categories>
 	</skill>
-	<technique version="2" limit="3">
+	<technique version="3" limit="3">
 		<name>Wrench @Limb@</name>
 		<difficulty>H</difficulty>
 		<points>2</points>
@@ -15280,7 +15286,7 @@
 			<category>Technique</category>
 		</categories>
 	</technique>
-	<skill version="2">
+	<skill version="3">
 		<name>Wrestling</name>
 		<difficulty>DX/A</difficulty>
 		<points>1</points>
@@ -15290,7 +15296,7 @@
 			<category>Melee Combat</category>
 		</categories>
 	</skill>
-	<skill version="2">
+	<skill version="3">
 		<name>Writing</name>
 		<difficulty>IQ/A</difficulty>
 		<points>1</points>

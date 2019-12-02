@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz69ibj:-12sh1lat94zax" version="1">
+<template id="6f1255da-1456-477e-86d3-55e9589e9297" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Dwarf</name>
 			<reference>DF3:6</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Alcohol Tolerance</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -13,7 +13,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -133,7 +133,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Basic Move</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -148,13 +148,13 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dwarven Gear</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:6</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -169,11 +169,11 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Armour not interchangeable with that of humans</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Greed</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>
@@ -183,7 +183,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -198,7 +198,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Lifting ST</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -231,7 +231,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -241,7 +241,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -288,7 +288,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stubbornness</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -297,7 +297,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Talent (Pickaxe Penchant)</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -309,26 +309,31 @@
 				<skill_bonus>
 					<name compare="contains">axe/mace</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">forced entry</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">prospecting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">thrown weapon</name>
 					<specialization compare="is anything">axe/mace</specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">two handed axe/mace</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>

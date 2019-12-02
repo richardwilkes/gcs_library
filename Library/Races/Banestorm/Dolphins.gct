@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="95365681-dc5c-4ff5-85f4-46425a3f6860" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Dolphins</name>
 			<reference>BS189</reference>
 			<notes>Feature: Can understand but not speak the languages of other races.</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -27,7 +27,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -42,7 +42,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>9</levels>
@@ -76,7 +76,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Size Modifier</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -86,9 +86,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Absolute Direction</name>
 					<type>Mental/Physical</type>
 					<base_points>5</base_points>
@@ -106,26 +106,31 @@
 						<skill_bonus>
 							<name compare="starts with">piloting</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">aerobatics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">free fall</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">hyperspace</specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">space</specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 					</modifier>
@@ -136,25 +141,29 @@
 					<skill_bonus>
 						<name compare="is">body sense</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">air</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">land</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">sea</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Vision</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -168,7 +177,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Breath-Holding</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -178,7 +187,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" allow_half_levels="yes">
+				<advantage version="3" allow_half_levels="yes">
 					<name>Enhanced Move (Water: @New Move@)</name>
 					<type>Physical, Exotic</type>
 					<levels half_level="yes">0</levels>
@@ -234,7 +243,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Neck)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -243,7 +252,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Nictitating Membrane</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -253,7 +262,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -263,7 +272,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Peripheral Vision</name>
 					<type>Physical</type>
 					<base_points>15</base_points>
@@ -279,7 +288,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Pressure Support</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -289,7 +298,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Scanning Sense</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -407,7 +416,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Speak Underwater</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -422,7 +431,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Ultrahearing</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -437,7 +446,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Ultrasonic Speech</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -453,9 +462,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Curious</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -465,22 +474,22 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>Meta-Trait: Ichthyoid</name>
 					<reference>B263</reference>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Legs (Aquatic)</name>
 						<type>Physical, Exotic</type>
 						<reference>B145</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Manipulators</name>
 						<type>Physical</type>
 						<base_points>-50</base_points>
 						<reference>B145</reference>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Impulsiveness</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -490,7 +499,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Low TL</name>
 					<type>Social</type>
 					<levels>3</levels>
@@ -500,7 +509,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Short Lifespan</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -510,7 +519,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Broad-Minded</name>
 					<type>Mental</type>
 					<base_points>-1</base_points>
@@ -519,7 +528,7 @@
 						<category>Quirk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Responsive</name>
 					<type>Mental</type>
 					<base_points>-1</base_points>
@@ -528,7 +537,7 @@
 						<category>Quirk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Weird sense of humor</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
@@ -537,10 +546,10 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Dolphins</name>
 			<reference>BS189</reference>
-			<skill version="2">
+			<skill version="3">
 				<name>Aquabatics</name>
 				<difficulty>DX/H</difficulty>
 				<points>4</points>

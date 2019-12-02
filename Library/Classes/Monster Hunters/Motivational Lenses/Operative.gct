@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="gnuh0san:1nn39c8y7tvgm" version="1">
+<template id="5e288338-5bbb-43f7-9d4d-160bf7e84ba7" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Operative</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Advantages</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>30 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Patron</name>
 						<type>Social</type>
 						<base_points>10</base_points>
@@ -41,17 +41,17 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Use remaining points on template options</name>
 						<type>Physical</type>
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Disadvantages</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Add to template options</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Secret (Works for an extra-legal organization)</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -83,7 +83,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -129,7 +129,7 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (@Duty@)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">

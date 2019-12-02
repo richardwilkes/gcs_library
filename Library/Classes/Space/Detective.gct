@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="fb4b8a79-bd23-46ec-8287-c8284eabc84b" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Detective</name>
 			<reference>Space228</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Fatigue Points</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>1</levels>
@@ -72,9 +72,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Legal Enforcement Powers</name>
 					<type>Social</type>
 					<modifier version="1">
@@ -100,7 +100,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Police Rank</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -122,9 +122,9 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>25 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Combat Reflexes</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -136,6 +136,7 @@
 						<skill_bonus>
 							<name compare="starts with">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<attribute_bonus>
@@ -161,7 +162,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Danger Sense</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -170,7 +171,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -185,7 +186,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -200,7 +201,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fearlessness</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -211,7 +212,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Hard to Kill</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -222,7 +223,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Pain Threshold</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -232,7 +233,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Indomitable</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -241,7 +242,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intuition</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -256,7 +257,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Legal Enforcement Powers</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -282,7 +283,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Police Rank</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -305,7 +306,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Rapid Healing</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -317,7 +318,7 @@
 							<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Single-Minded</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -326,7 +327,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Chameleon</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -335,7 +336,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unfazeable</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -352,9 +353,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (Police Department)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -397,9 +398,9 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>-25 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Addiction (@Substance@)</name>
 						<type>Mental/Physical</type>
 						<modifier version="1">
@@ -461,7 +462,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Addiction (Tobacco)</name>
 						<type>Mental/Physical</type>
 						<modifier version="1">
@@ -523,7 +524,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Alcoholism</name>
 						<type>Physical</type>
 						<base_points>-15</base_points>
@@ -538,7 +539,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Temper</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -548,7 +549,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bully</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -558,7 +559,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -569,15 +570,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Professional)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -586,7 +589,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Curious</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -596,7 +599,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Greed</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -606,7 +609,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Honesty</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -616,7 +619,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -648,7 +651,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Jealousy</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -657,7 +660,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Obsession</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -678,7 +681,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>On the Edge</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -688,7 +691,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Cannot Harm Innocents</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -703,7 +706,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Paranoia</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -712,7 +715,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Post-Combat Shakes</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -722,7 +725,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -766,7 +769,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -810,7 +813,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Stubbornness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -819,7 +822,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Workaholic</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
@@ -831,18 +834,18 @@
 				</advantage_container>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Detective Lenses</name>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Private Detective</name>
 				<reference>Space229</reference>
 				<notes>Delete Legal Enforcement Powers, Police Rank, and Duty</notes>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Psionic Detective</name>
 				<reference>Space229</reference>
 				<notes>Add Psi powers as appropriate for campaign</notes>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -858,10 +861,10 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Secret Police Inspector</name>
 				<reference>Space229</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Legal Enforcement Powers</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -888,7 +891,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Security Clearance</name>
 					<type>Social</type>
 					<modifier version="1">
@@ -933,12 +936,12 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Detective</name>
 			<reference>Space228</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Criminology</name>
 					<tech_level/>
 					<difficulty>IQ/A</difficulty>
@@ -958,7 +961,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Forensics</name>
 					<tech_level/>
 					<difficulty>IQ/H</difficulty>
@@ -977,7 +980,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Interrogation</name>
 					<difficulty>IQ/A</difficulty>
 					<points>2</points>
@@ -1002,7 +1005,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Law</name>
 					<specialization>@Region@</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -1018,7 +1021,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Observation</name>
 					<difficulty>Per/A</difficulty>
 					<points>4</points>
@@ -1039,7 +1042,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Research</name>
 					<tech_level/>
 					<difficulty>IQ/A</difficulty>
@@ -1083,9 +1086,9 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Area Knowledge</name>
 					<specialization>@Jurisdiction@</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -1102,7 +1105,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Forced Entry</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -1113,7 +1116,7 @@
 						<category>Spy</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Search</name>
 					<difficulty>Per/A</difficulty>
 					<points>2</points>
@@ -1132,9 +1135,9 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Driving</name>
 						<specialization>Automobile</specialization>
 						<tech_level/>
@@ -1164,7 +1167,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Driving</name>
 						<specialization>Hovercraft</specialization>
 						<tech_level/>
@@ -1189,9 +1192,9 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Electronics Operation</name>
 						<specialization>Security</specialization>
 						<tech_level/>
@@ -1225,7 +1228,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Electronics Operation</name>
 						<specialization>Surveillance</specialization>
 						<tech_level/>
@@ -1260,9 +1263,9 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Beam Weapons</name>
 						<specialization>Pistol</specialization>
 						<tech_level/>
@@ -1289,7 +1292,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Gyroc</specialization>
 						<tech_level/>
@@ -1310,7 +1313,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Pistol</specialization>
 						<tech_level/>
@@ -1380,7 +1383,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Guns</name>
 						<specialization>Shotgun</specialization>
 						<tech_level/>
@@ -1446,9 +1449,9 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Computer Operation</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -1464,7 +1467,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>First Aid</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -1494,7 +1497,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Savoir-Faire</name>
 					<specialization>Police</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -1510,7 +1513,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Streetwise</name>
 					<difficulty>IQ/A</difficulty>
 					<points>2</points>
@@ -1525,9 +1528,9 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Brawling</name>
 						<difficulty>DX/E</difficulty>
 						<points>2</points>
@@ -1540,10 +1543,11 @@
 							<name compare="is">Brawling</name>
 							<specialization compare="is anything"></specialization>
 							<level compare="at least">2</level>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</weapon_bonus>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Fast-Draw</name>
 						<specialization>@weapon@</specialization>
 						<difficulty>DX/E</difficulty>
@@ -1556,12 +1560,12 @@
 				</skill_container>
 			</skill_container>
 		</skill_container>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Detective Lenses</name>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Psionic Detective</name>
 				<reference>Space229</reference>
-				<skill version="2">
+				<skill version="3">
 					<name>Electronics Operation</name>
 					<specialization>Psychotronics</specialization>
 					<tech_level/>
@@ -1593,7 +1597,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Expert Skill</name>
 					<specialization>Psionics</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -1605,7 +1609,7 @@
 						<category>Scholarly</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Mind Block</name>
 					<difficulty>Will/A</difficulty>
 					<points>4</points>
@@ -1624,10 +1628,10 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secret Police Inspector</name>
 				<reference>Space229</reference>
-				<skill version="2">
+				<skill version="3">
 					<name>Intimidation</name>
 					<difficulty>Will/A</difficulty>
 					<points>2</points>

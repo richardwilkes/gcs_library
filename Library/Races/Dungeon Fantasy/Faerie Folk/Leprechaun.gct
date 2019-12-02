@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz9mt69:-dkf87la3ji7s" version="1">
+<template id="38b4c7de-a76e-47e7-9ee7-df5c646a69e1" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Leprechaun</name>
 			<reference>DF3:9</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bad Temper</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -14,7 +14,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Strength</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -29,7 +29,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Mana)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -116,7 +116,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fewer Hit Points</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -131,7 +131,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -151,25 +151,25 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Leprechaun Charm (@Spell@)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:9</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Leprechaun Charm (@Spell@)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:9</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Leprechaun Charm (@Spell@)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:9</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Luck, Ridiculous</name>
 				<type>Mental</type>
 				<base_points>60</base_points>
@@ -204,7 +204,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Magery</name>
 				<type>Mental, Supernatural</type>
 				<levels>0</levels>
@@ -257,26 +257,31 @@
 				</categories>
 				<spell_bonus all_colleges="yes">
 					<amount per_level="yes">1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<skill_bonus>
 					<name compare="is">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<spell_bonus>
 					<college_name compare="is">Clerical</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Druid</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Unholy</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Consumption</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -305,7 +310,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Size</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -314,7 +319,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sense of Duty</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>

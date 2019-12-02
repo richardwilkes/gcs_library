@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="eca0c832-e56a-42d8-b49c-482bd46e423b" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Security Systems</name>
 			<reference>ACT4:21</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Talent (Circuit Sense)</name>
 				<type>Mental</type>
 				<levels>2</levels>
@@ -16,32 +16,37 @@
 				<skill_bonus>
 					<name compare="is">Electrician</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">Electronics Operation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">Electronics Repair</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">Engineer</name>
 					<specialization compare="is">Electrical</specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">Engineer</name>
 					<specialization compare="is">Electronics</specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Choose one</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Cheaper (Electronics; 10%)</name>
 					<type>Social</type>
 					<base_points>1</base_points>
@@ -56,7 +61,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Equipment Bond (@any one tool kit or electronic burglary gadget@)</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
@@ -69,10 +74,10 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Security Systems</name>
 			<reference>ACT4:21</reference>
-			<skill version="2">
+			<skill version="3">
 				<name>Computer Operation</name>
 				<tech_level/>
 				<difficulty>IQ/E</difficulty>
@@ -88,7 +93,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electrician</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
@@ -108,7 +113,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Security</specialization>
 				<tech_level/>
@@ -142,7 +147,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Repair</name>
 				<specialization>Security</specialization>
 				<tech_level/>
@@ -174,7 +179,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Traps</name>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>

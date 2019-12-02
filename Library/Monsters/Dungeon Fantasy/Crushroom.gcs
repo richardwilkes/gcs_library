@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="462618af-546d-4cd9-8384-ea651ac216eb" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Jan 18, 2016 4:11 PM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Crushroom</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Plant</race>
-		<notes>Crushroom (DF2:22)
-
-A crushroom is a man-sized, ambulatory fungus. It resembles a huge mushroom with dozens of tentacle-like "feet" surrounding its base (allowing it to move) and a gaping maw on top (permitting it to eat delvers). Made of solid vegetable "muscle," it's fantastically strong. Druids believe that crushrooms are nonsapient, although rumors abound of intelligent fungus-men with hallucinogenic spores.
-
-Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed by the Constriction Attack. Crushrooms aren't intelligent enough to negotiate. Plant spells affect them normally.</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -28,7 +24,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -188,7 +184,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Constriction Attack</name>
 			<type>Physical, Exotic</type>
 			<base_points>15</base_points>
@@ -203,7 +199,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Breathe</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -272,7 +268,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -281,7 +277,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
@@ -291,7 +287,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity to Metabolic Hazards</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -339,7 +335,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Indomitable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -348,7 +344,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (Homogenous, No Blood)</name>
 			<type>Physical, Exotic</type>
 			<base_points>45</base_points>
@@ -357,7 +353,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Fine Manipulators</name>
 			<type>Physical</type>
 			<base_points>-30</base_points>
@@ -374,7 +370,7 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<percentage>40</percentage>
 			</cost_reduction>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unfazeable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -389,11 +385,11 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bite</name>
 			<type>Physical, Exotic</type>
 			<melee_weapon>
-				<damage>thr-1 cr</damage>
+				<damage type="cr" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -414,7 +410,16 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 			</categories>
 		</advantage>
 	</advantage_list>
-	<print_settings units="in">
+	<note_list>
+		<note version="1">
+			<text>Crushroom (DF2:22)
+
+A crushroom is a man-sized, ambulatory fungus. It resembles a huge mushroom with dozens of tentacle-like "feet" surrounding its base (allowing it to move) and a gaping maw on top (permitting it to eat delvers). Made of solid vegetable "muscle," it's fantastically strong. Druids believe that crushrooms are nonsapient, although rumors abound of intelligent fungus-men with hallucinogenic spores.
+
+Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed by the Constriction Attack. Crushrooms aren't intelligent enough to negotiate. Plant spells affect them normally.</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -424,6 +429,8 @@ Notes: Bite counts as a grapple on opponents of SM 0 or smaller, and is followed
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

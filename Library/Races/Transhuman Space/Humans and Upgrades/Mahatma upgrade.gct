@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="745a55d7-fefb-4c59-b0fb-b6c45444d2d2" version="1">
+<template id="745a55d7-fefb-4c59-b0fb-b6c45444d2d2" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Mahatma upgrade</name>
 			<reference>FW119</reference>
 			<notes>2057; $64,000</notes>
 			<categories>
 				<category>Upgrade</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -18,7 +18,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -28,7 +28,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -116,7 +116,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Autotrance</name>
 				<type>Mental</type>
 				<base_points>1</base_points>
@@ -125,7 +125,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Composed</name>
 				<type>Mental</type>
 				<base_points>1</base_points>
@@ -133,7 +133,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -180,7 +180,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Attentive</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -189,7 +189,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo trait: Genetic defects</name>
 				<type>Physical</type>
 				<reference>TS135</reference>

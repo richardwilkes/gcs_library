@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="in5dbkkx:ys7uggfeep3h" version="1">
+<template id="6b6f161b-3161-40ef-95a1-29ce53ebf47b" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Battle Wizard</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Class Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (@Duty@)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -48,9 +48,9 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>-40 points chosen from:</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Temper</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -60,7 +60,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bloodlust</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -70,7 +70,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -81,15 +81,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Soldier's)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -98,7 +100,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fanaticism (@Group or ideal@)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -113,7 +115,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Greed</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -123,7 +125,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Impulsiveness</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -133,7 +135,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -143,7 +145,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Post-Combat Shakes</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -153,7 +155,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pyromania</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -163,7 +165,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Selfish</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -173,7 +175,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -217,7 +219,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Workaholic</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
@@ -228,9 +230,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Class Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Magery</name>
 					<type>Mental, Supernatural</type>
 					<levels>3</levels>
@@ -283,14 +285,16 @@
 					</categories>
 					<spell_bonus all_colleges="yes">
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 					<skill_bonus>
 						<name compare="is">thaumatology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Rank</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -313,7 +317,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Status</name>
 					<type>Social</type>
 					<levels>1</levels>
@@ -324,9 +328,9 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>15 Points Chosen From:</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Absolute Direction</name>
 						<type>Mental/Physical</type>
 						<base_points>5</base_points>
@@ -344,26 +348,31 @@
 							<skill_bonus>
 								<name compare="starts with">piloting</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">aerobatics</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">free fall</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">hyperspace</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">space</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 						</modifier>
@@ -374,25 +383,29 @@
 						<skill_bonus>
 							<name compare="is">body sense</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">air</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">land</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">sea</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Absolute Direction</name>
 						<type>Mental/Physical</type>
 						<base_points>5</base_points>
@@ -410,26 +423,31 @@
 							<skill_bonus>
 								<name compare="starts with">piloting</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">aerobatics</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">free fall</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">hyperspace</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">space</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 						</modifier>
@@ -440,25 +458,29 @@
 						<skill_bonus>
 							<name compare="is">body sense</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">air</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">land</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">sea</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ally (Bodyguard)</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -636,7 +658,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Charisma</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -649,25 +671,29 @@
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">panhandling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Combat Reflexes</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -679,6 +705,7 @@
 						<skill_bonus>
 							<name compare="starts with">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<attribute_bonus>
@@ -704,7 +731,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -719,7 +746,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -734,7 +761,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -744,7 +771,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit, Very</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -754,7 +781,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language: @Language@</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -825,7 +852,7 @@
 							<category>Language</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Single-Minded</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -834,7 +861,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Versatile</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -843,7 +870,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -907,7 +934,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Will</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -922,7 +949,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Rank</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -947,9 +974,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -964,7 +991,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -983,11 +1010,11 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Battle Wizard</name>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>3. Background Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Games</name>
 					<specialization>Magical Challenges</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -1001,7 +1028,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Savoir-Faire</name>
 					<specialization>Military</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -1017,9 +1044,9 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>One of:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Astronomy</name>
 						<specialization>Observational</specialization>
 						<tech_level/>
@@ -1040,7 +1067,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Hidden Lore</name>
 						<specialization>@Subject@</specialization>
 						<difficulty>IQ/A</difficulty>
@@ -1050,7 +1077,7 @@
 							<category>Knowledge</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Occultism</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -1063,7 +1090,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Research</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -1106,7 +1133,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Cryptography</name>
 						<tech_level/>
 						<difficulty>IQ/H</difficulty>
@@ -1123,7 +1150,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Mathematics</name>
 						<specialization>@Specialization@</specialization>
 						<tech_level/>
@@ -1148,7 +1175,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Expert Skill</name>
 						<specialization>Military Science</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -1160,7 +1187,7 @@
 							<category>Scholarly</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Naturalist</name>
 						<difficulty>IQ/H</difficulty>
 						<points>2</points>
@@ -1181,7 +1208,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Theology</name>
 						<difficulty>IQ/H</difficulty>
 						<points>2</points>
@@ -1199,7 +1226,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Dreaming</name>
 						<difficulty>Will/H</difficulty>
 						<points>2</points>
@@ -1212,7 +1239,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Meditation</name>
 						<difficulty>Will/H</difficulty>
 						<points>2</points>
@@ -1230,7 +1257,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Alchemy</name>
 						<tech_level/>
 						<difficulty>IQ/VH</difficulty>
@@ -1242,9 +1269,9 @@
 						</categories>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>One of:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Administration</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -1263,7 +1290,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Leadership</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -1277,7 +1304,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Engineer</name>
 						<specialization>Military</specialization>
 						<tech_level/>
@@ -1302,7 +1329,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Tactics</name>
 						<difficulty>IQ/H</difficulty>
 						<points>2</points>
@@ -1323,9 +1350,9 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>2. Secondary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Navigation</name>
 					<specialization>@Environment@</specialization>
 					<tech_level/>
@@ -1355,9 +1382,9 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>One of:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Innate Attack</name>
 						<specialization>Beam</specialization>
 						<difficulty>DX/E</difficulty>
@@ -1377,7 +1404,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Innate Attack</name>
 						<specialization>Projectile</specialization>
 						<difficulty>DX/E</difficulty>
@@ -1397,7 +1424,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Broadsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -1436,7 +1463,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Shortsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -1485,7 +1512,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Staff</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -1510,9 +1537,9 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>One of:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Hiking</name>
 						<difficulty>HT/A</difficulty>
 						<points>2</points>
@@ -1526,7 +1553,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Riding</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -1546,9 +1573,9 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>1. Primary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Thaumatology</name>
 					<difficulty>IQ/VH</difficulty>
 					<points>1</points>
@@ -1565,11 +1592,11 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
-		<spell_container version="2" open="yes">
+		<spell_container version="3" open="yes">
 			<name>Battle Wizard</name>
-			<spell_container version="2" open="yes">
+			<spell_container version="3" open="yes">
 				<name>Bodyguard</name>
-				<spell version="2" very_hard="yes">
+				<spell version="3" very_hard="yes">
 					<name>Great Haste</name>
 					<college>Movement</college>
 					<power_source>Arcane</power_source>
@@ -1601,7 +1628,7 @@
 						</prereq_list>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Lend Vitality</name>
 					<college>Healing</college>
 					<power_source>Arcane</power_source>
@@ -1620,7 +1647,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Magelock</name>
 					<college>Protection</college>
 					<power_source>Arcane</power_source>
@@ -1641,7 +1668,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Scryguard</name>
 					<college>Meta</college>
 					<power_source>Arcane</power_source>
@@ -1669,7 +1696,7 @@
 						</prereq_list>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Sense Foes</name>
 					<college>Communication</college>
 					<power_source>Arcane</power_source>
@@ -1683,7 +1710,7 @@
 						<category>Communication</category>
 					</categories>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Shield</name>
 					<college>Protection</college>
 					<power_source>Arcane</power_source>
@@ -1709,11 +1736,11 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell_container version="2" open="yes">
+				<spell_container version="3" open="yes">
 					<name>One of:</name>
-					<spell_container version="2" open="yes">
+					<spell_container version="3" open="yes">
 						<name>1</name>
-						<spell version="2">
+						<spell version="3">
 							<name>Aura</name>
 							<college>Knowledge</college>
 							<power_source>Arcane</power_source>
@@ -1732,7 +1759,7 @@
 								</spell_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Detect Magic</name>
 							<college>Knowledge</college>
 							<power_source>Arcane</power_source>
@@ -1759,9 +1786,9 @@
 							</prereq_list>
 						</spell>
 					</spell_container>
-					<spell_container version="2" open="yes">
+					<spell_container version="3" open="yes">
 						<name>2</name>
-						<spell version="2">
+						<spell version="3">
 							<name>Apportation</name>
 							<college>Movement</college>
 							<power_source>Arcane</power_source>
@@ -1788,7 +1815,7 @@
 								</prereq_list>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Deflect Missile</name>
 							<college>Movement/Protection</college>
 							<power_source>Arcane</power_source>
@@ -1809,9 +1836,9 @@
 							</prereq_list>
 						</spell>
 					</spell_container>
-					<spell_container version="2" open="yes">
+					<spell_container version="3" open="yes">
 						<name>3</name>
-						<spell version="2">
+						<spell version="3">
 							<name>Extinguish Fire</name>
 							<college>Fire</college>
 							<power_source>Arcane</power_source>
@@ -1830,7 +1857,7 @@
 								</spell_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Ignite Fire</name>
 							<college>Fire</college>
 							<power_source>Arcane</power_source>
@@ -1845,9 +1872,9 @@
 							</categories>
 						</spell>
 					</spell_container>
-					<spell_container version="2" open="yes">
+					<spell_container version="3" open="yes">
 						<name>4</name>
-						<spell version="2">
+						<spell version="3">
 							<name>Sense Emotion</name>
 							<college>Communication</college>
 							<power_source>Arcane</power_source>
@@ -1866,7 +1893,7 @@
 								</spell_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Truthsayer</name>
 							<college>Communication</college>
 							<power_source>Arcane</power_source>
@@ -1887,7 +1914,7 @@
 						</spell>
 					</spell_container>
 				</spell_container>
-				<spell version="2">
+				<spell version="3">
 					<name>Armor</name>
 					<college>Protection</college>
 					<power_source>Arcane</power_source>
@@ -1907,9 +1934,9 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="yes">
+			<spell_container version="3" open="yes">
 				<name>Kineticist</name>
-				<spell version="2">
+				<spell version="3">
 					<name>Apportation</name>
 					<college>Movement</college>
 					<power_source>Arcane</power_source>
@@ -1936,7 +1963,7 @@
 						</prereq_list>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Armor</name>
 					<college>Protection</college>
 					<power_source>Arcane</power_source>
@@ -1955,7 +1982,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Deflect Missile</name>
 					<college>Movement/Protection</college>
 					<power_source>Arcane</power_source>
@@ -1976,7 +2003,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2" very_hard="yes">
+				<spell version="3" very_hard="yes">
 					<name>Flight</name>
 					<college>Movement</college>
 					<power_source>Arcane</power_source>
@@ -2007,7 +2034,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Haste</name>
 					<college>Movement</college>
 					<power_source>Arcane</power_source>
@@ -2021,7 +2048,7 @@
 						<category>Movement</category>
 					</categories>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Levitation</name>
 					<college>Movement</college>
 					<power_source>Arcane</power_source>
@@ -2040,7 +2067,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Lighten Burden</name>
 					<college>Movement</college>
 					<power_source>Arcane</power_source>
@@ -2059,7 +2086,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Quick March</name>
 					<college>Movement</college>
 					<power_source>Arcane</power_source>
@@ -2090,7 +2117,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Shield</name>
 					<college>Protection</college>
 					<power_source>Arcane</power_source>
@@ -2117,9 +2144,9 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="yes">
+			<spell_container version="3" open="yes">
 				<name>Pyurge</name>
-				<spell version="2">
+				<spell version="3">
 					<name>Continual Light</name>
 					<college>Light</college>
 					<power_source>Arcane</power_source>
@@ -2138,7 +2165,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Create Fire</name>
 					<college>Fire</college>
 					<power_source>Arcane</power_source>
@@ -2148,7 +2175,7 @@
 					<casting_time>1 sec</casting_time>
 					<duration>1 min</duration>
 					<melee_weapon>
-						<damage>1d-1 burn</damage>
+						<damage type="burn" base="1d-1"/>
 						<usage>Area</usage>
 						<reach>Special</reach>
 						<parry>No</parry>
@@ -2166,7 +2193,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Deflect Energy</name>
 					<college>Fire</college>
 					<power_source>Arcane</power_source>
@@ -2197,7 +2224,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Explosive Fireball</name>
 					<college>Fire</college>
 					<power_source>Arcane</power_source>
@@ -2207,7 +2234,7 @@
 					<casting_time>1-3 sec</casting_time>
 					<duration>Instant</duration>
 					<ranged_weapon>
-						<damage>1d burn ex/2 points</damage>
+						<damage type="burn ex/2 points" base="1d"/>
 						<accuracy>1</accuracy>
 						<range>25/50</range>
 						<default>
@@ -2231,7 +2258,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Extinguish Fire</name>
 					<college>Fire</college>
 					<power_source>Arcane</power_source>
@@ -2250,7 +2277,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Fireball</name>
 					<college>Fire</college>
 					<power_source>Arcane</power_source>
@@ -2261,7 +2288,7 @@
 					<duration>Instant</duration>
 					<points>2</points>
 					<ranged_weapon>
-						<damage>1d burn/point</damage>
+						<damage type="burn/point" base="1d"/>
 						<accuracy>1</accuracy>
 						<range>25/50</range>
 						<default>
@@ -2300,7 +2327,7 @@
 						</spell_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Ignite Fire</name>
 					<college>Fire</college>
 					<power_source>Arcane</power_source>
@@ -2314,7 +2341,7 @@
 						<category>Fire</category>
 					</categories>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Light</name>
 					<college>Light</college>
 					<power_source>Arcane</power_source>
@@ -2328,7 +2355,7 @@
 						<category>Light</category>
 					</categories>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Shape Fire</name>
 					<college>Fire</college>
 					<power_source>Arcane</power_source>
@@ -2348,7 +2375,7 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell version="2">
+			<spell version="3">
 				<name>Recover Energy</name>
 				<college>Healing</college>
 				<power_source>Arcane</power_source>
@@ -2379,7 +2406,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Lend Energy</name>
 				<college>Healing</college>
 				<power_source>Arcane</power_source>

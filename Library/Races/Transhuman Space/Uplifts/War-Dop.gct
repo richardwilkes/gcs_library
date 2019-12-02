@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="da379a08-fcd7-4ade-8903-896c6aca298c" version="1">
+<template id="da379a08-fcd7-4ade-8903-896c6aca298c" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>War-Dop D-model</name>
 			<reference>UP102</reference>
 			<notes>2055; $170,000; 250 lbs; 5 ft; U.S. Navy Cetacean Enchancement Program</notes>
@@ -10,7 +10,7 @@
 				<category>USA</category>
 				<category>Uplift</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased ST</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -35,7 +35,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -54,7 +54,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased IQ</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -68,7 +68,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -82,7 +82,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Absolute Direction</name>
 				<type>Mental/Physical</type>
 				<base_points>5</base_points>
@@ -100,26 +100,31 @@
 					<skill_bonus>
 						<name compare="starts with">piloting</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">aerobatics</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">free fall</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">hyperspace</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">space</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 				</modifier>
@@ -130,25 +135,29 @@
 				<skill_bonus>
 					<name compare="is">body sense</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">air</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">land</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">sea</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -162,7 +171,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Detect</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -218,7 +227,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -287,7 +296,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2" allow_half_levels="yes">
+			<advantage version="3" allow_half_levels="yes">
 				<name>Enhanced Move (Water)</name>
 				<type>Physical, Exotic</type>
 				<levels half_level="no">1</levels>
@@ -343,7 +352,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enhanced Tracking</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -359,7 +368,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Neck)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -368,13 +377,13 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Innate Attack (Burn)</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>5</points_per_level>
 				<ranged_weapon>
-					<damage>1d burn</damage>
+					<damage type="burn" base="1d"/>
 					<accuracy>3</accuracy>
 					<range>100/10</range>
 					<rate_of_fire>1</rate_of_fire>
@@ -1312,7 +1321,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Nictitating Membrane</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -1322,7 +1331,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Peripheral Vision</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -1338,7 +1347,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pressure Support</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -1348,7 +1357,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Scanning Sense</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -1466,7 +1475,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -1476,7 +1485,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Ultrasonic Speech</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -1491,7 +1500,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak (Mute)</name>
 				<type>Physical</type>
 				<base_points>-25</base_points>
@@ -1505,7 +1514,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Chummy</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -1515,22 +1524,22 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Ichthyoid</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Legs (Aquatic)</name>
 					<type>Physical, Exotic</type>
 					<reference>B145</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Manipulators</name>
 					<type>Physical</type>
 					<base_points>-50</base_points>
 					<reference>B145</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Sense of Smell/Taste</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -1544,7 +1553,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Short Lifespan</name>
 				<type>Physical, Exotic</type>
 				<levels>3</levels>
@@ -1554,7 +1563,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stress Atavism</name>
 				<type>Mental, Exotic</type>
 				<cr>9</cr>
@@ -1581,7 +1590,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Distractible</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -1590,7 +1599,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dull</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -1599,7 +1608,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unusual EM-signature</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>

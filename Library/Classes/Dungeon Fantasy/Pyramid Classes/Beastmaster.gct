@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="f58a981e-010c-4c7c-8897-c76d2a47633e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Beastmaster</name>
 			<reference>PY60:35</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>3</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>1</levels>
@@ -71,7 +71,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -106,9 +106,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Animal Empathy</name>
 					<type>Mental</type>
 					<base_points>5</base_points>
@@ -158,7 +158,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Beast Mastery</name>
 					<type>Mental, Supernatural</type>
 					<levels>3</levels>
@@ -210,54 +210,64 @@
 					</categories>
 					<spell_bonus all_colleges="yes">
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 					<skill_bonus>
 						<name compare="is">thaumatology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Animal Handling</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Disguise</name>
 						<specialization compare="is">Animals</specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Mimicry</name>
 						<specialization compare="is">Animal Sounds</specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Mimicry</name>
 						<specialization compare="is anything">Bird Calls</specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Packing</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Riding</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Teamster</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">Veterinary</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Call of the Wild</name>
 					<type>Mental</type>
 					<base_points>1</base_points>
@@ -273,10 +283,10 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>40 points chosen from</name>
 					<notes>Or additional spells and special abilities</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Extra Fatigue Points</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -292,7 +302,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Basic Move</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -308,7 +318,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Basic Speed</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -324,7 +334,7 @@
 							<amount per_level="yes">0.25</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Dexterity</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -345,7 +355,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -361,7 +371,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Intelligence</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -377,7 +387,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Perception</name>
 						<type>Mental/Physical</type>
 						<levels>1</levels>
@@ -393,7 +403,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -428,7 +438,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Absolute Direction</name>
 						<type>Mental/Physical</type>
 						<base_points>5</base_points>
@@ -446,26 +456,31 @@
 							<skill_bonus>
 								<name compare="starts with">piloting</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">aerobatics</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">free fall</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">hyperspace</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">space</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 						</modifier>
@@ -476,25 +491,29 @@
 						<skill_bonus>
 							<name compare="is">body sense</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">air</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">land</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">sea</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Hearing</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -508,7 +527,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Taste &amp; Smell</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -522,7 +541,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Touch</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -536,7 +555,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -550,7 +569,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -560,7 +579,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit, Very</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -570,7 +589,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -611,7 +630,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck, Extraordinary</name>
 						<type>Mental</type>
 						<base_points>30</base_points>
@@ -652,7 +671,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Night Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -663,7 +682,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Outdoorsman)</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -694,40 +713,47 @@
 						<skill_bonus>
 							<name compare="is">Camouflage</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Fishing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Mimicry</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Naturalist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Navigation</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Survival</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Tracking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Temperature Tolerance</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -739,11 +765,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>40 points in</name>
 					<reference>PY60:35</reference>
 					<notes>Or Beastmaster Spells</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Beast Mastery</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
@@ -796,54 +822,64 @@
 						</categories>
 						<spell_bonus all_colleges="yes">
 							<amount per_level="yes">1</amount>
+							<category compare="is anything"></category>
 						</spell_bonus>
 						<skill_bonus>
 							<name compare="is">thaumatology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Animal Handling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Disguise</name>
 							<specialization compare="is">Animals</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Mimicry</name>
 							<specialization compare="is">Animal Sounds</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Mimicry</name>
 							<specialization compare="is anything">Bird Calls</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Packing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Riding</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Teamster</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Veterinary</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Beast Command</name>
 						<modifier version="1">
 							<name>Power Modifier</name>
@@ -852,7 +888,7 @@
 							<notes>Beast Command</notes>
 						</modifier>
 						<reference>PY60:35</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Ally (@Any beast from DF5@)</name>
 							<type>Social</type>
 							<modifier version="1" enabled="no">
@@ -1030,7 +1066,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Alternate Form</name>
 							<type>Physical, Exotic</type>
 							<modifier version="1" enabled="no">
@@ -1088,7 +1124,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Danger Sense</name>
 							<type>Mental</type>
 							<base_points>15</base_points>
@@ -1097,7 +1133,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Detect</name>
 							<type>Mental/Physical, Exotic</type>
 							<modifier version="1" enabled="no">
@@ -1153,7 +1189,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Discriminatory Smell</name>
 							<type>Physical, Exotic</type>
 							<base_points>15</base_points>
@@ -1174,7 +1210,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Mind Control</name>
 							<type>Mental, Exotic</type>
 							<base_points>50</base_points>
@@ -1236,7 +1272,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Mind Reading</name>
 							<type>Mental, Exotic</type>
 							<base_points>30</base_points>
@@ -1294,7 +1330,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Speak With Animals</name>
 							<type>Mental, Exotic</type>
 							<base_points>25</base_points>
@@ -1350,7 +1386,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Telecommunication</name>
 							<type>Mental/Physical, Exotic</type>
 							<modifier version="1" enabled="no">
@@ -1488,9 +1524,9 @@
 					</advantage_container>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sense of Duty</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -1534,9 +1570,9 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Another -10 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (Urbanites)</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -1568,7 +1604,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Odious Personal Habit</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -1595,7 +1631,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Vegetarianism)</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -1621,7 +1657,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Never sleep indoors)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1647,7 +1683,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Own no more than what can be carried)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1673,7 +1709,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -1737,7 +1773,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -1802,10 +1838,10 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Further -25 points chosen from</name>
 					<notes>Or previous disadvantages</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Temper</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1815,7 +1851,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bloodlust</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1825,7 +1861,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Curious</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1835,7 +1871,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Innumerate</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1886,7 +1922,7 @@
 							</skill_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language: @Language@</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -1957,7 +1993,7 @@
 							<category>Language</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language: @Language@</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -2028,7 +2064,7 @@
 							<category>Language</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Loner</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2038,7 +2074,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Low TL</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -2049,7 +2085,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2059,7 +2095,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Demophobia (Crowds)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -2069,7 +2105,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pyrophobia (Fire)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2079,7 +2115,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Stubbornness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2093,12 +2129,12 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Beastmaster</name>
 			<reference>PY60:35</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Animal Handling</name>
 					<specialization>@Specialty@</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2112,7 +2148,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Disguise</name>
 					<specialization>Animals</specialization>
 					<tech_level/>
@@ -2133,7 +2169,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Mimicry</name>
 					<specialization>@Animal Sounds or Bird Calls@</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -2154,7 +2190,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Veterinary</name>
 					<tech_level/>
 					<difficulty>IQ/H</difficulty>
@@ -2181,9 +2217,9 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>@Environment@</specialization>
 					<difficulty>Per/A</difficulty>
@@ -2244,7 +2280,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Stealth</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -2264,7 +2300,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Brawling</name>
 					<difficulty>DX/E</difficulty>
 					<points>4</points>
@@ -2277,10 +2313,11 @@
 						<name compare="is">Brawling</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">2</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Wrestling</name>
 					<difficulty>DX/A</difficulty>
 					<points>4</points>
@@ -2290,9 +2327,9 @@
 						<category>Melee Combat</category>
 					</categories>
 				</skill>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -2316,7 +2353,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Broadsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -2355,7 +2392,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Spear</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -2379,7 +2416,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Staff</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -2404,9 +2441,9 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Thrown Weapon</name>
 						<specialization>Spear</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2432,7 +2469,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Thrown Weapon</name>
 						<specialization>Stick</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2447,7 +2484,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Bolas</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2457,7 +2494,7 @@
 							<category>Ranged Combat</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Spear Thrower</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2477,7 +2514,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Throwing</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2497,7 +2534,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Blowpipe</name>
 						<difficulty>DX/H</difficulty>
 						<points>2</points>
@@ -2511,7 +2548,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Net</name>
 						<difficulty>DX/H</difficulty>
 						<points>2</points>
@@ -2526,7 +2563,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Sling</name>
 						<difficulty>DX/H</difficulty>
 						<points>2</points>
@@ -2542,11 +2579,11 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose eight</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Jumping</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -2555,7 +2592,7 @@
 							<category>Athletic</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Knife</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -2584,7 +2621,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Riding</name>
 						<specialization>@Specialty@</specialization>
 						<difficulty>DX/A</difficulty>
@@ -2604,7 +2641,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Climbing</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/A</difficulty>
@@ -2620,7 +2657,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Camouflage</name>
 						<difficulty>IQ/E</difficulty>
 						<points>1</points>
@@ -2639,7 +2676,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>First Aid</name>
 						<tech_level/>
 						<difficulty>IQ/E</difficulty>
@@ -2669,7 +2706,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Gesture</name>
 						<difficulty>IQ/E</difficulty>
 						<points>1</points>
@@ -2682,7 +2719,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Animal Handling</name>
 						<specialization>@Any other@</specialization>
 						<difficulty>IQ/A</difficulty>
@@ -2696,7 +2733,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Packing</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2715,7 +2752,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Teamster</name>
 						<specialization>@Specialty@</specialization>
 						<difficulty>IQ/A</difficulty>
@@ -2747,7 +2784,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Navigation</name>
 						<specialization>Land</specialization>
 						<tech_level/>
@@ -2787,7 +2824,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Weather Sense</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2802,7 +2839,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Mimicry</name>
 						<specialization>@Animal Sounds or Bird Calls@</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2824,7 +2861,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Naturalist</name>
 						<specialization>@Planet type@</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2846,7 +2883,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Swimming</name>
 						<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
 						<difficulty>HT/E</difficulty>
@@ -2861,7 +2898,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Hiking</name>
 						<difficulty>HT/A</difficulty>
 						<points>1</points>
@@ -2875,7 +2912,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Running</name>
 						<difficulty>HT/A</difficulty>
 						<points>1</points>
@@ -2888,7 +2925,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Intimidation</name>
 						<difficulty>Will/A</difficulty>
 						<points>1</points>
@@ -2908,7 +2945,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Observation</name>
 						<difficulty>Per/A</difficulty>
 						<points>1</points>
@@ -2929,7 +2966,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>@Any other@</specialization>
 						<difficulty>Per/A</difficulty>
@@ -2990,7 +3027,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Tracking</name>
 						<difficulty>Per/A</difficulty>
 						<points>1</points>
@@ -3008,7 +3045,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill_container version="2" open="yes">
+					<skill_container version="3" open="yes">
 						<name>Or 1 point to raise one of those skills by a level</name>
 					</skill_container>
 				</skill_container>
@@ -3016,13 +3053,13 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
-		<spell_container version="2" open="no">
+		<spell_container version="3" open="no">
 			<name>Beastmaster</name>
 			<reference>PY60:35</reference>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Beast Mastery</name>
 				<notes>1</notes>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast-Rouser</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3043,7 +3080,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Soother</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3064,7 +3101,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Recover Energy</name>
 					<college>Healing</college>
 					<power_source>Arcane</power_source>
@@ -3086,10 +3123,10 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Beast Mastery</name>
 				<notes>2</notes>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (@Animal@)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3110,7 +3147,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Bird)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3131,7 +3168,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Fish)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3152,7 +3189,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Mammal)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3173,7 +3210,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Reptile)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3194,7 +3231,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Animal Control (Vermin)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3215,7 +3252,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Summoning</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3236,7 +3273,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Master</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3258,10 +3295,10 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>Beast Mastery</name>
 				<notes>3</notes>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Link</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3282,7 +3319,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Beast Speech</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3303,7 +3340,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Hybrid Control</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3324,7 +3361,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (@Animal@)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3345,7 +3382,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Bird)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3366,7 +3403,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Fish)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3387,7 +3424,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Mammal)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3408,7 +3445,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Reptile)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3429,7 +3466,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Repel Animal (Vermin)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3450,7 +3487,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Rider (@Animal@)</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3471,7 +3508,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</spell>
-				<spell version="2">
+				<spell version="3">
 					<name>Spider Silk</name>
 					<college>Animal</college>
 					<power_source>Arcane</power_source>
@@ -3481,7 +3518,7 @@
 					<casting_time>1 sec</casting_time>
 					<duration>1 min</duration>
 					<ranged_weapon>
-						<damage>grapple ST 10/strand</damage>
+						<damage type="grapple ST 10/strand"/>
 						<accuracy>3</accuracy>
 						<range>5/point</range>
 						<default>
@@ -3509,12 +3546,12 @@
 					</prereq_list>
 				</spell>
 			</spell_container>
-			<spell_container version="2" open="no">
+			<spell_container version="3" open="no">
 				<name>If choosen as advantages</name>
-				<spell_container version="2" open="no">
+				<spell_container version="3" open="no">
 					<name>Beast Mastery</name>
 					<notes>4</notes>
-					<spell version="2">
+					<spell version="3">
 						<name>Beast Possession</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3535,7 +3572,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2">
+					<spell version="3">
 						<name>Beast Seeker</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3556,7 +3593,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2" very_hard="yes">
+					<spell version="3" very_hard="yes">
 						<name>Repel Hybrids</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3577,7 +3614,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2">
+					<spell version="3">
 						<name>Rider Within</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3599,10 +3636,10 @@
 						</prereq_list>
 					</spell>
 				</spell_container>
-				<spell_container version="2" open="no">
+				<spell_container version="3" open="no">
 					<name>Beast Mastery</name>
 					<notes>5</notes>
-					<spell version="2" very_hard="yes">
+					<spell version="3" very_hard="yes">
 						<name>Permanent Beast Possession</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3623,7 +3660,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2">
+					<spell version="3">
 						<name>Protect Animal</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3644,7 +3681,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2" very_hard="yes">
+					<spell version="3" very_hard="yes">
 						<name>Shapeshifting (@Specialty@)</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3665,7 +3702,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2" very_hard="yes">
+					<spell version="3" very_hard="yes">
 						<name>Shapeshift Others</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3687,10 +3724,10 @@
 						</prereq_list>
 					</spell>
 				</spell_container>
-				<spell_container version="2" open="no">
+				<spell_container version="3" open="no">
 					<name>Beast Mastery</name>
 					<notes>6</notes>
-					<spell version="2" very_hard="yes">
+					<spell version="3" very_hard="yes">
 						<name>Great Shapeshift</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3711,7 +3748,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2" very_hard="yes">
+					<spell version="3" very_hard="yes">
 						<name>Partial Shapeshifting</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>
@@ -3732,7 +3769,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell version="2" very_hard="yes">
+					<spell version="3" very_hard="yes">
 						<name>Permanent Shapeshifting (@Specialty@)</name>
 						<college>Animal</college>
 						<power_source>Arcane</power_source>

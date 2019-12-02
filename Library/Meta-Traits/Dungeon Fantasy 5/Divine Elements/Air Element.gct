@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="iliskskt:alvwe7s59wut" version="1">
+<template id="44b28582-51b2-4cf1-bb7c-9d1993c0fa5f" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Air Element</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Air</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Alternate Form (Body of Air)</name>
 					<type>Physical, Exotic</type>
 					<base_points>19</base_points>
@@ -69,14 +69,14 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Innate Attack (Crush)</name>
 					<type>Physical, Exotic</type>
 					<levels>3</levels>
 					<base_points>2</base_points>
 					<points_per_level>5</points_per_level>
 					<ranged_weapon>
-						<damage>1d cr</damage>
+						<damage type="cr" base="1d"/>
 						<usage>Gust</usage>
 						<accuracy>3</accuracy>
 						<range>100/10</range>
@@ -245,9 +245,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Air (Doubled</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Obscure (Vision)</name>
 					<type>Physical, Exotic</type>
 					<levels>4</levels>
@@ -312,7 +312,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Telekinesis</name>
 					<type>Mental/Physical, Exotic</type>
 					<levels>8</levels>
@@ -411,9 +411,9 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Air</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Innate Attack</name>
 				<specialization>Breath</specialization>
 				<difficulty>DX/E</difficulty>

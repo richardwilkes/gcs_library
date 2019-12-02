@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz92g9s:1hlohv0qigjf0" version="1">
+<template id="495c29b8-36a9-4bc6-9030-9d1a698a40e9" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Faun</name>
 			<reference>DF3:8</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -18,7 +18,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Animal Empathy</name>
 				<type>Mental</type>
 				<base_points>5</base_points>
@@ -68,12 +68,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Hooves</name>
 				<type>Physical</type>
 				<base_points>3</base_points>
 				<melee_weapon>
-					<damage>thr:+1 cr</damage>
+					<damage type="cr" st="thr" modifier_per_die="1"/>
 					<usage>Trample</usage>
 					<reach>C,1</reach>
 					<parry>No</parry>
@@ -102,7 +102,7 @@
 					<amount>1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Mana)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -189,15 +189,15 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Leg and foot armour not interchangeable with that of humans</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Tail</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -217,7 +217,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -232,7 +232,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>2</levels>
@@ -247,7 +247,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sense of Duty</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>
@@ -257,12 +257,12 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Crushing (Horns)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr:+1 cr</damage>
+					<damage type="cr" st="thr" modifier_per_die="1"/>
 					<usage>Headbutt</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -292,7 +292,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Talent (Musical Ability)</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -304,26 +304,31 @@
 				<skill_bonus>
 					<name compare="is">group performance</name>
 					<specialization compare="is">conducting</specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">musical composition</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">musical influence</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">musical instrument</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">singing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>

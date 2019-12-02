@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="95d12783-0262-43f0-83dd-ac1fb4f4f0e6" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Dwarf</name>
 			<reference>PY50:4</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Basic Speed</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">-0.25</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -71,7 +71,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -106,18 +106,18 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Advantage</name>
-				<advantage_container version="2" open="no" type="race">
+				<advantage_container version="3" open="no" type="race">
 					<name>Dwarf</name>
 					<reference>DF3:6</reference>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Feature: Armour not interchangeable with that of humans</name>
 						<type>Physical</type>
 					</advantage>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Attributes</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Decreased Basic Move</name>
 							<type>Mental</type>
 							<levels>1</levels>
@@ -132,7 +132,7 @@
 								<amount per_level="yes">-1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Extra Fatigue Points</name>
 							<type>Physical</type>
 							<levels>3</levels>
@@ -147,7 +147,7 @@
 								<amount per_level="yes">1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Increased Health</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -163,9 +163,9 @@
 							</attribute_bonus>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Racial Advantage</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Alcohol Tolerance</name>
 							<type>Physical</type>
 							<base_points>1</base_points>
@@ -174,7 +174,7 @@
 								<category>Perk</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Damage Resistance</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -294,13 +294,13 @@
 								<amount per_level="yes">1</amount>
 							</dr_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Dwarven Gear</name>
 							<type>Physical</type>
 							<base_points>1</base_points>
 							<reference>DF3:6</reference>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Lifting ST</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -333,7 +333,7 @@
 								<amount per_level="yes">1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Night Vision</name>
 							<type>Physical</type>
 							<levels>5</levels>
@@ -343,7 +343,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Resistant</name>
 							<type>Physical</type>
 							<modifier version="1" enabled="no">
@@ -390,7 +390,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Talent (Pickaxe Penchant)</name>
 							<type>Mental</type>
 							<levels>1</levels>
@@ -402,33 +402,38 @@
 							<skill_bonus>
 								<name compare="contains">axe/mace</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">forced entry</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">prospecting</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">thrown weapon</name>
 								<specialization compare="is">axe/mace</specialization>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">two handed axe/mace</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</skill_bonus>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Racial Disadvantage</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Greed</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -438,7 +443,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Stubbornness</name>
 							<type>Mental</type>
 							<base_points>-5</base_points>
@@ -449,7 +454,7 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wealth</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -513,9 +518,9 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>20 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -579,7 +584,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -643,7 +648,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -763,7 +768,7 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Lifting ST</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -797,7 +802,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Night Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -808,7 +813,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Pickaxe Penchant)</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -821,30 +826,35 @@
 						<skill_bonus>
 							<name compare="contains">axe/mace</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">forced entry</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">prospecting</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">thrown weapon</name>
 							<specialization compare="is">axe/mace</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">two handed axe/mace</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2" round_down="yes">
+					<advantage version="3" round_down="yes">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -892,10 +902,10 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Another 45 points chosen from</name>
 					<notes>Or the previous traits</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -929,7 +939,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Dexterity</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -949,7 +959,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -964,7 +974,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Intelligence</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -979,7 +989,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Extra Hit Points</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1005,7 +1015,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Will</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1020,7 +1030,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Absolute Direction</name>
 						<type>Mental/Physical</type>
 						<base_points>5</base_points>
@@ -1038,26 +1048,31 @@
 							<skill_bonus>
 								<name compare="starts with">piloting</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">aerobatics</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">free fall</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">hyperspace</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">space</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 						</modifier>
@@ -1068,25 +1083,29 @@
 						<skill_bonus>
 							<name compare="is">body sense</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">air</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">land</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">sea</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Dungeon Artificer)</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
@@ -1116,35 +1135,41 @@
 						<skill_bonus>
 							<name compare="is">Alchemy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Armoury</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Engineer</name>
 							<specialization compare="is">Gadgets</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Fast-Draw</name>
 							<specialization compare="is">Gadgets</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Scrounging</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Traps</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Enhanced Parry (@Axe/Mace or Two-Handed Axe/Mace@)</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1158,7 +1183,7 @@
 							<amount>1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Equipment Bond (@Gear@)</name>
 						<type>Physical</type>
 						<base_points>1</base_points>
@@ -1167,7 +1192,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fearlessness</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1177,7 +1202,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Gizmo</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1187,7 +1212,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Hard to Kill</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1197,7 +1222,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Hard to Subdue</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1207,7 +1232,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Manual Dexterity</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1219,60 +1244,71 @@
 						<skill_bonus>
 							<name compare="contains">artist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">jeweler</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">knot-tying</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leatherworking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">lockpicking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">pickpocket</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sewing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sleight of hand</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">surgery</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">machinist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">mechanic</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Pain Threshold</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -1282,7 +1318,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -1323,7 +1359,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck, Extraordinary</name>
 						<type>Mental</type>
 						<base_points>30</base_points>
@@ -1364,7 +1400,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Magic Resistance</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1380,7 +1416,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Penetrating Voice</name>
 						<type>Physical</type>
 						<base_points>1</base_points>
@@ -1389,7 +1425,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Signature Gear</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -1400,7 +1436,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Versatile</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -1409,7 +1445,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Weapon Bond (@Specific Weapon@)</name>
 						<type>Physical</type>
 						<base_points>1</base_points>
@@ -1418,7 +1454,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Weapon Master (All impact weapons)</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -1458,9 +1494,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Code of Honor (Dwarf's)</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -1469,9 +1505,9 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>15 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Temper</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1481,7 +1517,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Chummy</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1491,7 +1527,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Chummy (Gregarious)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1501,7 +1537,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Compulsive Carousing</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1511,7 +1547,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Honesty</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1521,7 +1557,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Miserliness</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1531,7 +1567,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overweight</name>
 						<type>Physical</type>
 						<base_points>-1</base_points>
@@ -1543,20 +1579,23 @@
 						<skill_bonus>
 							<name compare="is">disguise</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">shadowing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">swimming</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fat</name>
 						<type>Physical</type>
 						<base_points>-3</base_points>
@@ -1568,23 +1607,26 @@
 						<skill_bonus>
 							<name compare="is">disguise</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">shadowing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">swimming</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<prereq_list all="yes">
 							<attribute_prereq has="yes" which="ht" compare="at most">15</attribute_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -1628,9 +1670,9 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Or worsen racial Greed</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Greed</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -1640,7 +1682,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Greed</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -1652,10 +1694,10 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Further -15 points chosen from</name>
 					<notes>Or previous lists</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bloodlust</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1665,7 +1707,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bully</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1675,7 +1717,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1686,15 +1728,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Curious</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1704,7 +1748,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Kleptomania</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -1714,7 +1758,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Odious Personal Habit</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1741,7 +1785,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1751,7 +1795,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Never refuse a challenge to combat)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1782,14 +1826,14 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Dwarf</name>
 			<reference>PY50:4</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -1813,7 +1857,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Two-Handed Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>8</points>
@@ -1843,9 +1887,9 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one trade</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Prospecting</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -1864,7 +1908,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Architecture</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -1884,7 +1928,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Armoury</name>
 						<specialization>Body Armor</specialization>
 						<tech_level/>
@@ -1906,7 +1950,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Armoury</name>
 						<specialization>Melee Weapons</specialization>
 						<tech_level/>
@@ -1928,7 +1972,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Smith</name>
 						<specialization>Copper</specialization>
 						<tech_level/>
@@ -1953,7 +1997,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Smith</name>
 						<specialization>Iron</specialization>
 						<tech_level/>
@@ -1973,7 +2017,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Smith</name>
 						<specialization>Lead &amp; Tin</specialization>
 						<tech_level/>
@@ -1998,7 +2042,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Jeweler</name>
 						<tech_level/>
 						<difficulty>IQ/H</difficulty>
@@ -2024,7 +2068,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Alchemy</name>
 						<tech_level/>
 						<difficulty>IQ/VH</difficulty>
@@ -2037,9 +2081,9 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>Subterranean</specialization>
 					<difficulty>Per/A</difficulty>
@@ -2100,10 +2144,10 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose five</name>
 					<notes>Take only whichever Axe/Mace skill not taken as Primary Skill</notes>
-					<skill version="2">
+					<skill version="3">
 						<name>Thrown Weapon</name>
 						<specialization>Axe/Mace</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2118,7 +2162,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Brawling</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -2131,10 +2175,11 @@
 							<name compare="is">Brawling</name>
 							<specialization compare="is anything"></specialization>
 							<level compare="at least">2</level>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</weapon_bonus>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Crossbow</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -2148,7 +2193,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Fast-Draw</name>
 						<specialization>@Any@</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2159,7 +2204,7 @@
 							<category>Ranged Combat</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Knife</name>
 						<difficulty>DX/E</difficulty>
 						<points>2</points>
@@ -2188,7 +2233,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Shield</name>
 						<specialization>Shield</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2203,7 +2248,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2227,7 +2272,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Two-Handed Axe/Mace</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2256,7 +2301,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Boxing</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2269,16 +2314,18 @@
 							<name compare="is">Boxing</name>
 							<specialization compare="is anything"></specialization>
 							<level compare="at least">1</level>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</weapon_bonus>
 						<weapon_bonus>
 							<name compare="is">Boxing</name>
 							<specialization compare="is anything"></specialization>
 							<level compare="at least">2</level>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</weapon_bonus>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Broadsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2317,7 +2364,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Shortsword</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2366,7 +2413,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Sumo Wrestling</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2376,7 +2423,7 @@
 							<category>Melee Combat</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Throwing</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2396,7 +2443,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Wrestling</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2406,7 +2453,7 @@
 							<category>Melee Combat</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Flail</name>
 						<difficulty>DX/H</difficulty>
 						<points>2</points>
@@ -2430,7 +2477,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Sling</name>
 						<difficulty>DX/H</difficulty>
 						<points>2</points>
@@ -2444,7 +2491,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Two-Handed Flail</name>
 						<difficulty>DX/H</difficulty>
 						<points>2</points>
@@ -2473,13 +2520,13 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill_container version="2" open="yes">
+					<skill_container version="3" open="yes">
 						<name>Or 2 points to raise one of those skills by one level</name>
 					</skill_container>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose eight</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Forced Entry</name>
 						<difficulty>DX/E</difficulty>
 						<points>2</points>
@@ -2490,7 +2537,7 @@
 							<category>Spy</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Stealth</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/A</difficulty>
@@ -2510,7 +2557,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Connoisseur</name>
 						<specialization>Weapons</specialization>
 						<difficulty>IQ/A</difficulty>
@@ -2526,7 +2573,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Holdout</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -2545,7 +2592,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Lockpicking</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2562,7 +2609,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Merchant</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -2586,7 +2633,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Smuggling</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -2600,7 +2647,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Traps</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2620,7 +2667,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Strategy</name>
 						<specialization>Land</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2649,7 +2696,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Tactics</name>
 						<difficulty>IQ/H</difficulty>
 						<points>2</points>
@@ -2668,7 +2715,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Lifting</name>
 						<difficulty>HT/A</difficulty>
 						<points>2</points>
@@ -2677,7 +2724,7 @@
 							<category>Athletic</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Intimidation</name>
 						<difficulty>Will/A</difficulty>
 						<points>2</points>
@@ -2697,7 +2744,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Scrounging</name>
 						<difficulty>Per/E</difficulty>
 						<points>2</points>
@@ -2710,7 +2757,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Search</name>
 						<difficulty>Per/A</difficulty>
 						<points>2</points>
@@ -2729,7 +2776,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>Mountain</specialization>
 						<difficulty>Per/A</difficulty>
@@ -2790,16 +2837,16 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill_container version="2" open="yes">
+					<skill_container version="3" open="yes">
 						<name>Or 2 points for another combat skill off the previous list; Or 2 points to buy another primary trade at three levels lower; or 2 points to improve one of these choices by one level</name>
 					</skill_container>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose five</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Knot-Tying</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -2822,7 +2869,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Climbing</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/A</difficulty>
@@ -2838,7 +2885,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Escape</name>
 						<difficulty>DX/H</difficulty>
 						<points>1</points>
@@ -2851,7 +2898,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Pickpocket</name>
 						<difficulty>DX/H</difficulty>
 						<points>1</points>
@@ -2874,7 +2921,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>First Aid</name>
 						<tech_level/>
 						<difficulty>IQ/E</difficulty>
@@ -2904,7 +2951,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Gesture</name>
 						<difficulty>IQ/E</difficulty>
 						<points>1</points>
@@ -2917,7 +2964,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Heraldry</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2937,7 +2984,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Carousing</name>
 						<difficulty>HT/E</difficulty>
 						<points>1</points>
@@ -2951,7 +2998,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Hiking</name>
 						<difficulty>HT/A</difficulty>
 						<points>1</points>
@@ -2965,7 +3012,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill_container version="2" open="yes">
+					<skill_container version="3" open="yes">
 						<name>1 point to improve one of these choices by one level or 1 point for another secondary skill at one level lower.</name>
 					</skill_container>
 				</skill_container>

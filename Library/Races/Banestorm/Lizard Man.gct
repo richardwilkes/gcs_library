@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="faehp7db:-1whrndw0m4jtf" version="1">
+<template id="b01936c7-b4f0-48b0-954e-a1f269b95b9f" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Can't learn most other languages beyond the Accented level</name>
 			<type>Physical</type>
 			<categories>
 				<category>Features</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Claws, Sharp (Hands)</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
 			<melee_weapon>
-				<damage>thr-1 cut</damage>
+				<damage type="cut" st="thr" base="-1"/>
 				<usage>Slash</usage>
 				<reach>C</reach>
 				<parry>0</parry>
@@ -44,7 +44,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -164,7 +164,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Intelligence</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -178,7 +178,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Health</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -192,7 +192,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>4</levels>
@@ -211,7 +211,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Longevity</name>
 			<type>Physical</type>
 			<base_points>2</base_points>
@@ -220,7 +220,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Nictitating Membrane</name>
 			<type>Physical, Exotic</type>
 			<levels>3</levels>
@@ -230,7 +230,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Peripheral Vision</name>
 			<type>Physical</type>
 			<base_points>15</base_points>
@@ -246,7 +246,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Shyness (Mild)</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -257,80 +257,95 @@
 			<skill_bonus>
 				<name compare="is">acting</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">carousing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">diplomacy</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">fast-talk</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">intimidation</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">leadership</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">merchant</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">panhandling</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">performance</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">politics</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">public speaking</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="contains">savoir-faire</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sex appeal</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">streetwise</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">teaching</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Size Modifier +1</name>
 			<type>Physical</type>
 			<reference>B19</reference>
@@ -342,7 +357,7 @@
 				<percentage>10</percentage>
 			</cost_reduction>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Social Stigma (Barbarian)</name>
 			<type>Social</type>
 			<base_points>-10</base_points>
@@ -352,12 +367,12 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Teeth, Sharp</name>
 			<type>Physical, Exotic</type>
 			<base_points>1</base_points>
 			<melee_weapon>
-				<damage>thr-1 cut</damage>
+				<damage type="cut" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -377,7 +392,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Temperature Tolerance</name>
 			<type>Physical</type>
 			<levels>5</levels>
@@ -390,7 +405,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Camouflage</name>
 			<difficulty>IQ/E</difficulty>
 			<points>1</points>
@@ -409,7 +424,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Survival</name>
 			<specialization>Desert</specialization>
 			<difficulty>Per/A</difficulty>
@@ -471,7 +486,9 @@
 			</default>
 		</skill>
 	</skill_list>
-	<notes>In appearance, reptile men are large, bipedal lizards. They come in many colors, and their shimmering scales grant them surprising beauty. However, their teeth, claws, and alien nature make them fearsome. They are decidedly carnivorous.
+	<note_list>
+		<note version="1">
+			<text>In appearance, reptile men are large, bipedal lizards. They come in many colors, and their shimmering scales grant them surprising beauty. However, their teeth, claws, and alien nature make them fearsome. They are decidedly carnivorous.
 
 They prefer hot, open plains and savannahs like the world they came from, Gabrook. Reptile men tend to be very suspicious of other races and prefer to keep to themselves. The languages of most other races, including all those native to Yrth, Earth, and Loren&#8217;dil, are difficult for them to master; they always speak them with an accent.
 
@@ -479,5 +496,7 @@ Reptile Men enjoy hunting, combat, and lying in the sun. They get along well wit
 
 Reptile men have normal height for their ST, and weigh 30 lbs. more than humans of the same height.
 
-Some reptile men, particularly in the Great Desert, have the disadvantage Odious Racial Habit (Eats other sapients) [-15]; they are responsible for much of the  social stigma the race as a whole bears. Very few ever get over their Shyness. Common advantages and disadvantages among reptile men include Hard to Kill, Hard to Subdue, Honesty, Selfish, and Stubbornness.</notes>
+Some reptile men, particularly in the Great Desert, have the disadvantage Odious Racial Habit (Eats other sapients) [-15]; they are responsible for much of the  social stigma the race as a whole bears. Very few ever get over their Shyness. Common advantages and disadvantages among reptile men include Hard to Kill, Hard to Subdue, Honesty, Selfish, and Stubbornness.</text>
+		</note>
+	</note_list>
 </template>

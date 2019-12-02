@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ih2oy9s9:-axxhqm5bgsla" version="1">
+<template id="64be83ff-e93e-4e37-9f4e-730e39b56428" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Advantages</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>40 Points in TL9-10 cybernetic implants in Ultra-Tech (pp. 208-218):</name>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Disadvantages</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Choose One from:</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Secret (Cyborg)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -43,7 +43,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Stigma (Valuable Property)</name>
 					<type>Social</type>
 					<base_points>-10</base_points>
@@ -53,7 +53,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enemy (Local Overseer)</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">

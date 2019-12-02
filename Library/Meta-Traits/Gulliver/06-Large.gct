@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="f9rugk7x:1i5i7n5ou7dmn" version="1">
+<template id="4787ee34-3ced-4e01-aa84-e75ede6a0188" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Size: Large</name>
 			<reference>GUL1</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased BS 0.25</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -14,7 +14,7 @@
 					<amount>-0.25</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Move</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -25,7 +25,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -42,7 +42,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>SM +</name>
 				<type>Physical</type>
 				<levels>1</levels>

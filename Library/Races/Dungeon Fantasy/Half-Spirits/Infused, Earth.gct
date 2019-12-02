@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fczeybjk:c4ufd4bq7zo" version="1">
+<template id="c5846009-bfa3-4a00-9323-72bb22347935" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Earth Infused</name>
 			<reference>DF3:13</reference>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Earth</name>
 				<modifier version="1">
 					<name>Power Modifier</name>
@@ -17,7 +17,7 @@
 					<category>Advantage</category>
 					<category>Power</category>
 				</categories>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>5</levels>
@@ -137,7 +137,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Permeation</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1">
@@ -218,7 +218,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Hit Points</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -244,11 +244,11 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Chunky, square build.</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reputation</name>
 				<type>Social</type>
 				<levels>3</levels>
@@ -305,7 +305,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -352,12 +352,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stone Fist</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr cr</damage>
+					<damage type="cr" st="thr"/>
 					<usage>Punch</usage>
 					<reach>c</reach>
 					<parry>0</parry>

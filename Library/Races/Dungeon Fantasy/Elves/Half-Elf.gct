@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz6zoq9:32e7btdq8y1" version="1">
+<template id="ecb69ca3-3242-418d-8768-dcb09bbee811" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Half-Elf</name>
 			<reference>DF3:7</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Unnatural hair colour</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -28,7 +28,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Magery</name>
 				<type>Mental, Supernatural</type>
 				<levels>0</levels>
@@ -81,26 +81,31 @@
 				</categories>
 				<spell_bonus all_colleges="yes">
 					<amount per_level="yes">1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<skill_bonus>
 					<name compare="is">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<spell_bonus>
 					<college_name compare="is">Clerical</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Druid</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Unholy</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Half-Breed)</name>
 				<type>Social</type>
 				<base_points>-5</base_points>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="i1kbuxss:1js3hekm55k8g" version="1">
+<template id="715efdb9-d9af-4361-b8e1-380e2b5c378d" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Mummified Undead</name>
 			<reference>H27</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -92,13 +92,13 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
 				<reference>B49</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -107,7 +107,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fragile (Combustible)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-5</base_points>
@@ -116,7 +116,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>High Pain Threshold</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -127,7 +127,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Blood)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -136,7 +136,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Brain)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -145,7 +145,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Vitals)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -154,7 +154,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (Unliving)</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -163,7 +163,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -173,7 +173,7 @@
 					<reference>B80</reference>
 				</modifier>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Dead)</name>
 				<type>Social</type>
 				<base_points>-20</base_points>
@@ -185,7 +185,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>10</levels>
@@ -195,7 +195,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unaging</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>

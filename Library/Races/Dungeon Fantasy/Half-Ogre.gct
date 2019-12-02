@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcznqii5:1k4wmlwu3a94e" version="1">
+<template id="2db92926-65a1-43f5-9450-297819203b50" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Half-Ogre</name>
 			<reference>DF3:15</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -92,7 +92,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -212,7 +212,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Intelligence</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -227,7 +227,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fearlessness</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -237,7 +237,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -252,7 +252,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -286,7 +286,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -296,7 +296,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Savage)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>

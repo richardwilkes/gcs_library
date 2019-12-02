@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fczad4jq:-ivyz1yip2nqh" version="1">
+<template id="4c2b481c-8f86-48c9-b69a-4f1ecd1cc4a4" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Pixie</name>
 			<reference>DF3:9</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -92,7 +92,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Strength</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -107,7 +107,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Mana)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -194,7 +194,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enhanced Dodge</name>
 				<type>Mental</type>
 				<base_points>15</base_points>
@@ -207,15 +207,15 @@
 					<amount>1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Antenn&#230;</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Torso armour not interchangeable with that of other SM-6 humanoids</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fewer Hit Points</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -230,7 +230,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flight</name>
 				<type>Physical, Exotic</type>
 				<base_points>40</base_points>
@@ -326,7 +326,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -346,7 +346,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Magery</name>
 				<type>Mental, Supernatural</type>
 				<levels>0</levels>
@@ -399,32 +399,37 @@
 				</categories>
 				<spell_bonus all_colleges="yes">
 					<amount per_level="yes">1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<skill_bonus>
 					<name compare="is">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<spell_bonus>
 					<college_name compare="is">Clerical</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Druid</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Unholy</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pixie Shot</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:8</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Consumption</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -452,7 +457,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Size</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -461,7 +466,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sense of Duty</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>

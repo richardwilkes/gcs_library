@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fczp7t1h:tty3pvkoxdg4" version="1">
+<template id="17db5e8c-9e20-40c4-bb82-aef674c4d12b" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Wildman</name>
 			<reference>DF3:16</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Animal Empathy</name>
 				<type>Mental</type>
 				<base_points>5</base_points>
@@ -54,7 +54,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -142,7 +142,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Arm ST</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -177,7 +177,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Brachiator</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -188,16 +188,17 @@
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Call of the Wild</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:16</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Intelligence</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -212,15 +213,15 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Apeish looks.</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Apeish looks.</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fur</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
@@ -229,7 +230,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -244,7 +245,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>3</levels>
@@ -259,7 +260,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -293,7 +294,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Low TL</name>
 				<type>Social</type>
 				<levels>3</levels>
@@ -303,7 +304,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Savage)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
@@ -313,7 +314,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>2</levels>

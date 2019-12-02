@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="g2gmtmpp:11xpfirww9a9u" version="1">
+<template id="2ca6d83e-76d9-46a2-8aae-7f41672cee0f" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Inhuman Were-eagle</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Advantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Claws, Sharp (Feet)</name>
 					<type>Physical</type>
 					<base_points>5</base_points>
 					<melee_weapon>
-						<damage>thr cut</damage>
+						<damage type="cut" st="thr"/>
 						<usage>Kick</usage>
 						<reach>C,1</reach>
 						<parry>No</parry>
@@ -36,7 +36,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Enhanced Move (Air)</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -92,7 +92,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Flight</name>
 					<type>Physical, Exotic</type>
 					<base_points>40</base_points>
@@ -188,7 +188,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Penetrating Voice</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
@@ -197,12 +197,12 @@
 						<category>Perk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Teeth, Sharp Beak</name>
 					<type>Physical, Exotic</type>
 					<base_points>1</base_points>
 					<melee_weapon>
-						<damage>thr-1 pi+</damage>
+						<damage type="pi+" st="thr" base="-1"/>
 						<usage>Peck</usage>
 						<reach>C</reach>
 						<parry>No</parry>
@@ -222,7 +222,7 @@
 						<category>Perk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Telescopic Vision</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -239,9 +239,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -261,7 +261,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -277,9 +277,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Disadvantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Cannot Speak</name>
 					<type>Physical</type>
 					<base_points>-15</base_points>
@@ -294,7 +294,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Fine Manipulators</name>
 					<type>Physical</type>
 					<base_points>-30</base_points>

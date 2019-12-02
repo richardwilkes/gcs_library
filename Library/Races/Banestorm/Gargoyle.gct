@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="43ace70d-9bb3-4a01-a38a-343b76dddf77" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Gargoyles</name>
 			<reference>BS190</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Strength</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -36,7 +36,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -51,7 +51,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Size Modifier</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -61,14 +61,14 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Claws, Blunt (Hands)</name>
 					<type>Physical</type>
 					<base_points>3</base_points>
 					<melee_weapon>
-						<damage>thr-1:+1 cr</damage>
+						<damage type="cr" st="thr" base="-1" modifier_per_die="1"/>
 						<usage>Punch</usage>
 						<reach>C</reach>
 						<parry>0</parry>
@@ -99,7 +99,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -259,7 +259,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extended Lifespan</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -269,7 +269,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Flight</name>
 					<type>Physical, Exotic</type>
 					<base_points>40</base_points>
@@ -365,7 +365,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -376,9 +376,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -466,7 +466,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Gluttony</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -476,7 +476,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Stigma (Uneducated Pest)</name>
 					<type>Social</type>
 					<base_points>-5</base_points>
@@ -486,7 +486,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wealth</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -550,12 +550,12 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Moderately Lazy</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No respect for learning</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>

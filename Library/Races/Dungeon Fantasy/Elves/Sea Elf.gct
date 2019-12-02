@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz7oi34:-1awmsxwxtq88m" version="1">
+<template id="a9ac5f97-a24f-4d4c-83d0-b6455bf756f0" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Sea Elf</name>
 			<reference>DF3:7</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Amphibious</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -13,7 +13,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Strength</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -28,7 +28,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -97,17 +97,17 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Elven Gear</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:6</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Pastel blue or green hair</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -127,7 +127,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Magery</name>
 				<type>Mental, Supernatural</type>
 				<levels>0</levels>
@@ -180,26 +180,31 @@
 				</categories>
 				<spell_bonus all_colleges="yes">
 					<amount per_level="yes">1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<skill_bonus>
 					<name compare="is">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<spell_bonus>
 					<college_name compare="is">Clerical</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Druid</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Unholy</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Nictitating Membrane</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -209,7 +214,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pressure Support</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -219,7 +224,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pyrophobia (Fire)</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -229,7 +234,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sense of Duty</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>

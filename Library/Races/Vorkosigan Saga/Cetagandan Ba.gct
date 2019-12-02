@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="gpe4vryk:-1v5pv3sqeksd8" version="1">
+<template id="0570b3e8-69d5-41e4-afd4-bc4f1dee045a" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Cetagandan Ba</name>
 			<reference>VOR77</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -18,7 +18,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Taste &amp; Smell</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -32,7 +32,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -120,7 +120,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Duty (To constellation and to all haut)</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -163,7 +163,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Eidetic Memory</name>
 				<type>Mental</type>
 				<base_points>5</base_points>
@@ -178,7 +178,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -193,7 +193,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Immunity to Fast-Penta</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -202,7 +202,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -222,7 +222,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -237,7 +237,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Intelligence</name>
 				<type>Mental</type>
 				<levels>2</levels>
@@ -252,7 +252,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -286,7 +286,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Longevity</name>
 				<type>Physical</type>
 				<base_points>2</base_points>
@@ -295,7 +295,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Rapid Healing</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -307,7 +307,7 @@
 					<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -354,7 +354,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sexless</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
@@ -363,7 +363,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Status</name>
 				<type>Social</type>
 				<levels>3</levels>
@@ -374,11 +374,11 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sterile</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Wealth</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">

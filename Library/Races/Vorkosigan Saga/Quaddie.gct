@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="gpe3a205:zt4663cisy7i" version="1">
+<template id="ed862485-a913-4b2f-b4e4-e948d2ac224a" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Quaddie</name>
 			<reference>VOR75</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Absolute Direction</name>
 				<type>Mental/Physical</type>
 				<base_points>5</base_points>
@@ -22,26 +22,31 @@
 					<skill_bonus>
 						<name compare="starts with">piloting</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">aerobatics</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">free fall</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">hyperspace</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">space</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 				</modifier>
@@ -52,25 +57,29 @@
 				<skill_bonus>
 					<name compare="is">body sense</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">air</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">land</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">sea</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Ambidexterity</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -79,9 +88,9 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Common Disadvantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Odious Personal Habit</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -108,7 +117,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Workaholic</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -118,7 +127,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Arm</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -179,7 +188,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>G-Experience (All)</name>
 				<type>Mental</type>
 				<base_points>10</base_points>
@@ -188,7 +197,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Honesty</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -198,7 +207,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -213,7 +222,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Lame (Crippled Legs)</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
@@ -229,7 +238,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Longevity</name>
 				<type>Physical</type>
 				<base_points>2</base_points>
@@ -238,11 +247,11 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Only fertile with other Quaddies</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pacifism: Self-Defense Only</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>
@@ -251,7 +260,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Rapid Healing</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -263,7 +272,7 @@
 					<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Selfless</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -273,7 +282,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sense of Duty</name>
 				<type>Mental</type>
 				<modifier version="1" enabled="no">
@@ -320,9 +329,9 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Qaddie</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Free Fall</name>
 				<difficulty>DX/A</difficulty>
 				<points>24</points>

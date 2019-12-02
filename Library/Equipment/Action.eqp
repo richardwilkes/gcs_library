@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<equipment_list unique_id="hv8sn9or:-jbsfd5ek2ezw" version="1">
-	<equipment version="3">
+<equipment_list id="847f7b78-9f3c-4492-b863-806b63084c88" version="1">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Assault Carbine, 5.56mm</description>
 		<legality_class>4</legality_class>
@@ -8,7 +8,7 @@
 		<weight>7.3 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>4d+2 pi</damage>
+			<damage type="pi" base="4d+2"/>
 			<strength>9&#8224;</strength>
 			<accuracy>4</accuracy>
 			<range>750/2,900</range>
@@ -79,7 +79,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Assault Carbine, 5.56mm: magazine</description>
 		<legality_class>4</legality_class>
@@ -89,7 +89,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Assault Carbine, 5.56mm: reload</description>
 		<legality_class>4</legality_class>
@@ -100,7 +100,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Assault Rifle, 5.56mm</description>
 		<legality_class>4</legality_class>
@@ -108,7 +108,7 @@
 		<weight>8.9 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>5d pi</damage>
+			<damage type="pi" base="5d"/>
 			<strength>8&#8224;</strength>
 			<accuracy>5</accuracy>
 			<range>800/3,500</range>
@@ -179,7 +179,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Assault Rifle, 5.56mm: magazine</description>
 		<legality_class>4</legality_class>
@@ -189,7 +189,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Assault Rifle, 5.56mm: reload</description>
 		<legality_class>4</legality_class>
@@ -200,7 +200,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Attach&#233; Case</description>
 		<legality_class>4</legality_class>
 		<value>20</value>
@@ -213,7 +213,7 @@
 			<contained_weight_prereq has="yes" compare="at most">20 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Audio Recorder, Digital</description>
 		<legality_class>4</legality_class>
@@ -225,7 +225,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Backup Pistol, .40</description>
 		<legality_class>4</legality_class>
@@ -233,7 +233,7 @@
 		<weight>1.9 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d+1 pi+</damage>
+			<damage type="pi+" base="2d+1"/>
 			<strength>8</strength>
 			<accuracy>1</accuracy>
 			<range>140/1,600</range>
@@ -291,7 +291,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Backup Pistol, .40: magazine</description>
 		<legality_class>4</legality_class>
@@ -301,7 +301,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Backup Pistol, .40: reload</description>
 		<legality_class>4</legality_class>
@@ -312,7 +312,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .40</description>
 		<legality_class>4</legality_class>
@@ -320,7 +320,7 @@
 		<weight>2.3 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d+2 pi+</damage>
+			<damage type="pi+" base="2d+2"/>
 			<strength>9</strength>
 			<accuracy>2</accuracy>
 			<range>160/1,800</range>
@@ -378,7 +378,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .40: magazine</description>
 		<legality_class>4</legality_class>
@@ -388,7 +388,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .40: reload</description>
 		<legality_class>4</legality_class>
@@ -399,7 +399,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .45</description>
 		<legality_class>4</legality_class>
@@ -407,7 +407,7 @@
 		<weight>2.4 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d pi+</damage>
+			<damage type="pi+" base="2d"/>
 			<strength>10</strength>
 			<accuracy>2</accuracy>
 			<range>175/1,700</range>
@@ -465,7 +465,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .45: magazine</description>
 		<legality_class>4</legality_class>
@@ -475,7 +475,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .45: reload</description>
 		<legality_class>4</legality_class>
@@ -486,7 +486,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .50AE</description>
 		<legality_class>4</legality_class>
@@ -494,7 +494,7 @@
 		<weight>4.6 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>4d pi+</damage>
+			<damage type="pi+" base="4d"/>
 			<strength>12</strength>
 			<accuracy>2</accuracy>
 			<range>220/2,500</range>
@@ -552,7 +552,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .50AE: magazine</description>
 		<legality_class>4</legality_class>
@@ -562,7 +562,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, .50AE: reload</description>
 		<legality_class>4</legality_class>
@@ -573,7 +573,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, 9mm</description>
 		<legality_class>4</legality_class>
@@ -581,7 +581,7 @@
 		<weight>1.9 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d+2 pi</damage>
+			<damage type="pi" base="2d+2"/>
 			<strength>8</strength>
 			<accuracy>2</accuracy>
 			<range>160/1,800</range>
@@ -639,7 +639,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, 9mm: magazine</description>
 		<legality_class>4</legality_class>
@@ -649,7 +649,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Pistol, 9mm: reload</description>
 		<legality_class>4</legality_class>
@@ -660,7 +660,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Shotgun, 12G</description>
 		<legality_class>4</legality_class>
@@ -668,7 +668,7 @@
 		<weight>7.3 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>1d+1 pi</damage>
+			<damage type="pi" base="1d+1"/>
 			<strength>10&#8224;</strength>
 			<accuracy>3</accuracy>
 			<range>40/800</range>
@@ -739,7 +739,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Auto Shotgun, 12G: reload</description>
 		<legality_class>4</legality_class>
@@ -750,7 +750,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Backpack, Small</description>
 		<legality_class>4</legality_class>
 		<value>120</value>
@@ -763,7 +763,7 @@
 			<contained_weight_prereq has="yes" compare="at most">50 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Baton</description>
 		<legality_class>4</legality_class>
@@ -771,7 +771,7 @@
 		<weight>1 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -817,7 +817,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -867,7 +867,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Bayonet</description>
 		<legality_class>4</legality_class>
@@ -875,7 +875,7 @@
 		<weight>1 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>thr+3 imp</damage>
+			<damage type="imp" st="thr" base="+3"/>
 			<strength>9&#8224;</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -905,7 +905,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, Civilian</description>
 		<legality_class>4</legality_class>
@@ -917,7 +917,7 @@
 			<category>Optics</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, Military</description>
 		<legality_class>4</legality_class>
@@ -929,7 +929,7 @@
 			<category>Optics</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, Night-Vision</description>
 		<legality_class>4</legality_class>
@@ -941,7 +941,7 @@
 			<category>Optics</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, Thermal-Imaging</description>
 		<legality_class>4</legality_class>
@@ -953,7 +953,7 @@
 			<category>Optics</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Blasting Caps</description>
 		<legality_class>4</legality_class>
@@ -965,14 +965,14 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Blowpipe</description>
 		<legality_class>4</legality_class>
 		<value>30</value>
 		<weight>1 lb</weight>
 		<melee_weapon>
-			<damage>Special</damage>
+			<damage type="Special"/>
 			<strength>2&#8224;</strength>
 			<reach>1</reach>
 			<parry>no</parry>
@@ -992,7 +992,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Bo</description>
 		<legality_class>4</legality_class>
@@ -1000,7 +1000,7 @@
 		<weight>4 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>7&#8224;</strength>
 			<reach>1,2</reach>
 			<parry>+2</parry>
@@ -1026,7 +1026,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr+2 cr</damage>
+			<damage type="cr" st="thr" base="+2"/>
 			<strength>7&#8224;</strength>
 			<reach>1,2</reach>
 			<parry>+2</parry>
@@ -1056,7 +1056,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Bolt Cutters, Heavy</description>
 		<legality_class>4</legality_class>
@@ -1068,7 +1068,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Bolt Cutters, Light</description>
 		<legality_class>4</legality_class>
@@ -1080,14 +1080,14 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Boots, Reinforced</description>
 		<legality_class>4</legality_class>
 		<value>75</value>
 		<weight>3 lb</weight>
 		<reference>ACT1:31</reference>
 		<melee_weapon>
-			<damage>thr+1</damage>
+			<damage type="" st="thr" base="+1"/>
 			<strength>0</strength>
 			<usage>Kick</usage>
 			<reach>C</reach>
@@ -1113,7 +1113,7 @@
 			<category>Armor</category>
 		</categories>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Brass Knuckles</description>
 		<legality_class>4</legality_class>
@@ -1121,7 +1121,7 @@
 		<weight>0.25 lb</weight>
 		<reference>ACT3:20</reference>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<reach>C</reach>
 			<parry>0</parry>
 			<block>no</block>
@@ -1131,7 +1131,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Brass Knuckles</description>
 		<legality_class>4</legality_class>
@@ -1139,7 +1139,7 @@
 		<weight>0.25 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<reach>C</reach>
 			<parry>0</parry>
 			<block>No</block>
@@ -1158,7 +1158,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Bug Detector</description>
 		<legality_class>4</legality_class>
@@ -1169,7 +1169,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Business Cards</description>
 		<legality_class>4</legality_class>
@@ -1180,7 +1180,7 @@
 			<category>Personal Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Butterfly Sword</description>
 		<legality_class>4</legality_class>
@@ -1188,7 +1188,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cut</damage>
+			<damage type="cut" st="sw"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -1234,7 +1234,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr-2 imp</damage>
+			<damage type="imp" st="thr" base="-2"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -1284,7 +1284,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camcorder, Digital, Full-Sized</description>
 		<legality_class>4</legality_class>
@@ -1296,7 +1296,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camcorder, Digital, Miniature</description>
 		<legality_class>4</legality_class>
@@ -1308,7 +1308,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, Digital, Full-Sized</description>
 		<legality_class>4</legality_class>
@@ -1320,7 +1320,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, Digital, Full-Sized (Fine)</description>
 		<legality_class>4</legality_class>
@@ -1332,7 +1332,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cane</description>
 		<legality_class>4</legality_class>
@@ -1340,7 +1340,7 @@
 		<weight>2.5 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw+1 cr</damage>
+			<damage type="cr" st="sw" base="+1"/>
 			<strength>10</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -1376,7 +1376,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr+1 cr</damage>
+			<damage type="cr" st="thr" base="+1"/>
 			<strength>10</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -1416,7 +1416,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cellular Monitoring System</description>
 		<legality_class>4</legality_class>
@@ -1428,7 +1428,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Chainsaw</description>
 		<legality_class>4</legality_class>
@@ -1436,7 +1436,7 @@
 		<weight>13 lb</weight>
 		<reference>ACT1:30</reference>
 		<melee_weapon>
-			<damage>sw+1d cut</damage>
+			<damage type="cut" st="sw" base="1d"/>
 			<strength>11&#8225;</strength>
 			<usage>Swing</usage>
 			<reach>1</reach>
@@ -1452,7 +1452,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Chemical Detector, Portable</description>
 		<legality_class>4</legality_class>
@@ -1464,7 +1464,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cigarette Lighter</description>
 		<legality_class>4</legality_class>
@@ -1474,7 +1474,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Circle Cutter</description>
 		<legality_class>4</legality_class>
@@ -1486,7 +1486,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Climbing Kit</description>
 		<legality_class>4</legality_class>
@@ -1498,7 +1498,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Clothing, Formal</description>
 		<legality_class>4</legality_class>
 		<value>240</value>
@@ -1508,7 +1508,7 @@
 			<category>Armor</category>
 		</categories>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Clothing, High-Fashion</description>
 		<legality_class>4</legality_class>
 		<value>3000</value>
@@ -1518,7 +1518,7 @@
 			<category>Armor</category>
 		</categories>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Clothing, Ordinary</description>
 		<legality_class>4</legality_class>
 		<value>120</value>
@@ -1528,7 +1528,7 @@
 			<category>Armor</category>
 		</categories>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Coat, Long</description>
 		<legality_class>4</legality_class>
 		<value>50</value>
@@ -1539,7 +1539,7 @@
 			<category>Armor</category>
 		</categories>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Coat, Long Leather</description>
 		<legality_class>4</legality_class>
 		<value>250</value>
@@ -1562,7 +1562,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Collar, Reinforced</description>
 		<legality_class>4</legality_class>
 		<value>10</value>
@@ -1576,7 +1576,7 @@
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Combat Knife</description>
 		<legality_class>4</legality_class>
@@ -1584,7 +1584,7 @@
 		<weight>1 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>sw-2 cut</damage>
+			<damage type="cut" st="sw" base="-2"/>
 			<strength>6</strength>
 			<usage>swing</usage>
 			<reach>C,1</reach>
@@ -1611,7 +1611,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr imp</damage>
+			<damage type="imp" st="thr"/>
 			<strength>6</strength>
 			<usage>thrust</usage>
 			<reach>C</reach>
@@ -1642,7 +1642,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Commando Knife</description>
 		<legality_class>4</legality_class>
@@ -1650,7 +1650,7 @@
 		<weight>1 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw-2 cut</damage>
+			<damage type="cut" st="sw" base="-2"/>
 			<strength>6</strength>
 			<usage>Knife</usage>
 			<reach>C,1</reach>
@@ -1677,7 +1677,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr imp</damage>
+			<damage type="imp" st="thr"/>
 			<strength>6</strength>
 			<usage>Knife</usage>
 			<reach>C</reach>
@@ -1704,7 +1704,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>sw-2 cut</damage>
+			<damage type="cut" st="sw" base="-2"/>
 			<strength>6</strength>
 			<usage>Main-Gauche</usage>
 			<reach>C,1</reach>
@@ -1746,7 +1746,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr imp</damage>
+			<damage type="imp" st="thr"/>
 			<strength>6</strength>
 			<usage>Main-Gauche</usage>
 			<reach>C</reach>
@@ -1792,7 +1792,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Compact Pump Shotgun, 12G</description>
 		<legality_class>4</legality_class>
@@ -1800,7 +1800,7 @@
 		<weight>6.7 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>1d+1 pi</damage>
+			<damage type="pi" base="1d+1"/>
 			<strength>12&#8224;</strength>
 			<accuracy>2</accuracy>
 			<range>40/800</range>
@@ -1871,7 +1871,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Compact Pump Shotgun, 12G: reload</description>
 		<legality_class>4</legality_class>
@@ -1882,7 +1882,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Compact SMG, 9mm</description>
 		<legality_class>4</legality_class>
@@ -1890,7 +1890,7 @@
 		<weight>3.8 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d+2 pi</damage>
+			<damage type="pi" base="2d+2"/>
 			<strength>8&#8224;</strength>
 			<accuracy>2</accuracy>
 			<range>160/1,800</range>
@@ -1961,7 +1961,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Compact SMG, 9mm: magazine</description>
 		<legality_class>4</legality_class>
@@ -1971,7 +1971,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Compact SMG, 9mm: reload</description>
 		<legality_class>4</legality_class>
@@ -1982,7 +1982,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Compass</description>
 		<legality_class>4</legality_class>
@@ -1993,7 +1993,7 @@
 			<category>Personal Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Computer Monitoring System</description>
 		<legality_class>4</legality_class>
@@ -2005,7 +2005,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Counterfeiting/Forgery Kit</description>
 		<legality_class>4</legality_class>
@@ -2017,7 +2017,7 @@
 			<category>Trickery</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Crowbar, 3'</description>
 		<legality_class>4</legality_class>
@@ -2025,7 +2025,7 @@
 		<weight>3 lb</weight>
 		<reference>ACT1:30</reference>
 		<melee_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>10</strength>
 			<usage>Swung</usage>
 			<reach>1</reach>
@@ -2052,7 +2052,7 @@
 			</default>
 		</melee_weapon>
 		<ranged_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>10</strength>
 			<usage>Thrown</usage>
 			<accuracy>1</accuracy>
@@ -2075,7 +2075,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cup, Athletic</description>
 		<legality_class>4</legality_class>
@@ -2090,7 +2090,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cutting Torches, Full-Sized</description>
 		<legality_class>4</legality_class>
@@ -2098,7 +2098,7 @@
 		<weight>7 lb</weight>
 		<reference>ACT1:30</reference>
 		<ranged_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>10</strength>
 			<usage>Thrown</usage>
 			<accuracy>1</accuracy>
@@ -2122,7 +2122,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cutting Torches, Full-Sized: gas bottle</description>
 		<legality_class>4</legality_class>
@@ -2130,7 +2130,7 @@
 		<weight>5 lb</weight>
 		<reference>ACT1:30</reference>
 		<ranged_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>10</strength>
 			<usage>Thrown</usage>
 			<accuracy>1</accuracy>
@@ -2153,14 +2153,14 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cutting Torches, Pocket</description>
 		<legality_class>4</legality_class>
 		<value>25</value>
 		<reference>ACT1:30</reference>
 		<ranged_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>10</strength>
 			<usage>Thrown</usage>
 			<accuracy>1</accuracy>
@@ -2184,14 +2184,14 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Cutting Torches, Pocket: gas bottle</description>
 		<legality_class>4</legality_class>
 		<value>1</value>
 		<reference>ACT1:30</reference>
 		<ranged_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>10</strength>
 			<usage>Thrown</usage>
 			<accuracy>1</accuracy>
@@ -2214,7 +2214,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Desktop Computer</description>
 		<legality_class>4</legality_class>
@@ -2226,7 +2226,7 @@
 			<category>Computers</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Disguise Kit</description>
 		<legality_class>4</legality_class>
@@ -2238,7 +2238,7 @@
 			<category>Trickery</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Dive Torpedo</description>
 		<legality_class>4</legality_class>
@@ -2249,7 +2249,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Drag Bag</description>
 		<legality_class>4</legality_class>
 		<value>250</value>
@@ -2260,7 +2260,7 @@
 			<category>Luggage</category>
 		</categories>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Drill, Cordless</description>
 		<legality_class>4</legality_class>
@@ -2272,7 +2272,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Duct Tape</description>
 		<legality_class>4</legality_class>
@@ -2280,7 +2280,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT1:30</reference>
 		<ranged_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>10</strength>
 			<usage>Thrown</usage>
 			<accuracy>1</accuracy>
@@ -2304,7 +2304,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Dynamite</description>
 		<legality_class>4</legality_class>
@@ -2316,7 +2316,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Earmuffs</description>
 		<legality_class>4</legality_class>
@@ -2328,7 +2328,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Entrenching Tool</description>
 		<legality_class>4</legality_class>
@@ -2336,7 +2336,7 @@
 		<weight>3 lb</weight>
 		<reference>ACT3:20</reference>
 		<melee_weapon>
-			<damage>sw+2 cut</damage>
+			<damage type="cut" st="sw" base="+2"/>
 			<strength>11</strength>
 			<reach>1</reach>
 			<parry>0U</parry>
@@ -2366,7 +2366,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Escrima Stick</description>
 		<legality_class>4</legality_class>
@@ -2374,7 +2374,7 @@
 		<weight>1 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<usage>Shortsword</usage>
 			<reach>1</reach>
@@ -2421,7 +2421,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<usage>Shortsword</usage>
 			<reach>1</reach>
@@ -2468,7 +2468,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<usage>Smallsword</usage>
 			<reach>1</reach>
@@ -2505,7 +2505,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<usage>Smallsword</usage>
 			<reach>1</reach>
@@ -2546,7 +2546,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Evidence Collection Kit</description>
 		<legality_class>4</legality_class>
@@ -2558,7 +2558,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Expandable Baton</description>
 		<legality_class>4</legality_class>
@@ -2566,7 +2566,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -2612,7 +2612,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -2662,7 +2662,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Expandable Baton</description>
 		<legality_class>4</legality_class>
@@ -2670,7 +2670,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<usage>swing</usage>
 			<reach>1</reach>
@@ -2717,7 +2717,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<usage>thrust</usage>
 			<reach>1</reach>
@@ -2768,7 +2768,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Exploder</description>
 		<legality_class>4</legality_class>
@@ -2780,7 +2780,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Extrudable Explosive</description>
 		<legality_class>4</legality_class>
@@ -2792,7 +2792,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Files, Diamond</description>
 		<legality_class>4</legality_class>
@@ -2804,7 +2804,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Fire Axe</description>
 		<legality_class>4</legality_class>
@@ -2812,7 +2812,7 @@
 		<weight>8 lb</weight>
 		<reference>ACT1:30</reference>
 		<melee_weapon>
-			<damage>sw+3 cut</damage>
+			<damage type="cut" st="sw" base="+3"/>
 			<strength>12&#8225;</strength>
 			<usage>Swung</usage>
 			<reach>1,2*</reach>
@@ -2848,7 +2848,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flare, Hand</description>
 		<legality_class>4</legality_class>
@@ -2860,7 +2860,7 @@
 			<category>Light</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flare, Signal</description>
 		<legality_class>4</legality_class>
@@ -2872,7 +2872,7 @@
 			<category>Light</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flashlight, Heavy</description>
 		<legality_class>4</legality_class>
@@ -2884,7 +2884,7 @@
 			<category>Light</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flashlight, Mini</description>
 		<legality_class>4</legality_class>
@@ -2896,7 +2896,7 @@
 			<category>Light</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flex Cuffs</description>
 		<legality_class>4</legality_class>
@@ -2908,7 +2908,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Gas Mask</description>
 		<legality_class>4</legality_class>
@@ -2924,7 +2924,7 @@
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Gasoline</description>
 		<legality_class>4</legality_class>
@@ -2936,7 +2936,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Geiger Counter</description>
 		<legality_class>4</legality_class>
@@ -2948,7 +2948,7 @@
 			<category>Science</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Gloves, Sap</description>
 		<legality_class>4</legality_class>
@@ -2956,7 +2956,7 @@
 		<weight>1 lb</weight>
 		<reference>ACT1:31</reference>
 		<melee_weapon>
-			<damage>thr+1</damage>
+			<damage type="" st="thr" base="+1"/>
 			<strength>0</strength>
 			<usage>Punch</usage>
 			<reach>C</reach>
@@ -2991,7 +2991,7 @@
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Gloves, Shooting</description>
 		<legality_class>4</legality_class>
@@ -3007,7 +3007,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Glow Stick</description>
 		<legality_class>4</legality_class>
@@ -3019,7 +3019,7 @@
 			<category>Light</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Go-Bar</description>
 		<legality_class>4</legality_class>
@@ -3027,7 +3027,7 @@
 		<weight>17 lb</weight>
 		<reference>ACT1:30</reference>
 		<melee_weapon>
-			<damage>sw+4 cr</damage>
+			<damage type="cr" st="sw" base="+4"/>
 			<strength>13&#8225;</strength>
 			<usage>Swung</usage>
 			<reach>1,2*</reach>
@@ -3063,7 +3063,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Goggles, Tactical</description>
 		<legality_class>4</legality_class>
@@ -3078,7 +3078,7 @@
 			<amount>5</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>GPS Receiver</description>
 		<legality_class>4</legality_class>
@@ -3090,7 +3090,7 @@
 			<category>Personal Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Grapnel</description>
 		<legality_class>4</legality_class>
@@ -3102,7 +3102,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Grenade Launcher, 40mm</description>
 		<legality_class>4</legality_class>
@@ -3110,7 +3110,7 @@
 		<weight>6.3 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>6d+2 [2d] cr ex</damage>
+			<damage type="cr ex" base="6d+2" fragmentation="2d" fragmentation_type="cut"/>
 			<strength>8&#8224;</strength>
 			<accuracy>1</accuracy>
 			<range>30/440</range>
@@ -3150,7 +3150,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Grenade Launcher, 40mm: reload</description>
 		<legality_class>4</legality_class>
@@ -3161,7 +3161,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Hacksaw</description>
 		<legality_class>4</legality_class>
@@ -3173,7 +3173,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Hand Ram</description>
 		<legality_class>4</legality_class>
@@ -3185,7 +3185,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Handcuffs.</description>
 		<legality_class>4</legality_class>
@@ -3197,7 +3197,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Hang-Glider</description>
 		<legality_class>4</legality_class>
@@ -3208,7 +3208,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Hat, Leather</description>
 		<legality_class>4</legality_class>
 		<value>60</value>
@@ -3223,7 +3223,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Headset, Concealable</description>
 		<legality_class>4</legality_class>
@@ -3234,7 +3234,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Headset, Tactical</description>
 		<legality_class>4</legality_class>
@@ -3246,7 +3246,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Heavy Bike</description>
 		<legality_class>4</legality_class>
@@ -3257,7 +3257,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Helmet, Ballistic</description>
 		<legality_class>4</legality_class>
 		<value>250</value>
@@ -3272,7 +3272,7 @@
 			<amount>12</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Helmet, Ballistic: Visor</description>
 		<legality_class>4</legality_class>
@@ -3292,7 +3292,7 @@
 			<amount>10</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Helmet, Motorcycle</description>
 		<legality_class>4</legality_class>
 		<value>200</value>
@@ -3307,7 +3307,7 @@
 			<amount>3</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Helmet, Motorcycle: Visor</description>
 		<legality_class>4</legality_class>
@@ -3326,7 +3326,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>HMMWV</description>
 		<legality_class>4</legality_class>
@@ -3337,7 +3337,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Holster, Belt</description>
 		<legality_class>4</legality_class>
@@ -3349,7 +3349,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Holster, Shoulder</description>
 		<legality_class>4</legality_class>
@@ -3361,7 +3361,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Holster, Sleeve</description>
 		<legality_class>4</legality_class>
@@ -3373,7 +3373,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Holster, Undercover</description>
 		<legality_class>4</legality_class>
@@ -3385,7 +3385,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Hydraulic Door Opener</description>
 		<legality_class>4</legality_class>
@@ -3397,7 +3397,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Industrial Cleanser</description>
 		<legality_class>4</legality_class>
@@ -3409,7 +3409,7 @@
 			<category>Trickery</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Inflatable Boat</description>
 		<legality_class>4</legality_class>
@@ -3420,7 +3420,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Jacket, Leather</description>
 		<legality_class>4</legality_class>
 		<value>50</value>
@@ -3439,7 +3439,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Jammer</description>
 		<legality_class>4</legality_class>
@@ -3451,7 +3451,7 @@
 			<category>Trickery</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Jo</description>
 		<legality_class>4</legality_class>
@@ -3459,7 +3459,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>9</strength>
 			<usage>Broadsword</usage>
 			<reach>1</reach>
@@ -3496,7 +3496,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>9</strength>
 			<usage>Broadsword</usage>
 			<reach>1</reach>
@@ -3533,7 +3533,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>7&#8224;</strength>
 			<usage>Staff</usage>
 			<reach>1,2</reach>
@@ -3560,7 +3560,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr+2 cr</damage>
+			<damage type="cr" st="thr" base="+2"/>
 			<strength>7&#8224;</strength>
 			<usage>Staff</usage>
 			<reach>1,2</reach>
@@ -3591,7 +3591,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Kama</description>
 		<legality_class>4</legality_class>
@@ -3599,7 +3599,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT3:20</reference>
 		<melee_weapon>
-			<damage>sw cut</damage>
+			<damage type="cut" st="sw"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -3625,7 +3625,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>sw imp</damage>
+			<damage type="imp" st="sw"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0U</parry>
@@ -3636,7 +3636,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Katana</description>
 		<legality_class>4</legality_class>
@@ -3644,7 +3644,7 @@
 		<weight>3.75 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw+1 cut</damage>
+			<damage type="cut" st="sw" base="+1"/>
 			<strength>10</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -3680,7 +3680,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr+1 imp</damage>
+			<damage type="imp" st="thr" base="+1"/>
 			<strength>10</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -3720,7 +3720,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Kukri</description>
 		<legality_class>4</legality_class>
@@ -3728,7 +3728,7 @@
 		<weight>1.5 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw-1 cut</damage>
+			<damage type="cut" st="sw" base="-1"/>
 			<strength>7</strength>
 			<reach>C,1</reach>
 			<parry>0</parry>
@@ -3754,7 +3754,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr-1 imp</damage>
+			<damage type="imp" st="thr" base="-1"/>
 			<strength>7</strength>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -3784,7 +3784,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Kukri</description>
 		<legality_class>4</legality_class>
@@ -3792,7 +3792,7 @@
 		<weight>1.5 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>sw-1 cut</damage>
+			<damage type="cut" st="sw" base="-1"/>
 			<strength>7</strength>
 			<usage>swing</usage>
 			<reach>C,1</reach>
@@ -3819,7 +3819,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr-1 imp</damage>
+			<damage type="imp" st="thr" base="-1"/>
 			<strength>7</strength>
 			<usage>thrust</usage>
 			<reach>C</reach>
@@ -3850,7 +3850,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Kusari</description>
 		<legality_class>4</legality_class>
@@ -3858,7 +3858,7 @@
 		<weight>5 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw+2 cr</damage>
+			<damage type="cr" st="sw" base="+2"/>
 			<strength>11</strength>
 			<reach>1-4*</reach>
 			<parry>-2U</parry>
@@ -3888,7 +3888,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lab, Field (@Scientific Skill@)</description>
 		<legality_class>4</legality_class>
@@ -3900,7 +3900,7 @@
 			<category>Science</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lab, Mobile (@Scientific Skill@)</description>
 		<legality_class>4</legality_class>
@@ -3912,7 +3912,7 @@
 			<category>Science</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lab, Suitcase (@Scientific Skill@)</description>
 		<legality_class>4</legality_class>
@@ -3924,7 +3924,7 @@
 			<category>Science</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Ladder, Portable</description>
 		<legality_class>4</legality_class>
@@ -3936,7 +3936,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lantern, Electric</description>
 		<legality_class>4</legality_class>
@@ -3948,7 +3948,7 @@
 			<category>Light</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Laser Comm</description>
 		<legality_class>4</legality_class>
@@ -3960,7 +3960,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Leggings, Ballistic</description>
 		<legality_class>4</legality_class>
 		<value>400</value>
@@ -3975,7 +3975,7 @@
 			<amount>5</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Light Helicopter</description>
 		<legality_class>4</legality_class>
@@ -3986,7 +3986,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Load-Bearing Vest</description>
 		<legality_class>4</legality_class>
 		<value>30</value>
@@ -3999,7 +3999,7 @@
 			<contained_weight_prereq has="yes" compare="at most">20 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Load-Bearing Vest</description>
 		<legality_class>4</legality_class>
 		<value>150</value>
@@ -4013,7 +4013,7 @@
 			<contained_weight_prereq has="yes" compare="at most">20 lb</contained_weight_prereq>
 		</prereq_list>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lockpicks</description>
 		<legality_class>4</legality_class>
@@ -4025,7 +4025,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lockpicks, Electronic</description>
 		<legality_class>4</legality_class>
@@ -4037,7 +4037,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Luxury Car</description>
 		<legality_class>4</legality_class>
@@ -4048,7 +4048,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Metal Detector Wand</description>
 		<legality_class>4</legality_class>
@@ -4060,7 +4060,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Mike, Laser</description>
 		<legality_class>4</legality_class>
@@ -4072,7 +4072,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Mike, Shotgun</description>
 		<legality_class>4</legality_class>
@@ -4084,7 +4084,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Multi-Tool</description>
 		<legality_class>4</legality_class>
@@ -4096,7 +4096,7 @@
 			<category>Personal Accessories</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>NBC Suit</description>
 		<legality_class>4</legality_class>
 		<value>150</value>
@@ -4107,7 +4107,7 @@
 			<category>Armor</category>
 		</categories>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Ninja-To</description>
 		<legality_class>4</legality_class>
@@ -4115,7 +4115,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cut</damage>
+			<damage type="cut" st="sw"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -4161,7 +4161,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr+1 imp</damage>
+			<damage type="imp" st="thr" base="+1"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -4211,7 +4211,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Notebook Computer</description>
 		<legality_class>4</legality_class>
@@ -4223,7 +4223,7 @@
 			<category>Computers</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Nunchaku</description>
 		<legality_class>4</legality_class>
@@ -4231,7 +4231,7 @@
 		<weight>20 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw+1 cr</damage>
+			<damage type="cr" st="sw" base="+1"/>
 			<strength>7</strength>
 			<reach>1</reach>
 			<parry>0U</parry>
@@ -4261,7 +4261,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Pants, Leather</description>
 		<legality_class>4</legality_class>
 		<value>40</value>
@@ -4280,7 +4280,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Parachute, Mini</description>
 		<legality_class>4</legality_class>
@@ -4292,7 +4292,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Parachute, Ram-Air</description>
 		<legality_class>4</legality_class>
@@ -4304,7 +4304,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>PDA</description>
 		<legality_class>4</legality_class>
@@ -4316,7 +4316,7 @@
 			<category>Computers</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Pepper Spray</description>
 		<legality_class>4</legality_class>
@@ -4324,7 +4324,7 @@
 		<weight>0.1 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>Special</damage>
+			<damage type="Special"/>
 			<strength>3</strength>
 			<range>2</range>
 			<rate_of_fire>1</rate_of_fire>
@@ -4350,7 +4350,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Phone, Cell</description>
 		<legality_class>4</legality_class>
@@ -4362,7 +4362,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Phone, Cell (Fine)</description>
 		<legality_class>4</legality_class>
 		<value>2000</value>
@@ -4373,7 +4373,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Phone, Cell (Good)</description>
 		<legality_class>4</legality_class>
 		<value>500</value>
@@ -4384,7 +4384,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Phone, Satellite</description>
 		<legality_class>4</legality_class>
@@ -4396,7 +4396,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Plastique</description>
 		<legality_class>4</legality_class>
@@ -4408,7 +4408,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Police Baton</description>
 		<legality_class>4</legality_class>
@@ -4416,7 +4416,7 @@
 		<weight>1 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<usage>swing</usage>
 			<reach>1</reach>
@@ -4463,7 +4463,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<usage>thrust</usage>
 			<reach>1</reach>
@@ -4514,7 +4514,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Pump Shotgun, 12G</description>
 		<legality_class>4</legality_class>
@@ -4522,7 +4522,7 @@
 		<weight>8.3 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>1d+1 pi</damage>
+			<damage type="pi" base="1d+1"/>
 			<strength>10&#8224;</strength>
 			<accuracy>3</accuracy>
 			<range>40/800</range>
@@ -4593,7 +4593,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Pump Shotgun, 12G: reload</description>
 		<legality_class>4</legality_class>
@@ -4604,7 +4604,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Push Knife</description>
 		<legality_class>4</legality_class>
@@ -4612,7 +4612,7 @@
 		<weight>0.5 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>thr imp</damage>
+			<damage type="imp" st="thr"/>
 			<strength>5</strength>
 			<usage>thrust</usage>
 			<reach>C</reach>
@@ -4643,7 +4643,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Radio, Backpack</description>
 		<legality_class>4</legality_class>
@@ -4655,7 +4655,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Radio, Compact</description>
 		<legality_class>4</legality_class>
@@ -4667,7 +4667,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Radio, Handset</description>
 		<legality_class>4</legality_class>
@@ -4679,7 +4679,7 @@
 			<category>Communicators</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Rappelling Kit</description>
 		<legality_class>4</legality_class>
@@ -4691,7 +4691,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Remote</description>
 		<legality_class>4</legality_class>
@@ -4703,7 +4703,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .38</description>
 		<legality_class>4</legality_class>
@@ -4711,7 +4711,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d pi</damage>
+			<damage type="pi" base="2d"/>
 			<strength>9</strength>
 			<accuracy>2</accuracy>
 			<range>110/1,200</range>
@@ -4769,7 +4769,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .38: magazine</description>
 		<legality_class>4</legality_class>
@@ -4779,7 +4779,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .38: reload</description>
 		<legality_class>4</legality_class>
@@ -4790,7 +4790,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .44M</description>
 		<legality_class>4</legality_class>
@@ -4798,7 +4798,7 @@
 		<weight>3.1 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>3d+2 pi+</damage>
+			<damage type="pi+" base="3d+2"/>
 			<strength>11</strength>
 			<accuracy>2</accuracy>
 			<range>210/2,300</range>
@@ -4856,7 +4856,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .44M: magazine</description>
 		<legality_class>4</legality_class>
@@ -4866,7 +4866,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .44M: reload</description>
 		<legality_class>4</legality_class>
@@ -4877,7 +4877,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .357M</description>
 		<legality_class>4</legality_class>
@@ -4885,7 +4885,7 @@
 		<weight>2.9 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>3d pi</damage>
+			<damage type="pi" base="3d"/>
 			<strength>10</strength>
 			<accuracy>2</accuracy>
 			<range>190/2,100</range>
@@ -4943,7 +4943,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .357M: magazine</description>
 		<legality_class>4</legality_class>
@@ -4953,7 +4953,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Revolver, .357M: reload</description>
 		<legality_class>4</legality_class>
@@ -4964,7 +4964,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Rope, 1/4"</description>
 		<legality_class>4</legality_class>
@@ -4976,7 +4976,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Rope, 3/8"</description>
 		<legality_class>4</legality_class>
@@ -4988,7 +4988,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sai</description>
 		<legality_class>4</legality_class>
@@ -4996,7 +4996,7 @@
 		<weight>1.5 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>7</strength>
 			<usage>Jitte/Sai</usage>
 			<reach>1</reach>
@@ -5023,7 +5023,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr imp</damage>
+			<damage type="imp" st="thr"/>
 			<strength>7</strength>
 			<usage>Jitte/Sai</usage>
 			<reach>1</reach>
@@ -5050,7 +5050,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>7</strength>
 			<usage>Main-Gauche</usage>
 			<reach>1</reach>
@@ -5092,7 +5092,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr imp</damage>
+			<damage type="imp" st="thr"/>
 			<strength>7</strength>
 			<usage>Main-Gauche</usage>
 			<reach>1</reach>
@@ -5138,7 +5138,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Scanner Pen</description>
 		<legality_class>4</legality_class>
@@ -5150,7 +5150,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Scope, Thermal Imaging</description>
 		<legality_class>4</legality_class>
@@ -5162,7 +5162,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Scopes</description>
 		<legality_class>4</legality_class>
@@ -5174,7 +5174,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Scuba Gear</description>
 		<legality_class>4</legality_class>
@@ -5190,7 +5190,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Scuba Gear</description>
 		<legality_class>4</legality_class>
@@ -5206,7 +5206,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Search Endoscope</description>
 		<legality_class>4</legality_class>
@@ -5218,7 +5218,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Shoes</description>
 		<legality_class>4</legality_class>
@@ -5234,7 +5234,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Shoes, Climbing</description>
 		<legality_class>4</legality_class>
@@ -5252,15 +5252,17 @@
 		<skill_bonus>
 			<name compare="is">Climbing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Stealth</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Shovel, Folding</description>
 		<legality_class>4</legality_class>
@@ -5268,7 +5270,7 @@
 		<weight>3 lb</weight>
 		<reference>ACT1:30</reference>
 		<melee_weapon>
-			<damage>sw+2 cut</damage>
+			<damage type="cut" st="sw" base="+2"/>
 			<strength>11</strength>
 			<usage>Swung</usage>
 			<reach>1</reach>
@@ -5299,7 +5301,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Shuriken</description>
 		<legality_class>4</legality_class>
@@ -5307,7 +5309,7 @@
 		<weight>0.1 lb</weight>
 		<reference>ACT3:20</reference>
 		<melee_weapon>
-			<damage>thr-2 cut</damage>
+			<damage type="cut" st="thr" base="-2"/>
 			<reach>C</reach>
 			<parry>0</parry>
 			<block>no</block>
@@ -5330,7 +5332,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sight, Night</description>
 		<legality_class>4</legality_class>
@@ -5342,7 +5344,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sight, Reflex</description>
 		<legality_class>4</legality_class>
@@ -5354,7 +5356,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Silencers</description>
 		<legality_class>4</legality_class>
@@ -5366,7 +5368,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Silencers, Rifle</description>
 		<legality_class>4</legality_class>
@@ -5378,7 +5380,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sledgehammer</description>
 		<legality_class>4</legality_class>
@@ -5386,7 +5388,7 @@
 		<weight>15 lb</weight>
 		<reference>ACT1:30</reference>
 		<melee_weapon>
-			<damage>sw+4 cr</damage>
+			<damage type="cr" st="sw" base="+4"/>
 			<strength>13&#8225;</strength>
 			<usage>Swung</usage>
 			<reach>1,2*</reach>
@@ -5421,7 +5423,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sleeves, Ballistic</description>
 		<legality_class>4</legality_class>
@@ -5437,7 +5439,7 @@
 			<amount>2</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SMG, .45</description>
 		<legality_class>4</legality_class>
@@ -5445,7 +5447,7 @@
 		<weight>6.5 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d+1 pi+</damage>
+			<damage type="pi+" base="2d+1"/>
 			<strength>8&#8224;</strength>
 			<accuracy>3</accuracy>
 			<range>160/1,700</range>
@@ -5516,7 +5518,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SMG, .45: magazine</description>
 		<legality_class>4</legality_class>
@@ -5526,7 +5528,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SMG, .45: reload</description>
 		<legality_class>4</legality_class>
@@ -5537,7 +5539,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SMG, 9mm</description>
 		<legality_class>4</legality_class>
@@ -5545,7 +5547,7 @@
 		<weight>6 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>3d-1 pi</damage>
+			<damage type="pi" base="3d-1"/>
 			<strength>8&#8224;</strength>
 			<accuracy>4</accuracy>
 			<range>170/1,900</range>
@@ -5616,7 +5618,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SMG, 9mm: magazine</description>
 		<legality_class>4</legality_class>
@@ -5626,7 +5628,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SMG, 9mm: reload</description>
 		<legality_class>4</legality_class>
@@ -5637,7 +5639,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sniper Rifle, .50</description>
 		<legality_class>4</legality_class>
@@ -5645,7 +5647,7 @@
 		<weight>35 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>6dx2 pi+</damage>
+			<damage type="pi+" base="6dx2"/>
 			<strength>13B&#8224;</strength>
 			<accuracy>6+3</accuracy>
 			<range>1,700/6,500</range>
@@ -5716,7 +5718,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sniper Rifle, .50: magazine</description>
 		<legality_class>4</legality_class>
@@ -5726,7 +5728,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sniper Rifle, .50: reload</description>
 		<legality_class>4</legality_class>
@@ -5737,7 +5739,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sniper Rifle, 7.62mm</description>
 		<legality_class>4</legality_class>
@@ -5745,7 +5747,7 @@
 		<weight>15 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>7d pi</damage>
+			<damage type="pi" base="7d"/>
 			<strength>11B&#8224;</strength>
 			<accuracy>5+3</accuracy>
 			<range>1,000/4,200</range>
@@ -5816,7 +5818,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sniper Rifle, 7.62mm: magazine</description>
 		<legality_class>4</legality_class>
@@ -5826,7 +5828,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sniper Rifle, 7.62mm: reload</description>
 		<legality_class>4</legality_class>
@@ -5837,7 +5839,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Snub Revolver, .38</description>
 		<legality_class>4</legality_class>
@@ -5845,7 +5847,7 @@
 		<weight>1.2 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>2d-1 pi</damage>
+			<damage type="pi" base="2d-1"/>
 			<strength>9</strength>
 			<accuracy>1</accuracy>
 			<range>90/1,000</range>
@@ -5903,7 +5905,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Snub Revolver, .38: magazine</description>
 		<legality_class>4</legality_class>
@@ -5913,7 +5915,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Snub Revolver, .38: reload</description>
 		<legality_class>4</legality_class>
@@ -5924,7 +5926,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Space Pen</description>
 		<legality_class>4</legality_class>
@@ -5934,7 +5936,7 @@
 			<category>Personal Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Speedboat</description>
 		<legality_class>4</legality_class>
@@ -5945,7 +5947,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Spike Strip</description>
 		<legality_class>4</legality_class>
@@ -5957,7 +5959,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sports Bike</description>
 		<legality_class>4</legality_class>
@@ -5968,7 +5970,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sports Car</description>
 		<legality_class>4</legality_class>
@@ -5979,7 +5981,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Spotting Scope</description>
 		<legality_class>4</legality_class>
@@ -5991,7 +5993,7 @@
 			<category>Optics</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Stethoscope, Electronic</description>
 		<legality_class>4</legality_class>
@@ -6003,7 +6005,7 @@
 			<category>Burglary</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Stun Gun</description>
 		<legality_class>4</legality_class>
@@ -6011,7 +6013,7 @@
 		<weight>0.5 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>HT-3(0.5) aff</damage>
+			<damage type="HT-3(0.5) aff"/>
 			<strength>2</strength>
 			<reach>C</reach>
 			<parry>No</parry>
@@ -6031,7 +6033,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Suction Cups</description>
 		<legality_class>4</legality_class>
@@ -6043,7 +6045,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sunglasses</description>
 		<legality_class>4</legality_class>
@@ -6058,7 +6060,7 @@
 			<amount>1</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sunglasses, Ballistic</description>
 		<legality_class>4</legality_class>
@@ -6073,7 +6075,7 @@
 			<amount>4</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Surveillance Endoscope</description>
 		<legality_class>4</legality_class>
@@ -6085,7 +6087,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SUV</description>
 		<legality_class>4</legality_class>
@@ -6096,7 +6098,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Switchblade</description>
 		<legality_class>4</legality_class>
@@ -6104,7 +6106,7 @@
 		<weight>0.5 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>sw-3 cut</damage>
+			<damage type="cut" st="sw" base="-3"/>
 			<strength>5</strength>
 			<usage>swing</usage>
 			<reach>C,1</reach>
@@ -6131,7 +6133,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr-1 imp</damage>
+			<damage type="imp" st="thr" base="-1"/>
 			<strength>5</strength>
 			<usage>thrust</usage>
 			<reach>C</reach>
@@ -6162,7 +6164,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Sword Cane</description>
 		<legality_class>4</legality_class>
@@ -6170,7 +6172,7 @@
 		<weight>2.5 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>thr+1 imp</damage>
+			<damage type="imp" st="thr" base="+1"/>
 			<strength>6</strength>
 			<reach>1</reach>
 			<parry>0F</parry>
@@ -6210,7 +6212,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tactical Folding Knife</description>
 		<legality_class>4</legality_class>
@@ -6218,7 +6220,7 @@
 		<weight>0.5 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>sw-3 cut</damage>
+			<damage type="cut" st="sw" base="-3"/>
 			<strength>5</strength>
 			<usage>swing</usage>
 			<reach>C,1</reach>
@@ -6245,7 +6247,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr-1 imp</damage>
+			<damage type="imp" st="thr" base="-1"/>
 			<strength>5</strength>
 			<usage>thrust</usage>
 			<reach>C</reach>
@@ -6276,7 +6278,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tactical Lights, Large</description>
 		<legality_class>4</legality_class>
@@ -6288,7 +6290,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tactical Lights, Small</description>
 		<legality_class>4</legality_class>
@@ -6300,7 +6302,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Targeting Lasers</description>
 		<legality_class>4</legality_class>
@@ -6312,7 +6314,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Targeting Lasers, Long Arm</description>
 		<legality_class>4</legality_class>
@@ -6324,7 +6326,7 @@
 			<category>Combat Accessories</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Taser</description>
 		<legality_class>4</legality_class>
@@ -6332,7 +6334,7 @@
 		<weight>1.1 lb</weight>
 		<reference>ACT1:32</reference>
 		<ranged_weapon>
-			<damage>1d-3 pi-</damage>
+			<damage type="pi-" base="1d-3"/>
 			<strength>7</strength>
 			<accuracy>0</accuracy>
 			<range>7</range>
@@ -6387,14 +6389,14 @@
 			</default>
 		</ranged_weapon>
 		<ranged_weapon>
-			<damage>HT-5(0.5) aff</damage>
+			<damage type="HT-5(0.5) aff"/>
 			<usage>follow-up</usage>
 		</ranged_weapon>
 		<categories>
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Taser: reload</description>
 		<legality_class>4</legality_class>
@@ -6405,7 +6407,7 @@
 			<category>Ammunition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Thermite</description>
 		<legality_class>4</legality_class>
@@ -6417,7 +6419,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Thru-Wall Radar</description>
 		<legality_class>4</legality_class>
@@ -6429,7 +6431,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Timer</description>
 		<legality_class>4</legality_class>
@@ -6441,7 +6443,7 @@
 			<category>Demolition</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tonfa</description>
 		<legality_class>4</legality_class>
@@ -6449,7 +6451,7 @@
 		<weight>1.5 lb</weight>
 		<reference>ACT1:33</reference>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>-</strength>
 			<usage>Brawl</usage>
 			<reach>C</reach>
@@ -6466,7 +6468,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>7</strength>
 			<usage>Lunge</usage>
 			<reach>C,1</reach>
@@ -6488,7 +6490,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>7</strength>
 			<usage>Swing</usage>
 			<reach>1</reach>
@@ -6500,7 +6502,7 @@
 			<category>Weapons</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tool Kit, Mini (@Skill@)</description>
 		<legality_class>4</legality_class>
@@ -6512,7 +6514,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tool Kit, Mini (Electronics Repair)</description>
 		<legality_class>4</legality_class>
@@ -6524,7 +6526,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tool Kit, Mini (Electronics Repair)</description>
 		<legality_class>4</legality_class>
@@ -6536,7 +6538,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Tool Kit, Shop (@Skill@)</description>
 		<legality_class>4</legality_class>
@@ -6548,7 +6550,7 @@
 			<category>Tools</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Truth Serum</description>
 		<legality_class>4</legality_class>
@@ -6559,7 +6561,7 @@
 			<category>Security</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>TV Set, Mini</description>
 		<legality_class>4</legality_class>
@@ -6571,7 +6573,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Van</description>
 		<legality_class>4</legality_class>
@@ -6582,7 +6584,7 @@
 			<category>Vehicles</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Vest, Advanced</description>
 		<legality_class>4</legality_class>
@@ -6598,7 +6600,7 @@
 			<amount>35</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Vest, Assault</description>
 		<legality_class>4</legality_class>
 		<value>900</value>
@@ -6617,7 +6619,7 @@
 			<amount>5</amount>
 		</dr_bonus>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Vest, Assault: Trauma Plates</description>
 		<legality_class>4</legality_class>
@@ -6632,7 +6634,7 @@
 			<amount>23</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Vest, Concealable</description>
 		<legality_class>4</legality_class>
@@ -6648,7 +6650,7 @@
 			<amount>5</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Recorder, Digital</description>
 		<legality_class>4</legality_class>
@@ -6659,7 +6661,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Voice Modulator</description>
 		<legality_class>4</legality_class>
@@ -6670,7 +6672,7 @@
 			<category>Trickery</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Wakizashi</description>
 		<legality_class>4</legality_class>
@@ -6678,7 +6680,7 @@
 		<weight>2 lb</weight>
 		<reference>ACT3:21</reference>
 		<melee_weapon>
-			<damage>sw cut</damage>
+			<damage type="cut" st="sw"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -6724,7 +6726,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr+1 imp</damage>
+			<damage type="imp" st="thr" base="+1"/>
 			<strength>8</strength>
 			<reach>1</reach>
 			<parry>0</parry>
@@ -6774,7 +6776,7 @@
 			<category>Melee Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Whistle</description>
 		<legality_class>4</legality_class>
@@ -6788,7 +6790,7 @@
 			<amount>4</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Winch</description>
 		<legality_class>4</legality_class>
@@ -6800,7 +6802,7 @@
 			<category>Infiltration</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Wire Rat Kit</description>
 		<legality_class>4</legality_class>
@@ -6811,7 +6813,7 @@
 			<category>Surveillance</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Wristwatch</description>
 		<legality_class>4</legality_class>
@@ -6825,7 +6827,7 @@
 			<amount>4</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Wristwatch (Fine)</description>
 		<legality_class>4</legality_class>
 		<value>500</value>
@@ -6835,7 +6837,7 @@
 			<category>Personal Accessories</category>
 		</categories>
 	</equipment_container>
-	<equipment_container version="3" open="yes">
+	<equipment_container version="6" open="yes">
 		<description>Wristwatch (Good)</description>
 		<legality_class>4</legality_class>
 		<value>125</value>

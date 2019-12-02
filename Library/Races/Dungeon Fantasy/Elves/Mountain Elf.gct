@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz7cfh6:1nq0xawj8s4mv" version="1">
+<template id="5edee398-5bc1-49ff-ac1c-9c55b2a470cf" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Mountian Elf</name>
 			<reference>DF3:7</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Vision</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -18,7 +18,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Strength</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -33,17 +33,17 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Elven Gear</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:6</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Electric blue hair</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -63,7 +63,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Loner</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -73,7 +73,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Magery</name>
 				<type>Mental, Supernatural</type>
 				<levels>0</levels>
@@ -126,26 +126,31 @@
 				</categories>
 				<spell_bonus all_colleges="yes">
 					<amount per_level="yes">1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<skill_bonus>
 					<name compare="is">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<spell_bonus>
 					<college_name compare="is">Clerical</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Druid</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 				<spell_bonus>
 					<college_name compare="is">Unholy</college_name>
 					<amount per_level="yes">-1</amount>
+					<category compare="is anything"></category>
 				</spell_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Perfect Balance</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -156,20 +161,23 @@
 				<skill_bonus>
 					<name compare="starts with">piloting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">acrobatics</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sense of Duty</name>
 				<type>Mental</type>
 				<base_points>-15</base_points>
@@ -179,7 +187,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telescopic Vision</name>
 				<type>Physical</type>
 				<levels>1</levels>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="0bc8abc6-e3d0-48e9-9418-de76d4d9366e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Male Troll</name>
 			<reference>F111</reference>
 			<notes>Features: Night Vision 8 (visually impaired by day)</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -22,7 +22,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -37,7 +37,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>2</levels>
@@ -52,7 +52,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>10</levels>
@@ -86,7 +86,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Size Modifier</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -96,9 +96,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Hearing</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -112,7 +112,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Amphibious</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -121,7 +121,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Breath-Holding</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -131,7 +131,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Combat Reflexes</name>
 					<type>Mental</type>
 					<base_points>15</base_points>
@@ -143,6 +143,7 @@
 					<skill_bonus>
 						<name compare="starts with">fast-draw</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<attribute_bonus>
@@ -168,7 +169,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>4</levels>
@@ -328,7 +329,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Discriminatory Smell</name>
 					<type>Physical, Exotic</type>
 					<base_points>15</base_points>
@@ -349,7 +350,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extended Lifespan</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -359,7 +360,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fearlessness</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -369,7 +370,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Eidetic Memory</name>
 					<type>Mental</type>
 					<base_points>5</base_points>
@@ -390,9 +391,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -480,7 +481,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bad Temper</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -490,7 +491,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Disturbing Voice</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -501,31 +502,37 @@
 					<skill_bonus>
 						<name compare="is">diplomacy</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">fast-talk</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">performance</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">public speaking</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">sex appeal</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">singing</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<prereq_list all="yes">
@@ -535,7 +542,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dyslexia</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -544,7 +551,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Gluttony</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -554,7 +561,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Nocturnal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
@@ -569,7 +576,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Odious Racial Habit</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -596,7 +603,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Stigma (Monster)</name>
 					<type>Social</type>
 					<base_points>-15</base_points>
@@ -608,28 +615,29 @@
 					<skill_bonus>
 						<name compare="is">intimidation</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Code of Honor (Carries out spoken agreements)</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Uncongenial</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Female Troll</name>
 			<reference>F111</reference>
 			<notes>Features: Night Vision 8 (visually impaired by day)</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -644,7 +652,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -659,7 +667,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>2</levels>
@@ -674,7 +682,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -708,7 +716,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Size Modifier</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -718,9 +726,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Hearing</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -734,7 +742,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Amphibious</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -743,7 +751,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Breath-Holding</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -753,7 +761,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -913,7 +921,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Discriminatory Smell</name>
 					<type>Physical, Exotic</type>
 					<base_points>15</base_points>
@@ -934,7 +942,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extended Lifespan</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -944,7 +952,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fearlessness</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -954,7 +962,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Magery</name>
 					<type>Mental, Supernatural</type>
 					<levels>4</levels>
@@ -1007,14 +1015,16 @@
 					</categories>
 					<spell_bonus all_colleges="yes">
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 					<skill_bonus>
 						<name compare="is">thaumatology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Eidetic Memory</name>
 					<type>Mental</type>
 					<base_points>5</base_points>
@@ -1034,7 +1044,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Single-Minded</name>
 					<type>Mental</type>
 					<base_points>5</base_points>
@@ -1044,9 +1054,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -1134,7 +1144,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Disturbing Voice</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -1145,31 +1155,37 @@
 					<skill_bonus>
 						<name compare="is">diplomacy</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">fast-talk</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">performance</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">public speaking</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">sex appeal</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">singing</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<prereq_list all="yes">
@@ -1179,7 +1195,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dyslexia</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -1188,7 +1204,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Nocturnal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
@@ -1203,7 +1219,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Odious Racial Habit</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -1230,7 +1246,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Stigma (Monster)</name>
 					<type>Social</type>
 					<base_points>-15</base_points>
@@ -1242,15 +1258,16 @@
 					<skill_bonus>
 						<name compare="is">intimidation</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Proud</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Uncongenial</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>

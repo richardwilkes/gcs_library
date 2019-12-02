@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="0295898c-2cd2-4659-a899-4cc62602fc7b" version="1">
+<template id="0295898c-2cd2-4659-a899-4cc62602fc7b" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Han Chinese Alpha</name>
 			<modifier version="1" enabled="no">
 				<name>Male</name>
@@ -14,7 +14,7 @@
 				<category>Chinese</category>
 				<category>Upgrade</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -28,7 +28,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -116,7 +116,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Longevity</name>
 				<type>Physical</type>
 				<base_points>2</base_points>
@@ -125,7 +125,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -172,7 +172,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Easy childbirth</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -182,7 +182,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Light menses</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -192,7 +192,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo trait: Genetic defects</name>
 				<type>Physical</type>
 				<reference>TS135</reference>
@@ -201,7 +201,7 @@
 					<category>Upgrade</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo trait: Mental instability</name>
 				<type>Mental</type>
 				<reference>TS135</reference>

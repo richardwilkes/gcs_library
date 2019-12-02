@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="9f856966-2856-48f5-aa20-f9bb13a5e9e7" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Merfolk</name>
 			<reference>BS195</reference>
 			<notes>Features: Aquatic</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Enhanced Move (Water: @New Move@)</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -63,7 +63,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Doesn't Breathe</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
@@ -132,7 +132,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Nictitating Membrane</name>
 					<type>Physical, Exotic</type>
 					<levels>5</levels>
@@ -142,7 +142,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Pressure Support</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -152,7 +152,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Scanning Sense</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -270,7 +270,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Slippery</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -282,10 +282,11 @@
 					<skill_bonus>
 						<name compare="is">escape</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Speak Underwater</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -301,9 +302,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dependency (Water)</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="a5486ff1-565e-48b2-b30e-efab3dd8eb71" version="3">
+<character id="a5486ff1-565e-48b2-b30e-efab3dd8eb71" version="4">
 	<created_date>Feb 16, 2014</created_date>
-	<modified_date>Mar 18, 2018 1:27 PM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Red Deer</name>
 		<age>0</age>
@@ -25,12 +25,12 @@
 	<include_kick>true</include_kick>
 	<include_kick_with_boots>true</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hooves</name>
 			<type>Physical</type>
 			<base_points>3</base_points>
 			<melee_weapon>
-				<damage>thr:+1 cr</damage>
+				<damage type="cr" st="thr" modifier_per_die="1"/>
 				<usage>Trample</usage>
 				<reach>C,1</reach>
 				<parry>No</parry>
@@ -60,7 +60,7 @@
 				<amount>1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Horizontal</name>
 			<type>Physical, Exotic</type>
 			<base_points>-10</base_points>
@@ -70,39 +70,39 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Wild Animal</name>
 			<reference>B263</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bestial</name>
 				<type>Mental, Exotic</type>
 				<base_points>-10</base_points>
 				<reference>B124</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak</name>
 				<type>Physical</type>
 				<base_points>-15</base_points>
 				<reference>B125</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
 				<reference>B138</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo Trait (Fixed IQ)</name>
 				<type>Physical</type>
 				<reference>B263</reference>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striker, Impaling (Antlers)</name>
 			<type>Physical, Exotic</type>
 			<base_points>8</base_points>
 			<melee_weapon>
-				<damage>thr:+1 imp</damage>
+				<damage type="imp" st="thr" modifier_per_die="1"/>
 				<reach>C</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -122,7 +122,7 @@
 				<category>Animal</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Weak Bite</name>
 			<type>Physical, Exotic</type>
 			<base_points>-2</base_points>
@@ -143,6 +143,8 @@
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

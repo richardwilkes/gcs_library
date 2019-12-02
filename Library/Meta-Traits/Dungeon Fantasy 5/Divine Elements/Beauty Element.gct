@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ilitakan:1enwkc6l3mivq" version="1">
+<template id="2d5d0e23-dc80-4c4f-93c2-3dc9a0beb129" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Beauty Element</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Beauty</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -93,7 +93,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Awe</name>
 					<type>Mental, Supernatural</type>
 					<levels>0</levels>
@@ -123,9 +123,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Beauty (Doubled)</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Charisma</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -138,25 +138,29 @@
 					<skill_bonus>
 						<name compare="is">fortune-telling</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">leadership</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">panhandling</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">public speaking</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Mind Control</name>
 					<type>Mental, Exotic</type>
 					<base_points>50</base_points>
@@ -222,11 +226,11 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Beauty</name>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>Beauty</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Sex Appeal</name>
 					<difficulty>HT/A</difficulty>
 					<points>1</points>

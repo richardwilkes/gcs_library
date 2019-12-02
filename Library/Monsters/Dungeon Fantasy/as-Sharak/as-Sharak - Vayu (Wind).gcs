@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="e5b3c7c2-9868-47be-9809-85bcfc2b349d" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 12:16 PM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>as-Sharak, Vayu (Wind)</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Demon</race>
-		<notes>Agni (Fire) as-Sharak (DF2:21)
-
-The as-Sharak are elemental sorcerers who sold their souls for power... only to be turned into monsters in Hell and returned to the living world to punish similarly arrogant mortals. With the physique of great cats (but upright, like men) and some of the magical powers they so craved as mortals -- but their mind shattered by madness -- these demons guard troves of hidden lore, lying in wait for power-hungry wizards. They believe that taking sufficient mortal lives will eventually break their curse.
-
-Notes: Some wear armor; if so, add armor DR to natural DR 2.Treat a shamshir as an ordinary cavalry saber (p. B271). Wizard as-Sharak with IQ 12+, Magery 2+, and spells are rumored to exist. Unwilling to negotiate. Truly evil.
-
-Rending Storm:
-    Innate Attack (Breath), Base Cost (Crush): 5/die
-    Damage (5d+1): 5.33 dice
-    Cone, 5yards: +100%
-    Limited use (1/Day): -40%
-    Reduced Range (1/5): -20%
-    Cost = (5 * 5.33) @ (+100-40-20)% = 27 @ +40% = 38 pts</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -36,7 +24,7 @@ Rending Storm:
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Enhanced Dodge</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -49,7 +37,7 @@ Rending Storm:
 				<amount>1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -209,12 +197,12 @@ Rending Storm:
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>BIte</name>
 			<type>Physical, Exotic</type>
 			<base_points>1</base_points>
 			<melee_weapon>
-				<damage>thr-1 cut</damage>
+				<damage type="cut" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -234,12 +222,12 @@ Rending Storm:
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Front Claw</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
 			<melee_weapon>
-				<damage>thr-1 cut</damage>
+				<damage type="cut" st="thr" base="-1"/>
 				<usage>Slash</usage>
 				<reach>C</reach>
 				<parry>0</parry>
@@ -269,12 +257,12 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hind Claw</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
 			<melee_weapon>
-				<damage>thr cut</damage>
+				<damage type="cut" st="thr"/>
 				<usage>Kick</usage>
 				<reach>C,1</reach>
 				<parry>No</parry>
@@ -299,7 +287,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Combat Reflexes</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -311,6 +299,7 @@ Rending Storm:
 			<skill_bonus>
 				<name compare="starts with">fast-draw</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 			<attribute_bonus>
@@ -336,7 +325,7 @@ Rending Storm:
 				</advantage_prereq>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Detect (Supernatural)</name>
 			<type>Mental/Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -393,7 +382,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Breathe</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -462,7 +451,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Eat or Drink</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -471,7 +460,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -480,7 +469,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Higher Purpose</name>
 			<type>Mental, Exotic</type>
 			<base_points>5</base_points>
@@ -490,7 +479,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity to Metabolic Hazards</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -538,7 +527,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Indomitable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -547,7 +536,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (No Blood, No Vitals)</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -556,7 +545,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Night Vision</name>
 			<type>Physical</type>
 			<levels>5</levels>
@@ -566,7 +555,7 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Supernatural Durability</name>
 			<type>Physical, Supernatural</type>
 			<base_points>150</base_points>
@@ -576,12 +565,12 @@ Rending Storm:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Rending Storm</name>
 			<type>Physical, Exotic</type>
 			<base_points>38</base_points>
 			<ranged_weapon>
-				<damage>5d+1 cr</damage>
+				<damage type="cr" base="5d+1"/>
 				<accuracy>3</accuracy>
 				<range>20/2</range>
 				<rate_of_fire>1</rate_of_fire>
@@ -814,7 +803,7 @@ Rending Storm:
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>4</points>
@@ -827,10 +816,11 @@ Rending Storm:
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Broadsword</name>
 			<difficulty>DX/A</difficulty>
 			<points>8</points>
@@ -869,7 +859,7 @@ Rending Storm:
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Innate Attack</name>
 			<specialization>Breath</specialization>
 			<difficulty>DX/E</difficulty>
@@ -889,7 +879,7 @@ Rending Storm:
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Stealth</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
@@ -911,7 +901,7 @@ Rending Storm:
 		</skill>
 	</skill_list>
 	<equipment_list>
-		<equipment version="3" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Shamshir</description>
 			<tech_level>4</tech_level>
@@ -920,7 +910,7 @@ Rending Storm:
 			<weight>3 lb</weight>
 			<reference>B271</reference>
 			<melee_weapon>
-				<damage>sw+1 cut</damage>
+				<damage type="cut" st="sw" base="+1"/>
 				<strength>10</strength>
 				<usage>Swung</usage>
 				<reach>1</reach>
@@ -967,7 +957,7 @@ Rending Storm:
 				</default>
 			</melee_weapon>
 			<melee_weapon>
-				<damage>thr+1 imp</damage>
+				<damage type="imp" st="thr" base="+1"/>
 				<strength>10</strength>
 				<usage>Thrust</usage>
 				<reach>1</reach>
@@ -1018,7 +1008,24 @@ Rending Storm:
 			</categories>
 		</equipment>
 	</equipment_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Agni (Fire) as-Sharak (DF2:21)
+
+The as-Sharak are elemental sorcerers who sold their souls for power... only to be turned into monsters in Hell and returned to the living world to punish similarly arrogant mortals. With the physique of great cats (but upright, like men) and some of the magical powers they so craved as mortals -- but their mind shattered by madness -- these demons guard troves of hidden lore, lying in wait for power-hungry wizards. They believe that taking sufficient mortal lives will eventually break their curse.
+
+Notes: Some wear armor; if so, add armor DR to natural DR 2.Treat a shamshir as an ordinary cavalry saber (p. B271). Wizard as-Sharak with IQ 12+, Magery 2+, and spells are rumored to exist. Unwilling to negotiate. Truly evil.
+
+Rending Storm:
+    Innate Attack (Breath), Base Cost (Crush): 5/die
+    Damage (5d+1): 5.33 dice
+    Cone, 5yards: +100%
+    Limited use (1/Day): -40%
+    Reduced Range (1/5): -20%
+    Cost = (5 * 5.33) @ (+100-40-20)% = 27 @ +40% = 38 pts</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -1028,6 +1035,8 @@ Rending Storm:
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

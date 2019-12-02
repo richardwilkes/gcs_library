@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz5b30y:7l488dd542gm" version="1">
+<template id="82d79a23-0b67-443a-aefa-f7d67124fe0e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Coleopteran</name>
 			<reference>DF3:5</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>360&#176; Vision</name>
 				<type>Physical, Exotic</type>
 				<base_points>25</base_points>
@@ -32,7 +32,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -120,7 +120,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>5</levels>
@@ -240,7 +240,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Intelligence</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -255,7 +255,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Disturbing Voice</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
@@ -270,7 +270,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Arm</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -331,7 +331,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Attack</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -354,11 +354,11 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature (Cannot learn non-insect languages above Accented.)</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -373,7 +373,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>1</levels>
@@ -388,7 +388,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -422,12 +422,12 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Sharp</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Bite</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -447,7 +447,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vibration Sense (Air)</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>

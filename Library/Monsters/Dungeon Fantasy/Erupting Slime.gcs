@@ -1,26 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="aa635d49-7af1-4b02-aa95-48a96b0cbc59" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 11:39 AM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Erupting Slime</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Slime</race>
-		<notes>Erupting Slime (DF2:23)
-
-Most slime is only dangerous if touched or if it drips on a careless delver. This one is unusual in that it oozes around, spewing globs of toxic gunk at anything that moves, with the goal of killing the target in order to engulf it and thus reproduce. Left undestroyed in an area with dead bodies, erupting slime will convert a body into a new slime in an hour. This doubling will continue until the slimes run out of corpses. Someone turned to slime cannot be resurrected!
-
-Notes: Nonsentient -- can't communicate or negotiate. Unaffected by Animal or Plant spells that don't specifically target slimes. A dead slime can be used (or sold) as one dose of Oozing Doom.
-
-Slimeball:
-    Innate Attack (Projectile), Base Cost (Toxic): 4/die
-    Damage (2d): 2 dice
-    Contact Agent: +150%
-    Cosmic, Irresistible attack (Ignores DR): +300%
-    Onset: DR seconds : -0%
-    Partial Resistance: Damage reduced by half with successful HT roll: -12.5%
-    Cost = (4 * 2) @ (+150+300-12.5)% = 43 pts</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>10</HP>
 	<FP>0</FP>
@@ -37,7 +24,7 @@ Slimeball:
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Amphibious</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -46,7 +33,7 @@ Slimeball:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Breathe</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -115,7 +102,7 @@ Slimeball:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -124,7 +111,7 @@ Slimeball:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
@@ -134,7 +121,7 @@ Slimeball:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity to Metabolic Hazards</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -182,7 +169,7 @@ Slimeball:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (Diffuse)</name>
 			<type>Physical, Exotic</type>
 			<base_points>100</base_points>
@@ -210,7 +197,7 @@ Slimeball:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Invertebrate</name>
 			<type>Physical, Exotic</type>
 			<base_points>-20</base_points>
@@ -219,7 +206,7 @@ Slimeball:
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Legs (Slithers)</name>
 			<type>Physical, Exotic</type>
 			<reference>B145</reference>
@@ -227,7 +214,7 @@ Slimeball:
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Manipulators</name>
 			<type>Physical</type>
 			<base_points>-50</base_points>
@@ -244,7 +231,7 @@ Slimeball:
 				<percentage>40</percentage>
 			</cost_reduction>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Vibration Sense (Air)</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -271,12 +258,12 @@ Slimeball:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Slimeball</name>
 			<type>Physical, Exotic</type>
 			<base_points>43</base_points>
 			<ranged_weapon>
-				<damage>2d tox</damage>
+				<damage type="tox" base="2d"/>
 				<accuracy>3</accuracy>
 				<range>100/10</range>
 				<rate_of_fire>1</rate_of_fire>
@@ -515,7 +502,7 @@ Slimeball:
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Innate Attack</name>
 			<specialization>Projectile</specialization>
 			<difficulty>DX/E</difficulty>
@@ -536,7 +523,25 @@ Slimeball:
 			</default>
 		</skill>
 	</skill_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Erupting Slime (DF2:23)
+
+Most slime is only dangerous if touched or if it drips on a careless delver. This one is unusual in that it oozes around, spewing globs of toxic gunk at anything that moves, with the goal of killing the target in order to engulf it and thus reproduce. Left undestroyed in an area with dead bodies, erupting slime will convert a body into a new slime in an hour. This doubling will continue until the slimes run out of corpses. Someone turned to slime cannot be resurrected!
+
+Notes: Nonsentient -- can't communicate or negotiate. Unaffected by Animal or Plant spells that don't specifically target slimes. A dead slime can be used (or sold) as one dose of Oozing Doom.
+
+Slimeball:
+    Innate Attack (Projectile), Base Cost (Toxic): 4/die
+    Damage (2d): 2 dice
+    Contact Agent: +150%
+    Cosmic, Irresistible attack (Ignores DR): +300%
+    Onset: DR seconds : -0%
+    Partial Resistance: Damage reduced by half with successful HT roll: -12.5%
+    Cost = (4 * 2) @ (+150+300-12.5)% = 43 pts</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -546,6 +551,8 @@ Slimeball:
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

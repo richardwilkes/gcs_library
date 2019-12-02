@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="faegrs41:gazocel4uyeu" version="1">
+<template id="b520e088-ecc9-4f46-a871-02347d1adbf6" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Acute Taste &amp; Smell</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -15,7 +15,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Appearance (Hideous)</name>
 			<type>Physical</type>
 			<base_points>-16</base_points>
@@ -24,7 +24,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>3</levels>
@@ -144,7 +144,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Dexterity</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -158,7 +158,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Intelligence</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -172,7 +172,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
@@ -182,7 +182,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Health</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -196,7 +196,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>10</levels>
@@ -215,7 +215,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Magic Resistance</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -231,7 +231,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Night Vision</name>
 			<type>Physical</type>
 			<levels>9</levels>
@@ -241,7 +241,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Odious Personal Habit</name>
 			<type>Physical</type>
 			<base_points>-15</base_points>
@@ -251,7 +251,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Social Stigma (Barbarian)</name>
 			<type>Social</type>
 			<base_points>-10</base_points>
@@ -261,7 +261,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Social Stigma (Uneducated)</name>
 			<type>Social</type>
 			<base_points>-5</base_points>
@@ -272,10 +272,14 @@
 			</categories>
 		</advantage>
 	</advantage_list>
-	<notes>Ogres stand 7 to 8 feet tall; they are half a ton or more of pure muscle. Most are just lone wanderers, haunting the wilderness and eating whatever
+	<note_list>
+		<note version="1">
+			<text>Ogres stand 7 to 8 feet tall; they are half a ton or more of pure muscle. Most are just lone wanderers, haunting the wilderness and eating whatever
 they can kill. Unlike, say, minotaurs, ogres have no particular innate hostility to other races. In the wild, they will react normally to chance encounters unless they are hungry. However, few people wait to see if an ogre wants to be friends. Ogre personalities are as one would expect from large, stupid humans; some are sullen, some just want to be liked. Most enjoy fighting.
 
 To figure height, take ST before the +10 racial modifier, and increase it by 60%. Average weight is 5 times that of a human of the same (pre-modifier) ST.
 
-Some ogres are smarter or more social than the norm, and a minority understand that eating other people is frowned upon. Unfortunately, many of them have a lot more mental disadvantages than listed here, including everything from Bad Temper to Sadism. A tiny number are much smarter than the norm; these ogre geniuses are likely to have Magery instead of Magic Resistance.</notes>
+Some ogres are smarter or more social than the norm, and a minority understand that eating other people is frowned upon. Unfortunately, many of them have a lot more mental disadvantages than listed here, including everything from Bad Temper to Sadism. A tiny number are much smarter than the norm; these ogre geniuses are likely to have Magery instead of Magic Resistance.</text>
+		</note>
+	</note_list>
 </template>

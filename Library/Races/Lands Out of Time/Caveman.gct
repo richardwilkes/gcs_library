@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="c4e658b0-9556-4631-87ba-3a273c4fbae7" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Caveman</name>
 			<reference>LooT12</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -22,9 +22,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Innumerate</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -77,15 +77,15 @@
 				</advantage>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Caveman Varient</name>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Primative Caveman</name>
 				<reference>LooT13</reference>
 				<notes>Add to normal Caveman</notes>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Attributes</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -120,9 +120,9 @@
 						</attribute_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Racial Disadvantage</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Low TL</name>
 						<type>Social</type>
 						<levels>1</levels>

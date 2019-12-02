@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="g2gmtmpp:11xpfirww9a9u" version="1">
+<template id="61e0bf80-ebbb-4ad0-8a34-23d9d300e8de" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Scout</name>
 			<reference>DF1:10</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -91,11 +91,11 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Class Advantages</name>
-				<advantage_container version="2" open="no" type="race">
+				<advantage_container version="3" open="no" type="race">
 					<name>20 Points Chosen From:</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Absolute Direction</name>
 						<type>Mental/Physical</type>
 						<base_points>5</base_points>
@@ -113,26 +113,31 @@
 							<skill_bonus>
 								<name compare="starts with">piloting</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">aerobatics</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">free fall</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">hyperspace</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">space</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 						</modifier>
@@ -143,25 +148,29 @@
 						<skill_bonus>
 							<name compare="is">body sense</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">air</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">land</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">sea</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -175,7 +184,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Combat Reflexes</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -187,6 +196,7 @@
 						<skill_bonus>
 							<name compare="starts with">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<attribute_bonus>
@@ -206,7 +216,7 @@
 							<amount>2</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Danger Sense</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -215,7 +225,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -225,7 +235,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit, Very</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -235,7 +245,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Pain Threshold</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -245,7 +255,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Basic Move</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -261,7 +271,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Basic Speed</name>
 						<type>Physical</type>
 						<levels>4</levels>
@@ -276,7 +286,7 @@
 							<amount per_level="yes">0.25</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Dexterity</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -296,7 +306,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -312,7 +322,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Perception</name>
 						<type>Mental/Physical</type>
 						<levels>1</levels>
@@ -328,7 +338,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -363,7 +373,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -404,7 +414,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Night Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -415,7 +425,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Peripheral Vision</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -431,7 +441,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Rapid Healing</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -443,7 +453,7 @@
 							<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Signature Gear</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -454,7 +464,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Outdoorsman)</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -467,40 +477,47 @@
 						<skill_bonus>
 							<name compare="is">camouflage</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">fishing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">mimicry</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">naturalist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">navigation</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">survival</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">tracking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Weapon Bond</name>
 						<type>Mental</type>
 						<base_points>1</base_points>
@@ -510,7 +527,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Weapon Master (Bow)</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -549,7 +566,7 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Heroic Archer</name>
 					<type>Physical</type>
 					<base_points>20</base_points>
@@ -560,7 +577,7 @@
 						<category>Cinematic</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Talent (Outdoorsman)</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -572,45 +589,52 @@
 					<skill_bonus>
 						<name compare="is">camouflage</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="contains">fishing</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="contains">mimicry</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="contains">naturalist</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="contains">navigation</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="contains">survival</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">tracking</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Class Disadvantages</name>
-				<advantage_container version="2" open="no" type="race">
+				<advantage_container version="3" open="no" type="race">
 					<name>-15 Points chosen from:</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bloodlust</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -620,7 +644,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -631,15 +655,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Greed</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -649,7 +675,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Honesty</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -659,7 +685,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -669,7 +695,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -713,7 +739,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Stubbornness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -723,9 +749,9 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no" type="race">
+				<advantage_container version="3" open="no" type="race">
 					<name>-35 Points Chosen From:</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Pirate's)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -734,7 +760,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Soldier's)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -743,7 +769,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Demophobia (Crowds)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -753,10 +779,10 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="2" open="yes" type="race">
+					<advantage_container version="3" open="yes" type="race">
 						<name>from the previous list or:</name>
 					</advantage_container>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (Urbaniets)</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -788,7 +814,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Loner</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -798,7 +824,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Sense of Humor</name>
 						<type>Physical</type>
 						<base_points>-10</base_points>
@@ -808,7 +834,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Odious Personal Habit</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -835,7 +861,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Paranoia</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -844,7 +870,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Stigma (Disowned, Non-heir)</name>
 						<type>Social</type>
 						<base_points>-5</base_points>
@@ -854,7 +880,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Never sleep indoors)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -880,7 +906,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Own no more than what can be carried)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -908,9 +934,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Secondary Characteristics</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Basic Speed</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -925,7 +951,7 @@
 						<amount per_level="yes">0.25</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>3</levels>
@@ -944,11 +970,11 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Scout</name>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skills</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Bow</name>
 					<difficulty>DX/A</difficulty>
 					<points>16</points>
@@ -962,7 +988,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Camouflage</name>
 					<difficulty>IQ/E</difficulty>
 					<points>2</points>
@@ -981,7 +1007,7 @@
 						<modifier>-2</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Fast-Draw</name>
 					<specialization>Arrow</specialization>
 					<difficulty>DX/E</difficulty>
@@ -992,7 +1018,7 @@
 						<category>Ranged Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Observation</name>
 					<difficulty>Per/A</difficulty>
 					<points>2</points>
@@ -1013,7 +1039,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Tracking</name>
 					<difficulty>Per/A</difficulty>
 					<points>2</points>
@@ -1031,13 +1057,13 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>Choose One Melee Package</name>
-					<skill_container version="2" open="yes">
+					<skill_container version="3" open="yes">
 						<name>Melee 1</name>
-						<skill_container version="2" open="no">
+						<skill_container version="3" open="no">
 							<name>Choose weapon</name>
-							<skill version="2">
+							<skill version="3">
 								<name>Broadsword</name>
 								<difficulty>DX/A</difficulty>
 								<points>8</points>
@@ -1076,7 +1102,7 @@
 									<modifier>-5</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Shortsword</name>
 								<difficulty>DX/A</difficulty>
 								<points>8</points>
@@ -1125,7 +1151,7 @@
 									<modifier>-5</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Spear</name>
 								<difficulty>DX/A</difficulty>
 								<points>8</points>
@@ -1151,7 +1177,7 @@
 							</skill>
 						</skill_container>
 					</skill_container>
-					<skill version="2">
+					<skill version="3">
 						<name>Shield</name>
 						<specialization>Shield</specialization>
 						<difficulty>DX/E</difficulty>
@@ -1166,11 +1192,11 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill_container version="2" open="yes">
+					<skill_container version="3" open="yes">
 						<name>Melee 2</name>
-						<skill_container version="2" open="no">
+						<skill_container version="3" open="no">
 							<name>One of</name>
-							<skill version="2">
+							<skill version="3">
 								<name>Broadsword</name>
 								<difficulty>DX/A</difficulty>
 								<points>12</points>
@@ -1209,7 +1235,7 @@
 									<modifier>-5</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Shortsword</name>
 								<difficulty>DX/A</difficulty>
 								<points>12</points>
@@ -1258,7 +1284,7 @@
 									<modifier>-5</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Spear</name>
 								<difficulty>DX/A</difficulty>
 								<points>12</points>
@@ -1282,7 +1308,7 @@
 									<modifier>-2</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Staff</name>
 								<difficulty>DX/A</difficulty>
 								<points>12</points>
@@ -1310,9 +1336,9 @@
 					</skill_container>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skills</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Climbing</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -1328,7 +1354,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Cartography</name>
 					<tech_level/>
 					<difficulty>IQ/A</difficulty>
@@ -1359,7 +1385,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Gesture</name>
 					<difficulty>IQ/E</difficulty>
 					<points>2</points>
@@ -1372,7 +1398,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hiking</name>
 					<difficulty>HT/A</difficulty>
 					<points>2</points>
@@ -1386,7 +1412,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Mimicry</name>
 					<specialization>Bird Calls</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -1413,9 +1439,9 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>One of</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Navigation</name>
 						<specialization>Land</specialization>
 						<tech_level/>
@@ -1455,7 +1481,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Navigation</name>
 						<specialization>Sea</specialization>
 						<tech_level/>
@@ -1491,7 +1517,7 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill version="2">
+				<skill version="3">
 					<name>Shadowing</name>
 					<difficulty>IQ/A</difficulty>
 					<points>4</points>
@@ -1516,7 +1542,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Stealth</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -1536,7 +1562,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Survival</name>
 					<specialization>@Environment@</specialization>
 					<difficulty>Per/A</difficulty>
@@ -1597,7 +1623,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Traps</name>
 					<tech_level/>
 					<difficulty>IQ/A</difficulty>
@@ -1618,11 +1644,11 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skills</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>8 points in improving primary or secondary skills, or:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Armoury</name>
 						<specialization>Missile Weapons</specialization>
 						<tech_level/>
@@ -1644,7 +1670,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Boating</name>
 						<specialization>Unpowered</specialization>
 						<tech_level/>
@@ -1681,7 +1707,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Brawling</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -1694,10 +1720,11 @@
 							<name compare="is">Brawling</name>
 							<specialization compare="is anything"></specialization>
 							<level compare="at least">2</level>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</weapon_bonus>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Fast-Draw</name>
 						<specialization>@Speciality@</specialization>
 						<difficulty>DX/E</difficulty>
@@ -1708,7 +1735,7 @@
 							<category>Melee Combat</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>First Aid</name>
 						<tech_level/>
 						<difficulty>IQ/E</difficulty>
@@ -1738,7 +1765,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Garrote</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -1752,7 +1779,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Jumping</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -1761,7 +1788,7 @@
 							<category>Athletic</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Knife</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -1790,7 +1817,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Knot-Tying</name>
 						<difficulty>DX/E</difficulty>
 						<points>1</points>
@@ -1813,7 +1840,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Prospecting</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -1832,7 +1859,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Riding</name>
 						<specialization>Equine</specialization>
 						<difficulty>DX/A</difficulty>
@@ -1852,7 +1879,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Seamanship</name>
 						<tech_level/>
 						<difficulty>IQ/E</difficulty>
@@ -1866,7 +1893,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Throwing</name>
 						<difficulty>DX/A</difficulty>
 						<points>1</points>
@@ -1886,7 +1913,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Weather Sense</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -1901,7 +1928,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Wrestling</name>
 						<difficulty>DX/A</difficulty>
 						<points>1</points>
@@ -1916,15 +1943,16 @@
 		</skill_container>
 	</skill_list>
 	<equipment_list>
-		<equipment_container version="3" open="no">
+		<equipment_container version="6" open="no">
 			<description>Bounty Hunter</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<reference>DF13:24</reference>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Boots</description>
 				<tech_level>2</tech_level>
+				<legality_class>4</legality_class>
 				<value>80</value>
 				<weight>3 lb</weight>
 				<reference>B284</reference>
@@ -1936,7 +1964,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Broadsword</description>
 				<tech_level>2</tech_level>
@@ -1945,7 +1973,7 @@
 				<weight>3 lb</weight>
 				<reference>LT55</reference>
 				<melee_weapon>
-					<damage>sw+1 cut</damage>
+					<damage type="cut" st="sw" base="+1"/>
 					<strength>10</strength>
 					<usage>Swing</usage>
 					<reach>1</reach>
@@ -1987,7 +2015,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>thr+1 cr</damage>
+					<damage type="cr" st="thr" base="+1"/>
 					<strength>10</strength>
 					<usage>Thrust</usage>
 					<reach>1</reach>
@@ -2032,7 +2060,7 @@
 					<category>Melee Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Clothing, Ordinary, Freeman (Status 0)</description>
 				<tech_level>0</tech_level>
@@ -2044,7 +2072,7 @@
 					<category>Clothing</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Heavy Leather Leggings</description>
 				<tech_level>1</tech_level>
@@ -2060,7 +2088,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Heavy Leather Sleeves</description>
 				<tech_level>1</tech_level>
@@ -2076,7 +2104,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment_container version="3" open="yes">
+			<equipment_container version="6" open="yes">
 				<description>Hip Quiver, Large</description>
 				<legality_class>4</legality_class>
 				<value>30</value>
@@ -2089,7 +2117,7 @@
 				<prereq_list all="yes">
 					<contained_weight_prereq has="yes" compare="at most">5 lb</contained_weight_prereq>
 				</prereq_list>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>25</quantity>
 					<description>Arrow</description>
 					<tech_level>0</tech_level>
@@ -2101,7 +2129,7 @@
 						<category>Missile Weapon</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>25</quantity>
 					<description>Arrow, Bodkin</description>
 					<tech_level>3</tech_level>
@@ -2115,7 +2143,7 @@
 					</categories>
 				</equipment>
 			</equipment_container>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Leather Armor</description>
 				<tech_level>1</tech_level>
@@ -2135,7 +2163,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Longbow</description>
 				<tech_level>0</tech_level>
@@ -2144,7 +2172,7 @@
 				<weight>3 lb</weight>
 				<reference>LT72</reference>
 				<ranged_weapon>
-					<damage>thr+2 imp</damage>
+					<damage type="imp" st="thr" base="+2"/>
 					<strength>11&#8224;</strength>
 					<usage>Shoot</usage>
 					<accuracy>3</accuracy>
@@ -2166,7 +2194,7 @@
 					<category>Missile Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Pot-Helm</description>
 				<tech_level>3</tech_level>
@@ -2182,7 +2210,7 @@
 					<amount>4</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Small Shield</description>
 				<legality_class>4</legality_class>
@@ -2190,7 +2218,7 @@
 				<weight>8 lb</weight>
 				<reference>B287</reference>
 				<melee_weapon>
-					<damage>thr cr</damage>
+					<damage type="cr" st="thr"/>
 					<strength>0</strength>
 					<usage>Shield Bash</usage>
 					<reach>1</reach>
@@ -2236,12 +2264,12 @@
 				</attribute_bonus>
 			</equipment>
 		</equipment_container>
-		<equipment_container version="3" open="no">
+		<equipment_container version="6" open="no">
 			<description>Ranger</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<reference>DF13:24</reference>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Clothing, Ordinary, Freeman (Status 0)</description>
 				<tech_level>0</tech_level>
@@ -2253,15 +2281,16 @@
 					<category>Clothing</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Heavy Cloak, @Environment@ Camouflage</description>
 				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
 				<value>50</value>
 				<weight>5 lb</weight>
 				<reference>B287,DF13:25</reference>
 				<melee_weapon>
-					<damage>-</damage>
+					<damage type="-"/>
 					<strength>-</strength>
 					<reach>-</reach>
 					<parry>No</parry>
@@ -2273,7 +2302,7 @@
 					</default>
 				</melee_weapon>
 				<ranged_weapon>
-					<damage>Special</damage>
+					<damage type="Special"/>
 					<strength>8</strength>
 					<usage>Thrown</usage>
 					<accuracy>+1</accuracy>
@@ -2318,7 +2347,7 @@
 					<amount>2</amount>
 				</attribute_bonus>
 			</equipment>
-			<equipment_container version="3" open="yes">
+			<equipment_container version="6" open="yes">
 				<description>Hip Quiver</description>
 				<tech_level>0</tech_level>
 				<legality_class>4</legality_class>
@@ -2329,7 +2358,7 @@
 				<categories>
 					<category>Weapon and Combat Accessories</category>
 				</categories>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>20</quantity>
 					<description>Arrow</description>
 					<tech_level>0</tech_level>
@@ -2342,10 +2371,11 @@
 					</categories>
 				</equipment>
 			</equipment_container>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Leather Jacket</description>
 				<tech_level>1</tech_level>
+				<legality_class>4</legality_class>
 				<value>50</value>
 				<weight>4 lb</weight>
 				<reference>B283</reference>
@@ -2361,7 +2391,7 @@
 					<amount>1</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Longbow</description>
 				<tech_level>0</tech_level>
@@ -2370,7 +2400,7 @@
 				<weight>3 lb</weight>
 				<reference>LT72</reference>
 				<ranged_weapon>
-					<damage>thr+2 imp</damage>
+					<damage type="imp" st="thr" base="+2"/>
 					<strength>11&#8224;</strength>
 					<usage>Shoot</usage>
 					<accuracy>3</accuracy>
@@ -2392,7 +2422,7 @@
 					<category>Missile Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Shortsword</description>
 				<tech_level>1</tech_level>
@@ -2401,7 +2431,7 @@
 				<weight>2 lb</weight>
 				<reference>LT61</reference>
 				<melee_weapon>
-					<damage>sw cut</damage>
+					<damage type="cut" st="sw"/>
 					<strength>8</strength>
 					<usage>Swung</usage>
 					<reach>1</reach>
@@ -2453,7 +2483,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>thr+1 imp</damage>
+					<damage type="imp" st="thr" base="+1"/>
 					<strength>8</strength>
 					<usage>Thrust</usage>
 					<reach>1</reach>
@@ -2508,7 +2538,7 @@
 					<category>Melee Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Small Shield</description>
 				<legality_class>4</legality_class>
@@ -2516,7 +2546,7 @@
 				<weight>8 lb</weight>
 				<reference>B287</reference>
 				<melee_weapon>
-					<damage>thr cr</damage>
+					<damage type="cr" st="thr"/>
 					<strength>0</strength>
 					<usage>Shield Bash</usage>
 					<reach>1</reach>
@@ -2562,15 +2592,16 @@
 				</attribute_bonus>
 			</equipment>
 		</equipment_container>
-		<equipment_container version="3" open="no">
+		<equipment_container version="6" open="no">
 			<description>Sharpshooter</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<reference>DF13:24</reference>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Boots</description>
 				<tech_level>2</tech_level>
+				<legality_class>4</legality_class>
 				<value>80</value>
 				<weight>3 lb</weight>
 				<reference>B284</reference>
@@ -2582,7 +2613,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Clothing, Ordinary, Freeman (Status 0)</description>
 				<tech_level>0</tech_level>
@@ -2594,7 +2625,7 @@
 					<category>Clothing</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Composite Crossbow</description>
 				<tech_level>3</tech_level>
@@ -2603,7 +2634,7 @@
 				<weight>7 lb</weight>
 				<reference>LT72</reference>
 				<ranged_weapon>
-					<damage>thr+5 imp</damage>
+					<damage type="imp" st="thr" base="+5"/>
 					<strength>8&#8224;</strength>
 					<usage>Fire Bolt</usage>
 					<accuracy>4</accuracy>
@@ -2625,7 +2656,7 @@
 					<category>Missile Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Heavy Leather Leggings</description>
 				<tech_level>1</tech_level>
@@ -2641,7 +2672,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Heavy Leather Sleeves</description>
 				<tech_level>1</tech_level>
@@ -2657,7 +2688,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment_container version="3" open="yes">
+			<equipment_container version="6" open="yes">
 				<description>Hip Quiver, Large</description>
 				<legality_class>4</legality_class>
 				<value>30</value>
@@ -2670,7 +2701,7 @@
 				<prereq_list all="yes">
 					<contained_weight_prereq has="yes" compare="at most">5 lb</contained_weight_prereq>
 				</prereq_list>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>25</quantity>
 					<description>Arrow, Fine</description>
 					<tech_level>0</tech_level>
@@ -2683,7 +2714,7 @@
 						<category>Missile Weapon</category>
 					</categories>
 				</equipment>
-				<equipment version="3">
+				<equipment version="6">
 					<quantity>25</quantity>
 					<description>Arrow, Fine Bodkin</description>
 					<tech_level>3</tech_level>
@@ -2697,7 +2728,7 @@
 					</categories>
 				</equipment>
 			</equipment_container>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Mail Shirt</description>
 				<tech_level>2</tech_level>
@@ -2713,7 +2744,7 @@
 					<amount>4</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Pot-Helm</description>
 				<tech_level>3</tech_level>
@@ -2729,7 +2760,7 @@
 					<amount>4</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="3">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Quarterstaff</description>
 				<tech_level>0</tech_level>
@@ -2738,7 +2769,7 @@
 				<weight>4 lb</weight>
 				<reference>LT61</reference>
 				<melee_weapon>
-					<damage>sw+2 cr</damage>
+					<damage type="cr" st="sw" base="+2"/>
 					<strength>7&#8224;</strength>
 					<usage>Swung</usage>
 					<reach>1,2</reach>
@@ -2765,7 +2796,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>thr+2 cr</damage>
+					<damage type="cr" st="thr" base="+2"/>
 					<strength>7&#8224;</strength>
 					<usage>Thrust</usage>
 					<reach>1,2</reach>
@@ -2792,7 +2823,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>sw+2 cr</damage>
+					<damage type="cr" st="sw" base="+2"/>
 					<strength>9&#8224;</strength>
 					<usage>Sword Swing</usage>
 					<reach>1,2</reach>
@@ -2819,7 +2850,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>thr+1 cr</damage>
+					<damage type="cr" st="thr" base="+1"/>
 					<strength>9&#8224;</strength>
 					<usage>Sword Thrust</usage>
 					<reach>2</reach>

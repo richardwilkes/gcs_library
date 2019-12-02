@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="9d16a121-64ac-4e4c-8700-9f3bd30c0220" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Body of Metal</name>
 			<reference>B262</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -73,7 +73,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>9</levels>
@@ -233,7 +233,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -280,7 +280,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (Homogenous)</name>
 				<type>Physical, Exotic</type>
 				<base_points>40</base_points>
@@ -289,7 +289,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Blood)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -298,7 +298,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pressure Support</name>
 				<type>Physical, Exotic</type>
 				<levels>3</levels>
@@ -308,7 +308,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sealed</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -317,7 +317,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vacuum Support</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>

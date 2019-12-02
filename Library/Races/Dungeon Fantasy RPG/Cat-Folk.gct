@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="6b7132b4-96e7-4eb0-8b94-aada95cbbccb" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Cat-Folk</name>
 			<reference>DFA43</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Catfall</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -13,12 +13,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Sharp (Feet)</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr cut</damage>
+					<damage type="cut" st="thr"/>
 					<usage>Kick</usage>
 					<reach>C,1</reach>
 					<parry>No</parry>
@@ -43,11 +43,11 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Sharp (Hands)</name>
 				<type>Physical</type>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Slash</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -77,7 +77,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Combat Reflexes</name>
 				<type>Mental</type>
 				<base_points>15</base_points>
@@ -89,6 +89,7 @@
 				<skill_bonus>
 					<name compare="starts with">fast-draw</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<attribute_bonus>
@@ -108,7 +109,7 @@
 					<amount>2</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Strength</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -123,11 +124,11 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Tail</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance (Cold)</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
@@ -136,7 +137,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Impulsiveness</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -146,7 +147,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -166,7 +167,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>1</levels>
@@ -181,7 +182,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Laziness</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -190,7 +191,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -200,7 +201,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Phobia (Entering Water)</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -210,7 +211,7 @@
 					<category>Phobia</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striking ST</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -224,12 +225,12 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Sharp</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Bite</usage>
 					<reach>C</reach>
 					<parry>No</parry>

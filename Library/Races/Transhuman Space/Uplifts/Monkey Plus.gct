@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="d4b235c6-0ab9-4ac7-ab6a-38c4afaf93d2" version="1">
+<template id="d4b235c6-0ab9-4ac7-ab6a-38c4afaf93d2" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Monkey Plus</name>
 			<reference>FW120</reference>
 			<notes>2082; $50,000</notes>
 			<categories>
 				<category>Uplift</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>7</levels>
@@ -22,7 +22,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -41,7 +41,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased IQ</name>
 				<type>Mental</type>
 				<levels>3</levels>
@@ -55,7 +55,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -69,7 +69,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>3</levels>
@@ -84,7 +84,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Size modifier</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -96,7 +96,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -110,7 +110,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Brachiator</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -121,10 +121,11 @@
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Arm (Tail)</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -185,7 +186,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Consumption</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -213,7 +214,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fur</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
@@ -222,7 +223,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Basic Speed</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -238,7 +239,7 @@
 					<amount per_level="yes">0.25</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Chummy</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -248,7 +249,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Innumerate</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -299,7 +300,7 @@
 					</skill_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Semi-Upright</name>
 				<type>Physical, Exotic</type>
 				<base_points>-5</base_points>
@@ -308,7 +309,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Short Lifespan</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -318,7 +319,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sleepy</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1">
@@ -350,7 +351,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stuttering</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
@@ -361,35 +362,41 @@
 				<skill_bonus>
 					<name compare="is">diplomacy</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">fast-talk</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">performance</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">public speaking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sex appeal</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">singing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Weakness</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">

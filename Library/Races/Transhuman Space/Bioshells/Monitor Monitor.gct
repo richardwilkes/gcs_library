@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="150ddb6f-f120-484c-bbfc-005cb99b5824" version="1">
+<template id="150ddb6f-f120-484c-bbfc-005cb99b5824" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Monitor Monitor</name>
 			<reference>TSST28</reference>
 			<notes>2071; $40,000 + computer</notes>
 			<categories>
 				<category>Bioshell</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased ST</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -33,7 +33,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striking ST</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -64,6 +64,7 @@
 					<skill_bonus>
 						<name compare="is">Brawling</name>
 						<specialization compare="is anything">Bite</specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 				</modifier>
@@ -72,7 +73,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -91,7 +92,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -105,7 +106,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Hit Points</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -131,7 +132,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>1</levels>
@@ -146,7 +147,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Basic Speed</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -161,7 +162,7 @@
 					<amount per_level="yes">0.25</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Size modifier</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -173,7 +174,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Absolute Direction</name>
 				<type>Mental/Physical</type>
 				<base_points>5</base_points>
@@ -191,26 +192,31 @@
 					<skill_bonus>
 						<name compare="starts with">piloting</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">aerobatics</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">free fall</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">hyperspace</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">space</specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 				</modifier>
@@ -221,25 +227,29 @@
 				<skill_bonus>
 					<name compare="is">body sense</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">air</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">land</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">sea</specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Taste &amp; Smell</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -253,12 +263,12 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Sharp (Hands)</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Slash</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -289,7 +299,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -449,7 +459,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Discriminatory Smell</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -470,13 +480,13 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Innate Attack (Toxic)</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>4</points_per_level>
 				<ranged_weapon>
-					<damage>1d tox</damage>
+					<damage type="tox" base="1d"/>
 					<accuracy>3</accuracy>
 					<range>100/10</range>
 					<rate_of_fire>1</rate_of_fire>
@@ -1408,7 +1418,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Peripheral Vision</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -1424,7 +1434,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Consumption</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -1452,7 +1462,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -1504,7 +1514,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -1551,12 +1561,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Crushing (Tail)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr:+1 cr</damage>
+					<damage type="cr" st="thr" modifier_per_die="1"/>
 					<usage>Tail</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -1587,12 +1597,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Sharp</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Bite</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -1612,7 +1622,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -1782,7 +1792,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -1952,12 +1962,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Onboard computer (Tiny)</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Scaly Hide</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
@@ -1965,7 +1975,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -2053,7 +2063,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cold-Blooded</name>
 				<type>Physical, Exotic</type>
 				<base_points>-10</base_points>
@@ -2069,7 +2079,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Electrical</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -2083,7 +2093,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Frightens Animals</name>
 				<type>Mental, Supernatural</type>
 				<base_points>-10</base_points>
@@ -2092,7 +2102,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hard of Hearing</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
@@ -2105,7 +2115,7 @@
 					<amount>-4</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Blindness</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
@@ -2124,29 +2134,29 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Quadruped</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Legs (4 legs)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B54</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Horizontal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-10</base_points>
 					<reference>B139</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Fine Manipulators</name>
 					<type>Physical</type>
 					<base_points>-30</base_points>
 					<reference>B145</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Short Legs</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -2155,7 +2165,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Monster)</name>
 				<type>Social</type>
 				<base_points>-15</base_points>
@@ -2167,10 +2177,11 @@
 				<skill_bonus>
 					<name compare="is">intimidation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Poor Depth Perception</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
@@ -2179,7 +2190,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Especially Limited High- and Low Frequency Hearing</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>

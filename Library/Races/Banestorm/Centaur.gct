@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="f008f735-4c0f-435c-864a-6669fdecf76f" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Centaur</name>
 			<reference>BS188</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Basic Move</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -36,7 +36,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -51,7 +51,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>1</levels>
@@ -66,7 +66,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>8</levels>
@@ -100,7 +100,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Size</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -110,9 +110,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Enhanced Move (Ground: @New Move@)</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -168,7 +168,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Legs</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1">
@@ -207,7 +207,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fearlessness</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -217,12 +217,12 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Claws, Hooves</name>
 					<type>Physical</type>
 					<base_points>3</base_points>
 					<melee_weapon>
-						<damage>thr:+1 cr</damage>
+						<damage type="cr" st="thr" modifier_per_die="1"/>
 						<usage>Trample</usage>
 						<reach>C,1</reach>
 						<parry>No</parry>
@@ -253,9 +253,9 @@
 					</dr_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Impulsiveness</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -265,7 +265,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Overconfidence</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -275,13 +275,13 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Party Animal</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 					<notes>Compulsive Carousing</notes>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Finds the trappings of domesticated horses offensive</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>

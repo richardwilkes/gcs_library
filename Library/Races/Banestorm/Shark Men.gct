@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="9dd874ed-3479-47b9-896e-15764ec58f47" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Shark Men</name>
 			<reference>BS198</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>6</levels>
@@ -61,9 +61,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Vision</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -77,7 +77,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Amphibious</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -86,7 +86,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Doesn't Breathe</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
@@ -155,7 +155,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -315,12 +315,12 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Teeth, Fangs</name>
 					<type>Physical, Exotic</type>
 					<base_points>2</base_points>
 					<melee_weapon>
-						<damage>thr-1 imp</damage>
+						<damage type="imp" st="thr" base="-1"/>
 						<usage>Bite</usage>
 						<reach>C</reach>
 						<parry>No</parry>
@@ -340,7 +340,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Nictitating Membrane</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -350,7 +350,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>6</levels>
@@ -360,7 +360,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Pressure Support</name>
 					<type>Physical, Exotic</type>
 					<levels>3</levels>
@@ -370,7 +370,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Speak Underwater</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -386,9 +386,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dependency (Water)</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="242bbd8e-2417-4100-903a-55c1019c7eba" version="2">
 	<equipment_list>
-		<equipment_container version="4" open="yes">
+		<equipment_container version="6" open="yes">
 			<description>Standard Issue - Penetration Service</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<reference>IW27</reference>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>20</quantity>
 				<description>3/16" Rope</description>
 				<tech_level>10</tech_level>
@@ -19,7 +19,7 @@
 					<category>Tools and Construction Materials</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>10mm ISP clip</description>
 				<tech_level>9</tech_level>
@@ -32,7 +32,7 @@
 					<category>Missile Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Assault Boots</description>
 				<tech_level>9</tech_level>
@@ -48,12 +48,12 @@
 					<amount>12</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment_container version="4" open="yes">
+			<equipment_container version="6" open="yes">
 				<description>At Least 1</description>
 				<legality_class>4</legality_class>
 				<value>0</value>
 				<notes>Specific quantity not defined</notes>
-				<equipment version="4">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Nanobug</description>
 					<tech_level>8</tech_level>
@@ -67,7 +67,7 @@
 						<category>Thief</category>
 					</categories>
 				</equipment>
-				<equipment version="4">
+				<equipment version="6">
 					<quantity>1</quantity>
 					<description>Silver Ingot</description>
 					<legality_class>4</legality_class>
@@ -77,7 +77,7 @@
 					<notes>1 oz.</notes>
 				</equipment>
 			</equipment_container>
-			<equipment_container version="4" open="yes">
+			<equipment_container version="6" open="yes">
 				<description>Backpack, Small</description>
 				<tech_level>1</tech_level>
 				<legality_class>4</legality_class>
@@ -91,7 +91,7 @@
 					<contained_weight_prereq has="yes" compare="at most">40 lb</contained_weight_prereq>
 				</prereq_list>
 			</equipment_container>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Binoculars, Night-Vision</description>
 				<legality_class>4</legality_class>
@@ -103,7 +103,7 @@
 					<category>Optics</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Cell Phone</description>
 				<tech_level>8</tech_level>
@@ -116,7 +116,7 @@
 					<category>Communications and Information Gear</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Charcoal-Filtered Canteen</description>
 				<tech_level>5</tech_level>
@@ -129,7 +129,7 @@
 					<category>General Equipment</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Cloth Cap</description>
 				<tech_level>1</tech_level>
@@ -144,7 +144,7 @@
 					<amount>1</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Compass</description>
 				<tech_level>6</tech_level>
@@ -158,10 +158,11 @@
 				<skill_bonus>
 					<name compare="starts with">navigation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Enhanced Tinder</description>
 				<tech_level>1</tech_level>
@@ -173,7 +174,7 @@
 					<category>Personal Gear</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>30</quantity>
 				<description>Eraser</description>
 				<legality_class>2</legality_class>
@@ -184,7 +185,7 @@
 					<category>Medical</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>First Aid Kit</description>
 				<legality_class>4</legality_class>
@@ -198,10 +199,11 @@
 				<skill_bonus>
 					<name compare="is">First Aid</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Flashlight, Mini</description>
 				<tech_level>7</tech_level>
@@ -214,7 +216,7 @@
 					<category>Camping and Survival Gear</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Flint and Steel</description>
 				<tech_level>5</tech_level>
@@ -225,7 +227,7 @@
 					<category>General Equipment</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>ISP, 10mm</description>
 				<tech_level>9</tech_level>
@@ -234,7 +236,7 @@
 				<weight>3.4 lb</weight>
 				<reference>IW200</reference>
 				<ranged_weapon>
-					<damage>4d+1 pi+</damage>
+					<damage type="pi+" base="4d+1"/>
 					<accuracy>3</accuracy>
 					<range>280/3200</range>
 					<rate_of_fire>10</rate_of_fire>
@@ -309,7 +311,7 @@
 					<category>Missile Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Light Cloak</description>
 				<tech_level>1</tech_level>
@@ -318,7 +320,7 @@
 				<weight>2 lb</weight>
 				<reference>B287</reference>
 				<melee_weapon>
-					<damage>-</damage>
+					<damage type="-"/>
 					<strength>-</strength>
 					<reach>-</reach>
 					<parry>No</parry>
@@ -330,7 +332,7 @@
 					</default>
 				</melee_weapon>
 				<ranged_weapon>
-					<damage>Special</damage>
+					<damage type="Special"/>
 					<strength>5</strength>
 					<usage>Thrown</usage>
 					<accuracy>+1</accuracy>
@@ -374,7 +376,7 @@
 					<amount>1</amount>
 				</attribute_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Matches</description>
 				<tech_level>5</tech_level>
@@ -386,7 +388,7 @@
 					<category>General Equipment</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Personal Basics</description>
 				<tech_level>0</tech_level>
@@ -399,7 +401,7 @@
 					<category>Camping and Survival Gear</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Pneumospray Hypo</description>
 				<tech_level>9</tech_level>
@@ -411,7 +413,7 @@
 					<category>Medical</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Radio, Backpack</description>
 				<tech_level>7</tech_level>
@@ -424,7 +426,7 @@
 					<category>Communications and Information Gear</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Small Knife</description>
 				<tech_level>0</tech_level>
@@ -433,7 +435,7 @@
 				<weight>0.5 lb</weight>
 				<reference>B272</reference>
 				<melee_weapon>
-					<damage>sw-3 cut</damage>
+					<damage type="cut" st="sw" base="-3"/>
 					<strength>5</strength>
 					<usage>Swung</usage>
 					<reach>C,1</reach>
@@ -470,7 +472,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>thr-1 imp</damage>
+					<damage type="imp" st="thr" base="-1"/>
 					<strength>5</strength>
 					<usage>Thrust</usage>
 					<reach>C</reach>
@@ -507,7 +509,7 @@
 					</default>
 				</melee_weapon>
 				<ranged_weapon>
-					<damage>thr-1 imp</damage>
+					<damage type="imp" st="thr" base="-1"/>
 					<strength>5</strength>
 					<usage>Thrown</usage>
 					<accuracy>+0</accuracy>

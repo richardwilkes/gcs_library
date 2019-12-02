@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="44c5b44c-d505-455b-bdd6-38ff343240d8" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Gray Necromancer</name>
 			<reference>PY50:9</reference>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Advantages</name>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>14 Points of Necromantic Powers</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ally (Bound lesser ghost)</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -192,7 +192,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ally (Bound lesser ghost)</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -376,7 +376,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ally (Five Servitor Skeletons or Zombies)</name>
 						<type>Social</type>
 						<base_points>6</base_points>
@@ -567,7 +567,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ally (Ten Servitor Skeletons or Zombies)</name>
 						<type>Social</type>
 						<base_points>7</base_points>
@@ -758,7 +758,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ally (Twenty Servitor Skeletons or Zombies)</name>
 						<type>Social</type>
 						<base_points>9</base_points>
@@ -949,7 +949,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Detect</name>
 						<type>Mental/Physical, Exotic</type>
 						<modifier version="1" enabled="no">
@@ -1011,7 +1011,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Metabolism Control</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1040,7 +1040,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Oracle</name>
 						<type>Mental, Supernatural</type>
 						<base_points>15</base_points>
@@ -1061,7 +1061,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Reduced Consumption</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1096,7 +1096,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1149,7 +1149,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1202,7 +1202,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1255,7 +1255,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>See Invisible</name>
 						<type>Physical, Exotic</type>
 						<base_points>15</base_points>
@@ -1277,7 +1277,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Silence</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -1301,13 +1301,14 @@
 						<skill_bonus>
 							<name compare="is">stealth</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>35 points from these or more necromantic abilities</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Autotrance</name>
 						<type>Mental</type>
 						<base_points>1</base_points>
@@ -1316,7 +1317,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Channeling</name>
 						<type>Mental, Supernatural</type>
 						<base_points>10</base_points>
@@ -1338,7 +1339,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Charisma</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1351,25 +1352,29 @@
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">panhandling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Deathliness (Gray)</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
@@ -1422,13 +1427,15 @@
 						<spell_bonus>
 							<college_name compare="is">Deathly</college_name>
 							<amount per_level="yes">1</amount>
+							<category compare="is anything"></category>
 						</spell_bonus>
 						<spell_bonus>
 							<college_name compare="is">Deathly (Gray)</college_name>
 							<amount per_level="yes">1</amount>
+							<category compare="is anything"></category>
 						</spell_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -1444,7 +1451,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Extra Fatigue Points</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1459,7 +1466,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fearlessness</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1469,7 +1476,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Pain Threshold</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -1479,7 +1486,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Higher Purpose (Maintain the natural order or Bring the worlds of life and death together)</name>
 						<type>Mental, Exotic</type>
 						<base_points>5</base_points>
@@ -1488,7 +1495,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1503,7 +1510,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Intelligence</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1518,7 +1525,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Will</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -1533,7 +1540,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intuition</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -1548,7 +1555,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language Talent</name>
 						<type>Mental</type>
 						<base_points>10</base_points>
@@ -1557,7 +1564,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language: @Any@</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -1628,7 +1635,7 @@
 							<category>Language</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Licensed Exorcist (Ghosts)</name>
 						<type>Social</type>
 						<base_points>1</base_points>
@@ -1638,7 +1645,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -1679,7 +1686,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Medium</name>
 						<type>Mental, Supernatural</type>
 						<base_points>10</base_points>
@@ -1713,7 +1720,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Mind Shield</name>
 						<type>Mental, Exotic</type>
 						<levels>1</levels>
@@ -1743,7 +1750,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Night Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1754,7 +1761,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1801,7 +1808,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -1848,7 +1855,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Signature Gear</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -1859,19 +1866,19 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Slayer Swing at Neck (@Weapon Skill@)</name>
 						<type>Physical</type>
 						<base_points>4</base_points>
 						<reference>DF9:7</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Slayer Thrust to Vitals (@Weapon Skill@)</name>
 						<type>Physical</type>
 						<base_points>3</base_points>
 						<reference>DF9:7</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Regard</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -1882,7 +1889,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Spirit Badge</name>
 						<type>Mental, Supernatural</type>
 						<base_points>1</base_points>
@@ -1892,7 +1899,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Spirit Weapon</name>
 						<type>Supernatural</type>
 						<base_points>1</base_points>
@@ -1902,7 +1909,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Temperature Tolerance</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -1913,7 +1920,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unfazeable</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -1929,7 +1936,7 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Deathliness (Gray)</name>
 					<type>Mental, Supernatural</type>
 					<levels>3</levels>
@@ -1982,13 +1989,15 @@
 					<spell_bonus>
 						<college_name compare="is">Deathly</college_name>
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 					<spell_bonus>
 						<college_name compare="is">Deathly (Gray)</college_name>
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -1998,7 +2007,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Spirit Empathy</name>
 					<type>Mental, Supernatural</type>
 					<base_points>10</base_points>
@@ -2021,9 +2030,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -2043,7 +2052,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -2058,7 +2067,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -2074,9 +2083,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Secondary Characteristics</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>2</levels>
@@ -2091,7 +2100,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Fatigue Points</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -2107,11 +2116,11 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Disadvantages</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>-20 Points From</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Appearance</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -2200,7 +2209,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2211,15 +2220,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Curious</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2229,7 +2240,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Frightens Animals</name>
 						<type>Mental, Supernatural</type>
 						<base_points>-10</base_points>
@@ -2238,7 +2249,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Loner</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2248,7 +2259,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Obsession</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -2269,7 +2280,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Odious Personal Habit</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -2296,7 +2307,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -2340,7 +2351,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Stigma (Second-Class Citizen)</name>
 						<type>Social</type>
 						<base_points>-5</base_points>
@@ -2350,7 +2361,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Stigma (Excommunicated)</name>
 						<type>Social</type>
 						<base_points>-10</base_points>
@@ -2361,9 +2372,9 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>-20 Points More From These or the Previous category</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Smell</name>
 						<type>Physical</type>
 						<base_points>-10</base_points>
@@ -2373,7 +2384,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Clueless</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -2384,10 +2395,11 @@
 						<skill_bonus>
 							<name compare="starts with">savoir-faire</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-4</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Ritualism)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2396,7 +2408,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Asceticism)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -2405,7 +2417,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disturbing Voice</name>
 						<type>Physical</type>
 						<base_points>-10</base_points>
@@ -2420,7 +2432,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Heliophobia (Sun)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -2430,7 +2442,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Low Empathy</name>
 						<type>Mental</type>
 						<base_points>-20</base_points>
@@ -2441,81 +2453,97 @@
 						<skill_bonus>
 							<name compare="is">acting</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">carousing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">criminology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">detect lies</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">diplomacy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">enthrallment</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">fast-talk</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">interrogation</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">merchant</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">politics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">savoir-faire</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sex appeal</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sociology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">streetwise</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<prereq_list all="yes">
@@ -2533,7 +2561,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Megalomania</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -2542,7 +2570,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Sense of Smell/Taste</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
@@ -2551,7 +2579,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Oblivious</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2562,35 +2590,41 @@
 						<skill_bonus>
 							<name compare="is">diplomacy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">fast-talk</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">intimidation</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="starts with">savoir-faire</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sex appeal</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">streetwise</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Paranoia</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -2599,7 +2633,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Phantom Voices</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -2625,7 +2659,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Skinny</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
@@ -2637,18 +2671,20 @@
 						<skill_bonus>
 							<name compare="is">disguise</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">shadowing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-2</amount>
 						</skill_bonus>
 						<prereq_list all="yes">
 							<attribute_prereq has="yes" which="ht" compare="at most">14</attribute_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Slow Healing</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -2658,7 +2694,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Stubbornness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -2667,7 +2703,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Supernatural Features (Pallor)</name>
 						<type>Physical, Supernatural</type>
 						<base_points>-10</base_points>
@@ -2676,7 +2712,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -2745,12 +2781,12 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Necromancer</name>
 			<reference>DF9:13</reference>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>Primary Skills</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Expert Skill</name>
 					<specialization>Thantology</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -2762,7 +2798,7 @@
 						<category>Social Sciences/Humanities</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Undead</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2772,7 +2808,7 @@
 						<category>Knowledge</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Occultism</name>
 					<difficulty>IQ/A</difficulty>
 					<points>2</points>
@@ -2786,9 +2822,9 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>Secondary Skills and Techniques</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Stealth</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -2808,9 +2844,9 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>Three Among</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Fast-Talk</name>
 						<difficulty>IQ/A</difficulty>
 						<points>4</points>
@@ -2830,7 +2866,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Research</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2873,7 +2909,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Thaumatology</name>
 						<difficulty>IQ/VH</difficulty>
 						<points>4</points>
@@ -2886,7 +2922,7 @@
 							<modifier>-7</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Search</name>
 						<difficulty>Per/A</difficulty>
 						<points>4</points>
@@ -2905,7 +2941,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Exorcism</name>
 						<difficulty>Will/H</difficulty>
 						<points>4</points>
@@ -2934,13 +2970,13 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>One Melee Package</name>
-					<skill_container version="2" open="no">
+					<skill_container version="3" open="no">
 						<name>Weapon And Shield</name>
-						<skill_container version="2" open="no">
+						<skill_container version="3" open="no">
 							<name>One Weapon</name>
-							<skill version="2">
+							<skill version="3">
 								<name>Broadsword</name>
 								<difficulty>DX/A</difficulty>
 								<points>12</points>
@@ -2979,7 +3015,7 @@
 									<modifier>-5</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Shortsword</name>
 								<difficulty>DX/A</difficulty>
 								<points>12</points>
@@ -3028,7 +3064,7 @@
 									<modifier>-5</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Spear</name>
 								<difficulty>DX/A</difficulty>
 								<points>12</points>
@@ -3053,9 +3089,9 @@
 								</default>
 							</skill>
 						</skill_container>
-						<skill_container version="2" open="no">
+						<skill_container version="3" open="no">
 							<name>One Shield</name>
-							<skill version="2">
+							<skill version="3">
 								<name>Shield</name>
 								<specialization>Shield</specialization>
 								<difficulty>DX/E</difficulty>
@@ -3070,7 +3106,7 @@
 									<modifier>-4</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Shield</name>
 								<specialization>Buckler</specialization>
 								<difficulty>DX/E</difficulty>
@@ -3093,9 +3129,9 @@
 							</skill>
 						</skill_container>
 					</skill_container>
-					<skill_container version="2" open="no">
+					<skill_container version="3" open="no">
 						<name>Covert</name>
-						<skill version="2">
+						<skill version="3">
 							<name>Brawling</name>
 							<difficulty>DX/E</difficulty>
 							<points>2</points>
@@ -3108,10 +3144,11 @@
 								<name compare="is">Brawling</name>
 								<specialization compare="is anything"></specialization>
 								<level compare="at least">2</level>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</weapon_bonus>
 						</skill>
-						<skill version="2">
+						<skill version="3">
 							<name>Wrestling</name>
 							<difficulty>DX/A</difficulty>
 							<points>2</points>
@@ -3121,7 +3158,7 @@
 								<category>Melee Combat</category>
 							</categories>
 						</skill>
-						<skill version="2">
+						<skill version="3">
 							<name>Knife</name>
 							<difficulty>DX/E</difficulty>
 							<points>12</points>
@@ -3151,9 +3188,9 @@
 							</default>
 						</skill>
 					</skill_container>
-					<skill_container version="2" open="no">
+					<skill_container version="3" open="no">
 						<name>Two-Handed</name>
-						<skill version="2">
+						<skill version="3">
 							<name>Two-Handed Axe/Mace</name>
 							<difficulty>DX/A</difficulty>
 							<points>12</points>
@@ -3182,7 +3219,7 @@
 								<modifier>-4</modifier>
 							</default>
 						</skill>
-						<skill version="2">
+						<skill version="3">
 							<name>Knife</name>
 							<difficulty>DX/E</difficulty>
 							<points>4</points>
@@ -3214,10 +3251,10 @@
 					</skill_container>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>Background Skills</name>
 				<notes>Choose 8</notes>
-				<skill version="2">
+				<skill version="3">
 					<name>Fast-Draw</name>
 					<specialization>Knife</specialization>
 					<difficulty>DX/E</difficulty>
@@ -3228,7 +3265,7 @@
 						<category>Melee Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Garrote</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -3242,7 +3279,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Climbing</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -3258,7 +3295,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Gesture</name>
 					<difficulty>IQ/E</difficulty>
 					<points>1</points>
@@ -3271,7 +3308,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Acting</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -3295,7 +3332,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Demon Lore</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -3306,7 +3343,7 @@
 						<category>Occult/Magical</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>Spirit Lore</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -3317,7 +3354,7 @@
 						<category>Occult/Magical</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Holdout</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -3336,7 +3373,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Teaching</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -3350,7 +3387,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Writing</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -3364,7 +3401,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Diagnosis</name>
 					<tech_level/>
 					<difficulty>IQ/H</difficulty>
@@ -3393,7 +3430,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Poisons</name>
 					<tech_level/>
 					<difficulty>IQ/H</difficulty>
@@ -3424,7 +3461,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Theology</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -3442,7 +3479,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Intimidation</name>
 					<difficulty>Will/A</difficulty>
 					<points>1</points>
@@ -3462,7 +3499,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Meditation</name>
 					<difficulty>Will/H</difficulty>
 					<points>1</points>
@@ -3480,7 +3517,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Observation</name>
 					<difficulty>Per/A</difficulty>
 					<points>1</points>
@@ -3505,13 +3542,13 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
-		<spell_container version="2" open="no">
+		<spell_container version="3" open="no">
 			<name>Gray Deathly Spells</name>
 			<reference>PY50:10</reference>
 			<categories>
 				<category>Deathly</category>
 			</categories>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Age</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3531,7 +3568,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Agonize</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3562,7 +3599,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Animate Shadow</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3584,7 +3621,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Astral Block</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3606,7 +3643,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Aura</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3625,7 +3662,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Bind Spirit (@Spirit@)</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3647,7 +3684,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Body of Shadow</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3678,7 +3715,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Choke</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3713,7 +3750,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Clumsiness</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3732,7 +3769,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Command Undead</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3754,7 +3791,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Cure Disease</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3776,7 +3813,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Deathbolt</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3786,7 +3823,7 @@
 				<casting_time>1-3 sec</casting_time>
 				<duration>Instant</duration>
 				<ranged_weapon>
-					<damage>1d tox/point</damage>
+					<damage type="tox/point" base="1d"/>
 					<accuracy>1</accuracy>
 					<range>25/50</range>
 					<default>
@@ -3826,7 +3863,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Debility</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3840,7 +3877,7 @@
 					<category>Body Control</category>
 				</categories>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Decay</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3861,7 +3898,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Divination: Necromancy</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3880,7 +3917,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Entrap Spirit</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3914,7 +3951,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Ethereal Body</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3935,7 +3972,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Evisceration</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -3945,7 +3982,7 @@
 				<casting_time>5 sec</casting_time>
 				<duration>Instant</duration>
 				<melee_weapon>
-					<damage>removes vital organ</damage>
+					<damage type="removes vital organ"/>
 					<usage>Grapple</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -3994,7 +4031,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Frailty</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4013,7 +4050,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Great Healing</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4044,7 +4081,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Halt Aging</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4076,7 +4113,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Hinder</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4095,7 +4132,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Hunger</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4130,7 +4167,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Instant Regeneration</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4162,7 +4199,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Instant Restoration</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4193,7 +4230,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Itch</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4207,7 +4244,7 @@
 					<category>Body Control</category>
 				</categories>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Lich</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4247,7 +4284,7 @@
 					<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Major Healing</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4278,7 +4315,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Might</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4297,7 +4334,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Minor Healing</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4316,7 +4353,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Nauseate</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4340,7 +4377,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Pain</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4359,7 +4396,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Pestilence</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4381,7 +4418,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Regeneration</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4413,7 +4450,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Relieve Sickness</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4432,7 +4469,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Repel Spirits</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4454,7 +4491,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Resist Pain</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4485,7 +4522,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Restoration</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4504,7 +4541,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Resurrection</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4529,7 +4566,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Retch</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4551,7 +4588,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Sensitize</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4582,7 +4619,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Slow Healing</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4616,7 +4653,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Soul Jar</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4651,7 +4688,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Spasm</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4670,7 +4707,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Steal Energy</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4689,7 +4726,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Steal Vitality</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4708,7 +4745,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Steal Youth</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4733,7 +4770,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Stop Healing</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4752,7 +4789,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Stop Paralysis</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4783,7 +4820,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Strike Barren</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4818,7 +4855,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Stun</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4837,7 +4874,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Throw Spell</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4847,7 +4884,7 @@
 				<casting_time>1 sec</casting_time>
 				<duration>Until thrown</duration>
 				<ranged_weapon>
-					<damage>Special</damage>
+					<damage type="Special"/>
 					<accuracy>1</accuracy>
 					<range>80</range>
 					<default>
@@ -4872,7 +4909,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Total Paralysis</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4882,7 +4919,7 @@
 				<casting_time>1 sec</casting_time>
 				<duration>1 min</duration>
 				<melee_weapon>
-					<damage>thr-1 cr + Paralysis</damage>
+					<damage type="cr + Paralysis" st="thr" base="-1"/>
 					<usage>Punch</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -4916,7 +4953,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Vigor</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4938,7 +4975,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Weaken Blood</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4958,7 +4995,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Wraith</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -4997,7 +5034,7 @@
 					<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Youth</name>
 				<college>Deathly (Gray)</college>
 				<power_source>Arcane</power_source>
@@ -5030,13 +5067,13 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="2" open="no">
+		<spell_container version="3" open="no">
 			<name>Deathly Spells</name>
 			<reference>DF9:15</reference>
 			<categories>
 				<category>Deathly</category>
 			</categories>
-			<spell version="2">
+			<spell version="3">
 				<name>Affect Spirits</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5055,7 +5092,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Command Spirit (@spirit@)</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5077,7 +5114,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Control Zombie</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5095,7 +5132,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Counterspell</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5120,7 +5157,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Curse</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5152,7 +5189,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Death Vision</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5178,7 +5215,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Deathtouch</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5188,7 +5225,7 @@
 				<casting_time>1 sec</casting_time>
 				<duration>Instant</duration>
 				<melee_weapon>
-					<damage>thr-1 cr +1d/point</damage>
+					<damage type="cr +1d/point" st="thr" base="-1"/>
 					<usage>Punch</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -5222,7 +5259,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Detect Magic</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5248,7 +5285,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Fear</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5268,7 +5305,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Final Rest</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5301,7 +5338,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Lend Energy</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5333,7 +5370,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Lend Vitality</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5352,7 +5389,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Mage Sense</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5371,7 +5408,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Mass Zombie</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5395,7 +5432,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Materialize</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5414,7 +5451,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Paralyze Limb</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5446,7 +5483,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Phase</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5479,7 +5516,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Planar Summons (Realms of the Dead)</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5514,7 +5551,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Planar Visit (Astral Plane and Realms of the Dead)</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5535,7 +5572,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Plane Shift (Realms of the Dead)</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5554,7 +5591,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Recover Energy</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5585,7 +5622,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Rotting Death</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5595,7 +5632,7 @@
 				<casting_time>1 sec</casting_time>
 				<duration>1 sec</duration>
 				<melee_weapon>
-					<damage>thr-1 cr +1d-1 tox/second</damage>
+					<damage type="cr +1d-1 tox/second" st="thr" base="-1"/>
 					<usage>Punch</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -5641,7 +5678,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Sense Spirit</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5660,7 +5697,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Skull-Spirit</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5680,7 +5717,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Solidify</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5699,7 +5736,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Summon Spirit</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5730,7 +5767,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Terror</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5749,7 +5786,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Turn Spirit</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5769,7 +5806,7 @@
 					<attribute_prereq has="yes" which="will" compare="at least">11</attribute_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Turn Zombie</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5788,7 +5825,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Wither Limb</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5798,7 +5835,7 @@
 				<casting_time>1 sec</casting_time>
 				<duration>Permanent</duration>
 				<melee_weapon>
-					<damage>thr-1 cr +1d</damage>
+					<damage type="cr +1d" st="thr" base="-1"/>
 					<usage>Punch</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -5832,7 +5869,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Zombie</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5854,7 +5891,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Zombie Summoning</name>
 				<college>Deathly</college>
 				<power_source>Arcane</power_source>
@@ -5876,12 +5913,12 @@
 		</spell_container>
 	</spell_list>
 	<equipment_list>
-		<equipment_container version="4" open="yes">
+		<equipment_container version="6" open="yes">
 			<description>Necromancer</description>
 			<legality_class>4</legality_class>
 			<value>0</value>
 			<reference>DF13:26</reference>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Boots</description>
 				<tech_level>2</tech_level>
@@ -5897,7 +5934,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Clothing, Ordinary, Freeman (Status 0)</description>
 				<tech_level>0</tech_level>
@@ -5909,7 +5946,7 @@
 					<category>Clothing</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>2</quantity>
 				<description>Fine Wooden Stake</description>
 				<tech_level>0</tech_level>
@@ -5918,7 +5955,7 @@
 				<weight>0.5 lb</weight>
 				<reference>B272</reference>
 				<melee_weapon>
-					<damage>thr+1(0.5) imp</damage>
+					<damage type="imp" st="thr" base="+1" armor_divisor="0.5"/>
 					<strength>5</strength>
 					<usage>Thrust</usage>
 					<reach>C</reach>
@@ -5955,7 +5992,7 @@
 					</default>
 				</melee_weapon>
 				<ranged_weapon>
-					<damage>thr(0.5) imp</damage>
+					<damage type="imp" st="thr" armor_divisor="0.5"/>
 					<strength>5</strength>
 					<usage>Thrown</usage>
 					<accuracy>+0</accuracy>
@@ -5979,7 +6016,7 @@
 					<category>Missile Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>4</quantity>
 				<description>Garlic</description>
 				<legality_class>4</legality_class>
@@ -5992,7 +6029,7 @@
 					<category>Concoctions:Natural Preparations</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Heavy Leather Sleeves</description>
 				<tech_level>1</tech_level>
@@ -6008,7 +6045,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Leather Armor</description>
 				<tech_level>1</tech_level>
@@ -6028,7 +6065,7 @@
 					<amount>2</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Leather Pants</description>
 				<tech_level>1</tech_level>
@@ -6048,7 +6085,7 @@
 					<amount>1</amount>
 				</dr_bonus>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Necromantic Preservative</description>
 				<legality_class>4</legality_class>
@@ -6056,7 +6093,7 @@
 				<weight>1 lb</weight>
 				<reference>DF8:24</reference>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>16</quantity>
 				<description>Salt</description>
 				<legality_class>4</legality_class>
@@ -6064,7 +6101,7 @@
 				<weight>0.0625 lb</weight>
 				<reference>DF8:11</reference>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Scythe</description>
 				<tech_level>1</tech_level>
@@ -6073,7 +6110,7 @@
 				<weight>5 lb</weight>
 				<reference>B274</reference>
 				<melee_weapon>
-					<damage>sw+2 cut</damage>
+					<damage type="cut" st="sw" base="+2"/>
 					<strength>11&#8225;</strength>
 					<usage>Swung</usage>
 					<reach>1</reach>
@@ -6105,7 +6142,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>sw imp</damage>
+					<damage type="imp" st="sw"/>
 					<strength>11&#8225;</strength>
 					<usage>Thrust</usage>
 					<reach>1</reach>
@@ -6141,7 +6178,7 @@
 					<category>Melee Weapon</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Shovel</description>
 				<tech_level>1</tech_level>
@@ -6154,7 +6191,7 @@
 					<category>Tools</category>
 				</categories>
 			</equipment>
-			<equipment version="4">
+			<equipment version="6">
 				<quantity>1</quantity>
 				<description>Silver-Coated Large Knife</description>
 				<tech_level>0</tech_level>
@@ -6163,7 +6200,7 @@
 				<weight>1 lb</weight>
 				<reference>B272</reference>
 				<melee_weapon>
-					<damage>sw-2 cut</damage>
+					<damage type="cut" st="sw" base="-2"/>
 					<strength>6</strength>
 					<usage>Swung</usage>
 					<reach>C,1</reach>
@@ -6200,7 +6237,7 @@
 					</default>
 				</melee_weapon>
 				<melee_weapon>
-					<damage>thr imp</damage>
+					<damage type="imp" st="thr"/>
 					<strength>6</strength>
 					<usage>Thrust</usage>
 					<reach>C</reach>
@@ -6237,7 +6274,7 @@
 					</default>
 				</melee_weapon>
 				<ranged_weapon>
-					<damage>thr imp</damage>
+					<damage type="imp" st="thr"/>
 					<strength>6</strength>
 					<usage>Thrown</usage>
 					<accuracy>+0</accuracy>

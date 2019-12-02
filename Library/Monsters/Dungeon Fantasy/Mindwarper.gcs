@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="ae4c9c34-643f-4057-93a8-ae65a154f4ec" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 12:03 PM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Mindwarper</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Elder Thing</race>
-		<notes>Mindwarper (DF2:25) 
-
-Mindwarpers are Things from Beyond Time and Space, with genius-level intellect and devastating psychic powers. No mortal has survived to describe one, but ancient lore suggests that they're humanoids with pebbly skin (similar to that of a starfish), no nose, and hands and feet that consist of suckers surrounded by writhing cilia instead of digits. An encounter with a mindwarper generally ends in madness or death. Fortunately for humans, mindwarpers don't work well together; a mindwarper is likely to be the boss of a dungeon, found on the lowest levels, surrounded by mindless fodder.
-
-Notes: Parry, DR, attack, and Terror are psionic. Compartmentalized Mind lets the mindwarper psychokinetically strike and parry five times per turn! A mindwarper will often feign willingness to negotiate; it may even honor a deal that involves delvers agreeing to a horrible, soul-tainting quest. Truly evil.
-
-Psychokinetic Lash:
-    Innate Attack (Gaze), Base Cost (Crush): 5/die
-    Damage (3d): 3 dice
-    Psionics: -10%
-    Can Power Parry [Feature, 0%]
-    Cost: (5 * 3) @ (-10)% = 14 pts
-</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>8</FP>
@@ -36,7 +24,7 @@ Psychokinetic Lash:
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>10</levels>
@@ -196,7 +184,7 @@ Psychokinetic Lash:
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Compartmentalized Mind</name>
 			<type>Mental, Exotic</type>
 			<levels>4</levels>
@@ -224,7 +212,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Dependency (Mana)</name>
 			<type>Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -311,7 +299,7 @@ Psychokinetic Lash:
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Breathe</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -380,7 +368,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Eat or Drink</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -389,7 +377,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -398,7 +386,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Flexibility</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
@@ -409,20 +397,23 @@ Psychokinetic Lash:
 			<skill_bonus>
 				<name compare="is">climbing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>3</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">escape</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>3</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">erotic art</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>3</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity to Metabolic Hazards</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -431,7 +422,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (No Blood, No Vitals)</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -440,7 +431,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Magic Resistance</name>
 			<type>Physical</type>
 			<levels>6</levels>
@@ -456,7 +447,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Pressure Support</name>
 			<type>Physical, Exotic</type>
 			<levels>3</levels>
@@ -466,7 +457,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Regeneration</name>
 			<type>Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -560,7 +551,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Temperature Tolerance</name>
 			<type>Physical</type>
 			<levels>5</levels>
@@ -571,7 +562,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Terror 0</name>
 			<type>Mental, Supernatural</type>
 			<base_points>30</base_points>
@@ -598,7 +589,7 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unfazeable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -613,11 +604,12 @@ Psychokinetic Lash:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Psychokinetic Lash</name>
 			<type>Physical, Exotic</type>
 			<base_points>14</base_points>
 			<melee_weapon>
+				<damage type=""/>
 				<usage>Parry</usage>
 				<parry>0 (x5)</parry>
 				<block>No</block>
@@ -638,7 +630,7 @@ Psychokinetic Lash:
 				</default>
 			</melee_weapon>
 			<ranged_weapon>
-				<damage>3d cr (x5)</damage>
+				<damage type="cr" base="3dx5"/>
 				<accuracy>3</accuracy>
 				<range>100/10</range>
 				<rate_of_fire>1</rate_of_fire>
@@ -788,7 +780,7 @@ Psychokinetic Lash:
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Innate Attack</name>
 			<specialization>Gaze</specialization>
 			<difficulty>DX/E</difficulty>
@@ -808,7 +800,7 @@ Psychokinetic Lash:
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Wildcard</name>
 			<specialization>IQ</specialization>
 			<difficulty>IQ/A</difficulty>
@@ -817,7 +809,24 @@ Psychokinetic Lash:
 			<notes>Any IQ-based Skill at skill 16-20</notes>
 		</skill>
 	</skill_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Mindwarper (DF2:25) 
+
+Mindwarpers are Things from Beyond Time and Space, with genius-level intellect and devastating psychic powers. No mortal has survived to describe one, but ancient lore suggests that they're humanoids with pebbly skin (similar to that of a starfish), no nose, and hands and feet that consist of suckers surrounded by writhing cilia instead of digits. An encounter with a mindwarper generally ends in madness or death. Fortunately for humans, mindwarpers don't work well together; a mindwarper is likely to be the boss of a dungeon, found on the lowest levels, surrounded by mindless fodder.
+
+Notes: Parry, DR, attack, and Terror are psionic. Compartmentalized Mind lets the mindwarper psychokinetically strike and parry five times per turn! A mindwarper will often feign willingness to negotiate; it may even honor a deal that involves delvers agreeing to a horrible, soul-tainting quest. Truly evil.
+
+Psychokinetic Lash:
+    Innate Attack (Gaze), Base Cost (Crush): 5/die
+    Damage (3d): 3 dice
+    Psionics: -10%
+    Can Power Parry [Feature, 0%]
+    Cost: (5 * 3) @ (-10)% = 14 pts
+</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -827,6 +836,8 @@ Psychokinetic Lash:
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

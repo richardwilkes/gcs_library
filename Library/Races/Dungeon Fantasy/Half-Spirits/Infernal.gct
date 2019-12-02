@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcze38ab:-ojj307l9lmzq" version="1">
+<template id="354fe7a0-b18a-4c4d-a568-54837e0dd738" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Infernal</name>
 			<reference>DF3:12</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Basic Speed +0.5</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -13,12 +13,12 @@
 					<amount>0</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Hooves</name>
 				<type>Physical</type>
 				<base_points>3</base_points>
 				<melee_weapon>
-					<damage>thr:+1 cr</damage>
+					<damage type="cr" st="thr" modifier_per_die="1"/>
 					<usage>Trample</usage>
 					<reach>C,1</reach>
 					<parry>No</parry>
@@ -48,7 +48,7 @@
 					<amount>1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -168,7 +168,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dark Vision</name>
 				<type>Physical, Exotic</type>
 				<base_points>25</base_points>
@@ -188,7 +188,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -203,11 +203,11 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Functions/Detects as "Evil" regardless of actual morality</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fit</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -217,7 +217,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -237,7 +237,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -252,7 +252,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -286,13 +286,13 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Infernal Gifts</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:13</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Infernal)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
@@ -304,10 +304,11 @@
 				<skill_bonus>
 					<name compare="is">intimidation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Spirit Empathy</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -329,7 +330,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unnatural Features</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -342,15 +343,17 @@
 				<skill_bonus>
 					<name compare="is">disguise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">shadowing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Weakness (Blessed areas/Good Sanctity, 1D/Min)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -360,11 +363,11 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Infernal Gifts</name>
 			<reference>DF3:12</reference>
 			<notes>May purchase at creation or with earned points</notes>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -433,7 +436,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -442,7 +445,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Sleep</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -451,7 +454,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Life</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -480,7 +483,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flight</name>
 				<type>Physical, Exotic</type>
 				<base_points>40</base_points>
@@ -576,7 +579,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -623,12 +626,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Crushing (Horns)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr:+1 cr</damage>
+					<damage type="cr" st="thr" modifier_per_die="1"/>
 					<reach>C</reach>
 					<parry>0</parry>
 					<block>No</block>
@@ -647,12 +650,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Impaling (Horns)</name>
 				<type>Physical, Exotic</type>
 				<base_points>8</base_points>
 				<melee_weapon>
-					<damage>thr:+1 imp</damage>
+					<damage type="imp" st="thr" modifier_per_die="1"/>
 					<reach>C</reach>
 					<parry>0</parry>
 					<block>No</block>
@@ -671,12 +674,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Impaling (Tail)</name>
 				<type>Physical, Exotic</type>
 				<base_points>8</base_points>
 				<melee_weapon>
-					<damage>thr:+1 imp</damage>
+					<damage type="imp" st="thr" modifier_per_die="1"/>
 					<reach>C</reach>
 					<parry>0</parry>
 					<block>No</block>
@@ -695,12 +698,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Large Piercing (Tail)</name>
 				<type>Physical, Exotic</type>
 				<base_points>6</base_points>
 				<melee_weapon>
-					<damage>thr:+1 pi+</damage>
+					<damage type="pi+" st="thr" modifier_per_die="1"/>
 					<reach>C</reach>
 					<parry>0</parry>
 					<block>No</block>
@@ -719,12 +722,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Piercing (Tail)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr:+1 pi</damage>
+					<damage type="pi" st="thr" modifier_per_die="1"/>
 					<reach>C</reach>
 					<parry>0</parry>
 					<block>No</block>
@@ -743,12 +746,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Fangs</name>
 				<type>Physical, Exotic</type>
 				<base_points>2</base_points>
 				<melee_weapon>
-					<damage>thr-1 imp</damage>
+					<damage type="imp" st="thr" base="-1"/>
 					<usage>Bite</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -768,12 +771,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Sharp</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Bite</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -793,7 +796,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>1</levels>

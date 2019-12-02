@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fczdv0z6:-1ah9gzr3vnzau" version="1">
+<template id="f99adccf-be11-4ffe-b8e5-af1e1b70f534" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Elder-Spawn</name>
 			<reference>DF3:12</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flexibility (Double-Jointed)</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -15,20 +15,23 @@
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>5</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">escape</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>5</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">erotic art</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>5</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Frightens Animals</name>
 				<type>Mental, Supernatural</type>
 				<base_points>-10</base_points>
@@ -37,7 +40,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (Homogenous)</name>
 				<type>Physical, Exotic</type>
 				<base_points>40</base_points>
@@ -46,7 +49,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -56,7 +59,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -103,7 +106,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Slippery</name>
 				<type>Physical, Exotic</type>
 				<levels>5</levels>
@@ -115,10 +118,11 @@
 				<skill_bonus>
 					<name compare="is">escape</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Supernatural Features (Not Quite Right)</name>
 				<type>Physical, Supernatural</type>
 				<base_points>-5</base_points>
@@ -128,7 +132,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Talent (Elder Gift)</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -140,25 +144,29 @@
 				<skill_bonus>
 					<name compare="is">alchemy</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">hidden lore</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">occultism</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">thaumatology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unfazeable</name>
 				<type>Mental</type>
 				<base_points>15</base_points>
@@ -167,7 +175,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Weirdness Magnet</name>
 				<type>Mental, Supernatural</type>
 				<base_points>-15</base_points>

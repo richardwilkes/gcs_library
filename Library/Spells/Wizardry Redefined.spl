@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <spell_list id="b387cd95-5a8b-4c01-9ef2-a4d72d7a4337" version="1">
-	<spell version="2">
+	<spell version="3">
 		<name>Acid Ball</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -10,7 +10,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d cor/point</damage>
+			<damage type="cor/point" base="1d"/>
 			<accuracy>1</accuracy>
 			<range>20/40</range>
 			<default>
@@ -46,7 +46,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Acid Jet</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -56,7 +56,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d-1 cor/point</damage>
+			<damage type="cor/point" base="1d-1"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -96,7 +96,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Affect Spirits</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -115,7 +115,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Agonize</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -146,7 +146,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Air Jet</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -156,7 +156,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>2d kb/point</damage>
+			<damage type="kb/point" base="2d"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -181,7 +181,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Air Vision</name>
 		<college>Air/Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -201,7 +201,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Air Vortex</name>
 		<college>Air/Movement</college>
 		<power_source>Arcane</power_source>
@@ -241,7 +241,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Alarm</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -260,7 +260,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Alertness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -280,7 +280,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Alter Body</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -299,7 +299,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Alter Terrain</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -340,7 +340,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Alter Visage</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -368,7 +368,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Alter Voice</name>
 		<college>Body Control/Sound</college>
 		<power_source>Arcane</power_source>
@@ -393,7 +393,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ambidexterity</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -412,7 +412,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Analyze Magic</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -431,7 +431,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ancient History</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -450,7 +450,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Animate Machine</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -479,7 +479,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Animate Object</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -511,7 +511,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Animate Shadow</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -533,7 +533,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Animation</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -552,7 +552,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Apportation</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -579,7 +579,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Armor</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -598,7 +598,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Astral Block</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -620,7 +620,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Astral Vision</name>
 		<college>Knowledge/Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -643,7 +643,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Atmosphere Dome</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -666,7 +666,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Aura</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -685,7 +685,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Avoid</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -710,7 +710,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Awaken Craft Spirit</name>
 		<college>Making &amp; Breaking/Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -733,7 +733,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Balance</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -752,7 +752,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ball of Lightning</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -762,7 +762,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d-1 burn ex/point</damage>
+			<damage type="burn ex/point" base="1d-1"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -779,7 +779,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Banish</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -810,7 +810,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Beacon</name>
 		<college>Gate/Movement</college>
 		<power_source>Arcane</power_source>
@@ -830,7 +830,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Berserker</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -849,7 +849,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Bind Spirit (@Spirit@)</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -871,7 +871,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Blackout</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -890,7 +890,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Bladeturning</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -912,7 +912,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Blink</name>
 		<college>Gate/Movement</college>
 		<power_source>Arcane</power_source>
@@ -950,7 +950,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Blink Other</name>
 		<college>Gate/Movement</college>
 		<power_source>Arcane</power_source>
@@ -970,7 +970,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Block</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -996,7 +996,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Blur</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -1018,7 +1018,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Body of Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -1037,7 +1037,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Body of Flames</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -1047,7 +1047,7 @@
 		<casting_time>5 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d burn</damage>
+			<damage type="burn" base="1d"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -1081,7 +1081,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Body of Ice</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -1115,7 +1115,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Body of Lightning</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -1125,7 +1125,7 @@
 		<casting_time>5 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d burn</damage>
+			<damage type="burn" base="1d"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -1171,7 +1171,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Body of Metal</name>
 		<college>Technological/Metal</college>
 		<power_source>Arcane</power_source>
@@ -1203,7 +1203,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Body of Shadow</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -1238,7 +1238,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Body of Stone</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -1257,7 +1257,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Body of Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -1276,7 +1276,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Body of Wind</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -1313,7 +1313,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Boil Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -1335,7 +1335,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Boost Dexterity</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -1354,7 +1354,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Boost Health</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -1373,7 +1373,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Boost Intelligence</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -1392,7 +1392,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Boost Strength</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -1411,7 +1411,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Borrow Language</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -1430,7 +1430,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Borrow Skill</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -1449,7 +1449,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Bravery</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -1468,7 +1468,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Breathe Air</name>
 		<college>Air/Water</college>
 		<power_source>Arcane</power_source>
@@ -1491,7 +1491,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Breathe Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -1501,7 +1501,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d+1 burn/point</damage>
+			<damage type="burn/point" base="1d+1"/>
 			<usage>Breath</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -1541,7 +1541,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Breathe Steam</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -1551,7 +1551,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d burn/point</damage>
+			<damage type="burn/point" base="1d"/>
 			<usage>Breath</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -1591,7 +1591,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Breathe Water</name>
 		<college>Air/Water</college>
 		<power_source>Arcane</power_source>
@@ -1614,7 +1614,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Bright Vision</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -1643,7 +1643,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Burning Death</name>
 		<college>Fire/Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -1653,7 +1653,7 @@
 		<casting_time>3 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>thr-1 cr +1d-1 burn/second</damage>
+			<damage type="cr +1d-1 burn/second" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -1703,7 +1703,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Burning Touch</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -1713,7 +1713,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>thr-1 +1d burn/point</damage>
+			<damage type="+1d burn/point" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -1763,7 +1763,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Cadence</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -1785,7 +1785,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Catch Missile</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -1804,7 +1804,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Catch Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -1836,7 +1836,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Charm</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -1871,7 +1871,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Choke</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -1906,7 +1906,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Clean</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -1925,7 +1925,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Climbing</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -1939,7 +1939,7 @@
 			<category>Body Control</category>
 		</categories>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Cloud Vaulting</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -1973,7 +1973,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Cloud Walking</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -1995,7 +1995,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Clumsiness</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -2014,7 +2014,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Cold</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -2033,7 +2033,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Colors</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -2052,7 +2052,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Command</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -2083,7 +2083,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Command Spirit (@spirit@)</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -2105,7 +2105,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Communication</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -2133,7 +2133,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Compel Lie</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -2152,7 +2152,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Compel Truth</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -2183,7 +2183,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Complex Illusion</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -2205,7 +2205,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Conceal Magic</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -2236,7 +2236,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Concussion</name>
 		<college>Air/Sound</college>
 		<power_source>Arcane</power_source>
@@ -2246,7 +2246,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d cr ex/2 points</damage>
+			<damage type="cr ex/2 points" base="1d"/>
 			<accuracy>1</accuracy>
 			<range>20/40</range>
 			<default>
@@ -2274,7 +2274,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Condense Steam</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -2296,7 +2296,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Conduct Power</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -2329,7 +2329,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Continual Light</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -2348,7 +2348,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Continual Mage Light</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -2370,7 +2370,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Continual Sunlight</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -2389,7 +2389,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Contract Object</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -2420,7 +2420,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Air Elemental</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -2439,7 +2439,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Creation</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -2458,7 +2458,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Earth Elemental</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -2477,7 +2477,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Fire Elemental</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -2496,7 +2496,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Gate</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -2527,7 +2527,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Illusion</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -2546,7 +2546,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Limb</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -2581,7 +2581,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Person</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -2603,7 +2603,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Water Elemental</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -2622,7 +2622,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Control Zombie</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -2640,7 +2640,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Converse</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -2674,7 +2674,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Cook</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -2696,7 +2696,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Coolness</name>
 		<college>Protection/Water</college>
 		<power_source>Arcane</power_source>
@@ -2716,7 +2716,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Copy</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -2745,7 +2745,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Corpulence</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -2786,7 +2786,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Counterspell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -2811,7 +2811,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Acid</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -2833,7 +2833,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -2855,7 +2855,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Air Elemental</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -2886,7 +2886,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Earth</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -2905,7 +2905,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Earth Elemental</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -2936,7 +2936,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -2946,7 +2946,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d-1 burn</damage>
+			<damage type="burn" base="1d-1"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -2964,7 +2964,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Fire Elemental</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -2995,7 +2995,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -3017,7 +3017,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Fuel</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -3042,7 +3042,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Ice</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -3061,7 +3061,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Create Object</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -3095,7 +3095,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Servant</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -3127,7 +3127,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Steam</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -3146,7 +3146,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Warrior</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -3165,7 +3165,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -3184,7 +3184,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Create Water Elemental</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -3215,7 +3215,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dancing Object</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -3246,7 +3246,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dark Vision</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -3268,7 +3268,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Darkness</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -3287,7 +3287,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Daze</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -3306,7 +3306,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Death Vision</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -3332,7 +3332,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Deathtouch</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -3342,7 +3342,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>thr-1 cr +1d/point</damage>
+			<damage type="cr +1d/point" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -3376,7 +3376,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Debility</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -3390,7 +3390,7 @@
 			<category>Body Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Decapitation</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -3421,7 +3421,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Decay</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -3440,7 +3440,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Deflect Energy</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -3471,7 +3471,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Deflect Missile</name>
 		<college>Movement/Protection</college>
 		<power_source>Arcane</power_source>
@@ -3491,7 +3491,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dehydrate</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -3501,7 +3501,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>Permanent</duration>
 		<melee_weapon>
-			<damage>1d-1 dehydrate/point</damage>
+			<damage type="dehydrate/point" base="1d-1"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -3519,7 +3519,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Delay</name>
 		<college>Meta/Linking</college>
 		<power_source>Arcane</power_source>
@@ -3552,7 +3552,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Delayed Message</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -3586,7 +3586,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Destroy Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -3605,7 +3605,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Destroy Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -3624,7 +3624,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Detect Magic</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -3650,7 +3650,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Devitalize Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -3669,7 +3669,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Disintegrate</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -3679,7 +3679,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Permanent</duration>
 		<melee_weapon>
-			<damage>1d/point</damage>
+			<damage type="/point" base="1d"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -3718,7 +3718,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Disorient</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -3737,7 +3737,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dispel Creation</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -3756,7 +3756,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dispel Illusion</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -3775,7 +3775,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dispel Magic</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -3798,7 +3798,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Displace Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -3817,7 +3817,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Distant Blow</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -3848,7 +3848,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Distill</name>
 		<college>Food/Water</college>
 		<power_source>Arcane</power_source>
@@ -3871,7 +3871,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Divert Teleport</name>
 		<college>Gate/Movement</college>
 		<power_source>Arcane</power_source>
@@ -3903,7 +3903,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Astrology</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -3933,7 +3933,7 @@
 			</skill_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Augury</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -3961,7 +3961,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Cartomancy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -3989,7 +3989,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Crystal-Gazing</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4011,7 +4011,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Dactylomancy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4039,7 +4039,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Extispicy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4059,7 +4059,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Gastromancy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4084,7 +4084,7 @@
 			</skill_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Geomancy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4104,7 +4104,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Lecanomancy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4124,7 +4124,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Numerology</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4144,7 +4144,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Oneiromancy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4164,7 +4164,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Physiognomy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4184,7 +4184,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Pyromancy</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4204,7 +4204,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Sortilege</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4232,7 +4232,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Divination: Symbol-Casting</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4253,7 +4253,7 @@
 			</skill_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Drain Magery</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -4284,7 +4284,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Drain Mana</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -4306,7 +4306,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dream Projection</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -4325,7 +4325,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dream Sending</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -4347,7 +4347,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dream Viewing</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -4369,7 +4369,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Drunkenness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4391,7 +4391,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dull @Sense@</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4405,7 +4405,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dull Hearing</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4419,7 +4419,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dull Taste and Smell</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4433,7 +4433,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dull Touch</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4447,7 +4447,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dull Vision</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4461,7 +4461,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Dullness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4481,7 +4481,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Duplicate</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -4503,7 +4503,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Dye</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -4525,7 +4525,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Earth to Air</name>
 		<college>Air/Earth</college>
 		<power_source>Arcane</power_source>
@@ -4548,7 +4548,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Earth to Stone</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -4579,7 +4579,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Earth to Water</name>
 		<college>Earth/Water</college>
 		<power_source>Arcane</power_source>
@@ -4614,7 +4614,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Earth Vision</name>
 		<college>Earth/Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -4634,7 +4634,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Earthquake</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -4669,7 +4669,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Echoes of the Past</name>
 		<college>Knowledge/Sound</college>
 		<power_source>Arcane</power_source>
@@ -4704,7 +4704,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Ecstasy</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4735,7 +4735,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Emotion Control</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4757,7 +4757,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Encrypt</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4776,7 +4776,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Enlarge</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -4807,7 +4807,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Enlarge Object</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -4826,7 +4826,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Enlarge Other</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -4857,7 +4857,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Enslave</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4879,7 +4879,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Enthrall</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -4904,7 +4904,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Entombment</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -4936,7 +4936,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Entrap Spirit</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -4970,7 +4970,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Essential Acid</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -5004,7 +5004,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Essential Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -5024,7 +5024,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Essential Earth</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -5044,7 +5044,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Essential Flame</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5054,7 +5054,7 @@
 		<casting_time>3 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d burn</damage>
+			<damage type="burn" base="1d"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -5070,7 +5070,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Essential Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -5093,7 +5093,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Essential Fuel</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -5115,7 +5115,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Essential Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -5135,7 +5135,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Ethereal Body</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -5162,9 +5162,9 @@
 				</advantage_prereq>
 			</prereq_list>
 			<prereq_list all="no">
-					<spell_prereq has="yes">
-						<name compare="is">body of air</name>
-					</spell_prereq>
+				<spell_prereq has="yes">
+					<name compare="is">body of air</name>
+				</spell_prereq>
 				<spell_prereq has="yes">
 					<college compare="contains">Movement</college>
 					<quantity compare="at least">6</quantity>
@@ -5172,7 +5172,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Evisceration</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -5182,7 +5182,7 @@
 		<casting_time>5 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>removes vital organ</damage>
+			<damage type="removes vital organ"/>
 			<usage>Grapple</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -5231,7 +5231,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Explode</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -5241,7 +5241,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>1d frag/2 points</damage>
+			<damage type="frag/2 points" base="1d"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -5271,7 +5271,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Explosive Fireball</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5281,7 +5281,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d burn ex/2 points</damage>
+			<damage type="burn ex/2 points" base="1d"/>
 			<accuracy>1</accuracy>
 			<range>25/50</range>
 			<default>
@@ -5305,7 +5305,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Explosive Lightning</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -5315,7 +5315,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d-1 burn ex/2 points</damage>
+			<damage type="burn ex/2 points" base="1d-1"/>
 			<accuracy>3</accuracy>
 			<range>50/100</range>
 			<default>
@@ -5339,7 +5339,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Extend Object</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -5370,7 +5370,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Extinguish Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5389,7 +5389,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>False Aura</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -5411,7 +5411,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>False Memory</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -5434,7 +5434,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Far-Feeling</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -5460,7 +5460,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Far-Hearing</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -5500,7 +5500,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Far-Tasting</name>
 		<college>Food/Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -5541,7 +5541,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fascinate</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -5560,7 +5560,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fast Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5579,7 +5579,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fasten</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -5598,7 +5598,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fear</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -5621,7 +5621,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Find Direction</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -5647,7 +5647,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Find Weakness</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -5675,7 +5675,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fire Cloud</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5685,7 +5685,7 @@
 		<casting_time>1-5 sec</casting_time>
 		<duration>10 sec</duration>
 		<melee_weapon>
-			<damage>1 point burn/point</damage>
+			<damage type="point burn/point" base="+1"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -5703,7 +5703,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fireball</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5713,7 +5713,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d burn/point</damage>
+			<damage type="burn/point" base="1d"/>
 			<accuracy>1</accuracy>
 			<range>25/50</range>
 			<default>
@@ -5752,7 +5752,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fireproof</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5771,7 +5771,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Flame Jet</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5781,7 +5781,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d burn/point</damage>
+			<damage type="burn/point" base="1d"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -5809,7 +5809,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Flaming Armor</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5844,7 +5844,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Flaming Missiles</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5864,7 +5864,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Flaming Weapon</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -5896,7 +5896,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Flash</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -5906,7 +5906,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>Blinds</damage>
+			<damage type="Blinds"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -5922,7 +5922,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Flesh to Ice</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -5956,7 +5956,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Flesh to Stone</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -5975,7 +5975,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Flight</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6006,7 +6006,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Flying Carpet</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6042,7 +6042,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fool's Banquet</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -6076,7 +6076,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Foolishness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -6093,7 +6093,7 @@
 			<attribute_prereq has="yes" which="iq" compare="at least">12</attribute_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Force Dome</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -6140,7 +6140,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Force Wall</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -6159,7 +6159,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Forgetfulness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -6190,7 +6190,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fortify</name>
 		<college>Armor Enchantment</college>
 		<power_source>Arcane</power_source>
@@ -6209,7 +6209,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Foul Water</name>
 		<college>Food/Water</college>
 		<power_source>Arcane</power_source>
@@ -6232,7 +6232,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Frailty</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -6251,7 +6251,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Freedom</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6279,7 +6279,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Freeze</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -6298,7 +6298,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Frostbite</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -6308,7 +6308,7 @@
 		<casting_time>3 sec</casting_time>
 		<duration>Permanent</duration>
 		<melee_weapon>
-			<damage>1d freezing/point</damage>
+			<damage type="freezing/point" base="1d"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -6325,7 +6325,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Fumble</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -6344,7 +6344,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Garble</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -6363,7 +6363,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Gauntness</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -6404,7 +6404,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Geyser</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -6437,7 +6437,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Gift of Letters</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -6466,7 +6466,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Gift of Tongues</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -6495,7 +6495,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Glass Wall</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -6518,7 +6518,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Glib Tongue</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -6537,7 +6537,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Glitch</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -6558,7 +6558,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Gloom</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -6577,7 +6577,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Glow</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -6596,7 +6596,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Glue</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6615,7 +6615,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Grace</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -6634,7 +6634,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Graceful Weapon</name>
 		<college>Enchantment</college>
 		<power_source>Arcane</power_source>
@@ -6656,7 +6656,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Grease</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6675,7 +6675,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Great Geas</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -6710,7 +6710,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Great Hallucination</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -6741,7 +6741,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Great Haste</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6773,7 +6773,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Great Voice</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -6795,7 +6795,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Great Ward</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -6826,7 +6826,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hair Growth</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -6846,7 +6846,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Haircut</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -6865,7 +6865,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hallucination</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -6887,7 +6887,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Hang Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -6906,7 +6906,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hardiness</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -6925,7 +6925,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Haste</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6939,7 +6939,7 @@
 			<category>Movement</category>
 		</categories>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Hawk Flight</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -6958,7 +6958,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hawk Vision</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -6987,7 +6987,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Heat</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -7009,7 +7009,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hide</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -7031,7 +7031,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hide Emotion</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -7050,7 +7050,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hide Object</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -7072,7 +7072,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hide Thoughts</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -7094,7 +7094,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hinder</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -7116,7 +7116,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>History</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -7134,7 +7134,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hold Breath</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -7165,7 +7165,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hold Fast</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -7184,7 +7184,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hunger</name>
 		<college>Body Control/Food</college>
 		<power_source>Arcane</power_source>
@@ -7219,7 +7219,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Hush</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -7238,7 +7238,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ice Dagger</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -7248,7 +7248,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d-1 imp/point</damage>
+			<damage type="imp/point" base="1d-1"/>
 			<accuracy>3</accuracy>
 			<range>30/60</range>
 			<default>
@@ -7275,7 +7275,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ice Slick</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -7294,7 +7294,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ice Sphere</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -7304,7 +7304,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d cr/point</damage>
+			<damage type="cr/point" base="1d"/>
 			<accuracy>2</accuracy>
 			<range>40/80</range>
 			<default>
@@ -7328,7 +7328,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Icy Breath</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -7338,7 +7338,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d+1 freezing/point</damage>
+			<damage type="freezing/point" base="1d+1"/>
 			<usage>Breath</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -7378,7 +7378,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Icy Missiles</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -7398,7 +7398,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Icy Touch</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -7408,7 +7408,7 @@
 		<casting_time>1 sec#</casting_time>
 		<duration>Permanent</duration>
 		<melee_weapon>
-			<damage>thr-1 +paralysis</damage>
+			<damage type="+paralysis" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -7455,7 +7455,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Icy Weapon</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -7475,7 +7475,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Identify Metal</name>
 		<college>Technological/Metal</college>
 		<power_source>Arcane</power_source>
@@ -7495,7 +7495,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Identify Spell</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -7514,7 +7514,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ignite Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -7528,7 +7528,7 @@
 			<category>Fire</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Illusion Disguise</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -7547,7 +7547,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Illusion Shell</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -7566,7 +7566,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Images of the Past</name>
 		<college>Knowledge/Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -7601,7 +7601,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Imitate Voice</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -7620,7 +7620,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Impression Blocker</name>
 		<college>Enchantment</college>
 		<power_source>Arcane</power_source>
@@ -7645,7 +7645,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Increase Burden</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -7664,7 +7664,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Independence</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -7683,7 +7683,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Infravision</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -7706,7 +7706,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Initiative</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -7728,7 +7728,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Inscribe</name>
 		<college>Illusion &amp; Creation/Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -7751,7 +7751,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Insignificance</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -7773,7 +7773,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Inspired Creation</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -7787,7 +7787,7 @@
 			<category>Making &amp; Breaking</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Invisibility</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -7811,7 +7811,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Invisible Wizard Ear</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -7833,7 +7833,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Invisible Wizard Eye</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -7855,7 +7855,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Iron Arm</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -7875,7 +7875,7 @@
 			<attribute_prereq has="yes" which="dx" compare="at least">11</attribute_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Itch</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -7889,7 +7889,7 @@
 			<category>Body Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Jump</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -7908,7 +7908,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Keen @Sense@</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -7922,7 +7922,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Keen Hearing</name>
 		<college>Mind Control/Sound</college>
 		<power_source>Arcane</power_source>
@@ -7937,7 +7937,7 @@
 			<category>Sound</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Keen Taste and Smell</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -7951,7 +7951,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Keen Touch</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -7965,7 +7965,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Keen Vision</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -7979,7 +7979,7 @@
 			<category>Mind Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Knot</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -7998,7 +7998,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Know Illusion</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -8017,7 +8017,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Know Location</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -8048,7 +8048,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Know Recipe</name>
 		<college>Food/Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -8071,7 +8071,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Know True Shape</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -8124,7 +8124,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lend Energy</name>
 		<college>Meta-Spell</college>
 		<power_source>Arcane</power_source>
@@ -8150,7 +8150,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lend Language</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -8173,7 +8173,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lend Power</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -8206,7 +8206,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lend Skill</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -8226,7 +8226,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lend Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -8260,7 +8260,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lengthen Limb</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -8291,7 +8291,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Lesser Geas</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -8326,7 +8326,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Levitation</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -8345,7 +8345,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Light</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -8359,7 +8359,7 @@
 			<category>Light</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Light Jet</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -8369,7 +8369,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>Blinds</damage>
+			<damage type="Blinds"/>
 			<usage>Jet</usage>
 			<reach>10</reach>
 			<parry>No</parry>
@@ -8398,7 +8398,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Light Tread</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -8420,7 +8420,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lighten Burden</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -8439,7 +8439,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lightning</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -8449,7 +8449,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d-1 burn/point</damage>
+			<damage type="burn/point" base="1d-1"/>
 			<accuracy>3</accuracy>
 			<range>50/100</range>
 			<default>
@@ -8486,7 +8486,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lightning Armor</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -8509,7 +8509,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lightning Missiles</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -8529,7 +8529,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lightning Stare</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -8539,7 +8539,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d burn/point</damage>
+			<damage type="burn/point" base="1d"/>
 			<usage>Gaze</usage>
 			<reach>2/point</reach>
 			<parry>No</parry>
@@ -8567,7 +8567,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lightning Weapon</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -8599,7 +8599,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lightning Whip</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -8609,7 +8609,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>10 sec</duration>
 		<melee_weapon>
-			<damage>1d burn</damage>
+			<damage type="burn" base="1d"/>
 			<reach>2/point</reach>
 			<parry>No</parry>
 			<default>
@@ -8642,7 +8642,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Link</name>
 		<college>Meta/Linking</college>
 		<power_source>Arcane</power_source>
@@ -8662,7 +8662,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lockmaster</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -8698,7 +8698,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Locksmith</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -8717,7 +8717,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Long March</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -8753,7 +8753,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Loyalty</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -8776,7 +8776,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Lure</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -8795,7 +8795,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Machine Control</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -8822,7 +8822,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Machine Possession</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -8851,7 +8851,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Machine Summoning</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -8872,7 +8872,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Madness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -8894,7 +8894,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mage Light</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -8916,7 +8916,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mage Sense</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -8935,7 +8935,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mage Sight</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -8954,7 +8954,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mage-Stealth</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -8973,7 +8973,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Magelock</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -8994,7 +8994,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Magic Resistance</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -9025,7 +9025,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Magnetic Vision</name>
 		<college>Technological/Energy</college>
 		<power_source>Arcane</power_source>
@@ -9045,7 +9045,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Maintain Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -9064,7 +9064,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Malfunction</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -9097,7 +9097,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Manipulate</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -9116,7 +9116,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mapmaker</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -9138,7 +9138,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mass Daze</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9158,7 +9158,7 @@
 			<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mass Sleep</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9178,7 +9178,7 @@
 			<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mass Suggestion</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9197,7 +9197,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Mass Zombie</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -9221,7 +9221,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Materialize</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -9240,7 +9240,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mature</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -9262,7 +9262,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Measurement</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -9276,7 +9276,7 @@
 			<category>Knowledge</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Melt Ice</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -9298,7 +9298,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Memorize</name>
 		<college>Knowledge/Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9322,7 +9322,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mental Stun</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9344,7 +9344,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Message</name>
 		<college>Communication &amp; Empathy/Sound</college>
 		<power_source>Arcane</power_source>
@@ -9367,7 +9367,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Metal Vision</name>
 		<college>Knowledge/Technological/Metal</college>
 		<power_source>Arcane</power_source>
@@ -9388,7 +9388,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Might</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -9407,7 +9407,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mind-Reading</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -9429,7 +9429,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Mind-Search</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -9448,7 +9448,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mind-Sending</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -9467,7 +9467,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Mindlessness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9498,7 +9498,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mirror</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -9517,7 +9517,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Missile Shield</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -9539,7 +9539,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Move Terrain</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -9561,7 +9561,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mud Jet</name>
 		<college>Earth/Water</college>
 		<power_source>Arcane</power_source>
@@ -9571,7 +9571,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d kb/point - Blinds</damage>
+			<damage type="kb/point - Blinds" base="1d"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -9600,7 +9600,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Musical Scribe</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -9619,7 +9619,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mystic Mark</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -9641,7 +9641,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Mystic Mist</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -9677,7 +9677,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Nauseate</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -9699,7 +9699,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Night Vision</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -9722,7 +9722,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Nightingale</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -9741,7 +9741,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Nightmare</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9778,7 +9778,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>No-Smell</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -9797,7 +9797,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Noise</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -9816,7 +9816,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Oath</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9847,7 +9847,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Odor</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -9866,7 +9866,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Pain</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -9885,7 +9885,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Panic</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -9904,7 +9904,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Paralyze Limb</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -9939,7 +9939,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Partial Petrification</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -9949,7 +9949,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>Permanent</duration>
 		<melee_weapon>
-			<damage>Petrification</damage>
+			<damage type="Petrification"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -9995,7 +9995,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Pathfinder</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -10028,7 +10028,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Peaceful Sleep</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -10050,7 +10050,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Penetrating Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -10072,7 +10072,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Pentagram</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -10091,7 +10091,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Perfect Illusion</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -10122,7 +10122,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Perfume</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -10141,7 +10141,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Permanent Forgetfulness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -10173,7 +10173,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Permanent Madness</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -10205,7 +10205,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Persuasion</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -10224,7 +10224,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Pestilence</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -10258,7 +10258,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Phantom</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -10295,7 +10295,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Phantom Flame</name>
 		<college>Fire/Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -10318,7 +10318,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Phase</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -10354,7 +10354,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Phase Other</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -10373,7 +10373,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Planar Summons (@Plane@)</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -10404,7 +10404,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Planar Visit (@Plane@)</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -10440,7 +10440,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Plane Shift (@Plane@)</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -10459,7 +10459,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Plane Shift Other (@Plane@)</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -10490,7 +10490,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Poison Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -10509,7 +10509,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Poltergeist</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -10519,7 +10519,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>Special cr</damage>
+			<damage type="Special cr"/>
 			<accuracy>1</accuracy>
 			<range>20/60</range>
 			<default>
@@ -10543,7 +10543,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Possession</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -10579,7 +10579,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Predict Earth Movement</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -10599,7 +10599,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Prehistory</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -10618,7 +10618,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Prepare Game</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -10637,7 +10637,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Presence</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -10659,7 +10659,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Preserve Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -10678,7 +10678,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Preserve Fuel</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -10699,7 +10699,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Projection</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -10722,7 +10722,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Pull</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -10756,7 +10756,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Purify Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -10770,7 +10770,7 @@
 			<category>Air</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Purify Earth</name>
 		<college>Plant/Earth</college>
 		<power_source>Arcane</power_source>
@@ -10794,7 +10794,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Purify Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -10813,7 +10813,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Purify Fuel</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -10837,7 +10837,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Purify Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -10856,7 +10856,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Quick March</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -10887,7 +10887,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Rain of Ice Daggers</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -10897,7 +10897,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d-2 imp</damage>
+			<damage type="imp" base="1d-2"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -10927,7 +10927,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Rain of Acid</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -10937,7 +10937,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d-1 cor</damage>
+			<damage type="cor" base="1d-1"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -10967,7 +10967,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Rain of Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -10977,7 +10977,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d-1 burn</damage>
+			<damage type="burn" base="1d-1"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -11004,7 +11004,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Rain of Stones</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -11014,7 +11014,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d-1 cr/point</damage>
+			<damage type="cr/point" base="1d-1"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -11041,7 +11041,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Rear Vision</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -11060,7 +11060,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Rebuild</name>
 		<tech_level/>
 		<college>Making &amp; Breaking/Technological/Machine</college>
@@ -11116,7 +11116,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Recall</name>
 		<college>Knowledge/Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -11151,7 +11151,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Reconstruct Spell</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -11185,7 +11185,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Recover Energy</name>
 		<college>Meta-Spell</college>
 		<power_source>Arcane</power_source>
@@ -11216,7 +11216,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Reflect</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -11235,7 +11235,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Reflect Gaze</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -11254,7 +11254,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Reflex</name>
 		<college>Meta/Linking</college>
 		<power_source>Arcane</power_source>
@@ -11277,7 +11277,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Reflexes</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -11299,7 +11299,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Rejoin</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -11321,7 +11321,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Remember Path</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -11343,7 +11343,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Remove Aura</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -11365,7 +11365,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Remove Curse</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -11396,7 +11396,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Remove Reflection</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -11415,7 +11415,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Remove Shadow</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -11434,7 +11434,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Repair</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -11465,7 +11465,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Repel</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -11499,7 +11499,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Repel Spirits</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -11521,7 +11521,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Reshape</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -11560,7 +11560,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Acid</name>
 		<college>Protection/Water</college>
 		<power_source>Arcane</power_source>
@@ -11580,7 +11580,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Cold</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -11599,7 +11599,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -11618,7 +11618,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Lightning</name>
 		<college>Air/Protection</college>
 		<power_source>Arcane</power_source>
@@ -11639,7 +11639,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Pain</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -11670,7 +11670,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Pressure</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -11689,7 +11689,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Sound</name>
 		<college>Protection/Sound</college>
 		<power_source>Arcane</power_source>
@@ -11710,7 +11710,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Resist Water</name>
 		<college>Protection/Water</college>
 		<power_source>Arcane</power_source>
@@ -11738,7 +11738,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Restore</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -11760,7 +11760,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Restore Mana</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -11782,7 +11782,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Retch</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -11804,7 +11804,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Retrogression</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -11826,7 +11826,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Return Missile</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -11845,7 +11845,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Reveal Function</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -11866,7 +11866,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Reverse Missiles</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -11888,7 +11888,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Rive</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -11898,7 +11898,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>1d (pi ++)/point</damage>
+			<damage type="(pi ++)/point" base="1d"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -11925,7 +11925,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Rooted Feet</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -11944,7 +11944,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Rotting Death</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -11954,7 +11954,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>thr-1 cr +1d-1 tox/second</damage>
+			<damage type="cr +1d-1 tox/second" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -12003,7 +12003,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Roundabout</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -12022,7 +12022,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ruin</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -12056,7 +12056,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Sanctuary</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -12078,7 +12078,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sand Jet</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -12088,7 +12088,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>Blinds</damage>
+			<damage type="Blinds"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -12113,7 +12113,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sandstorm</name>
 		<college>Air/Earth</college>
 		<power_source>Arcane</power_source>
@@ -12136,7 +12136,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Scents of the Past</name>
 		<college>Food/Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -12171,7 +12171,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Schematic</name>
 		<tech_level/>
 		<college>Knowledge/Technological/Machine</college>
@@ -12196,7 +12196,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Scribe</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -12222,7 +12222,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Scry Gate</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -12241,7 +12241,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Scryfool</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -12275,7 +12275,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Scryguard</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -12303,7 +12303,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Scrywall</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -12322,7 +12322,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Season</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -12341,7 +12341,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>See Invisible</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -12368,7 +12368,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>See Secrets</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -12390,7 +12390,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -12404,7 +12404,7 @@
 			<category>Air</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Coastline</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -12423,7 +12423,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Earth</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -12437,7 +12437,7 @@
 			<category>Earth</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -12451,7 +12451,7 @@
 			<category>Fire</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -12465,7 +12465,7 @@
 			<category>Food</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Fuel</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -12481,7 +12481,7 @@
 			<category>Technological</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Gate</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -12515,7 +12515,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Machine</name>
 		<tech_level/>
 		<college>Technological/Machine</college>
@@ -12531,7 +12531,7 @@
 			<category>Technological</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Magic</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -12550,7 +12550,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Pass</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -12569,7 +12569,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Power</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -12585,7 +12585,7 @@
 			<category>Technological</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seek Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -12599,7 +12599,7 @@
 			<category>Water</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Seeker</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -12632,7 +12632,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sense Danger</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -12651,7 +12651,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sense Emotion</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -12670,7 +12670,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sense Foes</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -12684,7 +12684,7 @@
 			<category>Communication</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sense Life</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -12698,7 +12698,7 @@
 			<category>Communication</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sense Mana</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -12717,7 +12717,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sense Observation</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -12739,7 +12739,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sense Spirit</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -12775,7 +12775,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sensitize</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -12806,7 +12806,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shade</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -12828,7 +12828,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shape Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -12847,7 +12847,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shape Darkness</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -12866,7 +12866,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shape Earth</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -12885,7 +12885,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shape Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -12904,7 +12904,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shape Light</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -12923,7 +12923,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shape Metal</name>
 		<college>Technological/Metal</college>
 		<power_source>Arcane</power_source>
@@ -12961,7 +12961,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shape Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -12980,7 +12980,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Share Energy</name>
 		<college>Meta-Spell</college>
 		<power_source>Arcane</power_source>
@@ -12999,7 +12999,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sharpen</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -13018,7 +13018,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Shatter</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -13028,7 +13028,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>1d/point</damage>
+			<damage type="/point" base="1d"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -13055,7 +13055,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shatterproof</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -13077,7 +13077,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shield</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -13103,7 +13103,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Shocking Touch</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -13113,7 +13113,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<melee_weapon>
-			<damage>thr-1 cr +1d+1 burn/point</damage>
+			<damage type="cr +1d+1 burn/point" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -13147,7 +13147,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Shrink</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -13178,7 +13178,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Shrink Object</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -13197,7 +13197,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Shrink Other</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -13228,7 +13228,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sickness</name>
 		<college>Body Control/Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -13251,7 +13251,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Silence</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -13270,7 +13270,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Silver Tongue</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -13292,7 +13292,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Simple Illusion</name>
 		<college>Illusion &amp; Creation</college>
 		<power_source>Arcane</power_source>
@@ -13313,7 +13313,7 @@
 			<attribute_prereq has="yes" which="iq" compare="at least">11</attribute_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Skull-Spirit</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -13333,7 +13333,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sleep</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -13352,7 +13352,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Slide</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -13374,7 +13374,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Slow</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -13408,7 +13408,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Slow Fall</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -13427,7 +13427,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Slow Fire</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -13446,7 +13446,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Slow Healing</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -13480,7 +13480,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Small Vision</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -13509,7 +13509,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Smoke</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -13519,7 +13519,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>5 min #</duration>
 		<melee_weapon>
-			<damage>Cough/Weep</damage>
+			<damage type="Cough/Weep"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -13537,7 +13537,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Snow Jet</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -13547,7 +13547,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d kb/point - Blinds</damage>
+			<damage type="kb/point - Blinds" base="1d"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -13575,7 +13575,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Snow Shoes</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -13594,7 +13594,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Soilproof</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -13613,7 +13613,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Solidify</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -13632,7 +13632,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Soul Jar</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -13666,7 +13666,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Soul Rider</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -13685,7 +13685,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sound</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -13699,7 +13699,7 @@
 			<category>Sound</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sound Jet</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -13709,7 +13709,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>Stuns</damage>
+			<damage type="Stuns"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -13734,7 +13734,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sound Vision</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -13758,7 +13758,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Spark Cloud</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -13768,7 +13768,7 @@
 		<casting_time>1-5 sec</casting_time>
 		<duration>10 sec</duration>
 		<melee_weapon>
-			<damage>1 point burn/second</damage>
+			<damage type="point burn/second" base="+1"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -13786,7 +13786,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Spark Storm</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -13796,7 +13796,7 @@
 		<casting_time>sec=radius in yards</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>1d-1 burn/2 points</damage>
+			<damage type="burn/2 points" base="1d-1"/>
 			<usage>Area</usage>
 			<reach>Special</reach>
 			<parry>No</parry>
@@ -13814,7 +13814,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Spasm</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -13833,7 +13833,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Spectrum Vision</name>
 		<college>Technological/Energy</college>
 		<power_source>Arcane</power_source>
@@ -13853,7 +13853,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Spell Shield</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -13887,7 +13887,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Spell Wall</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -13906,7 +13906,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Spellguard</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -13925,7 +13925,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Spit Acid</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -13935,7 +13935,7 @@
 		<casting_time>2 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d cor/point</damage>
+			<damage type="cor/point" base="1d"/>
 			<usage>Breath</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -13975,7 +13975,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Steal Beauty</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14009,7 +14009,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Steal Dexterity</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14043,7 +14043,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Steal Energy</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14065,7 +14065,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Steal Might</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14099,7 +14099,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Steal Skill</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14133,7 +14133,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Steal Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -14155,7 +14155,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Steal Vigor</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14189,7 +14189,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Steal Vitality</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14208,7 +14208,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Steal Wisdom</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14242,7 +14242,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Steam Jet</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -14252,7 +14252,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d-1 burn/point</damage>
+			<damage type="burn/point" base="1d-1"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -14280,7 +14280,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Steelwraith</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -14311,7 +14311,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stench</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -14330,7 +14330,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stiffen</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -14349,7 +14349,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stone Missile</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -14359,7 +14359,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d+1 cr/point</damage>
+			<damage type="cr/point" base="1d+1"/>
 			<accuracy>2</accuracy>
 			<range>40/80</range>
 			<default>
@@ -14383,7 +14383,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stone to Earth</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -14406,7 +14406,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stone to Flesh</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -14440,7 +14440,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stop Healing</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14459,7 +14459,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stop Power</name>
 		<college>Technological/Energy</college>
 		<power_source>Arcane</power_source>
@@ -14491,7 +14491,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Strengthen Will</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -14523,7 +14523,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Strike Barren</name>
 		<college>Body Control/Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14558,7 +14558,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Strike Blind</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -14581,7 +14581,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Strike Deaf</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -14604,7 +14604,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Strike Dumb</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -14623,7 +14623,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Strike Numb</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -14642,7 +14642,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Stun</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -14661,7 +14661,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Suggestion</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -14683,7 +14683,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Summon Air Elemental</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -14734,7 +14734,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Summon Demon</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14765,7 +14765,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Summon Earth Elemental</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -14816,7 +14816,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Summon Fire Elemental</name>
 		<college>Fire</college>
 		<power_source>Arcane</power_source>
@@ -14867,7 +14867,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Summon Shade</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -14889,7 +14889,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Summon Spirit</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -14920,7 +14920,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Summon Water Elemental</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -14971,7 +14971,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sunbolt</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -14981,7 +14981,7 @@
 		<casting_time>1-3 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>1d-1 imp/point</damage>
+			<damage type="imp/point" base="1d-1"/>
 			<accuracy>2</accuracy>
 			<range>75/150</range>
 			<default>
@@ -15009,7 +15009,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Sunlight</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -15043,7 +15043,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Suspend Curse</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -15074,7 +15074,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Suspend Magery</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -15108,7 +15108,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Suspend Magic</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -15131,7 +15131,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Suspend Mana</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -15153,7 +15153,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Suspend Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -15184,7 +15184,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Swim</name>
 		<college>Movement/Water</college>
 		<power_source>Arcane</power_source>
@@ -15207,7 +15207,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Tanglefoot</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -15226,7 +15226,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Telecast</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -15263,7 +15263,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Telepathy</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -15282,7 +15282,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Teleport Shield</name>
 		<college>Gate/Protection</college>
 		<power_source>Arcane</power_source>
@@ -15310,7 +15310,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Tell Position</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -15329,7 +15329,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Tell Time</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -15343,7 +15343,7 @@
 			<category>Knowledge</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Terror</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -15362,7 +15362,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Test Food</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -15376,7 +15376,7 @@
 			<category>Food</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Test Fuel</name>
 		<tech_level/>
 		<college>Technological/Energy</college>
@@ -15392,7 +15392,7 @@
 			<category>Technological</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Thirst</name>
 		<college>Body Control/Food</college>
 		<power_source>Arcane</power_source>
@@ -15427,7 +15427,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Throw Spell</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -15437,7 +15437,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Until thrown</duration>
 		<ranged_weapon>
-			<damage>Special</damage>
+			<damage type="Special"/>
 			<accuracy>1</accuracy>
 			<range>80</range>
 			<default>
@@ -15465,7 +15465,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Thunderclap</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -15484,7 +15484,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Tickle</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -15503,7 +15503,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Timeslip</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -15522,7 +15522,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Timeslip Other</name>
 		<college>Gate</college>
 		<power_source>Arcane</power_source>
@@ -15541,7 +15541,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Total Paralysis</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -15551,7 +15551,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 min</duration>
 		<melee_weapon>
-			<damage>thr-1 cr + Paralysis</damage>
+			<damage type="cr + Paralysis" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -15585,7 +15585,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Touch</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -15599,7 +15599,7 @@
 			<category>Body Control</category>
 		</categories>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Toughen</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -15618,7 +15618,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Trace</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -15637,7 +15637,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Trace Teleport</name>
 		<college>Gate/Movement</college>
 		<power_source>Arcane</power_source>
@@ -15663,7 +15663,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Transform Body (@Race@)</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -15686,7 +15686,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2" very_hard="yes">
+	<spell version="3" very_hard="yes">
 		<name>Transform Object</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -15721,7 +15721,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Transform Other (@Race@)</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -15743,7 +15743,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Transmogrification</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -15780,7 +15780,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Transparency</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -15802,7 +15802,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Truthsayer</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -15821,7 +15821,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Turn Blade</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -15843,7 +15843,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Turn Spirit</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -15865,7 +15865,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Umbrella</name>
 		<college>Protection/Water</college>
 		<power_source>Arcane</power_source>
@@ -15888,7 +15888,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Undo</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -15907,7 +15907,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Utter Dome</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -15941,7 +15941,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Utter Wall</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -15963,7 +15963,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Vexation</name>
 		<college>Communication &amp; Empathy</college>
 		<power_source>Arcane</power_source>
@@ -15982,7 +15982,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Vigor</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -16004,7 +16004,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Voices</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -16023,7 +16023,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Volcano</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -16046,7 +16046,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Walk on Air</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -16065,7 +16065,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Walk on Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -16084,7 +16084,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Walk Through Earth</name>
 		<college>Earth</college>
 		<power_source>Arcane</power_source>
@@ -16104,7 +16104,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Walk Through Water</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -16135,7 +16135,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wall of Light</name>
 		<college>Light &amp; Darkness</college>
 		<power_source>Arcane</power_source>
@@ -16154,7 +16154,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wall of Lightning</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -16173,7 +16173,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wall of Silence</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -16192,7 +16192,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wall of Wind</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -16211,7 +16211,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wallwalker</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -16230,7 +16230,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Ward</name>
 		<college>Meta</college>
 		<power_source>Arcane</power_source>
@@ -16256,7 +16256,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Warmth</name>
 		<college>Fire/Protection</college>
 		<power_source>Arcane</power_source>
@@ -16276,7 +16276,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Watchdog</name>
 		<college>Protection</college>
 		<power_source>Arcane</power_source>
@@ -16295,7 +16295,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Water Jet</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -16305,7 +16305,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>1 sec</duration>
 		<melee_weapon>
-			<damage>1d cr/point</damage>
+			<damage type="cr/point" base="1d"/>
 			<usage>Jet</usage>
 			<reach>1/point</reach>
 			<parry>No</parry>
@@ -16330,7 +16330,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Water to Wine</name>
 		<college>Food</college>
 		<power_source>Arcane</power_source>
@@ -16353,7 +16353,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Water Vision</name>
 		<college>Knowledge/Water</college>
 		<power_source>Arcane</power_source>
@@ -16373,7 +16373,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Weaken</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -16383,7 +16383,7 @@
 		<casting_time>5 sec</casting_time>
 		<duration>Permanent</duration>
 		<melee_weapon>
-			<damage>1d/2 points</damage>
+			<damage type="/2 points" base="1d"/>
 			<reach>Special</reach>
 			<parry>No</parry>
 		</melee_weapon>
@@ -16398,7 +16398,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Weaken Blood</name>
 		<college>Body Control/Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -16421,7 +16421,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Weaken Will</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -16452,7 +16452,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Weapon Self</name>
 		<college>Making &amp; Breaking</college>
 		<power_source>Arcane</power_source>
@@ -16490,7 +16490,7 @@
 			</prereq_list>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Whirlpool</name>
 		<college>Water</college>
 		<power_source>Arcane</power_source>
@@ -16509,7 +16509,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Will Lock</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -16528,7 +16528,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Windstorm</name>
 		<college>Air</college>
 		<power_source>Arcane</power_source>
@@ -16547,7 +16547,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Winged Knife</name>
 		<college>Movement</college>
 		<power_source>Arcane</power_source>
@@ -16557,7 +16557,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Instant</duration>
 		<ranged_weapon>
-			<damage>per weapon</damage>
+			<damage type="per weapon"/>
 			<accuracy>1</accuracy>
 			<range>20/40</range>
 			<default>
@@ -16581,7 +16581,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wisdom</name>
 		<college>Mind Control</college>
 		<power_source>Arcane</power_source>
@@ -16601,7 +16601,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wither Limb</name>
 		<college>Body Control</college>
 		<power_source>Arcane</power_source>
@@ -16611,7 +16611,7 @@
 		<casting_time>1 sec</casting_time>
 		<duration>Permanent</duration>
 		<melee_weapon>
-			<damage>thr-1 cr +1d</damage>
+			<damage type="cr +1d" st="thr" base="-1"/>
 			<usage>Punch</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -16657,7 +16657,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wizard Ear</name>
 		<college>Sound</college>
 		<power_source>Arcane</power_source>
@@ -16682,7 +16682,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wizard Eye</name>
 		<college>Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -16704,7 +16704,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wizard Hand</name>
 		<college>Knowledge/Movement</college>
 		<power_source>Arcane</power_source>
@@ -16727,7 +16727,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wizard Mouth</name>
 		<college>Food/Knowledge/Sound</college>
 		<power_source>Arcane</power_source>
@@ -16754,7 +16754,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Wizard Nose</name>
 		<college>Food/Knowledge</college>
 		<power_source>Arcane</power_source>
@@ -16777,7 +16777,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Zombie</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>
@@ -16799,7 +16799,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</spell>
-	<spell version="2">
+	<spell version="3">
 		<name>Zombie Summoning</name>
 		<college>Necromancy</college>
 		<power_source>Arcane</power_source>

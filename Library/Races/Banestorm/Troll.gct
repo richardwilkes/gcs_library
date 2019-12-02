@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fabybnrb:16tekima24abe" version="1">
+<template id="f6b1103b-663d-4ec6-ab31-c99512dee8a4" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Acute Taste &amp; Smell</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -12,13 +12,13 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Appearance (Monstrous)</name>
 			<type>Physical</type>
 			<base_points>-20</base_points>
 			<reference>B21</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Basic Move</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -28,20 +28,20 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bloodlust (CR: 12)</name>
 			<type>Mental</type>
 			<base_points>-10</base_points>
 			<reference>B125</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Breath-Holding</name>
 			<type>Physical, Exotic</type>
 			<levels>3</levels>
 			<points_per_level>2</points_per_level>
 			<reference>B41</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Callous</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -49,20 +49,22 @@
 			<skill_bonus>
 				<name compare="is">psychology</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-3</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">teaching</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-3</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Claws, Blunt (Feet)</name>
 			<type>Physical</type>
 			<base_points>3</base_points>
 			<melee_weapon>
-				<damage>thr:+1 cr</damage>
+				<damage type="cr" st="thr" modifier_per_die="1"/>
 				<usage>Kick</usage>
 				<reach>C,1</reach>
 				<parry>No</parry>
@@ -85,13 +87,13 @@
 			<reference>B42</reference>
 			<notes>Only pay for hands or feet, not both</notes>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Curious (CR: 15)</name>
 			<type>Mental</type>
 			<base_points>-2</base_points>
 			<reference>B129</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -208,7 +210,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Dark Vision</name>
 			<type>Physical, Exotic</type>
 			<base_points>25</base_points>
@@ -219,7 +221,7 @@
 			</modifier>
 			<reference>B47</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Discriminatory Smell</name>
 			<type>Physical, Exotic</type>
 			<base_points>15</base_points>
@@ -231,7 +233,7 @@
 			</modifier>
 			<reference>B49</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>DX</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -241,7 +243,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Arm</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -299,20 +301,20 @@
 			</modifier>
 			<reference>B53</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Gluttony (CR: 9)</name>
 			<type>Mental</type>
 			<base_points>-7</base_points>
 			<reference>B137</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
 			<reference>B59</reference>
 			<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>HP</name>
 			<type>Physical</type>
 			<levels>4</levels>
@@ -322,7 +324,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>HT</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -332,19 +334,19 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (No Vitals)</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
 			<reference>B61</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Loner (CR: 12, Reac -2)</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
 			<reference>B142</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Negative IQ</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -354,14 +356,14 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Odious Racial Habit</name>
 			<type>Physical</type>
 			<base_points>-15</base_points>
 			<reference>B22</reference>
 			<notes>Eats other Sapients; -3 Reaction</notes>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Per</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -371,26 +373,26 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Pressure Support</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
 			<points_per_level>5</points_per_level>
 			<reference>B77</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Quirk: Intensely dislikes full daylight and dry conditions</name>
 			<type>Physical</type>
 			<base_points>-1</base_points>
 			<notes>Intensely dislikes full daylight and dry conditions</notes>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Recovery</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
 			<reference>B80</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Regeneration</name>
 			<type>Physical, Exotic</type>
 			<modifier version="1">
@@ -447,7 +449,7 @@
 			</modifier>
 			<reference>B80</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Resistant</name>
 			<type>Physical</type>
 			<modifier version="1" enabled="no">
@@ -491,7 +493,7 @@
 			</modifier>
 			<reference>B81</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>SM+1</name>
 			<type>Physical</type>
 			<cost_reduction>
@@ -499,7 +501,7 @@
 				<percentage>10</percentage>
 			</cost_reduction>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>ST</name>
 			<type>Physical</type>
 			<levels>8</levels>
@@ -514,12 +516,12 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Teeth, Sharp</name>
 			<type>Physical, Exotic</type>
 			<base_points>1</base_points>
 			<melee_weapon>
-				<damage>thr-1 cut</damage>
+				<damage type="cut" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -536,7 +538,7 @@
 			</melee_weapon>
 			<reference>B91</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Temperature Tolerance</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -544,25 +546,25 @@
 			<reference>B93</reference>
 			<notes>Centered at 50 degrees</notes>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unfazeable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
 			<reference>B95</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Universal Digestion</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
 			<reference>B95</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Vulnerability (Fire or Dehydration, Damage x2)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-30</base_points>
 			<reference>B161</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Vulnerability (Heat or Thirst, Damage x2)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-30</base_points>
@@ -575,7 +577,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>1</points>
@@ -584,10 +586,11 @@
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Stealth</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
@@ -602,7 +605,7 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Swimming</name>
 			<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
 			<difficulty>HT/E</difficulty>
@@ -614,7 +617,9 @@
 			</default>
 		</skill>
 	</skill_list>
-	<notes>Trolls are large humanoid monsters. They have horny, warty, greenish skins, features which look like a grotesque parody of humanity, and slender but powerful frames. They are native to Gabrook, although curiously, dwarven legends from long before the Banestorm speak of similar creatures. Trolls are dangerous predators (with appropriate senses and a surprising talent for stealth), but unlike the simple-minded, bullying ogres, trolls are solitary and misanthropic, even brooding. Some seem to terrorize other races because they resent anyone else enjoying themselves!
+	<note_list>
+		<note version="1">
+			<text>Trolls are large humanoid monsters. They have horny, warty, greenish skins, features which look like a grotesque parody of humanity, and slender but powerful frames. They are native to Gabrook, although curiously, dwarven legends from long before the Banestorm speak of similar creatures. Trolls are dangerous predators (with appropriate senses and a surprising talent for stealth), but unlike the simple-minded, bullying ogres, trolls are solitary and misanthropic, even brooding. Some seem to terrorize other races because they resent anyone else enjoying themselves!
 
 They do occasionally come together in small groups, to hunt, find mates, or exchange knowledge. (They tolerate other trolls badly, but better than they usually tolerate anyone else.) The common exception to this attitude is family loyalty; trolls are often protective of their relatives, and vengeful if they&#8217;re hurt.
 
@@ -624,5 +629,7 @@ Others dwell deep in gloomy forests. Most speak the language of the dominant cul
 
 A few female trolls have Magery and marginally better intelligence, and know a few spells, which are passed down from mother to daughter. Amoral humans occasionally ally with such beings, and have taught them additional spells.
 
-Trolls are more annoyed than inconvenienced by pain, and recover from damage that doesn&#8217;t actually kill them quite quickly, unless it was inflicted by acid, fire, or lightning. (Some flaunt scars caused by torches or fire spells, which are not sure death for a troll.) Contrary to some stories, though, they don&#8217;t reassemble themselves if hacked to pieces (although they can occasionally reattach limbs which were severed by a clean cut &#8211; treat this as a special effect). Another popular but incorrect story is that they turn to stone in daylight.</notes>
+Trolls are more annoyed than inconvenienced by pain, and recover from damage that doesn&#8217;t actually kill them quite quickly, unless it was inflicted by acid, fire, or lightning. (Some flaunt scars caused by torches or fire spells, which are not sure death for a troll.) Contrary to some stories, though, they don&#8217;t reassemble themselves if hacked to pieces (although they can occasionally reattach limbs which were severed by a clean cut &#8211; treat this as a special effect). Another popular but incorrect story is that they turn to stone in daylight.</text>
+		</note>
+	</note_list>
 </template>

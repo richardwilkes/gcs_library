@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="6ca7e745-0171-42d9-a461-c4f06931ab1b" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Hardy</name>
 			<reference>ATE1:18</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Basic Speed</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">-0.25</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -37,9 +37,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>40 points chosen from</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Fatigue Points</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -55,7 +55,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Hit Points</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -82,7 +82,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Radiation Threshold Points</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -90,7 +90,7 @@
 					<reference>ATE1:24</reference>
 					<notes>Up to 11</notes>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -251,7 +251,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fit</name>
 					<type>Physical</type>
 					<base_points>5</base_points>
@@ -261,7 +261,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fit, Very</name>
 					<type>Physical</type>
 					<base_points>15</base_points>
@@ -271,7 +271,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Hard to Kill</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -281,7 +281,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Hard to Subdue</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -291,7 +291,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>High Pain Threshold</name>
 					<type>Physical</type>
 					<base_points>10</base_points>
@@ -301,7 +301,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Rapid Healing</name>
 					<type>Physical</type>
 					<base_points>5</base_points>
@@ -313,7 +313,7 @@
 						<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Rapid Healing, Very</name>
 					<type>Physical</type>
 					<base_points>15</base_points>
@@ -325,7 +325,7 @@
 						<attribute_prereq has="yes" which="ht" compare="at least">12</attribute_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Recovery</name>
 					<type>Physical, Exotic</type>
 					<base_points>10</base_points>
@@ -334,7 +334,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -381,7 +381,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -428,7 +428,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -475,7 +475,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">

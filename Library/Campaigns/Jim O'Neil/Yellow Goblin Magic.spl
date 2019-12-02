@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<spell_list unique_id="icutifeh:-11yw84yd05780" version="1">
-	<spell_container version="2" open="yes">
+<spell_list id="26345caf-b3f2-438a-bc7d-b1fe9df6c305" version="1">
+	<spell_container version="3" open="yes">
 		<name>Yellow Goblin Magic Spell</name>
 		<notes>2nd Circle</notes>
 		<categories>
 			<category>Yellow Goblin Magic</category>
 		</categories>
-		<spell version="2">
+		<spell version="3">
 			<name>Air Jet</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -16,7 +16,7 @@
 			<casting_time>1 sec</casting_time>
 			<duration>1 sec</duration>
 			<melee_weapon>
-				<damage>2d kb/point</damage>
+				<damage type="kb/point" base="2d"/>
 				<usage>Jet</usage>
 				<reach>1/point</reach>
 				<parry>No</parry>
@@ -41,7 +41,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Apportation</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -63,7 +63,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Colors</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -82,7 +82,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Forgetfulness</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -113,7 +113,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Glow</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -132,7 +132,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Mind-Reading</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -154,7 +154,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Seek Air</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -168,7 +168,7 @@
 				<category>Yellow Goblin Magic</category>
 			</categories>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Shape Air</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -187,7 +187,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Sound</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -201,7 +201,7 @@
 				<category>Yellow Goblin Magic</category>
 			</categories>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Thunderclap</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -220,7 +220,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Truthsayer</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -240,13 +240,13 @@
 			</prereq_list>
 		</spell>
 	</spell_container>
-	<spell_container version="2" open="yes">
+	<spell_container version="3" open="yes">
 		<name>Yellow Goblin Magic Spell</name>
 		<notes>3rd Circle</notes>
 		<categories>
 			<category>Yellow Goblin Magic</category>
 		</categories>
-		<spell version="2">
+		<spell version="3">
 			<name>Air Vision</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -265,7 +265,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Body of Air</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -284,7 +284,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Command</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -315,7 +315,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Counterspell</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -340,7 +340,7 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Disorient</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -359,7 +359,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Dispel Magic</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -382,7 +382,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Dye Yellow</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -404,7 +404,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Emotion Control</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -426,7 +426,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Enchant</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -453,7 +453,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Fascinate</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -472,7 +472,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Flight</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -503,7 +503,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Great Voice</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -525,7 +525,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Levitation</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -544,7 +544,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Madness</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -566,7 +566,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Mass Daze</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -586,7 +586,7 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Mass Sleep</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -606,7 +606,7 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Mental Stun</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -628,7 +628,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Mind-Search</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -647,7 +647,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Mind-Sending</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -666,7 +666,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Mindlessness</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -692,7 +692,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Permanent Forgetfulness</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -719,7 +719,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Permanent Madness</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -746,7 +746,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Scroll</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -779,7 +779,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Sense Goblin</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -799,7 +799,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Sense Man</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -819,7 +819,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Sleep</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -838,7 +838,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Soul Rider</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -857,7 +857,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Staff</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -876,7 +876,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Sunlight</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -905,7 +905,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Voices</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -924,7 +924,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Walk on Air</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -943,7 +943,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Wall of Wind</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -962,7 +962,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Weaken Will</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -988,7 +988,7 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Windstorm</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -1008,13 +1008,13 @@
 			</prereq_list>
 		</spell>
 	</spell_container>
-	<spell_container version="2" open="yes">
+	<spell_container version="3" open="yes">
 		<name>Yellow Goblin Magic Spells</name>
 		<notes>1st Circle</notes>
 		<categories>
 			<category>Yellow Goblin Magic</category>
 		</categories>
-		<spell version="2">
+		<spell version="3">
 			<name>Create Air</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -1036,7 +1036,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Daze</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -1055,7 +1055,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Foolishness</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -1072,7 +1072,7 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">12</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Light</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -1086,7 +1086,7 @@
 				<category>Yellow Goblin Magic</category>
 			</categories>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Purify Air</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -1100,7 +1100,7 @@
 				<category>Yellow Goblin Magic</category>
 			</categories>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Sense Emotion</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>
@@ -1119,7 +1119,7 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>Sense Foes</name>
 			<college>Yellow Goblin Magic</college>
 			<power_source>Arcane</power_source>

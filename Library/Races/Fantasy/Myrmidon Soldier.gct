@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="ff3b850d-32c1-48ab-8a50-59caed564080" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Myrmidon Soldier</name>
 			<reference>F109</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>2</levels>
@@ -71,7 +71,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -105,7 +105,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Size</name>
 					<type>Physical</type>
 					<attribute_bonus>
@@ -114,9 +114,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Combat Reflexes</name>
 					<type>Mental</type>
 					<base_points>15</base_points>
@@ -128,6 +128,7 @@
 					<skill_bonus>
 						<name compare="starts with">fast-draw</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>1</amount>
 					</skill_bonus>
 					<attribute_bonus>
@@ -153,7 +154,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>3</levels>
@@ -307,7 +308,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Arm</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -368,7 +369,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Attack</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -391,7 +392,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fearlessness</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -401,7 +402,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>High Pain Threshold</name>
 					<type>Physical</type>
 					<base_points>10</base_points>
@@ -411,7 +412,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Payload</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
@@ -432,7 +433,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Peripheral Vision</name>
 					<type>Physical</type>
 					<base_points>15</base_points>
@@ -448,7 +449,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Single-Minded</name>
 					<type>Mental</type>
 					<base_points>5</base_points>
@@ -457,7 +458,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Chameleon</name>
 					<type>Mental</type>
 					<base_points>5</base_points>
@@ -466,12 +467,12 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Teeth, Sharp Beak</name>
 					<type>Physical, Exotic</type>
 					<base_points>1</base_points>
 					<melee_weapon>
-						<damage>thr-1 pi+</damage>
+						<damage type="pi+" st="thr" base="-1"/>
 						<usage>Peck</usage>
 						<reach>C</reach>
 						<parry>No</parry>
@@ -492,9 +493,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bloodlust</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -504,7 +505,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Cannot Speak (Mute)</name>
 					<type>Physical</type>
 					<base_points>-25</base_points>
@@ -513,7 +514,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Deafness</name>
 					<type>Physical</type>
 					<base_points>-20</base_points>
@@ -522,7 +523,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Hidebound</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -531,7 +532,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Selfless</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -541,7 +542,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sexless</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>

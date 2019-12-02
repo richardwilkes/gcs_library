@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ih4wjc5w:1jywdrlgbfef" version="1">
+<template id="84e5b024-839b-4353-a44f-19669efd81f7" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Autonomous Unit</name>
 			<reference>RSWL24</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Accessory (Computer)</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
@@ -13,7 +13,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Attentive</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -22,7 +22,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Broad-Minded</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -31,7 +31,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -100,7 +100,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Electrical</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -109,7 +109,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enhanced Time Sense</name>
 				<type>Mental, Exotic</type>
 				<base_points>45</base_points>
@@ -121,6 +121,7 @@
 				<skill_bonus>
 					<name compare="contains">fast-draw</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<attribute_bonus>
@@ -146,7 +147,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Life</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -175,7 +176,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fearlessness</name>
 				<type>Mental</type>
 				<levels>2</levels>
@@ -185,7 +186,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -194,7 +195,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Honesty</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -204,7 +205,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Neck)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -213,7 +214,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Low Empathy</name>
 				<type>Mental</type>
 				<base_points>-20</base_points>
@@ -224,81 +225,97 @@
 				<skill_bonus>
 					<name compare="is">acting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">carousing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">criminology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">detect lies</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">diplomacy</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">enthrallment</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">fast-talk</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">interrogation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leadership</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">merchant</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">politics</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">psychology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">savoir-faire</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sex appeal</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sociology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">streetwise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<prereq_list all="yes">
@@ -316,10 +333,10 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Artificial Intelligence</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Absolute Timing</name>
 					<type>Mental</type>
 					<base_points>2</base_points>
@@ -333,7 +350,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Digital Mind</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -342,7 +359,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Doesn't Sleep</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
@@ -351,7 +368,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Eidetic Memory</name>
 					<type>Mental</type>
 					<base_points>5</base_points>
@@ -366,7 +383,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Lightning Calculator</name>
 					<type>Mental</type>
 					<base_points>2</base_points>
@@ -381,7 +398,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Reprogrammable</name>
 					<type>Mental, Exotic</type>
 					<base_points>-10</base_points>
@@ -391,15 +408,15 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Machine</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Eight-hour energy reserve, Refuel 3 times per day</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (No Blood)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -408,7 +425,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Injury Tolerance (Unliving)</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
@@ -417,12 +434,12 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No fatigue points, Don't spend fatigue points</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -469,7 +486,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unhealing (Total)</name>
 					<type>Physical, Exotic</type>
 					<base_points>-30</base_points>
@@ -478,13 +495,13 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Wears out instead of aging</name>
 					<type>Physical</type>
 					<reference>B263</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Numb</name>
 				<type>Physical</type>
 				<base_points>-20</base_points>
@@ -493,7 +510,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Valuable Property)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
@@ -502,7 +519,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Staid</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -511,15 +528,15 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sterile</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo Traits (Physical Changes)</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -648,7 +665,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Telecommunication</name>
 				<type>Mental/Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -783,7 +800,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unaging</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -804,7 +821,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Visualization</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -839,7 +856,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Wealth</name>
 				<type>Social</type>
 				<modifier version="1">
@@ -906,7 +923,7 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Computer Operation</name>
 			<tech_level/>
 			<difficulty>IQ/E</difficulty>

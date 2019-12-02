@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<equipment_list unique_id="ilyut8ux:6scfsiflrc0y" version="1">
-	<equipment version="3">
+<equipment_list id="3b1b1a51-3570-422a-a9dc-1692cd588a64" version="1">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>"Spy" Camera</description>
 		<tech_level>7</tech_level>
@@ -12,7 +12,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>AMT Back Up, .380 ACP</description>
 		<tech_level>8</tech_level>
@@ -21,7 +21,7 @@
 		<weight>1.4 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>2d-1 pi</damage>
+			<damage type="pi" base="2d-1"/>
 			<strength>8</strength>
 			<accuracy>1</accuracy>
 			<range>110/1,100</range>
@@ -98,7 +98,7 @@
 			<category>Semiautomatic Pistols</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Barrier Tape</description>
 		<tech_level>7</tech_level>
@@ -112,7 +112,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Barrier Tape Dispenser</description>
 		<tech_level>7</tech_level>
@@ -126,7 +126,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Benelli M1 Super 90, 12G 2.75"</description>
 		<tech_level>8</tech_level>
@@ -135,7 +135,7 @@
 		<weight>8.5 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>1d+1 pi</damage>
+			<damage type="pi" base="1d+1"/>
 			<strength>12&#8224;</strength>
 			<accuracy>3</accuracy>
 			<range>50/450</range>
@@ -212,7 +212,7 @@
 			<category>Shotguns</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Beretta Mod 92F, 9x19mm</description>
 		<tech_level>8</tech_level>
@@ -221,7 +221,7 @@
 		<weight>2.8 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>2d+2 pi</damage>
+			<damage type="pi" base="2d+2"/>
 			<strength>9</strength>
 			<accuracy>2</accuracy>
 			<range>160/1,800</range>
@@ -298,7 +298,7 @@
 			<category>Semiautomatic Pistols</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars</description>
 		<tech_level>6</tech_level>
@@ -311,7 +311,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, High-end commercial</description>
 		<tech_level>8</tech_level>
@@ -324,7 +324,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, High-end military</description>
 		<tech_level>8</tech_level>
@@ -339,10 +339,11 @@
 		<skill_bonus>
 			<name compare="is">Orienteering</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, Low-end commercial</description>
 		<tech_level>8</tech_level>
@@ -355,7 +356,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, M22</description>
 		<tech_level>7</tech_level>
@@ -368,7 +369,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Binoculars, M24</description>
 		<tech_level>7</tech_level>
@@ -381,7 +382,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camcorder, High-quality Mini DV</description>
 		<tech_level>7</tech_level>
@@ -394,7 +395,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camcorder, Mini DV</description>
 		<tech_level>7</tech_level>
@@ -407,7 +408,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, 35mm SLR</description>
 		<tech_level>6</tech_level>
@@ -419,7 +420,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, 35mm SLR</description>
 		<tech_level>6</tech_level>
@@ -432,7 +433,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, 35mm SLR</description>
 		<tech_level>6</tech_level>
@@ -445,7 +446,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, 35mm SLR</description>
 		<tech_level>6</tech_level>
@@ -458,7 +459,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, 35mm SLR</description>
 		<tech_level>6</tech_level>
@@ -471,7 +472,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, 35mm SLR (Cheap)</description>
 		<tech_level>6</tech_level>
@@ -484,7 +485,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, Digital</description>
 		<tech_level>8</tech_level>
@@ -497,7 +498,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Camera, High-quality Digital</description>
 		<tech_level>8</tech_level>
@@ -510,7 +511,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Crime Scene Placards</description>
 		<tech_level>7</tech_level>
@@ -524,7 +525,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Crime Scene Placards</description>
 		<tech_level>7</tech_level>
@@ -538,7 +539,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Defensive Spray</description>
 		<tech_level>8</tech_level>
@@ -547,7 +548,7 @@
 		<weight>0.15 lb</weight>
 		<reference>MYST115</reference>
 		<ranged_weapon>
-			<damage>special</damage>
+			<damage type="special"/>
 			<accuracy>3</accuracy>
 			<range>0/5</range>
 			<rate_of_fire>1</rate_of_fire>
@@ -623,7 +624,7 @@
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Defensive Spray</description>
 		<tech_level>8</tech_level>
@@ -632,7 +633,7 @@
 		<weight>0.25 lb</weight>
 		<reference>MYST115</reference>
 		<ranged_weapon>
-			<damage>special</damage>
+			<damage type="special"/>
 			<accuracy>3</accuracy>
 			<range>0/5</range>
 			<rate_of_fire>1</rate_of_fire>
@@ -708,7 +709,7 @@
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Evidence Bags</description>
 		<tech_level>7</tech_level>
@@ -722,7 +723,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Evidence Bags</description>
 		<tech_level>7</tech_level>
@@ -736,7 +737,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment_container version="3" open="no">
+	<equipment_container version="6" open="no">
 		<description>Evidence Collection Kit</description>
 		<tech_level>7</tech_level>
 		<legality_class>4</legality_class>
@@ -747,7 +748,7 @@
 			<category>Crime Scene</category>
 			<category>Law-Enforcement</category>
 		</categories>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Barrier Tape</description>
 			<tech_level>7</tech_level>
@@ -761,7 +762,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Evidence Bags</description>
 			<tech_level>7</tech_level>
@@ -775,7 +776,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Evidence Bags</description>
 			<tech_level>7</tech_level>
@@ -789,7 +790,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Evidence Cans</description>
 			<tech_level>7</tech_level>
@@ -801,7 +802,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Evidence Markers</description>
 			<tech_level>7</tech_level>
@@ -813,7 +814,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Evidence Tape</description>
 			<tech_level>7</tech_level>
@@ -825,7 +826,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Evidence Tubes</description>
 			<tech_level>7</tech_level>
@@ -837,7 +838,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>2</quantity>
 			<description>Latex Gloves</description>
 			<tech_level>8</tech_level>
@@ -849,7 +850,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Magnifying Glass</description>
 			<tech_level>5</tech_level>
@@ -860,7 +861,7 @@
 				<category>General Equipment</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Penlight</description>
 			<tech_level>7</tech_level>
@@ -873,7 +874,7 @@
 				<category>Camping and Survival Gear</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Scissors</description>
 			<tech_level>7</tech_level>
@@ -883,7 +884,7 @@
 				<category>General Equipment</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Syringe Tube</description>
 			<tech_level>7</tech_level>
@@ -895,7 +896,7 @@
 				<category>Law-Enforcement</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Tape Measure</description>
 			<tech_level>7</tech_level>
@@ -905,7 +906,7 @@
 				<category>General Equipment</category>
 			</categories>
 		</equipment>
-		<equipment version="3">
+		<equipment version="6">
 			<quantity>1</quantity>
 			<description>Tweezers</description>
 			<tech_level>7</tech_level>
@@ -916,7 +917,7 @@
 			</categories>
 		</equipment>
 	</equipment_container>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Evidence Tubes</description>
 		<tech_level>7</tech_level>
@@ -930,7 +931,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Evidence Tubes</description>
 		<tech_level>7</tech_level>
@@ -944,7 +945,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flashlight Recharger</description>
 		<tech_level>8</tech_level>
@@ -956,7 +957,7 @@
 			<category>Camping and Survival Gear</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flashlight, 4.75"</description>
 		<tech_level>8</tech_level>
@@ -965,7 +966,7 @@
 		<weight>0.25 lb</weight>
 		<reference>MYST116</reference>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<usage>Pommel</usage>
 			<reach>C</reach>
 			<parry>0</parry>
@@ -995,7 +996,7 @@
 			<category>Camping and Survival Gear</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flashlight, aluminum baton-style</description>
 		<tech_level>7</tech_level>
@@ -1004,7 +1005,7 @@
 		<weight>2 lb</weight>
 		<reference>MYST116</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<usage>Swung</usage>
 			<reach>1</reach>
@@ -1061,7 +1062,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<usage>Thrust</usage>
 			<reach>1</reach>
@@ -1122,7 +1123,7 @@
 			<category>Camping and Survival Gear</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Flashlight, polymer baton-style</description>
 		<tech_level>7</tech_level>
@@ -1131,7 +1132,7 @@
 		<weight>1 lb</weight>
 		<reference>MYST116</reference>
 		<melee_weapon>
-			<damage>sw cr</damage>
+			<damage type="cr" st="sw"/>
 			<strength>6</strength>
 			<usage>Swung</usage>
 			<reach>1</reach>
@@ -1188,7 +1189,7 @@
 			</default>
 		</melee_weapon>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<strength>6</strength>
 			<usage>Thrust</usage>
 			<reach>1</reach>
@@ -1249,7 +1250,7 @@
 			<category>Camping and Survival Gear</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Glock 22, .40 S&amp;W</description>
 		<tech_level>8</tech_level>
@@ -1258,7 +1259,7 @@
 		<weight>2.1 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>2d+2 pi+</damage>
+			<damage type="pi+" base="2d+2"/>
 			<strength>8</strength>
 			<accuracy>2</accuracy>
 			<range>150/1,700</range>
@@ -1335,7 +1336,7 @@
 			<category>Semiautomatic Pistols</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Handcuff Key</description>
 		<tech_level>7</tech_level>
@@ -1348,7 +1349,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Handcuffs, S&amp;W Model 10 Nickel Plated</description>
 		<tech_level>7</tech_level>
@@ -1361,7 +1362,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Latent Fingerprint Kit, large</description>
 		<tech_level>7</tech_level>
@@ -1374,7 +1375,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Latent Fingerprint Kit, pocket sized</description>
 		<tech_level>7</tech_level>
@@ -1387,7 +1388,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lockpicks</description>
 		<tech_level>7</tech_level>
@@ -1398,7 +1399,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Lockpicks, fine-quality</description>
 		<tech_level>7</tech_level>
@@ -1410,7 +1411,7 @@
 			<category>Law-Enforcement</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Metal Detector, small</description>
 		<tech_level>7</tech_level>
@@ -1423,7 +1424,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Metal Detector, standard</description>
 		<tech_level>7</tech_level>
@@ -1436,7 +1437,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Mossberg Model 590, 12G 2.75"</description>
 		<tech_level>7</tech_level>
@@ -1445,7 +1446,7 @@
 		<weight>8.5 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>1d+1 pi</damage>
+			<damage type="pi" base="1d+1"/>
 			<strength>12&#8224;</strength>
 			<accuracy>3</accuracy>
 			<range>50/450</range>
@@ -1522,7 +1523,7 @@
 			<category>Shotguns</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Remington Model 870P, 12G 2.75"</description>
 		<tech_level>7</tech_level>
@@ -1531,7 +1532,7 @@
 		<weight>7.9 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>1d+1 pi</damage>
+			<damage type="pi" base="1d+1"/>
 			<strength>12</strength>
 			<accuracy>3</accuracy>
 			<range>50/450</range>
@@ -1608,7 +1609,7 @@
 			<category>Shotguns</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>S&amp;W Model 10 M&amp;P, .38 Special</description>
 		<tech_level>6</tech_level>
@@ -1617,7 +1618,7 @@
 		<weight>2 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>2d pi</damage>
+			<damage type="pi" base="2d"/>
 			<strength>8</strength>
 			<accuracy>2</accuracy>
 			<range>140/1,500</range>
@@ -1694,7 +1695,7 @@
 			<category>Revolvers</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>S&amp;W Model 36 Chief's, .38 Special</description>
 		<tech_level>7</tech_level>
@@ -1703,7 +1704,7 @@
 		<weight>1.4 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>2d-1 pi</damage>
+			<damage type="pi" base="2d-1"/>
 			<strength>8</strength>
 			<accuracy>1</accuracy>
 			<range>120/1,300</range>
@@ -1780,7 +1781,7 @@
 			<category>Revolvers</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>SIG-Sauer P226, 9x19mm</description>
 		<tech_level>8</tech_level>
@@ -1789,7 +1790,7 @@
 		<weight>2.4 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>2d+2 pi</damage>
+			<damage type="pi" base="2d+2"/>
 			<strength>9</strength>
 			<accuracy>2</accuracy>
 			<range>150/1,700</range>
@@ -1867,7 +1868,7 @@
 			<category>Semiautomatic Pistols</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Springfield M1911-A1 Bureau, .45 ACP</description>
 		<tech_level>8</tech_level>
@@ -1876,7 +1877,7 @@
 		<weight>3 lb</weight>
 		<reference>MYST117</reference>
 		<ranged_weapon>
-			<damage>2d pi+</damage>
+			<damage type="pi+" base="2d"/>
 			<strength>10</strength>
 			<accuracy>2</accuracy>
 			<range>120/1,300</range>
@@ -1954,7 +1955,7 @@
 			<category>Semiautomatic Pistols</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Taser</description>
 		<tech_level>8</tech_level>
@@ -1963,7 +1964,7 @@
 		<weight>1.375 lb</weight>
 		<reference>MYST115</reference>
 		<ranged_weapon>
-			<damage>special</damage>
+			<damage type="special"/>
 			<accuracy>2</accuracy>
 			<range>7</range>
 			<rate_of_fire>1</rate_of_fire>
@@ -2038,7 +2039,7 @@
 			<category>Missile Weapon</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Type IIA Armor</description>
 		<tech_level>8</tech_level>
@@ -2054,7 +2055,7 @@
 			<amount>8</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Type IIA Armor (Concealable)</description>
 		<tech_level>8</tech_level>
@@ -2071,7 +2072,7 @@
 			<amount>8</amount>
 		</dr_bonus>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Camera, CCD (Black &amp; White)</description>
 		<tech_level>7</tech_level>
@@ -2083,7 +2084,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Camera, CCD (Color)</description>
 		<tech_level>7</tech_level>
@@ -2095,7 +2096,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Camera, Concealed in Fixture (Black &amp; White)</description>
 		<tech_level>7</tech_level>
@@ -2106,7 +2107,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Camera, Concealed in Fixture (Color)</description>
 		<tech_level>7</tech_level>
@@ -2117,7 +2118,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Camera, Pen/Glasses Mini-cam</description>
 		<tech_level>7</tech_level>
@@ -2128,7 +2129,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Camera, Portable Mini-cam (Black &amp; White)</description>
 		<tech_level>7</tech_level>
@@ -2139,7 +2140,7 @@
 			<category>Optics and Sensors</category>
 		</categories>
 	</equipment>
-	<equipment version="3">
+	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Video Camera, Portable Mini-cam (Color)</description>
 		<tech_level>7</tech_level>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="c75dd409-c525-496a-8381-354354f381dd" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Spring Spirit</name>
 			<reference>BS199</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Strength</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -36,7 +36,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Fatigue Points</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -71,7 +71,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -86,7 +86,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>3</levels>
@@ -101,7 +101,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>3</levels>
@@ -117,9 +117,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Detect</name>
 					<type>Mental/Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -175,7 +175,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Healing</name>
 					<type>Mental, Exotic</type>
 					<base_points>30</base_points>
@@ -313,7 +313,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Oracle</name>
 					<type>Mental, Supernatural</type>
 					<base_points>15</base_points>
@@ -333,53 +333,53 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>Meta-Trait: Spirit</name>
 					<reference>B263</reference>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Doesn't Breathe</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
 						<reference>B49</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Doesn't Eat or Drink</name>
 						<type>Physical, Exotic</type>
 						<base_points>10</base_points>
 						<reference>B50</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Doesn't Sleep</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
 						<reference>B50</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Insubstantiality (Affect Substantial, Usually On)</name>
 						<type>Mental/Physical, Exotic</type>
 						<base_points>128</base_points>
 						<reference>B62</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Invisibility (Substantial Only, Usually On)</name>
 						<type>Mental/Physical, Exotic</type>
 						<base_points>38</base_points>
 						<reference>B63</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant (Immunity to Metabolic Hazards)</name>
 						<type>Physical</type>
 						<base_points>30</base_points>
 						<reference>B81</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unaging</name>
 						<type>Physical, Exotic</type>
 						<base_points>15</base_points>
 						<reference>B95</reference>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Telekinesis</name>
 					<type>Mental/Physical, Exotic</type>
 					<levels>10</levels>
@@ -474,7 +474,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Temperature Control</name>
 					<type>Mental/Physical, Exotic</type>
 					<levels>10</levels>
@@ -502,9 +502,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dependency (Water from its specific spring)</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1">
@@ -591,7 +591,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Selfish</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -601,7 +601,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Loves colorful crystals</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>

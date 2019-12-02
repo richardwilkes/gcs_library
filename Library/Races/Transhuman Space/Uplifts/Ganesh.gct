@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="f7862d5a-d4aa-4b40-92f4-47d3489640bf" version="1">
+<template id="f7862d5a-d4aa-4b40-92f4-47d3489640bf" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Ganesh</name>
 			<reference>FW120</reference>
 			<notes>2081; $351,000</notes>
 			<categories>
 				<category>Uplift</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased ST</name>
 				<type>Physical</type>
 				<levels>30</levels>
@@ -33,7 +33,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased IQ</name>
 				<type>Mental</type>
 				<levels>2</levels>
@@ -47,7 +47,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -61,7 +61,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>1</levels>
@@ -76,7 +76,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Size modifier</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -88,7 +88,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Hearing</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -102,7 +102,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>6</levels>
@@ -262,7 +262,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Subsonic Speech</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -277,7 +277,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bad Grip</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -293,7 +293,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased ST</name>
 				<type>Physical</type>
 				<levels>10</levels>
@@ -318,7 +318,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -337,9 +337,9 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Trunk</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Affliction (Startled)</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -1026,7 +1026,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra  Flexibe Arms</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -1035,7 +1035,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Long Arms</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -1050,7 +1050,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Less Sleep</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -1060,7 +1060,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Peripheral Vision</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -1076,7 +1076,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak</name>
 				<type>Physical</type>
 				<base_points>-15</base_points>
@@ -1091,7 +1091,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Chummy</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -1101,7 +1101,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Consumption</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -1127,7 +1127,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Innumerate</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -1178,29 +1178,29 @@
 					</skill_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Meta-Trait: Quadruped</name>
 				<reference>B263</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Legs (4 legs)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
 					<reference>B54</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Horizontal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-10</base_points>
 					<reference>B139</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Fine Manipulators</name>
 					<type>Physical</type>
 					<base_points>-30</base_points>
 					<reference>B145</reference>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Depth Perception</name>
 				<type>Physical</type>
 				<base_points>-15</base_points>
@@ -1215,7 +1215,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Slow Eater</name>
 				<type>Physical, Exotic</type>
 				<base_points>-10</base_points>
@@ -1224,7 +1224,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stress Atavism</name>
 				<type>Mental, Exotic</type>
 				<cr>15</cr>
@@ -1251,12 +1251,12 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Jump</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dull</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>
@@ -1265,7 +1265,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Staid</name>
 				<type>Mental</type>
 				<base_points>-1</base_points>

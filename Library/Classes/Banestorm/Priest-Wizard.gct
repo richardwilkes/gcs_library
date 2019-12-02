@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="d24a41fe-79af-4d13-aff3-5c4fd80ce7de" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Priest-Wizard</name>
 			<reference>BS214</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>3</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -37,11 +37,11 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Advantage</name>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>15 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Blessed</name>
 						<type>Mental, Supernatural</type>
 						<base_points>10</base_points>
@@ -56,7 +56,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Blessed (Heroic Feats)</name>
 						<type>Mental, Supernatural</type>
 						<base_points>10</base_points>
@@ -65,7 +65,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Charisma</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -78,25 +78,29 @@
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">panhandling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language Talent</name>
 						<type>Mental</type>
 						<base_points>10</base_points>
@@ -105,7 +109,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language: @Language@</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -176,7 +180,7 @@
 							<category>Language</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language: @Language@</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -226,7 +230,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Magery</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
@@ -279,14 +283,16 @@
 						</categories>
 						<spell_bonus all_colleges="yes">
 							<amount per_level="yes">1</amount>
+							<category compare="is anything"></category>
 						</spell_bonus>
 						<skill_bonus>
 							<name compare="is">thaumatology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Patron</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -430,7 +436,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Rank</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -453,7 +459,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Close to Heaven)</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
@@ -483,35 +489,41 @@
 						<skill_bonus>
 							<name compare="is">Meditation</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Religious Ritual</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Theology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Ritual Magic</name>
 							<specialization compare="is">@Religion@</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Symbol Drawing</name>
 							<specialization compare="is">@Religion@</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Exorcism</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>True Faith</name>
 						<type>Mental, Supernatural</type>
 						<base_points>15</base_points>
@@ -533,7 +545,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Voice</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -544,46 +556,54 @@
 						<skill_bonus>
 							<name compare="is">diplomacy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">fast-talk</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="starts with">mimicry</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">performance</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">politics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sex appeal</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">singing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Clerical Investment</name>
 					<type>Social</type>
 					<base_points>5</base_points>
@@ -592,7 +612,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Magery</name>
 					<type>Mental, Supernatural</type>
 					<levels>1</levels>
@@ -645,19 +665,21 @@
 					</categories>
 					<spell_bonus all_colleges="yes">
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 					<skill_bonus>
 						<name compare="is">thaumatology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</skill_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantage</name>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>-15 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Charitable</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -667,7 +689,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Curious</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -677,7 +699,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Asceticism)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -686,7 +708,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Monasticism)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -695,7 +717,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Mysticism)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -704,7 +726,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Ritualism)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -713,7 +735,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fanaticism (@Group or ideal@)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -728,7 +750,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Honesty</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -738,7 +760,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (@Class, Ethnicity, Nationality, Religion, Sex, or Species@)</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -770,7 +792,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Cannot Harm Innocents</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -785,7 +807,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Cannot Kill</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -800,7 +822,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Reluctant Killer</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -815,7 +837,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Pacifism: Self-Defense Only</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -830,7 +852,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -874,7 +896,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Truthfulness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -886,10 +908,11 @@
 						<skill_bonus>
 							<name compare="is">fast talk</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-5</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (@Subject@)</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -916,7 +939,7 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (@To own church or order@)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -961,12 +984,12 @@
 				</advantage>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Priest-Wizard Lenses</name>
 			<reference>BS215</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Jesuit</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Patron</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1109,7 +1132,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Reputation (As a Jesuit conspirator)</name>
 					<type>Social</type>
 					<levels>2</levels>
@@ -1160,7 +1183,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Chastity)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1186,7 +1209,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Poverty)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1213,9 +1236,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Thomasite</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Patron</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -1358,7 +1381,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Chastity)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1384,7 +1407,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (Poverty)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1410,7 +1433,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vow (To refrain from evil magic and offensive combat spells)</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -1436,19 +1459,19 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Add 2 points in Philosophy (Ethics)</name>
 				</advantage_container>
 			</advantage_container>
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Priest-Wizard</name>
 			<reference>BS214</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Religious Ritual</name>
 					<specialization>Own Religion</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -1470,7 +1493,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Theology</name>
 					<specialization>Own Religion</specialization>
 					<difficulty>IQ/H</difficulty>
@@ -1491,11 +1514,11 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>6 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Detect Lies</name>
 						<difficulty>Per/H</difficulty>
 						<points>2</points>
@@ -1520,7 +1543,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Diplomacy</name>
 						<difficulty>IQ/H</difficulty>
 						<points>2</points>
@@ -1540,7 +1563,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Philosophy</name>
 						<specialization>@Specialty@</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -1554,7 +1577,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Psychology</name>
 						<difficulty>IQ/H</difficulty>
 						<points>2</points>
@@ -1572,7 +1595,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Public Speaking</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -1602,7 +1625,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Teaching</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -1616,7 +1639,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Thaumatology</name>
 						<difficulty>IQ/VH</difficulty>
 						<points>2</points>
@@ -1631,11 +1654,11 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>5 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>First Aid</name>
 						<tech_level/>
 						<difficulty>IQ/E</difficulty>
@@ -1665,7 +1688,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Law</name>
 						<specialization>Religious</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -1681,7 +1704,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Leadership</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -1695,7 +1718,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Meditation</name>
 						<difficulty>Will/H</difficulty>
 						<points>1</points>
@@ -1713,7 +1736,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Politics</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -1732,7 +1755,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Research</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -1775,7 +1798,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Singing</name>
 						<difficulty>HT/E</difficulty>
 						<points>1</points>
@@ -1788,7 +1811,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Writing</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -1807,10 +1830,10 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
-		<spell_container version="2" open="no">
+		<spell_container version="3" open="no">
 			<name>Priest-Wizard</name>
 			<reference>BS214</reference>
-			<spell version="2">
+			<spell version="3">
 				<name>Apportation</name>
 				<college>Movement</college>
 				<power_source>Arcane</power_source>
@@ -1837,7 +1860,7 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Aura</name>
 				<college>Knowledge</college>
 				<power_source>Arcane</power_source>
@@ -1856,7 +1879,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Continual Light</name>
 				<college>Light &amp; Darkness</college>
 				<power_source>Arcane</power_source>
@@ -1875,7 +1898,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Create Water</name>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
@@ -1894,7 +1917,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Detect Magic</name>
 				<college>Knowledge</college>
 				<power_source>Arcane</power_source>
@@ -1920,7 +1943,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Ignite Fire</name>
 				<college>Fire</college>
 				<power_source>Arcane</power_source>
@@ -1934,7 +1957,7 @@
 					<category>Fire</category>
 				</categories>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Lend Energy</name>
 				<college>Healing</college>
 				<power_source>Arcane</power_source>
@@ -1966,7 +1989,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Lend Vitality</name>
 				<college>Healing</college>
 				<power_source>Arcane</power_source>
@@ -1985,7 +2008,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Light</name>
 				<college>Light &amp; Darkness</college>
 				<power_source>Arcane</power_source>
@@ -1999,7 +2022,7 @@
 					<category>Light</category>
 				</categories>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Magelock</name>
 				<college>Protection</college>
 				<power_source>Arcane</power_source>
@@ -2020,7 +2043,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Purify Air</name>
 				<college>Air</college>
 				<power_source>Arcane</power_source>
@@ -2034,7 +2057,7 @@
 					<category>Air</category>
 				</categories>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Purify Water</name>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
@@ -2053,7 +2076,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Seek Water</name>
 				<college>Water</college>
 				<power_source>Arcane</power_source>
@@ -2067,7 +2090,7 @@
 					<category>Water</category>
 				</categories>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Sense Foes</name>
 				<college>Communication &amp; Empathy</college>
 				<power_source>Arcane</power_source>
@@ -2081,7 +2104,7 @@
 					<category>Communication</category>
 				</categories>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Banish</name>
 				<college>Necromancy</college>
 				<power_source>Arcane</power_source>
@@ -2113,7 +2136,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Counterspell</name>
 				<college>Meta</college>
 				<power_source>Arcane</power_source>
@@ -2139,7 +2162,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Deflect Missile</name>
 				<college>Movement/Protection</college>
 				<power_source>Arcane</power_source>
@@ -2160,7 +2183,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Dispel Magic</name>
 				<college>Meta</college>
 				<power_source>Arcane</power_source>
@@ -2184,7 +2207,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2">
+			<spell version="3">
 				<name>Minor Healing</name>
 				<college>Healing</college>
 				<power_source>Arcane</power_source>
@@ -2204,7 +2227,7 @@
 					</spell_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="2" very_hard="yes">
+			<spell version="3" very_hard="yes">
 				<name>Major Healing</name>
 				<college>Healing</college>
 				<power_source>Arcane</power_source>

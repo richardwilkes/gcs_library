@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fp1hpdr1:ldqm14eygq36" version="1">
+<template id="9e150da5-b10f-441e-8681-8c2b2c2ec40a" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Race: Giant</name>
 			<reference>BS191</reference>
 			<categories>
 				<category>Race</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Acute Taste &amp; Smell</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -21,7 +21,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bad Temper</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -31,7 +31,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -151,7 +151,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -166,7 +166,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Speed</name>
 				<type>Mental/Physical</type>
 				<levels>1</levels>
@@ -181,7 +181,7 @@
 					<amount per_level="yes">-0.25</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enhanced Move (Ground)</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -237,12 +237,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hates ogres and being compared to ogres</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>High Pain Threshold</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -252,7 +252,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -267,7 +267,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Size</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -276,7 +276,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>15</levels>
@@ -310,7 +310,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Penetrating Voice</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -319,7 +319,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Shyness (Severe)</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -330,80 +330,95 @@
 				<skill_bonus>
 					<name compare="is">acting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">carousing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">diplomacy</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">fast-talk</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">intimidation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leadership</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">merchant</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">panhandling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">performance</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">politics</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">public speaking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">savoir-faire</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">sex appeal</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">streetwise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">teaching</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Oversized Barbarian)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
@@ -413,7 +428,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stubbornness</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -424,12 +439,16 @@
 			</advantage>
 		</advantage_container>
 	</advantage_list>
-	<notes>Most giants look much like humans, only nine or more feet tall. However, they vary remarkably, and
+	<note_list>
+		<note version="1">
+			<text>Most giants look much like humans, only nine or more feet tall. However, they vary remarkably, and
 some giants have only one eye, two heads, or other unusual features.
 
 Yrth&#8217;s giants are generally private, preferring the solitude of their homes. They can be unexpectedly dangerous if roused. Most giants have very &#8220;human&#8221; personalities but are uncomfortable in human lands, where all the furniture is built for midgets.
 
 Giants resent being compared to ogres. They react very poorly to that race, and to anyone who mentions them in any but the most disparaging terms. Unfortunately, many smaller beings mistakenly believe the biggest difference between the two races is that giants aren&#8217;t as ugly.
 
-For PC giants, calculate height based on ST before adding the racial +15, and then increase it by 60%. Weight is 4 times that of a man of the same ST (again, before the racial bonus).</notes>
+For PC giants, calculate height based on ST before adding the racial +15, and then increase it by 60%. Weight is 4 times that of a man of the same ST (again, before the racial bonus).</text>
+		</note>
+	</note_list>
 </template>

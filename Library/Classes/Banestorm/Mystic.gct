@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="58a71823-cad9-4896-b2b6-7d7abab8db64" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Mystic</name>
 			<reference>BS212</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -72,11 +72,11 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Advantage</name>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>35 points chosen from</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Hearing</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -90,7 +90,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Taste &amp; Smell</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -104,7 +104,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Touch</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -118,7 +118,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Acute Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -132,7 +132,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Animal Empathy</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -182,7 +182,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Blessed</name>
 						<type>Mental, Supernatural</type>
 						<base_points>10</base_points>
@@ -197,7 +197,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Charisma</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -210,25 +210,29 @@
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">panhandling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Claim to Hospitality</name>
 						<type>Social</type>
 						<modifier version="1" enabled="no">
@@ -261,7 +265,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Close to Heaven)</name>
 						<type>Mental, Supernatural</type>
 						<levels>1</levels>
@@ -291,35 +295,41 @@
 						<skill_bonus>
 							<name compare="is">Meditation</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Religious Ritual</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Theology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Ritual Magic</name>
 							<specialization compare="is">@Religion@</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Symbol Drawing</name>
 							<specialization compare="is">@Religion@</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">Exorcism</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -334,7 +344,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -349,7 +359,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fearlessness</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -359,7 +369,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -369,7 +379,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fit, Very</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -379,7 +389,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Flexibility</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -390,20 +400,23 @@
 						<skill_bonus>
 							<name compare="is">climbing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">escape</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">erotic art</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Flexibility (Double-Jointed)</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -414,20 +427,23 @@
 						<skill_bonus>
 							<name compare="is">climbing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>5</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">escape</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>5</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">erotic art</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>5</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>High Pain Threshold</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -437,7 +453,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Less Sleep</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -447,7 +463,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Perfect Balance</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -458,20 +474,23 @@
 						<skill_bonus>
 							<name compare="starts with">piloting</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">acrobatics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">climbing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Rapid Healing</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -483,7 +502,7 @@
 							<attribute_prereq has="yes" which="ht" compare="at least">10</attribute_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Rapid Healing, Very</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
@@ -495,7 +514,7 @@
 							<attribute_prereq has="yes" which="ht" compare="at least">12</attribute_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Reduced Consumption</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -523,7 +542,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2" round_down="yes">
+					<advantage version="3" round_down="yes">
 						<name>Reputation</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -575,7 +594,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2" round_down="yes">
+					<advantage version="3" round_down="yes">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -622,7 +641,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -669,7 +688,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Empathy</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -686,20 +705,23 @@
 						<skill_bonus>
 							<name compare="is">detect lies</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Empathy (Sensitive)</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -716,20 +738,23 @@
 						<skill_bonus>
 							<name compare="is">detect lies</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Single-Minded</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
@@ -738,7 +763,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Social Regard</name>
 						<type>Social</type>
 						<levels>1</levels>
@@ -749,7 +774,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Temperature Tolerance</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -759,7 +784,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Trained by a Master</name>
 						<type>Mental</type>
 						<base_points>30</base_points>
@@ -768,7 +793,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unfazeable</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -783,7 +808,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Voice</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -794,56 +819,64 @@
 						<skill_bonus>
 							<name compare="is">diplomacy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">fast-talk</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="starts with">mimicry</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">performance</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">politics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sex appeal</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">singing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage_container version="2" open="yes">
+					<advantage_container version="3" open="yes">
 						<name>Or appropriate Mystic Powers</name>
 					</advantage_container>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Class Disadvantage</name>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>-35 points chosen from</name>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Choose one</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Disciplines of Faith (Asceticism)</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -852,7 +885,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Disciplines of Faith (Monasticism)</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
@@ -861,7 +894,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Disciplines of Faith (Mysticism)</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
@@ -870,7 +903,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Disciplines of Faith (Ritualism)</name>
 							<type>Mental</type>
 							<base_points>-5</base_points>
@@ -880,9 +913,9 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Choose the remainder from</name>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Absent-Mindedness</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -891,7 +924,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Bad Temper</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
@@ -901,7 +934,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Charitable</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -911,7 +944,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Fanaticism (@Group or ideal@)</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -926,7 +959,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Honesty</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
@@ -936,7 +969,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Loner</name>
 							<type>Mental</type>
 							<base_points>-5</base_points>
@@ -946,7 +979,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Miserliness</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
@@ -956,7 +989,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Pacifism: Cannot Harm Innocents</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
@@ -971,7 +1004,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Pacifism: Cannot Kill</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -986,7 +1019,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Pacifism: Self-Defense Only</name>
 							<type>Mental</type>
 							<base_points>-15</base_points>
@@ -1001,7 +1034,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Pacifism: Total Nonviolence</name>
 							<type>Mental</type>
 							<base_points>-30</base_points>
@@ -1016,7 +1049,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2" round_down="yes">
+						<advantage version="3" round_down="yes">
 							<name>Reputation (@Weird, heretical, or any similar@)</name>
 							<type>Social</type>
 							<levels>1</levels>
@@ -1067,7 +1100,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Selfless</name>
 							<type>Mental</type>
 							<base_points>-5</base_points>
@@ -1077,7 +1110,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Sense of Duty</name>
 							<type>Mental</type>
 							<modifier version="1" enabled="no">
@@ -1121,7 +1154,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Skinny</name>
 							<type>Physical</type>
 							<base_points>-5</base_points>
@@ -1133,18 +1166,20 @@
 							<skill_bonus>
 								<name compare="is">disguise</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>-2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">shadowing</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>-2</amount>
 							</skill_bonus>
 							<prereq_list all="yes">
 								<attribute_prereq has="yes" which="ht" compare="at most">14</attribute_prereq>
 							</prereq_list>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Stubbornness</name>
 							<type>Mental</type>
 							<base_points>-5</base_points>
@@ -1153,7 +1188,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Truthfulness</name>
 							<type>Mental</type>
 							<base_points>-5</base_points>
@@ -1165,10 +1200,11 @@
 							<skill_bonus>
 								<name compare="is">fast talk</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>-5</amount>
 							</skill_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Vow (@Subject@)</name>
 							<type>Physical</type>
 							<modifier version="1" enabled="no">
@@ -1194,7 +1230,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Wealth</name>
 							<type>Social</type>
 							<modifier version="1" enabled="no">
@@ -1258,7 +1294,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Wealth</name>
 							<type>Social</type>
 							<modifier version="1" enabled="no">
@@ -1322,7 +1358,7 @@
 								<category>Disadvantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Wealth</name>
 							<type>Social</type>
 							<modifier version="1">
@@ -1389,10 +1425,10 @@
 					</advantage_container>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Mystic Powers</name>
 				<notes>Choose one</notes>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>An'Fo'Tama Monks</name>
 					<modifier version="1">
 						<name>An'Fo'Tama Monk Pact</name>
@@ -1401,7 +1437,7 @@
 					</modifier>
 					<reference>BS213</reference>
 					<notes>Take either Disciplines of Faith (Monasticism or Mysticism) and Major Vow for [-20] for Pact</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Recognizing the Illusion of Fire</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -1561,7 +1597,7 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Recognizing the Illusion of Pain</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
@@ -1571,7 +1607,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Command of the Blood</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
@@ -1585,7 +1621,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Reading the Akashic Record</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -1625,7 +1661,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Recognizing the Illusion of Wounds</name>
 						<type>Physical, Exotic</type>
 						<modifier version="1">
@@ -1725,7 +1761,7 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>The Order of Friedrich</name>
 					<modifier version="1">
 						<name>The Order of Friedrich Pact</name>
@@ -1734,7 +1770,7 @@
 					</modifier>
 					<reference>BS213</reference>
 					<notes>Take Disciplines of Faith (Asceticism) [-15] for pact and cannot have Wealth greater than Poor.</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>The Gaze of the Prophets</name>
 						<type>Mental</type>
 						<levels>4</levels>
@@ -1747,25 +1783,29 @@
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">panhandling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Surpassing the Need for Food</name>
 						<type>Physical, Exotic</type>
 						<base_points>10</base_points>
@@ -1774,7 +1814,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Surpassing the Need for Sleep</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
@@ -1783,7 +1823,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Transcending Matter</name>
 						<type>Mental/Physical, Exotic</type>
 						<base_points>80</base_points>
@@ -1903,7 +1943,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disdaining Sorcery</name>
 						<type>Physical</type>
 						<levels>10</levels>
@@ -1919,7 +1959,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Blessed Healing</name>
 						<type>Physical, Exotic</type>
 						<modifier version="1" enabled="no">
@@ -2014,7 +2054,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>The Blessed Step</name>
 						<type>Physical, Exotic</type>
 						<base_points>15</base_points>
@@ -2036,7 +2076,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Transcending Distance</name>
 						<type>Mental, Supernatural</type>
 						<base_points>100</base_points>
@@ -2300,7 +2340,7 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Julnari Dervishes</name>
 					<modifier version="1">
 						<name>Julnari Dervishes</name>
@@ -2309,7 +2349,7 @@
 					</modifier>
 					<reference>BS213</reference>
 					<notes>Must take Disciplines of Faith (Mysticism) and Minor Vow [-15]. Must have Poetry and either Musical Instrument (Flute or Lute) or Singing at 12+.</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Knowledge of the Path</name>
 						<type>Mental/Physical</type>
 						<base_points>5</base_points>
@@ -2327,26 +2367,31 @@
 							<skill_bonus>
 								<name compare="starts with">piloting</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>1</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">aerobatics</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">free fall</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">hyperspace</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 							<skill_bonus>
 								<name compare="is">navigation</name>
 								<specialization compare="is">space</specialization>
+								<category compare="is anything"></category>
 								<amount>2</amount>
 							</skill_bonus>
 						</modifier>
@@ -2362,25 +2407,29 @@
 						<skill_bonus>
 							<name compare="is">body sense</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">air</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">land</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">sea</specialization>
+							<category compare="is anything"></category>
 							<amount>3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Knowledge of Hidden Truth</name>
 						<type>Mental, Supernatural</type>
 						<base_points>50</base_points>
@@ -2442,7 +2491,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Superior Judgement</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -2457,7 +2506,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Knowledge of the Unseen World</name>
 						<type>Mental, Supernatural</type>
 						<base_points>10</base_points>
@@ -2491,7 +2540,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Knowledge of Another's Truth</name>
 						<type>Mental, Exotic</type>
 						<base_points>20</base_points>
@@ -2568,7 +2617,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Knowledge of Omens</name>
 						<type>Mental, Supernatural</type>
 						<base_points>15</base_points>
@@ -2583,7 +2632,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sight Without Distance</name>
 						<type>Physical</type>
 						<levels>4</levels>
@@ -2604,12 +2653,12 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Mystic</name>
 			<reference>BS212</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skill</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Meditation</name>
 					<difficulty>Will/H</difficulty>
 					<points>4</points>
@@ -2627,9 +2676,9 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose one</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Philosophy</name>
 						<specialization>@Specialty@</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2643,7 +2692,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Theology</name>
 						<specialization>Own religion</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2665,11 +2714,11 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>8 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Staff</name>
 						<difficulty>DX/A</difficulty>
 						<points>2</points>
@@ -2693,7 +2742,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Judo</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/H</difficulty>
@@ -2705,7 +2754,7 @@
 							<category>Melee Combat</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Teaching</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -2719,7 +2768,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Writing</name>
 						<difficulty>IQ/A</difficulty>
 						<points>2</points>
@@ -2733,7 +2782,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Survival</name>
 						<specialization>@Environment@</specialization>
 						<difficulty>Per/A</difficulty>
@@ -2794,7 +2843,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Religious Ritual</name>
 						<specialization>Own religion</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2816,7 +2865,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Detect Lies</name>
 						<difficulty>Per/H</difficulty>
 						<points>2</points>
@@ -2841,9 +2890,9 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill_container version="2" open="no">
+					<skill_container version="3" open="no">
 						<name>Take the one that was not taken as primary skill</name>
-						<skill version="2">
+						<skill version="3">
 							<name>Philosophy</name>
 							<specialization>@Specialty@</specialization>
 							<difficulty>IQ/H</difficulty>
@@ -2857,7 +2906,7 @@
 								<modifier>-6</modifier>
 							</default>
 						</skill>
-						<skill version="2">
+						<skill version="3">
 							<name>Theology</name>
 							<specialization>Own religion</specialization>
 							<difficulty>IQ/H</difficulty>
@@ -2880,11 +2929,11 @@
 					</skill_container>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Background Skill</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>4 points chosen from</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Poetry</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2902,7 +2951,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Research</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2945,7 +2994,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Musical Instrument</name>
 						<specialization>@Any inexpensive instrument@</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2955,7 +3004,7 @@
 							<category>Arts/Entertainment</category>
 						</categories>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Singing</name>
 						<difficulty>HT/E</difficulty>
 						<points>1</points>
@@ -2968,7 +3017,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Hiking</name>
 						<difficulty>HT/A</difficulty>
 						<points>1</points>

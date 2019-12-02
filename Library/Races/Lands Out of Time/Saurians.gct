@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="25dec33c-1183-4249-9274-98c59e8433ea" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Saurians</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Advanced Saurians</name>
 				<reference>LooT15</reference>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Attributes</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Decreased Dexterity</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -23,7 +23,7 @@
 							<amount per_level="yes">-1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -38,7 +38,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -73,9 +73,9 @@
 						</attribute_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Racial Advantage</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
@@ -235,7 +235,7 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Nictitating Membrane</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
@@ -245,12 +245,12 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Teeth, Sharp</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
 						<melee_weapon>
-							<damage>thr-1 cut</damage>
+							<damage type="cut" st="thr" base="-1"/>
 							<usage>Bite</usage>
 							<reach>C</reach>
 							<parry>No</parry>
@@ -270,12 +270,12 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Claws, Sharp (Hands)</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
 						<melee_weapon>
-							<damage>thr-1 cut</damage>
+							<damage type="cut" st="thr" base="-1"/>
 							<usage>Slash</usage>
 							<reach>C</reach>
 							<parry>0</parry>
@@ -306,12 +306,12 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Striker, Crushing (Tail)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
 						<melee_weapon>
-							<damage>thr:+1 cr</damage>
+							<damage type="cr" st="thr" modifier_per_die="1"/>
 							<reach>C</reach>
 							<parry>0</parry>
 							<block>No</block>
@@ -337,9 +337,9 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Racial Disadvantage</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -350,15 +350,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Cold-Blooded</name>
 						<type>Physical, Exotic</type>
 						<base_points>-5</base_points>
@@ -368,7 +370,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ham-Fisted</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
@@ -379,61 +381,73 @@
 						<skill_bonus>
 							<name compare="contains">artist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">jeweler</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">knot-tying</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leatherworking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">lockpicking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">pickpocket</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sewing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sleight of hand</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">surgery</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">machinist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">mechanic</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<prereq_list all="yes">
@@ -445,12 +459,12 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Primative Saurians</name>
 				<reference>LooT15</reference>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Attributes</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Decreased Basic Move</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -465,7 +479,7 @@
 							<amount per_level="yes">-1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Decreased Dexterity</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -480,7 +494,7 @@
 							<amount per_level="yes">-1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Decreased Intelligence</name>
 						<type>Mental</type>
 						<levels>3</levels>
@@ -495,7 +509,7 @@
 							<amount per_level="yes">-1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Extra Hit Points</name>
 						<type>Physical</type>
 						<levels>4</levels>
@@ -521,7 +535,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -536,7 +550,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>3</levels>
@@ -571,9 +585,9 @@
 						</attribute_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Racial Advantage</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
@@ -733,7 +747,7 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Nictitating Membrane</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
@@ -743,12 +757,12 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Teeth, Sharp</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
 						<melee_weapon>
-							<damage>thr-1 cut</damage>
+							<damage type="cut" st="thr" base="-1"/>
 							<usage>Bite</usage>
 							<reach>C</reach>
 							<parry>No</parry>
@@ -768,12 +782,12 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Claws, Sharp (Hands)</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
 						<melee_weapon>
-							<damage>thr-1 cut</damage>
+							<damage type="cut" st="thr" base="-1"/>
 							<usage>Slash</usage>
 							<reach>C</reach>
 							<parry>0</parry>
@@ -804,12 +818,12 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Striker, Crushing (Tail)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
 						<melee_weapon>
-							<damage>thr:+1 cr</damage>
+							<damage type="cr" st="thr" modifier_per_die="1"/>
 							<reach>C</reach>
 							<parry>0</parry>
 							<block>No</block>
@@ -835,9 +849,9 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Racial Disadvantage</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bestial</name>
 						<type>Mental, Exotic</type>
 						<base_points>-10</base_points>
@@ -846,7 +860,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Innumerate</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -897,7 +911,7 @@
 							</skill_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Callous</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -908,15 +922,17 @@
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">teaching</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Cold-Blooded</name>
 						<type>Physical, Exotic</type>
 						<base_points>-5</base_points>
@@ -926,7 +942,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Ham-Fisted</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
@@ -937,61 +953,73 @@
 						<skill_bonus>
 							<name compare="contains">artist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">jeweler</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">knot-tying</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leatherworking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">lockpicking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">pickpocket</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sewing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">sleight of hand</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">surgery</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">machinist</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">mechanic</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-3</amount>
 						</skill_bonus>
 						<prereq_list all="yes">

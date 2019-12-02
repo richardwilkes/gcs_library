@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="ef19a003-cba0-4835-bc0d-02ebb9150a99" version="1">
+<template id="ef19a003-cba0-4835-bc0d-02ebb9150a99" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Octopus Astra Astropus</name>
 			<reference>TS118</reference>
 			<notes>2085; $90,000; Exogenesis</notes>
@@ -9,7 +9,7 @@
 				<category>Space</category>
 				<category>Uplift</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -19,7 +19,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -29,7 +29,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased IQ</name>
 				<type>Mental</type>
 				<levels>2</levels>
@@ -39,7 +39,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HT</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -49,7 +49,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fewer Hit Points</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -64,7 +64,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>3</levels>
@@ -79,7 +79,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Chameleon</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -114,7 +114,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Constriction Attack</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -129,7 +129,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -289,7 +289,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -358,7 +358,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Arm</name>
 				<type>Physical, Exotic</type>
 				<levels>6</levels>
@@ -419,7 +419,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra-flexible arms</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -430,20 +430,23 @@
 				<skill_bonus>
 					<name compare="is">climbing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">escape</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">erotic art</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flight</name>
 				<type>Physical, Exotic</type>
 				<base_points>40</base_points>
@@ -550,7 +553,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Neck)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -559,7 +562,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Obscure (Vision)</name>
 				<type>Physical, Exotic</type>
 				<levels>10</levels>
@@ -619,7 +622,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Peripheral Vision</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -635,12 +638,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Sharp Beak</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr-1 pi+</damage>
+					<damage type="pi+" st="thr" base="-1"/>
 					<usage>Peck</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -660,7 +663,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sanitized Metabolism</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
@@ -669,7 +672,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bad Grip</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -685,7 +688,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bad Sight (Nearsighted)</name>
 				<type>Physical</type>
 				<base_points>-25</base_points>
@@ -701,7 +704,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak (Mute)</name>
 				<type>Physical</type>
 				<base_points>-25</base_points>
@@ -715,7 +718,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cold-Blooded</name>
 				<type>Physical, Exotic</type>
 				<base_points>-5</base_points>
@@ -725,7 +728,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Colorblindness</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
@@ -736,35 +739,41 @@
 				<skill_bonus>
 					<name compare="contains">artist</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">chemistry</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">driving</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">merchant</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">piloting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="contains">tracking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fearfulness</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -780,7 +789,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -789,7 +798,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Incurious</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -799,7 +808,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Innumerate</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -850,7 +859,7 @@
 					</skill_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Invertebrate</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -859,7 +868,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Short Lifespan</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -869,7 +878,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Valuable Property)</name>
 				<type>Social</type>
 				<base_points>-10</base_points>
@@ -878,7 +887,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stress Atavism</name>
 				<type>Mental, Exotic</type>
 				<cr>12</cr>
@@ -905,7 +914,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Wealth</name>
 				<type>Social</type>
 				<modifier version="1">
@@ -969,7 +978,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Home gravity os 0 - 0.2 G</name>
 				<type>Physical</type>
 			</advantage>

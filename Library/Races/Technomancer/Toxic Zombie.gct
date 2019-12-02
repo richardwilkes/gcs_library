@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="i3oun8vh:-wm6xzzwbf5fb" version="1">
+<template id="2be52e4d-fe35-4108-a2b2-0c91dbc268ce" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Health</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -16,7 +16,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>5</levels>
@@ -50,9 +50,9 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Basic Undead Meta-Trait</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unaging</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -67,7 +67,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Undead)</name>
 				<type>Social</type>
 				<base_points>-20</base_points>
@@ -79,10 +79,11 @@
 				<skill_bonus>
 					<name compare="is">intimidation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -129,7 +130,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -198,7 +199,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Mana)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -286,7 +287,7 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Fatigue Points</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -301,7 +302,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -310,7 +311,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
@@ -320,7 +321,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (No Blood)</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
@@ -329,7 +330,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Lifebane</name>
 			<type>Mental, Supernatural</type>
 			<base_points>-10</base_points>
@@ -338,7 +339,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Appearance</name>
 			<type>Physical</type>
 			<modifier version="1" enabled="no">
@@ -426,7 +427,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unhealing (Partial)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-20</base_points>
@@ -435,7 +436,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Fewer Hit Points</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -450,7 +451,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Silence</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -468,10 +469,11 @@
 			<skill_bonus>
 				<name compare="is">stealth</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>2</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Single-Minded</name>
 			<type>Mental</type>
 			<base_points>5</base_points>
@@ -480,7 +482,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bad Smell</name>
 			<type>Physical</type>
 			<base_points>-10</base_points>
@@ -490,7 +492,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Fragile (Unnatural)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-50</base_points>
@@ -499,7 +501,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hidebound</name>
 			<type>Physical</type>
 			<base_points>-5</base_points>
@@ -508,7 +510,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Infectious Attack</name>
 			<type>Physical, Supernatural</type>
 			<base_points>-5</base_points>
@@ -517,7 +519,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Supernatural Features (No Body Heat)</name>
 			<type>Physical, Supernatural</type>
 			<base_points>-5</base_points>
@@ -526,7 +528,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Supernatural Features (Pallor)</name>
 			<type>Physical, Supernatural</type>
 			<base_points>-10</base_points>
@@ -535,7 +537,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Uncontrollable Appetite (Braaains!)</name>
 			<type>Mental, Supernatural</type>
 			<base_points>-15</base_points>
@@ -545,7 +547,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Draining (Braaains!)</name>
 			<type>Physical, Supernatural</type>
 			<base_points>-5</base_points>
@@ -577,7 +579,7 @@
 		</advantage>
 	</advantage_list>
 	<spell_list>
-		<spell version="2" very_hard="yes">
+		<spell version="3" very_hard="yes">
 			<name>Breathe Radiation</name>
 			<college>Technological/Radiation</college>
 			<power_source>Arcane</power_source>
@@ -601,17 +603,17 @@
 					<advantage_prereq has="yes">
 						<name compare="is">magery</name>
 						<notes compare="contains">one college (technological)</notes>
-						<level compare="at_least">2</level>
+						<level compare="at least">2</level>
 					</advantage_prereq>
 					<advantage_prereq has="yes">
 						<name compare="is">magery</name>
 						<notes compare="does not contain">one college</notes>
-						<level compare="at_least">2</level>
+						<level compare="at least">2</level>
 					</advantage_prereq>
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="2">
+		<spell version="3">
 			<name>See Radiation</name>
 			<college>Technological/Radiation</college>
 			<power_source>Arcane</power_source>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<advantage_list unique_id="ih122ve9:-f976njym3r79" version="1">
-	<advantage_container version="2" open="yes">
+<advantage_list id="a425bc3d-ba58-486e-a717-a5eca6fc519a" version="1">
+	<advantage_container version="3" open="yes">
 		<name>Built-In Weapons</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Buzzsaw (3d)</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -18,13 +18,13 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Drug Injector</name>
 			<reference>RSWL20</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Drug Injector</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -37,7 +37,7 @@
 				</modifier>
 				<reference>B61</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Toxic Attack</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -51,18 +51,18 @@
 				<reference>B61</reference>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Electric Stun Wand (for 3+ handed robots)</name>
 			<reference>RSWL20</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>-1 to lower point cost (as in original book)</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Affliction (HT-5)</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -87,7 +87,7 @@
 				</modifier>
 				<reference>B35</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Electric Stun Wand</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -107,18 +107,18 @@
 				<reference>B61</reference>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Electric Stun Wand (for one-handed robots)</name>
 			<reference>RSWL20</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>+2 to raise point cost (as in original book)</name>
 				<type>Physical</type>
 				<base_points>2</base_points>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Affliction (HT-5)</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -149,7 +149,7 @@
 				</modifier>
 				<reference>B35</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Electric Stun Wand</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -175,13 +175,13 @@
 				<reference>B61</reference>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Electric Stun Wand (for two-handed robots)</name>
 			<reference>RSWL20</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Affliction (HT-5)</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -212,7 +212,7 @@
 				</modifier>
 				<reference>B35</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Electric Stun Wand</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -238,7 +238,7 @@
 				<reference>B61</reference>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>ETC Payload Rifle (5dx3)</name>
 			<type>Physical</type>
 			<levels>15</levels>
@@ -277,7 +277,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Gatling Laser (12d)</name>
 			<type>Physical</type>
 			<levels>12</levels>
@@ -322,7 +322,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Gatling Laser Blue-Green (12d)</name>
 			<type>Physical</type>
 			<levels>12</levels>
@@ -373,7 +373,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Gauss Rifle (6d)</name>
 			<type>Physical</type>
 			<levels>6</levels>
@@ -426,7 +426,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Heavy Blaster (4d)</name>
 			<type>Physical</type>
 			<levels>4</levels>
@@ -477,7 +477,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Heavy Electrolaser (Affliction HT-6)</name>
 			<type>Physical</type>
 			<levels>7</levels>
@@ -527,7 +527,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Heavy Plasma Torch (4d)</name>
 			<type>Physical</type>
 			<levels>4</levels>
@@ -549,7 +549,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Holdout Laser (2d)</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -587,7 +587,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Laser Carbine (5d)</name>
 			<type>Physical</type>
 			<levels>5</levels>
@@ -632,7 +632,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Laser Rifle (6d)</name>
 			<type>Physical</type>
 			<levels>6</levels>
@@ -677,7 +677,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Laser Torch (2d)</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -699,7 +699,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Light Electrolaser (Affliction HT-4)</name>
 			<type>Physical</type>
 			<levels>5</levels>
@@ -747,7 +747,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Mini-Chainsaw (2d)</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -763,19 +763,19 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Monowire Claws</name>
 			<reference>RSWL20</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>+10 points for every die of the robot&#8217;s thrust damage (minimum +2 points)</name>
 				<type>Physical</type>
 				<levels>0</levels>
 				<points_per_level>10</points_per_level>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Monowire Claws (1d)</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -794,19 +794,19 @@
 				</modifier>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Monowire Jaw</name>
 			<reference>RSWL21</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>+10 points for every die of the robot&#8217;s thrust damage (minimum +2 points)</name>
 				<type>Physical</type>
 				<levels>0</levels>
 				<points_per_level>10</points_per_level>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Monowire Jaw (1d)</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -825,19 +825,19 @@
 				</modifier>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Monowire Talons</name>
 			<reference>RSWL21</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>+10 points for every die of the robot&#8217;s thrust damage (minimum +2 points)</name>
 				<type>Physical</type>
 				<levels>0</levels>
 				<points_per_level>10</points_per_level>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Monowire Talons (1d)</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -856,7 +856,7 @@
 				</modifier>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Particle Beam Cannon (10dx10)</name>
 			<type>Physical</type>
 			<levels>100</levels>
@@ -901,7 +901,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Portable Railgun (15d)</name>
 			<type>Physical</type>
 			<levels>15</levels>
@@ -954,7 +954,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Tangler (Binding)</name>
 			<type>Physical</type>
 			<levels>20</levels>
@@ -971,7 +971,7 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Torpedoes (6dx3)</name>
 			<type>Physical</type>
 			<levels>18</levels>
@@ -1028,19 +1028,19 @@
 				<category>Built-In Weapon</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="no">
+		<advantage_container version="3" open="no">
 			<name>Vibroblade Claws</name>
 			<reference>RSWL21</reference>
 			<categories>
 				<category>Built-In Weapon</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>+5 points for every die of the robot&#8217;s thrust damage (minimum +1 point)</name>
 				<type>Physical</type>
 				<levels>0</levels>
 				<points_per_level>5</points_per_level>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vibroblade Claws (3d)</name>
 				<type>Physical</type>
 				<levels>3</levels>
@@ -1059,7 +1059,7 @@
 				</modifier>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Weighted Tail (Crushing Striker)</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
@@ -1083,7 +1083,7 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Social Stigma (Outlaw)</name>
 		<type>Social</type>
 		<base_points>-15</base_points>

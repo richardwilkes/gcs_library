@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ih2s1rvi:-1c0rektea8bxf" version="1">
+<template id="11860376-d175-460e-81ae-985b47593b97" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Advantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fearlessness</name>
 				<type>Mental</type>
 				<levels>5</levels>
@@ -13,7 +13,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Patron</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -156,7 +156,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Patron</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -299,7 +299,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Rank</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -322,7 +322,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Wealth</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -387,11 +387,11 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Disadvantages</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>-45 Points in:</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Amnesia (Partial)</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -400,7 +400,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bad Temper</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -410,7 +410,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Berserk</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -425,7 +425,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bloodlust</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -435,7 +435,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Callous</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -446,15 +446,17 @@
 					<skill_bonus>
 						<name compare="is">psychology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">teaching</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Flashbacks (Crippling, 3D minutes)</name>
 					<type>Physical</type>
 					<base_points>-20</base_points>
@@ -463,7 +465,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Flashbacks (Mild, -2, 2D seconds)</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -472,7 +474,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Flashbacks (Severe, -5, 1D minutes)</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -481,7 +483,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Guilt Complex</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -490,7 +492,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Intolerance (Criminals)</name>
 					<type>Mental</type>
 					<modifier version="1">
@@ -522,7 +524,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Low Self-Image</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -531,7 +533,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Nightmares</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -541,7 +543,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Sense of Humor</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -551,7 +553,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>On the Edge</name>
 					<type>Mental</type>
 					<base_points>-15</base_points>
@@ -561,7 +563,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Paranoia</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -570,7 +572,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Phantom Voices</name>
 					<type>Mental</type>
 					<modifier version="1">
@@ -596,7 +598,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Phantom Voices</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -622,7 +624,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Phantom Voices</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -648,7 +650,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Post-Combat Shakes</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -658,7 +660,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sense of Duty</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -703,7 +705,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Duty (Washington Chromes)</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -746,7 +748,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Overconfidence</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -759,9 +761,9 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Choose One from:</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Light Machine Gun</specialization>
 				<tech_level/>
@@ -825,7 +827,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Pistol</specialization>
 				<tech_level/>
@@ -895,7 +897,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Rifle</specialization>
 				<tech_level/>
@@ -965,7 +967,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Shotgun</specialization>
 				<tech_level/>
@@ -1029,7 +1031,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Submachine Gun</specialization>
 				<tech_level/>
@@ -1094,7 +1096,7 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill version="2">
+		<skill version="3">
 			<name>Tactics</name>
 			<difficulty>IQ/H</difficulty>
 			<points>1</points>
@@ -1113,7 +1115,7 @@
 				<modifier>-6</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Throwing</name>
 			<difficulty>DX/A</difficulty>
 			<points>1</points>
@@ -1133,9 +1135,9 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>14 Points in:</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Acting</name>
 				<difficulty>IQ/A</difficulty>
 				<points>2</points>
@@ -1159,7 +1161,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Armoury</name>
 				<specialization>Battlesuits</specialization>
 				<tech_level/>
@@ -1181,7 +1183,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Armoury</name>
 				<specialization>Body Armor</specialization>
 				<tech_level/>
@@ -1203,7 +1205,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Armoury</name>
 				<specialization>Heavy Weapons</specialization>
 				<tech_level/>
@@ -1225,7 +1227,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Armoury</name>
 				<specialization>Small Arms</specialization>
 				<tech_level/>
@@ -1247,7 +1249,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Beam Weapons</name>
 				<specialization>Pistol</specialization>
 				<tech_level/>
@@ -1274,7 +1276,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Beam Weapons</name>
 				<specialization>Projector</specialization>
 				<tech_level/>
@@ -1295,7 +1297,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Beam Weapons</name>
 				<specialization>Rifle</specialization>
 				<tech_level/>
@@ -1322,7 +1324,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Camouflage</name>
 				<difficulty>IQ/E</difficulty>
 				<points>1</points>
@@ -1341,7 +1343,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Climbing</name>
 				<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 				<difficulty>DX/A</difficulty>
@@ -1357,7 +1359,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Communications</specialization>
 				<tech_level/>
@@ -1389,7 +1391,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Electronic Warfare</specialization>
 				<tech_level/>
@@ -1423,7 +1425,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Media</specialization>
 				<tech_level/>
@@ -1456,7 +1458,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Medical</specialization>
 				<tech_level/>
@@ -1489,7 +1491,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Scientific</specialization>
 				<tech_level/>
@@ -1521,7 +1523,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Security</specialization>
 				<tech_level/>
@@ -1555,7 +1557,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Sensors</specialization>
 				<tech_level/>
@@ -1587,7 +1589,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Sonar</specialization>
 				<tech_level/>
@@ -1619,7 +1621,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Electronics Operation</name>
 				<specialization>Surveillance</specialization>
 				<tech_level/>
@@ -1653,7 +1655,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Gunner</name>
 				<specialization>Beams</specialization>
 				<tech_level/>
@@ -1674,7 +1676,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Gunner</name>
 				<specialization>Machine Gun</specialization>
 				<tech_level/>
@@ -1695,7 +1697,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Gunner</name>
 				<specialization>Rockets</specialization>
 				<tech_level/>
@@ -1716,7 +1718,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Intelligence Analysis</name>
 				<tech_level/>
 				<difficulty>IQ/H</difficulty>
@@ -1737,7 +1739,7 @@
 					<modifier>-6</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Interrogation</name>
 				<difficulty>IQ/A</difficulty>
 				<points>2</points>
@@ -1762,7 +1764,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Judo</name>
 				<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 				<difficulty>DX/H</difficulty>
@@ -1774,7 +1776,7 @@
 					<category>Melee Combat</category>
 				</categories>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Jumping</name>
 				<difficulty>DX/E</difficulty>
 				<points>2</points>
@@ -1783,7 +1785,7 @@
 					<category>Athletic</category>
 				</categories>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Karate</name>
 				<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 				<difficulty>DX/H</difficulty>
@@ -1797,16 +1799,18 @@
 					<name compare="is">Karate</name>
 					<specialization compare="is anything"></specialization>
 					<level compare="at least">0</level>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</weapon_bonus>
 				<weapon_bonus>
 					<name compare="is">Karate</name>
 					<specialization compare="is anything"></specialization>
 					<level compare="at least">1</level>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</weapon_bonus>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Leadership</name>
 				<difficulty>IQ/A</difficulty>
 				<points>4</points>
@@ -1820,7 +1824,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Mechanic</name>
 				<specialization>Robotics</specialization>
 				<tech_level/>
@@ -1851,7 +1855,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Navigation</name>
 				<specialization>Land</specialization>
 				<tech_level/>
@@ -1891,7 +1895,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Parachuting</name>
 				<tech_level/>
 				<difficulty>DX/E</difficulty>
@@ -1907,7 +1911,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Strategy</name>
 				<specialization>Land</specialization>
 				<difficulty>IQ/H</difficulty>

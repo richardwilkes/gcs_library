@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="9b7abb78-671c-410c-a366-f171478b99b4" version="3">
+<character id="9b7abb78-671c-410c-a366-f171478b99b4" version="4">
 	<created_date>Jan 17, 2016</created_date>
-	<modified_date>Jul 22, 2018, 9:11 AM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Acid Spider</name>
 		<age>0</age>
@@ -25,7 +25,7 @@
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>360&#176; Vision</name>
 			<type>Physical, Exotic</type>
 			<base_points>25</base_points>
@@ -53,7 +53,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Combat Reflexes</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -65,6 +65,7 @@
 			<skill_bonus>
 				<name compare="starts with">fast-draw</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 			<attribute_bonus>
@@ -90,7 +91,7 @@
 				</advantage_prereq>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Legs</name>
 			<type>Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -129,7 +130,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Horizontal</name>
 			<type>Physical, Exotic</type>
 			<base_points>-10</base_points>
@@ -138,7 +139,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Infravision</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -153,7 +154,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Fine Manipulators</name>
 			<type>Physical</type>
 			<base_points>-30</base_points>
@@ -170,7 +171,7 @@
 				<percentage>40</percentage>
 			</cost_reduction>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Super Jump</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -235,39 +236,39 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Wild Animal</name>
 			<reference>B263</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bestial</name>
 				<type>Mental, Exotic</type>
 				<base_points>-10</base_points>
 				<reference>B124</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak</name>
 				<type>Physical</type>
 				<base_points>-15</base_points>
 				<reference>B125</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
 				<reference>B138</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo Trait (Fixed IQ)</name>
 				<type>Physical</type>
 				<reference>B263</reference>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Acidic Bite</name>
 			<type>Physical, Exotic</type>
 			<base_points>12</base_points>
 			<melee_weapon>
-				<damage>thr-1 imp</damage>
+				<damage type="imp" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -290,7 +291,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Jumping</name>
 			<difficulty>DX/E</difficulty>
 			<points>2</points>
@@ -299,7 +300,7 @@
 				<category>Athletic</category>
 			</categories>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Stealth</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
@@ -348,6 +349,8 @@ Acidic Bite:
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

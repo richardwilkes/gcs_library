@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="i1kc2mw7:15et0sg05o5rq" version="1">
+<template id="2be58e51-dae0-4236-ae00-a828f6ef941f" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Skeletal Undead</name>
 			<reference>H27</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -92,7 +92,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Float</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
@@ -100,7 +100,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -248,13 +248,13 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
 				<reference>B49</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -263,7 +263,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fragile (Brittle)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-15</base_points>
@@ -272,7 +272,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>High Pain Threshold</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -283,7 +283,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Basic Speed</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -298,7 +298,7 @@
 					<amount per_level="yes">0.25</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Blood)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -307,7 +307,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Brain)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -316,7 +316,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Eyes)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -325,7 +325,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (No Vitals)</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -334,7 +334,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (Unliving)</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -343,7 +343,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Sense of Smell/Taste</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -352,7 +352,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -362,7 +362,7 @@
 					<reference>B80</reference>
 				</modifier>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sexless</name>
 				<type>Physical</type>
 				<base_points>-1</base_points>
@@ -371,7 +371,7 @@
 					<category>Quirk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Skinny</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -383,25 +383,27 @@
 				<skill_bonus>
 					<name compare="is">disguise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">shadowing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<prereq_list all="yes">
 					<attribute_prereq has="yes" which="ht" compare="at most">14</attribute_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Skull only has 2 DR.</name>
 				<type>Physical</type>
 				<categories>
 					<category>Feature</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Dead)</name>
 				<type>Social</type>
 				<base_points>-20</base_points>
@@ -413,7 +415,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>10</levels>
@@ -423,7 +425,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unaging</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -438,7 +440,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vacuum Support</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -447,7 +449,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vulnerability</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ijh87lqz:-pxo64a9mlrxi" version="1">
+<template id="461fe86b-5292-47c1-bff3-1bee589d9a62" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Vampire</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Blood of sapient beings)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -90,7 +90,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Mana)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -177,7 +177,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -246,7 +246,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dread (Running water 11 yard)</name>
 				<type>Mental, Supernatural</type>
 				<levels>1</levels>
@@ -289,7 +289,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased HP</name>
 				<type>Physical</type>
 				<levels>4</levels>
@@ -300,7 +300,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Perception</name>
 				<type>Mental/Physical</type>
 				<levels>4</levels>
@@ -315,7 +315,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>7</levels>
@@ -349,7 +349,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Infectious Attack</name>
 				<type>Physical, Supernatural</type>
 				<base_points>-5</base_points>
@@ -359,7 +359,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Injury Tolerance (Unliving)</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -368,7 +368,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -378,7 +378,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -425,7 +425,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Supernatural Features (No Body Heat and pallor)</name>
 				<type>Physical, Supernatural</type>
 				<base_points>-6</base_points>
@@ -435,7 +435,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Toxic Attack 3d</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -490,7 +490,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unaging</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -511,7 +511,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Uncontrollable Appetite (Blood of sapient beings)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>-15</base_points>
@@ -521,7 +521,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unhealing (Partial)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -530,7 +530,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unkillable</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -609,7 +609,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vampiric Bite</name>
 				<type>Physical, Exotic</type>
 				<base_points>30</base_points>
@@ -619,7 +619,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Weakness</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1">

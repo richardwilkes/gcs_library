@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="b6d256d7-1474-4ddf-885e-63015adbb035" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Sphinxes</name>
 			<reference>BS198</reference>
 			<notes>Tigrine sphinxes do not have the Flight advantage, reducing racial cost from 170 to 140 points</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -27,7 +27,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -42,7 +42,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>2</levels>
@@ -57,7 +57,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>6</levels>
@@ -91,7 +91,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Size Modifier</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -101,9 +101,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -263,7 +263,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Flight</name>
 					<type>Physical, Exotic</type>
 					<base_points>40</base_points>
@@ -359,7 +359,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -369,12 +369,12 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Claws, Sharp (Hands)</name>
 					<type>Physical</type>
 					<base_points>5</base_points>
 					<melee_weapon>
-						<damage>thr-1 cut</damage>
+						<damage type="cut" st="thr" base="-1"/>
 						<usage>Slash</usage>
 						<reach>C</reach>
 						<parry>0</parry>
@@ -405,7 +405,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Temperature Tolerance</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -416,9 +416,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bad Grip</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -434,7 +434,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bloodlust</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -444,7 +444,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Curious</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -454,7 +454,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Horizontal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-10</base_points>
@@ -463,7 +463,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Odious Racial Habit</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -490,12 +490,12 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Particularly intellectually curious</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Solitary</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
@@ -504,10 +504,10 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="no">
+		<skill_container version="3" open="no">
 			<name>Sphinxes</name>
 			<reference>BS198</reference>
-			<skill version="2">
+			<skill version="3">
 				<name>Brawling</name>
 				<difficulty>DX/E</difficulty>
 				<points>4</points>
@@ -520,10 +520,11 @@
 					<name compare="is">Brawling</name>
 					<specialization compare="is anything"></specialization>
 					<level compare="at least">2</level>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</weapon_bonus>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Running</name>
 				<difficulty>HT/A</difficulty>
 				<points>8</points>

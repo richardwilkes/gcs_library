@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="6b50bf3b-dab4-49b0-9346-98b8dfa9c798" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Physical Training</name>
 			<reference>ACT4:19</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -19,9 +19,9 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Choose:</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -55,9 +55,9 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Or take</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -72,7 +72,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -111,12 +111,12 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Physical Training</name>
 			<reference>ACT4:19</reference>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Total of 2 points chosen from</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Bicycling</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -136,7 +136,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Jumping</name>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -145,7 +145,7 @@
 						<category>Athletic</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Boxing</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -158,16 +158,18 @@
 						<name compare="is">Boxing</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">1</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 					<weapon_bonus>
 						<name compare="is">Boxing</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">2</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Climbing</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/A</difficulty>
@@ -183,7 +185,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Wrestling</name>
 					<difficulty>DX/A</difficulty>
 					<points>1</points>
@@ -193,7 +195,7 @@
 						<category>Melee Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Acrobatics</name>
 					<difficulty>DX/H</difficulty>
 					<points>1</points>
@@ -216,7 +218,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Judo</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/H</difficulty>
@@ -228,7 +230,7 @@
 						<category>Melee Combat</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Karate</name>
 					<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 					<difficulty>DX/H</difficulty>
@@ -242,16 +244,18 @@
 						<name compare="is">Karate</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">0</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 					<weapon_bonus>
 						<name compare="is">Karate</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">1</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">1</amount>
 					</weapon_bonus>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Swimming</name>
 					<encumbrance_penalty_multiplier>2</encumbrance_penalty_multiplier>
 					<difficulty>HT/E</difficulty>
@@ -266,7 +270,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Lifting</name>
 					<difficulty>HT/A</difficulty>
 					<points>1</points>
@@ -275,7 +279,7 @@
 						<category>Athletic</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Running</name>
 					<difficulty>HT/A</difficulty>
 					<points>1</points>
@@ -288,7 +292,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Skiing</name>
 					<difficulty>HT/H</difficulty>
 					<points>1</points>

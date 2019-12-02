@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="f9o0khnz:15zno0dq2fv7b" version="1">
+<template id="9c46128f-dff2-4a67-8411-e2a54c185a34" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Young Western Dragon</name>
 			<reference>DR146</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Sharp (Feet)</name>
 				<type>Physical</type>
 				<melee_weapon>
-					<damage>thr cut</damage>
+					<damage type="cut" st="thr"/>
 					<usage>Kick</usage>
 					<reach>C,1</reach>
 					<parry>No</parry>
@@ -30,12 +30,12 @@
 				</melee_weapon>
 				<reference>B42</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Sharp (Hands)</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Slash</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -62,7 +62,7 @@
 				</melee_weapon>
 				<reference>B42</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -179,7 +179,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -190,7 +190,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -201,7 +201,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Intelligence</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -212,7 +212,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>6</levels>
@@ -233,12 +233,12 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Innate Attack (Burn) 1d</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<ranged_weapon>
-					<damage>1d burn (cone, 1yd)</damage>
+					<damage type="burn (cone, 1yd)" base="1d"/>
 					<usage>Breath</usage>
 					<accuracy>3</accuracy>
 					<range>10/1</range>
@@ -274,14 +274,14 @@
 				</modifier>
 				<reference>B61</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Air Move</name>
 				<type>Physical</type>
 				<levels>2</levels>
 				<points_per_level>-2</points_per_level>
 				<reference>B18</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Basic Move</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -292,12 +292,12 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Sharp</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Bite</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -314,10 +314,10 @@
 				</melee_weapon>
 				<reference>B91</reference>
 			</advantage>
-			<advantage_container version="2" open="no" type="meta trait">
+			<advantage_container version="3" open="no" type="meta trait">
 				<name>Western Dragon</name>
 				<reference>DR146</reference>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bad Grip</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -330,7 +330,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Flight</name>
 					<type>Physical, Exotic</type>
 					<base_points>40</base_points>
@@ -411,20 +411,20 @@
 					</modifier>
 					<reference>B56</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>High Pain Threshold</name>
 					<type>Physical</type>
 					<base_points>10</base_points>
 					<reference>B59</reference>
 					<notes>Never suffer shock penalties when injured; +3 on all HT rolls to avoid knockdown and stunning; +3 to resist torture</notes>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Horizontal</name>
 					<type>Physical, Exotic</type>
 					<base_points>-10</base_points>
 					<reference>B139</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -435,21 +435,21 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Nictitating Membrane</name>
 					<type>Physical, Exotic</type>
 					<levels>2</levels>
 					<points_per_level>1</points_per_level>
 					<reference>B71</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>9</levels>
 					<points_per_level>1</points_per_level>
 					<reference>B71</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Resistant</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -493,14 +493,14 @@
 					</modifier>
 					<reference>B81</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Temperature Tolerance</name>
 					<type>Physical</type>
 					<levels>6</levels>
 					<points_per_level>1</points_per_level>
 					<reference>B93</reference>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unaging</name>
 					<type>Physical, Exotic</type>
 					<base_points>15</base_points>

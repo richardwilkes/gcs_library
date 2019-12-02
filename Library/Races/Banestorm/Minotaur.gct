@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="faeg7mc0:1hf08un3bs0ao" version="1">
+<template id="5526e8f3-3afc-43d6-a47b-a6f72e8721a5" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Absolute Direction</name>
 			<type>Mental/Physical</type>
 			<base_points>5</base_points>
@@ -17,26 +17,31 @@
 				<skill_bonus>
 					<name compare="starts with">piloting</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">aerobatics</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">free fall</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">hyperspace</specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">navigation</name>
 					<specialization compare="is">space</specialization>
+					<category compare="is anything"></category>
 					<amount>2</amount>
 				</skill_bonus>
 			</modifier>
@@ -47,25 +52,29 @@
 			<skill_bonus>
 				<name compare="is">body sense</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>3</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">navigation</name>
 				<specialization compare="is">air</specialization>
+				<category compare="is anything"></category>
 				<amount>3</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">navigation</name>
 				<specialization compare="is">land</specialization>
+				<category compare="is anything"></category>
 				<amount>3</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">navigation</name>
 				<specialization compare="is">sea</specialization>
+				<category compare="is anything"></category>
 				<amount>3</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Acute Hearing</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -79,7 +88,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Appearance (Hideous)</name>
 			<type>Physical</type>
 			<base_points>-16</base_points>
@@ -88,7 +97,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Berserk</name>
 			<type>Mental</type>
 			<base_points>-10</base_points>
@@ -104,7 +113,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bloodlust</name>
 			<type>Mental</type>
 			<base_points>-10</base_points>
@@ -114,7 +123,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -239,7 +248,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>3</levels>
@@ -359,7 +368,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Intelligence</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -373,7 +382,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Dexterity</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -387,7 +396,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Health</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -401,7 +410,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -415,7 +424,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Intolerance (Total)</name>
 			<type>Mental</type>
 			<modifier version="1" enabled="no">
@@ -447,7 +456,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Loner</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -457,7 +466,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Magic Resistance</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -473,7 +482,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Odious Personal Habit</name>
 			<type>Physical</type>
 			<base_points>-15</base_points>
@@ -483,7 +492,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Peripheral Vision</name>
 			<type>Physical</type>
 			<base_points>15</base_points>
@@ -499,7 +508,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Social Stigma (Uneducated)</name>
 			<type>Social</type>
 			<base_points>-5</base_points>
@@ -509,12 +518,12 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striker, Impaling (Horns)</name>
 			<type>Physical, Exotic</type>
 			<base_points>8</base_points>
 			<melee_weapon>
-				<damage>thr:+1 imp</damage>
+				<damage type="imp" st="thr" modifier_per_die="1"/>
 				<reach>C, 1</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -545,7 +554,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>4</points>
@@ -558,15 +567,20 @@
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
 	</skill_list>
-	<notes>Minotaurs tend to be solitary and aggressive and will eat just about anything, up to and including people.
+	<note_list>
+		<note version="1">
+			<text>Minotaurs tend to be solitary and aggressive and will eat just about anything, up to and including people.
 
 They like battle and slaughter; their weapon of choice is a large axe, or a branch used as a club. They rarely use armor, unless they have looted it from a human victim. The few that enter civilized territory do so in order to find jobs as guards, bullies, or soldiers.
 
 Minotaurs stand 3&#8221; taller than humans of similar ST, and have the weight appropriate for their height.
 
-Those minotaurs that manage to make their way in human lands often lack Intolerance, Loner, and the habit of snacking on thinking beings. Berserk and Bloodlust, however, seem to be genetic. Some minotaurs have much higher levels of Magic Resistance; minotaur mages are entirely unknown. Note that minotaurs lack Social Stigma (Barbarian), as the stigma they suffer is entirely due to their other assorted disadvantages.</notes>
+Those minotaurs that manage to make their way in human lands often lack Intolerance, Loner, and the habit of snacking on thinking beings. Berserk and Bloodlust, however, seem to be genetic. Some minotaurs have much higher levels of Magic Resistance; minotaur mages are entirely unknown. Note that minotaurs lack Social Stigma (Barbarian), as the stigma they suffer is entirely due to their other assorted disadvantages.</text>
+		</note>
+	</note_list>
 </template>

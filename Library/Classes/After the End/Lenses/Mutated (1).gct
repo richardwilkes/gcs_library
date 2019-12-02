@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="83fc3fd8-8158-4d80-bece-dff7ce43f323" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Mutated</name>
 			<reference>ATE1:18</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>50 points chosen on Mutations</name>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Attack Mutations</name>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Acidic Blood</name>
 						<reference>ATE1:26</reference>
 						<notes>You must be bleeding-- which requires you to have been injured by a cutting, impaling, or piercing attack-- to use this.</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Innate Attack (Corrosion)</name>
 							<type>Physical, Exotic</type>
 							<levels>2</levels>
 							<points_per_level>10</points_per_level>
 							<melee_weapon>
-								<damage>1d</damage>
+								<damage type="" base="1d"/>
 								<usage>Acidic Blood</usage>
 								<reach>C</reach>
 								<parry>No</parry>
@@ -268,7 +268,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -276,17 +276,17 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Bellow Lungs</name>
 						<reference>ATE1:26</reference>
 						<notes>Does sw+2d cr (based on your ST) doubled. For knockback purposes only.</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Innate Attack (Crush)</name>
 							<type>Physical, Exotic</type>
 							<levels>2</levels>
 							<points_per_level>5</points_per_level>
 							<melee_weapon>
-								<damage>sw+1d cr</damage>
+								<damage type="cr" st="sw" base="1d"/>
 								<usage>Bellow Lungs</usage>
 								<reach>10</reach>
 								<parry>No</parry>
@@ -464,7 +464,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -472,16 +472,16 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Bone Spur</name>
 						<reference>ATE1:26</reference>
 						<notes>Ready maneuver to extend or retract bone spur</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Striker, Impaling (Arm)</name>
 							<type>Physical, Exotic</type>
 							<base_points>8</base_points>
 							<melee_weapon>
-								<damage>thr:+1 imp</damage>
+								<damage type="imp" st="thr" modifier_per_die="1"/>
 								<usage>Bone Spur</usage>
 								<reach>1</reach>
 								<parry>0</parry>
@@ -511,7 +511,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>3</levels>
@@ -519,11 +519,11 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Electrified Skin</name>
 						<reference>ATE1:26</reference>
 						<notes>For 1FP per minute you electrify your skin. Turning on and off requires Ready. Anyone you touch or strike with a metal weapon-- or does the same to you-- automatically takes 1d burn and must roll HT+DR or be stunned</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Affliction</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -696,13 +696,13 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Innate Attack (Burn)</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
 							<points_per_level>5</points_per_level>
 							<melee_weapon>
-								<damage>1d</damage>
+								<damage type="" base="1d"/>
 								<usage>Electrified Skin</usage>
 								<reach>C</reach>
 								<parry>No</parry>
@@ -947,7 +947,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -955,11 +955,11 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Mighty Roar</name>
 						<reference>ATE1:26</reference>
 						<notes>Dodgable. 1FP and shout at anyone within 10 yards. Requires Successful DX-4 or Innate Attack (Breath Roll) with no range penalties. Target gets +5 for Protected Hearing.</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Affliction</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -1127,7 +1127,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -1135,17 +1135,17 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Nuclear Core</name>
 						<reference>ATE1:26</reference>
 						<notes>Anyone within two yards automatically loses 1d-2 RP per second. May be inappropriate if mutations are not caused by radiation (GM's call)</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Innate Attack (Toxic)</name>
 							<type>Physical, Exotic</type>
 							<levels>10</levels>
 							<base_points>16</base_points>
 							<melee_weapon>
-								<damage>1d-2</damage>
+								<damage type="" base="1d-2"/>
 								<usage>Nuclear Core</usage>
 								<reach>2</reach>
 								<parry>No</parry>
@@ -1392,7 +1392,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>6</levels>
@@ -1400,15 +1400,15 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Razor Claws</name>
 						<reference>ATE1:26</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Claws, Long Talons (Hands)</name>
 							<type>Physical</type>
 							<base_points>11</base_points>
 							<melee_weapon>
-								<damage>thr-1:+1 cut</damage>
+								<damage type="cut" st="thr" base="-1" modifier_per_die="1"/>
 								<usage>Slash</usage>
 								<reach>C</reach>
 								<parry>0</parry>
@@ -1434,7 +1434,7 @@
 								</default>
 							</melee_weapon>
 							<melee_weapon>
-								<damage>thr-1:+1 imp</damage>
+								<damage type="imp" st="thr" base="-1" modifier_per_die="1"/>
 								<usage>Stab</usage>
 								<reach>C</reach>
 								<parry>0</parry>
@@ -1470,7 +1470,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -1478,11 +1478,11 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Super-Strength</name>
 						<reference>ATE1:26</reference>
 						<notes>You can buy as many levels as you can afford. If you are SM+1 apply size modifier to change cost to 11.5/level</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Increased Strength</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -1516,7 +1516,7 @@
 								<amount per_level="yes">1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Striking ST</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -1554,7 +1554,7 @@
 								<amount per_level="yes">1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -1562,15 +1562,15 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Toothsome Fangs</name>
 						<reference>ATE1:26</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Teeth, Fangs</name>
 							<type>Physical, Exotic</type>
 							<base_points>2</base_points>
 							<melee_weapon>
-								<damage>thr-1 imp</damage>
+								<damage type="imp" st="thr" base="-1"/>
 								<usage>Bite</usage>
 								<reach>C</reach>
 								<parry>No</parry>
@@ -1586,7 +1586,7 @@
 								</default>
 							</melee_weapon>
 							<melee_weapon>
-								<damage>thr-1 cut</damage>
+								<damage type="cut" st="thr" base="-1"/>
 								<usage>Bite</usage>
 								<reach>C</reach>
 								<parry>No</parry>
@@ -1616,7 +1616,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -1625,15 +1625,15 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Defense Mutations</name>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Adaptable Skin</name>
 						<reference>ATE1:26</reference>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Adaptable Skin 1</name>
 							<reference>ATE1:26</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Chameleon</name>
 								<type>Physical, Exotic</type>
 								<levels>2</levels>
@@ -1668,7 +1668,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>2</levels>
@@ -1676,10 +1676,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Adaptable Skin 2</name>
 							<reference>ATE1:26</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Chameleon</name>
 								<type>Physical, Exotic</type>
 								<levels>4</levels>
@@ -1714,7 +1714,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>4</levels>
@@ -1723,10 +1723,10 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Boosted Hemoglobin</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Doesn't Breathe</name>
 							<type>Physical, Exotic</type>
 							<base_points>20</base_points>
@@ -1795,7 +1795,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -1803,11 +1803,11 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Flesh Pocket</name>
 						<reference>ATE1:27</reference>
 						<notes>Carry Basic Life/2lbs in torso</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Payload</name>
 							<type>Physical, Exotic</type>
 							<levels>5</levels>
@@ -1823,7 +1823,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -1831,20 +1831,20 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Natural Anti-Rad</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Natural Anti-Rad 1</name>
 							<reference>ATE1:27</reference>
 							<notes>Mutation-Granted RP do not count against the usual ST+HT maximum.</notes>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Extra Radiation Threshold Points</name>
 								<type>Physical</type>
 								<levels>10</levels>
 								<points_per_level>1</points_per_level>
 								<reference>ATE1:24</reference>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>2</levels>
@@ -1852,18 +1852,18 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Natural Anti-Rad 2</name>
 							<reference>ATE1:27</reference>
 							<notes>Mutation-Granted RP do not count against the usual ST+HT maximum.</notes>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Extra Radiation Threshold Points</name>
 								<type>Physical</type>
 								<levels>15</levels>
 								<points_per_level>1</points_per_level>
 								<reference>ATE1:24</reference>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>3</levels>
@@ -1871,18 +1871,18 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Natural Anti-Rad 3</name>
 							<reference>ATE1:27</reference>
 							<notes>Mutation-Granted RP do not count against the usual ST+HT maximum.</notes>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Extra Radiation Threshold Points</name>
 								<type>Physical</type>
 								<levels>20</levels>
 								<points_per_level>1</points_per_level>
 								<reference>ATE1:24</reference>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakinshess</name>
 								<type>Physical</type>
 								<levels>4</levels>
@@ -1891,15 +1891,15 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Prickly</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Spines, Long</name>
 							<type>Physical, Exotic</type>
 							<base_points>3</base_points>
 							<melee_weapon>
-								<damage>1d imp</damage>
+								<damage type="imp" base="1d"/>
 								<usage>Stab</usage>
 								<reach>C</reach>
 								<parry>No</parry>
@@ -1914,7 +1914,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -1922,10 +1922,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Redundant Organs</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Injury Tolerance (Unliving)</name>
 							<type>Physical, Exotic</type>
 							<base_points>20</base_points>
@@ -1934,7 +1934,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -1942,10 +1942,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Resilient Brain</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Recovery</name>
 							<type>Physical, Exotic</type>
 							<base_points>10</base_points>
@@ -1954,7 +1954,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -1962,12 +1962,12 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Self-Restoration</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Self-Restoration 1</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Regeneration</name>
 								<type>Physical, Exotic</type>
 								<modifier version="1" enabled="no">
@@ -2061,7 +2061,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>4</levels>
@@ -2069,10 +2069,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Self-Restoration 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Regeneration</name>
 								<type>Physical, Exotic</type>
 								<modifier version="1" enabled="no">
@@ -2166,7 +2166,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>7</levels>
@@ -2175,10 +2175,10 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Slimy</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Slippery</name>
 							<type>Physical, Exotic</type>
 							<levels>5</levels>
@@ -2190,10 +2190,11 @@
 							<skill_bonus>
 								<name compare="is">escape</name>
 								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
 								<amount per_level="yes">1</amount>
 							</skill_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -2201,10 +2202,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Starfish Genes</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Regrowth</name>
 							<type>Physical, Exotic</type>
 							<base_points>40</base_points>
@@ -2265,7 +2266,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>7</levels>
@@ -2273,12 +2274,12 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Thick Hide</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Thick Hide 1</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Damage Resistance</name>
 								<type>Physical, Exotic</type>
 								<levels>4</levels>
@@ -2438,7 +2439,7 @@
 									<amount per_level="yes">1</amount>
 								</dr_bonus>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>3</levels>
@@ -2446,10 +2447,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Thick Hide 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Damage Resistance</name>
 								<type>Physical, Exotic</type>
 								<levels>7</levels>
@@ -2609,7 +2610,7 @@
 									<amount per_level="yes">1</amount>
 								</dr_bonus>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>5</levels>
@@ -2617,10 +2618,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Thick Hide 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Damage Resistance</name>
 								<type>Physical, Exotic</type>
 								<levels>10</levels>
@@ -2780,7 +2781,7 @@
 									<amount per_level="yes">1</amount>
 								</dr_bonus>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>7</levels>
@@ -2789,10 +2790,10 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Unnatural Hardiness</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Resistant</name>
 							<type>Physical</type>
 							<modifier version="1">
@@ -2839,7 +2840,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>3</levels>
@@ -2848,13 +2849,13 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Morphology Mutations</name>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Brainy</name>
 						<reference>ATE1:27</reference>
 						<notes>Can buy multiple times</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Extra Head</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -2870,7 +2871,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -2878,11 +2879,11 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Handy</name>
 						<reference>ATE1:27</reference>
 						<notes>Can buy multiple times</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Extra Arm</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -2943,7 +2944,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>3</levels>
@@ -2951,11 +2952,11 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Mouthy</name>
 						<reference>ATE1:27</reference>
 						<notes>Can buy multiple times. When deciding where to put it, be creative.</notes>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Extra Mouth</name>
 							<type>Physical, Exotic</type>
 							<levels>1</levels>
@@ -2965,7 +2966,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -2973,10 +2974,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Trampler</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Extra Legs</name>
 							<type>Physical, Exotic</type>
 							<modifier version="1">
@@ -3015,7 +3016,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -3024,14 +3025,14 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Movement Mutations</name>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Fast-Twitch Legs</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Fast-Twitch Legs 1</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Enhanced Move (Ground: @New Move@)</name>
 								<type>Physical, Exotic</type>
 								<levels>1</levels>
@@ -3087,7 +3088,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Super Jump</name>
 								<type>Physical, Exotic</type>
 								<levels>1</levels>
@@ -3152,7 +3153,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>4</levels>
@@ -3160,10 +3161,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Fast-Twitch Legs 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2" allow_half_levels="yes">
+							<advantage version="3" allow_half_levels="yes">
 								<name>Enhanced Move (Ground: @New Move@)</name>
 								<type>Physical, Exotic</type>
 								<levels half_level="yes">1</levels>
@@ -3219,7 +3220,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Super Jump</name>
 								<type>Physical, Exotic</type>
 								<levels>2</levels>
@@ -3284,7 +3285,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>6</levels>
@@ -3293,12 +3294,12 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Fins</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Fins 1</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Amphibious</name>
 								<type>Physical, Exotic</type>
 								<base_points>10</base_points>
@@ -3307,7 +3308,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>2</levels>
@@ -3315,10 +3316,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Fins 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Amphibious</name>
 								<type>Physical, Exotic</type>
 								<base_points>10</base_points>
@@ -3327,7 +3328,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Enhanced Move (Water: @New Move@)</name>
 								<type>Physical, Exotic</type>
 								<levels>1</levels>
@@ -3383,7 +3384,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>5</levels>
@@ -3392,10 +3393,10 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Suction Pads</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Clinging</name>
 							<type>Physical, Exotic</type>
 							<base_points>20</base_points>
@@ -3438,7 +3439,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -3446,12 +3447,12 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Winged Flight</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Winged Flight 1</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Flight</name>
 								<type>Physical, Exotic</type>
 								<base_points>40</base_points>
@@ -3547,7 +3548,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>8</levels>
@@ -3555,10 +3556,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Winged Flight 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2" allow_half_levels="yes">
+							<advantage version="3" allow_half_levels="yes">
 								<name>Enhanced Move (Air: @New Move@)</name>
 								<type>Physical, Exotic</type>
 								<levels half_level="yes">0</levels>
@@ -3614,7 +3615,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Flight</name>
 								<type>Physical, Exotic</type>
 								<base_points>40</base_points>
@@ -3710,7 +3711,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>9</levels>
@@ -3718,10 +3719,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Winged Flight 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2" allow_half_levels="yes">
+							<advantage version="3" allow_half_levels="yes">
 								<name>Enhanced Move (Air: @New Move@)</name>
 								<type>Physical, Exotic</type>
 								<levels half_level="no">1</levels>
@@ -3777,7 +3778,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Flight</name>
 								<type>Physical, Exotic</type>
 								<base_points>40</base_points>
@@ -3873,7 +3874,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>10</levels>
@@ -3883,12 +3884,12 @@
 						</advantage_container>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="2" open="no">
+				<advantage_container version="3" open="no">
 					<name>Sensory Mutations</name>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Aural Filters</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Protected Sense (Hearing)</name>
 							<type>Physical, Exotic</type>
 							<base_points>5</base_points>
@@ -3897,7 +3898,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -3905,10 +3906,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Black Sight</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Dark Vision</name>
 							<type>Physical, Exotic</type>
 							<base_points>25</base_points>
@@ -3928,7 +3929,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -3936,12 +3937,12 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Eagle Eyes</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Eagle Eyes 1</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Telescopic Vision</name>
 								<type>Physical</type>
 								<levels>3</levels>
@@ -3957,7 +3958,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>3</levels>
@@ -3965,10 +3966,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Eagle Eyes 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Telescopic Vision</name>
 								<type>Physical</type>
 								<levels>5</levels>
@@ -3984,7 +3985,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>4</levels>
@@ -3993,12 +3994,12 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Hound Nose</name>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Hound Nose 1</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Discriminatory Smell</name>
 								<type>Physical, Exotic</type>
 								<base_points>15</base_points>
@@ -4019,7 +4020,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>3</levels>
@@ -4027,10 +4028,10 @@
 								<reference>ATE1:25</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="2" open="no">
+						<advantage_container version="3" open="no">
 							<name>Hound Nose 2</name>
 							<reference>ATE1:27</reference>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Discriminatory Smell</name>
 								<type>Physical, Exotic</type>
 								<base_points>15</base_points>
@@ -4051,7 +4052,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="2">
+							<advantage version="3">
 								<name>Freakishness</name>
 								<type>Physical</type>
 								<levels>4</levels>
@@ -4060,10 +4061,10 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Outsize Eardrums</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Discriminatory Hearing</name>
 							<type>Physical, Exotic</type>
 							<base_points>15</base_points>
@@ -4084,7 +4085,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -4092,10 +4093,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Red Sight</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Infravision</name>
 							<type>Physical, Exotic</type>
 							<base_points>10</base_points>
@@ -4110,7 +4111,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -4118,10 +4119,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Rubber Neck</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>360&#176; Vision</name>
 							<type>Physical, Exotic</type>
 							<base_points>25</base_points>
@@ -4149,7 +4150,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>5</levels>
@@ -4157,10 +4158,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Sound-Wave Recall</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Mimicry</name>
 							<type>Mental, Exotic</type>
 							<base_points>10</base_points>
@@ -4175,7 +4176,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -4183,10 +4184,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Visual Filters</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Protected Sense (Vision)</name>
 							<type>Physical, Exotic</type>
 							<base_points>5</base_points>
@@ -4195,7 +4196,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>1</levels>
@@ -4203,10 +4204,10 @@
 							<reference>ATE1:25</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Whiskers</name>
 						<reference>ATE1:27</reference>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Vibration Sense (Air)</name>
 							<type>Physical, Exotic</type>
 							<base_points>10</base_points>
@@ -4233,7 +4234,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Freakishness</name>
 							<type>Physical</type>
 							<levels>2</levels>
@@ -4246,11 +4247,11 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Mutated</name>
 			<reference>ATE1:18</reference>
 			<notes>Spend leftover mutation points on</notes>
-			<skill version="2">
+			<skill version="3">
 				<name>Expert Skill</name>
 				<specialization>Mutants</specialization>
 				<difficulty>IQ/H</difficulty>
@@ -4261,7 +4262,7 @@
 					<category>Scholarly</category>
 				</categories>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Innate Attack</name>
 				<specialization>Breath</specialization>
 				<difficulty>DX/E</difficulty>

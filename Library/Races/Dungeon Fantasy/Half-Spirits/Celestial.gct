@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fczdetsi:14kcd02r8tcqk" version="1">
+<template id="edfe7a29-50b5-44cb-a2f5-34386853b061" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Celestial</name>
 			<reference>DF3:11</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -92,7 +92,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Basic Speed +0.5</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -101,14 +101,14 @@
 					<amount>0</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Celestial Nimbus</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:12</reference>
 				<notes>Glow; 2yd; Can not conceal</notes>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Divine Curse (Demons attack you first and worst)</name>
 				<type>Mental, Supernatural</type>
 				<base_points>-5</base_points>
@@ -117,13 +117,13 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Divine Gifts</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:12</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Fatigue Points</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -138,15 +138,15 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Functions/Detects as "Good" regardless of actual morality</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Gold or silver eyes/hair;  Unnatural skin colour.</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fit</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
@@ -156,7 +156,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Dexterity</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -176,7 +176,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -191,7 +191,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Intelligence</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -206,7 +206,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -240,7 +240,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Will</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -255,7 +255,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Spirit Empathy</name>
 				<type>Mental, Supernatural</type>
 				<base_points>10</base_points>
@@ -277,7 +277,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Weakness (Cursed areas/Evil Sanctity, 1D/Min)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
@@ -287,11 +287,11 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Divine Gifts</name>
 			<reference>DF3:12</reference>
 			<notes>May purchase at creation or with earned points</notes>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -360,7 +360,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -369,7 +369,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Sleep</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -378,7 +378,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Life</name>
 				<type>Mental, Exotic</type>
 				<levels>1</levels>
@@ -407,7 +407,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flight</name>
 				<type>Physical, Exotic</type>
 				<base_points>40</base_points>
@@ -503,7 +503,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -550,7 +550,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -560,7 +560,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Walk On Air</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
@@ -609,7 +609,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Walk On Liquid</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>

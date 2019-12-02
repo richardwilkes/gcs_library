@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="bbb3f45f-9e22-4998-a1b2-f9bbaffa034e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Imp</name>
 			<reference>F109</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>1</levels>
@@ -21,7 +21,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Basic Speed</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -36,7 +36,7 @@
 						<amount per_level="yes">0.25</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Size Modifier</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -45,7 +45,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Strength</name>
 					<type>Physical</type>
 					<levels>8</levels>
@@ -60,7 +60,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>2</levels>
@@ -76,9 +76,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Affliction</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -230,7 +230,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Infernal Rank</name>
 					<type>Physical</type>
 					<levels>0</levels>
@@ -252,29 +252,29 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>Unmanifested Spirit</name>
 					<reference>F134</reference>
 					<notes>Magical Spirit Lens</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Doesn't Breathe</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
 						<reference>B49</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Doesn't Eat or Drink</name>
 						<type>Physical, Exotic</type>
 						<base_points>10</base_points>
 						<reference>B50</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Doesn't Sleep</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
 						<reference>B50</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Insubstantiality</name>
 						<type>Mental/Physical, Exotic</type>
 						<base_points>80</base_points>
@@ -394,7 +394,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Invisibility</name>
 						<type>Mental/Physical, Exotic</type>
 						<base_points>40</base_points>
@@ -487,19 +487,19 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant (Immunity to Metabolic Hazards)</name>
 						<type>Physical</type>
 						<base_points>30</base_points>
 						<reference>B81</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unaging</name>
 						<type>Physical, Exotic</type>
 						<base_points>15</base_points>
 						<reference>B95</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Cannot Speak (Mute)</name>
 						<type>Physical</type>
 						<base_points>-25</base_points>
@@ -515,9 +515,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -605,7 +605,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Callous</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -616,15 +616,17 @@
 					<skill_bonus>
 						<name compare="is">psychology</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">teaching</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-3</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Dread (Holy Objects)</name>
 					<type>Mental, Supernatural</type>
 					<levels>1</levels>
@@ -667,7 +669,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Duty (Tempt or harass mortals)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -710,7 +712,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Enemy (Celestial Hierarchy)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -828,7 +830,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Enemy (Immediate infernal superior)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -946,7 +948,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Odious Personal Habit</name>
 					<type>Physical</type>
 					<modifier version="1">
@@ -973,7 +975,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Selfish</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>

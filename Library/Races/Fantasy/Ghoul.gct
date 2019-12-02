@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="a753f66c-5d84-40f6-9cd7-2f8fa593ebd4" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Ghoul</name>
 			<reference>F108</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -41,9 +41,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Acute Taste &amp; Smell</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -57,7 +57,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>5</levels>
@@ -67,7 +67,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Reduced Consumption</name>
 					<type>Physical</type>
 					<levels>4</levels>
@@ -95,7 +95,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Silence</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -113,15 +113,16 @@
 					<skill_bonus>
 						<name compare="is">stealth</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Teeth, Sharp</name>
 					<type>Physical, Exotic</type>
 					<base_points>1</base_points>
 					<melee_weapon>
-						<damage>thr-1 cut</damage>
+						<damage type="cut" st="thr" base="-1"/>
 						<usage>Bite</usage>
 						<reach>C</reach>
 						<parry>No</parry>
@@ -142,9 +143,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Appearance</name>
 					<type>Physical</type>
 					<modifier version="1" enabled="no">
@@ -232,7 +233,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Restricted Diet (Human Flesh)</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -271,7 +272,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Secret</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -303,7 +304,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Skinny</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -315,11 +316,13 @@
 					<skill_bonus>
 						<name compare="is">disguise</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">shadowing</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>-2</amount>
 					</skill_bonus>
 					<prereq_list all="yes">

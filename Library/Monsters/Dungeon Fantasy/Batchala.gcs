@@ -1,33 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="e019fceb-2300-4f0d-8e53-07e4819180f3" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 11:29 AM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Foul Bat (Batchala)</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Dire Animal</race>
-		<notes>Foul Bat (Batchala) (DF2:23)
-
-These gigantic bats lack the fear of fire and men possessed by normal beasts. Their stench at close proximity can overcome victims before a single bite is delivered, and their mouth carries toxins that make wounds weep and bleed, causing weakness.
-
-Notes: Some colonies have a demonic leader who has IQ 10+, Indomitable, Magic Resistance 10, and Unfazeable. This is a demon, not a dire animal with the Wild Animal meta-trait.
-
-Batchula Bite:
-    Teeth, Sharp: 1
-        Follow-Up, Innate Attack on Natural Weapon: +0%
-        Base Cost (Fat): 10/die
-        Damage (1): 0.25 dice
-    Cost = 1 pt + (10 * 0.25) = 4 pts
-
-Stench:
-    Affliction, Base Cost 10 (HT-0; 1 level)
-    Sense-Based (Smell): +150%
-    Irritant (Nauseated): +30%
-    Area Effect (1 yard): +25%
-    Emanation: -20%
-    Cost = 10 @ (+150+30+25-20)% = 29 pts
-</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -44,7 +24,7 @@ Stench:
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -204,7 +184,7 @@ Stench:
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Acute Hearing</name>
 			<type>Physical</type>
 			<levels>8</levels>
@@ -218,7 +198,7 @@ Stench:
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Fine Manipulators</name>
 			<type>Physical</type>
 			<base_points>-30</base_points>
@@ -235,7 +215,7 @@ Stench:
 				<percentage>40</percentage>
 			</cost_reduction>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Scanning Sense</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -355,7 +335,7 @@ Stench:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striking ST</name>
 			<type>Physical, Exotic</type>
 			<levels>5</levels>
@@ -393,39 +373,39 @@ Stench:
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Wild Animal</name>
 			<reference>B263</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bestial</name>
 				<type>Mental, Exotic</type>
 				<base_points>-10</base_points>
 				<reference>B124</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak</name>
 				<type>Physical</type>
 				<base_points>-15</base_points>
 				<reference>B125</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
 				<reference>B138</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo Trait (Fixed IQ)</name>
 				<type>Physical</type>
 				<reference>B263</reference>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Batchula Bite</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
 			<melee_weapon>
-				<damage>thr-1 cut</damage>
+				<damage type="cut" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -446,11 +426,12 @@ Stench:
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Stench (HT to resist)</name>
 			<type>Physical, Exotic</type>
 			<base_points>29</base_points>
 			<melee_weapon>
+				<damage type=""/>
 				<usage>Stench</usage>
 			</melee_weapon>
 			<reference>B428</reference>
@@ -461,7 +442,7 @@ Stench:
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Aerobatics</name>
 			<difficulty>DX/H</difficulty>
 			<points>4</points>
@@ -474,7 +455,7 @@ Stench:
 				<modifier>-6</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>4</points>
@@ -487,11 +468,37 @@ Stench:
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
 	</skill_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Foul Bat (Batchala) (DF2:23)
+
+These gigantic bats lack the fear of fire and men possessed by normal beasts. Their stench at close proximity can overcome victims before a single bite is delivered, and their mouth carries toxins that make wounds weep and bleed, causing weakness.
+
+Notes: Some colonies have a demonic leader who has IQ 10+, Indomitable, Magic Resistance 10, and Unfazeable. This is a demon, not a dire animal with the Wild Animal meta-trait.
+
+Batchula Bite:
+    Teeth, Sharp: 1
+        Follow-Up, Innate Attack on Natural Weapon: +0%
+        Base Cost (Fat): 10/die
+        Damage (1): 0.25 dice
+    Cost = 1 pt + (10 * 0.25) = 4 pts
+
+Stench:
+    Affliction, Base Cost 10 (HT-0; 1 level)
+    Sense-Based (Smell): +150%
+    Irritant (Nauseated): +30%
+    Area Effect (1 yard): +25%
+    Emanation: -20%
+    Cost = 10 @ (+150+30+25-20)% = 29 pts
+</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -501,6 +508,8 @@ Stench:
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template id="15ef5a38-dbb2-499f-966b-2d2ba3c2b5e1" version="1">
+<template id="15ef5a38-dbb2-499f-966b-2d2ba3c2b5e1" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="no" type="race">
+		<advantage_container version="3" open="no" type="race">
 			<name>Drylander</name>
 			<reference>FW114</reference>
 			<notes>2077; $85,000</notes>
@@ -9,7 +9,7 @@
 				<category>Parahuman</category>
 				<category>Survival</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased ST</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -19,7 +19,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased DX</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -29,7 +29,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Consumption</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -57,7 +57,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Filter Lungs</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
@@ -66,7 +66,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Nictitating Membrane</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -76,7 +76,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>8</levels>
@@ -86,7 +86,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -133,7 +133,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Skinny</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -145,18 +145,20 @@
 				<skill_bonus>
 					<name compare="is">disguise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">shadowing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-2</amount>
 				</skill_bonus>
 				<prereq_list all="yes">
 					<attribute_prereq has="yes" which="ht" compare="at most">14</attribute_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Temperature Tolerance</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -167,7 +169,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unnatural Features (Light scales, cat eyes)</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -179,11 +181,13 @@
 				<skill_bonus>
 					<name compare="is">disguise</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">shadowing</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">-1</amount>
 				</skill_bonus>
 			</advantage>

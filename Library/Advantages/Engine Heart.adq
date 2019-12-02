@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<advantage_list unique_id="hvpjhnr9:18dhn1s13gmxv" version="1">
-	<advantage version="2">
+<advantage_list id="08483ce4-a646-417e-a262-524fcbff299e" version="1">
+	<advantage version="3">
 		<name>Accessory (Fan)</name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
@@ -9,7 +9,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Accessory (Floodlights)</name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
@@ -18,7 +18,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Accessory (Video Display)</name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
@@ -27,9 +27,9 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Anchor</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Perfect Balance</name>
 			<type>Physical</type>
 			<base_points>15</base_points>
@@ -40,23 +40,26 @@
 			<skill_bonus>
 				<name compare="starts with">piloting</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">acrobatics</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">climbing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Armored Chassis</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -156,9 +159,9 @@
 			</dr_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Backup System</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Life</name>
 			<type>Mental, Exotic</type>
 			<levels>1</levels>
@@ -188,9 +191,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Bad Processor</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Intelligence</name>
 			<type>Mental</type>
 			<levels>1</levels>
@@ -206,14 +209,14 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Battering Ram</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striker, Crushing (Battering Ram)</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
 			<melee_weapon>
-				<damage>thr:+1 cr</damage>
+				<damage type="cr" st="thr" modifier_per_die="1"/>
 				<reach>C</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -233,9 +236,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Biofrequency Scanner</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Detect</name>
 			<type>Mental/Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -274,9 +277,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Buffer</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Nictitating Membrane</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -286,7 +289,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Protected Sense (@Sense@)</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
@@ -295,7 +298,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Smell/Taste Buffer</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -305,7 +308,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Sound Buffer</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -315,7 +318,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Touch Buffer</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -326,9 +329,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Buggy Cameras</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bad Sight (Farsighted)</name>
 			<type>Physical</type>
 			<base_points>-25</base_points>
@@ -344,7 +347,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bad Sight (Nearsighted)</name>
 			<type>Physical</type>
 			<base_points>-25</base_points>
@@ -361,9 +364,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Buggy Mic</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hard of Hearing</name>
 			<type>Physical</type>
 			<base_points>-10</base_points>
@@ -377,9 +380,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Common Model</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Rapid Healing</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
@@ -393,9 +396,9 @@
 			</prereq_list>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Compliant</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Charitable</name>
 			<type>Mental</type>
 			<base_points>-15</base_points>
@@ -406,15 +409,15 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Cutting Laser</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Innate Attack (Burn)</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
 			<points_per_level>5</points_per_level>
 			<melee_weapon>
-				<damage>1d(2) burn</damage>
+				<damage type="burn" base="1d" armor_divisor="2.0"/>
 				<strength>1</strength>
 				<reach>C</reach>
 				<parry>no</parry>
@@ -657,9 +660,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Dexterity</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Dexterity</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -674,7 +677,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Dexterity</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -695,9 +698,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Dexterity</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Ambidexterity</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
@@ -706,7 +709,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Dexterity</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -721,7 +724,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Manual Dexterity</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -733,60 +736,71 @@
 			<skill_bonus>
 				<name compare="contains">artist</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">jeweler</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">knot-tying</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">leatherworking</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">lockpicking</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">pickpocket</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sewing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sleight of hand</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">surgery</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">machinist</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="contains">mechanic</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Dexterity</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -807,14 +821,14 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Drill (large)</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striker, Impaling (Drill)</name>
 			<type>Physical, Exotic</type>
 			<base_points>8</base_points>
 			<melee_weapon>
-				<damage>thr:+1 imp</damage>
+				<damage type="imp" st="thr" modifier_per_die="1"/>
 				<reach>C</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -834,14 +848,14 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Drill (medium)</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striker, Large Piercing (Drill)</name>
 			<type>Physical, Exotic</type>
 			<base_points>6</base_points>
 			<melee_weapon>
-				<damage>thr:+1 pi+</damage>
+				<damage type="pi+" st="thr" modifier_per_die="1"/>
 				<reach>C</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -861,14 +875,14 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Drill (small)</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striker, Piercing (Drill)</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
 			<melee_weapon>
-				<damage>thr:+1 pi</damage>
+				<damage type="pi" st="thr" modifier_per_die="1"/>
 				<reach>C</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -888,9 +902,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Durability</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Health</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -905,7 +919,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Hit Points</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -931,7 +945,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Fewer Hit Points</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -946,7 +960,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Health</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -962,9 +976,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Enhanced Cameras</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Acute Vision</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -978,7 +992,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hyperspectral Vision</name>
 			<type>Physical, Exotic</type>
 			<base_points>25</base_points>
@@ -1017,9 +1031,9 @@
 			</prereq_list>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Enhanced Microphone</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Acute Hearing</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -1033,7 +1047,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Parabolic Hearing</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -1044,9 +1058,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Environmentally Attuned (@Native Environment@)</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Confused</name>
 			<type>Physical</type>
 			<base_points>-10</base_points>
@@ -1063,22 +1077,22 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Exposed Power Switch (Large)</name>
 		<type>Physical, Exotic</type>
 		<base_points>-60</base_points>
 		<notes>Whenever someone scores a hit on your vitals, even if it does no damage, you fall unconscious.</notes>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Exposed Power Switch (Small)</name>
 		<type>Physical, Exotic</type>
 		<base_points>-20</base_points>
 		<notes>Whenever someone scores a critical hit against you in melee combat, you fall unconscious.</notes>
 	</advantage>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>External container</name>
 		<notes>Maximum level (SM+5)x2</notes>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Payload (@Load@)</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -1095,9 +1109,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Flexible Body</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Flexibility (Double-Jointed)</name>
 			<type>Physical</type>
 			<base_points>15</base_points>
@@ -1108,23 +1122,26 @@
 			<skill_bonus>
 				<name compare="is">climbing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>5</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">escape</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>5</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">erotic art</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>5</amount>
 			</skill_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Flight Ceiling</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Flight</name>
 			<type>Physical, Exotic</type>
 			<base_points>40</base_points>
@@ -1220,7 +1237,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Flight</name>
 			<type>Physical, Exotic</type>
 			<base_points>40</base_points>
@@ -1316,7 +1333,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Flight</name>
 			<type>Physical, Exotic</type>
 			<base_points>40</base_points>
@@ -1413,9 +1430,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Hardened Programming</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Mind Shield</name>
 			<type>Mental, Exotic</type>
 			<levels>1</levels>
@@ -1446,9 +1463,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>High Speed</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Enhanced Move (Ground Move @New Ground Move@)</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -1505,9 +1522,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Interface Prong</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Mind Probe</name>
 			<type>Mental, Exotic</type>
 			<base_points>20</base_points>
@@ -1580,9 +1597,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Lightweight</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Dwarfism</name>
 			<type>Physical</type>
 			<base_points>-15</base_points>
@@ -1597,11 +1614,13 @@
 			<skill_bonus>
 				<name compare="is">disguise</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">shadowing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-2</amount>
 			</skill_bonus>
 			<attribute_bonus>
@@ -1610,9 +1629,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Limbless</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Manipulators</name>
 			<type>Physical</type>
 			<base_points>-50</base_points>
@@ -1630,9 +1649,9 @@
 			</cost_reduction>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Liquid Dispenser</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Accessory (Squirt Carbine)</name>
 			<type>Physical, Exotic</type>
 			<base_points>1</base_points>
@@ -1642,10 +1661,10 @@
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Internal Compartment</name>
 			<notes>Maximum level SM+5</notes>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Payload (@Load@)</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -1663,7 +1682,7 @@
 			</advantage>
 		</advantage_container>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Loose Circuitry</name>
 		<type>Physical, Exotic</type>
 		<base_points>-45</base_points>
@@ -1673,9 +1692,9 @@
 			<category>Disadvantage</category>
 		</categories>
 	</advantage>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Loudspeaker</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Penetrating Voice</name>
 			<type>Physical</type>
 			<base_points>1</base_points>
@@ -1685,9 +1704,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Low Speed</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Basic Move</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -1702,9 +1721,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Manipulative Limb (Standard)</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Arm</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -1766,9 +1785,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Mobility</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Basic Move</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -1783,7 +1802,7 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Noisy</name>
 		<type>Physical</type>
 		<levels>1</levels>
@@ -1795,22 +1814,23 @@
 		<skill_bonus>
 			<name compare="is">stealth</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">-2</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Nuclear Battery</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Death from Extra Effort results in nuclear meltdown</name>
 			<type></type>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Nuclear-Powered</name>
 			<reference>UT167</reference>
 			<categories>
 				<category>Lens</category>
 			</categories>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -1819,7 +1839,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Restricted Diet</name>
 				<type>Physical</type>
 				<prereq_list all="yes">
@@ -1831,9 +1851,9 @@
 			</advantage>
 		</advantage_container>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Overriding Directive (Major)</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Compulsive @Behavior@</name>
 			<type>Mental</type>
 			<base_points>-15</base_points>
@@ -1844,9 +1864,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Overriding Directive (Minor)</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Compulsive @Behavior@</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -1857,9 +1877,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Perception</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Perception</name>
 			<type>Mental/Physical</type>
 			<levels>1</levels>
@@ -1874,7 +1894,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Perception</name>
 			<type>Mental/Physical</type>
 			<levels>1</levels>
@@ -1889,7 +1909,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Depth Perception</name>
 			<type>Physical</type>
 			<base_points>-15</base_points>
@@ -1905,9 +1925,9 @@
 			</prereq_list>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Perception</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Perception</name>
 			<type>Mental/Physical</type>
 			<levels>1</levels>
@@ -1922,7 +1942,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Perception</name>
 			<type>Mental/Physical</type>
 			<levels>1</levels>
@@ -1938,22 +1958,22 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Plasma Arc Welder</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Innate Attack (Burn)</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
 			<points_per_level>5</points_per_level>
 			<melee_weapon>
-				<damage>1d+2(5) burn</damage>
+				<damage type="burn" base="1d+2" armor_divisor="5.0"/>
 				<strength>3</strength>
 				<reach>C</reach>
 				<parry>no</parry>
 				<block>no</block>
 			</melee_weapon>
 			<ranged_weapon>
-				<damage>1d burn</damage>
+				<damage type="burn" base="1d"/>
 				<accuracy>3</accuracy>
 				<range>100/10</range>
 				<rate_of_fire>1</rate_of_fire>
@@ -2196,9 +2216,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Plastic Casing</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Reduced Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -2319,9 +2339,9 @@
 			</dr_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Power</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Energy Reserve (Backup Battery)</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -2377,7 +2397,7 @@
 				<category>Attribute</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Reduced Consumption</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2406,9 +2426,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Power Dock</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Healing</name>
 			<type>Mental, Exotic</type>
 			<base_points>30</base_points>
@@ -2548,9 +2568,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Prehensile Limb</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Arm</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -2611,16 +2631,16 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra-Flexible Arm</name>
 			<type>Physical</type>
 			<base_points>5</base_points>
 			<notes>One of your first two arms.</notes>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Rare Model</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Slow Healing</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2632,9 +2652,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Reflexes</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Combat Reflexes</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -2646,6 +2666,7 @@
 			<skill_bonus>
 				<name compare="starts with">fast-draw</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>1</amount>
 			</skill_bonus>
 			<attribute_bonus>
@@ -2665,7 +2686,7 @@
 				<amount>2</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Basic Speed</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2679,7 +2700,7 @@
 				<amount per_level="yes">-0.25</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Basic Speed</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2694,9 +2715,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Rusting</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Basic Speed</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2711,9 +2732,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Safety Switch</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>No Energy Reserve</name>
 			<type>Physical</type>
 			<prereq_list all="yes">
@@ -2724,14 +2745,14 @@
 			</prereq_list>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Saw</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striker, Cutting (Saw)</name>
 			<type>Physical, Exotic</type>
 			<base_points>7</base_points>
 			<melee_weapon>
-				<damage>thr:+1 cut</damage>
+				<damage type="cut" st="thr" modifier_per_die="1"/>
 				<reach>C</reach>
 				<parry>0</parry>
 				<block>No</block>
@@ -2751,9 +2772,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Secondary Battery</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Energy Reserve (Backup Battery)</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -2809,7 +2830,7 @@
 				<category>Attribute</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Reduced Consumption</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2838,9 +2859,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Size</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Size</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2850,7 +2871,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Size</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -2861,9 +2882,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Slow Charger</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Slow Eater</name>
 			<type>Physical, Exotic</type>
 			<base_points>-10</base_points>
@@ -2873,9 +2894,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Solar Powered</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Dependency (Sunlight)</name>
 			<type>Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -2962,7 +2983,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Eat or Drink</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -2972,9 +2993,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Specialty Chassis</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -3013,7 +3034,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Lifting ST</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -3046,7 +3067,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striking ST</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -3085,9 +3106,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Strength</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Strength</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -3102,7 +3123,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -3137,7 +3158,7 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Digital Control)</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -3149,30 +3170,35 @@
 		<skill_bonus>
 			<name compare="is">Electronics Operation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Computer Operation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Computer Programming</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Computer Hacking</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Mathematics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Humanity Comprehension)</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -3184,40 +3210,47 @@
 		<skill_bonus>
 			<name compare="is">Body Language</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Detect Lies</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Gesture</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Linguistics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Anthropology</name>
 			<specialization compare="is">Human</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Psychology</name>
 			<specialization compare="is">Human</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Sociology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Mechanical Control)</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -3229,30 +3262,35 @@
 		<skill_bonus>
 			<name compare="is">Mechanic</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Machinist</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Engineer</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Mathematics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Physics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Reality Comprehension)</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -3263,9 +3301,9 @@
 			<category>Talent</category>
 		</categories>
 	</advantage>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Telescoping Reach</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Stretching</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -3310,9 +3348,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Totally Unreliable</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Klutz (Total)</name>
 			<type>Physical</type>
 			<base_points>-15</base_points>
@@ -3325,9 +3363,9 @@
 			</prereq_list>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Unreliable</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Klutz</name>
 			<type>Physical</type>
 			<base_points>-5</base_points>
@@ -3340,9 +3378,9 @@
 			</prereq_list>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Vacuum Nozzle</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Telekinesis</name>
 			<type>Mental/Physical, Exotic</type>
 			<levels>1</levels>
@@ -3433,9 +3471,9 @@
 			</categories>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Vice Grip</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Lifting ST</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -3469,9 +3507,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Winch</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Lifting ST</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -3505,9 +3543,9 @@
 			</attribute_bonus>
 		</advantage>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Wireless Transceiver</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Telecommunication</name>
 			<type>Mental/Physical, Exotic</type>
 			<modifier version="1" enabled="no">

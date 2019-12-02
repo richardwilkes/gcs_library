@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ilizibue:-14ge3r3ia2ybc" version="1">
+<template id="6bcf146c-f976-4f4c-8293-5227c0889a4c" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Horrific</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Terror</name>
 				<type>Mental, Supernatural</type>
 				<levels>0</levels>
@@ -32,7 +32,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -120,7 +120,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Remove Unnatural Features</name>
 				<type>Physical</type>
 				<base_points>1</base_points>

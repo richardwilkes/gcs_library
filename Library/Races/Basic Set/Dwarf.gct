@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ece11dkd:1pub2joswuw3g" version="1">
+<template id="22c6953e-c23a-4ec3-a4b3-1d928ec39492" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Dwarf</name>
 			<reference>B261</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Detect (Gold, Vague)</name>
 				<type>Mental/Physical, Exotic</type>
 				<base_points>3</base_points>
 				<reference>B48</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extended Lifespan</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>2</points_per_level>
 				<reference>B53</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -28,7 +28,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Will</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -39,14 +39,14 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>5</levels>
 				<points_per_level>1</points_per_level>
 				<reference>B71</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reduced Size</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -55,7 +55,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Talent (Artificer)</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -64,46 +64,55 @@
 				<skill_bonus>
 					<name compare="starts with">armoury</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">carpentry</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">electrician</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">electronics repair</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">engineer</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">machinist</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">masonry</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">mechanic</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="starts with">smith</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="faeet2nr:-n838e5y1holj" version="1">
+<template id="a65d03e3-7a22-496c-860a-6b3a54d70f64" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Appearance (Unattractive)</name>
 			<type>Physical</type>
 			<base_points>-4</base_points>
@@ -10,7 +10,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Cannot Speak (Mute)</name>
 			<type>Physical</type>
 			<base_points>-25</base_points>
@@ -19,7 +19,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>3</levels>
@@ -139,7 +139,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Intelligence</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -153,7 +153,7 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Arm</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -214,7 +214,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Attack</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -224,7 +224,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hard of Hearing</name>
 			<type>Physical</type>
 			<base_points>-10</base_points>
@@ -237,7 +237,7 @@
 				<amount>-4</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Health</name>
 			<type>Physical</type>
 			<levels>2</levels>
@@ -251,7 +251,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>3</levels>
@@ -265,7 +265,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Low TL</name>
 			<type>Social</type>
 			<levels>1</levels>
@@ -275,7 +275,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Sense of Duty</name>
 			<type>Mental</type>
 			<base_points>-10</base_points>
@@ -285,7 +285,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Short Lifespan</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -295,7 +295,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Slave Mentality</name>
 			<type>Physical</type>
 			<base_points>-40</base_points>
@@ -304,11 +304,11 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Sterility</name>
 			<type>Physical</type>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Telecommunication</name>
 			<type>Mental/Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -389,10 +389,14 @@
 			</categories>
 		</advantage>
 	</advantage_list>
-	<notes>The bizarre insect men live solely underground, near the border between Zarak and the Great Desert. To date, only a few dwarves know they are more than just large bugs. The Zarakun of Ginnrel consider them a major threat and are trying to wipe them out. Doing so, however, is proving difficult.
+	<note_list>
+		<note version="1">
+			<text>The bizarre insect men live solely underground, near the border between Zarak and the Great Desert. To date, only a few dwarves know they are more than just large bugs. The Zarakun of Ginnrel consider them a major threat and are trying to wipe them out. Doing so, however, is proving difficult.
 
 Insect men are probably native to Gabrook, though no one is certain. They could just be a mutation of Yrth insects, affected by the intense magical &#8220;fallout&#8221; from the Banestorm in this area. This would explain
 why they only began appearing in the past decade. They are currently TL2; they&#8217;ve apparently learned a lot from their enemies in a short time. Insect men are roughly the same size and shape as humans. They have hard, chitinous, bronze-colored skin, faceted black eyes, and long antennae. Like ants, they have different castes. Insect men proper are the intelligent guides for the colony; the taller, brawnier, four-armed insect warriors are servants and fighters. Both types are sexless; breeding is done by the queen and her consorts, neither of which are intelligent.
 
-Many insect men and warriors have the quirk Secretive, and for some it is outright Paranoia. Very few lack any of the racial disadvantages; GMs should emphasize the resulting weird behavior.</notes>
+Many insect men and warriors have the quirk Secretive, and for some it is outright Paranoia. Very few lack any of the racial disadvantages; GMs should emphasize the resulting weird behavior.</text>
+		</note>
+	</note_list>
 </template>

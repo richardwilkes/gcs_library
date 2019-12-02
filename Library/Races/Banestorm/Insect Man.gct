@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="faee8i36:-saqienx3whib" version="1">
+<template id="d8b4cabd-8831-43fe-857a-538ae323903b" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Appearance (Unattractive)</name>
 			<type>Physical</type>
 			<base_points>-4</base_points>
@@ -10,7 +10,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Cannot Speak (Mute)</name>
 			<type>Physical</type>
 			<base_points>-25</base_points>
@@ -19,7 +19,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Chummy</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -29,7 +29,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -149,7 +149,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Hard of Hearing</name>
 			<type>Physical</type>
 			<base_points>-10</base_points>
@@ -162,7 +162,7 @@
 				<amount>-4</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Humble</name>
 			<type>Mental</type>
 			<base_points>-1</base_points>
@@ -171,7 +171,7 @@
 				<category>Quirk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Health</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -185,7 +185,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Increased Strength</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -199,7 +199,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Low TL</name>
 			<type>Social</type>
 			<levels>1</levels>
@@ -209,7 +209,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Racial Memory</name>
 			<type>Mental, Exotic</type>
 			<modifier version="1">
@@ -229,7 +229,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Sense of Duty</name>
 			<type>Mental</type>
 			<base_points>-10</base_points>
@@ -239,7 +239,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Shyness (Mild)</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -250,80 +250,95 @@
 			<skill_bonus>
 				<name compare="is">acting</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">carousing</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">diplomacy</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">fast-talk</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">intimidation</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">leadership</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">merchant</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">panhandling</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">performance</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">politics</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">public speaking</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="contains">savoir-faire</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sex appeal</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">streetwise</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">teaching</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Silence</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -335,14 +350,15 @@
 			<skill_bonus>
 				<name compare="is">stealth</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>2</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Sterile</name>
 			<type>Physical</type>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Telecommunication</name>
 			<type>Mental/Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -423,7 +439,11 @@
 			</categories>
 		</advantage>
 	</advantage_list>
-	<notes>The bizarre insect men live solely underground, near the border between Zarak and the Great Desert. To date, only a few dwarves know they are more than just large bugs. The Zarakun of Ginnrel consider them a major threat and are trying to wipe them out. Doing so, however, is proving difficult.
+	<note_list>
+		<note version="1">
+			<text>The bizarre insect men live solely underground, near the border between Zarak and the Great Desert. To date, only a few dwarves know they are more than just large bugs. The Zarakun of Ginnrel consider them a major threat and are trying to wipe them out. Doing so, however, is proving difficult.
 
-Insect men are probably native to Gabrook, though no one is certain. They could just be a mutation of Yrth insects, affected by the intense magical &#8220;fallout&#8221; from the Banestorm in this area. This would explain why they only began appearing in the past decade. They are currently TL2; they&#8217;ve apparently learned a lot from their enemies in a short time. Insect men are roughly the same size and shape as humans. They have hard, chitinous, bronze-colored skin, faceted black eyes, and long antennae. Like ants, they have different castes. Insect men proper are the intelligent guides for the colony; the taller, brawnier, four-armed insect warriors are servants and fighters. Both types are sexless; breeding is done by the queen and her consorts, neither of which are intelligent.   Many insect men and warriors have the quirk Secretive, and for some it is outright Paranoia. Very few lack any of the racial disadvantages; GMs should emphasize the resulting weird behavior.</notes>
+Insect men are probably native to Gabrook, though no one is certain. They could just be a mutation of Yrth insects, affected by the intense magical &#8220;fallout&#8221; from the Banestorm in this area. This would explain why they only began appearing in the past decade. They are currently TL2; they&#8217;ve apparently learned a lot from their enemies in a short time. Insect men are roughly the same size and shape as humans. They have hard, chitinous, bronze-colored skin, faceted black eyes, and long antennae. Like ants, they have different castes. Insect men proper are the intelligent guides for the colony; the taller, brawnier, four-armed insect warriors are servants and fighters. Both types are sexless; breeding is done by the queen and her consorts, neither of which are intelligent.   Many insect men and warriors have the quirk Secretive, and for some it is outright Paranoia. Very few lack any of the racial disadvantages; GMs should emphasize the resulting weird behavior.</text>
+		</note>
+	</note_list>
 </template>

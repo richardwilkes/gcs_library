@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="4f9dc103-eb46-4605-b4a9-4f7885bd9189" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Feb 4, 2016 12:02 PM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Horde Zombie</name>
 		<age>0</age>
 		<SM>0</SM>
 		<race>Undead</race>
-		<notes>Horde Zombie (DF2:24)
-
-Horde zombies aren't necromantic servitors, but victims of a horrible curse. Anyone slain by a horde zombie will rise as one a minute later and try to eat any living person in sight.While capable of speech, horde zombies only ever moan the name of the body part they wish to eat: "Braaaain," "Spleeeen," "Skinnnn," etc. They're mostly weak fodder -- but if enough of them attack, the danger of being grappled, pinned, and eaten is real. On the other hand, they're easy to outrun, and usually forget about victims who duck out of sight (6 or less chance of staying on the trail).
-
-Notes: While "intelligent," horde zombies are uninterested in negotiation and immune to trickery. They just want to eat. They aren't truly evil -- they're more a force of nature.
-</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>4</HP>
 	<FP>-12</FP>
@@ -29,7 +24,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bad Smell</name>
 			<type>Physical</type>
 			<base_points>-10</base_points>
@@ -39,7 +34,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Cannot Learn</name>
 			<type>Mental</type>
 			<base_points>-30</base_points>
@@ -48,7 +43,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Breathe</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -117,7 +112,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -126,7 +121,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Fragile (Unnatural)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-50</base_points>
@@ -135,7 +130,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
@@ -145,7 +140,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity (All mind control)</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -154,7 +149,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity to Metabolic Hazards</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -163,7 +158,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Incurious</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -173,7 +168,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Indomitable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -182,7 +177,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Infectious Attack</name>
 			<type>Physical, Supernatural</type>
 			<base_points>-5</base_points>
@@ -192,7 +187,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (No Blood, Unliving)</name>
 			<type>Physical, Exotic</type>
 			<base_points>25</base_points>
@@ -201,7 +196,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Temperature Tolerance</name>
 			<type>Physical</type>
 			<levels>10</levels>
@@ -212,7 +207,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Uncontrollable Appetite (Body parts)</name>
 			<type>Mental, Supernatural</type>
 			<base_points>-15</base_points>
@@ -222,7 +217,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unfazeable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -237,7 +232,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unhealing (Total)</name>
 			<type>Physical, Exotic</type>
 			<base_points>-30</base_points>
@@ -246,11 +241,11 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Bite</name>
 			<type>Physical, Exotic</type>
 			<melee_weapon>
-				<damage>thr-1 cr</damage>
+				<damage type="cr" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -270,11 +265,11 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Punch</name>
 			<type>Physical, Exotic</type>
 			<melee_weapon>
-				<damage>thr:-1 cr</damage>
+				<damage type="cr" st="thr" modifier_per_die="-1"/>
 				<usage>Punch</usage>
 				<reach>C</reach>
 				<parry>0</parry>
@@ -296,7 +291,7 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>12</points>
@@ -309,10 +304,11 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Wrestling</name>
 			<difficulty>DX/A</difficulty>
 			<points>16</points>
@@ -323,7 +319,17 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 			</categories>
 		</skill>
 	</skill_list>
-	<print_settings printer="HP LaserJet M1536dnf MFP (C1388F)" units="in">
+	<note_list>
+		<note version="1">
+			<text>Horde Zombie (DF2:24)
+
+Horde zombies aren't necromantic servitors, but victims of a horrible curse. Anyone slain by a horde zombie will rise as one a minute later and try to eat any living person in sight.While capable of speech, horde zombies only ever moan the name of the body part they wish to eat: "Braaaain," "Spleeeen," "Skinnnn," etc. They're mostly weak fodder -- but if enough of them attack, the danger of being grappled, pinned, and eaten is real. On the other hand, they're easy to outrun, and usually forget about victims who duck out of sight (6 or less chance of staying on the trail).
+
+Notes: While "intelligent," horde zombies are uninterested in negotiation and immune to trickery. They just want to eat. They aren't truly evil -- they're more a force of nature.
+</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -333,6 +339,8 @@ Notes: While "intelligent," horde zombies are uninterested in negotiation and im
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

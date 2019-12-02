@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <advantage_list id="81b0a436-127f-46ca-9eaf-0488f7ecfdef" version="1">
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>Natural Weapon</name>
 		<reference>PY65:24</reference>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Natural Weapon</name>
 			<type>Physical</type>
 			<modifier version="1" enabled="no">
@@ -170,6 +170,7 @@
 					<name compare="is">Punch</name>
 					<specialization compare="is anything"></specialization>
 					<level compare="at least">0</level>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</weapon_bonus>
 			</modifier>
@@ -257,6 +258,7 @@
 					<name compare="is">Punch</name>
 					<specialization compare="is anything"></specialization>
 					<level compare="at least">0</level>
+					<category compare="is anything"></category>
 					<amount>-1</amount>
 				</weapon_bonus>
 			</modifier>
@@ -289,9 +291,9 @@
 				<category>Advantages</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Examples</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Natural Weapon (Decaying Touch)</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -330,7 +332,7 @@
 					<category>Advantages</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Natural Weapon (Chi Blast)</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -354,6 +356,7 @@
 						<name compare="is">Punch</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">0</level>
+						<category compare="is anything"></category>
 						<amount per_level="yes">2</amount>
 					</weapon_bonus>
 				</modifier>
@@ -398,7 +401,7 @@
 					<category>Advantages</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Natural Weapon (Bone Stakes)</name>
 				<type>Physical</type>
 				<modifier version="1">
@@ -416,6 +419,7 @@
 						<name compare="is">Punch</name>
 						<specialization compare="is anything"></specialization>
 						<level compare="at least">0</level>
+						<category compare="is anything"></category>
 						<amount>2</amount>
 					</weapon_bonus>
 				</modifier>
@@ -457,9 +461,9 @@
 			</advantage>
 		</advantage_container>
 	</advantage_container>
-	<advantage_container version="2" open="yes">
+	<advantage_container version="3" open="yes">
 		<name>TEAM UP!</name>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Coordinated Action</name>
 			<type></type>
 			<levels>1</levels>
@@ -486,7 +490,7 @@
 				</advantage_prereq>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Aura of Authority</name>
 			<type></type>
 			<levels>1</levels>
@@ -502,7 +506,7 @@
 				</advantage_prereq>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Distant Linking</name>
 			<type></type>
 			<levels>1</levels>
@@ -512,7 +516,7 @@
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Teamwork</name>
 			<type></type>
 			<levels>1</levels>
@@ -522,7 +526,7 @@
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Drills (@task@)</name>
 			<type></type>
 			<base_points>1</base_points>
@@ -531,7 +535,7 @@
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Esprit de Corps (@specialization@)</name>
 			<type></type>
 			<levels>1</levels>
@@ -551,7 +555,7 @@
 				</advantage_prereq>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Harmonious Action (@specialization@)</name>
 			<type></type>
 			<base_points>1</base_points>
@@ -586,7 +590,7 @@
 				</prereq_list>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Karma Pool</name>
 			<type></type>
 			<levels>1</levels>
@@ -606,7 +610,7 @@
 				</advantage_prereq>
 			</prereq_list>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Natural Linker</name>
 			<type></type>
 			<levels>1</levels>
@@ -616,7 +620,7 @@
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Natural Leader</name>
 			<type></type>
 			<base_points>5</base_points>

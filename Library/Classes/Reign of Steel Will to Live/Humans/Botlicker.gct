@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ih128oxx:zuv38n3zv8i2" version="1">
+<template id="ad25ffec-deec-4eac-b076-62cacffb159e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Advantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Patron</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -146,7 +146,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2" round_down="yes">
+			<advantage version="3" round_down="yes">
 				<name>Reputation (Collaborator)</name>
 				<type>Social</type>
 				<levels>1</levels>
@@ -198,9 +198,9 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Disadvantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bully</name>
 				<type>Mental</type>
 				<base_points>-10</base_points>
@@ -210,7 +210,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Enemy (Resistance fighters)</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -331,7 +331,7 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Intimidation</name>
 			<difficulty>Will/A</difficulty>
 			<points>4</points>
@@ -351,7 +351,7 @@
 				<modifier>-3</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Whip</name>
 			<difficulty>DX/A</difficulty>
 			<points>2</points>
@@ -380,9 +380,9 @@
 				<modifier>-3</modifier>
 			</default>
 		</skill>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>10 Points in:</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Axe/Mace</name>
 				<difficulty>DX/A</difficulty>
 				<points>2</points>
@@ -406,7 +406,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Battlesuit</name>
 				<tech_level/>
 				<difficulty>DX/A</difficulty>
@@ -436,7 +436,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Diplomacy</name>
 				<difficulty>IQ/H</difficulty>
 				<points>1</points>
@@ -456,7 +456,7 @@
 					<modifier>-6</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Fast-Talk</name>
 				<difficulty>IQ/A</difficulty>
 				<points>4</points>
@@ -476,7 +476,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Gambling</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -496,7 +496,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Scrounging</name>
 				<difficulty>Per/E</difficulty>
 				<points>4</points>
@@ -509,7 +509,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Search</name>
 				<difficulty>Per/A</difficulty>
 				<points>2</points>
@@ -528,7 +528,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Shortsword</name>
 				<difficulty>DX/A</difficulty>
 				<points>2</points>

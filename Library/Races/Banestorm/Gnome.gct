@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fad674gz:-11ik603xauts7" version="1">
+<template id="5d5e5b18-91f7-4834-a2b7-a3b1e9afeba6" version="2">
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>1</levels>
@@ -121,7 +121,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Decreased Basic Move</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -131,13 +131,13 @@
 				<amount per_level="yes">-1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Like to Live Underground</name>
 			<type>Physical</type>
 			<base_points>-1</base_points>
 			<reference>BS192</reference>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Extra Fatigue Points</name>
 			<type>Physical</type>
 			<levels>1</levels>
@@ -151,7 +151,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Honest Face</name>
 			<type>Physical</type>
 			<base_points>1</base_points>
@@ -160,7 +160,7 @@
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Longevity</name>
 			<type>Physical</type>
 			<base_points>2</base_points>
@@ -169,7 +169,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Sense of Duty</name>
 			<type>Mental</type>
 			<base_points>-15</base_points>
@@ -179,7 +179,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Talent (Green Thumb)</name>
 			<type>Mental</type>
 			<levels>1</levels>
@@ -191,31 +191,38 @@
 			<skill_bonus>
 				<name compare="contains">biology</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">farming</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">gardening</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">herb lore</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">naturalist</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</skill_bonus>
 		</advantage>
 	</advantage_list>
-	<notes>Gnomes are smaller and slighter than dwarves, and the men habitually wear their beards trimmed short. Their love of nature is equal to that of the elves, if different in style.
+	<note_list>
+		<note version="1">
+			<text>Gnomes are smaller and slighter than dwarves, and the men habitually wear their beards trimmed short. Their love of nature is equal to that of the elves, if different in style.
 
 As a rather marginal race with many bigger neighbors, gnomes have developed a subtle talent for dealing with people while seeming innocuous. They get along well with the other Elder Folk except for orcs, have few conflicts with humans, and often treat halflings as kin. They like herding, the rustic life, and good craftsmanship.
 
@@ -223,5 +230,7 @@ They are solid, centered, and matter-of-fact. While few become important in the 
 
 Gnomes are 1 1/4 feet shorter than human average for their ST, and weigh 25 lbs. more than the appropriate weight for that height.
 
-Most gnomes have at least one of the advantages Artificer, Sensitive, Smooth Operator, or Versatile. In some locales they have Social Regard (Good Neighbor), typically at level 2.</notes>
+Most gnomes have at least one of the advantages Artificer, Sensitive, Smooth Operator, or Versatile. In some locales they have Social Regard (Good Neighbor), typically at level 2.</text>
+		</note>
+	</note_list>
 </template>

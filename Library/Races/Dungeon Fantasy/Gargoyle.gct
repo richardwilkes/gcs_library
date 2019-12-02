@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fcz8wbbl:1bpi1h0b8uoz8" version="1">
+<template id="9be18d23-9fb3-4f02-9196-56dbcfad21c7" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Gargoyle</name>
 			<reference>DF3:9</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Appearance</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -92,7 +92,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Basic Speed -0.25</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -106,12 +106,12 @@
 					<amount>-0.25</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Blunt (Feet)</name>
 				<type>Physical</type>
 				<base_points>3</base_points>
 				<melee_weapon>
-					<damage>thr:+1 cr</damage>
+					<damage type="cr" st="thr" modifier_per_die="1"/>
 					<usage>Kick</usage>
 					<reach>C,1</reach>
 					<parry>No</parry>
@@ -136,11 +136,11 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Blunt (Hands)</name>
 				<type>Physical</type>
 				<melee_weapon>
-					<damage>thr-1:+1 cr</damage>
+					<damage type="cr" st="thr" base="-1" modifier_per_die="1"/>
 					<usage>Punch</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -170,7 +170,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -290,7 +290,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Decreased Intelligence</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -305,7 +305,7 @@
 					<amount per_level="yes">-1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Extra Hit Points</name>
 				<type>Physical</type>
 				<levels>2</levels>
@@ -331,11 +331,11 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Torso armour not interchangeable with that of humans</name>
 				<type>Physical</type>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Flight</name>
 				<type>Physical, Exotic</type>
 				<base_points>40</base_points>
@@ -431,7 +431,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Gluttony</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -441,7 +441,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -456,7 +456,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Night Vision</name>
 				<type>Physical</type>
 				<levels>5</levels>
@@ -466,7 +466,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Odious Racial Habit</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
@@ -476,18 +476,18 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Stony</name>
 				<type>Physical</type>
 				<base_points>1</base_points>
 				<reference>DF3:9</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Striker, Impaling (Tail)</name>
 				<type>Physical, Exotic</type>
 				<base_points>8</base_points>
 				<melee_weapon>
-					<damage>thr:+1 imp</damage>
+					<damage type="imp" st="thr" modifier_per_die="1"/>
 					<reach>C</reach>
 					<parry>0</parry>
 					<block>No</block>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="i3ovkukx:oq2f4l8tdtoo" version="1">
+<template id="1adb4fa5-084a-4cec-9a59-3543a8dc7527" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Elemental Meta-Trait</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Breathe</name>
 				<type>Physical, Exotic</type>
 				<base_points>20</base_points>
 				<reference>B49</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Doesn't Eat or Drink</name>
 				<type>Physical, Exotic</type>
 				<base_points>10</base_points>
@@ -18,7 +18,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>High Pain Threshold</name>
 				<type>Physical</type>
 				<base_points>10</base_points>
@@ -28,7 +28,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Unaging</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
@@ -43,7 +43,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Callous</name>
 				<type>Mental</type>
 				<base_points>-5</base_points>
@@ -54,15 +54,17 @@
 				<skill_bonus>
 					<name compare="is">psychology</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">teaching</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>-3</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Dependency (Mana)</name>
 				<type>Physical, Exotic</type>
 				<modifier version="1" enabled="no">
@@ -149,7 +151,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Fragile (Unnatural)</name>
 				<type>Physical, Exotic</type>
 				<base_points>-50</base_points>
@@ -158,7 +160,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Uneducated)</name>
 				<type>Social</type>
 				<base_points>-5</base_points>
@@ -168,7 +170,7 @@
 					<category>Disadvantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Status -</name>
 				<type>Social</type>
 				<levels>3</levels>
@@ -179,48 +181,48 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes" type="metatrait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Body of Earth</name>
 			<reference>B262</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
 				<points_per_level>5</points_per_level>
 				<reference>B47</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Invertebrate</name>
 				<type>Physical, Exotic</type>
 				<base_points>-20</base_points>
 				<reference>B140</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Pressure Support 3 (Immune to high pressure)</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
 				<reference>B77</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant (Immunity to Metabolic Hazards)</name>
 				<type>Physical</type>
 				<base_points>30</base_points>
 				<reference>B81</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Sealed</name>
 				<type>Physical, Exotic</type>
 				<base_points>15</base_points>
 				<reference>B82</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vacuum Support</name>
 				<type>Physical, Exotic</type>
 				<base_points>5</base_points>
 				<reference>B96</reference>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Social Stigma (Valuable Property)</name>
 			<type>Social</type>
 			<base_points>-10</base_points>
@@ -229,7 +231,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Sensitive Touch</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -255,7 +257,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Tunneling ()</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -272,7 +274,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Fearlessness</name>
 			<type>Mental</type>
 			<levels>5</levels>
@@ -282,7 +284,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Injury Tolerance (Homogenous)</name>
 			<type>Physical, Exotic</type>
 			<base_points>40</base_points>
@@ -291,7 +293,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Dependency (Contact with ground)</name>
 			<type>Physical, Exotic</type>
 			<modifier version="1" enabled="no">
@@ -378,7 +380,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Intolerance (All)</name>
 			<type>Mental</type>
 			<modifier version="1" enabled="no">
@@ -410,7 +412,7 @@
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Oblivious</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>
@@ -421,35 +423,41 @@
 			<skill_bonus>
 				<name compare="is">diplomacy</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">fast-talk</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">intimidation</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="starts with">savoir-faire</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">sex appeal</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 			<skill_bonus>
 				<name compare="is">streetwise</name>
 				<specialization compare="is anything"></specialization>
+				<category compare="is anything"></category>
 				<amount>-1</amount>
 			</skill_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Stubbornness</name>
 			<type>Mental</type>
 			<base_points>-5</base_points>

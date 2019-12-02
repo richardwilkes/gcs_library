@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <advantage_list id="50cdc905-a366-4e8d-94df-02abdc9bd931" version="1">
-	<advantage version="2">
+	<advantage version="3">
 		<name>Increased Quintessence</name>
 		<type>Physical, Supernatural</type>
 		<levels>1</levels>
@@ -10,7 +10,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Decreased Quintessence</name>
 		<type>Physical, Supernatural</type>
 		<levels>1</levels>
@@ -20,7 +20,7 @@
 			<category>Disadvantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Extra Quintessence Points</name>
 		<type>Supernatural</type>
 		<levels>1</levels>
@@ -30,7 +30,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Fewer Quintessence Points</name>
 		<type>Supernatural</type>
 		<levels>1</levels>
@@ -40,7 +40,7 @@
 			<category>Disadvantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Very Resilient Quintessence</name>
 		<type>Physical</type>
 		<base_points>15</base_points>
@@ -57,7 +57,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Resilient Quintessence</name>
 		<type>Physical</type>
 		<base_points>5</base_points>

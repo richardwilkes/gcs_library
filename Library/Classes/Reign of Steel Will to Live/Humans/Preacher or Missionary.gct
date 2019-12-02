@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ih2s1rvi:-1c0rektea8bxf" version="1">
+<template id="7a36a518-22e6-4e42-939a-6a5fea7b230f" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Advantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Ally (Followers)</name>
 				<type>Social</type>
 				<modifier version="1">
@@ -181,7 +181,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Charisma</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -194,25 +194,29 @@
 				<skill_bonus>
 					<name compare="is">fortune-telling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">leadership</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">panhandling</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 				<skill_bonus>
 					<name compare="is">public speaking</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount per_level="yes">1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Clerical Investment</name>
 				<type>Social</type>
 				<base_points>5</base_points>
@@ -221,7 +225,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2" round_down="yes">
+			<advantage version="3" round_down="yes">
 				<name>Reputation</name>
 				<type>Social</type>
 				<levels>3</levels>
@@ -274,11 +278,11 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Disadvantages</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>-20 Points in:</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Delusion (I am the chosen one who will lead humanity to God)</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -304,7 +308,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Disciplines of Faith (Asceticism)</name>
 					<type>Mental</type>
 					<base_points>-15</base_points>
@@ -313,7 +317,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fanaticism ()</name>
 					<type>Mental</type>
 					<base_points>-15</base_points>
@@ -328,7 +332,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Intolerance (All non-followers)</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -360,7 +364,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>No Sense of Humor</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -370,7 +374,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2" round_down="yes">
+				<advantage version="3" round_down="yes">
 					<name>Reputation</name>
 					<type>Social</type>
 					<levels>2</levels>
@@ -422,7 +426,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sense of Duty</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -467,7 +471,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Outlaw)</name>
 				<type>Social</type>
 				<base_points>-15</base_points>
@@ -477,7 +481,7 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Religious Ritual</name>
 			<specialization>own</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -499,7 +503,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Leadership</name>
 			<difficulty>IQ/A</difficulty>
 			<points>4</points>
@@ -513,7 +517,7 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Performance</name>
 			<difficulty>IQ/A</difficulty>
 			<points>2</points>
@@ -536,7 +540,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Theology</name>
 			<specialization>own</specialization>
 			<difficulty>IQ/H</difficulty>
@@ -556,10 +560,10 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>10 Points in:</name>
 		</skill_container>
-		<skill version="2">
+		<skill version="3">
 			<name>Acting</name>
 			<difficulty>IQ/A</difficulty>
 			<points>2</points>
@@ -583,7 +587,7 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Body Language</name>
 			<difficulty>Per/A</difficulty>
 			<points>2</points>
@@ -604,7 +608,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Detect Lies</name>
 			<difficulty>Per/H</difficulty>
 			<points>4</points>
@@ -629,7 +633,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Diplomacy</name>
 			<difficulty>IQ/H</difficulty>
 			<points>4</points>
@@ -649,7 +653,7 @@
 				<modifier>-6</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Fast-Talk</name>
 			<difficulty>IQ/A</difficulty>
 			<points>4</points>
@@ -669,7 +673,7 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>First Aid</name>
 			<tech_level/>
 			<difficulty>IQ/E</difficulty>
@@ -699,7 +703,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Propaganda</name>
 			<tech_level/>
 			<difficulty>IQ/A</difficulty>
@@ -726,7 +730,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Public Speaking</name>
 			<difficulty>IQ/A</difficulty>
 			<points>2</points>
@@ -756,7 +760,7 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Teaching</name>
 			<difficulty>IQ/A</difficulty>
 			<points>2</points>

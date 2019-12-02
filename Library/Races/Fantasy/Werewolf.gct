@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="3d64ff4d-2c68-4927-9de5-72298989bad7" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Werewolf</name>
 			<reference>F112</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Alternate Form (Wolf)</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -77,9 +77,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Compulsive Behavior</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -110,20 +110,20 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unnatural Feature (@Any one classic mark of lycanthropy@)</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 				</advantage>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Wolf Form</name>
 			<reference>F112</reference>
 			<notes>Alternate Form</notes>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Decreased Intelligence</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -138,7 +138,7 @@
 						<amount per_level="yes">-1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Basic Move</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -153,7 +153,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -173,7 +173,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -188,7 +188,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Perception</name>
 					<type>Mental/Physical</type>
 					<levels>8</levels>
@@ -203,7 +203,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Will</name>
 					<type>Mental</type>
 					<levels>6</levels>
@@ -219,9 +219,9 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Ractial Advantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Discriminatory Smell</name>
 					<type>Physical, Exotic</type>
 					<base_points>15</base_points>
@@ -242,7 +242,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -402,7 +402,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Fur</name>
 					<type>Physical, Exotic</type>
 					<base_points>1</base_points>
@@ -411,7 +411,7 @@
 						<category>Perk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Night Vision</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -421,7 +421,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Penetrating Voice</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
@@ -430,7 +430,7 @@
 						<category>Perk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Regeneration</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -524,12 +524,12 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Teeth, Sharp</name>
 					<type>Physical, Exotic</type>
 					<base_points>1</base_points>
 					<melee_weapon>
-						<damage>thr-1 cut</damage>
+						<damage type="cut" st="thr" base="-1"/>
 						<usage>Bite</usage>
 						<reach>C</reach>
 						<parry>No</parry>
@@ -549,7 +549,7 @@
 						<category>Perk</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Temperature Tolerance</name>
 					<type>Physical</type>
 					<levels>1</levels>
@@ -559,7 +559,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Unkillable</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -639,9 +639,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Racial Disadvantage</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bad Temper</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -651,7 +651,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Berserk</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -666,7 +666,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Infectious Attack</name>
 					<type>Physical, Supernatural</type>
 					<base_points>-5</base_points>
@@ -675,7 +675,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Loner</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -685,29 +685,29 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>Meta-Trait: Quadruped</name>
 					<reference>B263</reference>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Extra Legs (4 legs)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
 						<reference>B54</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Horizontal</name>
 						<type>Physical, Exotic</type>
 						<base_points>-10</base_points>
 						<reference>B139</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No Fine Manipulators</name>
 						<type>Physical</type>
 						<base_points>-30</base_points>
 						<reference>B145</reference>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Vulnerability</name>
 					<type>Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -760,28 +760,28 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>Meta-Trait: Wild Animal</name>
 					<reference>B263</reference>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bestial</name>
 						<type>Mental, Exotic</type>
 						<base_points>-10</base_points>
 						<reference>B124</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Cannot Speak</name>
 						<type>Physical</type>
 						<base_points>-15</base_points>
 						<reference>B125</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Hidebound</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
 						<reference>B138</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Taboo Trait (Fixed IQ)</name>
 						<type>Physical</type>
 						<reference>B263</reference>

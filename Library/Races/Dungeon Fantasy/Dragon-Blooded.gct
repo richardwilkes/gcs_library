@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="fczo166x:-cf9fyu6tko5t" version="1">
+<template id="61aba5ec-c029-4a0e-b27e-2e17e6ec2830" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Dragon-Blooded</name>
 			<reference>DF3:15</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Born Biter</name>
 				<type>Physical</type>
 				<reference>DF3:15</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Sharp (Feet)</name>
 				<type>Physical</type>
 				<melee_weapon>
-					<damage>thr cut</damage>
+					<damage type="cut" st="thr"/>
 					<usage>Kick</usage>
 					<reach>C,1</reach>
 					<parry>No</parry>
@@ -38,12 +38,12 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Claws, Sharp (Hands)</name>
 				<type>Physical</type>
 				<base_points>5</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Slash</usage>
 					<reach>C</reach>
 					<parry>0</parry>
@@ -73,7 +73,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Damage Resistance</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
@@ -193,7 +193,7 @@
 					<amount per_level="yes">1</amount>
 				</dr_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Disturbing Voice</name>
 				<type>Physical</type>
 				<base_points>-10</base_points>
@@ -208,22 +208,22 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Cannot learn non-reptilain languages above Accented.</name>
 				<type>Physical</type>
 				<reference>DF3:15</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Emerald or Ruby scales.</name>
 				<type>Physical</type>
 				<reference>DF3:15</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Feature: Head armour not interchangeable with humans.</name>
 				<type>Physical</type>
 				<reference>DF3:15</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Health</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -238,7 +238,7 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Increased Strength</name>
 				<type>Physical</type>
 				<levels>1</levels>
@@ -272,13 +272,13 @@
 					<amount per_level="yes">1</amount>
 				</attribute_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Innate Attack (Burn)</name>
 				<type>Physical, Exotic</type>
 				<levels>1</levels>
 				<points_per_level>5</points_per_level>
 				<ranged_weapon>
-					<damage>1d burn</damage>
+					<damage type="burn" base="1d"/>
 					<usage>Jet</usage>
 					<range>10/5</range>
 					<default>
@@ -511,7 +511,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Nictitating Membrane</name>
 				<type>Physical, Exotic</type>
 				<levels>2</levels>
@@ -521,7 +521,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Peripheral Vision</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -537,7 +537,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Reputation</name>
 				<type>Social</type>
 				<levels>3</levels>
@@ -594,7 +594,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Monster)</name>
 				<type>Social</type>
 				<base_points>-15</base_points>
@@ -606,15 +606,16 @@
 				<skill_bonus>
 					<name compare="is">intimidation</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Teeth, Sharp</name>
 				<type>Physical, Exotic</type>
 				<base_points>1</base_points>
 				<melee_weapon>
-					<damage>thr-1 cut</damage>
+					<damage type="cut" st="thr" base="-1"/>
 					<usage>Bite</usage>
 					<reach>C</reach>
 					<parry>No</parry>
@@ -634,7 +635,7 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Vow</name>
 				<type>Mental</type>
 				<levels>0</levels>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<advantage_list unique_id="hv8u9l3e:1jobmctdb6ygt" version="1">
-	<advantage version="2">
+<advantage_list id="8af5ed49-37d6-40df-b39d-60305357a352" version="1">
+	<advantage version="3">
 		<name>Armor Familiarity (@Skill@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -10,7 +10,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Biting Mastery</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -20,7 +20,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Chi Resistance (@Attack@)</name>
 		<type>Mental, Supernatural</type>
 		<base_points>1</base_points>
@@ -31,7 +31,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Cotton Stomach</name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
@@ -42,7 +42,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Drunken Fighting</name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
@@ -53,7 +53,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Exotic Weapon Training (@Weapon@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -63,7 +63,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Form Mastery (@Weapon@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -73,7 +73,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Grip Mastery (@Weapon@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -83,7 +83,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Ground Guard</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -93,7 +93,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Heroic Archer</name>
 		<type>Physical</type>
 		<base_points>20</base_points>
@@ -102,7 +102,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Improvised Weapons (@Weapon@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -112,12 +112,12 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Iron Arms </name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
 		<melee_weapon>
-			<damage>thr cr</damage>
+			<damage type="cr" st="thr"/>
 			<usage>Striker</usage>
 			<reach>C,1</reach>
 			<parry>0</parry>
@@ -153,7 +153,7 @@
 			<amount per_level="yes">1</amount>
 		</dr_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Iron Hands</name>
 		<type>Physical, Exotic</type>
 		<base_points>5</base_points>
@@ -178,7 +178,7 @@
 			<amount per_level="yes">1</amount>
 		</dr_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Iron Legs</name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
@@ -193,7 +193,7 @@
 			<amount per_level="yes">1</amount>
 		</dr_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Iron Neck</name>
 		<type>Physical, Exotic</type>
 		<base_points>1</base_points>
@@ -208,7 +208,7 @@
 			<amount per_level="yes">1</amount>
 		</dr_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Naval Training</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -218,7 +218,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Neck Control (@Striking Skill@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -228,7 +228,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Off-Hand Weapon Training (@Weapon@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -238,7 +238,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Power Grappling</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -248,7 +248,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Rapid Retraction (@Kick or Punch@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -258,7 +258,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>School Adaptation (@School@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -268,7 +268,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Secret Knowledge (@Skill@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -277,7 +277,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Secret Style (@Style@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -287,7 +287,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Shield-Wall Training</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -297,7 +297,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Skill Adaptation (@Speciality@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -307,7 +307,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Special Excercises (@Trait@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -317,7 +317,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Special Setup (@Setup@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -327,7 +327,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Strongbow</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -337,7 +337,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Style Adaptation (@Styles@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -347,7 +347,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Style Familiarity (@Style@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -356,7 +356,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Suit Familiarity (@Suit Skill@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -366,7 +366,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Born Sailor)</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -396,36 +396,43 @@
 		<skill_bonus>
 			<name compare="is">Boating</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Knot-Tying</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Meteorology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Navigation</name>
 			<specialization compare="is">Sea</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Seamanship</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Shiphandling</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Weather Sense</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
@@ -435,7 +442,7 @@
 			</advantage_prereq>
 		</prereq_list>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Born Soldier)</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -460,30 +467,35 @@
 		<skill_bonus>
 			<name compare="is">Leadership</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Savoir-Faire</name>
 			<specialization compare="is anything">Military</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Scrounging</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Soldier</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Tactics</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Forceful Chi)</name>
 		<type>Mental, Supernatural</type>
 		<levels>1</levels>
@@ -513,75 +525,89 @@
 		<skill_bonus>
 			<name compare="is">Breaking Blow</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Erotic Art</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Flying Leap</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Hypnotic Hands</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Hypnotism</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Invisibility Art</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Kiai</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Power Blow</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Precognitive Parry</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Pressure Points</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Pressure Secrets</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Push</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Throwing Art</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Zen Archery</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Inner Balance)</name>
 		<type>Mental, Supernatural</type>
 		<levels>1</levels>
@@ -611,80 +637,95 @@
 		<skill_bonus>
 			<name compare="is">Autohypnosis</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Blind Fighting</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Body Control</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Body Language</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Body Sense</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Breath Control</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Dreaming</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Immovable Stance</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Light Walk</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Lizard Climb</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Meditation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Mental Strength</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Mind Block</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Sensitivity</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is"></name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Talent (Natural Copper)</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -709,55 +750,65 @@
 		<skill_bonus>
 			<name compare="is">Body Language</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Criminology</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Detect Lies</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Intelligence Analysis</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Interrogation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Observation</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Savoir-Faire</name>
 			<specialization compare="is anything">Police</specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Search</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Shadowing</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">Streetwise</name>
 			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
 			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Teamwork (@Style or Team@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -767,7 +818,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Technique Adaptation (@Technique@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -777,7 +828,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Technique Mastery (@Technique@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -787,7 +838,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Template Adaptation (@Templates@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -797,7 +848,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Unique Technique (@Technique@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -806,7 +857,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Unusual Training (@Cinematic Skill@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -815,7 +866,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Weapon Adaptation (@Skill to Skill@)</name>
 		<type>Mental</type>
 		<base_points>1</base_points>

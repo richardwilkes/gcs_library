@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="962be2a1-db57-4d70-b4b6-e64cab36f87e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>War Cleric</name>
 			<reference>DF1:4</reference>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attributes</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Dexterity</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -26,7 +26,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Health</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -41,7 +41,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Intelligence</name>
 					<type>Mental</type>
 					<levels>4</levels>
@@ -56,7 +56,7 @@
 						<amount per_level="yes">1</amount>
 					</attribute_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>2</levels>
@@ -91,12 +91,12 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Class Advantages</name>
-				<advantage_container version="2" open="no" type="race">
+				<advantage_container version="3" open="no" type="race">
 					<name>20 Points Chosen From:</name>
 					<notes>or from additional holy Abilities</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Charisma</name>
 						<type>Mental</type>
 						<levels>3</levels>
@@ -109,25 +109,29 @@
 						<skill_bonus>
 							<name compare="is">fortune-telling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">panhandling</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Combat Reflexes</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -139,6 +143,7 @@
 						<skill_bonus>
 							<name compare="starts with">fast-draw</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<attribute_bonus>
@@ -164,7 +169,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Extra Fatigue Points</name>
 						<type>Physical</type>
 						<levels>6</levels>
@@ -179,7 +184,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fearlessness</name>
 						<type>Mental</type>
 						<levels>7</levels>
@@ -189,7 +194,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Dexterity</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -209,7 +214,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -224,7 +229,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Intelligence</name>
 						<type>Mental</type>
 						<levels>1</levels>
@@ -239,7 +244,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Strength</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -273,7 +278,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Will</name>
 						<type>Mental</type>
 						<levels>4</levels>
@@ -288,7 +293,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Language: @Language@</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -365,7 +370,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Luck</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -400,7 +405,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Mind Shield</name>
 						<type>Mental, Exotic</type>
 						<levels>5</levels>
@@ -430,7 +435,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Power Investiture</name>
 						<type>Mental, Supernatural</type>
 						<levels>2</levels>
@@ -442,9 +447,10 @@
 						<spell_bonus>
 							<college_name compare="is">Clerical</college_name>
 							<amount>1</amount>
+							<category compare="is anything"></category>
 						</spell_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -491,7 +497,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant</name>
 						<type>Physical</type>
 						<modifier version="1" enabled="no">
@@ -538,7 +544,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Signature Gear</name>
 						<type>Social</type>
 						<reference>B85</reference>
@@ -546,7 +552,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Healer)</name>
 						<type>Mental</type>
 						<levels>2</levels>
@@ -558,50 +564,59 @@
 						<skill_bonus>
 							<name compare="is">diagnosis</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">esoteric medicine</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">first aid</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">pharmacy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">physician</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">physiology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">psychology</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">surgery</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="contains">veterinary</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Talent (Born War Leader)</name>
 						<type>Physical</type>
 						<levels>3</levels>
@@ -613,30 +628,35 @@
 						<skill_bonus>
 							<name compare="is">leadership</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">strategy</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="starts with">tactics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">intelligence analysis</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">savoir-faire</name>
 							<specialization compare="is">military</specialization>
+							<category compare="is anything"></category>
 							<amount per_level="yes">1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unfazeable</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -646,10 +666,10 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>25 Points in holy abilities</name>
 					<notes>put leftovers into spells</notes>
-					<advantage_container version="2" open="no">
+					<advantage_container version="3" open="no">
 						<name>Holy Might</name>
 						<modifier version="1">
 							<name>Power Modifier</name>
@@ -662,7 +682,7 @@
 						<categories>
 							<category>Advantage</category>
 						</categories>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Ally (@Divine servant of equal points@)</name>
 							<type>Social</type>
 							<modifier version="1" enabled="no">
@@ -840,7 +860,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Ally (@Divine servant of equal points@)</name>
 							<type>Social</type>
 							<modifier version="1" enabled="no">
@@ -1018,7 +1038,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Blessed</name>
 							<type>Mental, Supernatural</type>
 							<base_points>10</base_points>
@@ -1027,7 +1047,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Detect</name>
 							<type>Mental/Physical, Exotic</type>
 							<modifier version="1" enabled="no">
@@ -1083,7 +1103,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Hard to Subdue</name>
 							<type>Physical</type>
 							<levels>4</levels>
@@ -1093,7 +1113,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Intuition</name>
 							<type>Mental</type>
 							<base_points>15</base_points>
@@ -1108,7 +1128,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Oracle</name>
 							<type>Mental, Supernatural</type>
 							<base_points>15</base_points>
@@ -1123,7 +1143,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Patron</name>
 							<type>Social</type>
 							<modifier version="1" enabled="no">
@@ -1266,7 +1286,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Patron</name>
 							<type>Social</type>
 							<modifier version="1" enabled="no">
@@ -1409,7 +1429,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Spirit Empathy</name>
 							<type>Mental, Supernatural</type>
 							<base_points>10</base_points>
@@ -1431,7 +1451,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Striking ST</name>
 							<type>Physical, Exotic</type>
 							<levels>5</levels>
@@ -1475,7 +1495,7 @@
 								<amount per_level="yes">1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Terrain Adaptation (Mud)</name>
 							<type>Physical, Exotic</type>
 							<base_points>5</base_points>
@@ -1496,7 +1516,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>True Faith</name>
 							<type>Mental, Supernatural</type>
 							<base_points>15</base_points>
@@ -1524,7 +1544,7 @@
 								<category>Advantage</category>
 							</categories>
 						</advantage>
-						<advantage version="2">
+						<advantage version="3">
 							<name>Terror</name>
 							<type>Mental, Supernatural</type>
 							<levels>1</levels>
@@ -1555,7 +1575,7 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Clerical Investment</name>
 					<type>Social</type>
 					<base_points>5</base_points>
@@ -1564,7 +1584,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Power Investiture</name>
 					<type>Mental, Supernatural</type>
 					<levels>3</levels>
@@ -1576,14 +1596,15 @@
 					<spell_bonus>
 						<college_name compare="is">Clerical</college_name>
 						<amount per_level="yes">1</amount>
+						<category compare="is anything"></category>
 					</spell_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>Class Disadvantages</name>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>Choose One of:</name>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Temper</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1593,7 +1614,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Berserk</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1608,7 +1629,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Gentleman's)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1617,7 +1638,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Soldier's)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1626,7 +1647,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Impulsiveness</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1636,7 +1657,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1647,10 +1668,10 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no" type="race">
+				<advantage_container version="3" open="no" type="race">
 					<name>A further -25 Points chosen from:</name>
 					<notes>or any of the above lists</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Charitable</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -1660,7 +1681,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Chivalry)</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -1669,7 +1690,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Gentleman's)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1678,7 +1699,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Code of Honor (Professional)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1687,7 +1708,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Compulsive Generosity</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1703,7 +1724,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Gluttony</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1713,7 +1734,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Miserliness</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1723,7 +1744,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overconfidence</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1733,7 +1754,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Overweight</name>
 						<type>Physical</type>
 						<base_points>-1</base_points>
@@ -1745,20 +1766,23 @@
 						<skill_bonus>
 							<name compare="is">disguise</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">shadowing</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">swimming</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Selfless</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1768,7 +1792,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1778,7 +1802,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Sense of Duty</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -1822,7 +1846,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Stubbornness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1831,7 +1855,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Truthfulness</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1843,10 +1867,11 @@
 						<skill_bonus>
 							<name compare="is">fast talk</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>-5</amount>
 						</skill_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Weirdness Magnet</name>
 						<type>Mental, Supernatural</type>
 						<base_points>-15</base_points>
@@ -1862,10 +1887,10 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="no" type="meta trait">
+				<advantage_container version="3" open="no" type="meta trait">
 					<name>Another -15 Points chosen from:</name>
 					<notes>or those above</notes>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Bad Temper</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1875,7 +1900,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Berserk</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1890,7 +1915,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Mysticism)</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1899,7 +1924,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Disciplines of Faith (Ritualism)</name>
 						<type>Mental</type>
 						<base_points>-5</base_points>
@@ -1908,7 +1933,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Fanaticism</name>
 						<type>Mental</type>
 						<base_points>-15</base_points>
@@ -1923,7 +1948,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (All other religions)</name>
 						<type>Mental</type>
 						<modifier version="1" enabled="no">
@@ -1955,7 +1980,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Intolerance (Evil religions)</name>
 						<type>Mental</type>
 						<modifier version="1">
@@ -1987,7 +2012,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Jealousy</name>
 						<type>Mental</type>
 						<base_points>-10</base_points>
@@ -1996,7 +2021,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Vow (Chastity)</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
@@ -2005,7 +2030,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth (Poor)</name>
 						<type>Social</type>
 						<base_points>-15</base_points>
@@ -2014,7 +2039,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wealth (Struggling)</name>
 						<type>Social</type>
 						<base_points>-10</base_points>
@@ -2028,11 +2053,11 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>War Cleric</name>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Primary Skills</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Esoteric Medicine</name>
 					<difficulty>Per/H</difficulty>
 					<points>2</points>
@@ -2046,7 +2071,7 @@
 						<modifier>-6</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Exorcism</name>
 					<difficulty>Will/H</difficulty>
 					<points>2</points>
@@ -2074,7 +2099,7 @@
 						<modifier>-3</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Savoir-Faire</name>
 					<specialization>Military</specialization>
 					<difficulty>IQ/E</difficulty>
@@ -2090,13 +2115,13 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill_container version="2" open="yes">
+				<skill_container version="3" open="yes">
 					<name>Choose One Melee Package</name>
-					<skill_container version="2" open="no">
+					<skill_container version="3" open="no">
 						<name>Melee 1</name>
-						<skill_container version="2" open="no">
+						<skill_container version="3" open="no">
 							<name>One of:</name>
-							<skill version="2">
+							<skill version="3">
 								<name>Axe/Mace</name>
 								<difficulty>DX/A</difficulty>
 								<points>8</points>
@@ -2120,7 +2145,7 @@
 									<modifier>-4</modifier>
 								</default>
 							</skill>
-							<skill version="2">
+							<skill version="3">
 								<name>Broadsword</name>
 								<difficulty>DX/A</difficulty>
 								<points>8</points>
@@ -2160,7 +2185,7 @@
 								</default>
 							</skill>
 						</skill_container>
-						<skill version="2">
+						<skill version="3">
 							<name>Shield</name>
 							<specialization>Shield</specialization>
 							<difficulty>DX/E</difficulty>
@@ -2176,9 +2201,9 @@
 							</default>
 						</skill>
 					</skill_container>
-					<skill_container version="2" open="no">
+					<skill_container version="3" open="no">
 						<name>Melee 2</name>
-						<skill version="2">
+						<skill version="3">
 							<name>Flail</name>
 							<difficulty>DX/H</difficulty>
 							<points>8</points>
@@ -2202,7 +2227,7 @@
 								<modifier>-3</modifier>
 							</default>
 						</skill>
-						<skill version="2">
+						<skill version="3">
 							<name>Shield</name>
 							<specialization>Shield</specialization>
 							<difficulty>DX/E</difficulty>
@@ -2218,9 +2243,9 @@
 							</default>
 						</skill>
 					</skill_container>
-					<skill_container version="2" open="no">
+					<skill_container version="3" open="no">
 						<name>Melee 3</name>
-						<skill version="2">
+						<skill version="3">
 							<name>Staff</name>
 							<difficulty>DX/A</difficulty>
 							<points>12</points>
@@ -2246,9 +2271,9 @@
 						</skill>
 					</skill_container>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Choose One of:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Innate Attack</name>
 						<specialization>Beam</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2268,7 +2293,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Innate Attack</name>
 						<specialization>Breath</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2288,7 +2313,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Innate Attack</name>
 						<specialization>Gaze</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2308,7 +2333,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Innate Attack</name>
 						<specialization>Projectile</specialization>
 						<difficulty>DX/E</difficulty>
@@ -2328,7 +2353,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Sling</name>
 						<difficulty>DX/H</difficulty>
 						<points>4</points>
@@ -2342,7 +2367,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Throwing</name>
 						<difficulty>DX/A</difficulty>
 						<points>4</points>
@@ -2363,9 +2388,9 @@
 						</default>
 					</skill>
 				</skill_container>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Spend 3 points on combat skills or:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Soldier</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2379,7 +2404,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Tactics</name>
 						<difficulty>IQ/H</difficulty>
 						<points>1</points>
@@ -2400,9 +2425,9 @@
 					</skill>
 				</skill_container>
 			</skill_container>
-			<skill_container version="2" open="no">
+			<skill_container version="3" open="no">
 				<name>Secondary Skills</name>
-				<skill version="2">
+				<skill version="3">
 					<name>Diagnosis</name>
 					<tech_level/>
 					<difficulty>IQ/H</difficulty>
@@ -2431,7 +2456,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>First Aid</name>
 					<tech_level/>
 					<difficulty>IQ/E</difficulty>
@@ -2461,7 +2486,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Hidden Lore</name>
 					<specialization>@Demons, Spirits or Undead@</specialization>
 					<difficulty>IQ/A</difficulty>
@@ -2471,7 +2496,7 @@
 						<category>Knowledge</category>
 					</categories>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Meditation</name>
 					<difficulty>Will/H</difficulty>
 					<points>1</points>
@@ -2489,7 +2514,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Occultism</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -2502,7 +2527,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Public Speaking</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -2532,7 +2557,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Religious Ritual</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -2551,7 +2576,7 @@
 						<modifier>-4</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Surgery</name>
 					<tech_level/>
 					<difficulty>IQ/VH</difficulty>
@@ -2591,7 +2616,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Teaching</name>
 					<difficulty>IQ/A</difficulty>
 					<points>1</points>
@@ -2605,7 +2630,7 @@
 						<modifier>-5</modifier>
 					</default>
 				</skill>
-				<skill version="2">
+				<skill version="3">
 					<name>Theology</name>
 					<difficulty>IQ/H</difficulty>
 					<points>1</points>
@@ -2624,11 +2649,11 @@
 					</default>
 				</skill>
 			</skill_container>
-			<skill_container version="2" open="yes">
+			<skill_container version="3" open="yes">
 				<name>Background Skills</name>
-				<skill_container version="2" open="no">
+				<skill_container version="3" open="no">
 					<name>Five of:</name>
-					<skill version="2">
+					<skill version="3">
 						<name>Armoury</name>
 						<specialization>@Armor type@</specialization>
 						<tech_level/>
@@ -2650,7 +2675,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Climbing</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/A</difficulty>
@@ -2666,7 +2691,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Gesture</name>
 						<difficulty>IQ/E</difficulty>
 						<points>1</points>
@@ -2679,7 +2704,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Hiking</name>
 						<difficulty>HT/A</difficulty>
 						<points>1</points>
@@ -2693,7 +2718,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Interrogation</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2718,7 +2743,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Observation</name>
 						<difficulty>Per/A</difficulty>
 						<points>1</points>
@@ -2739,7 +2764,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Panhandling</name>
 						<difficulty>IQ/E</difficulty>
 						<points>1</points>
@@ -2763,7 +2788,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Research</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2798,7 +2823,7 @@
 							<modifier>-3</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Savoir-Faire</name>
 						<specialization>High Society</specialization>
 						<difficulty>IQ/E</difficulty>
@@ -2820,7 +2845,7 @@
 							<modifier>-2</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Scrounging</name>
 						<difficulty>Per/E</difficulty>
 						<points>1</points>
@@ -2833,7 +2858,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Search</name>
 						<difficulty>Per/A</difficulty>
 						<points>1</points>
@@ -2852,7 +2877,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Soldier</name>
 						<tech_level/>
 						<difficulty>IQ/A</difficulty>
@@ -2866,7 +2891,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Stealth</name>
 						<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 						<difficulty>DX/A</difficulty>
@@ -2886,7 +2911,7 @@
 							<modifier>-5</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Strategy</name>
 						<specialization>Land</specialization>
 						<difficulty>IQ/H</difficulty>
@@ -2915,7 +2940,7 @@
 							<modifier>-4</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Tactics</name>
 						<difficulty>IQ/H</difficulty>
 						<points>1</points>
@@ -2934,7 +2959,7 @@
 							<modifier>-6</modifier>
 						</default>
 					</skill>
-					<skill version="2">
+					<skill version="3">
 						<name>Writing</name>
 						<difficulty>IQ/A</difficulty>
 						<points>1</points>
@@ -2953,17 +2978,17 @@
 		</skill_container>
 	</skill_list>
 	<spell_list>
-		<spell_container version="2" open="yes">
+		<spell_container version="3" open="yes">
 			<name>War Cleric</name>
-			<spell_container version="2" open="yes">
+			<spell_container version="3" open="yes">
 				<name>Choose 20 of:</name>
-				<spell_container version="2" open="no">
+				<spell_container version="3" open="no">
 					<name>Power Investiture</name>
 					<notes>1</notes>
 					<categories>
 						<category>Clerical</category>
 					</categories>
-					<spell version="2">
+					<spell version="3">
 						<name>Bravery</name>
 						<college>Clerical</college>
 						<power_source>Arcane</power_source>
@@ -2984,9 +3009,9 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell_container version="2" open="yes">
+					<spell_container version="3" open="yes">
 						<name>And choose from:</name>
-						<spell version="2">
+						<spell version="3">
 							<name>Armor</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3007,7 +3032,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Awaken</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3028,7 +3053,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Cleansing</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3049,7 +3074,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Command</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3070,7 +3095,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Coolness</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3091,7 +3116,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Detect Magic</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3112,7 +3137,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Detect Poison</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3133,7 +3158,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Fear</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3154,7 +3179,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Final Rest</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3175,7 +3200,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Great Voice</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3196,7 +3221,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Lend Energy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3217,7 +3242,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Lend Vitality</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3238,7 +3263,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Might</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3259,7 +3284,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Purify Air</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3280,7 +3305,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Purify Water</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3301,7 +3326,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Recover Energy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3322,7 +3347,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Cold</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3343,7 +3368,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Disease</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3364,7 +3389,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Sense Foes</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3385,7 +3410,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Share Vitality</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3406,7 +3431,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Shield</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3427,7 +3452,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Silence</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3448,7 +3473,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Thunderclap</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3469,7 +3494,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Vigor</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3490,7 +3515,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Warmth</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3511,7 +3536,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Watchdog</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3534,13 +3559,13 @@
 						</spell>
 					</spell_container>
 				</spell_container>
-				<spell_container version="2" open="no">
+				<spell_container version="3" open="no">
 					<name>Power Investiture</name>
 					<notes>2</notes>
 					<categories>
 						<category>Clerical</category>
 					</categories>
-					<spell version="2">
+					<spell version="3">
 						<name>Magic Resistance</name>
 						<college>Clerical</college>
 						<power_source>Arcane</power_source>
@@ -3561,9 +3586,9 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell_container version="2" open="yes">
+					<spell_container version="3" open="yes">
 						<name>And choose from:</name>
-						<spell version="2">
+						<spell version="3">
 							<name>Berserker</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3584,7 +3609,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Compel Truth</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3605,7 +3630,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Create Water</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3626,7 +3651,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Flaming Weapon</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3648,7 +3673,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Grace</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3669,7 +3694,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Haste</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3690,7 +3715,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Iron Arm</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3711,7 +3736,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Light</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3732,7 +3757,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Minor healing</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3753,7 +3778,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Purify Food</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3774,7 +3799,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Acid</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3795,7 +3820,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Fire</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3816,7 +3841,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Pain</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3837,7 +3862,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Poison</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3858,7 +3883,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Pressure</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3879,7 +3904,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Sense Spirit</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3900,7 +3925,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Strengthen Will</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3921,7 +3946,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Test Food</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3942,7 +3967,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Turn Spirit</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3963,7 +3988,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Turn Zombie</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -3986,13 +4011,13 @@
 						</spell>
 					</spell_container>
 				</spell_container>
-				<spell_container version="2" open="no">
+				<spell_container version="3" open="no">
 					<name>Power Investiture</name>
 					<notes>3</notes>
 					<categories>
 						<category>Clerical</category>
 					</categories>
-					<spell version="2">
+					<spell version="3">
 						<name>Oath</name>
 						<college>Clerical</college>
 						<power_source>Arcane</power_source>
@@ -4013,9 +4038,9 @@
 							</advantage_prereq>
 						</prereq_list>
 					</spell>
-					<spell_container version="2" open="yes">
+					<spell_container version="3" open="yes">
 						<name>And choose from:</name>
-						<spell version="2">
+						<spell version="3">
 							<name>Affect Spirits</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4036,7 +4061,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Aura</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4057,7 +4082,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Body-Reading</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4078,7 +4103,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Clean</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4099,7 +4124,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Command Spirit (@spirit@)</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4120,7 +4145,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Continual Light</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4141,7 +4166,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Create Food</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4162,7 +4187,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Dispel Possession</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4183,7 +4208,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Fog</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4205,7 +4230,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Message</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4227,7 +4252,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Neutralize Poison</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4248,7 +4273,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Peaceful Sleep</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4269,7 +4294,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Relieve Paralysis</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4290,7 +4315,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Relieve Sickness</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4311,7 +4336,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Remove Contagion</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4332,7 +4357,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Repel Spirits</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4353,7 +4378,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Resist Lightning</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4374,7 +4399,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Stop Bleeding</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4395,7 +4420,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Stop Paralysis</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4416,7 +4441,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Summon Spirit</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4437,7 +4462,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Terror</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4458,7 +4483,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Vigil</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4481,15 +4506,15 @@
 						</spell>
 					</spell_container>
 				</spell_container>
-				<spell_container version="2" open="yes">
+				<spell_container version="3" open="yes">
 					<name>if chosen from advantages</name>
-					<spell_container version="2" open="no">
+					<spell_container version="3" open="no">
 						<name>Power Investiture</name>
 						<notes>4</notes>
 						<categories>
 							<category>Clerical</category>
 						</categories>
-						<spell version="2">
+						<spell version="3">
 							<name>Animal Control (@Animal@)</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4510,7 +4535,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Astral Vision</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4531,7 +4556,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Banish</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4552,7 +4577,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Breathe Water</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4573,7 +4598,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Conceal</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4594,7 +4619,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Cure Disease</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4615,7 +4640,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Dispel Magic</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4636,7 +4661,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Astrology</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4657,7 +4682,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Augury</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4678,7 +4703,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Cartomancy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4699,7 +4724,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Crystal-Gazing</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4720,7 +4745,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Dactylomancy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4741,7 +4766,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Extispicy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4762,7 +4787,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Gastromancy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4783,7 +4808,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Geomancy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4804,7 +4829,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Lecanomancy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4825,7 +4850,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Numerology</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4846,7 +4871,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Oneiromancy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4867,7 +4892,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Physiognomy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4888,7 +4913,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Pyromancy</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4909,7 +4934,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Sortilege</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4930,7 +4955,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Divination: Symbol-Casting</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4951,7 +4976,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Gift of Letters</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4972,7 +4997,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Gift of Tongues</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -4993,7 +5018,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Healing Slumber</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5014,7 +5039,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Instant Neutralize Poison</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5035,7 +5060,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Major Healing</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5056,7 +5081,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Monk's Banquet</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5077,7 +5102,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Restoration</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5098,7 +5123,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Rider (@Animal@)</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5119,7 +5144,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>See Secrets</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5140,7 +5165,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Seeker</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5161,7 +5186,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Silver Tongue</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5182,7 +5207,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Stop Spasm</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5203,7 +5228,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Sunlight</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5224,7 +5249,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Suspend Curse</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5245,7 +5270,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Truthsayer</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5267,13 +5292,13 @@
 							</prereq_list>
 						</spell>
 					</spell_container>
-					<spell_container version="2" open="no">
+					<spell_container version="3" open="no">
 						<name>Power Investiture</name>
 						<notes>5</notes>
 						<categories>
 							<category>Clerical</category>
 						</categories>
-						<spell version="2">
+						<spell version="3">
 							<name>Astral Block</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5294,7 +5319,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Bless</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5315,7 +5340,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Continual Sunlight</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5336,7 +5361,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Curse</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5357,7 +5382,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Entrap Spirit</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5378,7 +5403,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Great Haste</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5399,7 +5424,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Great Healing</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5420,7 +5445,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Persuasion</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5441,7 +5466,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Regeneration</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5462,7 +5487,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Relieve Madness</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5483,7 +5508,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Remove Curse</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5504,7 +5529,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Stone to Flesh</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5525,7 +5550,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Suspend Mana</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5546,7 +5571,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Wisdom</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5567,7 +5592,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Restore Speech</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5588,7 +5613,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Restore Sight</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5609,7 +5634,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Restore Hearing</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5630,7 +5655,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Restore Memory</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5652,10 +5677,10 @@
 							</prereq_list>
 						</spell>
 					</spell_container>
-					<spell_container version="2" open="no">
+					<spell_container version="3" open="no">
 						<name>Power Investiture</name>
 						<notes>6</notes>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Bind Spirit (@Spirit@)</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5676,7 +5701,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Concussion</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5686,7 +5711,7 @@
 							<casting_time>1-3 sec</casting_time>
 							<duration>Instant</duration>
 							<ranged_weapon>
-								<damage>1d cr ex/2 points</damage>
+								<damage type="cr ex/2 points" base="1d"/>
 								<accuracy>1</accuracy>
 								<range>20/40</range>
 								<default>
@@ -5713,7 +5738,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Drain Mana</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5734,7 +5759,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Earthquake</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5755,7 +5780,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Instant Restoration</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5776,7 +5801,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Instant Regeneration</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5797,7 +5822,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Lesser Geas</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5818,7 +5843,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Pentagram</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5839,7 +5864,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Planar Summons (Divine Servitor)</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5860,7 +5885,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2" very_hard="yes">
+						<spell version="3" very_hard="yes">
 							<name>Resurrection</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>
@@ -5882,7 +5907,7 @@
 								</advantage_prereq>
 							</prereq_list>
 						</spell>
-						<spell version="2">
+						<spell version="3">
 							<name>Storm</name>
 							<college>Clerical</college>
 							<power_source>Arcane</power_source>

@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character unique_id="hrg3qxr3:1jh2kfpt324ij" version="2">
+<character id="b702b4f6-62d2-467f-b897-072c6c114a88" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Jan 19, 2016 10:00 AM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Doomchild</name>
 		<age>0</age>
 		<SM>-1</SM>
 		<race>Demon</race>
-		<notes>Doomchild (DF2:22)
-
-Doomchildren (plural -- there's always a horde) are pintsized demons, barely sapient, that attack viciously with unexpected strength and speed. Bulging eyes and bloated heads mar their disturbingly childlike appearance. They're very fragile; one solid hit will kill them. On dying, though, they explode in a cloud of flame, just like a magical fireball.
-
-Unwilling to negotiate. Truly evil.
-
-Death Blast:
-    Innate Attack, Base Cost (Burn): 5/die
-    Damage (3d): 3 dice
-    Explosion: +50%
-    Fragmentation: +15%/die * 1d = +15%
-    Uncontrollable: -30%
-    Unconscious Only: -20%
-    Trigger, Death (Rare, Dangerous): -60%
-    Reduced Range (Point Blank): -30%
-    Cost = (5 * 3) @ (+50+15-30-20-60-30)% = 4 pts</notes>
+		<body_type>humanoid</body_type>
 	</profile>
 	<HP>0</HP>
 	<FP>0</FP>
@@ -39,7 +24,7 @@ Death Blast:
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striking ST</name>
 			<type>Physical, Exotic</type>
 			<levels>10</levels>
@@ -77,7 +62,7 @@ Death Blast:
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Berserk</name>
 			<type>Mental</type>
 			<base_points>-10</base_points>
@@ -92,7 +77,7 @@ Death Blast:
 				<category>Disadvantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Breathe</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -161,7 +146,7 @@ Death Blast:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Eat or Drink</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -170,7 +155,7 @@ Death Blast:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Doesn't Sleep</name>
 			<type>Physical, Exotic</type>
 			<base_points>20</base_points>
@@ -179,7 +164,7 @@ Death Blast:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Immunity to Metabolic Hazards</name>
 			<type>Physical</type>
 			<base_points>30</base_points>
@@ -227,7 +212,7 @@ Death Blast:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Indomitable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -236,7 +221,7 @@ Death Blast:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Unfazeable</name>
 			<type>Mental</type>
 			<base_points>15</base_points>
@@ -251,12 +236,12 @@ Death Blast:
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Death Blast</name>
 			<type>Physical, Exotic</type>
 			<base_points>4</base_points>
 			<ranged_weapon>
-				<damage>3d burn</damage>
+				<damage type="burn" base="3d"/>
 				<accuracy>0</accuracy>
 				<range>0</range>
 				<rate_of_fire>1</rate_of_fire>
@@ -474,7 +459,7 @@ Death Blast:
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Knife</name>
 			<difficulty>DX/E</difficulty>
 			<points>1</points>
@@ -505,7 +490,7 @@ Death Blast:
 		</skill>
 	</skill_list>
 	<equipment_list>
-		<equipment version="3" state="equipped">
+		<equipment version="6" equipped="yes">
 			<quantity>1</quantity>
 			<description>Large Knife</description>
 			<tech_level>0</tech_level>
@@ -514,7 +499,7 @@ Death Blast:
 			<weight>1 lb</weight>
 			<reference>B272</reference>
 			<melee_weapon>
-				<damage>sw-2 cut</damage>
+				<damage type="cut" st="sw" base="-2"/>
 				<strength>6</strength>
 				<usage>Swung</usage>
 				<reach>C,1</reach>
@@ -551,7 +536,7 @@ Death Blast:
 				</default>
 			</melee_weapon>
 			<melee_weapon>
-				<damage>thr imp</damage>
+				<damage type="imp" st="thr"/>
 				<strength>6</strength>
 				<usage>Thrust</usage>
 				<reach>C</reach>
@@ -588,7 +573,7 @@ Death Blast:
 				</default>
 			</melee_weapon>
 			<ranged_weapon>
-				<damage>thr imp</damage>
+				<damage type="imp" st="thr"/>
 				<strength>6</strength>
 				<usage>Thrown</usage>
 				<accuracy>+0</accuracy>
@@ -613,7 +598,27 @@ Death Blast:
 			</categories>
 		</equipment>
 	</equipment_list>
-	<print_settings units="in">
+	<note_list>
+		<note version="1">
+			<text>Doomchild (DF2:22)
+
+Doomchildren (plural -- there's always a horde) are pintsized demons, barely sapient, that attack viciously with unexpected strength and speed. Bulging eyes and bloated heads mar their disturbingly childlike appearance. They're very fragile; one solid hit will kill them. On dying, though, they explode in a cloud of flame, just like a magical fireball.
+
+Unwilling to negotiate. Truly evil.
+
+Death Blast:
+    Innate Attack, Base Cost (Burn): 5/die
+    Damage (3d): 3 dice
+    Explosion: +50%
+    Fragmentation: +15%/die * 1d = +15%
+    Uncontrollable: -30%
+    Unconscious Only: -20%
+    Trigger, Death (Rare, Dangerous): -60%
+    Reduced Range (Point Blank): -30%
+    Cost = (5 * 3) @ (+50+15-30-20-60-30)% = 4 pts</text>
+		</note>
+	</note_list>
+	<print_settings printer="HP Color LaserJet M452dw (4EB237)" units="in">
 		<orientation>portrait</orientation>
 		<width>8.267716407775879</width>
 		<height>11.692913055419922</height>
@@ -623,6 +628,8 @@ Death Blast:
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

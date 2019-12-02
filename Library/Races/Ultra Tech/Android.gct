@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ino60egs:-9dw7al689fdx" version="1">
+<template id="ae48624f-6626-4856-83b9-f2ddfa01b03e" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes" type="race">
+		<advantage_container version="3" open="yes" type="race">
 			<name>Android</name>
 			<reference>UT41</reference>
 			<categories>
 				<category>Race</category>
 				<category>Robot</category>
 			</categories>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Advantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Absolute Direction</name>
 					<type>Mental/Physical</type>
 					<base_points>5</base_points>
@@ -28,26 +28,31 @@
 						<skill_bonus>
 							<name compare="starts with">piloting</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">aerobatics</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">free fall</name>
 							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">hyperspace</specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
 							<name compare="is">navigation</name>
 							<specialization compare="is">space</specialization>
+							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 					</modifier>
@@ -58,25 +63,29 @@
 					<skill_bonus>
 						<name compare="is">body sense</name>
 						<specialization compare="is anything"></specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">air</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">land</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 					<skill_bonus>
 						<name compare="is">navigation</name>
 						<specialization compare="is">sea</specialization>
+						<category compare="is anything"></category>
 						<amount>3</amount>
 					</skill_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Damage Resistance</name>
 					<type>Physical, Exotic</type>
 					<levels>5</levels>
@@ -196,7 +205,7 @@
 						<amount per_level="yes">1</amount>
 					</dr_bonus>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Doesn't Breathe</name>
 					<type>Physical, Exotic</type>
 					<base_points>20</base_points>
@@ -265,50 +274,50 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage_container version="2" open="yes" type="meta trait">
+				<advantage_container version="3" open="yes" type="meta trait">
 					<name>Meta-Trait: Machine</name>
 					<reference>B263</reference>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Eight-hour energy reserve, Refuel 3 times per day</name>
 						<type>Physical</type>
 						<reference>B263</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Injury Tolerance (No Blood)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
 						<reference>B61</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Injury Tolerance (Unliving)</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
 						<reference>B61</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No fatigue points, Don't spend fatigue points</name>
 						<type>Physical</type>
 						<reference>B263</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Resistant (Immunity to Metabolic Hazards)</name>
 						<type>Physical</type>
 						<base_points>30</base_points>
 						<reference>B81</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Unhealing (Total)</name>
 						<type>Physical, Exotic</type>
 						<base_points>-30</base_points>
 						<reference>B160</reference>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Wears out instead of aging</name>
 						<type>Physical</type>
 						<reference>B263</reference>
 					</advantage>
 				</advantage_container>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Payload (@Load@)</name>
 					<type>Physical, Exotic</type>
 					<levels>1</levels>
@@ -324,7 +333,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Protected Sense (Vision)</name>
 					<type>Physical, Exotic</type>
 					<base_points>5</base_points>
@@ -333,7 +342,7 @@
 						<category>Advantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Telecommunication</name>
 					<type>Mental/Physical, Exotic</type>
 					<modifier version="1" enabled="no">
@@ -463,9 +472,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Attribute Modifiers</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Increased Strength</name>
 					<type>Physical</type>
 					<levels>3</levels>
@@ -500,16 +509,16 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Configuration Lenses</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: Artificial Womb (TL10)</name>
 					<reference>UT41</reference>
 					<notes>$10,000. LC3.</notes>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Payload (Womb: @Womb Capacity@)</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
@@ -526,14 +535,14 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: Child Body</name>
 					<reference>UT41</reference>
 					<notes>-40% to cost.</notes>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>No ST bonus</name>
 						<type>Physical</type>
 						<prereq_list all="yes">
@@ -545,9 +554,9 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Disadvantages</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Electrical</name>
 					<type>Physical, Exotic</type>
 					<base_points>-20</base_points>
@@ -556,7 +565,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Restricted Diet (Power Cells)</name>
 					<type>Physical</type>
 					<base_points>-10</base_points>
@@ -571,9 +580,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Perks</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Accessory (Personal computer)</name>
 					<type>Physical, Exotic</type>
 					<base_points>1</base_points>
@@ -583,9 +592,9 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>Secondary Characteristic Modifiers</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Extra Hit Points</name>
 					<type>Physical</type>
 					<levels>7</levels>
@@ -612,16 +621,16 @@
 					</attribute_bonus>
 				</advantage>
 			</advantage_container>
-			<advantage_container version="2" open="no">
+			<advantage_container version="3" open="no">
 				<name>TL Lenses</name>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: TL9 Model</name>
 					<reference>UT41</reference>
 					<notes>$75,000. 150-250lbs. 2D/8hr. LC4.</notes>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Maintenance</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -760,14 +769,14 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: TL10 Model</name>
 					<reference>UT41</reference>
 					<notes>$50,000. 100-250lbs. 2D/24hr. LC4.</notes>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -782,7 +791,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Maintenance</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -920,7 +929,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Reduced Consumption</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -949,14 +958,14 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: TL11 Model</name>
 					<reference>UT41</reference>
 					<notes>$30,000. 70-250lbs. 4D/1 week. LC4.</notes>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -971,7 +980,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Maintenance</name>
 						<type>Physical</type>
 						<modifier version="1">
@@ -1109,7 +1118,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Reduced Consumption</name>
 						<type>Physical</type>
 						<levels>3</levels>
@@ -1138,14 +1147,14 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="2" open="yes">
+				<advantage_container version="3" open="yes">
 					<name>Lens: TL12 Model</name>
 					<reference>UT41</reference>
 					<notes>$25,000. 50-250lbs. 4D/1 month. LC4.</notes>
 					<categories>
 						<category>Lens</category>
 					</categories>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Increased Health</name>
 						<type>Physical</type>
 						<levels>3</levels>
@@ -1160,7 +1169,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="2">
+					<advantage version="3">
 						<name>Reduced Consumption</name>
 						<type>Physical</type>
 						<levels>4</levels>

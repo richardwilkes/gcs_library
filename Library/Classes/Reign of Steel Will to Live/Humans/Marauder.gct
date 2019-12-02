@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<template unique_id="ih2rjtus:-ohl44orppe9l" version="1">
+<template id="cd7681e0-71c8-4422-8487-dbe45e09cff6" version="2">
 	<advantage_list>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Advantages</name>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Ally (Other marauders)</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -181,7 +181,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Combat Reflexes</name>
 				<type>Mental</type>
 				<base_points>15</base_points>
@@ -193,6 +193,7 @@
 				<skill_bonus>
 					<name compare="starts with">fast-draw</name>
 					<specialization compare="is anything"></specialization>
+					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
 				<attribute_bonus>
@@ -218,7 +219,7 @@
 					</advantage_prereq>
 				</prereq_list>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Resistant</name>
 				<type>Physical</type>
 				<modifier version="1" enabled="no">
@@ -265,7 +266,7 @@
 					<category>Advantage</category>
 				</categories>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Wealth</name>
 				<type>Social</type>
 				<modifier version="1" enabled="no">
@@ -330,11 +331,11 @@
 				</categories>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes">
+		<advantage_container version="3" open="yes">
 			<name>Class Disadvantages</name>
-			<advantage_container version="2" open="yes">
+			<advantage_container version="3" open="yes">
 				<name>-55 Points in:</name>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bloodlust</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -344,7 +345,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Bully</name>
 					<type>Mental</type>
 					<base_points>-10</base_points>
@@ -354,7 +355,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Code of Honor (Pirate's)</name>
 					<type>Mental</type>
 					<base_points>-5</base_points>
@@ -363,7 +364,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Enemy (Other Marauder gang)</name>
 					<type>Social</type>
 					<modifier version="1" enabled="no">
@@ -481,7 +482,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Greed</name>
 					<type>Mental</type>
 					<base_points>-15</base_points>
@@ -491,7 +492,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Lecherousness</name>
 					<type>Mental</type>
 					<base_points>-15</base_points>
@@ -501,7 +502,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sadism</name>
 					<type>Mental</type>
 					<base_points>-15</base_points>
@@ -511,7 +512,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Sense of Duty</name>
 					<type>Mental</type>
 					<modifier version="1" enabled="no">
@@ -555,7 +556,7 @@
 						<category>Disadvantage</category>
 					</categories>
 				</advantage>
-				<advantage version="2">
+				<advantage version="3">
 					<name>Social Disease</name>
 					<type>Physical</type>
 					<base_points>-5</base_points>
@@ -565,7 +566,7 @@
 					</categories>
 				</advantage>
 			</advantage_container>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Social Stigma (Outlaw)</name>
 				<type>Social</type>
 				<base_points>-15</base_points>
@@ -575,9 +576,9 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>Choose One from:</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Pistol</specialization>
 				<tech_level/>
@@ -647,7 +648,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Shotgun</specialization>
 				<tech_level/>
@@ -711,7 +712,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Guns</name>
 				<specialization>Submachine Gun</specialization>
 				<tech_level/>
@@ -776,7 +777,7 @@
 				</default>
 			</skill>
 		</skill_container>
-		<skill version="2">
+		<skill version="3">
 			<name>Knife</name>
 			<difficulty>DX/E</difficulty>
 			<points>4</points>
@@ -805,7 +806,7 @@
 				<modifier>-4</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Stealth</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
@@ -825,9 +826,9 @@
 				<modifier>-5</modifier>
 			</default>
 		</skill>
-		<skill_container version="2" open="yes">
+		<skill_container version="3" open="yes">
 			<name>14 Points in:</name>
-			<skill version="2">
+			<skill version="3">
 				<name>Acting</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -851,7 +852,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Climbing</name>
 				<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 				<difficulty>DX/A</difficulty>
@@ -867,7 +868,7 @@
 					<modifier>-5</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Driving</name>
 				<specialization>Automobile</specialization>
 				<tech_level/>
@@ -897,7 +898,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Driving</name>
 				<specialization>Motorcycle</specialization>
 				<tech_level/>
@@ -921,7 +922,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>First Aid</name>
 				<tech_level/>
 				<difficulty>IQ/E</difficulty>
@@ -951,7 +952,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Interrogation</name>
 				<difficulty>IQ/A</difficulty>
 				<points>1</points>
@@ -976,7 +977,7 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Intimidation</name>
 				<difficulty>Will/A</difficulty>
 				<points>2</points>
@@ -996,7 +997,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Navigation</name>
 				<specialization>Land</specialization>
 				<tech_level/>
@@ -1036,7 +1037,7 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Riding</name>
 				<specialization>any</specialization>
 				<difficulty>DX/A</difficulty>
@@ -1056,7 +1057,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<skill version="2">
+			<skill version="3">
 				<name>Tactics</name>
 				<difficulty>IQ/H</difficulty>
 				<points>2</points>

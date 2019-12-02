@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<character id="83e42567-a823-4d7f-97bf-576fb48987dc" version="3">
+<character id="83e42567-a823-4d7f-97bf-576fb48987dc" version="4">
 	<created_date>Jan 18, 2016</created_date>
-	<modified_date>Jul 22, 2018, 9:12 AM</modified_date>
+	<modified_date>Dec 2, 2019, 2:33 PM</modified_date>
 	<profile>
 		<name>Frost Snake</name>
 		<age>0</age>
@@ -24,7 +24,7 @@
 	<include_kick>false</include_kick>
 	<include_kick_with_boots>false</include_kick_with_boots>
 	<advantage_list>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>2</levels>
@@ -184,7 +184,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Damage Resistance</name>
 			<type>Physical, Exotic</type>
 			<levels>20</levels>
@@ -344,7 +344,7 @@
 				<amount per_level="yes">1</amount>
 			</dr_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>High Pain Threshold</name>
 			<type>Physical</type>
 			<base_points>10</base_points>
@@ -354,7 +354,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Infravision</name>
 			<type>Physical, Exotic</type>
 			<base_points>10</base_points>
@@ -369,7 +369,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Striking ST</name>
 			<type>Physical, Exotic</type>
 			<levels>3</levels>
@@ -407,7 +407,7 @@
 				<amount per_level="yes">1</amount>
 			</attribute_bonus>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Temperature Tolerance</name>
 			<type>Physical</type>
 			<levels>10</levels>
@@ -418,7 +418,7 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Terrain Adaptation (Ice)</name>
 			<type>Physical, Exotic</type>
 			<base_points>5</base_points>
@@ -439,60 +439,60 @@
 				<category>Advantage</category>
 			</categories>
 		</advantage>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Vermiform</name>
 			<reference>B263</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Double-Jointed</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
 				<reference>B56</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Legs (Slithers)</name>
 				<type>Physical, Exotic</type>
 				<reference>B145</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>No Manipulators</name>
 				<type>Physical</type>
 				<base_points>-50</base_points>
 				<reference>B145</reference>
 			</advantage>
 		</advantage_container>
-		<advantage_container version="2" open="yes" type="meta trait">
+		<advantage_container version="3" open="yes" type="meta trait">
 			<name>Meta-Trait: Wild Animal</name>
 			<reference>B263</reference>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Bestial</name>
 				<type>Mental, Exotic</type>
 				<base_points>-10</base_points>
 				<reference>B124</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Cannot Speak</name>
 				<type>Physical</type>
 				<base_points>-15</base_points>
 				<reference>B125</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Hidebound</name>
 				<type>Physical</type>
 				<base_points>-5</base_points>
 				<reference>B138</reference>
 			</advantage>
-			<advantage version="2">
+			<advantage version="3">
 				<name>Taboo Trait (Fixed IQ)</name>
 				<type>Physical</type>
 				<reference>B263</reference>
 			</advantage>
 		</advantage_container>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Snake Bite</name>
 			<type>Physical, Exotic</type>
 			<base_points>9</base_points>
 			<melee_weapon>
-				<damage>thr-1 cut</damage>
+				<damage type="cut" st="thr" base="-1"/>
 				<usage>Bite</usage>
 				<reach>C</reach>
 				<parry>No</parry>
@@ -513,12 +513,12 @@
 				<category>Perk</category>
 			</categories>
 		</advantage>
-		<advantage version="2">
+		<advantage version="3">
 			<name>Chill Breath</name>
 			<type>Physical, Exotic</type>
 			<base_points>13</base_points>
 			<ranged_weapon>
-				<damage>1d(5) cold</damage>
+				<damage type="cold" base="1d" armor_divisor="5.0"/>
 				<accuracy>0</accuracy>
 				<range>10/5</range>
 				<rate_of_fire>1</rate_of_fire>
@@ -751,7 +751,7 @@
 		</advantage>
 	</advantage_list>
 	<skill_list>
-		<skill version="2">
+		<skill version="3">
 			<name>Brawling</name>
 			<difficulty>DX/E</difficulty>
 			<points>4</points>
@@ -764,10 +764,11 @@
 				<name compare="is">Brawling</name>
 				<specialization compare="is anything"></specialization>
 				<level compare="at least">2</level>
+				<category compare="is anything"></category>
 				<amount per_level="yes">1</amount>
 			</weapon_bonus>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Innate Attack</name>
 			<specialization>Breath</specialization>
 			<difficulty>DX/E</difficulty>
@@ -787,7 +788,7 @@
 				<modifier>-2</modifier>
 			</default>
 		</skill>
-		<skill version="2">
+		<skill version="3">
 			<name>Stealth</name>
 			<encumbrance_penalty_multiplier>1</encumbrance_penalty_multiplier>
 			<difficulty>DX/A</difficulty>
@@ -842,6 +843,8 @@ Chill Breath:
 		<right_margin>0.5</right_margin>
 		<ink_chromaticity>monochrome</ink_chromaticity>
 		<sides>duplex</sides>
+		<number_up>1</number_up>
 		<quality>normal</quality>
+		<resolution>120000</resolution>
 	</print_settings>
 </character>

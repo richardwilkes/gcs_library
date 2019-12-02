@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
-<advantage_list unique_id="ic3r8ev9:pixw3fwotfxj" version="1">
-	<advantage version="2">
+<advantage_list id="fe1390f7-6716-4cb8-a757-9a87b9d372bb" version="1">
+	<advantage version="3">
 		<name>Detect Plant Sapience</name>
 		<type>Mental</type>
 		<base_points>1</base_points>
@@ -10,7 +10,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Druid's Tight Grasp</name>
 		<type>Mental</type>
 		<levels>1</levels>
@@ -23,17 +23,20 @@
 		<spell_bonus>
 			<spell_name compare="is">Capturing Vines</spell_name>
 			<amount per_level="yes">1</amount>
+			<category compare="is anything"></category>
 		</spell_bonus>
 		<spell_bonus>
 			<spell_name compare="is">Grasping Branch</spell_name>
 			<amount per_level="yes">1</amount>
+			<category compare="is anything"></category>
 		</spell_bonus>
 		<spell_bonus>
 			<spell_name compare="is">Undergrowth Ambush</spell_name>
 			<amount per_level="yes">1</amount>
+			<category compare="is anything"></category>
 		</spell_bonus>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Environment Awareness</name>
 		<type>Mental, Supernatural</type>
 		<modifier version="1" enabled="no">
@@ -61,7 +64,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Fresh Cudgel</name>
 		<type>Physical, Supernatural</type>
 		<base_points>1</base_points>
@@ -70,7 +73,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Little Green Digit</name>
 		<type></type>
 		<levels>1</levels>
@@ -80,7 +83,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Plant-Form Rest</name>
 		<type>Mental, Exotic</type>
 		<base_points>1</base_points>
@@ -94,7 +97,7 @@
 			</spell_prereq>
 		</prereq_list>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Sympathetic Species @Species@</name>
 		<type>Mental, Social</type>
 		<levels>1</levels>
@@ -105,7 +108,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Tree-Tickler</name>
 		<type>Physical, Supernatural</type>
 		<base_points>1</base_points>
@@ -114,7 +117,7 @@
 			<category>Perk</category>
 		</categories>
 	</advantage>
-	<advantage version="2">
+	<advantage version="3">
 		<name>Unusual Background</name>
 		<type>Mental</type>
 		<base_points>5</base_points>
