@@ -266,7 +266,21 @@
         <lc type="string">@LEGALITY_CLASS</lc>
         <type type="string">@CATEGORIES</type>
         <notes type="formattedtext"><p>@DESCRIPTION_NOTES @DESCRIPTION_MODIFIER_NOTES_PAREN</p><p>Page Ref: @REF</p></notes>
-      </id-@ID>@EQUIPMENT_LOOP_END
+      </id-@ID>@EQUIPMENT_LOOP_END @CONTINUE_ID @OTHER_EQUIPMENT_LOOP_START
+      <id-@ID>
+        <name type="string">@DESCRIPTION_PRIMARY</name>
+        <isidentified type="number">1</isidentified>
+        <count type="number">@QTY</count>
+        <cost type="string">@COST</cost>
+        <weight type="number">@WEIGHT_RAW</weight>
+        <location type="string">@LOCATION</location>
+        <carried type="number">@CARRIED_STATUS</carried>
+        <tl type="string">@TL</tl>
+        <lc type="string">@LEGALITY_CLASS</lc>
+        <type type="string">@CATEGORIES</type>
+        <notes type="formattedtext"><p>@DESCRIPTION_NOTES @DESCRIPTION_MODIFIER_NOTES_PAREN</p><p>Page Ref: @REF</p></notes>
+      </id-@ID>@OTHER_EQUIPMENT_LOOP_END
+
     </inventorylist>
 
     <pointtotals>
