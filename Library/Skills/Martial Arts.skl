@@ -1269,12 +1269,6 @@
 			<category>Melee Combat</category>
 			<category>Technique</category>
 		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">riding</name>
-				<specialization compare="is anything"></specialization>
-			</skill_prereq>
-		</prereq_list>
 	</technique>
 	<technique version="3" limit="0">
 		<name>Head Lock</name>
@@ -1291,12 +1285,6 @@
 			<category>Melee Combat</category>
 			<category>Technique</category>
 		</categories>
-		<prereq_list all="yes">
-			<skill_prereq has="yes">
-				<name compare="is">riding</name>
-				<specialization compare="is anything"></specialization>
-			</skill_prereq>
-		</prereq_list>
 	</technique>
 	<technique version="3" limit="0">
 		<name>Hook</name>
