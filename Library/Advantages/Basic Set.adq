@@ -47,6 +47,28 @@
 		</categories>
 	</advantage>
 	<advantage version="3">
+		<name>@Type@ Rank</name>
+		<type>Physical</type>
+		<levels>1</levels>
+		<points_per_level>5</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Replaces Status</name>
+			<cost type="points">5</cost>
+			<affects>levels only</affects>
+			<reference>B29</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Courtesy</name>
+			<cost type="points">-4</cost>
+			<affects>levels only</affects>
+			<reference>B29</reference>
+		</modifier>
+		<reference>B29</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="3">
 		<name>Absent-Mindedness</name>
 		<type>Mental</type>
 		<base_points>-15</base_points>
@@ -2799,7 +2821,7 @@
 			<category>Advantage</category>
 		</categories>
 		<dr_bonus>
-			<location>full body</location>
+			<location>full body except eyes</location>
 			<amount per_level="yes">1</amount>
 		</dr_bonus>
 	</advantage>
@@ -4125,33 +4147,35 @@
 	<advantage version="3">
 		<name>Enhanced Block</name>
 		<type>Mental</type>
-		<base_points>5</base_points>
+		<levels>1</levels>
+		<points_per_level>5</points_per_level>
 		<reference>B51</reference>
 		<categories>
 			<category>Advantage</category>
 		</categories>
 		<attribute_bonus>
 			<attribute>block</attribute>
-			<amount>1</amount>
+			<amount per_level="yes">1</amount>
 		</attribute_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Enhanced Dodge</name>
 		<type>Mental</type>
-		<base_points>15</base_points>
+		<levels>1</levels>
+		<points_per_level>15</points_per_level>
 		<reference>B51</reference>
 		<categories>
 			<category>Advantage</category>
 		</categories>
 		<attribute_bonus>
 			<attribute>dodge</attribute>
-			<amount>1</amount>
+			<amount per_level="yes">1</amount>
 		</attribute_bonus>
 	</advantage>
-	<advantage version="3">
+	<advantage version="3" allow_half_levels="yes">
 		<name>Enhanced Move (Air: @New Move@)</name>
 		<type>Physical, Exotic</type>
-		<levels>1</levels>
+		<levels half_level="no">1</levels>
 		<points_per_level>20</points_per_level>
 		<modifier version="1" enabled="no">
 			<name>Handling Bonus</name>
@@ -4204,10 +4228,10 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="3">
+	<advantage version="3" allow_half_levels="yes">
 		<name>Enhanced Move (Ground: @New Move@)</name>
 		<type>Physical, Exotic</type>
-		<levels>1</levels>
+		<levels half_level="no">1</levels>
 		<points_per_level>20</points_per_level>
 		<modifier version="1" enabled="no">
 			<name>Handling Bonus</name>
@@ -4260,10 +4284,10 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="3">
+	<advantage version="3" allow_half_levels="yes">
 		<name>Enhanced Move (Space: @New Move@)</name>
 		<type>Physical, Exotic</type>
-		<levels>1</levels>
+		<levels half_level="no">1</levels>
 		<points_per_level>20</points_per_level>
 		<modifier version="1" enabled="no">
 			<name>Handling Bonus</name>
@@ -4316,10 +4340,10 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="3">
+	<advantage version="3" allow_half_levels="yes">
 		<name>Enhanced Move (Water: @New Move@)</name>
 		<type>Physical, Exotic</type>
-		<levels>1</levels>
+		<levels half_level="no">1</levels>
 		<points_per_level>20</points_per_level>
 		<modifier version="1" enabled="no">
 			<name>Handling Bonus</name>
@@ -4375,7 +4399,8 @@
 	<advantage version="3">
 		<name>Enhanced Parry (@Melee weapon skill@)</name>
 		<type>Mental</type>
-		<base_points>5</base_points>
+		<levels>1</levels>
+		<points_per_level>5</points_per_level>
 		<reference>B51</reference>
 		<notes>Gives +1 bonus to Parry with @Melee weapon skill@ (add manually)</notes>
 		<categories>
@@ -4385,20 +4410,22 @@
 	<advantage version="3">
 		<name>Enhanced Parry (All parries)</name>
 		<type>Mental</type>
-		<base_points>10</base_points>
+		<levels>1</levels>
+		<points_per_level>10</points_per_level>
 		<reference>B51</reference>
 		<categories>
 			<category>Advantage</category>
 		</categories>
 		<attribute_bonus>
 			<attribute>parry</attribute>
-			<amount>1</amount>
+			<amount per_level="yes">1</amount>
 		</attribute_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Enhanced Parry (Bare hands)</name>
 		<type>Mental</type>
-		<base_points>5</base_points>
+		<levels>1</levels>
+		<points_per_level>5</points_per_level>
 		<reference>B51</reference>
 		<notes>Gives +1 bonus to Parry with bare hands (add manually)</notes>
 		<categories>
@@ -4831,6 +4858,10 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
+		<attribute_bonus>
+			<attribute>fright check</attribute>
+			<amount per_level="yes">1</amount>
+		</attribute_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Fewer Fatigue Points</name>
@@ -5311,7 +5342,8 @@
 	<advantage version="3">
 		<name>Ham-Fisted</name>
 		<type>Physical</type>
-		<base_points>-5</base_points>
+		<levels>1</levels>
+		<points_per_level>-5</points_per_level>
 		<reference>B138</reference>
 		<categories>
 			<category>Disadvantage</category>
@@ -5320,49 +5352,49 @@
 			<name compare="contains">artist</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">jeweler</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">knot-tying</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">leatherworking</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">lockpicking</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">pickpocket</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sewing</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">sleight of hand</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>-3</amount>
+			<amount per_level="yes">-3</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">surgery</name>
@@ -5387,93 +5419,6 @@
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
 			<amount>-3</amount>
-		</skill_bonus>
-		<prereq_list all="yes">
-			<advantage_prereq has="no">
-				<name compare="is">high manual dexterity</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
-	</advantage>
-	<advantage version="3">
-		<name>Ham-Fisted (Severe)</name>
-		<type>Physical</type>
-		<base_points>-10</base_points>
-		<reference>B138</reference>
-		<categories>
-			<category>Disadvantage</category>
-		</categories>
-		<skill_bonus>
-			<name compare="contains">artist</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">jeweler</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">knot-tying</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">leatherworking</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">lockpicking</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">pickpocket</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">sewing</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">sleight of hand</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">surgery</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="contains">fast-draw</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="is">machinist</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
-		</skill_bonus>
-		<skill_bonus>
-			<name compare="contains">mechanic</name>
-			<specialization compare="is anything"></specialization>
-			<category compare="is anything"></category>
-			<amount>-6</amount>
 		</skill_bonus>
 		<prereq_list all="yes">
 			<advantage_prereq has="no">
@@ -6317,73 +6262,54 @@
 		</categories>
 	</advantage>
 	<advantage version="3">
-		<name>Injury Tolerance (Homogenous)</name>
+		<name>Injury Tolerance</name>
 		<type>Physical, Exotic</type>
-		<base_points>40</base_points>
+		<modifier version="1" enabled="no">
+			<name>Homogenous</name>
+			<cost type="points">40</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Unliving</name>
+			<cost type="points">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Blood</name>
+			<cost type="points">5</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Brain</name>
+			<cost type="points">5</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Eyes</name>
+			<cost type="points">5</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Windows</name>
+			<cost type="points">5</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Head</name>
+			<cost type="points">7</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Neck</name>
+			<cost type="points">5</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Vitals</name>
+			<cost type="points">5</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B60</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Injury Tolerance (No Blood)</name>
-		<type>Physical, Exotic</type>
-		<base_points>5</base_points>
-		<reference>B61</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Injury Tolerance (No Brain)</name>
-		<type>Physical, Exotic</type>
-		<base_points>5</base_points>
-		<reference>B61</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Injury Tolerance (No Eyes)</name>
-		<type>Physical, Exotic</type>
-		<base_points>5</base_points>
-		<reference>B61</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Injury Tolerance (No Head)</name>
-		<type>Physical, Exotic</type>
-		<base_points>7</base_points>
-		<reference>B61</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Injury Tolerance (No Neck)</name>
-		<type>Physical, Exotic</type>
-		<base_points>5</base_points>
-		<reference>B61</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Injury Tolerance (No Vitals)</name>
-		<type>Physical, Exotic</type>
-		<base_points>5</base_points>
-		<reference>B61</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Injury Tolerance (Unliving)</name>
-		<type>Physical, Exotic</type>
-		<base_points>20</base_points>
-		<reference>B61</reference>
 		<categories>
 			<category>Advantage</category>
 		</categories>
@@ -9186,25 +9112,10 @@
 	<advantage version="3">
 		<name>Legal Enforcement Powers</name>
 		<type>Social</type>
-		<modifier version="1" enabled="no">
-			<name>@Local cop@</name>
-			<cost type="points">5</cost>
-			<affects>total</affects>
-			<reference>B65</reference>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>@KGB@</name>
-			<cost type="points">15</cost>
-			<affects>total</affects>
-			<reference>B65</reference>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>@FBI agent@</name>
-			<cost type="points">10</cost>
-			<affects>total</affects>
-			<reference>B65</reference>
-		</modifier>
+		<levels>1</levels>
+		<points_per_level>5</points_per_level>
 		<reference>B65</reference>
+		<notes>@Description@</notes>
 		<categories>
 			<category>Advantage</category>
 		</categories>
@@ -10986,6 +10897,10 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
+		<dr_bonus>
+			<location>eyes</location>
+			<amount per_level="yes">1</amount>
+		</dr_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Night Blindness</name>
@@ -12512,29 +12427,6 @@
 			<reference>B79</reference>
 		</modifier>
 		<reference>B79</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Rank</name>
-		<type>Physical</type>
-		<levels>1</levels>
-		<points_per_level>5</points_per_level>
-		<modifier version="1" enabled="no">
-			<name>Replaces Status</name>
-			<cost type="points">5</cost>
-			<affects>levels only</affects>
-			<reference>B29</reference>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Courtesy</name>
-			<cost type="points">-4</cost>
-			<affects>levels only</affects>
-			<reference>B29</reference>
-		</modifier>
-		<reference>B29</reference>
-		<notes>@Type@: @Title@</notes>
 		<categories>
 			<category>Advantage</category>
 		</categories>
@@ -17059,6 +16951,11 @@
 		<name>Trained by a Master</name>
 		<type>Mental</type>
 		<base_points>30</base_points>
+		<modifier version="1" enabled="no">
+			<name>Unarmed only</name>
+			<cost type="percentage">-40</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B93</reference>
 		<categories>
 			<category>Advantage</category>

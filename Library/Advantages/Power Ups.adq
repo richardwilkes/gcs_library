@@ -2357,7 +2357,7 @@
 		<name>Huge Weapons (ST)</name>
 		<type>Physical, Exotic</type>
 		<levels>1</levels>
-		<points_per_level>2</points_per_level>
+		<points_per_level>1</points_per_level>
 		<reference>PU2:6</reference>
 		<categories>
 			<category>Perk</category>
@@ -4342,7 +4342,6 @@
 		<type>Mental</type>
 		<base_points>1</base_points>
 		<reference>PU2:7</reference>
-		<notes>You may block attacks on an ally beside you and ignore attack penalty for large shields</notes>
 		<categories>
 			<category>Perk</category>
 		</categories>
@@ -5099,19 +5098,19 @@
 			<name compare="is">masonry</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>1</amount>
+			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">mechanic</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>1</amount>
+			<amount per_level="yes">1</amount>
 		</skill_bonus>
 		<skill_bonus>
 			<name compare="is">smith</name>
 			<specialization compare="is anything"></specialization>
 			<category compare="is anything"></category>
-			<amount>1</amount>
+			<amount per_level="yes">1</amount>
 		</skill_bonus>
 	</advantage>
 	<advantage version="3">
