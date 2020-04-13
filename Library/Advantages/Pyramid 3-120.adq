@@ -9,6 +9,10 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
+		<spell_bonus all_colleges="yes">
+			<amount per_level="yes">1</amount>
+			<category compare="is anything"></category>
+		</spell_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Decreased Quintessence</name>
@@ -19,6 +23,10 @@
 		<categories>
 			<category>Disadvantage</category>
 		</categories>
+		<spell_bonus all_colleges="yes">
+			<amount per_level="yes">-1</amount>
+			<category compare="is anything"></category>
+		</spell_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Extra Quintessence Points</name>
