@@ -2,7 +2,9 @@
 * text=auto
 
 # Force text files to have LF
+*.adm text eol=lf
 *.adq text eol=lf
+*.eqm text eol=lf
 *.eqp text eol=lf
 *.gcs text eol=lf
 *.gct text eol=lf
