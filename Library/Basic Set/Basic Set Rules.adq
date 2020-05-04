@@ -1,0 +1,4707 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<advantage_list id="eb5dbe13-2f08-4b03-9eb2-5f1f37f35f89" version="1">
+	<advantage_container version="3" open="yes">
+		<name>Success Rolls</name>
+		<reference>B343</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage version="3">
+			<name>When to Roll</name>
+			<type></type>
+			<reference>B343</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Base Skill vs Effective Skill</name>
+			<type></type>
+			<reference>B344</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Modifiers</name>
+			<type></type>
+			<reference>B344</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Modifiers</name>
+			<type></type>
+			<reference>B344</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Sidebar: Default Rolls</name>
+			<type></type>
+			<reference>B344</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Sidebar: Rule of 20</name>
+			<type></type>
+			<reference>B344</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Sidebar: Equipment Modifiers</name>
+			<type></type>
+			<reference>B345</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Task Difficulty</name>
+			<type></type>
+			<reference>B345</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Sidebar: Long Tasks</name>
+			<type></type>
+			<reference>B346</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Time Spent</name>
+			<type></type>
+			<reference>B346</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Critical Success</name>
+			<type></type>
+			<reference>B347</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Degree of Success or Failure</name>
+			<type></type>
+			<reference>B347</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Sidebar: Influencing Success Rolls</name>
+			<type></type>
+			<reference>B347</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Contests</name>
+			<reference>B348</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Margin of Victory</name>
+				<type></type>
+				<reference>B348</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Quick Contests</name>
+				<type></type>
+				<reference>B348</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Resistance Rolls</name>
+				<type></type>
+				<reference>B348</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Regular Contests</name>
+				<type></type>
+				<reference>B349</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: The Rule of 16</name>
+				<type></type>
+				<reference>B349</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="3">
+			<name>Critical Failure</name>
+			<type></type>
+			<reference>B348</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Repeated Attempts</name>
+			<type></type>
+			<reference>B348</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Physical Feats</name>
+			<reference>B349</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Climbing</name>
+				<type></type>
+				<reference>B349</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Digging</name>
+				<type></type>
+				<reference>B350</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Different Gravity</name>
+				<type></type>
+				<reference>B350</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Hiking</name>
+				<type></type>
+				<reference>B351</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Holding Your Breath</name>
+				<type></type>
+				<reference>B351</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Jumping</name>
+				<type></type>
+				<reference>B352</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Optional Jumping Rules</name>
+				<type></type>
+				<reference>B352</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Lifting and Moving Things</name>
+				<type></type>
+				<reference>B353</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Flying</name>
+				<type></type>
+				<reference>B354</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Running</name>
+				<type></type>
+				<reference>B354</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Swimming</name>
+				<type></type>
+				<reference>B354</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Catching</name>
+				<type></type>
+				<reference>B355</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Throwing</name>
+				<type></type>
+				<reference>B355</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Extra Effort</name>
+				<reference>B356</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Notes for Specific Physical Tasks</name>
+					<type></type>
+					<reference>B357</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage_container version="3" open="yes">
+					<name>Optional Rule: Extra Effort in Combat</name>
+					<reference>B357</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Feverish Defense</name>
+						<type></type>
+						<reference>B357</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Flurry of Blows</name>
+						<type></type>
+						<reference>B357</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Mighty Blows</name>
+						<type></type>
+						<reference>B357</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+			</advantage_container>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Sense Rolls</name>
+			<reference>B358</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Hearing</name>
+				<type></type>
+				<reference>B358</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Taste/Smell</name>
+				<type></type>
+				<reference>B358</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Vision</name>
+				<type></type>
+				<reference>B358</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Influence Rolls</name>
+			<reference>B359</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Psychological Warfare</name>
+				<type></type>
+				<reference>B359</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Influencing the PCs</name>
+				<type></type>
+				<reference>B359</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Will Rolls</name>
+			<reference>B360</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Fright Check Table</name>
+				<type></type>
+				<reference>B360</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Fright Checks</name>
+				<type></type>
+				<reference>B360</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>The Rule of 14</name>
+				<type></type>
+				<reference>B360</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Combat</name>
+		<reference>B362</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage version="3">
+			<name>Combat Turn Sequence</name>
+			<type></type>
+			<reference>B362</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Manoeuvres</name>
+			<reference>B363</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Aim</name>
+				<type></type>
+				<reference>B364</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Change Posture</name>
+				<type></type>
+				<reference>B364</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Do Nothing</name>
+				<type></type>
+				<reference>B364</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Evaluate</name>
+				<type></type>
+				<reference>B364</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Move</name>
+				<type></type>
+				<reference>B364</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>All-Out Attack</name>
+				<type></type>
+				<reference>B365</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Attack</name>
+				<type></type>
+				<reference>B365</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Feint</name>
+				<type></type>
+				<reference>B365</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Move and Attack</name>
+				<type></type>
+				<reference>B365</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>All-Out Defence</name>
+				<type></type>
+				<reference>B366</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Concentrate</name>
+				<type></type>
+				<reference>B366</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Ready</name>
+				<type></type>
+				<reference>B366</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Wait</name>
+				<type></type>
+				<reference>B366</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Movement and Combat</name>
+			<reference>B367</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Movement</name>
+				<type></type>
+				<reference>B367</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Crouching</name>
+				<type></type>
+				<reference>B368</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Moving Through Other Characters</name>
+				<type></type>
+				<reference>B368</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Spacing</name>
+				<type></type>
+				<reference>B368</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Step</name>
+				<type></type>
+				<reference>B368</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Attacking</name>
+			<reference>B369</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Attack Roll</name>
+				<type></type>
+				<reference>B369</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Melee Attacks</name>
+				<reference>B369</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage_container version="3" open="yes">
+					<name>Melee Attack Options</name>
+					<reference>B369</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Deceptive Attack</name>
+						<type></type>
+						<reference>B369</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Hit Location</name>
+						<type></type>
+						<reference>B369</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Rapid Strike</name>
+						<type></type>
+						<reference>B370</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Unarmed Combat</name>
+					<reference>B370</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Grabbing</name>
+						<type></type>
+						<reference>B370</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage_container version="3" open="yes">
+						<name>Grappling</name>
+						<reference>B370</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<advantage version="3">
+							<name>Choke or Strangle</name>
+							<type></type>
+							<reference>B370</reference>
+							<categories>
+								<category>Basic Ruleset</category>
+							</categories>
+						</advantage>
+						<advantage version="3">
+							<name>Pin</name>
+							<type></type>
+							<reference>B370</reference>
+							<categories>
+								<category>Basic Ruleset</category>
+							</categories>
+						</advantage>
+						<advantage version="3">
+							<name>Takedown</name>
+							<type></type>
+							<reference>B370</reference>
+							<categories>
+								<category>Basic Ruleset</category>
+							</categories>
+						</advantage>
+						<advantage version="3">
+							<name>Arm Lock</name>
+							<type></type>
+							<reference>B371</reference>
+							<categories>
+								<category>Basic Ruleset</category>
+							</categories>
+						</advantage>
+						<advantage version="3">
+							<name>Choke Hold</name>
+							<type></type>
+							<reference>B371</reference>
+							<categories>
+								<category>Basic Ruleset</category>
+							</categories>
+						</advantage>
+						<advantage version="3">
+							<name>Neck Snap or Wrench Limb</name>
+							<type></type>
+							<reference>B371</reference>
+							<categories>
+								<category>Basic Ruleset</category>
+							</categories>
+						</advantage>
+						<advantage version="3">
+							<name>Other Actions</name>
+							<type></type>
+							<reference>B371</reference>
+							<categories>
+								<category>Basic Ruleset</category>
+							</categories>
+						</advantage>
+					</advantage_container>
+					<advantage version="3">
+						<name>Striking</name>
+						<type></type>
+						<reference>B370</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Slam</name>
+						<type></type>
+						<reference>B371</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Shove</name>
+						<type></type>
+						<reference>B372</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Ranged Attacks</name>
+				<reference>B372</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage_container version="3" open="yes">
+					<name>Missile Weapon Attacks</name>
+					<reference>B373</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Rapid Fire</name>
+						<type></type>
+						<reference>B373</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Rate of Fire (ROF)</name>
+						<type></type>
+						<reference>B373</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage version="3">
+					<name>Thrown Weapon Attacks</name>
+					<type></type>
+					<reference>B373</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Defending</name>
+				<reference>B374</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Active Defence Rolls</name>
+					<type></type>
+					<reference>B374</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage_container version="3" open="yes">
+					<name>Dodging</name>
+					<reference>B374</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Acrobatic Dodge</name>
+						<type></type>
+						<reference>B375</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Sacrificial Dodge</name>
+						<type></type>
+						<reference>B375</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Vehicular Dodge</name>
+						<type></type>
+						<reference>B375</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Blocking</name>
+					<reference>B375</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Parrying</name>
+					<reference>B376</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Parrying Heavy Weapons</name>
+						<type></type>
+						<reference>B376</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Parrying Unarmed</name>
+						<type></type>
+						<reference>B376</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Parrying with Improvised Weapons</name>
+						<type></type>
+						<reference>B376</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Active Defence Options</name>
+					<reference>B377</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Dodge and Drop</name>
+						<type></type>
+						<reference>B377</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Retreat</name>
+						<type></type>
+						<reference>B377</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Damage and Injury</name>
+				<reference>B377</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage_container version="3" open="yes">
+					<name>Damage Resistance (DR) and Penetration</name>
+					<reference>B378</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Armor Divisors and Pentration Modifiers</name>
+						<type></type>
+						<reference>B378</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Corrosion</name>
+						<type></type>
+						<reference>B379</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Flexible Armor and Blunt Trauma</name>
+						<type></type>
+						<reference>B379</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Hurting Yourself</name>
+						<type></type>
+						<reference>B379</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Overpenetration and Cover</name>
+						<type></type>
+						<reference>B379</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage version="3">
+					<name>Damage Roll</name>
+					<type></type>
+					<reference>B378</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Knockback</name>
+					<type></type>
+					<reference>B378</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage_container version="3" open="yes">
+					<name>Wounding Modifiers and Injury</name>
+					<reference>B379</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Injury to Unliving, Homogenous and Diffuse Targets</name>
+						<type></type>
+						<reference>B380</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Effects of Injury</name>
+					<reference>B380</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Followup Damage</name>
+						<type></type>
+						<reference>B381</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Linked Effects</name>
+						<type></type>
+						<reference>B381</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Special Damage</name>
+						<type></type>
+						<reference>B381</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Critical Hits and Misses</name>
+					<reference>B381</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Critical Hits</name>
+						<type></type>
+						<reference>B381</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Critical Misses</name>
+						<type></type>
+						<reference>B382</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Other Actions in Combat</name>
+					<reference>B382</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Readying Weapons and Other gear</name>
+						<type></type>
+						<reference>B382</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Typical Long Actions</name>
+						<type></type>
+						<reference>B383</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+			</advantage_container>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Tactical Combat</name>
+		<reference>B384</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage version="3">
+			<name>Facing</name>
+			<type></type>
+			<reference>B385</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Maneuvers in Tactical Combat</name>
+			<reference>B385</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage_container>
+		<advantage version="3">
+			<name>Sidebar: Wait Maneouvre Strategy</name>
+			<type></type>
+			<reference>B385</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Movement in Tactical Combat</name>
+			<reference>B386</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Movement and Facing</name>
+				<type></type>
+				<reference>B386</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Movement Point Costs</name>
+				<type></type>
+				<reference>B387</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Attacking in Tactical Combat</name>
+			<reference>B388</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage_container version="3" open="yes">
+				<name>Melee Attacks</name>
+				<reference>B388</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Attacking Through an Occupied Hex</name>
+					<type></type>
+					<reference>B388</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Long Weapon Tactics</name>
+					<type></type>
+					<reference>B388</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Reach of a Weapon</name>
+					<type></type>
+					<reference>B388</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Wild Swings</name>
+					<type></type>
+					<reference>B388</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Ranged Attacks</name>
+				<reference>B389</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Arc of Vision</name>
+					<type></type>
+					<reference>B389</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Firing Through an Occupioed Hex</name>
+					<type></type>
+					<reference>B389</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Hitting the Wrong Target</name>
+					<type></type>
+					<reference>B389</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Shooting Blind</name>
+					<type></type>
+					<reference>B389</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Opportunity Shots</name>
+					<type></type>
+					<reference>B390</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Overshooting and Stray Shots</name>
+					<type></type>
+					<reference>B390</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Pop-Up Attacks</name>
+					<type></type>
+					<reference>B390</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Defending in Tactical Combat</name>
+			<reference>B390</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Defending Against Attacks from the Side</name>
+				<type></type>
+				<reference>B390</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Defending Against Attacks from the Back</name>
+				<type></type>
+				<reference>B391</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Retreating</name>
+				<type></type>
+				<reference>B391</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Runaround Attacks</name>
+				<type></type>
+				<reference>B391</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Close Combat</name>
+			<reference>B391</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Entering a Foe's Hex</name>
+				<type></type>
+				<reference>B391</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Leaving a Foe's Hex</name>
+				<type></type>
+				<reference>B391</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Readying in Close Combat</name>
+				<type></type>
+				<reference>B391</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Weapons for Close Combat</name>
+				<type></type>
+				<reference>B391</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Defence in Close Combat</name>
+				<type></type>
+				<reference>B392</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Multiple Close Combat</name>
+				<type></type>
+				<reference>B392</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Shields in Close Combat</name>
+				<type></type>
+				<reference>B392</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Striking into a Close Combat</name>
+				<type></type>
+				<reference>B392</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Multi-Hex Figures</name>
+			<reference>B392</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Arc of Vision</name>
+				<type></type>
+				<reference>B392</reference>
+				<notes>Multihex Figures</notes>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Front, Side and Back Hexes</name>
+				<type></type>
+				<reference>B392</reference>
+				<notes>Multihex Figures</notes>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Slam and Overrun</name>
+				<type></type>
+				<reference>B392</reference>
+				<notes>Multi-Hex Figures</notes>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Special Combat Situations</name>
+		<reference>B393</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage version="3">
+			<name>Surprise Attacks and Initiative</name>
+			<type></type>
+			<reference>B393</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Special Movement</name>
+			<reference>B394</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>High Speed Movement</name>
+				<type></type>
+				<reference>B394</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Mounted Combat</name>
+				<type></type>
+				<reference>B396</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Flying Combat</name>
+				<type></type>
+				<reference>B398</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="3">
+			<name>Torches and Flashlights</name>
+			<type></type>
+			<reference>B394</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Visibility</name>
+			<type></type>
+			<reference>B394</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Hit Location</name>
+			<type></type>
+			<reference>B398</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Large-Area Injury</name>
+			<type></type>
+			<reference>B400</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Striking at Weapons</name>
+			<type></type>
+			<reference>B400</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Special Melee Combat Rules</name>
+			<reference>B402</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Attacking From Above</name>
+				<type></type>
+				<reference>B402</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Combat at Different Levels</name>
+				<type></type>
+				<reference>B402</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Special Unarmed Combat Techniques</name>
+				<reference>B403</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Arm Lock</name>
+					<type></type>
+					<reference>B403</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Choke Hold</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Elbow Strike</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Knee Strike</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Lethal Strike</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Neck Snap or Wrench Limb</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Improvised Weapons</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Trampling</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Special Melee Weapon Rules</name>
+				<reference>B404</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Cloaks</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Fencing Weapons</name>
+					<type></type>
+					<reference>B404</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Flails</name>
+					<type></type>
+					<reference>B405</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Garrotes</name>
+					<type></type>
+					<reference>B405</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Picks</name>
+					<type></type>
+					<reference>B405</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Shields</name>
+					<type></type>
+					<reference>B406</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Whips</name>
+					<type></type>
+					<reference>B406</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage version="3">
+				<name>Sidebar: Dirty Tricks</name>
+				<type></type>
+				<reference>B405</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Special Ranged Combat Rules</name>
+			<reference>B407</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Cover</name>
+				<type></type>
+				<reference>B407</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Firing Upward and Downward</name>
+				<type></type>
+				<reference>B407</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Malfunctions</name>
+				<type></type>
+				<reference>B407</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Overpenetration</name>
+				<type></type>
+				<reference>B408</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Special Rules for Rapid Fire</name>
+				<reference>B408</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Automatic Weapons and Full-Auto Only</name>
+					<type></type>
+					<reference>B408</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Rapid Fire vs Close Stationary Targets</name>
+					<type></type>
+					<reference>B408</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Shotguns and Multiple Projectiles</name>
+					<type></type>
+					<reference>B409</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Spraying Fire</name>
+					<type></type>
+					<reference>B409</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Suppression Fire</name>
+					<type></type>
+					<reference>B409</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Special Ranged Weapons</name>
+				<reference>B410</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Bolas</name>
+					<type></type>
+					<reference>B410</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Crossbows</name>
+					<type></type>
+					<reference>B410</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Flaming Arrows</name>
+					<type></type>
+					<reference>B410</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Hand Grenades</name>
+					<type></type>
+					<reference>B410</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Harpoons</name>
+					<type></type>
+					<reference>B411</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Lariats</name>
+					<type></type>
+					<reference>B411</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Molotov Coctails and Oil Flasks</name>
+					<type></type>
+					<reference>B411</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Nets</name>
+					<type></type>
+					<reference>B411</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Firearm Accessories</name>
+				<reference>B412</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Bipods and Tripods</name>
+					<type></type>
+					<reference>B412</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Laser Sights</name>
+					<type></type>
+					<reference>B412</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Scopes</name>
+					<type></type>
+					<reference>B412</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Silencers</name>
+					<type></type>
+					<reference>B412</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Guided and Homing Weapons</name>
+				<reference>B412</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Guided Weapons</name>
+					<type></type>
+					<reference>B412</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Semi-Active Homing Weapons</name>
+					<type></type>
+					<reference>B412</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Homing Weapons</name>
+					<type></type>
+					<reference>B413</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Time to Target</name>
+					<type></type>
+					<reference>B413</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Area and Spreading Attacks</name>
+				<reference>B413</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Area-Effect Attacks</name>
+					<type></type>
+					<reference>B413</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Cone Attacks</name>
+					<type></type>
+					<reference>B413</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Dissipation</name>
+					<type></type>
+					<reference>B413</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Attacking an Area/Scatter</name>
+					<type></type>
+					<reference>B414</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Explosions</name>
+				<reference>B414</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Fragmentation Damage</name>
+					<type></type>
+					<reference>B414</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Demolition</name>
+					<type></type>
+					<reference>B415</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Explosions in Other Environments</name>
+					<type></type>
+					<reference>B415</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Table: Relative Explosive Force</name>
+					<type></type>
+					<reference>B415</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Special Damage</name>
+				<reference>B416</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Afflictions</name>
+					<type></type>
+					<reference>B416</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage_container version="3" open="yes">
+					<name>Special Penetration Modifiers</name>
+					<reference>B416</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Blood Agent</name>
+						<type></type>
+						<reference>B416</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Contact Agent</name>
+						<type></type>
+						<reference>B416</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Respiratory Agent</name>
+						<type></type>
+						<reference>B416</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Sense-based</name>
+						<type></type>
+						<reference>B416</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Cinematic Combat Rules</name>
+				<reference>B417</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Bulletproof Nudity</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Cannon Fodder</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Cinematic Explosions</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Cinematic Knockback</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Flesh Wounds</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Infinite Ammunition</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Melee Etiquette</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Dual Weapon Attacks</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>TV Action Violence</name>
+					<type></type>
+					<reference>B417</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Injuries, Illness and Fatigue</name>
+		<reference>B418</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage_container version="3" open="yes">
+			<name>Crippling Injury</name>
+			<reference>B420</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Crippling Extra Limbs</name>
+				<type></type>
+				<reference>B421</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Effects of Crippling Injury</name>
+				<type></type>
+				<reference>B421</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Duration of Crippling Injuries</name>
+				<type></type>
+				<reference>B422</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Nonhuman Body Parts</name>
+				<type></type>
+				<reference>B422</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="3">
+			<name>Knockdown and Stunning</name>
+			<type></type>
+			<reference>B420</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Major Wounds</name>
+			<type></type>
+			<reference>B420</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Sidebar: Optional Rules for Injury</name>
+			<reference>B420</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Sidebar: Accumulated Wounds</name>
+				<type></type>
+				<reference>B420</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Bleeding</name>
+				<type></type>
+				<reference>B420</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Last Wounds</name>
+				<type></type>
+				<reference>B420</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="3">
+			<name>Sidebar: Patient Status</name>
+			<type></type>
+			<reference>B421</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage version="3">
+			<name>Sidebar: Temporary Attribute Penalties</name>
+			<type></type>
+			<reference>B421</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Death</name>
+			<reference>B423</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Dying Actions</name>
+				<type></type>
+				<reference>B423</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Instant Death</name>
+				<type></type>
+				<reference>B423</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="3">
+			<name>Mortal Wounds</name>
+			<type></type>
+			<reference>B423</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Recovery</name>
+			<reference>B423</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Recovering from Unconsciousness</name>
+				<type></type>
+				<reference>B423</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>First Aid/Surgery/Medical Care</name>
+				<type></type>
+				<reference>B424</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Medical Care</name>
+				<type></type>
+				<reference>B424</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Natural Recovery</name>
+				<type></type>
+				<reference>B424</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Repairing Lasting Crippling Injuries</name>
+				<type></type>
+				<reference>B424</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Repairing Permanent Crippling Injuries</name>
+				<type></type>
+				<reference>B424</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: High HP and Healing</name>
+				<type></type>
+				<reference>B424</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Stabilizing a Mortal Wound</name>
+				<type></type>
+				<reference>B424</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Resuscitation</name>
+				<type></type>
+				<reference>B425</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Ultratech Drugs</name>
+				<type></type>
+				<reference>B425</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Table: Medical Help</name>
+				<type></type>
+				<reference>B425</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Fatigue</name>
+			<reference>B426</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Fatigue Costs</name>
+				<type></type>
+				<reference>B426</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Lost Fatigue Points</name>
+				<type></type>
+				<reference>B426</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Starvation, Dehydration, and Missed Sleep</name>
+				<type></type>
+				<reference>B426</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Getting Up Early</name>
+				<type></type>
+				<reference>B427</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Recovering from Fatigue</name>
+				<type></type>
+				<reference>B427</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Foraging</name>
+				<type></type>
+				<reference>B427</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Staying Up Late</name>
+				<type></type>
+				<reference>B427</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Hazards</name>
+			<reference>B428</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Acid</name>
+				<type></type>
+				<reference>B428</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Afflictions</name>
+				<reference>B428</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage_container version="3" open="yes">
+					<name>Incapacitating Conditions</name>
+					<reference>B428</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Agony</name>
+						<type></type>
+						<modifier version="1" enabled="no">
+							<name>High Pain Threshold</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-3</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-3</amount>
+							</attribute_bonus>
+						</modifier>
+						<reference>B428</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Choking</name>
+						<type></type>
+						<reference>B428</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Daze</name>
+						<type></type>
+						<reference>B428</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Ecstasy</name>
+						<type></type>
+						<reference>B428</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Hallucinating</name>
+						<type></type>
+						<modifier version="1" enabled="no">
+							<name>successful resist vs will</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<notes>-2 on all success rolls</notes>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>failed resist vs will</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<notes>-5 on all success rolls</notes>
+						</modifier>
+						<reference>B429</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Paralysis</name>
+						<type></type>
+						<reference>B429</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Retching</name>
+						<type></type>
+						<reference>B429</reference>
+						<notes>automatically fail concentration rolls</notes>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount>-5</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount>-5</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>perception</attribute>
+							<amount>-5</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="3">
+						<name>Seizure</name>
+						<type></type>
+						<reference>B429</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Unconsciousness</name>
+						<type></type>
+						<reference>B429</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Irritating Conditions</name>
+					<reference>B428</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Coughing or Sneezing</name>
+						<type></type>
+						<reference>B428</reference>
+						<notes>cannot stealth</notes>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount>-3</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount>-1</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="3">
+						<name>Drowsy</name>
+						<type></type>
+						<reference>B428</reference>
+						<notes>-2 to self control rolls</notes>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="3">
+						<name>Drunk</name>
+						<type></type>
+						<reference>B428</reference>
+						<notes>-4 to resist self control rolls</notes>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="3">
+						<name>Euphoria</name>
+						<type></type>
+						<reference>B428</reference>
+						<notes>-3 to self control rolls</notes>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount>-3</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount>-3</amount>
+						</attribute_bonus>
+						<skill_bonus>
+							<name compare="is anything"></name>
+							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
+							<amount>-3</amount>
+						</skill_bonus>
+					</advantage>
+					<advantage version="3">
+						<name>Nauseated</name>
+						<type></type>
+						<reference>B428</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<skill_bonus>
+							<name compare="is anything"></name>
+							<specialization compare="is anything"></specialization>
+							<category compare="is anything"></category>
+							<amount>-2</amount>
+						</skill_bonus>
+						<attribute_bonus>
+							<attribute>st</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>ht</attribute>
+							<amount>-2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>dodge</attribute>
+							<amount>-1</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>parry</attribute>
+							<amount>-1</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>block</attribute>
+							<amount>-1</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>fp</attribute>
+							<amount>2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>hp</attribute>
+							<amount>2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>speed</attribute>
+							<amount>1</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute limitation="lifting only">st</attribute>
+							<amount>2</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute limitation="striking only">st</attribute>
+							<amount>2</amount>
+						</attribute_bonus>
+					</advantage>
+					<advantage version="3">
+						<name>Pain</name>
+						<type></type>
+						<modifier version="1" enabled="no">
+							<name>Moderate</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-2</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-2</amount>
+							</attribute_bonus>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-2</amount>
+							</skill_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Severe</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-4</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-4</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-4</amount>
+							</attribute_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Terrible</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-6</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-6</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-6</amount>
+							</attribute_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Moderate, High Pain Threshold</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-1</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-1</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-1</amount>
+							</attribute_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Severe, High Pain Threshold</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-2</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-2</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-2</amount>
+							</attribute_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Terrible, High Pain Threshold</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-3</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-3</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-3</amount>
+							</attribute_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Moderate, Low Pain Threshold</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-4</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>st</attribute>
+								<amount>-4</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>st</attribute>
+								<amount>-4</amount>
+							</attribute_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Severe, Low Pain Threshold</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-8</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-8</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-8</amount>
+							</attribute_bonus>
+						</modifier>
+						<modifier version="1" enabled="no">
+							<name>Terrible, Low Pain Threshold</name>
+							<cost type="percentage">0</cost>
+							<affects>total</affects>
+							<skill_bonus>
+								<name compare="is anything"></name>
+								<specialization compare="is anything"></specialization>
+								<category compare="is anything"></category>
+								<amount>-12</amount>
+							</skill_bonus>
+							<attribute_bonus>
+								<attribute>dx</attribute>
+								<amount>-12</amount>
+							</attribute_bonus>
+							<attribute_bonus>
+								<attribute>iq</attribute>
+								<amount>-12</amount>
+							</attribute_bonus>
+						</modifier>
+						<reference>B428</reference>
+						<notes>self control rolls as per description</notes>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Tipsy</name>
+						<type></type>
+						<reference>B428</reference>
+						<notes>-2 to self control rolls</notes>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+						<attribute_bonus>
+							<attribute>dx</attribute>
+							<amount>-1</amount>
+						</attribute_bonus>
+						<attribute_bonus>
+							<attribute>iq</attribute>
+							<amount>-1</amount>
+						</attribute_bonus>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="3" open="yes">
+					<name>Mortal Conditions</name>
+					<reference>B428</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+					<advantage version="3">
+						<name>Coma</name>
+						<type></type>
+						<reference>B429</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+					<advantage version="3">
+						<name>Heart Attack</name>
+						<type></type>
+						<reference>B429</reference>
+						<categories>
+							<category>Basic Ruleset</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+			</advantage_container>
+			<advantage version="3">
+				<name>Atmospheric Pressure</name>
+				<type></type>
+				<reference>B429</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Hazardous Atmospheres</name>
+				<type></type>
+				<reference>B429</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Cold</name>
+				<type></type>
+				<reference>B430</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Collisions and Falls</name>
+				<reference>B430</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Damage from Collisions</name>
+					<type></type>
+					<reference>B430</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Damage from Falling Objects</name>
+					<type></type>
+					<reference>B431</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Falling</name>
+					<type></type>
+					<reference>B431</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Immovable Objects</name>
+					<type></type>
+					<reference>B431</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Hit Location from a Fall</name>
+					<type></type>
+					<reference>B431</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Table: Falling Velocity</name>
+					<type></type>
+					<reference>B431</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Collision Angle</name>
+					<type></type>
+					<reference>B432</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Overruns</name>
+					<type></type>
+					<reference>B432</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Whiplash and Collision</name>
+					<type></type>
+					<reference>B432</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Electricity</name>
+				<reference>B432</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Lethal Electrical Damage</name>
+					<type></type>
+					<reference>B432</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Nonlethal Electrical Damage</name>
+					<type></type>
+					<reference>B432</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Flame</name>
+				<reference>B433</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Catching Fire</name>
+					<type></type>
+					<reference>B433</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Fire Sources</name>
+					<type></type>
+					<reference>B433</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Making Things Burn</name>
+					<type></type>
+					<reference>B433</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Gravity and Acceleration</name>
+				<reference>B434</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>High Acceleration</name>
+					<type></type>
+					<reference>B434</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Space Adaptation Syndrome ("Space Sickness")</name>
+					<type></type>
+					<reference>B434</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage version="3">
+				<name>Heat</name>
+				<type></type>
+				<reference>B434</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Pressure</name>
+				<type></type>
+				<reference>B435</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Radiation</name>
+				<reference>B435</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Sidebar: Radiation Hazards</name>
+					<type></type>
+					<reference>B435</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Effects of Radiation on Living Things</name>
+					<type></type>
+					<reference>B436</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Radiation and Nonhumans</name>
+					<type></type>
+					<reference>B436</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Radiation Protection</name>
+					<type></type>
+					<reference>B436</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Radiation Treatment</name>
+					<type></type>
+					<reference>B436</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Table: Radiation Effects</name>
+					<type></type>
+					<reference>B436</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage version="3">
+				<name>Seasickness</name>
+				<type></type>
+				<reference>B436</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Suffocation</name>
+				<type></type>
+				<reference>B436</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Vacuum</name>
+				<type></type>
+				<reference>B437</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Poison</name>
+			<reference>B437</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Describing Poisons</name>
+				<type></type>
+				<reference>B437</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Poison Examples</name>
+				<type></type>
+				<reference>B439</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Addictive Drugs and Drug Withdrawal</name>
+				<type></type>
+				<reference>B440</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Drinking and Intoxication</name>
+				<type></type>
+				<reference>B439</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage version="3">
+			<name>Age and Aging</name>
+			<type></type>
+			<reference>B444</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Animals and Monsters</name>
+			<reference>B455</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage_container version="3" open="yes">
+				<name>Pets and Trained Animals</name>
+				<reference>B458</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Animal Training</name>
+					<type></type>
+					<reference>B458</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage version="3">
+				<name>Sidebar: Individualizing Animals</name>
+				<type></type>
+				<reference>B457</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Common Animals</name>
+				<reference>B455</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Riding and Draft Animals</name>
+				<reference>B459</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Fantasy Monsters</name>
+				<reference>B460</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage_container>
+			<advantage version="3">
+				<name>Sidebar: Damage for Animals</name>
+				<type></type>
+				<reference>B460</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Animals in Combat</name>
+				<reference>B461</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Swarm Attack</name>
+					<type></type>
+					<reference>B461</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Swarm Attack Examples</name>
+					<type></type>
+					<reference>B461</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Illness</name>
+			<reference>B442</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Disease</name>
+				<type></type>
+				<reference>B442</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Contagion</name>
+				<type></type>
+				<reference>B443</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Infection</name>
+				<type></type>
+				<reference>B444</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Creating Templates</name>
+			<reference>B445</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage_container version="3" open="yes">
+				<name>Character Templates</name>
+				<reference>B445</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Racial Templates</name>
+				<reference>B450</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage_container>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Technology and Artifacts</name>
+		<reference>B462</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage_container version="3" open="yes">
+			<name>Vehicles</name>
+			<reference>B462</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Vehicle Statistics</name>
+				<type></type>
+				<reference>B462</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Basic Vehicle Movement</name>
+				<reference>B463</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Long-Distance Movement</name>
+					<type></type>
+					<reference>B463</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Tables: Vehicles</name>
+					<type></type>
+					<reference>B464</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Control Rolls</name>
+					<type></type>
+					<reference>B466</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Ground Travel</name>
+					<type></type>
+					<reference>B466</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Water Travel</name>
+					<type></type>
+					<reference>B466</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Air Travel</name>
+					<type></type>
+					<reference>B466</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Space Travel</name>
+					<type></type>
+					<reference>B466</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Basic Vehicle Combat</name>
+				<reference>B467</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Maneuvers</name>
+					<type></type>
+					<reference>B467</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Vehicle Weapon Mounts</name>
+					<type></type>
+					<reference>B467</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Movement During Combat</name>
+					<type></type>
+					<reference>B468</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Control Rolls</name>
+					<type></type>
+					<reference>B469</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Attacks</name>
+					<type></type>
+					<reference>B469</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Weapon Fire from a Moving Vehicle</name>
+					<type></type>
+					<reference>B469</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Defence</name>
+					<type></type>
+					<reference>B470</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Combat Results and Hit Location</name>
+					<type></type>
+					<reference>B470</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Collisions</name>
+					<type></type>
+					<reference>B470</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Who's at the Wheel</name>
+					<type></type>
+					<reference>B470</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Vehicle Leaking</name>
+					<type></type>
+					<reference>B470</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Scaling Damage</name>
+					<type></type>
+					<reference>B470</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Electronics</name>
+			<reference>B471</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Communicators</name>
+				<type></type>
+				<reference>B471</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Sensors</name>
+				<reference>B471</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Using Sensors</name>
+					<type></type>
+					<reference>B471</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Passive Visual Sensors</name>
+					<type></type>
+					<reference>B471</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Active Sensors</name>
+					<type></type>
+					<reference>B172</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Computers</name>
+			<reference>B472</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Complexity</name>
+				<type></type>
+				<reference>B472</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Data Storage</name>
+				<type></type>
+				<reference>B472</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Software</name>
+				<type></type>
+				<reference>B472</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Other Software</name>
+				<type></type>
+				<reference>B472</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>New Inventions</name>
+			<reference>B473</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Complexity, Concept and Prototypes</name>
+				<type></type>
+				<reference>B473</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Testing, Bugs and Production</name>
+				<type></type>
+				<reference>B474</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Funding</name>
+				<type></type>
+				<reference>B474</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Gadgeteering</name>
+			<reference>B475</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Inventing Gadgets</name>
+				<type></type>
+				<reference>B475</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Quick Gadgeteering</name>
+				<type></type>
+				<reference>B476</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Gadgeteering during Adventures</name>
+				<type></type>
+				<reference>B477</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Gadgets for Non-Gadgeteers</name>
+				<type></type>
+				<reference>B477</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Gadget Bugs Table</name>
+				<type></type>
+				<reference>B476</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Futuristic and Alien Artifacts</name>
+			<reference>B478</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Enigmatic Device Table</name>
+				<type></type>
+				<reference>B478</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Weird Technology</name>
+				<type></type>
+				<reference>B479</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Magic Items</name>
+			<reference>B480</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Enchantment Spells</name>
+				<type></type>
+				<reference>B480</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Buying Magic Items</name>
+				<type></type>
+				<reference>B482</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Using Magic Items</name>
+				<type></type>
+				<reference>B482</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Enchanting</name>
+				<reference>B481</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Power of a Magic Item</name>
+					<type></type>
+					<reference>B481</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Quick and Dirty Enchantment</name>
+					<type></type>
+					<reference>B481</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Success Rolls for Enchanting</name>
+					<type></type>
+					<reference>B481</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Slow and Sure Enchantment</name>
+					<type></type>
+					<reference>B481</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Interruptions</name>
+					<type></type>
+					<reference>B481</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Spells for Enchantment</name>
+					<type></type>
+					<reference>B482</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Damage to Objects</name>
+			<reference>B483</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Effects of Injury</name>
+				<type></type>
+				<reference>B483</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Damage to Buildings and Structures</name>
+				<type></type>
+				<reference>B484</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Damage to Shields</name>
+				<type></type>
+				<reference>B484</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Repairs</name>
+				<type></type>
+				<reference>B484</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Breakdowns</name>
+				<type></type>
+				<reference>B485</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Broken Weapons</name>
+				<type></type>
+				<reference>B485</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Game Mastering</name>
+		<reference>B486</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage_container version="3" open="yes">
+			<name>Running the Game</name>
+			<reference>B492</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Settling Rules Questions</name>
+				<type></type>
+				<reference>B492</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Dealing with the Players</name>
+				<type></type>
+				<reference>B493</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Playing the NPC's</name>
+				<type></type>
+				<reference>B493</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Gaming Online</name>
+				<type></type>
+				<reference>B494</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Ending a Play Session</name>
+				<reference>B498</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Awarding Character Points</name>
+					<type></type>
+					<reference>B498</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Time Use Sheets</name>
+					<type></type>
+					<reference>B499</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Avoiding Character Inflation</name>
+					<type></type>
+					<reference>B498</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Controlling Character Development</name>
+					<type></type>
+					<reference>B499</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Reaction Rolls</name>
+				<reference>B494</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Predetermined Actions</name>
+					<type></type>
+					<reference>B495</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Second Reaction Rolls</name>
+					<type></type>
+					<reference>B495</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Influence Skills</name>
+					<type></type>
+					<reference>B495</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage_container version="3" open="yes">
+				<name>Knowledge</name>
+				<reference>B495</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>PC Knowledge</name>
+					<type></type>
+					<reference>B495</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>NPC Knowledge</name>
+					<type></type>
+					<reference>B496</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage version="3">
+				<name>Keeping the Characters Alive</name>
+				<type></type>
+				<reference>B496</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Game Time</name>
+				<reference>B497</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Time During Adventures</name>
+					<type></type>
+					<reference>B497</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Time Between Sessions</name>
+					<type></type>
+					<reference>B497</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: When in Doubt, Roll and Shout</name>
+					<type></type>
+					<reference>B497</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Time Between Adventures</name>
+					<type></type>
+					<reference>B498</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+		<advantage version="3">
+			<name>Sidebar: Customizing the Rules</name>
+			<type></type>
+			<reference>B486</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage>
+		<advantage_container version="3" open="yes">
+			<name>Starting a Game Session</name>
+			<reference>B490</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Sidebar: Advance Preparation</name>
+				<type></type>
+				<reference>B490</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Maps</name>
+				<type></type>
+				<reference>B490</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Player-Made Maps</name>
+				<type></type>
+				<reference>B491</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Travel Maps</name>
+				<type></type>
+				<reference>B491</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Area Maps</name>
+				<type></type>
+				<reference>B491</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Room Maps</name>
+				<type></type>
+				<reference>B492</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Combat Maps</name>
+				<type></type>
+				<reference>B492</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Choosing a Campaign Type</name>
+			<reference>B486</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Power Level</name>
+				<type></type>
+				<reference>B487</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>High Powers Campaigns</name>
+				<type></type>
+				<reference>B487</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>The Cinematic Campaign</name>
+				<type></type>
+				<reference>B488</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Damn the Rules, Full Speed Ahead!</name>
+				<type></type>
+				<reference>B489</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Writing Your Own Adventures</name>
+			<reference>B500</reference>
+			<notes>Included for Reference only</notes>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Game Worlds</name>
+		<reference>B505</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage_container version="3" open="yes">
+			<name>Cultures and Languages</name>
+			<reference>B505</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Culture</name>
+				<type></type>
+				<reference>B505</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Language</name>
+				<type></type>
+				<reference>B506</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Laws and Customs</name>
+			<reference>B506</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Control Rating</name>
+				<type></type>
+				<reference>B506</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Travel Etiquette</name>
+				<type></type>
+				<reference>B506</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Law Enforcement and Jail</name>
+				<type></type>
+				<reference>B507</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Legality</name>
+				<type></type>
+				<reference>B507</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage_container version="3" open="yes">
+				<name>Trials</name>
+				<reference>B508</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Trial by Ordeal</name>
+					<type></type>
+					<reference>B508</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Trial by Judge</name>
+					<type></type>
+					<reference>B508</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Trial by Combat</name>
+					<type></type>
+					<reference>B508</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Adversarial Trials</name>
+					<type></type>
+					<reference>B508</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Sidebar: Bribery</name>
+					<type></type>
+					<reference>B508</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+			<advantage version="3">
+				<name>Criminal Punishment</name>
+				<type></type>
+				<reference>B508</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Society and Government Types</name>
+			<reference>B509</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Tech Levels</name>
+			<reference>B511</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Variations within a Tech Level</name>
+				<type></type>
+				<reference>B511</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Tech Level by Field</name>
+				<type></type>
+				<reference>B512</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Building up Local Technology</name>
+				<type></type>
+				<reference>B513</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Different Technologies</name>
+				<type></type>
+				<reference>B513</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Tech Level and Genre</name>
+				<type></type>
+				<reference>B514</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Improving Skills in Alternate Tech Levels</name>
+				<type></type>
+				<reference>B513</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Economics</name>
+			<reference>B514</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Buying and Selling</name>
+				<type></type>
+				<reference>B514</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Gold and Silver</name>
+				<type></type>
+				<reference>B515</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Loot, and Disposing of It</name>
+				<type></type>
+				<reference>B515</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Making Your Own Goods</name>
+				<type></type>
+				<reference>B515</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Jobs</name>
+				<type></type>
+				<reference>B516</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Wealth and Status</name>
+				<type></type>
+				<reference>B516</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Hirelings</name>
+				<type></type>
+				<reference>B517</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Finding a Job</name>
+				<type></type>
+				<reference>B518</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Slaves</name>
+				<type></type>
+				<reference>B518</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Loyalty Checks</name>
+				<type></type>
+				<reference>B519</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Sidebar: Moving Money Between Worlds</name>
+				<type></type>
+				<reference>B514</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Table: Monthly Pay</name>
+				<type></type>
+				<reference>B517</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Other Planes of Existence</name>
+			<reference>B519</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Sidebar: Travel Between Game Worlds</name>
+				<type></type>
+				<reference>B520</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Types of Realities</name>
+				<type></type>
+				<reference>B520</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>PlanarCosmology</name>
+				<type></type>
+				<reference>B521</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Interplanar Travel</name>
+				<type></type>
+				<reference>B522</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Infinite Worlds</name>
+		<reference>B523</reference>
+		<notes>included for Reference only</notes>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Tables</name>
+		<reference>B547</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+		<advantage_container version="3" open="yes">
+			<name>Combat Modifiers</name>
+			<reference>B547</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Melee Attack Modifiers</name>
+				<type></type>
+				<reference>B547</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Active Defence Modifiers</name>
+				<type></type>
+				<reference>B548</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Ranged Attack Modifiers</name>
+				<type></type>
+				<reference>B548</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Size and Speed/Range Table</name>
+				<type></type>
+				<reference>B550</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Maneuvers/Manoeuvres</name>
+				<type></type>
+				<reference>B551</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Postures</name>
+				<type></type>
+				<reference>B551</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Hit Location Tables</name>
+			<reference>B552</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Human and Humanoid Hit Location Table</name>
+				<type></type>
+				<reference>B552</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Non-Humanoid Hit Location Tables</name>
+				<type></type>
+				<reference>B552</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Vehicle Hit Location Table</name>
+				<type></type>
+				<reference>B554</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Occupant Hit Table</name>
+				<type></type>
+				<reference>B555</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>Critical Success and Failure</name>
+			<reference>B556</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>Critical Head Blow Table</name>
+				<type></type>
+				<reference>B556</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Critical Hit Table</name>
+				<type></type>
+				<reference>B556</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Critical Miss Table</name>
+				<type></type>
+				<reference>B556</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Unarmed Critical Miss Table</name>
+				<type></type>
+				<reference>B557</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>HP and DR of Objects and Covers</name>
+			<reference>B557</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage version="3">
+				<name>HP and DR of Structures</name>
+				<type></type>
+				<reference>B558</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+			<advantage version="3">
+				<name>Cover DR</name>
+				<type></type>
+				<reference>B559</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+			</advantage>
+		</advantage_container>
+		<advantage_container version="3" open="yes">
+			<name>NPC Reactions</name>
+			<reference>B559</reference>
+			<categories>
+				<category>Basic Ruleset</category>
+			</categories>
+			<advantage_container version="3" open="yes">
+				<name>Reaction Table</name>
+				<reference>B560</reference>
+				<categories>
+					<category>Basic Ruleset</category>
+				</categories>
+				<advantage version="3">
+					<name>Potental Combat Situations (and Morale Checks)</name>
+					<type></type>
+					<reference>B561</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Commercial Transactions</name>
+					<type></type>
+					<reference>B562</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Loyalty</name>
+					<type></type>
+					<reference>B562</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Requests for Aid</name>
+					<type></type>
+					<reference>B562</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>Requests for Information</name>
+					<type></type>
+					<reference>B562</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+				<advantage version="3">
+					<name>General Reaction</name>
+					<type></type>
+					<reference>B651</reference>
+					<categories>
+						<category>Basic Ruleset</category>
+					</categories>
+				</advantage>
+			</advantage_container>
+		</advantage_container>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Glossary</name>
+		<reference>B563</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+	</advantage_container>
+	<advantage_container version="3" open="yes">
+		<name>Index</name>
+		<reference>B570</reference>
+		<categories>
+			<category>Basic Ruleset</category>
+		</categories>
+	</advantage_container>
+</advantage_list>
