@@ -18206,4 +18206,137 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
+	<advantage version="3">
+		<name>Alternate Form</name>
+		<type>Physical, Exotic</type>
+		<base_points>15</base_points>
+		<modifier version="1" enabled="no">
+			<name>Cosmetic</name>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<reference>B84</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Absorptive Change</name>
+			<cost type="percentage">5</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+			<reference>P75</reference>
+			<notes>@Level of Absorptive Change. 1 None, 2, Light, 3, Medium, 4, Heavy, 5, Extra Heavy@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Active Change</name>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Non-Reciprocal Damage</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Once On, Stays On</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Reciprocal Rest</name>
+			<cost type="percentage">30</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Projected Form</name>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Takes Extra Time</name>
+			<cost type="percentage">-10</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+		</modifier>
+		<reference>B83</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="3">
+		<name>Morph</name>
+		<type>Physical, Exotic</type>
+		<levels>1</levels>
+		<base_points>100</base_points>
+		<points_per_level>1</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Unlimited</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+			<reference>B85</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cosmetic</name>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<reference>B85</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Retains Shape</name>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+			<reference>B85</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Mass Conservation</name>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+			<reference>B85</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Active Change</name>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Improvised Forms</name>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cosmic (For Improvised Forms)</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Memorization Required</name>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cannot Memorize Forms</name>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Flawed</name>
+			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Unliving Forms Only</name>
+			<cost type="percentage">0</cost>
+			<affects>total</affects>
+			<reference>P75</reference>
+		</modifier>
+		<reference>B84</reference>
+	</advantage>
 </advantage_list>
