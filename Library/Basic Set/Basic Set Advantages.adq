@@ -8992,7 +8992,7 @@
 			<affects>total</affects>
 			<notes>Broken</notes>
 		</modifier>
-		<modifier version="1" enabled="no">
+		<modifier version="1">
 			<name>Spoken</name>
 			<reference>B24</reference>
 			<cost type="points">2</cost>
@@ -9020,7 +9020,7 @@
 			<affects>total</affects>
 			<notes>Broken</notes>
 		</modifier>
-		<modifier version="1" enabled="no">
+		<modifier version="1">
 			<name>Written</name>
 			<reference>B24</reference>
 			<cost type="points">2</cost>
@@ -9049,7 +9049,7 @@
 			<cost type="points">-4</cost>
 			<affects>total</affects>
 		</modifier>
-		<modifier version="1" enabled="no">
+		<modifier version="1">
 			<name>Spoken</name>
 			<reference>B24</reference>
 			<cost type="points">1</cost>
@@ -9063,7 +9063,7 @@
 			<affects>total</affects>
 			<notes>Native</notes>
 		</modifier>
-		<modifier version="1" enabled="no">
+		<modifier version="1">
 			<name>Written</name>
 			<reference>B24</reference>
 			<cost type="points">1</cost>
@@ -18212,47 +18212,47 @@
 		<base_points>15</base_points>
 		<modifier version="1" enabled="no">
 			<name>Cosmetic</name>
+			<reference>B84</reference>
 			<cost type="percentage">-50</cost>
 			<affects>total</affects>
-			<reference>B84</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Absorptive Change</name>
+			<reference>P75</reference>
 			<cost type="percentage">5</cost>
 			<levels>1</levels>
 			<affects>total</affects>
-			<reference>P75</reference>
 			<notes>@Level of Absorptive Change. 1 None, 2, Light, 3, Medium, 4, Heavy, 5, Extra Heavy@</notes>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Active Change</name>
+			<reference>P75</reference>
 			<cost type="percentage">20</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Non-Reciprocal Damage</name>
+			<reference>P75</reference>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Once On, Stays On</name>
+			<reference>P75</reference>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Reciprocal Rest</name>
+			<reference>P75</reference>
 			<cost type="percentage">30</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Projected Form</name>
+			<reference>P75</reference>
 			<cost type="percentage">-50</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Takes Extra Time</name>
@@ -18273,69 +18273,69 @@
 		<points_per_level>1</points_per_level>
 		<modifier version="1" enabled="no">
 			<name>Unlimited</name>
+			<reference>B85</reference>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
-			<reference>B85</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Cosmetic</name>
+			<reference>B85</reference>
 			<cost type="percentage">-50</cost>
 			<affects>total</affects>
-			<reference>B85</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Retains Shape</name>
+			<reference>B85</reference>
 			<cost type="percentage">-20</cost>
 			<affects>total</affects>
-			<reference>B85</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Mass Conservation</name>
+			<reference>B85</reference>
 			<cost type="percentage">-20</cost>
 			<affects>total</affects>
-			<reference>B85</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Active Change</name>
+			<reference>P75</reference>
 			<cost type="percentage">20</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Improvised Forms</name>
+			<reference>P75</reference>
 			<cost type="percentage">100</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Cosmic (For Improvised Forms)</name>
+			<reference>P75</reference>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>No Memorization Required</name>
+			<reference>P75</reference>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Cannot Memorize Forms</name>
+			<reference>P75</reference>
 			<cost type="percentage">-50</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Flawed</name>
+			<reference>P75</reference>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Unliving Forms Only</name>
+			<reference>P75</reference>
 			<cost type="percentage">0</cost>
 			<affects>total</affects>
-			<reference>P75</reference>
 		</modifier>
 		<reference>B84</reference>
 	</advantage>
