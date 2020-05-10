@@ -719,7 +719,7 @@
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
 		<value>1</value>
-		<weight>5.0E-4 lb</weight>
+		<weight>0.0005 lb</weight>
 		<reference>UT19</reference>
 		<categories>
 			<category>Power</category>
@@ -3214,6 +3214,19 @@
 	</equipment>
 	<equipment version="6">
 		<quantity>1</quantity>
+		<description>Bug Stomper</description>
+		<tech_level>9</tech_level>
+		<legality_class>3</legality_class>
+		<value>600</value>
+		<weight>0.25 lb</weight>
+		<reference>UT106</reference>
+		<notes>B/24 hours</notes>
+		<categories>
+			<category>Counter-Surveillance and ECM</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
 		<description>Bughunter Swarm</description>
 		<tech_level>10</tech_level>
 		<legality_class>3</legality_class>
@@ -3222,6 +3235,18 @@
 		<reference>UT106</reference>
 		<categories>
 			<category>Enforcement and Coercion</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Bughunter Swarm</description>
+		<tech_level>10</tech_level>
+		<legality_class>3</legality_class>
+		<value>4000</value>
+		<reference>UT106</reference>
+		<notes>Per square yard</notes>
+		<categories>
+			<category>Counter-Surveillance and ECM</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -3629,6 +3654,19 @@
 		<categories>
 			<category>Biochemical and Nanotech Weapons</category>
 			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Com Tap</description>
+		<tech_level>9</tech_level>
+		<legality_class>3</legality_class>
+		<value>500</value>
+		<weight>0.1 lb</weight>
+		<reference>UT105</reference>
+		<notes>A/100 hours</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -4805,6 +4843,17 @@
 			<notes>Minor procedure.</notes>
 		</equipment>
 	</equipment_container>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Computer Pill</description>
+		<tech_level>10</tech_level>
+		<value>50</value>
+		<reference>UT105</reference>
+		<notes>Operates for 1 week</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
 	<equipment version="6">
 		<quantity>1</quantity>
 		<description>Computerized Crew Station</description>
@@ -6129,7 +6178,7 @@
 		<description>Displacer Cannon</description>
 		<tech_level>12^</tech_level>
 		<legality_class>1</legality_class>
-		<value>1.2E7</value>
+		<value>12000000</value>
 		<weight>8000 lb</weight>
 		<reference>UT132</reference>
 		<ranged_weapon>
@@ -7628,6 +7677,17 @@
 	</equipment>
 	<equipment version="6">
 		<quantity>1</quantity>
+		<description>Emissions Nanobug</description>
+		<tech_level>9</tech_level>
+		<value>100</value>
+		<reference>UT105</reference>
+		<notes>AA/year</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
 		<description>EMP Gun</description>
 		<tech_level>9</tech_level>
 		<legality_class>2</legality_class>
@@ -8393,7 +8453,7 @@
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
 		<value>1</value>
-		<weight>5.0E-4 lb</weight>
+		<weight>0.0005 lb</weight>
 		<reference>UT19</reference>
 		<categories>
 			<category>Power</category>
@@ -9952,7 +10012,7 @@
 		<description>Graser Cannon</description>
 		<tech_level>12</tech_level>
 		<legality_class>1</legality_class>
-		<value>1.2E7</value>
+		<value>12000000</value>
 		<weight>8000 lb</weight>
 		<reference>UT118</reference>
 		<ranged_weapon>
@@ -10790,6 +10850,19 @@
 	</equipment>
 	<equipment version="6">
 		<quantity>1</quantity>
+		<description>GUT Bug Sweeper</description>
+		<tech_level>11^</tech_level>
+		<legality_class>3</legality_class>
+		<value>20000</value>
+		<weight>5 lb</weight>
+		<reference>UT106</reference>
+		<notes>C/10 hours</notes>
+		<categories>
+			<category>Counter-Surveillance and ECM</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
 		<description>Gyrobalance</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
@@ -11286,7 +11359,7 @@
 		<description>Heavy Disintegrator Cannon</description>
 		<tech_level>12^</tech_level>
 		<legality_class>0</legality_class>
-		<value>4.0E7</value>
+		<value>40000000</value>
 		<weight>8000 lb</weight>
 		<reference>UT130</reference>
 		<ranged_weapon>
@@ -12324,7 +12397,7 @@
 		<description>Heavy Tractor-Pressor Beam</description>
 		<tech_level>11^</tech_level>
 		<legality_class>3</legality_class>
-		<value>1.0E7</value>
+		<value>10000000</value>
 		<weight>20000 lb</weight>
 		<reference>UT88</reference>
 		<notes>ST400. 10,000-yard range. External power.</notes>
@@ -12337,7 +12410,7 @@
 		<description>Heavy Tractor-Pressor Beam</description>
 		<tech_level>12^</tech_level>
 		<legality_class>3</legality_class>
-		<value>1.0E7</value>
+		<value>10000000</value>
 		<weight>20000 lb</weight>
 		<reference>UT88</reference>
 		<notes>ST800. 100,000-yard range. External power.</notes>
@@ -13215,6 +13288,18 @@
 		<notes>A/1 day.</notes>
 		<categories>
 			<category>Media and Education</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Homing Beacon</description>
+		<tech_level>9</tech_level>
+		<legality_class>4</legality_class>
+		<value>40</value>
+		<reference>UT105</reference>
+		<notes>AA/100 hours - 1 year in "sleeper" mode</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -14103,7 +14188,7 @@
 		<description>Industrial Universal Replicator</description>
 		<tech_level>12^</tech_level>
 		<legality_class>1</legality_class>
-		<value>1.0E8</value>
+		<value>100000000</value>
 		<weight>10000 lb</weight>
 		<reference>UT93</reference>
 		<notes>500lbs. capacity. 10F*/150sec.</notes>
@@ -16175,6 +16260,58 @@
 		<notes>Per post.</notes>
 		<categories>
 			<category>Security and Surveillance</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Laser Microphone</description>
+		<tech_level>9</tech_level>
+		<legality_class>3</legality_class>
+		<value>200</value>
+		<weight>2.5 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 3000 yards; C/10 hours</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Laser Microphone</description>
+		<tech_level>10</tech_level>
+		<legality_class>3</legality_class>
+		<value>200</value>
+		<weight>2.5 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 6000 yards; C/10 hours</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Laser Microphone</description>
+		<tech_level>11</tech_level>
+		<legality_class>3</legality_class>
+		<value>200</value>
+		<weight>2.5 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 15000 yards; C/10 hours</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Laser Microphone</description>
+		<tech_level>12</tech_level>
+		<legality_class>3</legality_class>
+		<value>200</value>
+		<weight>2.5 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 30000 yards; C/10 hours</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -18463,7 +18600,7 @@
 		<description>Megacomputer</description>
 		<tech_level>9</tech_level>
 		<legality_class>2</legality_class>
-		<value>1.0E7</value>
+		<value>10000000</value>
 		<weight>40000 lb</weight>
 		<reference>UT22</reference>
 		<notes>Complexity 9. 1,000,000TB. External power.</notes>
@@ -18476,7 +18613,7 @@
 		<description>Megacomputer</description>
 		<tech_level>10</tech_level>
 		<legality_class>2</legality_class>
-		<value>1.0E7</value>
+		<value>10000000</value>
 		<weight>40000 lb</weight>
 		<reference>UT22</reference>
 		<notes>Complexity 11. 1,000,000TB. External power.</notes>
@@ -18512,6 +18649,17 @@
 		<categories>
 			<category>Biotech</category>
 			<category>Drug</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Messenger Pill</description>
+		<tech_level>10</tech_level>
+		<value>100</value>
+		<reference>UT105</reference>
+		<notes>Operates for 1 week</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -18756,6 +18904,17 @@
 		<notes>For battlesuits. Maximum of two per suit.</notes>
 		<categories>
 			<category>Defenses</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Microbot Nanobug</description>
+		<tech_level>9</tech_level>
+		<value>100</value>
+		<reference>UT105</reference>
+		<notes>AA/year</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -19867,6 +20026,19 @@
 	</equipment>
 	<equipment version="6">
 		<quantity>1</quantity>
+		<description>Multispectral Bug Sweeper</description>
+		<tech_level>9</tech_level>
+		<legality_class>3</legality_class>
+		<value>10000</value>
+		<weight>5 lb</weight>
+		<reference>UT106</reference>
+		<notes>C/10 hours</notes>
+		<categories>
+			<category>Counter-Surveillance and ECM</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
 		<description>Multispectral Chameleon Cloak</description>
 		<tech_level>10</tech_level>
 		<legality_class>3</legality_class>
@@ -19911,6 +20083,17 @@
 		<categories>
 			<category>Biochemical and Nanotech Weapons</category>
 			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Nanobug</description>
+		<tech_level>9</tech_level>
+		<value>100</value>
+		<reference>UT105</reference>
+		<notes>AA/year</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -21352,7 +21535,7 @@
 		<description>Nuclear Damper Field</description>
 		<tech_level>11^</tech_level>
 		<legality_class>1</legality_class>
-		<value>2.0E7</value>
+		<value>20000000</value>
 		<weight>4000 lb</weight>
 		<reference>UT193</reference>
 		<notes>External power.</notes>
@@ -21365,7 +21548,7 @@
 		<description>Nuclear Damper Projector</description>
 		<tech_level>10^</tech_level>
 		<legality_class>1</legality_class>
-		<value>1.0E7</value>
+		<value>10000000</value>
 		<weight>2000 lb</weight>
 		<reference>UT193</reference>
 		<ranged_weapon>
@@ -22455,6 +22638,58 @@
 	</equipment>
 	<equipment version="6">
 		<quantity>1</quantity>
+		<description>Pocket Laser Mike</description>
+		<tech_level>9</tech_level>
+		<legality_class>3</legality_class>
+		<value>40</value>
+		<weight>0.1 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 300 yards; A/hour</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Pocket Laser Mike</description>
+		<tech_level>10</tech_level>
+		<legality_class>3</legality_class>
+		<value>40</value>
+		<weight>0.1 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 600 yards; A/hour</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Pocket Laser Mike</description>
+		<tech_level>11</tech_level>
+		<legality_class>3</legality_class>
+		<value>40</value>
+		<weight>0.1 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 1500 yards; A/hour</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Pocket Laser Mike</description>
+		<tech_level>12</tech_level>
+		<legality_class>3</legality_class>
+		<value>40</value>
+		<weight>0.1 lb</weight>
+		<reference>UT105</reference>
+		<notes>Range 3000 yards; A/hour</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
 		<description>Pocket Medic</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
@@ -23522,6 +23757,18 @@
 		<categories>
 			<category>Biochemical and Nanotech Weapons</category>
 			<category>Weaponry</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Privacy Field</description>
+		<tech_level>10</tech_level>
+		<value>5000</value>
+		<weight>4 lb</weight>
+		<reference>UT106</reference>
+		<notes>C/8 hours</notes>
+		<categories>
+			<category>Counter-Surveillance and ECM</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -24857,7 +25104,7 @@
 		<description>Regional MT Interceptor</description>
 		<tech_level>12^</tech_level>
 		<legality_class>3</legality_class>
-		<value>1.0E9</value>
+		<value>1000000000</value>
 		<weight>200000 lb</weight>
 		<reference>UT104</reference>
 		<notes>10-mile radius.</notes>
@@ -25103,6 +25350,19 @@
 		<categories>
 			<category>Armor</category>
 			<category>Defenses</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>RF Bug Detector</description>
+		<tech_level>9</tech_level>
+		<legality_class>4</legality_class>
+		<value>200</value>
+		<weight>0.1 lb</weight>
+		<reference>UT106</reference>
+		<notes>A/10 hours</notes>
+		<categories>
+			<category>Counter-Surveillance and ECM</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -29374,11 +29634,23 @@
 		<description>Surveillance Swarm</description>
 		<tech_level>10</tech_level>
 		<legality_class>3</legality_class>
-		<value>10</value>
-		<weight>2 lb</weight>
+		<value>500</value>
 		<reference>UT106</reference>
+		<notes>Per square yard</notes>
 		<categories>
-			<category>Enforcement and Coercion</category>
+			<category>Surveillance and Tracking Devices</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Surveillance Worm</description>
+		<tech_level>9</tech_level>
+		<value>4500</value>
+		<weight>2 lb</weight>
+		<reference>UT105</reference>
+		<notes>+3 on Search attempts</notes>
+		<categories>
+			<category>Surveillance and Tracking Devices</category>
 		</categories>
 	</equipment>
 	<equipment version="6">
@@ -32194,7 +32466,7 @@
 		<description>Virtual galactic empire</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E11</value>
+		<value>100000000000</value>
 		<reference>UT55</reference>
 		<notes>1,000,000,000TB</notes>
 		<categories>
@@ -32207,7 +32479,7 @@
 		<description>Virtual galactic empire</description>
 		<tech_level>10</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E8</value>
+		<value>100000000</value>
 		<reference>UT55</reference>
 		<notes>1,000,000,000TB</notes>
 		<categories>
@@ -32272,7 +32544,7 @@
 		<description>Virtual house or park</description>
 		<tech_level>11</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E-5</value>
+		<value>0.00001</value>
 		<reference>UT55</reference>
 		<notes>0.01TB</notes>
 		<categories>
@@ -32298,7 +32570,7 @@
 		<description>Virtual interplanetary state</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E10</value>
+		<value>10000000000</value>
 		<reference>UT55</reference>
 		<notes>10,000,000TB</notes>
 		<categories>
@@ -32311,7 +32583,7 @@
 		<description>Virtual interplanetary state</description>
 		<tech_level>10</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E7</value>
+		<value>10000000</value>
 		<reference>UT55</reference>
 		<notes>10,000,000TB</notes>
 		<categories>
@@ -32350,7 +32622,7 @@
 		<description>Virtual interstellar state</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E11</value>
+		<value>100000000000</value>
 		<reference>UT55</reference>
 		<notes>100,000,000TB</notes>
 		<categories>
@@ -32363,7 +32635,7 @@
 		<description>Virtual interstellar state</description>
 		<tech_level>10</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E8</value>
+		<value>100000000</value>
 		<reference>UT55</reference>
 		<notes>100,000,000TB</notes>
 		<categories>
@@ -32402,7 +32674,7 @@
 		<description>Virtual large nation</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E8</value>
+		<value>100000000</value>
 		<reference>UT55</reference>
 		<notes>100,000TB</notes>
 		<categories>
@@ -32480,7 +32752,7 @@
 		<description>Virtual mansion or wilderness</description>
 		<tech_level>11</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E-4</value>
+		<value>0.0001</value>
 		<reference>UT55</reference>
 		<notes>0.1TB</notes>
 		<categories>
@@ -32545,7 +32817,7 @@
 		<description>Virtual neighborhood</description>
 		<tech_level>12</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E-5</value>
+		<value>0.00001</value>
 		<reference>UT55</reference>
 		<notes>10TB</notes>
 		<categories>
@@ -32558,7 +32830,7 @@
 		<description>Virtual planet</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E9</value>
+		<value>1000000000</value>
 		<reference>UT55</reference>
 		<notes>1,000,000TB</notes>
 		<categories>
@@ -32675,7 +32947,7 @@
 		<description>Virtual small nation</description>
 		<tech_level>9</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E7</value>
+		<value>10000000</value>
 		<reference>UT55</reference>
 		<notes>10,000TB</notes>
 		<categories>
@@ -32792,7 +33064,7 @@
 		<description>Virtual town</description>
 		<tech_level>11</tech_level>
 		<legality_class>4</legality_class>
-		<value>1.0E-4</value>
+		<value>0.0001</value>
 		<reference>UT55</reference>
 		<notes>100TB</notes>
 		<categories>
@@ -33427,7 +33699,7 @@
 		<description>Weather Control Satellite</description>
 		<tech_level>10</tech_level>
 		<legality_class>1</legality_class>
-		<value>2.5E8</value>
+		<value>250000000</value>
 		<weight>200000 lb</weight>
 		<reference>UT79</reference>
 		<categories>
@@ -33439,7 +33711,7 @@
 		<description>Weather Control Satellite</description>
 		<tech_level>11</tech_level>
 		<legality_class>1</legality_class>
-		<value>7.5E7</value>
+		<value>75000000</value>
 		<weight>60000 lb</weight>
 		<reference>UT79</reference>
 		<categories>
@@ -33451,7 +33723,7 @@
 		<description>Weather Control Satellite</description>
 		<tech_level>12</tech_level>
 		<legality_class>2</legality_class>
-		<value>2.5E7</value>
+		<value>25000000</value>
 		<weight>20000 lb</weight>
 		<reference>UT79</reference>
 		<categories>
