@@ -5,6 +5,43 @@
 		<type>Physical, Supernatural</type>
 		<levels>1</levels>
 		<points_per_level>10</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Dance</name>
+			<cost type="percentage">-20</cost>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Dark-Aspected</name>
+			<cost type="percentage">-25</cost>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Day-Aspected</name>
+			<cost type="percentage">-20</cost>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Musical</name>
+			<cost type="percentage">-25</cost>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Night-Aspected</name>
+			<cost type="percentage">-20</cost>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>One College</name>
+			<cost type="percentage">-20</cost>
+			<notes>@College@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Solitary</name>
+			<cost type="percentage">-20</cost>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Song</name>
+			<cost type="percentage">-20</cost>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Crude</name>
+			<cost type="percentage">-40</cost>
+		</modifier>
 		<reference>PY120:21</reference>
 		<categories>
 			<category>Advantage</category>
