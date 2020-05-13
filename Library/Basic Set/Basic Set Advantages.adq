@@ -464,6 +464,12 @@
 			<cost type="percentage">400</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cancellation</name>
+			<reference>PSI13</reference>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B35</reference>
 		<categories>
 			<category>Advantage</category>
@@ -738,6 +744,66 @@
 			<affects>total</affects>
 		</modifier>
 		<reference>B38</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="3">
+		<name>Alternate Form</name>
+		<type>Physical, Exotic</type>
+		<base_points>15</base_points>
+		<modifier version="1" enabled="no">
+			<name>Cosmetic</name>
+			<reference>B84</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Absorptive Change</name>
+			<reference>P75</reference>
+			<cost type="percentage">5</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+			<notes>@Level of Absorptive Change. 1 None, 2, Light, 3, Medium, 4, Heavy, 5, Extra Heavy@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Active Change</name>
+			<reference>P75</reference>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Non-Reciprocal Damage</name>
+			<reference>P75</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Once On, Stays On</name>
+			<reference>P75</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Reciprocal Rest</name>
+			<reference>P75</reference>
+			<cost type="percentage">30</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Projected Form</name>
+			<reference>P75</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Takes Extra Time</name>
+			<reference>B115</reference>
+			<cost type="percentage">-10</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+		</modifier>
+		<reference>B83</reference>
 		<categories>
 			<category>Advantage</category>
 		</categories>
@@ -1688,6 +1754,18 @@
 			<cost type="percentage">70</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Fixed Range</name>
+			<reference>PSI13</reference>
+			<cost type="percentage">-5</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Normal Sight</name>
+			<reference>PSI13</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B42</reference>
 		<categories>
 			<category>Advantage</category>
@@ -2392,6 +2470,38 @@
 			<cost type="points">-40</cost>
 			<affects>base only</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited, One Ability</name>
+			<reference>PSI13</reference>
+			<cost type="percentage">-30</cost>
+			<affects>total</affects>
+			<notes>@Ability@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Limited, One Power</name>
+			<reference>PSI13</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+			<notes>@Power@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Mental Separation Only</name>
+			<reference>PSI13</reference>
+			<cost type="percentage">-80</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Mentalism</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Mental Separation</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B43</reference>
 		<categories>
 			<category>Advantage</category>
@@ -2814,6 +2924,18 @@
 			<name>Laminate</name>
 			<reference>RSWL18</reference>
 			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Malediction-Proof</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Maledictions Only</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">0</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B47</reference>
@@ -3342,6 +3464,30 @@
 			<name>Analyzing</name>
 			<reference>P47</reference>
 			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Lock-On</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Precise, Nontargeting</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">90</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Analysis Only</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cannoy Analyze</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">-10</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B48</reference>
@@ -5094,6 +5240,19 @@
 			<cost type="percentage">-20</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">-25</cost>
+			<affects>total</affects>
+			<notes>Basic Speed</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow, Move 1</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">-45</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B56</reference>
 		<categories>
 			<category>Advantage</category>
@@ -5586,6 +5745,12 @@
 			<name>Empathic</name>
 			<reference>P51</reference>
 			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Restore Limbs</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">80</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B59</reference>
@@ -6234,34 +6399,6 @@
 		</categories>
 	</advantage>
 	<advantage version="3">
-		<name>Injury Tolerance (Diffuse)</name>
-		<type>Physical, Exotic</type>
-		<base_points>100</base_points>
-		<modifier version="1" enabled="no">
-			<name>Infiltration</name>
-			<reference>P53</reference>
-			<cost type="percentage">40</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Swarm</name>
-			<reference>P53</reference>
-			<cost type="percentage">80</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Swarm</name>
-			<reference>P53</reference>
-			<cost type="percentage">160</cost>
-			<affects>total</affects>
-			<notes>Can Affect Substantial</notes>
-		</modifier>
-		<reference>B60</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
 		<name>Injury Tolerance</name>
 		<type>Physical, Exotic</type>
 		<modifier version="1" enabled="no">
@@ -6308,6 +6445,34 @@
 			<name>No Vitals</name>
 			<cost type="points">5</cost>
 			<affects>total</affects>
+		</modifier>
+		<reference>B60</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="3">
+		<name>Injury Tolerance (Diffuse)</name>
+		<type>Physical, Exotic</type>
+		<base_points>100</base_points>
+		<modifier version="1" enabled="no">
+			<name>Infiltration</name>
+			<reference>P53</reference>
+			<cost type="percentage">40</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Swarm</name>
+			<reference>P53</reference>
+			<cost type="percentage">80</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Swarm</name>
+			<reference>P53</reference>
+			<cost type="percentage">160</cost>
+			<affects>total</affects>
+			<notes>Can Affect Substantial</notes>
 		</modifier>
 		<reference>B60</reference>
 		<categories>
@@ -6543,6 +6708,12 @@
 			<name>No Wounding</name>
 			<reference>B111</reference>
 			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Surge, Arcing</name>
+			<reference>PSI20</reference>
+			<cost type="percentage">100</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B61</reference>
@@ -8530,6 +8701,18 @@
 			<cost type="percentage">-35</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Ghost Air</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Substantial Communication</name>
+			<reference>PSI14</reference>
+			<cost type="percentage">40</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B62</reference>
 		<categories>
 			<category>Advantage</category>
@@ -8858,6 +9041,19 @@
 			<affects>total</affects>
 			<notes>@Portal@</notes>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Faster Concentration</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">5</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Improved</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B64</reference>
 		<categories>
 			<category>Advantage</category>
@@ -8975,6 +9171,56 @@
 		<modifier version="1" enabled="no">
 			<name>Native</name>
 			<reference>B23</reference>
+			<cost type="points">-4</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1">
+			<name>Spoken</name>
+			<reference>B24</reference>
+			<cost type="points">1</cost>
+			<affects>total</affects>
+			<notes>Accented</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Spoken</name>
+			<reference>B24</reference>
+			<cost type="points">2</cost>
+			<affects>total</affects>
+			<notes>Native</notes>
+		</modifier>
+		<modifier version="1">
+			<name>Written</name>
+			<reference>B24</reference>
+			<cost type="points">1</cost>
+			<affects>total</affects>
+			<notes>Accented</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Written</name>
+			<reference>B24</reference>
+			<cost type="points">2</cost>
+			<affects>total</affects>
+			<notes>Native</notes>
+		</modifier>
+		<reference>B24</reference>
+		<notes>With Language Talent</notes>
+		<categories>
+			<category>Advantage</category>
+			<category>Language</category>
+		</categories>
+		<prereq_list all="yes">
+			<advantage_prereq has="yes">
+				<name compare="is">Language Talent</name>
+				<notes compare="is anything"></notes>
+			</advantage_prereq>
+		</prereq_list>
+	</advantage>
+	<advantage version="3">
+		<name>Language: @Language@</name>
+		<type>Mental</type>
+		<modifier version="1" enabled="no">
+			<name>Native</name>
+			<reference>B23</reference>
 			<cost type="points">-6</cost>
 			<affects>total</affects>
 		</modifier>
@@ -9039,56 +9285,6 @@
 			<category>Advantage</category>
 			<category>Language</category>
 		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Language: @Language@</name>
-		<type>Mental</type>
-		<modifier version="1" enabled="no">
-			<name>Native</name>
-			<reference>B23</reference>
-			<cost type="points">-4</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1">
-			<name>Spoken</name>
-			<reference>B24</reference>
-			<cost type="points">1</cost>
-			<affects>total</affects>
-			<notes>Accented</notes>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Spoken</name>
-			<reference>B24</reference>
-			<cost type="points">2</cost>
-			<affects>total</affects>
-			<notes>Native</notes>
-		</modifier>
-		<modifier version="1">
-			<name>Written</name>
-			<reference>B24</reference>
-			<cost type="points">1</cost>
-			<affects>total</affects>
-			<notes>Accented</notes>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Written</name>
-			<reference>B24</reference>
-			<cost type="points">2</cost>
-			<affects>total</affects>
-			<notes>Native</notes>
-		</modifier>
-		<reference>B24</reference>
-		<notes>With Language Talent</notes>
-		<categories>
-			<category>Advantage</category>
-			<category>Language</category>
-		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="yes">
-				<name compare="is">Language Talent</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="3">
 		<name>Laziness</name>
@@ -10043,6 +10239,60 @@
 			<cost type="percentage">-40</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Rationalization</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow and Sure</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">80</cost>
+			<affects>total</affects>
+			<notes>1 hour</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow and Sure Only</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">40</cost>
+			<affects>total</affects>
+			<notes>1 hour</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow and Sure</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">110</cost>
+			<affects>total</affects>
+			<notes>10 minutes</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow and Sure Only</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">70</cost>
+			<affects>total</affects>
+			<notes>10 minutes</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow and Sure</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">155</cost>
+			<affects>total</affects>
+			<notes>10 seconds</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Slow and Sure Only</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">115</cost>
+			<affects>total</affects>
+			<notes>10 seconds</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Mind Tricks</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">-30</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B68</reference>
 		<categories>
 			<category>Advantage</category>
@@ -10202,6 +10452,49 @@
 			<cost type="percentage">-75</cost>
 			<affects>total</affects>
 			<notes>@Power/College/Focus@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Lockdown</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Profiling</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Reflection</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Active</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">-25</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Always On</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Feedback</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">-25</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Feedback</name>
+			<reference>PSI15</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<notes>With Always On</notes>
 		</modifier>
 		<reference>B70</reference>
 		<categories>
@@ -10447,6 +10740,41 @@
 		</categories>
 	</advantage>
 	<advantage version="3">
+		<name>Modular Abilities (Cosmic Power)</name>
+		<type>Physical, Exotic</type>
+		<levels>1</levels>
+		<points_per_level>10</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Physical Only</name>
+			<reference>B71</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Physical</name>
+			<reference>B71</reference>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Spells Only</name>
+			<reference>B71</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Virtual</name>
+			<reference>B71</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+			<notes>@Realm@</notes>
+		</modifier>
+		<reference>B71</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="3">
 		<name>Modular Abilities (Super-Memorization)</name>
 		<type>Mental, Exotic</type>
 		<levels>1</levels>
@@ -10462,6 +10790,80 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
+	</advantage>
+	<advantage version="3">
+		<name>Morph</name>
+		<type>Physical, Exotic</type>
+		<levels>1</levels>
+		<base_points>100</base_points>
+		<points_per_level>1</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Unlimited</name>
+			<reference>B85</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cosmetic</name>
+			<reference>B85</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Retains Shape</name>
+			<reference>B85</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Mass Conservation</name>
+			<reference>B85</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Active Change</name>
+			<reference>P75</reference>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Improvised Forms</name>
+			<reference>P75</reference>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cosmic (For Improvised Forms)</name>
+			<reference>P75</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Memorization Required</name>
+			<reference>P75</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cannot Memorize Forms</name>
+			<reference>P75</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Flawed</name>
+			<reference>P75</reference>
+			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Unliving Forms Only</name>
+			<reference>P75</reference>
+			<cost type="percentage">0</cost>
+			<affects>total</affects>
+		</modifier>
+		<reference>B84</reference>
 	</advantage>
 	<advantage version="3">
 		<name>Motion Sickness</name>
@@ -10883,6 +11285,24 @@
 			<affects>total</affects>
 			<notes>@Ability@ in @Power@</notes>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Derangable</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Power Theft, Weak</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Interruption</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B71</reference>
 		<categories>
 			<category>Advantage</category>
@@ -11279,6 +11699,12 @@
 			<cost type="percentage">-40</cost>
 			<affects>total</affects>
 			<notes>@Power@</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Anti-Targeting</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
 		</modifier>
 		<reference>B72</reference>
 		<categories>
@@ -12083,6 +12509,28 @@
 			<affects>total</affects>
 			<notes>@Family: Canidae@</notes>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Poor Control</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">-5</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Poor Control</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">-10</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+			<notes>40 Hour Practice</notes>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Poor Control, Permanent</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">-15</cost>
+			<levels>1</levels>
+			<affects>total</affects>
+		</modifier>
 		<reference>B75</reference>
 		<categories>
 			<category>Advantage</category>
@@ -12142,6 +12590,19 @@
 			<reference>P69</reference>
 			<cost type="percentage">-20</cost>
 			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Dreaming</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">-70</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Dreaming</name>
+			<reference>PSI16</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+			<notes>Combined with Active Only or Can't See Own Death</notes>
 		</modifier>
 		<reference>B77</reference>
 		<categories>
@@ -12250,6 +12711,12 @@
 			<name>Passive Only</name>
 			<reference>P69</reference>
 			<cost type="percentage">-60</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Visions</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">50</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B78</reference>
@@ -13053,6 +13520,12 @@
 			<cost type="points">10</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Extra-Sensory Awareness</name>
+			<reference>PSI17</reference>
+			<cost type="points">20</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B81</reference>
 		<categories>
 			<category>Advantage</category>
@@ -13190,6 +13663,18 @@
 			<name>True Sight</name>
 			<reference>P73</reference>
 			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Partially Exclusive</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Completely Exclusive</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">-50</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B83</reference>
@@ -14710,6 +15195,18 @@
 			<name>Discriminatory</name>
 			<reference>P98</reference>
 			<cost type="percentage">150</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Tiring</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>One Power</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">-50</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B78</reference>
@@ -16642,6 +17139,12 @@
 			<cost type="points">5</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Full Communion</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B91</reference>
 		<categories>
 			<category>Advantage</category>
@@ -16730,6 +17233,18 @@
 			<name>Super-Damage</name>
 			<reference>SU29</reference>
 			<cost type="percentage">900</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cannot Affect Self</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">-20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Cannot Punch</name>
+			<reference>PSI17</reference>
+			<cost type="percentage">-10</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B92</reference>
@@ -17084,6 +17599,30 @@
 			<name>IQ Only</name>
 			<reference>RSWL24</reference>
 			<cost type="percentage">-75</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Halt Aging, Weekly</name>
+			<reference>PSI18</reference>
+			<cost type="percentage">80</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Halt Aging, Monthly</name>
+			<reference>PSI18</reference>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Halt Aging, Yearly</name>
+			<reference>PSI18</reference>
+			<cost type="percentage">130</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Life Extension</name>
+			<reference>PSI18</reference>
+			<cost type="percentage">-30</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B95</reference>
@@ -17903,6 +18442,18 @@
 			<cost type="percentage">-50</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Gyroscopic</name>
+			<reference>PSI18</reference>
+			<cost type="percentage">10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Blink Only</name>
+			<reference>PSI18</reference>
+			<cost type="percentage">-60</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B97</reference>
 		<categories>
 			<category>Advantage</category>
@@ -18205,138 +18756,5 @@
 		<categories>
 			<category>Advantage</category>
 		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Alternate Form</name>
-		<type>Physical, Exotic</type>
-		<base_points>15</base_points>
-		<modifier version="1" enabled="no">
-			<name>Cosmetic</name>
-			<reference>B84</reference>
-			<cost type="percentage">-50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Absorptive Change</name>
-			<reference>P75</reference>
-			<cost type="percentage">5</cost>
-			<levels>1</levels>
-			<affects>total</affects>
-			<notes>@Level of Absorptive Change. 1 None, 2, Light, 3, Medium, 4, Heavy, 5, Extra Heavy@</notes>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Active Change</name>
-			<reference>P75</reference>
-			<cost type="percentage">20</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Non-Reciprocal Damage</name>
-			<reference>P75</reference>
-			<cost type="percentage">50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Once On, Stays On</name>
-			<reference>P75</reference>
-			<cost type="percentage">50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Reciprocal Rest</name>
-			<reference>P75</reference>
-			<cost type="percentage">30</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Projected Form</name>
-			<reference>P75</reference>
-			<cost type="percentage">-50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Takes Extra Time</name>
-			<cost type="percentage">-10</cost>
-			<levels>1</levels>
-			<affects>total</affects>
-		</modifier>
-		<reference>B83</reference>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Morph</name>
-		<type>Physical, Exotic</type>
-		<levels>1</levels>
-		<base_points>100</base_points>
-		<points_per_level>1</points_per_level>
-		<modifier version="1" enabled="no">
-			<name>Unlimited</name>
-			<reference>B85</reference>
-			<cost type="percentage">50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Cosmetic</name>
-			<reference>B85</reference>
-			<cost type="percentage">-50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Retains Shape</name>
-			<reference>B85</reference>
-			<cost type="percentage">-20</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Mass Conservation</name>
-			<reference>B85</reference>
-			<cost type="percentage">-20</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Active Change</name>
-			<reference>P75</reference>
-			<cost type="percentage">20</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Improvised Forms</name>
-			<reference>P75</reference>
-			<cost type="percentage">100</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Cosmic (For Improvised Forms)</name>
-			<reference>P75</reference>
-			<cost type="percentage">50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>No Memorization Required</name>
-			<reference>P75</reference>
-			<cost type="percentage">50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Cannot Memorize Forms</name>
-			<reference>P75</reference>
-			<cost type="percentage">-50</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Flawed</name>
-			<reference>P75</reference>
-			<cost type="percentage">-10</cost>
-			<affects>total</affects>
-		</modifier>
-		<modifier version="1" enabled="no">
-			<name>Unliving Forms Only</name>
-			<reference>P75</reference>
-			<cost type="percentage">0</cost>
-			<affects>total</affects>
-		</modifier>
-		<reference>B84</reference>
 	</advantage>
 </advantage_list>
