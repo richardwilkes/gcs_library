@@ -7671,6 +7671,12 @@
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>AP Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">35</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B62</reference>
 		<categories>
 			<category>Advantage</category>
@@ -7972,6 +7978,24 @@
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>AP Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">45</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>HP Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Multi-Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">65</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B62</reference>
 		<categories>
 			<category>Advantage</category>
@@ -8120,6 +8144,24 @@
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>AP Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>HP Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">20</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Multi-Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">40</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B62</reference>
 		<categories>
 			<category>Advantage</category>
@@ -8266,6 +8308,12 @@
 			<name>Incendiary</name>
 			<reference>B104</reference>
 			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>HP Ammo</name>
+			<reference>PU4:18</reference>
+			<cost type="percentage">40</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B62</reference>
