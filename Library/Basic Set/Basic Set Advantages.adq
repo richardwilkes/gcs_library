@@ -1782,6 +1782,62 @@
 		</categories>
 	</advantage>
 	<advantage version="3">
+		<name>Claws, Blunt (Feet &amp; Hands)</name>
+		<type>Physical</type>
+		<base_points>3</base_points>
+		<melee_weapon>
+			<damage type="cr" st="thr" base="-1" modifier_per_die="1"/>
+			<usage>Punch</usage>
+			<reach>C</reach>
+			<parry>0</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Boxing</name>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Karate</name>
+				<modifier>0</modifier>
+			</default>
+		</melee_weapon>
+		<melee_weapon>
+			<damage type="cr" st="thr" modifier_per_die="1"/>
+			<usage>Kick</usage>
+			<reach>C,1</reach>
+			<parry>No</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Karate</name>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<reference>B42</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+	</advantage>
+	<advantage version="3">
 		<name>Claws, Blunt (Feet)</name>
 		<type>Physical</type>
 		<base_points>3</base_points>
@@ -1807,7 +1863,6 @@
 			</default>
 		</melee_weapon>
 		<reference>B42</reference>
-		<notes>Only pay for hands or feet, not both</notes>
 		<categories>
 			<category>Advantage</category>
 		</categories>
@@ -1843,45 +1898,9 @@
 			</default>
 		</melee_weapon>
 		<reference>B42</reference>
-		<notes>Only pay for hands or feet, not both</notes>
 		<categories>
 			<category>Advantage</category>
 		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Claws, Hooves</name>
-		<type>Physical</type>
-		<base_points>3</base_points>
-		<melee_weapon>
-			<damage type="cr" st="thr" modifier_per_die="1"/>
-			<usage>Trample</usage>
-			<reach>C,1</reach>
-			<parry>No</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Brawling</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-2</modifier>
-			</default>
-		</melee_weapon>
-		<reference>B42</reference>
-		<notes>Only pay for hands or feet, not both</notes>
-		<categories>
-			<category>Advantage</category>
-		</categories>
-		<dr_bonus>
-			<location>feet</location>
-			<amount>1</amount>
-		</dr_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Claws, Long Talons (Feet)</name>
@@ -5941,6 +5960,40 @@
 		<categories>
 			<category>Disadvantage</category>
 		</categories>
+	</advantage>
+	<advantage version="3">
+		<name>Hooves</name>
+		<type>Physical</type>
+		<base_points>3</base_points>
+		<melee_weapon>
+			<damage type="cr" st="thr" modifier_per_die="1"/>
+			<usage>Trample</usage>
+			<reach>C,1</reach>
+			<parry>No</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Karate</name>
+				<modifier>-2</modifier>
+			</default>
+		</melee_weapon>
+		<reference>B42</reference>
+		<categories>
+			<category>Advantage</category>
+		</categories>
+		<dr_bonus>
+			<location>feet</location>
+			<amount>1</amount>
+		</dr_bonus>
 	</advantage>
 	<advantage version="3">
 		<name>Hoplophobia (Weapons)</name>
@@ -11836,6 +11889,7 @@
 		<type>Physical</type>
 		<base_points>-20</base_points>
 		<reference>B147</reference>
+		<notes>You get -4 on tasks that are possible with one arm but that are usually executed with two</notes>
 		<categories>
 			<category>Disadvantage</category>
 		</categories>
@@ -13774,6 +13828,7 @@
 		<type>Physical, Exotic</type>
 		<base_points>-5</base_points>
 		<reference>B153</reference>
+		<notes>Moving while upright reduces Move by 40%</notes>
 		<categories>
 			<category>Disadvantage</category>
 		</categories>
@@ -18514,8 +18569,25 @@
 		<name>Weak Bite</name>
 		<type>Physical, Exotic</type>
 		<base_points>-2</base_points>
+		<melee_weapon>
+			<damage type="cr" st="thr" base="-1" modifier_per_die="-2"/>
+			<usage>Bite</usage>
+			<reach>C</reach>
+			<parry>No</parry>
+			<block>No</block>
+			<default>
+				<type>DX</type>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Brawling</name>
+				<modifier>0</modifier>
+			</default>
+		</melee_weapon>
 		<reference>B161</reference>
 		<categories>
+			<category>Animal</category>
 			<category>Disadvantage</category>
 		</categories>
 	</advantage>

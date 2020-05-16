@@ -20,6 +20,17 @@
 				<type>Physical</type>
 				<base_points>-50</base_points>
 				<reference>B145</reference>
+				<categories>
+					<category>Disadvantage</category>
+				</categories>
+				<cost_reduction>
+					<attribute>st</attribute>
+					<percentage>40</percentage>
+				</cost_reduction>
+				<cost_reduction>
+					<attribute>dx</attribute>
+					<percentage>40</percentage>
+				</cost_reduction>
 			</advantage>
 		</advantage_container>
 	</advantage_list>
