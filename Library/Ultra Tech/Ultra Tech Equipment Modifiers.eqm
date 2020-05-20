@@ -3,31 +3,31 @@
 	<eqp_modifier version="1">
 		<name>Disguised</name>
 		<reference>UT15</reference>
-		<cost cost_type="to base cost">x2</cost>
+		<cost cost_type="to final cost">x2</cost>
 		<notes>Mass Produced</notes>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Disguised</name>
 		<reference>UT15</reference>
-		<cost cost_type="to base cost">x5</cost>
+		<cost cost_type="to final cost">x5</cost>
 		<notes>Custom-built item</notes>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Rugged</name>
 		<reference>UT15</reference>
-		<cost cost_type="to base cost">x2</cost>
+		<cost cost_type="to final cost">x2</cost>
 		<weight weight_type="to original weight">+20%</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Cheap</name>
 		<reference>UT15</reference>
-		<cost cost_type="to original cost">-50%</cost>
+		<cost cost_type="to original cost">x0.5</cost>
 		<weight weight_type="to final base weight">x1.5</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Expensive</name>
 		<reference>UT15</reference>
-		<cost cost_type="to base cost">x2</cost>
+		<cost cost_type="to final cost">x2</cost>
 		<weight weight_type="to final base weight">x2/3</weight>
 	</eqp_modifier>
 	<eqp_modifier_container version="1" open="yes" enabled="no">
@@ -36,102 +36,102 @@
 		<eqp_modifier version="1">
 			<name>SM -4</name>
 			<reference>UT16</reference>
-			<cost cost_type="to final cost">-95%</cost>
+			<cost cost_type="to final cost">x0.05</cost>
 			<weight weight_type="to final weight">x1/20</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +1</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x2</cost>
-			<weight weight_type="to base weight">x2</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +2</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x5</cost>
-			<weight weight_type="to base weight">x5</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +3</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x10</cost>
-			<weight weight_type="to base weight">x10</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +4</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x20</cost>
-			<weight weight_type="to base weight">x20</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +5</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x50</cost>
-			<weight weight_type="to base weight">x50</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +6</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x100</cost>
-			<weight weight_type="to base weight">x100</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +7</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x200</cost>
-			<weight weight_type="to base weight">x200</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +8</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x500</cost>
-			<weight weight_type="to base weight">x500</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +9</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x1000</cost>
-			<weight weight_type="to base weight">x1000</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +10</name>
-			<reference>UT16</reference>
-			<cost cost_type="to base cost">x2000</cost>
-			<weight weight_type="to base weight">x2000</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -3</name>
 			<reference>UT16</reference>
-			<cost cost_type="to final cost">-90%</cost>
+			<cost cost_type="to final cost">x0.1</cost>
 			<weight weight_type="to final weight">x1/10</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -2</name>
 			<reference>UT16</reference>
-			<cost cost_type="to final cost">-80%</cost>
+			<cost cost_type="to final cost">x0.2</cost>
 			<weight weight_type="to final weight">x1/5</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -1</name>
 			<reference>UT16</reference>
-			<cost cost_type="to final cost">-50%</cost>
+			<cost cost_type="to final cost">x0.5</cost>
 			<weight weight_type="to final weight">x1/2</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +1</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x2</cost>
+			<weight weight_type="to final weight">x2</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +2</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x5</cost>
+			<weight weight_type="to final weight">x5</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +3</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x10</cost>
+			<weight weight_type="to final weight">x10</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +4</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x20</cost>
+			<weight weight_type="to final weight">x20</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +5</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x50</cost>
+			<weight weight_type="to final weight">x50</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +6</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x100</cost>
+			<weight weight_type="to final weight">x100</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +7</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x200</cost>
+			<weight weight_type="to final weight">x200</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +8</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x500</cost>
+			<weight weight_type="to final weight">x500</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +9</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x1000</cost>
+			<weight weight_type="to final weight">x1000</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +10</name>
+			<reference>UT16</reference>
+			<cost cost_type="to final cost">x2000</cost>
+			<weight weight_type="to final weight">x2000</weight>
 		</eqp_modifier>
 	</eqp_modifier_container>
 	<eqp_modifier version="1">
 		<name>Electrothermal-Chemical</name>
 		<reference>UT139</reference>
-		<cost cost_type="to base cost">x2</cost>
+		<cost cost_type="to final cost">x2</cost>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Liquid Propellant</name>
 		<reference>UT139</reference>
-		<cost cost_type="to base cost">x1.5</cost>
+		<cost cost_type="to final cost">x1.5</cost>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Armor-Piercing Hardcore</name>
 		<reference>UT152</reference>
-		<cost cost_type="to base cost">x2</cost>
+		<cost cost_type="to final cost">x2</cost>
 	</eqp_modifier>
 	<eqp_modifier_container version="1" open="yes" enabled="no">
 		<name>Warheads and Ammunition</name>
@@ -139,110 +139,110 @@
 		<eqp_modifier version="1">
 			<name>Armor-Piercing Enhanced Penertrator</name>
 			<reference>UT152</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Armor-Piercing Hardcore Explosive</name>
 			<reference>UT152</reference>
-			<cost cost_type="to base cost">x4</cost>
+			<cost cost_type="to final cost">x4</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Biochemical Aerosol</name>
 			<reference>UT153</reference>
-			<cost cost_type="to base cost">x1</cost>
+			<cost cost_type="to final cost">x1</cost>
 			<notes>Cost Plus Filler x # of Doses</notes>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Biochemical Liquid</name>
 			<reference>UT153</reference>
-			<cost cost_type="to base cost">x1</cost>
+			<cost cost_type="to final cost">x1</cost>
 			<notes>Cost Plus Filler x # of Doses</notes>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Flare</name>
 			<reference>UT153</reference>
-			<cost cost_type="to base cost">x2</cost>
+			<cost cost_type="to final cost">x2</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>High Explosive</name>
 			<reference>UT153</reference>
-			<cost cost_type="to base cost">x1</cost>
+			<cost cost_type="to final cost">x1</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>High Explosive Concussion</name>
 			<reference>UT154</reference>
-			<cost cost_type="to base cost">x1</cost>
+			<cost cost_type="to final cost">x1</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Holllow-Point</name>
 			<reference>UT154</reference>
-			<cost cost_type="to base cost">x1</cost>
+			<cost cost_type="to final cost">x1</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Shaped Charge</name>
 			<reference>UT154</reference>
-			<cost cost_type="to base cost">x2</cost>
+			<cost cost_type="to final cost">x2</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Memory Baton</name>
 			<reference>UT154</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Monochain</name>
 			<reference>UT154</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Shotshell</name>
 			<reference>UT154</reference>
-			<cost cost_type="to base cost">x1</cost>
+			<cost cost_type="to final cost">x1</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Smart Explosively Forged Projectile</name>
 			<reference>UT154</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Tangler</name>
 			<reference>UT155</reference>
-			<cost cost_type="to base cost">x2</cost>
+			<cost cost_type="to final cost">x2</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Thermobaric</name>
 			<reference>UT155</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Burrow Darts</name>
 			<reference>UT155</reference>
-			<cost cost_type="to base cost">x3</cost>
+			<cost cost_type="to final cost">x3</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>High Explosive Multi-Purpose</name>
 			<reference>UT155</reference>
-			<cost cost_type="to base cost">x2</cost>
+			<cost cost_type="to final cost">x2</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Stingray</name>
 			<reference>UT156</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Swarm</name>
 			<reference>UT156</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 			<notes>Plus Cost of Swarm</notes>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Armor Piercing Hyperdense Dart</name>
 			<reference>UT156</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Mininuke</name>
 			<reference>UT156</reference>
-			<cost cost_type="to base cost">x1000</cost>
+			<cost cost_type="to final cost">x1000</cost>
 		</eqp_modifier>
 		<eqp_modifier_container version="1" open="yes" enabled="no">
 			<name>Antimatter Warhead Antimatter Costs</name>
@@ -323,67 +323,67 @@
 		<eqp_modifier version="1">
 			<name>Micro-Antimatter Warhead</name>
 			<reference>UT156</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>EMP</name>
 			<reference>UT157</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Expendable Jammer</name>
 			<reference>UT157</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Strobe</name>
 			<reference>UT157</reference>
-			<cost cost_type="to base cost">x4</cost>
+			<cost cost_type="to final cost">x4</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Warbler</name>
 			<reference>UT157</reference>
-			<cost cost_type="to base cost">x4</cost>
+			<cost cost_type="to final cost">x4</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Force</name>
 			<reference>UT158</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Plasma</name>
 			<reference>UT158</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Implosion</name>
 			<reference>UT158</reference>
-			<cost cost_type="to base cost">x5</cost>
+			<cost cost_type="to final cost">x5</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Psi-Bomb</name>
 			<reference>UT158</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Stasis</name>
 			<reference>UT159</reference>
-			<cost cost_type="to base cost">x500</cost>
+			<cost cost_type="to final cost">x500</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Psi-Bomb, Message</name>
 			<reference>UT159</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Psi-Bomb, Terror</name>
 			<reference>UT159</reference>
-			<cost cost_type="to base cost">x10</cost>
+			<cost cost_type="to final cost">x10</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Vortex</name>
 			<reference>UT159</reference>
-			<cost cost_type="to base cost">x1000</cost>
+			<cost cost_type="to final cost">x1000</cost>
 		</eqp_modifier>
 	</eqp_modifier_container>
 	<eqp_modifier_container version="1" open="yes" enabled="no">
@@ -398,33 +398,33 @@
 		<eqp_modifier version="1">
 			<name>Superfine Blade</name>
 			<reference>UT163</reference>
-			<cost cost_type="to base cost">+6 CF</cost>
+			<cost cost_type="to final cost">+6 CF</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Vibroblade</name>
 			<reference>UT164</reference>
-			<cost cost_type="to base cost">+10 CF</cost>
+			<cost cost_type="to final cost">+10 CF</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Superfine Vibroblade</name>
 			<reference>UT164</reference>
-			<cost cost_type="to base cost">+30 CF</cost>
+			<cost cost_type="to final cost">+30 CF</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Hyperdense Blade</name>
 			<reference>UT164</reference>
-			<cost cost_type="to base cost">+10 CF</cost>
+			<cost cost_type="to final cost">+10 CF</cost>
 			<notes>Cost is higher of: 500x Weight in lb, or 10x normal cost.</notes>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Nanothorn Blade</name>
 			<reference>UT164</reference>
-			<cost cost_type="to base cost">+20 CF</cost>
+			<cost cost_type="to final cost">+20 CF</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Nanothorn Blade</name>
 			<reference>UT164</reference>
-			<cost cost_type="to base cost">+4 CF</cost>
+			<cost cost_type="to final cost">+4 CF</cost>
 			<notes>Upgrade for Monowire.</notes>
 		</eqp_modifier>
 	</eqp_modifier_container>
