@@ -4747,6 +4747,12 @@
 			<cost type="percentage">-80</cost>
 			<affects>total</affects>
 		</modifier>
+		<modifier version="1" enabled="no">
+			<name>No Grasping Hand</name>
+			<reference>MATG28</reference>
+			<cost type="percentage">-40</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B53</reference>
 		<categories>
 			<category>Advantage</category>
@@ -4881,6 +4887,18 @@
 			<name>Cannot Kick</name>
 			<reference>B55</reference>
 			<cost type="percentage">-50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Extra Flexible</name>
+			<reference>MATG27</reference>
+			<cost type="percentage">50</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Prehensile Feet</name>
+			<reference>MATG28</reference>
+			<cost type="percentage">20</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B54</reference>
@@ -9497,6 +9515,18 @@
 			<reference>PY83:18</reference>
 			<cost type="points">4</cost>
 			<affects>levels only</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>@Limb@ Grip ST</name>
+			<reference>MATG28</reference>
+			<cost type="percentage">-70</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Bite ST</name>
+			<reference>MATG28</reference>
+			<cost type="percentage">-70</cost>
+			<affects>total</affects>
 		</modifier>
 		<reference>B65</reference>
 		<categories>
@@ -14667,6 +14697,12 @@
 		<type>Physical, Exotic</type>
 		<levels>1</levels>
 		<points_per_level>2</points_per_level>
+		<modifier version="1" enabled="no">
+			<name>Affects Others Only</name>
+			<reference>MATG29</reference>
+			<cost type="percentage">100</cost>
+			<affects>total</affects>
+		</modifier>
 		<reference>B85</reference>
 		<categories>
 			<category>Advantage</category>
@@ -17351,6 +17387,24 @@
 			<name>Cannot Punch</name>
 			<reference>PSI17</reference>
 			<cost type="percentage">-10</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Enveloping</name>
+			<reference>MATG28</reference>
+			<cost type="percentage">60</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Grappling Only</name>
+			<reference>MATG28</reference>
+			<cost type="percentage">-30</cost>
+			<affects>total</affects>
+		</modifier>
+		<modifier version="1" enabled="no">
+			<name>Restraint Only</name>
+			<reference>MATG28</reference>
+			<cost type="percentage">-45</cost>
 			<affects>total</affects>
 		</modifier>
 		<reference>B92</reference>
