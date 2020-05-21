@@ -74,19 +74,19 @@
 		<name>Expert Tailoring</name>
 		<reference>LT110</reference>
 		<cost cost_type="to base cost">+5 CF</cost>
-		<weight weight_type="to original weight">-15%</weight>
+		<weight weight_type="to base weight">x85%</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Masterful Tailoring</name>
 		<reference>LT110</reference>
 		<cost cost_type="to base cost">+29 CF</cost>
-		<weight weight_type="to original weight">-30%</weight>
+		<weight weight_type="to base weight">x70%</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Fluting</name>
 		<reference>LT110</reference>
 		<cost cost_type="to base cost">+4 CF</cost>
-		<weight weight_type="to original weight">-10%</weight>
+		<weight weight_type="to base weight">x90%</weight>
 		<notes>Plate, Scale, Lamellar</notes>
 	</eqp_modifier>
 	<eqp_modifier version="1">
@@ -99,7 +99,7 @@
 		<name>Duplex Plate</name>
 		<reference>LT110</reference>
 		<cost cost_type="to base cost">+8 CF</cost>
-		<weight weight_type="to original weight">-10%</weight>
+		<weight weight_type="to base weight">x90%</weight>
 		<notes>+1 DR</notes>
 	</eqp_modifier>
 </eqp_modifier_list>

@@ -54,32 +54,32 @@
 		<eqp_modifier version="1">
 			<name>Heavy Blunt</name>
 			<reference>LTC2:13</reference>
-			<cost cost_type="to original cost">-80%</cost>
+			<cost cost_type="to original cost">x0.2</cost>
 			<weight weight_type="to original weight">+100%</weight>
 			<notes>Recalculate ST on new Weight</notes>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Padded</name>
 			<reference>LTC2:13</reference>
-			<cost cost_type="to original cost">-95%</cost>
+			<cost cost_type="to original cost">x0.05</cost>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Ultra-Light</name>
 			<reference>LTC2:13</reference>
-			<cost cost_type="to original cost">-95%</cost>
+			<cost cost_type="to original cost">x0.05</cost>
 			<weight weight_type="to original weight">-40%</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>Wooden</name>
 			<reference>LTC2:13</reference>
-			<cost cost_type="to original cost">-90%</cost>
+			<cost cost_type="to original cost">x0.1</cost>
 		</eqp_modifier>
 	</eqp_modifier_container>
 	<eqp_modifier version="1">
 		<name>Axe Head</name>
 		<reference>LTC2:13</reference>
 		<cost cost_type="to original cost">+30</cost>
-		<weight weight_type="to base weight">+1 lb</weight>
+		<weight weight_type="to original weight">+1 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Barbs</name>
@@ -89,13 +89,19 @@
 	<eqp_modifier version="1">
 		<name>Butt Spike</name>
 		<reference>LTC2:14</reference>
-		<cost cost_type="to final base cost">+20</cost>
+		<cost cost_type="to original cost">+20</cost>
+	</eqp_modifier>
+	<eqp_modifier version="1">
+		<name>Butt Spike</name>
+		<reference>LTC2:14</reference>
+		<cost cost_type="to original cost">+20</cost>
+		<notes>Small Spear Point, Impaling Damage.</notes>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Chain</name>
 		<reference>LTC2:14</reference>
 		<cost cost_type="to original cost">+20</cost>
-		<weight weight_type="to base weight">+0.5 lb</weight>
+		<weight weight_type="to original weight">+0.5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>@Flanges, Spikes, or End Caps@</name>
@@ -112,7 +118,7 @@
 		<name>Hammer Head</name>
 		<reference>LTC2:14</reference>
 		<cost cost_type="to original cost">+25</cost>
-		<weight weight_type="to base weight">+0.5 lb</weight>
+		<weight weight_type="to original weight">+0.5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>@Blunt or Sharp@ Hook</name>
@@ -122,44 +128,44 @@
 	<eqp_modifier version="1">
 		<name>Kusari, Two-Yard</name>
 		<reference>LTC2:14</reference>
-		<cost cost_type="to final base cost">+40</cost>
-		<weight weight_type="to base weight">+2.5 lb</weight>
+		<cost cost_type="to original cost">+40</cost>
+		<weight weight_type="to original weight">+2.5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Kusari, Four-Yard</name>
 		<reference>LTC2:14</reference>
-		<cost cost_type="to final base cost">+80</cost>
-		<weight weight_type="to base weight">+5 lb</weight>
+		<cost cost_type="to original cost">+80</cost>
+		<weight weight_type="to original weight">+5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Pick</name>
 		<reference>LTC2:14</reference>
 		<cost cost_type="to original cost">+50</cost>
-		<weight weight_type="to base weight">+0.5 lb</weight>
+		<weight weight_type="to original weight">+0.5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Prongs</name>
 		<reference>LTC2:15</reference>
 		<cost cost_type="to original cost">+50</cost>
-		<weight weight_type="to base weight">+0.5 lb</weight>
+		<weight weight_type="to original weight">+0.5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Sickle</name>
 		<reference>LTC2:15</reference>
 		<cost cost_type="to original cost">+30</cost>
-		<weight weight_type="to base weight">+0.5 lb</weight>
+		<weight weight_type="to original weight">+0.5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Small Spearhead</name>
 		<reference>LTC2:15</reference>
 		<cost cost_type="to original cost">+20</cost>
-		<weight weight_type="to base weight">+2.5 lb</weight>
+		<weight weight_type="to original weight">+2.5 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Full Size Spearhead</name>
 		<reference>LTC2:15</reference>
 		<cost cost_type="to original cost">+30</cost>
-		<weight weight_type="to base weight">+1 lb</weight>
+		<weight weight_type="to original weight">+1 lb</weight>
 	</eqp_modifier>
 	<eqp_modifier version="1">
 		<name>Hilt</name>
@@ -186,6 +192,7 @@
 	</eqp_modifier>
 	<eqp_modifier_container version="1" open="yes" enabled="no">
 		<name>Shield Modifiers</name>
+		<reference>LTC:19</reference>
 		<eqp_modifier version="1">
 			<name>Alternate Grips</name>
 			<reference>LTC2:19</reference>
@@ -201,7 +208,7 @@
 		<eqp_modifier version="1">
 			<name>Blades, Long</name>
 			<reference>LTC2:20</reference>
-			<cost cost_type="to final cost">+120</cost>
+			<cost cost_type="to original cost">+120</cost>
 			<weight weight_type="to original weight">+1.5 lb</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
@@ -263,73 +270,73 @@
 		<eqp_modifier version="1">
 			<name>SM -6</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x0.01</cost>
+			<cost cost_type="to final cost">x0.01</cost>
 			<weight weight_type="to final base weight">x0.01</weight>
-		</eqp_modifier>
-		<eqp_modifier version="1">
-			<name>SM +1</name>
-			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x2.25</cost>
-			<weight weight_type="to final base weight">x2.25</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -5</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x0.04</cost>
+			<cost cost_type="to final cost">x0.04</cost>
 			<weight weight_type="to final base weight">x0.04</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -4</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x0.09</cost>
+			<cost cost_type="to final cost">x0.09</cost>
 			<weight weight_type="to final base weight">x0.09</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -3</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x0.16</cost>
+			<cost cost_type="to final cost">x0.16</cost>
 			<weight weight_type="to final base weight">x0.16</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -2</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x0.25</cost>
+			<cost cost_type="to final cost">x0.25</cost>
 			<weight weight_type="to final base weight">x0.25</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM -1</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x0.64</cost>
+			<cost cost_type="to final cost">x0.64</cost>
 			<weight weight_type="to final base weight">x0.64</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM +2</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x6.25</cost>
+			<cost cost_type="to final cost">x6.25</cost>
 			<weight weight_type="to final base weight">x6.25</weight>
+		</eqp_modifier>
+		<eqp_modifier version="1">
+			<name>SM +1</name>
+			<reference>LTC2:21</reference>
+			<cost cost_type="to final cost">x2.25</cost>
+			<weight weight_type="to final base weight">x2.25</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM +3</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x12.25</cost>
+			<cost cost_type="to final cost">x12.25</cost>
 			<weight weight_type="to final base weight">x12.25</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM +4</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x25</cost>
+			<cost cost_type="to final cost">x25</cost>
 			<weight weight_type="to final base weight">x25</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM +5</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x56.25</cost>
+			<cost cost_type="to final cost">x56.25</cost>
 			<weight weight_type="to final base weight">x56.25</weight>
 		</eqp_modifier>
 		<eqp_modifier version="1">
 			<name>SM +6</name>
 			<reference>LTC2:21</reference>
-			<cost cost_type="to base cost">x100</cost>
+			<cost cost_type="to final cost">x100</cost>
 			<weight weight_type="to final base weight">x100</weight>
 		</eqp_modifier>
 	</eqp_modifier_container>
