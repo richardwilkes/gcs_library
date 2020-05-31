@@ -958,12 +958,6 @@
 		<categories>
 			<category>Perk</category>
 		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="yes">
-				<name compare="is">High-Heeled Heroine</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="3">
 		<name>Biting Mastery</name>
@@ -1143,12 +1137,6 @@
 		<categories>
 			<category>Perk</category>
 		</categories>
-		<prereq_list all="yes">
-			<advantage_prereq has="yes">
-				<name compare="is">High-Heeled Heroine</name>
-				<notes compare="is anything"></notes>
-			</advantage_prereq>
-		</prereq_list>
 	</advantage>
 	<advantage version="3">
 		<name>Checkered Past</name>
@@ -2441,90 +2429,90 @@
 		<type>Mental, Supernatural</type>
 		<modifier version="1" enabled="no">
 			<name>Imbue level 1</name>
+			<reference>PU1:4</reference>
 			<cost type="points">10</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 			<notes>Novice imbuement skills available.</notes>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Imbue level 2</name>
+			<reference>PU1:4</reference>
 			<cost type="points">20</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 			<notes>Intermediate (and easier) imbuement skills available.</notes>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Imbue level 3</name>
+			<reference>PU1:4</reference>
 			<cost type="points">40</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 			<notes>Master (and easier) imbuement skills available.</notes>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Chi</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Divine</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Magical</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Psionic</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-10</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Power Based</name>
+			<reference>PY12:24</reference>
 			<cost type="percentage">-5</cost>
 			<affects>total</affects>
-			<reference>PY12:24</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Cosmic</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">50</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Ignore DR</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">300</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Only One Skill</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-80</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Only Two Skills</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-60</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Only Three Skills</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-40</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<modifier version="1" enabled="no">
 			<name>Only Four Skills</name>
+			<reference>PU1:4</reference>
 			<cost type="percentage">-20</cost>
 			<affects>total</affects>
-			<reference>PU1:4</reference>
 		</modifier>
 		<reference>PU1:4</reference>
 		<categories>
@@ -8961,9 +8949,9 @@
 		<points_per_level>5</points_per_level>
 		<modifier version="1" enabled="no">
 			<name>Power Talent</name>
+			<reference>DF12:4</reference>
 			<cost type="points">5</cost>
 			<affects>levels only</affects>
-			<reference>DF12:4</reference>
 		</modifier>
 		<reference>PU3:7</reference>
 		<categories>
