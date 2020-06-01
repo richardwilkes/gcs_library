@@ -12966,6 +12966,40 @@
 		</categories>
 	</advantage>
 	<advantage version="3">
+		<name>Racial Skill Bonus - @Skill without a specialization@</name>
+		<type>Mental, Exotic</type>
+		<levels>1</levels>
+		<points_per_level>2</points_per_level>
+		<reference>B452</reference>
+		<categories>
+			<category>Advantage</category>
+			<category>Talent</category>
+		</categories>
+		<skill_bonus>
+			<name compare="is">@Skill without a specialization@</name>
+			<specialization compare="is anything"></specialization>
+			<category compare="is anything"></category>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+	</advantage>
+	<advantage version="3">
+		<name>Racial Skill Bonus - @Skill@ (@Specialization@)</name>
+		<type>Mental, Exotic</type>
+		<levels>1</levels>
+		<points_per_level>2</points_per_level>
+		<reference>B452</reference>
+		<categories>
+			<category>Advantage</category>
+			<category>Talent</category>
+		</categories>
+		<skill_bonus>
+			<name compare="is">@Skill@</name>
+			<specialization compare="is">@Specialization@</specialization>
+			<category compare="is anything"></category>
+			<amount per_level="yes">1</amount>
+		</skill_bonus>
+	</advantage>
+	<advantage version="3">
 		<name>Radiation Tolerance</name>
 		<type>Physical, Exotic</type>
 		<modifier version="1" enabled="no">
@@ -13385,7 +13419,7 @@
 			<category>Advantage</category>
 		</categories>
 	</advantage>
-	<advantage version="3">
+	<advantage version="3" round_down="yes">
 		<name>Resistant</name>
 		<type>Physical</type>
 		<modifier version="1" enabled="no">

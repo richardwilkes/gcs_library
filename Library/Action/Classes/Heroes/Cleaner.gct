@@ -6,7 +6,7 @@
 			<reference>ACT1:7</reference>
 			<advantage_container version="3" open="yes">
 				<name>Advantages</name>
-				<advantage_container version="3" open="yes">
+				<advantage_container version="3" open="no">
 					<name>Choose 30 points</name>
 					<advantage_container version="3" open="yes">
 						<name>Acute Senses</name>
@@ -141,8 +141,8 @@
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Favor</name>
-							<cost type="multiplier">0.2</cost>
 							<reference>B55</reference>
+							<cost type="multiplier">0.2</cost>
 						</modifier>
 						<reference>B44</reference>
 						<categories>
@@ -177,7 +177,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="3" open="yes">
+					<advantage_container version="3" open="no">
 						<name>Gun Perks</name>
 						<advantage version="3">
 							<name>Akimbo(@One Handed Weapon Skill@)</name>
@@ -311,22 +311,22 @@
 						<points_per_level>10</points_per_level>
 						<modifier version="1" enabled="no">
 							<name>No Fine Manipulators</name>
+							<reference>B15</reference>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
-							<reference>B15</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Size</name>
+							<reference>B15</reference>
 							<cost type="percentage">-10</cost>
 							<levels>1</levels>
 							<affects>total</affects>
-							<reference>B15</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Super-Effort</name>
+							<reference>SU24</reference>
 							<cost type="percentage">300</cost>
 							<affects>total</affects>
-							<reference>SU24</reference>
 						</modifier>
 						<reference>B14</reference>
 						<categories>
@@ -432,8 +432,8 @@
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Favor</name>
-									<cost type="multiplier">0.2</cost>
 									<reference>B55</reference>
+									<cost type="multiplier">0.2</cost>
 								</modifier>
 								<reference>B44</reference>
 								<categories>
@@ -514,8 +514,8 @@
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Favor</name>
-									<cost type="multiplier">0.2</cost>
 									<reference>B55</reference>
+									<cost type="multiplier">0.2</cost>
 								</modifier>
 								<reference>B44</reference>
 								<categories>
@@ -542,15 +542,15 @@
 								<points_per_level>5</points_per_level>
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
+									<reference>B29</reference>
 									<cost type="points">5</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
+									<reference>B29</reference>
 									<cost type="points">-4</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
 								<notes>Intelligence: @Title@</notes>
@@ -596,15 +596,15 @@
 								<points_per_level>5</points_per_level>
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
+									<reference>B29</reference>
 									<cost type="points">5</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
+									<reference>B29</reference>
 									<cost type="points">-4</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
 								<notes>Police: @Title@</notes>
@@ -632,15 +632,15 @@
 								<points_per_level>5</points_per_level>
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
+									<reference>B29</reference>
 									<cost type="points">5</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
+									<reference>B29</reference>
 									<cost type="points">-4</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
 								<notes>Military: @Title@</notes>
@@ -667,15 +667,15 @@
 								<points_per_level>5</points_per_level>
 								<modifier version="1" enabled="no">
 									<name>Replaces Status</name>
+									<reference>B29</reference>
 									<cost type="points">5</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<modifier version="1" enabled="no">
 									<name>Courtesy</name>
+									<reference>B29</reference>
 									<cost type="points">-4</cost>
 									<affects>levels only</affects>
-									<reference>B29</reference>
 								</modifier>
 								<reference>B29</reference>
 								<notes>Security: @Title@</notes>
@@ -691,28 +691,28 @@
 						<base_points>30</base_points>
 						<modifier version="1" enabled="no">
 							<name>Active</name>
+							<reference>B66</reference>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
-							<reference>B66</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Aspected</name>
+							<reference>B66</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B66</reference>
 							<notes>@Aspect@</notes>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Defensive</name>
+							<reference>B66</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B66</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Wishing</name>
+							<reference>P59</reference>
 							<cost type="percentage">100</cost>
 							<affects>total</affects>
-							<reference>P59</reference>
 						</modifier>
 						<reference>B66</reference>
 						<notes>Usable once per 30 minutes of play</notes>
@@ -733,15 +733,15 @@
 						<points_per_level>15</points_per_level>
 						<modifier version="1" enabled="no">
 							<name>Wishing</name>
+							<reference>P73</reference>
 							<cost type="percentage">100</cost>
 							<affects>total</affects>
-							<reference>P73</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Wishing</name>
+							<reference>P73</reference>
 							<cost type="percentage">0</cost>
 							<affects>total</affects>
-							<reference>P73</reference>
 							<notes>For others only</notes>
 						</modifier>
 						<reference>B83</reference>
@@ -892,34 +892,34 @@
 						<points_per_level>20</points_per_level>
 						<modifier version="1" enabled="no">
 							<name>Retention</name>
+							<reference>B99</reference>
 							<cost type="percentage">25</cost>
 							<affects>total</affects>
-							<reference>B99</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Emergencies Only</name>
+							<reference>B100</reference>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
-							<reference>B100</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Focused</name>
+							<reference>B99</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B99</reference>
 							<notes>@Type: Mental, Physical, Magical or Chi@</notes>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Wild Ability</name>
+							<reference>P90</reference>
 							<cost type="percentage">50</cost>
 							<affects>total</affects>
-							<reference>P90</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>External</name>
+							<reference>P90</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>P90</reference>
 						</modifier>
 						<reference>B99</reference>
 						<categories>
@@ -942,28 +942,28 @@
 					<base_points>15</base_points>
 					<modifier version="1" enabled="no">
 						<name>Active</name>
+						<reference>B66</reference>
 						<cost type="percentage">-40</cost>
 						<affects>total</affects>
-						<reference>B66</reference>
 					</modifier>
 					<modifier version="1" enabled="no">
 						<name>Aspected</name>
+						<reference>B66</reference>
 						<cost type="percentage">-20</cost>
 						<affects>total</affects>
-						<reference>B66</reference>
 						<notes>@Aspect@</notes>
 					</modifier>
 					<modifier version="1" enabled="no">
 						<name>Defensive</name>
+						<reference>B66</reference>
 						<cost type="percentage">-20</cost>
 						<affects>total</affects>
-						<reference>B66</reference>
 					</modifier>
 					<modifier version="1" enabled="no">
 						<name>Wishing</name>
+						<reference>P59</reference>
 						<cost type="percentage">100</cost>
 						<affects>total</affects>
-						<reference>P59</reference>
 					</modifier>
 					<reference>B66</reference>
 					<notes>Usable once per hour of play</notes>
@@ -1040,22 +1040,22 @@
 					<points_per_level>10</points_per_level>
 					<modifier version="1" enabled="no">
 						<name>No Fine Manipulators</name>
+						<reference>B15</reference>
 						<cost type="percentage">-40</cost>
 						<affects>total</affects>
-						<reference>B15</reference>
 					</modifier>
 					<modifier version="1" enabled="no">
 						<name>Size</name>
+						<reference>B15</reference>
 						<cost type="percentage">-10</cost>
 						<levels>1</levels>
 						<affects>total</affects>
-						<reference>B15</reference>
 					</modifier>
 					<modifier version="1" enabled="no">
 						<name>Super-Effort</name>
+						<reference>SU24</reference>
 						<cost type="percentage">300</cost>
 						<affects>total</affects>
-						<reference>SU24</reference>
 					</modifier>
 					<reference>B14</reference>
 					<categories>
@@ -1292,9 +1292,9 @@
 						<base_points>-15</base_points>
 						<modifier version="1" enabled="no">
 							<name>Extreme</name>
+							<reference>B136</reference>
 							<cost type="percentage">0</cost>
 							<affects>total</affects>
-							<reference>B136</reference>
 						</modifier>
 						<reference>B136</reference>
 						<notes>@Employer, nation, or service@</notes>
@@ -1317,27 +1317,27 @@
 						<type>Mental</type>
 						<modifier version="1">
 							<name>Scope: Common</name>
+							<reference>B140</reference>
 							<cost type="points">-5</cost>
 							<affects>total</affects>
-							<reference>B140</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Scope: Occasional</name>
+							<reference>B140</reference>
 							<cost type="points">-2</cost>
 							<affects>total</affects>
-							<reference>B140</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Scope: Rare</name>
+							<reference>B140</reference>
 							<cost type="points">-1</cost>
 							<affects>total</affects>
-							<reference>B140</reference>
 						</modifier>
 						<modifier version="1" enabled="no">
 							<name>Scope: Anyone unlike you</name>
+							<reference>B140</reference>
 							<cost type="points">-10</cost>
 							<affects>total</affects>
-							<reference>B140</reference>
 						</modifier>
 						<reference>B140</reference>
 						<categories>
@@ -2416,7 +2416,7 @@
 				</skill_container>
 				<skill version="3">
 					<name>Guns</name>
-					<specialization>Musket</specialization>
+					<specialization>Pistol</specialization>
 					<tech_level/>
 					<difficulty>DX/E</difficulty>
 					<points>1</points>
@@ -2456,8 +2456,14 @@
 					<default>
 						<type>Skill</type>
 						<name>Guns</name>
-						<specialization>Pistol</specialization>
+						<specialization>Musket</specialization>
 						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Beam Weapons</name>
+						<specialization>Pistol</specialization>
+						<modifier>-4</modifier>
 					</default>
 					<default>
 						<type>Skill</type>
