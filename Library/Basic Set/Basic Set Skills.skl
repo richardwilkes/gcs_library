@@ -13324,6 +13324,7 @@
 				</skill_prereq>
 			</prereq_list>
 			<prereq_list all="no">
+				<when_tl compare="at most">4</when_tl>
 				<advantage_prereq has="yes">
 					<name compare="starts with">Language</name>
 					<notes compare="contains">Written (Native</notes>
