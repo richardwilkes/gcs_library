@@ -11712,6 +11712,198 @@
 			<category>Writing Equipment</category>
 		</categories>
 	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @1 FP Spell@ (1 FP)</description>
+		<legality_class>4</legality_class>
+		<value>50</value>
+		<reference>DFA117</reference>
+		<notes>Charged, @Non universal Class@</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @1 FP Spell@ (1 FP)</description>
+		<legality_class>4</legality_class>
+		<value>100</value>
+		<reference>DFA117</reference>
+		<notes>Charged, Universal</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @1 FP Spell@ (1 FP)</description>
+		<legality_class>4</legality_class>
+		<value>20</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, @Non universal Class@</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @1 FP Spell@ (1 FP)</description>
+		<legality_class>4</legality_class>
+		<value>40</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, Universal</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @2 FP Spell@ (2 FP)</description>
+		<legality_class>4</legality_class>
+		<value>100</value>
+		<reference>DFA117</reference>
+		<notes>Charged, @Non universal class@</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @2 FP Spell@ (2 FP)</description>
+		<legality_class>4</legality_class>
+		<value>200</value>
+		<reference>DFA117</reference>
+		<notes>Charged, Universal</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @2 FP Spell@ (2 FP)</description>
+		<legality_class>4</legality_class>
+		<value>40</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, @Non universal class@</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @2 FP Spell@ (2 FP)</description>
+		<legality_class>4</legality_class>
+		<value>80</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, Universal</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @3 FP Spell@ (3 FP)</description>
+		<legality_class>4</legality_class>
+		<value>150</value>
+		<reference>DFA117</reference>
+		<notes>Charged, @Non universal class@</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @3 FP Spell@ (3 FP)</description>
+		<legality_class>4</legality_class>
+		<value>300</value>
+		<reference>DFA117</reference>
+		<notes>Charged, Universal</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @3 FP Spell@ (3 FP)</description>
+		<legality_class>4</legality_class>
+		<value>60</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, @Non universal class@</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @3 FP Spell@ (3 FP)</description>
+		<legality_class>4</legality_class>
+		<value>120</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, Universal</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @Spell@ (@FP Cost@)</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<reference>DFA117</reference>
+		<notes>Charged, @Non universal class@, costs @FP Cost@ x $50.</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @Spell@ (@FP Cost@)</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<reference>DFA117</reference>
+		<notes>Charged, Universal, costs @FP Cost@ x $100.</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @Spell@ (@FP Cost@)</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, @Non universal class@, costs @FP Cost@ x $20.</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
+	<equipment version="6">
+		<quantity>1</quantity>
+		<description>Scroll @Spell@ (@FP Cost@)</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<reference>DFA117</reference>
+		<notes>Uncharged, Universal, costs @FP Cost@ x $40.</notes>
+		<categories>
+			<category>Magic</category>
+			<category>Scrolls</category>
+		</categories>
+	</equipment>
 	<equipment_container version="6" open="yes">
 		<description>Scroll Belt</description>
 		<legality_class>4</legality_class>
