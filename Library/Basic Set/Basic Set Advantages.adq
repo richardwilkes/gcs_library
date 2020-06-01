@@ -5025,6 +5025,10 @@
 		<categories>
 			<category>Disadvantage</category>
 		</categories>
+		<attribute_bonus>
+			<attribute>fright check</attribute>
+			<amount per_level="yes">-1</amount>
+		</attribute_bonus>
 		<prereq_list all="yes">
 			<advantage_prereq has="no">
 				<name compare="is">fearlessness</name>
@@ -5045,6 +5049,12 @@
 			<attribute>fright check</attribute>
 			<amount per_level="yes">1</amount>
 		</attribute_bonus>
+		<prereq_list all="yes">
+			<advantage_prereq has="no">
+				<name compare="is">Fearfulness</name>
+				<notes compare="is anything"></notes>
+			</advantage_prereq>
+		</prereq_list>
 	</advantage>
 	<advantage version="3">
 		<name>Fewer Fatigue Points</name>
@@ -11848,6 +11858,17 @@
 	<advantage version="3">
 		<name>Obsession</name>
 		<type>Mental</type>
+		<levels>0</levels>
+		<base_points>-1</base_points>
+		<reference>B164</reference>
+		<notes>@Subject@</notes>
+		<categories>
+			<category>Quirk</category>
+		</categories>
+	</advantage>
+	<advantage version="3">
+		<name>Obsession</name>
+		<type>Mental</type>
 		<cr>12</cr>
 		<modifier version="1" enabled="no">
 			<name>Short term</name>
@@ -11865,17 +11886,6 @@
 		<notes>@Goal@</notes>
 		<categories>
 			<category>Disadvantage</category>
-		</categories>
-	</advantage>
-	<advantage version="3">
-		<name>Obsession</name>
-		<type>Mental</type>
-		<levels>0</levels>
-		<base_points>-1</base_points>
-		<reference>B164</reference>
-		<notes>@Subject@</notes>
-		<categories>
-			<category>Quirk</category>
 		</categories>
 	</advantage>
 	<advantage version="3">
