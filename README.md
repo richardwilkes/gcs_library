@@ -12,9 +12,14 @@ data files you'd like to contribute, please create a Pull Request to get them me
 library. If that isn't something you know how to do, you can also create an Issue and attach the
 file(s) containing your changes to it, along with an explanation of what it is you changed.
 
+When adding page references, please use the abbreviations from
+[this list](https://gurpscharactersheet.com/page_references.html). If the book isn't in the list
+yet, please ask what should be used so that this list can be updated appropriately.
+
 ---
 
 Some guidelines for creating Guns & Ammo recommended by one of GCS's users:
+
 * Rifle Slings, and similar equipment, should be built as Containers, and, when specified by a
   reliable source or from authoritative experience, feature the Prerequisite “Maximum Contained
   Weight”.
