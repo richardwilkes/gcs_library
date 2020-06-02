@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <spell_list id="13fddc14-e132-44db-b94d-054f87e8de97" version="1">
-	<spell_container version="3" open="yes">
+	<spell_container version="4" open="yes">
 		<name>Clerical</name>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="no">
 			<name>Power Investiture 1</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Armor</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -28,8 +29,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Aura</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -49,8 +51,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Bravery</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -70,8 +73,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Cleansing</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -91,8 +95,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Coolness</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -112,8 +117,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Detect Magic</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -133,8 +139,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Detect Poison</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area-Info</spell_class>
@@ -154,8 +161,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Final Rest</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -175,8 +183,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Lend Energy</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -196,8 +205,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Lend Vitality</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -217,8 +227,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Light</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -238,8 +249,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Might</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -259,8 +271,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Minor healing</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -280,8 +293,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Air</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -301,8 +315,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -322,8 +337,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Recover Energy</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -343,8 +359,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sense Evil</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info/Area</spell_class>
@@ -364,8 +381,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sense Life</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info/Area</spell_class>
@@ -385,8 +403,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sense Spirit</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info/Area</spell_class>
@@ -406,8 +425,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Share Energy</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -427,8 +447,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Share Vitality</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -448,8 +469,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Shield</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -469,8 +491,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Silence</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -490,8 +513,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Stop Bleeding</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -511,8 +535,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Test Food</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -532,8 +557,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Thunderclap</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -553,8 +579,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Umbrella</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -574,8 +601,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Vigor</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -595,8 +623,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Warmth</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -616,8 +645,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Watchdog</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -638,13 +668,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="no">
 			<name>Power Investiture 2</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Awaken</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -664,8 +695,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Command</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Blocking</spell_class>
@@ -685,8 +717,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Compel Truth</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -706,8 +739,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Continual Light</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -727,8 +761,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Create Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -748,8 +783,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Glow</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -769,8 +805,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Great Voice</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -790,8 +827,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Healing Slumber</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -811,8 +849,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Hide Thoughts</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -832,8 +871,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Light Jet</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -870,8 +910,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Major Healing</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -891,8 +932,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Persuasion</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -912,8 +954,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Protection from Evil</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -933,8 +976,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Food</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -954,8 +998,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Relieve Sickness</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -975,8 +1020,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Acid</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -996,8 +1042,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Cold</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1017,8 +1064,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Disease</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1038,8 +1086,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Fire</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1059,8 +1108,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Lightning</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1080,8 +1130,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Pain</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1101,8 +1152,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Poison</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1122,8 +1174,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Restore Hearing</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1143,8 +1196,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Restore Memory</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1164,8 +1218,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Restore Sight</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1185,8 +1240,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Restore Speech</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1206,8 +1262,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Seeker</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1227,8 +1284,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Stop Spasm</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1248,8 +1306,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Summon Spirit</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1269,8 +1328,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Truthsayer</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -1290,8 +1350,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Turn Spirit</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1311,8 +1372,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Turn Zombie</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -1333,13 +1395,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="no">
 			<name>Power Investiture 3</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Affect Spirits</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1359,8 +1422,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Astral Vision</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1380,8 +1444,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Breathe Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1401,8 +1466,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Command Spirit (@spirit@)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1422,8 +1488,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Create Food</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1443,8 +1510,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Cure Disease</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1464,8 +1532,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Dispel Possession</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1485,8 +1554,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Flaming Weapon</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1507,8 +1577,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Great Healing</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1528,8 +1599,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Magic Resistance</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1549,8 +1621,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Neutralize Poison</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1570,8 +1643,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Relieve Paralysis</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1591,8 +1665,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Repel Spirits</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -1612,8 +1687,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Restoration</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1633,8 +1709,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>See Secrets</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1654,8 +1731,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Silver Tongue</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1675,8 +1753,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Stone to Flesh</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1696,8 +1775,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Stop Paralysis</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1717,8 +1797,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Strengthen Will</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1738,8 +1819,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sunbolt</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Missile</spell_class>
@@ -1758,7 +1840,7 @@
 					<default>
 						<type>Skill</type>
 						<name>Innate Attack</name>
-						<specialization>Beam</specialization>
+						<specialization>Projectile</specialization>
 						<modifier>0</modifier>
 					</default>
 				</ranged_weapon>
@@ -1774,8 +1856,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sunlight</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -1795,8 +1878,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Suspended Animation</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1816,8 +1900,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Wisdom</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1838,13 +1923,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="no">
 			<name>Power Investiture 4</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Astral Block</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -1864,8 +1950,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Banish</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -1885,8 +1972,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Dispel Magic</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -1906,8 +1994,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Essential Food</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1927,8 +2016,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Gift of Letters</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1948,8 +2038,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Gift of Tongues</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1969,8 +2060,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Instant Neutralize Poison</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -1990,8 +2082,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Monk's Banquet</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2011,8 +2104,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Regeneration</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2032,8 +2126,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Vigil</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2054,139 +2149,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="no">
 			<name>Power Investiture 6</name>
 			<categories>
 				<category>Clerical</category>
 			</categories>
-			<spell version="3">
-				<name>Bless</name>
-				<college>Clerical</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>10 or 50</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>min=cost</casting_time>
-				<duration>Varies</duration>
-				<reference>DFS50</reference>
-				<categories>
-					<category>Clerical</category>
-				</categories>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture</name>
-						<notes compare="is anything"></notes>
-						<level compare="at least">5</level>
-					</advantage_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="3">
-				<name>Curse</name>
-				<college>Clerical</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>3/10/20</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>2/4/6 sec</casting_time>
-				<duration>Varies</duration>
-				<reference>DFS51</reference>
-				<categories>
-					<category>Clerical</category>
-				</categories>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture</name>
-						<notes compare="is anything"></notes>
-						<level compare="at least">5</level>
-					</advantage_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="3">
-				<name>Earthquake</name>
-				<college>Clerical</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Area</spell_class>
-				<casting_cost>2</casting_cost>
-				<maintenance_cost>Same</maintenance_cost>
-				<casting_time>30 sec</casting_time>
-				<duration>1 min</duration>
-				<reference>DFS27</reference>
-				<categories>
-					<category>Clerical</category>
-				</categories>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture</name>
-						<notes compare="is anything"></notes>
-						<level compare="at least">5</level>
-					</advantage_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="3">
-				<name>Entrap Spirit</name>
-				<college>Clerical</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>Varies</casting_cost>
-				<maintenance_cost>Varies</maintenance_cost>
-				<casting_time>1 sec</casting_time>
-				<duration>5 min</duration>
-				<reference>DFS60</reference>
-				<categories>
-					<category>Clerical</category>
-				</categories>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture</name>
-						<notes compare="is anything"></notes>
-						<level compare="at least">5</level>
-					</advantage_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="3">
-				<name>Pentagram</name>
-				<college>Clerical</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Special</spell_class>
-				<casting_cost>1/sq foot</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 sec/sq foot</casting_time>
-				<duration>Permanent</duration>
-				<reference>DFS51</reference>
-				<categories>
-					<category>Clerical</category>
-				</categories>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture</name>
-						<notes compare="is anything"></notes>
-						<level compare="at least">5</level>
-					</advantage_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="3">
-				<name>Remove Curse</name>
-				<college>Clerical</college>
-				<power_source>Arcane</power_source>
-				<spell_class>Regular</spell_class>
-				<casting_cost>20</casting_cost>
-				<maintenance_cost>-</maintenance_cost>
-				<casting_time>1 hr</casting_time>
-				<duration>Permanent</duration>
-				<reference>DFS52</reference>
-				<categories>
-					<category>Clerical</category>
-				</categories>
-				<prereq_list all="no">
-					<advantage_prereq has="yes">
-						<name compare="is">Power Investiture</name>
-						<notes compare="is anything"></notes>
-						<level compare="at least">5</level>
-					</advantage_prereq>
-				</prereq_list>
-			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Sanctuary</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Clerical</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -2207,16 +2177,155 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
+		<spell_container version="4" open="no">
+			<name>Power Investiture 5</name>
+			<categories>
+				<category>Clerical</category>
+			</categories>
+			<spell version="4">
+				<name>Bless</name>
+				<difficulty>IQ/H</difficulty>
+				<college>Clerical</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>10 or 50</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>min=cost</casting_time>
+				<duration>Varies</duration>
+				<reference>DFS50</reference>
+				<categories>
+					<category>Clerical</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">Power Investiture</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">5</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="4">
+				<name>Curse</name>
+				<difficulty>IQ/H</difficulty>
+				<college>Clerical</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>3/10/20</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>2/4/6 sec</casting_time>
+				<duration>Varies</duration>
+				<reference>DFS51</reference>
+				<categories>
+					<category>Clerical</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">Power Investiture</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">5</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="4">
+				<name>Earthquake</name>
+				<difficulty>IQ/H</difficulty>
+				<college>Clerical</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Area</spell_class>
+				<casting_cost>2</casting_cost>
+				<maintenance_cost>Same</maintenance_cost>
+				<casting_time>30 sec</casting_time>
+				<duration>1 min</duration>
+				<reference>DFS27</reference>
+				<categories>
+					<category>Clerical</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">Power Investiture</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">5</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="4">
+				<name>Entrap Spirit</name>
+				<difficulty>IQ/H</difficulty>
+				<college>Clerical</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Special</spell_class>
+				<casting_cost>Varies</casting_cost>
+				<maintenance_cost>Varies</maintenance_cost>
+				<casting_time>1 sec</casting_time>
+				<duration>5 min</duration>
+				<reference>DFS60</reference>
+				<categories>
+					<category>Clerical</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">Power Investiture</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">5</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="4">
+				<name>Pentagram</name>
+				<difficulty>IQ/H</difficulty>
+				<college>Clerical</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Special</spell_class>
+				<casting_cost>1/sq foot</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 sec/sq foot</casting_time>
+				<duration>Permanent</duration>
+				<reference>DFS51</reference>
+				<categories>
+					<category>Clerical</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">Power Investiture</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">5</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+			<spell version="4">
+				<name>Remove Curse</name>
+				<difficulty>IQ/H</difficulty>
+				<college>Clerical</college>
+				<power_source>Arcane</power_source>
+				<spell_class>Regular</spell_class>
+				<casting_cost>20</casting_cost>
+				<maintenance_cost>-</maintenance_cost>
+				<casting_time>1 hr</casting_time>
+				<duration>Permanent</duration>
+				<reference>DFS52</reference>
+				<categories>
+					<category>Clerical</category>
+				</categories>
+				<prereq_list all="no">
+					<advantage_prereq has="yes">
+						<name compare="is">Power Investiture</name>
+						<notes compare="is anything"></notes>
+						<level compare="at least">5</level>
+					</advantage_prereq>
+				</prereq_list>
+			</spell>
+		</spell_container>
 	</spell_container>
-	<spell_container version="3" open="yes">
+	<spell_container version="4" open="no">
 		<name>Druidic</name>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Power Investiture (Druidic) 1</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Beast Soother</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2236,8 +2345,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Beast-Rouser</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2257,8 +2367,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Coolness</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2278,8 +2389,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Detect Magic</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2299,8 +2411,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Detect Poison</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area-Info</spell_class>
@@ -2320,8 +2433,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Extinguish Fire</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2341,8 +2455,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Find Direction</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2362,8 +2477,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Hawk Vision</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2383,8 +2499,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Identify Plant</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2404,8 +2521,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Master</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular Blocking</spell_class>
@@ -2425,8 +2543,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>No-Smell</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2446,8 +2565,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Air</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -2467,8 +2587,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Earth</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -2489,8 +2610,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -2510,8 +2632,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Quick March</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2531,8 +2654,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Recover Energy</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Special</spell_class>
@@ -2552,8 +2676,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Seek Earth</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2573,8 +2698,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Seek Food</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2594,8 +2720,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Seek Plant</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2615,8 +2742,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Seek Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2636,8 +2764,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sense Evil</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info/Area</spell_class>
@@ -2657,8 +2786,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sense Life</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info/Area</spell_class>
@@ -2678,8 +2808,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Share Energy</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2699,8 +2830,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Tell Position</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2720,8 +2852,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Thunderclap</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2741,8 +2874,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Umbrella</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2762,8 +2896,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Warmth</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2784,13 +2919,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Power Investiture (Druidic) 2</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Animal Control (@Animal@)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2810,8 +2946,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Animal Control (Bird)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2831,8 +2968,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Animal Control (Fish)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2852,8 +2990,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Animal Control (Mammal)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2873,8 +3012,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Animal Control (Reptile)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2894,8 +3034,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Animal Control (Vermin)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2915,8 +3056,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Beast Link</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2936,8 +3078,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Beast Seeker</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -2957,8 +3100,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Beast Speech</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2978,8 +3122,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Cure Disease</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -2999,8 +3144,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Fireproof</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3020,8 +3166,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Fog</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3041,8 +3188,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Hide Path</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3062,8 +3210,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Know Location</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -3083,8 +3232,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Light Tread</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3104,8 +3254,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Mystic Mist</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3125,8 +3276,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Neutralize Poison</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3146,8 +3298,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Pathfinder</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -3167,8 +3320,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Plant Vision</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3188,8 +3342,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Pollen Cloud</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3215,8 +3370,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Protection from Evil</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3238,8 +3394,9 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Purify Food</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3259,8 +3416,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Repel Animal (@Animal@)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3280,8 +3438,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Repel Animal (Bird)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3301,8 +3460,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Repel Animal (Fish)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3322,8 +3482,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Repel Animal (Mammal)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3343,8 +3504,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Repel Animal (Reptile)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3364,8 +3526,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Repel Animal (Vermin)</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3385,8 +3548,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Rider</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3406,8 +3570,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Rider Within</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3427,8 +3592,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Shape Air</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3448,8 +3614,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Shape Earth</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3469,8 +3636,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Shape Plant</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3490,8 +3658,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Shape Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3511,8 +3680,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Weather Dome</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3532,8 +3702,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Windstorm</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3554,13 +3725,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Power Investiture (Druidic) 3</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Beast Summoning</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3580,8 +3752,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Breathe Water</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3601,8 +3774,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Conceal</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3622,8 +3796,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Create Plant</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3643,8 +3818,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Earth Vision</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3664,8 +3840,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Forest Warning</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3685,8 +3862,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Freeze</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3706,8 +3884,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Hybrid Control</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3727,8 +3906,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Instant Neutralize Poison</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3748,8 +3928,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Plant Control</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3769,8 +3950,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Plant Sense</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3790,8 +3972,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Plant Speech</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3811,8 +3994,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Protect Animal</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3832,8 +4016,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Remember Path</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3853,8 +4038,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3" very_hard="yes">
+			<spell version="4">
 				<name>Repel Hybrids</name>
+				<difficulty>IQ/VH</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3874,8 +4060,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Cold</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3895,8 +4082,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Resist Lightning</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3916,8 +4104,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sunlight</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3939,8 +4128,9 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Swim</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -3960,8 +4150,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Tangle growth</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -3981,8 +4172,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Walk Through Plants</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -4002,8 +4194,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Walk Through Wood</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -4023,8 +4216,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Water Vision</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Info</spell_class>
@@ -4045,13 +4239,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Power Investiture (Druidic) 4</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Beast Possession</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -4071,8 +4266,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Create Animal</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -4092,8 +4288,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Dispel Magic</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -4113,8 +4310,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Frostbite</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -4139,8 +4337,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Hail</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -4167,8 +4366,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Lightning</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Missile</spell_class>
@@ -4187,7 +4387,7 @@
 					<default>
 						<type>Skill</type>
 						<name>Innate Attack</name>
-						<specialization>Beam</specialization>
+						<specialization>Projectile</specialization>
 						<modifier>0</modifier>
 					</default>
 				</ranged_weapon>
@@ -4203,8 +4403,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Sandstorm</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -4224,8 +4425,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Wither Plant</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -4246,13 +4448,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Power Investiture (Druidic) 5</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Arboreal Immurement</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -4272,8 +4475,9 @@
 					</advantage_prereq>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Entombment</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Regular</spell_class>
@@ -4295,8 +4499,9 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Spark Storm</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -4323,13 +4528,14 @@
 				</prereq_list>
 			</spell>
 		</spell_container>
-		<spell_container version="3" open="yes">
+		<spell_container version="4" open="yes">
 			<name>Power Investiture (Druidic) 6</name>
 			<categories>
 				<category>Druid</category>
 			</categories>
-			<spell version="3">
+			<spell version="4">
 				<name>Earthquake</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -4351,8 +4557,9 @@
 					</prereq_list>
 				</prereq_list>
 			</spell>
-			<spell version="3">
+			<spell version="4">
 				<name>Geyser</name>
+				<difficulty>IQ/H</difficulty>
 				<college>Druid</college>
 				<power_source>Arcane</power_source>
 				<spell_class>Area</spell_class>
@@ -4374,10 +4581,11 @@
 			</spell>
 		</spell_container>
 	</spell_container>
-	<spell_container version="3" open="yes">
+	<spell_container version="4" open="no">
 		<name>Wizardly</name>
-		<spell version="3">
+		<spell version="4">
 			<name>Agonize</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4407,8 +4615,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Air Jet</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4442,8 +4651,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Alertness</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4462,8 +4672,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Ambidexterity</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4481,8 +4692,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Analyze Magic</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -4500,8 +4712,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Apportation</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4527,8 +4740,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Armor</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4546,8 +4760,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Astral Block</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -4568,8 +4783,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Astral Vision</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Knowledge/Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4591,8 +4807,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Aura</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -4610,8 +4827,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Balance</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4629,8 +4847,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Banish</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Special</spell_class>
@@ -4660,8 +4879,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Blackout</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -4679,8 +4899,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Bladeturning</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4698,8 +4919,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Blink</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate/Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -4724,8 +4946,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Blink Other</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate/Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -4744,8 +4967,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Blur</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4763,8 +4987,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Borrow Language</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4782,8 +5007,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Borrow Skill</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4801,8 +5027,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Bravery</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -4820,8 +5047,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Breathe Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4843,8 +5071,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Bright Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4868,8 +5097,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Burning Touch</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Melee</spell_class>
@@ -4928,8 +5158,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Charm</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4963,8 +5194,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Climbing</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4977,8 +5209,9 @@
 				<category>Body Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Clumsiness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -4996,8 +5229,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Cold</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5015,8 +5249,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Colors</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5034,8 +5269,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Command</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -5065,8 +5301,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Command Spirit (@spirit@)</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5087,8 +5324,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Compel Truth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -5118,8 +5356,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Complex Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5140,8 +5379,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Concussion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -5178,8 +5418,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Continual Light</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5197,8 +5438,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Control Gate</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5228,8 +5470,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Control Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5247,8 +5490,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Control Person</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5269,8 +5513,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Cook</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5291,8 +5536,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Coolness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection/Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5311,8 +5557,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Copy</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5344,8 +5591,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Counterspell</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5369,8 +5617,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Create Air</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5388,8 +5637,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Create Earth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5407,8 +5657,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Create Fire</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5435,8 +5686,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Create Food</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5457,8 +5709,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Create Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5476,8 +5729,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dark Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5498,8 +5752,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Darkness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5517,8 +5772,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Daze</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5536,8 +5792,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Death Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5562,8 +5819,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Deathtouch</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Melee</spell_class>
@@ -5606,8 +5864,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Debility</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5620,8 +5879,9 @@
 				<category>Body Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Decay</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5639,8 +5899,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Deflect Energy</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -5670,8 +5931,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Deflect Missile</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement/Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -5690,8 +5952,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dehydrate</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5718,8 +5981,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Delayed Message</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5752,8 +6016,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Destroy Air</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5771,8 +6036,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Destroy Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5790,8 +6056,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Detect Magic</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5816,8 +6083,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dispel Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5835,8 +6103,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dispel Magic</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -5858,8 +6127,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Divert Teleport</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Gate/Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -5890,8 +6160,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Drunkenness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5912,8 +6183,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dull @Sense@</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5926,8 +6198,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dull Hearing</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5940,8 +6213,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dull Taste and Smell</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5954,8 +6228,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dull Touch</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5968,8 +6243,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Dull Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -5982,8 +6258,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Dullness</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6002,8 +6279,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Earth to Air</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6025,8 +6303,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Earth to Stone</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6056,8 +6335,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Earth Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth/Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6076,8 +6356,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Entombment</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6108,8 +6389,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Entrap Spirit</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Special</spell_class>
@@ -6143,8 +6425,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Essential Food</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6166,8 +6449,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Ethereal Body</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6200,8 +6484,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Explosive Fireball</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -6234,8 +6519,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Explosive Lightning</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -6254,7 +6540,7 @@
 				<default>
 					<type>Skill</type>
 					<name>Innate Attack</name>
-					<specialization>Beam</specialization>
+					<specialization>Projectile</specialization>
 					<modifier>0</modifier>
 				</default>
 			</ranged_weapon>
@@ -6269,8 +6555,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Extinguish Fire</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6288,8 +6575,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Far-Feeling</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6314,8 +6602,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Far-Hearing</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound/Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -6346,8 +6635,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Far-Tasting</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food/Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6380,8 +6670,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Fascinate</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular/Blocking</spell_class>
@@ -6399,8 +6690,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Fasten</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6418,8 +6710,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Fear</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -6437,8 +6730,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Find Direction</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -6463,8 +6757,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Find Weakness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -6491,8 +6786,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Fire Cloud</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -6519,8 +6815,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Fireball</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -6568,8 +6865,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Fireproof</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -6587,8 +6885,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Flame Jet</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6625,8 +6924,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Flaming Missiles</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6645,8 +6945,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Flaming Weapon</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6677,8 +6978,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Flesh to Stone</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6696,8 +6998,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Flight</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6727,8 +7030,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Foolishness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6744,8 +7048,9 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">12</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Forgetfulness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6775,8 +7080,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Frailty</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6794,8 +7100,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Freeze</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6813,8 +7120,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Frostbite</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6840,8 +7148,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Garble</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6859,8 +7168,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Gift of Letters</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6892,8 +7202,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Gift of Tongues</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6925,8 +7236,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Glass Wall</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -6948,8 +7260,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Glow</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -6967,8 +7280,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Glue</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -6986,8 +7300,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Grace</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7005,8 +7320,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Grease</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -7024,8 +7340,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Great Haste</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7056,8 +7373,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Great Voice</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7078,8 +7396,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Great Ward</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -7109,8 +7428,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Haste</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7123,8 +7443,9 @@
 				<category>Movement</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Hawk Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7148,8 +7469,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Heat</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7170,8 +7492,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Hide</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7192,8 +7515,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Hide Emotion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7211,8 +7535,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Hide Thoughts</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7233,8 +7558,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Hinder</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7255,8 +7581,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>History</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -7273,8 +7600,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Hold Breath</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7304,8 +7632,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Hush</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7323,8 +7652,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Ice Dagger</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -7360,8 +7690,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Ice Sphere</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -7394,8 +7725,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Icy Missiles</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7414,8 +7746,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Icy Weapon</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7434,8 +7767,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Identify Spell</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -7453,8 +7787,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Ignite Fire</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7467,8 +7802,9 @@
 				<category>Fire</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Illusion Disguise</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7486,8 +7822,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Illusion Shell</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7505,8 +7842,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Independence</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -7524,8 +7862,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Infravision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7547,8 +7886,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Initiative</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -7569,8 +7909,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Invisibility</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7592,8 +7933,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Iron Arm</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -7612,8 +7954,9 @@
 				<attribute_prereq has="yes" which="dx" compare="at least">11</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Itch</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7626,8 +7969,9 @@
 				<category>Body Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Keen @Sense@</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7640,8 +7984,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Keen Hearing</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control/Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7655,8 +8000,9 @@
 				<category>Sound</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Keen Taste and Smell</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7669,8 +8015,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Keen Touch</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7683,8 +8030,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Keen Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7697,8 +8045,9 @@
 				<category>Mind Control</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Knot</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7716,8 +8065,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Know Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -7735,8 +8085,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Know Location</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -7766,8 +8117,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lend Energy</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Healing</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7794,8 +8146,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lend Language</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7814,8 +8167,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lend Skill</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7834,8 +8188,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Levitation</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7853,8 +8208,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Light</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7867,8 +8223,9 @@
 				<category>Light</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Light Jet</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7903,8 +8260,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Light Tread</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7925,8 +8283,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lighten Burden</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -7944,8 +8303,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lightning</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -7964,7 +8324,7 @@
 				<default>
 					<type>Skill</type>
 					<name>Innate Attack</name>
-					<specialization>Beam</specialization>
+					<specialization>Projectile</specialization>
 					<modifier>0</modifier>
 				</default>
 			</ranged_weapon>
@@ -7992,8 +8352,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lightning Missiles</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8013,8 +8374,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lightning Weapon</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8046,8 +8408,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Lockmaster</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8082,8 +8445,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Locksmith</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8101,8 +8465,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Loyalty</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8124,8 +8489,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mage Sight</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8143,8 +8509,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mage-Stealth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8162,8 +8529,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Magelock</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8183,8 +8551,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Magic Resistance</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8214,8 +8583,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Manipulate</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8233,8 +8603,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mapmaker</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Special</spell_class>
@@ -8255,8 +8626,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mass Daze</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8275,8 +8647,9 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mass Sleep</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8295,8 +8668,9 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">13</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Measurement</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area/Info</spell_class>
@@ -8309,8 +8683,9 @@
 				<category>Knowledge</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Message</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy/Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8332,8 +8707,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Might</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8351,8 +8727,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mind-Reading</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8373,8 +8750,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Mind-Search</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8392,8 +8770,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mind-Sending</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8411,8 +8790,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mirror</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8430,8 +8810,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Missile Shield</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8452,8 +8833,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Mystic Mist</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8488,8 +8870,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Nauseate</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8508,8 +8891,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Night Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8531,8 +8915,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Nightingale</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8550,8 +8935,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>No-Smell</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8569,8 +8955,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Noise</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8588,8 +8975,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Pain</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8607,8 +8995,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Panic</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8626,8 +9015,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Paralyze Limb</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Melee</spell_class>
@@ -8661,8 +9051,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Pathfinder</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -8694,8 +9085,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Pentagram</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Special</spell_class>
@@ -8713,8 +9105,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Perfect Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8744,8 +9137,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Persuasion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8763,8 +9157,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Phantom</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8800,8 +9195,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Phase</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -8833,8 +9229,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Phase Other</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Gate</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -8852,8 +9249,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Poison Food</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8871,8 +9269,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Possession</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8904,8 +9303,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Prepare Game</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8923,8 +9323,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Projection</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8946,8 +9347,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Protection from Evil</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -8977,8 +9379,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Purify Air</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Clerical/Druidic</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -8997,8 +9400,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Purify Earth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Plant/Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -9022,8 +9426,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Purify Food</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9041,8 +9446,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Purify Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Special</spell_class>
@@ -9060,8 +9466,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Quick March</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9091,8 +9498,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Recover Energy</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Healing</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Special</spell_class>
@@ -9122,8 +9530,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Reflect</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -9141,8 +9550,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Reflect Gaze</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -9160,8 +9570,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Reflexes</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9182,8 +9593,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Rejoin</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9204,8 +9616,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Repair</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9235,8 +9648,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Repel Spirits</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -9257,8 +9671,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Resist Cold</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9276,8 +9691,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Resist Fire</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9295,8 +9711,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Resist Lightning</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Protection/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9317,8 +9734,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Resist Pain</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9348,8 +9766,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Resist Sound</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection/Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9369,8 +9788,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Resist Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection/Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9397,8 +9817,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Restore</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9419,8 +9840,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Retch</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9441,8 +9863,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Rive</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9478,8 +9901,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Rooted Feet</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9497,8 +9921,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Roundabout</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9516,8 +9941,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sandstorm</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -9539,8 +9965,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Scry Gate</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9558,8 +9985,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Scryguard</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9586,8 +10014,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>See Secrets</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9608,8 +10037,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Seek Earth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9622,8 +10052,9 @@
 				<category>Earth</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Seek Fire</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9636,8 +10067,9 @@
 				<category>Fire</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Seek Food</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9650,8 +10082,9 @@
 				<category>Food</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Seek Gate</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9684,8 +10117,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Seek Magic</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9703,8 +10137,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Seek Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9717,8 +10152,9 @@
 				<category>Water</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Seeker</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9750,8 +10186,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sense Danger</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -9769,8 +10206,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sense Emotion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9788,8 +10226,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sense Evil</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info/Area</spell_class>
@@ -9814,8 +10253,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sense Foes</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info/Area</spell_class>
@@ -9828,8 +10268,9 @@
 				<category>Communication</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sense Life</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info/Area</spell_class>
@@ -9842,8 +10283,9 @@
 				<category>Communication</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sense Spirit</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info/Area</spell_class>
@@ -9878,8 +10320,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sensitize</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9909,8 +10352,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Shape Air</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9928,8 +10372,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Shape Earth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9947,8 +10392,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Shape Fire</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -9966,8 +10412,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Shape Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -9985,8 +10432,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Share Energy</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Healing</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10004,8 +10452,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sharpen</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10023,8 +10472,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Shatter</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10060,8 +10510,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Shatterproof</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10082,8 +10533,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Shield</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10108,8 +10560,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Shocking Touch</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Melee</spell_class>
@@ -10153,8 +10606,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sickness</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control/Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10173,8 +10627,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Silence</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10192,8 +10647,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Silver Tongue</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10215,8 +10671,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Simple Illusion</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Illusion</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10236,8 +10693,9 @@
 				<attribute_prereq has="yes" which="iq" compare="at least">11</attribute_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sleep</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10255,8 +10713,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Slow</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10289,8 +10748,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Slow Fall</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10308,8 +10768,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Smoke</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10336,8 +10797,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Soul Rider</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10355,8 +10817,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sound</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10369,8 +10832,9 @@
 				<category>Sound</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sound Jet</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10404,8 +10868,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Spark Cloud</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10433,8 +10898,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Spark Storm</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10462,8 +10928,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Spasm</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10481,8 +10948,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Spell Shield</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10515,8 +10983,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Steelwraith</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10546,8 +11015,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Stench</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10565,8 +11035,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Stiffen</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10584,8 +11055,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Stone Missile</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -10618,8 +11090,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Stone to Earth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10641,8 +11114,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Stone to Flesh</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10675,8 +11149,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Strengthen Will</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10707,8 +11182,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Strike Blind</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10730,8 +11206,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Strike Deaf</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10753,8 +11230,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Strike Dumb</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10772,8 +11250,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Stun</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10791,8 +11270,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Summon Spirit</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -10822,8 +11302,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sunbolt</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Missile</spell_class>
@@ -10842,7 +11323,7 @@
 				<default>
 					<type>Skill</type>
 					<name>Innate Attack</name>
-					<specialization>Beam</specialization>
+					<specialization>Projectile</specialization>
 					<modifier>0</modifier>
 				</default>
 			</ranged_weapon>
@@ -10860,8 +11341,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Sunlight</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Light &amp; Darkness</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10894,8 +11376,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Swim</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement/Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10917,8 +11400,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Tanglefoot</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10936,8 +11420,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3" very_hard="yes">
+		<spell version="4">
 			<name>Telepathy</name>
+			<difficulty>IQ/VH</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -10955,8 +11440,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Teleport Shield</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate/Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -10980,8 +11466,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Tell Position</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -10999,8 +11486,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Terror</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -11018,8 +11506,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Test Food</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Food</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -11032,8 +11521,9 @@
 				<category>Food</category>
 			</categories>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Test Load</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area/Info</spell_class>
@@ -11051,8 +11541,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Thunderclap</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11070,8 +11561,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Tickle</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11089,8 +11581,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Total Paralysis</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Melee</spell_class>
@@ -11133,8 +11626,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Trace</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11152,8 +11646,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Trace Teleport</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Gate/Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -11178,8 +11673,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Truthsayer</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Communication &amp; Empathy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -11197,8 +11693,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Turn Spirit</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Necromancy</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11219,8 +11716,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Umbrella</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection/Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11242,8 +11740,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Undo</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11261,8 +11760,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Vigor</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11283,8 +11783,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Voices</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11302,8 +11803,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Walk on Air</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11321,8 +11823,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Walk on Water</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11340,8 +11843,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Walk Through Earth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Earth</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11360,8 +11864,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Wall of Lightning</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air/Weather</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -11380,8 +11885,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Wall of Silence</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Sound</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -11399,8 +11905,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Wallwalker</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Movement</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11418,8 +11925,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Ward</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Meta</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Blocking</spell_class>
@@ -11444,8 +11952,9 @@
 				</advantage_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Warmth</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Fire/Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11464,8 +11973,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Watchdog</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Protection</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -11483,8 +11993,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Water Jet</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11518,8 +12029,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Water Vision</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge/Water</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Info</spell_class>
@@ -11538,8 +12050,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Weaken</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Making &amp; Breaking</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11563,8 +12076,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Weaken Will</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11594,8 +12108,9 @@
 				</prereq_list>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Windstorm</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Air</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Area</spell_class>
@@ -11613,8 +12128,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Wisdom</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Mind Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
@@ -11633,8 +12149,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Wither Limb</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Body Control</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Melee</spell_class>
@@ -11689,8 +12206,9 @@
 				</spell_prereq>
 			</prereq_list>
 		</spell>
-		<spell version="3">
+		<spell version="4">
 			<name>Wizard Eye</name>
+			<difficulty>IQ/H</difficulty>
 			<college>Knowledge</college>
 			<power_source>Arcane</power_source>
 			<spell_class>Regular</spell_class>
