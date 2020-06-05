@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="d018f1a9-8312-4639-bf86-2d46b4a22385" version="2">
 	<advantage_list>
-		<advantage_container version="3" open="yes">
+		<advantage_container version="4" open="yes">
 			<name>Pistolero</name>
 			<reference>ACT4:20</reference>
-			<advantage version="3">
+			<advantage version="4">
 				<name>Off-Hand Weapon Training (Pistol)</name>
 				<type>Mental</type>
 				<base_points>1</base_points>
@@ -14,9 +14,9 @@
 					<category>Perk</category>
 				</categories>
 			</advantage>
-			<advantage_container version="3" open="no">
+			<advantage_container version="4" open="no">
 				<name>Choose one</name>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Cheaper (Guns; 10%)</name>
 					<type>Social</type>
 					<base_points>1</base_points>
@@ -31,7 +31,7 @@
 						</advantage_prereq>
 					</prereq_list>
 				</advantage>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Weapon Bond (@any one handgun@)</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
@@ -44,15 +44,15 @@
 		</advantage_container>
 	</advantage_list>
 	<skill_list>
-		<skill_container version="3" open="yes">
+		<skill_container version="4" open="yes">
 			<name>Pistolero</name>
 			<reference>ACT4:20</reference>
-			<skill version="3">
+			<skill version="4">
 				<name>Armoury</name>
 				<specialization>Small Arms</specialization>
 				<tech_level/>
 				<difficulty>IQ/A</difficulty>
-				<points>1</points>
+				<points>2</points>
 				<reference>B178</reference>
 				<categories>
 					<category>Military</category>
@@ -69,35 +69,35 @@
 					<modifier>-4</modifier>
 				</default>
 			</skill>
-			<skill version="3">
+			<skill version="4">
 				<name>Fast-Draw</name>
 				<specialization>Ammo</specialization>
 				<tech_level/>
 				<difficulty>DX/E</difficulty>
-				<points>1</points>
+				<points>2</points>
 				<reference>B194</reference>
 				<categories>
 					<category>Combat/Weapon</category>
 					<category>Ranged Combat</category>
 				</categories>
 			</skill>
-			<skill version="3">
+			<skill version="4">
 				<name>Fast-Draw</name>
 				<specialization>Pistol</specialization>
 				<difficulty>DX/E</difficulty>
-				<points>1</points>
+				<points>2</points>
 				<reference>B194</reference>
 				<categories>
 					<category>Combat/Weapon</category>
 					<category>Ranged Combat</category>
 				</categories>
 			</skill>
-			<skill version="3">
+			<skill version="4">
 				<name>Guns</name>
 				<specialization>Pistol</specialization>
 				<tech_level/>
 				<difficulty>DX/E</difficulty>
-				<points>1</points>
+				<points>8</points>
 				<reference>B198</reference>
 				<categories>
 					<category>Combat/Weapon</category>
@@ -162,10 +162,10 @@
 					<modifier>-2</modifier>
 				</default>
 			</skill>
-			<skill version="3">
+			<skill version="4">
 				<name>Holdout</name>
 				<difficulty>IQ/A</difficulty>
-				<points>1</points>
+				<points>4</points>
 				<reference>B200</reference>
 				<categories>
 					<category>Criminal/Street</category>
@@ -181,7 +181,7 @@
 					<modifier>-3</modifier>
 				</default>
 			</skill>
-			<technique version="3" limit="0">
+			<technique version="4" limit="0">
 				<name>Dual-Weapon Attack</name>
 				<difficulty>H</difficulty>
 				<points>2</points>
@@ -199,7 +199,7 @@
 					<category>Ranged Combat</category>
 				</categories>
 			</technique>
-			<technique version="3" limit="5">
+			<technique version="4" limit="5">
 				<name>Retain Weapon (Pistol)</name>
 				<difficulty>H</difficulty>
 				<points>3</points>
