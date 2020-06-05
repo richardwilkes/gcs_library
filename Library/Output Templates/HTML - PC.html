@@ -57,11 +57,29 @@ defined by the Mozilla Public License, version 2.0.
             margin-bottom: .1em;
         }
 
+        .fieldblock3 {
+            display: grid;
+            grid-template-columns: 0fr 1fr 0fr;
+            align-items: end;
+            padding-bottom: .15em;
+        }
+
+        .fieldblock3 hr {
+            grid-column: 1 / span 3;
+            width: 100%;
+            border: none;
+            background-color: black;
+            height: 1px;
+            margin: 0;
+            margin-top: .2em;
+            margin-bottom: .1em;
+        }
+
         #personal {
             grid-area: personal;
             display: grid;
             grid-template:
-                "portrait identity player points"
+                "portrait identity miscellaneous points"
                 "portrait description description points";
             grid-template-columns: 0fr 1fr 1fr 0fr;
             grid-gap: .05in;
@@ -90,15 +108,15 @@ defined by the Mozilla Public License, version 2.0.
             grid-area: identity;
         }
 
-        #player {
-            grid-area: player;
+        #miscellaneous {
+            grid-area: miscellaneous;
         }
 
         #points {
             grid-area: points;
         }
 
-        #identity, #player, #points, #attributes, #lifting, #fphp {
+        #identity, #miscellaneous, #points, #attributes, #lifting, #fatpoints, #hitpoints {
             display: grid;
             grid-template-rows: 0fr 1fr;
             border: 1px solid black;
@@ -107,7 +125,8 @@ defined by the Mozilla Public License, version 2.0.
         #points .field,
         #attributes .field,
         #lifting .field,
-        #fphp .field {
+        #hitpoints .field,
+        #fatpoints .field {
             text-align: right;
         }
 
@@ -133,9 +152,9 @@ defined by the Mozilla Public License, version 2.0.
             grid-area: stats;
             display: grid;
             grid-template:
-                "attributes encumbrance location fphp"
-                "attributes lifting location fphp";
-            grid-template-columns: 0fr 2fr 2fr 1fr;
+                "attributes fatpoints location encumbrance"
+                "attributes hitpoints location lifting";
+            grid-template-columns: 0fr 2fr 0fr 0fr;
             grid-gap: .05in;
         }
 
@@ -143,15 +162,22 @@ defined by the Mozilla Public License, version 2.0.
             grid-area: attributes;
         }
 
-        #fphp {
-            grid-area: fphp;
+        #fatpoints {
+            grid-area: fatpoints;
+            align-content: right;
+        }
+
+        #hitpoints {
+            grid-area: hitpoints;
+            align-content: stretch;
         }
 
         #encumbrance {
             grid-area: encumbrance;
             grid-template:
-                "header header header header"
-                "enc load move dodge";
+                "header header header header header"
+                "encmarkerh ench loadh moveh dodgeh"
+                "encmarker enc load move dodge";
         }
 
         #lifting {
@@ -248,8 +274,16 @@ defined by the Mozilla Public License, version 2.0.
             grid-area: notes;
         }
 
-        .label {
+        .points {
             text-align: right;
+            padding-left: .2em;
+            padding-right: .2em;
+            font-size: 80%;
+            align-self: center;
+        }
+
+        .label {
+            text-align: left;
             padding-left: .2em;
             padding-right: .2em;
             font-size: 80%;
@@ -292,10 +326,12 @@ defined by the Mozilla Public License, version 2.0.
         .shots,
         .bulk,
         .rcl,
-        .enc,
         .load,
+        .loadh,
         .move,
+        .moveh,
         .dodge,
+        .dodgeh,
         .roll,
         .where,
         .penalty,
@@ -307,12 +343,27 @@ defined by the Mozilla Public License, version 2.0.
             border-bottom: 1px solid lightgray;
         }
 
-        #encumbrance .enc:nth-last-child(8n+4),
-        #encumbrance .load:nth-last-child(8n+3),
-        #encumbrance .move:nth-last-child(8n+2),
-        #encumbrance .dodge:nth-last-child(8n+1),
-        #lifting .liftdesc:nth-last-child(4n+2),
-        #lifting .lift:nth-last-child(4n+1),
+        .enc,
+        .ench {
+            padding-left: 0;
+            padding-right: .2em;
+            border-bottom: 1px solid lightgray;
+        }
+
+        .encmarker,
+        .encmarkerh {
+            padding-left: .2em;
+            padding-right: 0;
+            border-bottom: 1px solid lightgray;
+        }
+
+        #encumbrance .encmarker:nth-last-child(10n+5),
+        #encumbrance .enc:nth-last-child(10n+4),
+        #encumbrance .load:nth-last-child(10n+3),
+        #encumbrance .move:nth-last-child(10n+2),
+        #encumbrance .dodge:nth-last-child(10n+1),
+        #lifting .liftdesc:nth-last-child(4n+1),
+        #lifting .lift:nth-last-child(4n+2),
         #location .roll:nth-last-child(8n+4),
         #location .where:nth-last-child(8n+3),
         #location .penalty:nth-last-child(8n+2),
@@ -405,8 +456,11 @@ defined by the Mozilla Public License, version 2.0.
         .bulk,
         .rcl,
         .load,
+        .loadh,
         .move,
+        .moveh,
         .dodge,
+        .dodgeh,
         .where,
         .penalty,
         .dr {
@@ -439,7 +493,6 @@ defined by the Mozilla Public License, version 2.0.
         .where,
         .penalty,
         .dr,
-        .liftdesc,
         .lift {
             text-align: right;
         }
@@ -449,38 +502,34 @@ defined by the Mozilla Public License, version 2.0.
             text-align: center;
         }
 
+        .liftdesc,
         .where {
             text-align: left;
         }
 
+        .encmarker,
+        .encmarkerh,
         .enc,
+        .ench,
         .load,
+        .loadh,
         .move,
+        .moveh,
         .dodge,
+        .dodgeh,
         .roll,
         .where,
         .penalty,
         .dr,
         .liftdesc,
         .lift {
-            color: rgb(144, 144, 144);
             white-space: nowrap;
         }
 
         #lifting .field,
         .noedit {
-            color: rgb(144, 144, 144);
             white-space: nowrap;
             border: none;
-        }
-
-        #melee > div,
-        #ranged > div,
-        #equipment .sum_cost,
-        #equipment .sum_weight,
-        #other_equipment .sum_cost,
-        #other_equipment .sum_weight {
-            color: rgb(144, 144, 144);
         }
 
         .header,
@@ -502,7 +551,7 @@ defined by the Mozilla Public License, version 2.0.
             background-color: black;
         }
 
-        #encumbrance > div:nth-last-child(-n+4),
+        #encumbrance > div:nth-last-child(-n+5),
         #lifting > div:nth-last-child(-n+2),
         #location > div:nth-last-child(-n+4) {
             border-bottom: none;
@@ -560,16 +609,41 @@ defined by the Mozilla Public License, version 2.0.
             color: red;
         }
 
-        #encumbrance .current:nth-last-child(8n+4),
-        #encumbrance .current:nth-last-child(8n+3),
-        #encumbrance .current:nth-last-child(8n+2),
-        #encumbrance .current:nth-last-child(8n+1),
+        #encumbrance .current:nth-last-child(10n+5),
+        #encumbrance .current:nth-last-child(10n+4),
+        #encumbrance .current:nth-last-child(10n+3),
+        #encumbrance .current:nth-last-child(10n+2),
+        #encumbrance .current:nth-last-child(10n+1),
         .current {
             background-color: lightgoldenrodyellow;
         }
 
         .list_note {
             font-size: 80%;
+        }
+
+        .encmarker.current:after {
+            content: '•';
+        }
+
+        .enc0:after {
+            content: 'None (0)';
+        }
+
+        .enc1:after {
+            content: 'Light (1)';
+        }
+
+        .enc2:after {
+            content: 'Medium (2)';
+        }
+
+        .enc3:after {
+            content: 'Heavy (3)';
+        }
+
+        .enc4:after {
+            content: 'X-heavy (4)';
         }
     </style>
 </head>
@@ -588,32 +662,32 @@ defined by the Mozilla Public License, version 2.0.
                     <div class="field">@NAME</div>
                     <div class="label">Title:</div>
                     <div class="field">@TITLE</div>
-                    <div class="label">Religion:</div>
-                    <div class="field">@RELIGION</div>
-                </div>
-            </div>
-            <div id="player">
-                <div class="header">Player Information</div>
-                <div class="fieldblock">
                     <div class="label">Player:</div>
                     <div class="field">@PLAYER</div>
-                    <div class="label">Campaign:</div>
-                    <div class="field">@CAMPAIGN</div>
-                    <div class="label">Created On:</div>
+                </div>
+            </div>
+            <div id="miscellaneous">
+                <div class="header">Miscellaneous</div>
+                <div class="fieldblock">
+                    <div class="label">Created:</div>
                     <div class="field">@CREATED_ON</div>
+                    <div class="label">Modified:</div>
+                    <div class="field">@CREATED_ON</div>
+                    <div class="label">Options:</div>
+                    <div class="field">@OPTIONS_CODE</div>
                 </div>
             </div>
             <div id="description">
                 <div class="header">Description</div>
                 <div class="fieldblock">
-                    <div class="label">Race:</div>
-                    <div class="field">@RACE</div>
                     <div class="label">Gender:</div>
                     <div class="field">@GENDER</div>
                     <div class="label">Age:</div>
                     <div class="field">@AGE</div>
                     <div class="label">Birthday:</div>
                     <div class="field">@BIRTHDAY</div>
+                    <div class="label">Religion:</div>
+                    <div class="field">@RELIGION</div>
                 </div>
                 <div class="fieldblock">
                     <div class="label">Height:</div>
@@ -639,74 +713,90 @@ defined by the Mozilla Public License, version 2.0.
             <div id="points">
                 <div class="header">@TOTAL_POINTS Points</div>
                 <div class="fieldblock">
-                    <div class="label">Race:</div>
-                    <div class="field noedit">@RACE_POINTS</div>
-                    <div class="label">Attributes:</div>
-                    <div class="field noedit">@ATTRIBUTE_POINTS</div>
-                    <div class="label">Advantages:</div>
-                    <div class="field noedit">@ADVANTAGE_POINTS</div>
-                    <div class="label">Disadvantages:</div>
-                    <div class="field noedit">@DISADVANTAGE_POINTS</div>
-                    <div class="label">Quirks:</div>
-                    <div class="field noedit">@QUIRK_POINTS</div>
-                    <div class="label">Skills:</div>
-                    <div class="field noedit">@SKILL_POINTS</div>
-                    <div class="label">Spells:</div>
-                    <div class="field noedit">@SPELL_POINTS</div>
-                    <div class="label">Unspent:</div>
                     <div class="field">@EARNED_POINTS</div>
+                    <div class="label">Unspent</div>
+                    <div class="field noedit">@RACE_POINTS</div>
+                    <div class="label">Race</div>
+                    <div class="field noedit">@ATTRIBUTE_POINTS</div>
+                    <div class="label">Attributes</div>
+                    <div class="field noedit">@ADVANTAGE_POINTS</div>
+                    <div class="label">Advantages</div>
+                    <div class="field noedit">@DISADVANTAGE_POINTS</div>
+                    <div class="label">Disadvantages</div>
+                    <div class="field noedit">@QUIRK_POINTS</div>
+                    <div class="label">Quirks</div>
+                    <div class="field noedit">@SKILL_POINTS</div>
+                    <div class="label">Skills</div>
+                    <div class="field noedit">@SPELL_POINTS</div>
+                    <div class="label">Spells</div>
                 </div>
             </div>
         </div>
         <div id="stats">
             <div id="attributes">
                 <div class="header">Attributes</div>
-                <div class="fieldblock">
-                    <div class="label">Strength (ST):</div>
+                <div class="fieldblock3">
+                    <div class="points">[@ST_POINTS]</div>
                     <div class="field">@ST</div>
-                    <div class="label">Dexterity (DX):</div>
+                    <div class="label">Strength (ST)</div>
+                    <div class="points">[@DX_POINTS]</div>
                     <div class="field">@DX</div>
-                    <div class="label">Intelligence (IQ):</div>
+                    <div class="label">Dexterity (DX)</div>
+                    <div class="points">[@IQ_POINTS]</div>
                     <div class="field">@IQ</div>
-                    <div class="label">Health (HT):</div>
+                    <div class="label">Intelligence (IQ)</div>
+                    <div class="points">[@HT_POINTS]</div>
                     <div class="field">@HT</div>
+                    <div class="label">Health (HT)</div>
                     <hr>
-                    <div class="label">Will:</div>
+                    <div class="points">[@WILL_POINTS]</div>
                     <div class="field">@WILL</div>
-                    <div class="label">Fright Check:</div>
+                    <div class="label">Will</div>
+                    <div class="points"></div>
                     <div class="field noedit">@FRIGHT_CHECK</div>
+                    <div class="label">Fright Check</div>
                     <hr>
-                    <div class="label">Basic Speed:</div>
+                    <div class="points">[@BASIC_SPEED_POINTS]</div>
                     <div class="field">@BASIC_SPEED</div>
-                    <div class="label">Basic Move:</div>
+                    <div class="label">Basic Speed</div>
+                    <div class="points">[@BASIC_MOVE_POINTS]</div>
                     <div class="field">@BASIC_MOVE</div>
+                    <div class="label">Basic Move</div>
                     <hr>
-                    <div class="label">Perception:</div>
+                    <div class="points">[@PERCEPTION_POINTS]</div>
                     <div class="field">@PERCEPTION</div>
-                    <div class="label">Vision:</div>
+                    <div class="label">Perception (Per)</div>
+                    <div class="points"></div>
                     <div class="field noedit">@VISION</div>
-                    <div class="label">Hearing:</div>
+                    <div class="label">Vision</div>
+                    <div class="points"></div>
                     <div class="field noedit">@HEARING</div>
-                    <div class="label">Taste &amp; Smell:</div>
+                    <div class="label">Hearing</div>
+                    <div class="points"></div>
                     <div class="field noedit">@TASTE_SMELL</div>
-                    <div class="label">Touch:</div>
+                    <div class="label">Taste &amp; Smell</div>
+                    <div class="points"></div>
                     <div class="field noedit">@TOUCH</div>
+                    <div class="label">Touch</div>
                     <hr>
-                    <div class="label">Thrust Damage:</div>
+                    <div class="points"></div>
                     <div class="field noedit">@THRUST</div>
-                    <div class="label">Swing Damage:</div>
+                    <div class="label">Basic Thrust</div>
+                    <div class="points"></div>
                     <div class="field noedit">@SWING</div>
+                    <div class="label">Basic Swing</div>
                 </div>
             </div>
             <div id="encumbrance">
                 <div class="header">Encumbrance, Move &amp; Dodge</div>
-                <div class="enc header">Level</div>
-                <div class="load header">Max Load</div>
-                <div class="move header">Move</div>
-                <div class="dodge header">Dodge</div>
-
+                <div class="encmarkerh header"></div>
+                <div class="ench header">Level</div>
+                <div class="loadh header">Max Load</div>
+                <div class="moveh header">Move</div>
+                <div class="dodgeh header">Dodge</div>
                 @ENCUMBRANCE_LOOP_START
-                <div class="enc @CURRENT_MARKER">@LEVEL</div>
+                <div class="encmarker @CURRENT_MARKER"></div>
+                <div class="enc @CURRENT_MARKER enc@LEVEL_ONLY"></div>
                 <div class="load @CURRENT_MARKER">@MAX_LOAD</div>
                 <div class="move @CURRENT_MARKER">@MOVE</div>
                 <div class="dodge @CURRENT_MARKER">@DODGE</div>
@@ -714,20 +804,20 @@ defined by the Mozilla Public License, version 2.0.
             </div>
             <div id="lifting">
                 <div class="header">Lifting &amp; Moving Things</div>
-                <div class="liftdesc">Basic Lift:</div>
                 <div class="lift">@BASIC_LIFT</div>
-                <div class="liftdesc">One-Handed Lift:</div>
+                <div class="liftdesc">Basic Lift</div>
                 <div class="lift">@ONE_HANDED_LIFT</div>
-                <div class="liftdesc">Two-Handed Lift:</div>
+                <div class="liftdesc">One-Handed Lift</div>
                 <div class="lift">@TWO_HANDED_LIFT</div>
-                <div class="liftdesc">Shove &amp; Knock Over:</div>
+                <div class="liftdesc">Two-Handed Lift</div>
                 <div class="lift">@SHOVE</div>
-                <div class="liftdesc">Running Shove &amp; Knock Over:</div>
+                <div class="liftdesc">Shove &amp; Knock Over</div>
                 <div class="lift">@RUNNING_SHOVE</div>
-                <div class="liftdesc">Carry on Back:</div>
+                <div class="liftdesc">Running Shove &amp; Knock Over</div>
                 <div class="lift">@CARRY_ON_BACK</div>
-                <div class="liftdesc">Shift Slightly:</div>
+                <div class="liftdesc">Carry on Back</div>
                 <div class="lift">@SHIFT_SLIGHTLY</div>
+                <div class="liftdesc">Shift Slightly</div>
             </div>
             <div id="location">
                 <div class="header">Hit Location</div>
@@ -735,7 +825,6 @@ defined by the Mozilla Public License, version 2.0.
                 <div class="where header">Where</div>
                 <div class="penalty header">Penalty</div>
                 <div class="dr header">DR</div>
-
                 @HIT_LOCATION_LOOP_START
                 <div class="roll">@ROLL</div>
                 <div class="where">@WHERE</div>
@@ -743,40 +832,56 @@ defined by the Mozilla Public License, version 2.0.
                 <div class="dr">@DR</div>
                 @HIT_LOCATION_LOOP_END
             </div>
-            <div id="fphp">
-                <div class="header">Fatigue / Hit Points</div>
-                <div class="fieldblock">
-                    <div class="label">Current FP:</div>
+            <div id="fatpoints">
+                <div class="header">Fatigue Points</div>
+                <div class="fieldblock3">
+                    <div class="points"></div>
                     <div class="field">@FP</div>
-                    <div class="label">Basic FP:</div>
+                    <div class="label">Current</div>
+                    <div class="points">[@FP_POINTS]</div>
                     <div class="field">@BASIC_FP</div>
-                    <hr>
-                    <div class="label">Tired:</div>
+                    <div class="label">Basic</div>
+                    <div class="points"></div>
                     <div class="field noedit">@TIRED</div>
-                    <div class="label">Collapse:</div>
+                    <div class="label">Tired</div>
+                    <div class="points"></div>
                     <div class="field noedit">@FP_COLLAPSE</div>
-                    <div class="label">Unconscious:</div>
+                    <div class="label">Collapse</div>
+                    <div class="points"></div>
                     <div class="field noedit">@UNCONSCIOUS</div>
-                    <hr>
-                    <div class="label">Current HP:</div>
+                    <div class="label">Unconscious</div>
+                </div>
+            </div>
+            <div id="hitpoints">
+                <div class="header">Hit Points</div>
+                <div class="fieldblock3">
+                    <div class="points"></div>
                     <div class="field">@HP</div>
-                    <div class="label">Basic HP:</div>
+                    <div class="label">Current</div>
+                    <div class="points">[@HP_POINTS]</div>
                     <div class="field">@BASIC_HP</div>
-                    <hr>
-                    <div class="label">Reeling:</div>
+                    <div class="label">Basic</div>
+                    <div class="points"></div>
                     <div class="field noedit">@REELING</div>
-                    <div class="label">Collapse:</div>
+                    <div class="label">Reeling</div>
+                    <div class="points"></div>
                     <div class="field noedit">@HP_COLLAPSE</div>
-                    <div class="label">Check #1:</div>
+                    <div class="label">Collapse</div>
+                    <div class="points"></div>
                     <div class="field noedit">@DEATH_CHECK_1</div>
-                    <div class="label">Check #2:</div>
+                    <div class="label">Check #1</div>
+                    <div class="points"></div>
                     <div class="field noedit">@DEATH_CHECK_2</div>
-                    <div class="label">Check #3:</div>
+                    <div class="label">Check #2</div>
+                    <div class="points"></div>
                     <div class="field noedit">@DEATH_CHECK_3</div>
-                    <div class="label">Check #4:</div>
+                    <div class="label">Check #3</div>
+                    <div class="points"></div>
                     <div class="field noedit">@DEATH_CHECK_4</div>
-                    <div class="label">Dead:</div>
+                    <div class="label">Check #4</div>
+                    <div class="points"></div>
                     <div class="field noedit">@DEAD</div>
+                    <div class="label">Dead</div>
                 </div>
             </div>
         </div>
@@ -952,7 +1057,7 @@ defined by the Mozilla Public License, version 2.0.
             @NOTES_LOOP_END
         </div>
     </div>
-    <div id="footer">Copyright ©1998-2020 by Richard A. Wilkes • All rights reserved •
+    <div id="footer">GCS is copyrighted ©1998-2020 by Richard A. Wilkes • All rights reserved •
         <a href="https://gurpscharactersheet.com">gurpscharactersheet.com</a>
     </div>
 </body>
