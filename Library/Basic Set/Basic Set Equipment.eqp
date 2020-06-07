@@ -5787,11 +5787,34 @@
 		<weight>0.5 lb</weight>
 		<reference>B287</reference>
 		<melee_weapon>
-			<damage type="-"/>
-			<strength>-</strength>
-			<reach>-</reach>
+			<damage type="cr" st="thr"/>
+			<strength>0</strength>
+			<usage>Shield Bash</usage>
+			<reach>1</reach>
 			<parry>No</parry>
 			<block>+0</block>
+			<default>
+				<type>DX</type>
+				<modifier>-4</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Buckler</specialization>
+				<modifier>-2</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Force Shield</specialization>
+				<modifier>0</modifier>
+			</default>
+			<default>
+				<type>Skill</type>
+				<name>Shield</name>
+				<specialization>Shield</specialization>
+				<modifier>-2</modifier>
+			</default>
 		</melee_weapon>
 		<categories>
 			<category>Shield</category>
