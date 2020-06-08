@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <template id="356e8b7d-741e-4ea7-9b0b-618c5ed28f08" version="2">
 	<advantage_list>
-		<advantage_container version="3" open="no">
+		<advantage_container version="4" open="no">
 			<name>MACHINES AS CHARACTERS</name>
 			<reference>UT27</reference>
-			<advantage_container version="3" open="no">
+			<advantage_container version="4" open="no">
 				<name>Machine Intelligence Lenses</name>
 				<reference>UT27</reference>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Meta-Trait: Cyborg Brain</name>
 					<reference>UT27</reference>
 					<notes>A living brain is housed inside the machine. The robot template&#8217;s computer is reduced one size to make room. See Total Cyborg Brain Transplants (p. 219) for the size of brain case that the machine can hold. </notes>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Meta-Trait: Drone</name>
 					<reference>UT27</reference>
 					<notes>This is a Complexity 3 program.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Reduce IQ</name>
 						<type>Mental</type>
 						<levels>10</levels>
@@ -31,7 +31,7 @@
 							<amount per_level="yes">-1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Reprogrammable</name>
 						<type>Mental, Exotic</type>
 						<base_points>-10</base_points>
@@ -40,62 +40,62 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Wealth</name>
 						<type>Social</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Dead Broke</name>
+							<reference>B25</reference>
 							<cost type="points">-25</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 							<notes>Starting wealth is $0</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Poor</name>
+							<reference>B25</reference>
 							<cost type="points">-15</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 							<notes>Starting wealth is 1/5 average</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Struggling</name>
+							<reference>B25</reference>
 							<cost type="points">-10</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 							<notes>Starting wealth is 1/2 average</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Average</name>
+							<reference>B25</reference>
 							<cost type="points">0</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Comfortable</name>
+							<reference>B25</reference>
 							<cost type="points">10</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 							<notes>Starting wealth is 2x average</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Wealthy</name>
+							<reference>B25</reference>
 							<cost type="points">20</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 							<notes>Starting wealth is 5x average</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Very Wealthy</name>
+							<reference>B25</reference>
 							<cost type="points">30</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 							<notes>Starting wealth is 20x average</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Filthy Rich</name>
+							<reference>B25</reference>
 							<cost type="points">50</cost>
 							<affects>total</affects>
-							<reference>B25</reference>
 							<notes>Starting wealth is 100x average</notes>
 						</modifier>
 						<reference>B25</reference>
@@ -104,7 +104,7 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Social Stigma (Subjugated)</name>
 						<type>Social</type>
 						<base_points>-20</base_points>
@@ -114,16 +114,16 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Taboo Trait (Fixed IQ)</name>
 						<type>Mental/Physical</type>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Meta-Trait: Mind Emulation</name>
 					<reference>UT27</reference>
 					<notes>This digital intelligence simulates the functioning of a living brain. Some mind emulations may be sapient copies or &#8220;uploads&#8221; of human minds &#8211; see Uploading (pp. 219-220). It requires computer hardware and software with a Complexity equal to or greater than its (IQ+5)/2, rounded up.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Digital Mind</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
@@ -132,16 +132,16 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Taboo Trait (Complexity-limited IQ)</name>
 						<type>Mental/Physical</type>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Meta-Trait: Non-Volitional AI</name>
 					<reference>UT27</reference>
 					<notes>This program lacks self-direction, initiative, creativity, and empathy. It ignores orders from anyone but its master. It requires computer hardware and software with a Complexity equal to or greater than its (IQ/2)+2, rounded up.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Indomitable</name>
 						<type>Mental</type>
 						<base_points>15</base_points>
@@ -150,157 +150,173 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="3" open="no" type="meta trait">
+					<advantage_container version="4" open="no" type="meta trait">
 						<name>Meta-Trait: Artificial Intelligence</name>
 						<reference>B263</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Absolute Timing</name>
 							<type>Mental</type>
 							<base_points>2</base_points>
 							<reference>B35</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Digital Mind</name>
 							<type>Physical, Exotic</type>
 							<base_points>5</base_points>
 							<reference>B49</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Doesn't Sleep</name>
 							<type>Physical, Exotic</type>
 							<base_points>20</base_points>
 							<reference>B50</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Eidetic Memory (Photographic)</name>
 							<type>Mental</type>
 							<base_points>10</base_points>
 							<reference>B51</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Lightning Calculator (Intuitive Mathematician)</name>
 							<type>Mental</type>
 							<base_points>5</base_points>
 							<reference>B66</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Reprogrammable</name>
 							<type>Mental, Exotic</type>
 							<base_points>-10</base_points>
 							<reference>B150</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="3" open="no" type="meta trait">
+					<advantage_container version="4" open="no" type="meta trait">
 						<name>Meta-Trait: Automaton</name>
 						<reference>B263</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Hidebound</name>
 							<type>Physical</type>
 							<base_points>-5</base_points>
 							<reference>B138</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Incurious (CR: 6)</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
 							<reference>B140</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Low Empathy</name>
 							<type>Mental</type>
 							<base_points>-20</base_points>
 							<reference>B142</reference>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">acting</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">carousing</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">criminology</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">detect lies</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">diplomacy</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">enthrallment</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">fast-talk</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">interrogation</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">leadership</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">merchant</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">politics</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="contains">psychology</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="contains">savoir-faire</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">sex appeal</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">sociology</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">streetwise</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
@@ -321,67 +337,67 @@
 								</advantage_prereq>
 							</prereq_list>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>No Sense of Humor</name>
 							<type>Physical</type>
 							<base_points>-10</base_points>
 							<reference>B146</reference>
 							<notes>-2 Reaction</notes>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Slave Mentality</name>
 							<type>Physical</type>
 							<base_points>-40</base_points>
 							<reference>B154</reference>
 						</advantage>
 					</advantage_container>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Taboo Trait (Complexity-limited IQ)</name>
 						<type>Mental/Physical</type>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Meta-Trait: Volitional AI</name>
 					<reference>UT28</reference>
 					<notes>This sentient program has as much self-initiative and creativity as a living creature of equivalent intelligence. It requires computer hardware and software with a Complexity equal to or greater than its (IQ/2)+3, rounded up.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Taboo Trait (Complexity-limited IQ)</name>
 						<type>Mental/Physical</type>
 					</advantage>
-					<advantage_container version="3" open="no" type="meta trait">
+					<advantage_container version="4" open="no" type="meta trait">
 						<name>Meta-Trait: Artificial Intelligence</name>
 						<reference>B263</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Absolute Timing</name>
 							<type>Mental</type>
 							<base_points>2</base_points>
 							<reference>B35</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Digital Mind</name>
 							<type>Physical, Exotic</type>
 							<base_points>5</base_points>
 							<reference>B49</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Doesn't Sleep</name>
 							<type>Physical, Exotic</type>
 							<base_points>20</base_points>
 							<reference>B50</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Eidetic Memory (Photographic)</name>
 							<type>Mental</type>
 							<base_points>10</base_points>
 							<reference>B51</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Lightning Calculator (Intuitive Mathematician)</name>
 							<type>Mental</type>
 							<base_points>5</base_points>
 							<reference>B66</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Reprogrammable</name>
 							<type>Mental, Exotic</type>
 							<base_points>-10</base_points>
@@ -389,32 +405,32 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="3" open="no">
+				<advantage_container version="4" open="no">
 					<name>Optional Intelligence Lenses</name>
 					<reference>UT28</reference>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Expiration Date</name>
 						<reference>UT28</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Terminally Ill</name>
 							<type>Physical</type>
-							<modifier version="1" enabled="no">
+							<modifier version="2" enabled="no">
 								<name>2 years to live</name>
+								<reference>B158</reference>
 								<cost type="points">-50</cost>
 								<affects>total</affects>
-								<reference>B158</reference>
 							</modifier>
-							<modifier version="1" enabled="no">
+							<modifier version="2" enabled="no">
 								<name>1 year to live</name>
+								<reference>B158</reference>
 								<cost type="points">-75</cost>
 								<affects>total</affects>
-								<reference>B158</reference>
 							</modifier>
-							<modifier version="1" enabled="no">
+							<modifier version="2" enabled="no">
 								<name>1 month to live</name>
+								<reference>B158</reference>
 								<cost type="points">-100</cost>
 								<affects>total</affects>
-								<reference>B158</reference>
 							</modifier>
 							<reference>B158</reference>
 							<categories>
@@ -422,10 +438,10 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Fast</name>
 						<reference>UT28</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Enhanced Time Sense</name>
 							<type>Mental, Exotic</type>
 							<base_points>45</base_points>
@@ -435,6 +451,7 @@
 								<category>Advantage</category>
 							</categories>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="contains">fast-draw</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
@@ -464,10 +481,10 @@
 							</prereq_list>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Fragment</name>
 						<reference>UT28</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Amnesia (Partial)</name>
 							<type>Physical</type>
 							<base_points>-10</base_points>
@@ -477,10 +494,10 @@
 							</categories>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Low-Res Upload</name>
 						<reference>UT28</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Reduce IQ</name>
 							<type>Mental</type>
 							<levels>1</levels>
@@ -495,14 +512,14 @@
 								<amount per_level="yes">-1</amount>
 							</attribute_bonus>
 						</advantage>
-						<advantage_container version="3" open="yes">
+						<advantage_container version="4" open="yes">
 							<name>Chose of:</name>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Reprogrammable</name>
 						<reference>UT28</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Reprogrammable</name>
 							<type>Mental, Exotic</type>
 							<base_points>-10</base_points>
@@ -513,15 +530,15 @@
 						</advantage>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Meta-Trait: Drone</name>
 					<reference>UT27</reference>
 					<notes>This non-volitional AI is also incapable of self-improvement. It might seem to learn by storing and remembering data, but it cannot assimilate information and use that knowledge in new ways. It requires computer hardware and software with a Complexity equal to or greater than its IQ/2, rounded up.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Taboo Trait (Complexity-limited IQ)</name>
 						<type>Mental/Physical</type>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Cannot Learn</name>
 						<type>Mental</type>
 						<base_points>-30</base_points>
@@ -530,117 +547,133 @@
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="3" open="no" type="meta trait">
+					<advantage_container version="4" open="no" type="meta trait">
 						<name>Meta-Trait: Automaton</name>
 						<reference>B263</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Hidebound</name>
 							<type>Physical</type>
 							<base_points>-5</base_points>
 							<reference>B138</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Incurious (CR: 6)</name>
 							<type>Mental</type>
 							<base_points>-10</base_points>
 							<reference>B140</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Low Empathy</name>
 							<type>Mental</type>
 							<base_points>-20</base_points>
 							<reference>B142</reference>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">acting</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">carousing</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">criminology</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">detect lies</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">diplomacy</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">enthrallment</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">fast-talk</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">interrogation</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">leadership</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">merchant</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">politics</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="contains">psychology</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="contains">savoir-faire</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">sex appeal</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">sociology</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
 								<amount>-3</amount>
 							</skill_bonus>
 							<skill_bonus>
+								<selection_type>skills with name</selection_type>
 								<name compare="is">streetwise</name>
 								<specialization compare="is anything"></specialization>
 								<category compare="is anything"></category>
@@ -661,54 +694,54 @@
 								</advantage_prereq>
 							</prereq_list>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>No Sense of Humor</name>
 							<type>Physical</type>
 							<base_points>-10</base_points>
 							<reference>B146</reference>
 							<notes>-2 Reaction</notes>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Slave Mentality</name>
 							<type>Physical</type>
 							<base_points>-40</base_points>
 							<reference>B154</reference>
 						</advantage>
 					</advantage_container>
-					<advantage_container version="3" open="no" type="meta trait">
+					<advantage_container version="4" open="no" type="meta trait">
 						<name>Meta-Trait: Artificial Intelligence</name>
 						<reference>B263</reference>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Absolute Timing</name>
 							<type>Mental</type>
 							<base_points>2</base_points>
 							<reference>B35</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Digital Mind</name>
 							<type>Physical, Exotic</type>
 							<base_points>5</base_points>
 							<reference>B49</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Doesn't Sleep</name>
 							<type>Physical, Exotic</type>
 							<base_points>20</base_points>
 							<reference>B50</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Eidetic Memory (Photographic)</name>
 							<type>Mental</type>
 							<base_points>10</base_points>
 							<reference>B51</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Lightning Calculator (Intuitive Mathematician)</name>
 							<type>Mental</type>
 							<base_points>5</base_points>
 							<reference>B66</reference>
 						</advantage>
-						<advantage version="3">
+						<advantage version="4">
 							<name>Reprogrammable</name>
 							<type>Mental, Exotic</type>
 							<base_points>-10</base_points>
@@ -717,61 +750,61 @@
 					</advantage_container>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="3" open="yes">
+			<advantage_container version="4" open="yes">
 				<name>Biomorphic Lenses</name>
 				<reference>UT28</reference>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Sculpted Body</name>
 					<type>Physical</type>
 					<reference>UT28</reference>
 				</advantage>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Mannequin</name>
 					<type>Physical</type>
 					<base_points>-2</base_points>
 					<reference>UT28</reference>
 				</advantage>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Semi-Sculpted Body</name>
 					<type>Physical</type>
 					<base_points>-3</base_points>
 					<reference>UT28</reference>
 				</advantage>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Realistic Flesh</name>
 					<type>Physical</type>
 					<base_points>-1</base_points>
 					<reference>UT28</reference>
 				</advantage>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Furry</name>
 					<type>Physical</type>
 					<base_points>1</base_points>
 					<reference>UT28</reference>
 				</advantage>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Living Flesh</name>
 					<type>Physical</type>
 					<reference>UT28</reference>
 				</advantage>
-				<advantage version="3">
+				<advantage version="4">
 					<name>Synthetic Organs</name>
 					<type>Physical</type>
 					<reference>UT28</reference>
 				</advantage>
 			</advantage_container>
 		</advantage_container>
-		<advantage_container version="3" open="no">
+		<advantage_container version="4" open="no">
 			<name>CYBERNETICS AND UPLOADING</name>
 			<reference>UT207</reference>
-			<advantage_container version="3" open="no" type="meta trait">
+			<advantage_container version="4" open="yes" type="meta trait">
 				<name>Body modifications</name>
 				<reference>UT208</reference>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Biomonitor Implant (TL9)</name>
 					<reference>UT208</reference>
 					<notes>Minor procedure (simple at TL10-12); $100; LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Accessory (Biomonitor)</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
@@ -781,28 +814,28 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>One Bionic Arm (TL9)</name>
 					<reference>UT209</reference>
 					<notes>Major procedure; $12,000; LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Arm ST</name>
 						<type>Physical</type>
 						<levels>2</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Only one arm</name>
+							<reference>B40</reference>
 							<cost type="points">-2</cost>
 							<affects>levels only</affects>
-							<reference>B40</reference>
 							<notes>@Arm@</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
@@ -811,40 +844,36 @@
 						<categories>
 							<category>Advantage</category>
 						</categories>
-						<attribute_bonus>
-							<attribute limitation="lifting only">st</attribute>
-							<amount per_level="yes">1</amount>
-						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>One arm</name>
+							<reference>B47</reference>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 						</modifier>
 						<reference>B47</reference>
 						<categories>
 							<category>Advantage</category>
 						</categories>
 						<dr_bonus>
-							<location>full body</location>
+							<location>arms</location>
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>One Arm</name>
 						<type>Physical</type>
 						<base_points>-20</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B147</reference>
 						<categories>
@@ -852,27 +881,27 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Two Bionic Arms (TL9)</name>
 					<reference>UT209</reference>
 					<notes>Two major procedures; $24,000; LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Arm ST</name>
 						<type>Physical</type>
 						<levels>2</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Both arms</name>
+							<reference>B40</reference>
 							<cost type="points">0</cost>
 							<affects>levels only</affects>
-							<reference>B40</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
@@ -881,40 +910,36 @@
 						<categories>
 							<category>Advantage</category>
 						</categories>
-						<attribute_bonus>
-							<attribute limitation="lifting only">st</attribute>
-							<amount per_level="yes">1</amount>
-						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Arms</name>
+							<reference>B47</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 						</modifier>
 						<reference>B47</reference>
 						<categories>
 							<category>Advantage</category>
 						</categories>
 						<dr_bonus>
-							<location>full body</location>
+							<location>arms</location>
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>No Fine Manipulators</name>
 						<type>Physical</type>
 						<base_points>-30</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B145</reference>
 						<categories>
@@ -922,28 +947,28 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Bionic Hand (TL9)</name>
 					<reference>UT209</reference>
 					<notes>Major procedure; $8,000; LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Arm ST</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Only one arm</name>
+							<reference>B40</reference>
 							<cost type="points">-2</cost>
 							<affects>levels only</affects>
-							<reference>B40</reference>
 							<notes>@Arm@</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
@@ -952,40 +977,36 @@
 						<categories>
 							<category>Advantage</category>
 						</categories>
-						<attribute_bonus>
-							<attribute limitation="lifting only">st</attribute>
-							<amount per_level="yes">1</amount>
-						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>One hand</name>
+							<reference>B47</reference>
 							<cost type="percentage">-80</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 						</modifier>
 						<reference>B47</reference>
 						<categories>
 							<category>Advantage</category>
 						</categories>
 						<dr_bonus>
-							<location>full body</location>
+							<location>hands</location>
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>One Hand</name>
 						<type>Physical</type>
 						<base_points>-15</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitygator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B147</reference>
 						<notes>@Hand@</notes>
@@ -994,19 +1015,19 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Bionic Ear (TL9)</name>
 					<reference>UT209</reference>
 					<notes>Minor procedure. $500. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Hard of Hearing</name>
 						<type>Physical</type>
 						<base_points>-10</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B138</reference>
 						<categories>
@@ -1018,11 +1039,11 @@
 						</attribute_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Bionic Ears (TL9)</name>
 					<reference>UT209</reference>
 					<notes>Two minor procedures. $1,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Protected Sense (Hearing)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
@@ -1031,15 +1052,15 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Deafness</name>
 						<type>Physical</type>
 						<base_points>-20</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B129</reference>
 						<categories>
@@ -1047,15 +1068,15 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Advanced Bionic Ears (TL9)</name>
 					<reference>UT209</reference>
 					<notes>Two minor procedures. $5,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Discriminatory Hearing</name>
 						<type>Physical, Exotic</type>
 						<base_points>15</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1065,7 +1086,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Protected Sense (Hearing)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
@@ -1074,15 +1095,15 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Deafness</name>
 						<type>Physical</type>
 						<base_points>-20</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B129</reference>
 						<categories>
@@ -1090,11 +1111,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
-					<name>One Bionic Eye (TL9)</name>
+				<advantage_container version="4" open="no" type="meta trait">
+					<name>Two Bionic Eyes (TL9)</name>
 					<reference>UT209</reference>
-					<notes>Major eye procedure. $5,000. LC4.</notes>
-					<advantage version="3">
+					<notes>Two major eye procedures. $10,000. LC4.</notes>
+					<advantage version="4">
 						<name>Accessory ((Video Display)</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
@@ -1103,17 +1124,100 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Nictitating Membrane</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
 						<points_per_level>1</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
+							<name>Temporary Disadvantage, Electrical</name>
+							<cost type="percentage">-20</cost>
+							<affects>total</affects>
+						</modifier>
+						<reference>B71</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+						<dr_bonus>
+							<location>eyes</location>
+							<amount per_level="yes">1</amount>
+						</dr_bonus>
+					</advantage>
+					<advantage version="4">
+						<name>Protected Sense (Vision)</name>
+						<type>Physical, Exotic</type>
+						<base_points>5</base_points>
+						<reference>B78</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+					<advantage version="4">
+						<name>Telescopic Vision</name>
+						<type>Physical</type>
+						<levels>1</levels>
+						<points_per_level>5</points_per_level>
+						<modifier version="2">
+							<name>Temporary Disadvantage, Electrical</name>
+							<cost type="percentage">-20</cost>
+							<affects>total</affects>
+						</modifier>
+						<reference>B92</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+					<advantage version="4">
+						<name>Blindness</name>
+						<type>Physical</type>
+						<base_points>-50</base_points>
+						<modifier version="2">
+							<name>Mitigator</name>
+							<reference>B112</reference>
+							<cost type="percentage">-70</cost>
+							<affects>total</affects>
+						</modifier>
+						<reference>B124</reference>
+						<notes>-6 to all combat skills; cannot target hit locations</notes>
+						<categories>
+							<category>Disadvantage</category>
+						</categories>
+					</advantage>
+					<advantage version="4">
+						<name>Night Vision</name>
+						<type>Physical</type>
+						<levels>2</levels>
+						<points_per_level>1</points_per_level>
+						<reference>B71</reference>
+						<categories>
+							<category>Advantage</category>
+						</categories>
+					</advantage>
+				</advantage_container>
+				<advantage_container version="4" open="no" type="meta trait">
+					<name>One Bionic Eye (TL9)</name>
+					<reference>UT209</reference>
+					<notes>Major eye procedure. $5,000. LC4.</notes>
+					<advantage version="4">
+						<name>Accessory ((Video Display)</name>
+						<type>Physical, Exotic</type>
+						<base_points>1</base_points>
+						<reference>B100</reference>
+						<categories>
+							<category>Perk</category>
+						</categories>
+					</advantage>
+					<advantage version="4">
+						<name>Nictitating Membrane</name>
+						<type>Physical, Exotic</type>
+						<levels>2</levels>
+						<points_per_level>1</points_per_level>
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical and No Depth Perception</name>
 							<cost type="percentage">-35</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>One Eye</name>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
@@ -1122,8 +1226,12 @@
 						<categories>
 							<category>Advantage</category>
 						</categories>
+						<dr_bonus>
+							<location>eyes</location>
+							<amount per_level="yes">1</amount>
+						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Protected Sense (Vision)</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
@@ -1132,12 +1240,12 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telescopic Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical and No Depth Perception</name>
 							<cost type="percentage">-35</cost>
 							<affects>total</affects>
@@ -1147,22 +1255,22 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>One Eye</name>
 						<type>Physical</type>
 						<base_points>-15</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B147</reference>
 						<categories>
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Night Vision</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -1173,99 +1281,20 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
-					<name>Two Bionic Eyes (TL9)</name>
-					<reference>UT209</reference>
-					<notes>Two major eye procedures. $10,000. LC4.</notes>
-					<advantage version="3">
-						<name>Accessory ((Video Display)</name>
-						<type>Physical, Exotic</type>
-						<base_points>1</base_points>
-						<reference>B100</reference>
-						<categories>
-							<category>Perk</category>
-						</categories>
-					</advantage>
-					<advantage version="3">
-						<name>Nictitating Membrane</name>
-						<type>Physical, Exotic</type>
-						<levels>2</levels>
-						<points_per_level>1</points_per_level>
-						<modifier version="1">
-							<name>Temporary Disadvantage, Electrical</name>
-							<cost type="percentage">-20</cost>
-							<affects>total</affects>
-						</modifier>
-						<reference>B71</reference>
-						<categories>
-							<category>Advantage</category>
-						</categories>
-					</advantage>
-					<advantage version="3">
-						<name>Protected Sense (Vision)</name>
-						<type>Physical, Exotic</type>
-						<base_points>5</base_points>
-						<reference>B78</reference>
-						<categories>
-							<category>Advantage</category>
-						</categories>
-					</advantage>
-					<advantage version="3">
-						<name>Telescopic Vision</name>
-						<type>Physical</type>
-						<levels>1</levels>
-						<points_per_level>5</points_per_level>
-						<modifier version="1">
-							<name>Temporary Disadvantage, Electrical</name>
-							<cost type="percentage">-20</cost>
-							<affects>total</affects>
-						</modifier>
-						<reference>B92</reference>
-						<categories>
-							<category>Advantage</category>
-						</categories>
-					</advantage>
-					<advantage version="3">
-						<name>Blindness</name>
-						<type>Physical</type>
-						<base_points>-50</base_points>
-						<modifier version="1">
-							<name>Mitigator</name>
-							<cost type="percentage">-70</cost>
-							<affects>total</affects>
-							<reference>B112</reference>
-						</modifier>
-						<reference>B124</reference>
-						<notes>-6 to all combat skills; cannot target hit locations</notes>
-						<categories>
-							<category>Disadvantage</category>
-						</categories>
-					</advantage>
-					<advantage version="3">
-						<name>Night Vision</name>
-						<type>Physical</type>
-						<levels>2</levels>
-						<points_per_level>1</points_per_level>
-						<reference>B71</reference>
-						<categories>
-							<category>Advantage</category>
-						</categories>
-					</advantage>
-				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>One Bionic Leg (TL9)</name>
 					<reference>UT209</reference>
 					<notes>Major procedure. $8,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Directional</name>
+							<reference>B47</reference>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 							<notes>One leg</notes>
 						</modifier>
 						<reference>B47</reference>
@@ -1273,19 +1302,19 @@
 							<category>Advantage</category>
 						</categories>
 						<dr_bonus>
-							<location>full body</location>
+							<location>legs</location>
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Lame (Missing Legs)</name>
 						<type>Physical</type>
 						<base_points>-20</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B141</reference>
 						<categories>
@@ -1293,21 +1322,21 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Two Bionic Legs (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Two major procedures. $16,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Increased Basic Move</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
@@ -1322,16 +1351,16 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Directional</name>
+							<reference>B47</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 							<notes>Legs</notes>
 						</modifier>
 						<reference>B47</reference>
@@ -1339,21 +1368,21 @@
 							<category>Advantage</category>
 						</categories>
 						<dr_bonus>
-							<location>full body</location>
+							<location>legs</location>
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Super Jump</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
@@ -1363,15 +1392,15 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Lame (Legless)</name>
 						<type>Physical</type>
 						<base_points>-30</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B141</reference>
 						<categories>
@@ -1379,36 +1408,36 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Bionic Organ Transplants (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Major procedure (minor at TL11-12). $7,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Terminally Ill</name>
 						<type>Physical</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>1 month to live</name>
+							<reference>B158</reference>
 							<cost type="points">-100</cost>
 							<affects>total</affects>
-							<reference>B158</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B158</reference>
 						<categories>
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Hard to Kill</name>
 						<type>Physical</type>
 						<levels>2</levels>
 						<points_per_level>2</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1419,21 +1448,21 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Boosted Heart (TL10)</name>
 					<reference>UT211</reference>
 					<notes>Major procedure (minor at TL11-12). $10,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Increased Basic Speed</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Costs Fatigue 1</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, ElectricalTemporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1448,11 +1477,11 @@
 							<amount per_level="yes">-0.25</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Immunity to Heart Attack</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1463,19 +1492,19 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Cybervoder (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Minor procedure. $1,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Cannot Speak</name>
 						<type>Physical</type>
 						<base_points>-15</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B125</reference>
 						<categories>
@@ -1489,19 +1518,19 @@
 						</prereq_list>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Silvertongue Implant (TL10)</name>
 					<reference>UT211</reference>
 					<notes>Minor procedure. $5,000. LC4</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Cannot Speak</name>
 						<type>Physical</type>
 						<base_points>-15</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B125</reference>
 						<categories>
@@ -1514,11 +1543,11 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Voice</name>
 						<type>Physical</type>
 						<base_points>10</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1528,48 +1557,56 @@
 							<category>Advantage</category>
 						</categories>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">diplomacy</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">fast-talk</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="starts with">mimicry</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">performance</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">politics</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">public speaking</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">sex appeal</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>2</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">singing</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
@@ -1577,21 +1614,21 @@
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Bomb Implant (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Simple procedure. Use the cost and LC of a smart grenade (p. 146); a 25mm or 40mm can fit in the torso, a 15mm in a limb, 10mm elsewhere in the body.</notes>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Boosted Reflexes</name>
 					<reference>UT211</reference>
 					<notes>Major procedure (minor at TL10-12). $9,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Increased Basic Speed</name>
 						<type>Physical</type>
-						<levels>2</levels>
+						<levels>4</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Costs Fatigue, 2 FP</name>
 							<cost type="percentage">-10</cost>
 							<affects>total</affects>
@@ -1607,11 +1644,11 @@
 						</attribute_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Cyber Claws (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Minor procedure. $6,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Claws, Sharp (Hands)</name>
 						<type>Physical</type>
 						<base_points>5</base_points>
@@ -1641,7 +1678,7 @@
 								<modifier>0</modifier>
 							</default>
 						</melee_weapon>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Switchable</name>
 							<cost type="percentage">10</cost>
 							<affects>total</affects>
@@ -1653,11 +1690,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Filter Implant (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Minor procedure (simple at TL11-12). $2,500. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Filter Lungs</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
@@ -1667,20 +1704,20 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Flesh Pocket (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Simple procedure. $200 per level. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Payload</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>1</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Exposed</name>
+							<reference>B74</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B74</reference>
 						</modifier>
 						<reference>B74</reference>
 						<categories>
@@ -1688,19 +1725,19 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Gyrobalance (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Minor procedure. $7,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Klutz</name>
 						<type>Physical</type>
 						<base_points>-5</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B141</reference>
 						<categories>
@@ -1710,11 +1747,11 @@
 							<attribute_prereq has="yes" which="dx" compare="at most">13</attribute_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Perfect Balance</name>
 						<type>Physical</type>
 						<base_points>15</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1724,18 +1761,21 @@
 							<category>Advantage</category>
 						</categories>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="starts with">piloting</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">acrobatics</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>1</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">climbing</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
@@ -1743,20 +1783,20 @@
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no">
+				<advantage_container version="4" open="no">
 					<name>Hidden Compartments (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Simple procedure. $500. No operation required if purchased with the limb. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Payload</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>1</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Exposed</name>
+							<reference>B74</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B74</reference>
 						</modifier>
 						<reference>B74</reference>
 						<categories>
@@ -1764,31 +1804,31 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Implant Radio (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Simple procedure. $100. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Radio</name>
+							<reference>B91</reference>
 							<cost type="points">10</cost>
 							<affects>total</affects>
-							<reference>B91</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Secure</name>
+							<reference>P82</reference>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Reduced Range, 1/10</name>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1799,36 +1839,36 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Implant Video Comm (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Minor procedure (simple at TL10-12). $200. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Radio</name>
+							<reference>B91</reference>
 							<cost type="points">10</cost>
 							<affects>total</affects>
-							<reference>B91</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Secure</name>
+							<reference>P82</reference>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Reduced Range, 1/10</name>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Video</name>
 							<cost type="percentage">40</cost>
 							<affects>total</affects>
@@ -1839,20 +1879,20 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Memory Flesh (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Radical procedure (major at TL10-12). $20,000. LC3. If the subject already has bioplastic skin (p. 212), this is a minor procedure.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Alternate Form</name>
 						<type>Physical, Exotic</type>
 						<base_points>15</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Cosmetic</name>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -1863,23 +1903,23 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Subdermal Armor (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Radical procedure (major at TL10-12). $2,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>8</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Limited</name>
+							<reference>B46</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B46</reference>
 							<notes>Piercing and Cutting</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -1894,12 +1934,12 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>4</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -1915,15 +1955,15 @@
 						</dr_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Smart Tattoos (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Simple procedure. $200. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Distinctive Features</name>
 						<type>Physical</type>
 						<base_points>-1</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Switchable</name>
 							<cost type="percentage">-10</cost>
 							<affects>total</affects>
@@ -1933,12 +1973,14 @@
 							<category>Quirk</category>
 						</categories>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">disguise</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
 							<amount>-1</amount>
 						</skill_bonus>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">shadowing</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
@@ -1946,27 +1988,27 @@
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Stinger (TL9)</name>
 					<reference>UT211</reference>
 					<notes>Minor procedure. $500 (hypos not included). LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Arm</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Weapon Mount</name>
+							<reference>B53</reference>
 							<cost type="percentage">-80</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Switchable</name>
 							<cost type="percentage">10</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Takes Recharge</name>
 							<cost type="percentage">-10</cost>
 							<affects>total</affects>
@@ -1977,65 +2019,65 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Bionic Arm or Hand Mount (TL9)</name>
 					<reference>UT212</reference>
 					<notes>Minor procedure. $100/lb. of weapon weight. LC of weapon.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Arm</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Extra-Flexible</name>
+							<reference>B53</reference>
 							<cost type="percentage">50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Long</name>
+							<reference>B53</reference>
 							<cost type="percentage">100</cost>
 							<levels>1</levels>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Foot Manipulators</name>
+							<reference>B53</reference>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>No Physical Attack</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Short</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Weak</name>
+							<reference>B53</reference>
 							<cost type="percentage">-25</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 							<notes>Half body ST</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Weak</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 							<notes>Quarter body ST</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Weapon Mount</name>
+							<reference>B53</reference>
 							<cost type="percentage">-80</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
 						<reference>B53</reference>
 						<categories>
@@ -2043,72 +2085,72 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Heavy Weapon Arm (TL9)</name>
 					<reference>UT212</reference>
 					<notes>Minor procedure. $100/lb. of weapon weight. LC of weapon.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Arm</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Extra-Flexible</name>
+							<reference>B53</reference>
 							<cost type="percentage">50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Long</name>
+							<reference>B53</reference>
 							<cost type="percentage">100</cost>
 							<levels>1</levels>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Foot Manipulators</name>
+							<reference>B53</reference>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>No Physical Attack</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Short</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Weak</name>
+							<reference>B53</reference>
 							<cost type="percentage">-25</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 							<notes>Half body ST</notes>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Weak</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 							<notes>Quarter body ST</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Weapon Mount</name>
+							<reference>B53</reference>
 							<cost type="percentage">-80</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
 						<reference>B53</reference>
 						<categories>
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>One Arm</name>
 						<type>Physical</type>
 						<base_points>-20</base_points>
@@ -2118,16 +2160,16 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Accelerated Reflexes (TL10)</name>
 					<reference>UT212</reference>
 					<notes>Radical procedure (major at TL12). $50,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Attack</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>25</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2138,23 +2180,23 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Bioplastic Skin (TL10)</name>
 					<reference>UT212</reference>
 					<notes>Major procedure. $20,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>10</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Limited</name>
+							<reference>B46</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B46</reference>
 							<notes>Limited, Burning and Piercing damage</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2169,12 +2211,12 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>5</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2190,40 +2232,40 @@
 						</dr_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Shoulder-Length Cyberhair (TL10)</name>
 					<reference>UT212</reference>
 					<notes>Major procedure (minor at TL11-12). $3,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Arm</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Extra-Flexible</name>
+							<reference>B53</reference>
 							<cost type="percentage">50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Short</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Weak</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 							<notes>Quarter body ST</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2234,34 +2276,34 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Waist-Length Cyberhair (TL10)</name>
 					<reference>UT213</reference>
 					<notes>Major procedure (minor at TL11-12). $4,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Arm</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Extra-Flexible</name>
+							<reference>B53</reference>
 							<cost type="percentage">50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Weak</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 							<notes>Quarter body ST</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2272,40 +2314,40 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Knee-Length Cyberhair (TL10)</name>
 					<reference>UT213</reference>
 					<notes>Longer and tougher, with a reinforced scalp to support the hair&#8217;s capabilities.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Arm</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>10</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Extra-Flexible</name>
+							<reference>B53</reference>
 							<cost type="percentage">50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Long</name>
+							<reference>B53</reference>
 							<cost type="percentage">100</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Weak</name>
+							<reference>B53</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B53</reference>
 							<notes>Quarter body ST</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Maintenance, 1 person, weekly</name>
 							<cost type="percentage">-5</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2316,11 +2358,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Variskin (TL10)</name>
 					<reference>UT213</reference>
 					<notes>Minor procedure (simple at TL11+). $1,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Accessory (Video terminal)</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
@@ -2329,16 +2371,16 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Chameleon</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Controllable</name>
+							<reference>P43</reference>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
-							<reference>P43</reference>
 						</modifier>
 						<reference>B41</reference>
 						<categories>
@@ -2346,26 +2388,26 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Gill Implant (TL10)</name>
 					<reference>UT213</reference>
 					<notes>Major procedure (minor at TL11-12). $8,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Doesn't Breathe</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Gills</name>
+							<reference>B49</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B49</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantages, Maintenance, 1 hour, daily</name>
 							<cost type="percentage">-10</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>and Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2376,11 +2418,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Hive Implant (TL10)</name>
 					<reference>UT213</reference>
 					<notes>Minor procedure. $1,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Accessory (Swarmbot Hive)</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
@@ -2389,16 +2431,16 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Payload (Arm)</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
 						<points_per_level>1</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Exposed</name>
+							<reference>B74</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B74</reference>
 						</modifier>
 						<reference>B74</reference>
 						<categories>
@@ -2406,11 +2448,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Intestinal Recycler (TL10)</name>
 					<reference>UT213</reference>
 					<notes>Major procedure (minor at TL11-12). $4,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Reduced Consumption</name>
 						<type>Physical</type>
 						<levels>2</levels>
@@ -2421,23 +2463,23 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Nanoweave Subdermal Armor (TL10)</name>
 					<reference>UT213</reference>
 					<notes>Major procedure (minor at TL11-12). $5,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>12</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Limited</name>
+							<reference>B46</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B46</reference>
 							<notes>Limited, Burning and Piercing damage</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2452,12 +2494,12 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>6</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2473,15 +2515,15 @@
 						</dr_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Polyskin Body (TL10)</name>
 					<reference>UT214</reference>
 					<notes>Radical procedure. $36,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Elastic Skin</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2491,6 +2533,7 @@
 							<category>Advantage</category>
 						</categories>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">disguise</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
@@ -2498,20 +2541,20 @@
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Polyskin Face (TL10)</name>
 					<reference>UT214</reference>
 					<notes>Major procedure. $15,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Elastic Skin</name>
 						<type>Physical, Exotic</type>
 						<base_points>20</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Face only</name>
 							<cost type="percentage">-25</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2521,6 +2564,7 @@
 							<category>Advantage</category>
 						</categories>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">disguise</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
@@ -2528,22 +2572,22 @@
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Reinforced Skeleton (TL10)</name>
 					<reference>UT214</reference>
 					<notes>Radical procedure (major at TL11-12). $50,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Hit Points</name>
 						<type>Physical</type>
 						<levels>5</levels>
 						<points_per_level>2</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Size</name>
 							<cost type="percentage">-10</cost>
 							<levels>1</levels>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>No Fine Manipulators</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2558,16 +2602,16 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>20</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Directional</name>
+							<reference>B47</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 							<notes>Skull only</notes>
 						</modifier>
 						<reference>B47</reference>
@@ -2575,23 +2619,23 @@
 							<category>Advantage</category>
 						</categories>
 						<dr_bonus>
-							<location>full body</location>
+							<location>skull</location>
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>10</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Limited</name>
+							<reference>B46</reference>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
-							<reference>B46</reference>
 							<notes>Crushing</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2607,16 +2651,16 @@
 						</dr_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Ripsnake (TL10)</name>
 					<reference>UT214</reference>
 					<notes>Major procedure. $26,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Attack</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>25</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Ripsnake Only</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2626,7 +2670,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Striker, Impaling</name>
 						<type>Physical, Exotic</type>
 						<base_points>8</base_points>
@@ -2645,17 +2689,17 @@
 								<modifier>0</modifier>
 							</default>
 						</melee_weapon>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Cannot Parry</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Long, SM+1</name>
 							<cost type="percentage">100</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2666,20 +2710,20 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Sexmorph</name>
 					<reference>UT214</reference>
 					<notes>Major procedure (minor at TL12). $10,000, LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Hermaphromorph</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Transsexual form also</name>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
@@ -2690,11 +2734,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Slickskin (TL10)</name>
 					<reference>UT214</reference>
 					<notes>Major procedure (minor at TL11-12). $12,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Slippery</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
@@ -2704,6 +2748,7 @@
 							<category>Advantage</category>
 						</categories>
 						<skill_bonus>
+							<selection_type>skills with name</selection_type>
 							<name compare="is">escape</name>
 							<specialization compare="is anything"></specialization>
 							<category compare="is anything"></category>
@@ -2711,11 +2756,11 @@
 						</skill_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Thermal Imaging Eyes (TL10)</name>
 					<reference>UT214</reference>
 					<notes>Two major procedures (minor if replacing existing bionic eyes). $8,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Accessory (HUD)</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
@@ -2724,11 +2769,11 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Infravision</name>
 						<type>Physical, Exotic</type>
 						<base_points>10</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2738,7 +2783,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Nictitating Membrane</name>
 						<type>Physical, Exotic</type>
 						<levels>2</levels>
@@ -2748,12 +2793,12 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telescopic Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2763,15 +2808,15 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Blindness</name>
 						<type>Physical</type>
 						<base_points>-50</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B124</reference>
 						<categories>
@@ -2779,22 +2824,22 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Hyperdense Skeleton (TL11)</name>
 					<reference>UT214</reference>
 					<notes>Radical procedure (major at TL12). $100,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Extra Hit Points</name>
 						<type>Physical</type>
 						<levels>5</levels>
 						<points_per_level>2</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Size</name>
 							<cost type="percentage">-10</cost>
 							<levels>1</levels>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>No Fine Manipulators</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2809,16 +2854,16 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>40</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Directional</name>
+							<reference>B47</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 							<notes>Skull only</notes>
 						</modifier>
 						<reference>B47</reference>
@@ -2826,23 +2871,23 @@
 							<category>Advantage</category>
 						</categories>
 						<dr_bonus>
-							<location>full body</location>
+							<location>skull</location>
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>20</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Limited</name>
+							<reference>B46</reference>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
-							<reference>B46</reference>
 							<notes>Crushing</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2858,11 +2903,11 @@
 						</dr_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Hyperspectral Eyes (TL11)</name>
 					<reference>UT215</reference>
 					<notes>Two major procedures (minor if replacing existing bionic eyes). $12,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Accessory (HUD)</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
@@ -2871,11 +2916,11 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Hyperspectral Vision</name>
 						<type>Physical, Exotic</type>
 						<base_points>25</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2895,7 +2940,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Nictitating Membrane</name>
 						<type>Physical, Exotic</type>
 						<levels>3</levels>
@@ -2905,12 +2950,12 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telescopic Vision</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -2920,15 +2965,15 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Blindness</name>
 						<type>Physical</type>
 						<base_points>-50</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
+							<reference>B112</reference>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
-							<reference>B112</reference>
 						</modifier>
 						<reference>B124</reference>
 						<categories>
@@ -2936,23 +2981,23 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Monocrys Subdermal Armor (TL11)</name>
 					<reference>UT215</reference>
 					<notes>Major procedure. $10,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>16</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Limited</name>
+							<reference>B46</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B46</reference>
 							<notes>Piercing and Cutting</notes>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2967,12 +3012,12 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>8</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Tough Skin</name>
 							<cost type="percentage">-40</cost>
 							<affects>total</affects>
@@ -2988,11 +3033,11 @@
 						</dr_bonus>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Living Metal Skin (TL12)</name>
 					<reference>UT215</reference>
 					<notes>Radical procedure. $40,000. LC2.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Filter Lungs</name>
 						<type>Physical, Exotic</type>
 						<base_points>5</base_points>
@@ -3001,16 +3046,16 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Damage Resistance</name>
 						<type>Physical, Exotic</type>
 						<levels>20</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Flexible</name>
+							<reference>B47</reference>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
-							<reference>B47</reference>
 						</modifier>
 						<reference>B47</reference>
 						<categories>
@@ -3021,7 +3066,7 @@
 							<amount per_level="yes">1</amount>
 						</dr_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Lifting ST</name>
 						<type>Physical, Exotic</type>
 						<levels>5</levels>
@@ -3035,7 +3080,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Nictitating Membrane</name>
 						<type>Physical, Exotic</type>
 						<levels>5</levels>
@@ -3045,7 +3090,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Sealed</name>
 						<type>Physical, Exotic</type>
 						<base_points>15</base_points>
@@ -3054,7 +3099,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Striking ST</name>
 						<type>Physical, Exotic</type>
 						<levels>5</levels>
@@ -3068,7 +3113,7 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Super Jump</name>
 						<type>Physical, Exotic</type>
 						<levels>1</levels>
@@ -3078,7 +3123,7 @@
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Temperature Tolerance</name>
 						<type>Physical</type>
 						<levels>5</levels>
@@ -3090,33 +3135,33 @@
 					</advantage>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="3" open="no" type="meta trait">
+			<advantage_container version="4" open="no" type="meta trait">
 				<name>Brain implants</name>
 				<reference>UT215</reference>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Braintap Jack (TL9)</name>
 					<reference>UT215</reference>
 					<notes>Major procedure (minor at TL10-12). $3,000. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Secure</name>
+							<reference>P82</reference>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Sensie</name>
+							<reference>P82</reference>
 							<cost type="percentage">80</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Cable Jack</name>
+							<reference>UT31</reference>
 							<cost type="points">5</cost>
 							<affects>total</affects>
-							<reference>UT31</reference>
 						</modifier>
 						<reference>B91</reference>
 						<categories>
@@ -3124,38 +3169,38 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Wireless Braintap (TL9)</name>
 					<reference>UT215</reference>
 					<notes>Major procedure (minor at TL10-12). $12,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Radio</name>
+							<reference>B91</reference>
 							<cost type="points">10</cost>
 							<affects>total</affects>
-							<reference>B91</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Send Only</name>
+							<reference>B91</reference>
 							<cost type="percentage">-50</cost>
 							<affects>total</affects>
-							<reference>B91</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Secure</name>
+							<reference>P82</reference>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Sensie</name>
+							<reference>P82</reference>
 							<cost type="percentage">80</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Reduced Range, &#215;1/10</name>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
@@ -3166,11 +3211,11 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Computer Implant (TL9)</name>
 					<reference>UT215</reference>
 					<notes>Major procedure (minor at TL10-12). $4,000 + the cost of a tiny computer (p. 22) with the compact option. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Accessory (Tiny computer)</name>
 						<type>Physical, Exotic</type>
 						<base_points>1</base_points>
@@ -3179,22 +3224,22 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Eidetic Memory</name>
 						<type>Mental</type>
 						<base_points>5</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Photographic</name>
+							<reference>B51</reference>
 							<cost type="points">5</cost>
 							<affects>total</affects>
-							<reference>B51</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Recorded data only</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -3205,17 +3250,17 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Chip Slots (TL9)</name>
 					<reference>UT216</reference>
 					<notes>Major procedure (minor at TL10-12). Cost is $5,000 per slot plus $3,000 per point of abilities that a chip can hold. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Modular Abilities (Chip Slots)</name>
 						<type>Mental, Exotic</type>
 						<levels>1</levels>
 						<base_points>5</base_points>
 						<points_per_level>3</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -3226,17 +3271,17 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Skip Slot (TL9)</name>
 					<reference>UT216</reference>
 					<notes>Major procedure (minor at TL10-12). $17,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Modular Abilities (Chip Slots)</name>
 						<type>Mental, Exotic</type>
 						<levels>1</levels>
 						<base_points>5</base_points>
 						<points_per_level>3</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -3247,16 +3292,16 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Computer Implant Template</name>
 					<reference>UT216</reference>
 					<notes>Major procedure (minor at TL10-12). $4,000 plus the cost of a tiny computer (p. 22) and AI software (p. 25) or a mind emulation (pp. 26, 220) program. LC4.</notes>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Template</name>
 						<reference>UT216</reference>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>Attributes</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Decreased Strength</name>
 								<type>Physical</type>
 								<levels>10</levels>
@@ -3271,7 +3316,7 @@
 									<amount per_level="yes">-1</amount>
 								</attribute_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Increased Health</name>
 								<type>Physical</type>
 								<levels>4</levels>
@@ -3286,7 +3331,7 @@
 									<amount per_level="yes">1</amount>
 								</attribute_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Extra Hit Points</name>
 								<type>Physical</type>
 								<levels>2</levels>
@@ -3301,7 +3346,7 @@
 									<amount per_level="yes">1</amount>
 								</attribute_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Decreased Basic Move</name>
 								<type>Physical</type>
 								<levels>6</levels>
@@ -3317,48 +3362,52 @@
 								</attribute_bonus>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>Advantages</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Absolute Direction</name>
 								<type>Mental/Physical</type>
 								<base_points>5</base_points>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Requires signal</name>
+									<reference>B34</reference>
 									<cost type="percentage">-20</cost>
 									<affects>total</affects>
-									<reference>B34</reference>
 								</modifier>
 								<reference>B34</reference>
 								<categories>
 									<category>Advantage</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">body sense</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount>3</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">navigation</name>
 									<specialization compare="is">air</specialization>
 									<category compare="is anything"></category>
 									<amount>3</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">navigation</name>
 									<specialization compare="is">land</specialization>
 									<category compare="is anything"></category>
 									<amount>3</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">navigation</name>
 									<specialization compare="is">sea</specialization>
 									<category compare="is anything"></category>
 									<amount>3</amount>
 								</skill_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Doesn't Breathe</name>
 								<type>Physical, Exotic</type>
 								<base_points>20</base_points>
@@ -3367,7 +3416,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Doesn't Eat or Drink</name>
 								<type>Physical, Exotic</type>
 								<base_points>10</base_points>
@@ -3376,16 +3425,16 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Damage Resistance</name>
 								<type>Physical, Exotic</type>
 								<levels>1</levels>
 								<points_per_level>5</points_per_level>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Can't wear armor</name>
+									<reference>B47</reference>
 									<cost type="percentage">-40</cost>
 									<affects>total</affects>
-									<reference>B47</reference>
 								</modifier>
 								<reference>B47</reference>
 								<categories>
@@ -3396,7 +3445,7 @@
 									<amount per_level="yes">1</amount>
 								</dr_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Injury Tolerance (No Eyes)</name>
 								<type>Physical, Exotic</type>
 								<base_points>5</base_points>
@@ -3405,7 +3454,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Injury Tolerance (No Head)</name>
 								<type>Physical, Exotic</type>
 								<base_points>7</base_points>
@@ -3414,7 +3463,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Injury Tolerance (No Neck)</name>
 								<type>Physical, Exotic</type>
 								<base_points>5</base_points>
@@ -3423,50 +3472,50 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage_container version="3" open="no" type="meta trait">
+							<advantage_container version="4" open="no" type="meta trait">
 								<name>Meta-Trait: Machine</name>
 								<reference>B263</reference>
-								<advantage version="3">
+								<advantage version="4">
 									<name>Eight-hour energy reserve, Refuel 3 times per day</name>
 									<type>Physical</type>
 									<reference>B263</reference>
 								</advantage>
-								<advantage version="3">
+								<advantage version="4">
 									<name>Injury Tolerance (No Blood)</name>
 									<type>Physical, Exotic</type>
 									<base_points>5</base_points>
 									<reference>B61</reference>
 								</advantage>
-								<advantage version="3">
+								<advantage version="4">
 									<name>Injury Tolerance (Unliving)</name>
 									<type>Physical, Exotic</type>
 									<base_points>20</base_points>
 									<reference>B61</reference>
 								</advantage>
-								<advantage version="3">
+								<advantage version="4">
 									<name>No fatigue points, Don't spend fatigue points</name>
 									<type>Physical</type>
 									<reference>B263</reference>
 								</advantage>
-								<advantage version="3">
+								<advantage version="4">
 									<name>Resistant (Immunity to Metabolic Hazards)</name>
 									<type>Physical</type>
 									<base_points>30</base_points>
 									<reference>B81</reference>
 								</advantage>
-								<advantage version="3">
+								<advantage version="4">
 									<name>Unhealing (Total)</name>
 									<type>Physical, Exotic</type>
 									<base_points>-30</base_points>
 									<reference>B160</reference>
 								</advantage>
-								<advantage version="3">
+								<advantage version="4">
 									<name>Wears out instead of aging</name>
 									<type>Physical</type>
 									<reference>B263</reference>
 								</advantage>
 							</advantage_container>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Mindlink</name>
 								<type>Mental, Supernatural</type>
 								<base_points>5</base_points>
@@ -3475,22 +3524,22 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Mind Reading</name>
 								<type>Mental, Exotic</type>
 								<base_points>30</base_points>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Sensory Only</name>
+									<reference>B70</reference>
 									<cost type="percentage">-20</cost>
 									<affects>total</affects>
-									<reference>B70</reference>
 								</modifier>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Mindlink Required</name>
 									<cost type="percentage">-40</cost>
 									<affects>total</affects>
 								</modifier>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Touch-Based</name>
 									<cost type="percentage">-20</cost>
 									<affects>total</affects>
@@ -3501,7 +3550,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Sealed</name>
 								<type>Physical, Exotic</type>
 								<base_points>15</base_points>
@@ -3510,33 +3559,33 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Telecommunication</name>
 								<type>Mental/Physical, Exotic</type>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Radio</name>
+									<reference>B91</reference>
 									<cost type="points">10</cost>
 									<affects>total</affects>
-									<reference>B91</reference>
 								</modifier>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Video</name>
+									<reference>B91</reference>
 									<cost type="percentage">40</cost>
 									<affects>total</affects>
-									<reference>B91</reference>
 								</modifier>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Burst</name>
+									<reference>P81</reference>
 									<cost type="percentage">30</cost>
 									<levels>1</levels>
 									<affects>total</affects>
-									<reference>P81</reference>
 								</modifier>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Secure</name>
+									<reference>P82</reference>
 									<cost type="percentage">20</cost>
 									<affects>total</affects>
-									<reference>P82</reference>
 								</modifier>
 								<reference>B91</reference>
 								<categories>
@@ -3544,9 +3593,9 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>Perks</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Accessory (Tiny computer)</name>
 								<type>Physical, Exotic</type>
 								<base_points>1</base_points>
@@ -3555,7 +3604,7 @@
 									<category>Perk</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Taboo Trait (Fixed ST, DX, HT, HP)</name>
 								<type>Physical, Exotic</type>
 								<categories>
@@ -3563,9 +3612,9 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>Disadvantages</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Electrical</name>
 								<type>Physical, Exotic</type>
 								<base_points>-20</base_points>
@@ -3574,7 +3623,7 @@
 									<category>Disadvantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Quadriplegic</name>
 								<type>Physical</type>
 								<base_points>-80</base_points>
@@ -3585,33 +3634,33 @@
 							</advantage>
 						</advantage_container>
 					</advantage_container>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Lenses</name>
 						<reference>UT216</reference>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>Puppeteer</name>
 							<reference>UT216</reference>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Possession</name>
 								<type>Mental, Exotic</type>
 								<base_points>100</base_points>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Telecontrol</name>
+									<reference>B76</reference>
 									<cost type="percentage">50</cost>
 									<affects>total</affects>
-									<reference>B76</reference>
 								</modifier>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Mindlink Required</name>
+									<reference>B76</reference>
 									<cost type="percentage">-40</cost>
 									<affects>total</affects>
-									<reference>B76</reference>
 								</modifier>
-								<modifier version="1">
+								<modifier version="2">
 									<name>No Memory Access</name>
+									<reference>B76</reference>
 									<cost type="percentage">-10</cost>
 									<affects>total</affects>
-									<reference>B76</reference>
 								</modifier>
 								<reference>B75</reference>
 								<categories>
@@ -3619,31 +3668,31 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>Mind Interface</name>
 							<reference>UT216</reference>
 							<notes>Remove the Sensory Only limitation on Mind Reading. This can be combined with Puppeteer. +$10,000. LC3.</notes>
 						</advantage_container>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Neural Jack (TL9)</name>
 					<reference>UT217</reference>
 					<notes>Major procedure (minor at TL10-12). $4,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Sensie</name>
+							<reference>P82</reference>
 							<cost type="percentage">80</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Cable Jack</name>
+							<reference>UT31</reference>
 							<cost type="points">5</cost>
 							<affects>total</affects>
-							<reference>UT31</reference>
 						</modifier>
 						<reference>B91</reference>
 						<categories>
@@ -3651,32 +3700,32 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Wireless Neural Interface (TL9)</name>
 					<reference>UT217</reference>
 					<notes>Major procedure (minor at TL10-12). $5,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Radio</name>
+							<reference>B91</reference>
 							<cost type="points">10</cost>
 							<affects>total</affects>
-							<reference>B91</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Secure</name>
+							<reference>P82</reference>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Sensie</name>
+							<reference>P82</reference>
 							<cost type="percentage">80</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Reduced Range, &#215;1/10</name>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
@@ -3687,16 +3736,16 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Psych Implant (TL9)</name>
 					<reference>UT217</reference>
 					<notes>A disadvantage granted by a psych implant will have the (Temporary Disadvantage, Electrical, -20%) limitation. A disadvantage that is negated by a psych implant will have the (Mitigator, -70%) limitation. A persona map of the patient is required; see Brainscanner (p. 203). This data is used to program the implant. Major procedure (minor at TL10-12). $1,000 per -1 point of disadvantage added or mitigated. LC3.</notes>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Biological Operating System (BOS) Implant (TL10)</name>
 					<reference>UT217</reference>
 					<notes>Major procedure (minor at TL11-12). $10,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Alcohol Tolerance</name>
 						<type>Physical</type>
 						<base_points>1</base_points>
@@ -3705,7 +3754,7 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Deep Sleeper</name>
 						<type>Physical</type>
 						<base_points>1</base_points>
@@ -3714,29 +3763,29 @@
 							<category>Perk</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Metabolism Control</name>
 						<type>Physical</type>
 						<levels>1</levels>
 						<points_per_level>5</points_per_level>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Hibernation</name>
+							<reference>B68</reference>
 							<cost type="percentage">-60</cost>
 							<affects>total</affects>
-							<reference>B68</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Maestry</name>
+							<reference>P60</reference>
 							<cost type="percentage">40</cost>
 							<affects>total</affects>
-							<reference>P60</reference>
 						</modifier>
 						<reference>B68</reference>
 						<categories>
 							<category>Advantage</category>
 						</categories>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>No Hangover</name>
 						<type>Physical</type>
 						<base_points>1</base_points>
@@ -3746,29 +3795,29 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Neurotherapy Implant (TL9)</name>
 					<reference>UT217</reference>
 					<notes>Add the Mitigator (-70%) limitation for the disadvantage. A persona map of the patient is required before a neurotherapy implant can be installed; see Brainscanner (p. 203). This data is used to program the implant. Major procedure (minor at TL10-12). $500 per -1 point of disadvantage. LC3.</notes>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Sensie Transceiver Jack (TL9)</name>
 					<reference>UT217</reference>
 					<notes>Major procedure (minor at TL10-12). $2,500. LC4.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Sensie only</name>
+							<reference>P82</reference>
 							<cost type="percentage">0</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Cable Jack</name>
+							<reference>UT31</reference>
 							<cost type="points">5</cost>
 							<affects>total</affects>
-							<reference>UT31</reference>
 						</modifier>
 						<reference>B91</reference>
 						<categories>
@@ -3776,32 +3825,32 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Wireless Sensie Transceiver (TL9)</name>
 					<reference>UT217</reference>
 					<notes>Major procedure (minor at TL10-12). $4,500. A/1 year. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Telecommunication</name>
 						<type>Mental/Physical, Exotic</type>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Radio</name>
+							<reference>B91</reference>
 							<cost type="points">10</cost>
 							<affects>total</affects>
-							<reference>B91</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Secure</name>
+							<reference>P82</reference>
 							<cost type="percentage">20</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Sensie only</name>
+							<reference>P82</reference>
 							<cost type="percentage">0</cost>
 							<affects>total</affects>
-							<reference>P82</reference>
 						</modifier>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Reduced Range, &#215;1/10</name>
 							<cost type="percentage">-30</cost>
 							<affects>total</affects>
@@ -3812,20 +3861,20 @@
 						</categories>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Cognitive Enhancement (TL10)</name>
-					<modifier version="1">
+					<modifier version="2">
 						<name>Then add Temporary Disadvantage Electrical</name>
 						<cost type="percentage">-20</cost>
 						<affects>total</affects>
 					</modifier>
 					<reference>UT217</reference>
 					<notes>The maximum points available per operation are 15 at TL10, 45 at TL11, and 60 at TL12. Major procedure. $5,000 &#215; point cost (before applying Temporary Disadvantage). LC3.</notes>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Choose~ </name>
-						<advantage_container version="3" open="yes">
+						<advantage_container version="4" open="yes">
 							<name>~one from:</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Increased Intelligence</name>
 								<type>Mental</type>
 								<levels>1</levels>
@@ -3840,7 +3889,7 @@
 									<amount per_level="yes">1</amount>
 								</attribute_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Increased Intelligence</name>
 								<type>Mental</type>
 								<levels>2</levels>
@@ -3855,7 +3904,7 @@
 									<amount per_level="yes">1</amount>
 								</attribute_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Increased Intelligence</name>
 								<type>Mental</type>
 								<levels>3</levels>
@@ -3871,14 +3920,14 @@
 								</attribute_bonus>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>~any from:</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>3D Spatial Sense</name>
 								<type>Physical</type>
 								<base_points>10</base_points>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Eidetic Memory</name>
 								<type>Mental</type>
 								<base_points>5</base_points>
@@ -3887,7 +3936,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Enhanced Time Sense</name>
 								<type>Mental, Exotic</type>
 								<base_points>45</base_points>
@@ -3897,6 +3946,7 @@
 									<category>Advantage</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="contains">fast-draw</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
@@ -3925,7 +3975,7 @@
 									</advantage_prereq>
 								</prereq_list>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Intuition</name>
 								<type>Mental</type>
 								<base_points>15</base_points>
@@ -3934,7 +3984,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Language Talent</name>
 								<type>Mental</type>
 								<base_points>10</base_points>
@@ -3943,7 +3993,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Oracle</name>
 								<type>Mental, Supernatural</type>
 								<base_points>15</base_points>
@@ -3952,7 +4002,7 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Single-Minded</name>
 								<type>Mental</type>
 								<base_points>5</base_points>
@@ -3961,28 +4011,28 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Visualization</name>
 								<type>Mental, Supernatural</type>
 								<base_points>10</base_points>
-								<modifier version="1" enabled="no">
+								<modifier version="2" enabled="no">
 									<name>Blessing</name>
+									<reference>P87</reference>
 									<cost type="percentage">100</cost>
 									<affects>total</affects>
-									<reference>P87</reference>
 								</modifier>
-								<modifier version="1" enabled="no">
+								<modifier version="2" enabled="no">
 									<name>Blessing</name>
+									<reference>P87</reference>
 									<cost type="percentage">0</cost>
 									<affects>total</affects>
-									<reference>P87</reference>
 									<notes>Others Only</notes>
 								</modifier>
-								<modifier version="1" enabled="no">
+								<modifier version="2" enabled="no">
 									<name>Cursing</name>
+									<reference>P87</reference>
 									<cost type="percentage">100</cost>
 									<affects>total</affects>
-									<reference>P87</reference>
 								</modifier>
 								<reference>B96</reference>
 								<categories>
@@ -3990,9 +4040,9 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>~one from:</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Lightning Calculator</name>
 								<type>Mental</type>
 								<base_points>2</base_points>
@@ -4001,15 +4051,15 @@
 									<category>Advantage</category>
 								</categories>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Lightning Calculator</name>
 								<type>Mental</type>
 								<base_points>2</base_points>
-								<modifier version="1">
+								<modifier version="2">
 									<name>Intuitive Mathematician</name>
+									<reference>B66</reference>
 									<cost type="points">3</cost>
 									<affects>total</affects>
-									<reference>B66</reference>
 								</modifier>
 								<reference>B66</reference>
 								<categories>
@@ -4017,9 +4067,9 @@
 								</categories>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>~one from:</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Mathematical Ability)</name>
 								<type>Mental</type>
 								<levels>1</levels>
@@ -4030,55 +4080,63 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Accounting</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Astronomy</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Cryptography</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Engineer</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Finance</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Market Analysis</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Mathematics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Physics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Mathematical Ability)</name>
 								<type>Mental</type>
 								<levels>2</levels>
@@ -4089,55 +4147,63 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Accounting</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Astronomy</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Cryptography</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Engineer</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Finance</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Market Analysis</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Mathematics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Physics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Mathematical Ability)</name>
 								<type>Mental</type>
 								<levels>3</levels>
@@ -4148,55 +4214,63 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Accounting</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Astronomy</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Cryptography</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Engineer</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Finance</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Market Analysis</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Mathematics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Physics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Mathematical Ability)</name>
 								<type>Mental</type>
 								<levels>4</levels>
@@ -4207,48 +4281,56 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Accounting</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Astronomy</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Cryptography</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Engineer</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Finance</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Market Analysis</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Mathematics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Physics</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
@@ -4256,9 +4338,9 @@
 								</skill_bonus>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no">
+						<advantage_container version="4" open="no">
 							<name>~one from:</name>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Musical Ability)</name>
 								<type>Mental</type>
 								<levels>1</levels>
@@ -4269,37 +4351,42 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Group Performance</name>
 									<specialization compare="is">Conducting</specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Composition</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Influence</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Instrument</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Singing</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Musical Ability)</name>
 								<type>Mental</type>
 								<levels>2</levels>
@@ -4310,37 +4397,42 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Group Performance</name>
 									<specialization compare="is">Conducting</specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Composition</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Influence</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Instrument</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Singing</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Musical Ability)</name>
 								<type>Mental</type>
 								<levels>3</levels>
@@ -4351,37 +4443,42 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Group Performance</name>
 									<specialization compare="is">Conducting</specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Composition</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Influence</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Instrument</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Singing</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Talent (Musical Ability)</name>
 								<type>Mental</type>
 								<levels>4</levels>
@@ -4392,30 +4489,35 @@
 									<category>Talent</category>
 								</categories>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Group Performance</name>
 									<specialization compare="is">Conducting</specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Composition</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Influence</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Musical Instrument</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
 									<amount per_level="yes">1</amount>
 								</skill_bonus>
 								<skill_bonus>
+									<selection_type>skills with name</selection_type>
 									<name compare="is">Singing</name>
 									<specialization compare="is anything"></specialization>
 									<category compare="is anything"></category>
@@ -4425,29 +4527,29 @@
 						</advantage_container>
 					</advantage_container>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Backup Brain (TL11)</name>
 					<reference>UT217</reference>
 					<notes>Once the implant has taken over, the user&#8217;s ability to avoid IQ losses from aging and sometimes evade death is the Extra Life (Copy) advantage. Radical procedure. $25,000. LC3. </notes>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Puppet Implant (TL9)</name>
 					<reference>UT218</reference>
 					<notes>This may count as the Involuntary form of Duty (p. B133) if someone else holds the access codes. Radical procedure (TL9), or major proce- dure (TL10-12). $45,000. LC2.</notes>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="3" open="no" type="meta trait">
+			<advantage_container version="4" open="no" type="meta trait">
 				<name>Cybernetic uplift</name>
 				<reference>UT218</reference>
-				<advantage_container version="3" open="yes" type="meta trait">
+				<advantage_container version="4" open="yes" type="meta trait">
 					<name>Enhanced Voicebox (TL9)</name>
 					<reference>UT218</reference>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Finger Paws (TL9)</name>
 					<reference>UT218</reference>
 					<notes>Two major operations (minor at TL11-12). $10,000. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Decreased Basic Move</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -4462,7 +4564,7 @@
 							<amount per_level="yes">-1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Bad Grip</name>
 						<type>Physical</type>
 						<levels>1</levels>
@@ -4478,7 +4580,7 @@
 							</advantage_prereq>
 						</prereq_list>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Foot Manipulators (2 arms)</name>
 						<type>Physical</type>
 						<base_points>-6</base_points>
@@ -4495,11 +4597,11 @@
 							<percentage>40</percentage>
 						</cost_reduction>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>No Fine Manipulators</name>
 						<type>Physical</type>
 						<base_points>-30</base_points>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mitigator</name>
 							<cost type="percentage">-70</cost>
 							<affects>total</affects>
@@ -4517,21 +4619,21 @@
 							<percentage>40</percentage>
 						</cost_reduction>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>This replaces No Fine Manipulators [-30]</name>
 						<type>Physical</type>
 					</advantage>
 				</advantage_container>
-				<advantage_container version="3" open="no" type="meta trait">
+				<advantage_container version="4" open="no" type="meta trait">
 					<name>Neural Uplift (TL9)</name>
 					<reference>UT218</reference>
 					<notes>Radical procedure (major at TL10-12). Reduce difficulty of the procedure by one step (e.g., major to minor) if performed on an animal with a racial IQ 1-3. $5,000 &#215; average racial IQ before the cybernetic uplift operation. LC3.</notes>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Increased Intelligence</name>
 						<type>Mental</type>
 						<levels>1</levels>
 						<points_per_level>20</points_per_level>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Temporary Disadvantage, Electrical</name>
 							<cost type="percentage">-20</cost>
 							<affects>total</affects>
@@ -4546,98 +4648,98 @@
 							<amount per_level="yes">1</amount>
 						</attribute_bonus>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>This replaces Wild Animal or Domestic Animal [-30]</name>
 						<type>Physical</type>
 					</advantage>
-					<advantage version="3">
+					<advantage version="4">
 						<name>Stress Atavism</name>
 						<type>Mental, Exotic</type>
 						<cr>12</cr>
-						<modifier version="1">
+						<modifier version="2">
 							<name>Mild</name>
+							<reference>B156</reference>
 							<cost type="points">-10</cost>
 							<affects>total</affects>
-							<reference>B156</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Moderate</name>
+							<reference>B156</reference>
 							<cost type="points">-15</cost>
 							<affects>total</affects>
-							<reference>B156</reference>
 						</modifier>
-						<modifier version="1" enabled="no">
+						<modifier version="2" enabled="no">
 							<name>Severe</name>
+							<reference>B156</reference>
 							<cost type="points">-20</cost>
 							<affects>total</affects>
-							<reference>B156</reference>
 						</modifier>
 						<reference>B156</reference>
 						<categories>
 							<category>Disadvantage</category>
 						</categories>
 					</advantage>
-					<advantage_container version="3" open="no">
+					<advantage_container version="4" open="no">
 						<name>Chose one from:</name>
-						<advantage_container version="3" open="no" type="meta trait">
+						<advantage_container version="4" open="no" type="meta trait">
 							<name>Meta-Trait: Wild Animal</name>
-							<modifier version="1">
+							<modifier version="2">
 								<name>Mitigator</name>
+								<reference>B112</reference>
 								<cost type="percentage">-70</cost>
 								<affects>total</affects>
-								<reference>B112</reference>
 							</modifier>
 							<reference>B263</reference>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Bestial</name>
 								<type>Mental, Exotic</type>
 								<base_points>-10</base_points>
 								<reference>B124</reference>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Cannot Speak</name>
 								<type>Physical</type>
 								<base_points>-15</base_points>
 								<reference>B125</reference>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Hidebound</name>
 								<type>Physical</type>
 								<base_points>-5</base_points>
 								<reference>B138</reference>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Taboo Trait (Fixed IQ)</name>
 								<type>Physical</type>
 								<reference>B263</reference>
 							</advantage>
 						</advantage_container>
-						<advantage_container version="3" open="no" type="meta trait">
+						<advantage_container version="4" open="no" type="meta trait">
 							<name>Meta-Trait: Domestic Animal</name>
-							<modifier version="1">
+							<modifier version="2">
 								<name>Mitigator</name>
+								<reference>B112</reference>
 								<cost type="percentage">-70</cost>
 								<affects>total</affects>
-								<reference>B112</reference>
 							</modifier>
 							<reference>B263</reference>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Cannot Speak</name>
 								<type>Physical</type>
 								<base_points>-15</base_points>
 								<reference>B125</reference>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Hidebound</name>
 								<type>Physical</type>
 								<base_points>-5</base_points>
 								<reference>B138</reference>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Taboo Trait (Fixed IQ)</name>
 								<type>Mental</type>
 							</advantage>
-							<advantage version="3">
+							<advantage version="4">
 								<name>Valuable Property</name>
 								<type>Social</type>
 								<base_points>-10</base_points>
@@ -4647,11 +4749,11 @@
 					</advantage_container>
 				</advantage_container>
 			</advantage_container>
-			<advantage_container version="3" open="no" type="meta trait">
+			<advantage_container version="4" open="no" type="meta trait">
 				<name>Total cyborg brain transplants</name>
 				<reference>UT219</reference>
 				<notes>Radical operation (major at TL10-12). $40,000 for the brain case, plus the cost of robot body. The cyborg&#8217;s body is functional after the operation.</notes>
-				<advantage version="3">
+				<advantage version="4">
 					<name>The character takes on the robot body&#8217;s racial template with the Cyborg lens; his brain is the same. See Mind Transfer (p. B296).</name>
 					<type>Physical</type>
 				</advantage>
