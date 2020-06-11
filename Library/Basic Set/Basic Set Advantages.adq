@@ -11181,65 +11181,6 @@
 		</categories>
 	</advantage>
 	<advantage version="4">
-		<name>Natural Attacks - Feet</name>
-		<type>Physical</type>
-		<melee_weapon>
-			<damage type="cr" st="thr"/>
-			<usage>Kick</usage>
-			<reach>C,1</reach>
-			<parry>No</parry>
-			<default>
-				<type>DX</type>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Brawling</name>
-				<modifier>-2</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>-2</modifier>
-			</default>
-		</melee_weapon>
-		<categories>
-			<category>Natural Attacks</category>
-		</categories>
-	</advantage>
-	<advantage version="4">
-		<name>Natural Attacks - Hands</name>
-		<type>Physical</type>
-		<melee_weapon>
-			<damage type="cr" st="thr" base="-1"/>
-			<usage>Punch</usage>
-			<reach>C</reach>
-			<parry>0</parry>
-			<default>
-				<type>DX</type>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Boxing</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Brawling</name>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Karate</name>
-				<modifier>0</modifier>
-			</default>
-		</melee_weapon>
-		<categories>
-			<category>Natural Attacks</category>
-		</categories>
-	</advantage>
-	<advantage version="4">
 		<name>Necrophobia (Death)</name>
 		<type>Mental</type>
 		<base_points>-10</base_points>
@@ -17497,30 +17438,6 @@
 		<reference>B150</reference>
 		<categories>
 			<category>Disadvantage</category>
-		</categories>
-	</advantage>
-	<advantage version="4">
-		<name>Teeth, Blunt</name>
-		<type>Physical, Exotic</type>
-		<melee_weapon>
-			<damage type="cr" st="thr" base="-1"/>
-			<usage>Bite</usage>
-			<reach>C</reach>
-			<parry>No</parry>
-			<block>No</block>
-			<default>
-				<type>DX</type>
-				<modifier>0</modifier>
-			</default>
-			<default>
-				<type>Skill</type>
-				<name>Brawling</name>
-				<modifier>0</modifier>
-			</default>
-		</melee_weapon>
-		<reference>B91</reference>
-		<categories>
-			<category>Advantage</category>
 		</categories>
 	</advantage>
 	<advantage version="4">
