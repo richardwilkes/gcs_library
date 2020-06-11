@@ -22,7 +22,7 @@ notes</block_layout>
 		<use_simple_metric_conversions>true</use_simple_metric_conversions>
 	</settings>
 	<created_date>May 26, 2014, 12:00 AM</created_date>
-	<modified_date>Jun 3, 2020, 4:43 PM</modified_date>
+	<modified_date>Jun 10, 2020, 8:22 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Iotha</name>
@@ -964,65 +964,6 @@ z+D89pLaB5J/mxzrRbHLQpfWSj00jDNb8wpkqmM+Lxn+sr42h42NVdVJ7N51cmcHZmqZjFLZm8rB
 				</categories>
 			</advantage>
 			<advantage version="4">
-				<name>Natural Attacks - Feet</name>
-				<type>Physical</type>
-				<melee_weapon>
-					<damage type="cr" st="thr"/>
-					<usage>Kick</usage>
-					<reach>C,1</reach>
-					<parry>No</parry>
-					<default>
-						<type>DX</type>
-						<modifier>-2</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>-2</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Karate</name>
-						<modifier>-2</modifier>
-					</default>
-				</melee_weapon>
-				<categories>
-					<category>Natural Attacks</category>
-				</categories>
-			</advantage>
-			<advantage version="4">
-				<name>Natural Attacks - Hands</name>
-				<type>Physical</type>
-				<melee_weapon>
-					<damage type="cr" st="thr" base="-1"/>
-					<usage>Punch</usage>
-					<reach>C</reach>
-					<parry>0</parry>
-					<default>
-						<type>DX</type>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Boxing</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Karate</name>
-						<modifier>0</modifier>
-					</default>
-				</melee_weapon>
-				<categories>
-					<category>Natural Attacks</category>
-				</categories>
-			</advantage>
-			<advantage version="4">
 				<name>Talent (Outdoorsman)</name>
 				<type>Mental</type>
 				<levels>1</levels>
@@ -1136,6 +1077,72 @@ z+D89pLaB5J/mxzrRbHLQpfWSj00jDNb8wpkqmM+Lxn+sr42h42NVdVJ7N51cmcHZmqZjFLZm8rB
 				<categories>
 					<category>Advantage</category>
 				</categories>
+			</advantage>
+			<advantage version="4">
+				<name>Natural Attacks</name>
+				<type>Physical</type>
+				<melee_weapon>
+					<damage type="cr" st="thr" base="-1"/>
+					<usage>Bite</usage>
+					<reach>C</reach>
+					<parry>No</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage type="cr" st="thr" base="-1"/>
+					<usage>Punch</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage type="cr" st="thr"/>
+					<usage>Kick</usage>
+					<reach>C,1</reach>
+					<parry>No</parry>
+					<default>
+						<type>DX</type>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>-2</modifier>
+					</default>
+				</melee_weapon>
+				<reference>B271</reference>
 			</advantage>
 		</advantage_container>
 		<advantage_container version="4" open="yes">

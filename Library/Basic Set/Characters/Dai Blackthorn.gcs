@@ -22,7 +22,7 @@ notes</block_layout>
 		<use_simple_metric_conversions>true</use_simple_metric_conversions>
 	</settings>
 	<created_date>Dec 29, 2007, 12:00 AM</created_date>
-	<modified_date>Jun 3, 2020, 4:43 PM</modified_date>
+	<modified_date>Jun 10, 2020, 8:21 PM</modified_date>
 	<profile>
 		<player_name>NPC</player_name>
 		<name>Dai Blackthorn</name>
@@ -1196,65 +1196,6 @@ T2Ztp335tfPit7XaT/7ufH7k+u5/Aw/Z5nTwMpZwAAAAAElFTkSuQmCC
 				</categories>
 			</advantage>
 			<advantage version="4">
-				<name>Natural Attacks - Feet</name>
-				<type>Physical</type>
-				<melee_weapon>
-					<damage type="cr" st="thr"/>
-					<usage>Kick</usage>
-					<reach>C,1</reach>
-					<parry>No</parry>
-					<default>
-						<type>DX</type>
-						<modifier>-2</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>-2</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Karate</name>
-						<modifier>-2</modifier>
-					</default>
-				</melee_weapon>
-				<categories>
-					<category>Natural Attacks</category>
-				</categories>
-			</advantage>
-			<advantage version="4">
-				<name>Natural Attacks - Hands</name>
-				<type>Physical</type>
-				<melee_weapon>
-					<damage type="cr" st="thr" base="-1"/>
-					<usage>Punch</usage>
-					<reach>C</reach>
-					<parry>0</parry>
-					<default>
-						<type>DX</type>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Boxing</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Brawling</name>
-						<modifier>0</modifier>
-					</default>
-					<default>
-						<type>Skill</type>
-						<name>Karate</name>
-						<modifier>0</modifier>
-					</default>
-				</melee_weapon>
-				<categories>
-					<category>Natural Attacks</category>
-				</categories>
-			</advantage>
-			<advantage version="4">
 				<name>Perfect Balance</name>
 				<type>Physical</type>
 				<base_points>15</base_points>
@@ -1283,6 +1224,72 @@ T2Ztp335tfPit7XaT/7ufH7k+u5/Aw/Z5nTwMpZwAAAAAElFTkSuQmCC
 					<category compare="is anything"></category>
 					<amount>1</amount>
 				</skill_bonus>
+			</advantage>
+			<advantage version="4">
+				<name>Natural Attacks</name>
+				<type>Physical</type>
+				<melee_weapon>
+					<damage type="cr" st="thr" base="-1"/>
+					<usage>Bite</usage>
+					<reach>C</reach>
+					<parry>No</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage type="cr" st="thr" base="-1"/>
+					<usage>Punch</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<melee_weapon>
+					<damage type="cr" st="thr"/>
+					<usage>Kick</usage>
+					<reach>C,1</reach>
+					<parry>No</parry>
+					<default>
+						<type>DX</type>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>-2</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>-2</modifier>
+					</default>
+				</melee_weapon>
+				<reference>B271</reference>
 			</advantage>
 		</advantage_container>
 		<advantage_container version="4" open="yes">
