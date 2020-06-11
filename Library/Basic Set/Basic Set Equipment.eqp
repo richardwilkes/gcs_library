@@ -71,7 +71,9 @@
 		</dr_bonus>
 		<weapon_bonus>
 			<selection_type>weapons with name</selection_type>
-			<name compare="is">Natural Attacks - Feet</name>
+			<name compare="is anything"></name>
+			<specialization compare="is">Kick</specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</weapon_bonus>
 	</equipment>
@@ -92,7 +94,9 @@
 		</dr_bonus>
 		<weapon_bonus>
 			<selection_type>weapons with name</selection_type>
-			<name compare="is">Natural Attacks - Feet</name>
+			<name compare="is anything"></name>
+			<specialization compare="is">Kick</specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</weapon_bonus>
 	</equipment>
@@ -113,7 +117,9 @@
 		</dr_bonus>
 		<weapon_bonus>
 			<selection_type>weapons with name</selection_type>
-			<name compare="is">Natural Attacks - Feet</name>
+			<name compare="is anything"></name>
+			<specialization compare="is">Kick</specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</weapon_bonus>
 	</equipment>
@@ -2744,6 +2750,7 @@
 		<value>80</value>
 		<weight>3 lb</weight>
 		<reference>B284</reference>
+		<notes>Flexible; Concealable</notes>
 		<categories>
 			<category>Footwear</category>
 		</categories>
@@ -2753,7 +2760,9 @@
 		</dr_bonus>
 		<weapon_bonus>
 			<selection_type>weapons with name</selection_type>
-			<name compare="is">Natural Attacks - Feet</name>
+			<name compare="is anything"></name>
+			<specialization compare="is">Kick</specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</weapon_bonus>
 	</equipment>
@@ -13302,7 +13311,9 @@
 		</dr_bonus>
 		<weapon_bonus>
 			<selection_type>weapons with name</selection_type>
-			<name compare="is">Natural Attacks - Feet</name>
+			<name compare="is anything"></name>
+			<specialization compare="is">Kick</specialization>
+			<category compare="is anything"></category>
 			<amount>1</amount>
 		</weapon_bonus>
 	</equipment>
@@ -14041,6 +14052,7 @@
 		<value>25</value>
 		<weight>0.5 lb</weight>
 		<reference>B284</reference>
+		<notes>Flexible; Concealable; Gives DR 1 to underside of foot</notes>
 		<categories>
 			<category>Footwear</category>
 		</categories>
@@ -14502,6 +14514,7 @@
 		<value>40</value>
 		<weight>2 lb</weight>
 		<reference>B284</reference>
+		<notes>Flexible; Concealable</notes>
 		<categories>
 			<category>Footwear</category>
 		</categories>
@@ -16224,6 +16237,13 @@
 			<location>feet</location>
 			<amount>4</amount>
 		</dr_bonus>
+		<weapon_bonus>
+			<selection_type>weapons with name</selection_type>
+			<name compare="is anything"></name>
+			<specialization compare="is">Kick</specialization>
+			<category compare="is anything"></category>
+			<amount>1</amount>
+		</weapon_bonus>
 	</equipment>
 	<equipment version="7">
 		<quantity>1</quantity>
